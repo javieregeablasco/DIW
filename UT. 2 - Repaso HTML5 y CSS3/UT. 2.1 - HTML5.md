@@ -111,15 +111,15 @@ La estructura de las etiquetas HTML es la siguiente:
 <img src="./img/html tag.png">  
 
 ### 4.2 - Etiquetas y significado
-
+**rehacer con https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/**
 ### 4.2.1 - Estructura del documento
 - `<!DOCTYPE`>: Tipo de documento.	
 - `<html>`: Define el documento HTML.
 - `<head>`: Contiene metadatos y enlaces a scripts o estilos.
-- `<title>`: Define el título de la página (visible en la pestaña del navegador).
 - `<body>`: Contiene el contenido visible de la página.
 
 ### 4.2.2 - Metadatos y enlaces**
+- `<title>`: Define el título de la página (visible en la pestaña del navegador). 
 - `<meta>`: Proporciona metadatos sobre el documento (charset, viewport, autor, etc.).
 - `<link>`: Vincula archivos externos, como hojas de estilo CSS.
 - `<style>`: Contiene reglas CSS internas.
@@ -232,5 +232,9 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<math>`: Contenido matemático.
 - `<template>`: Plantilla reutilizable en JavaScript.
 - `<slot>`: Contenedor en Web Components.
+
+Enlaces para la descripción detallada de las etiquetas:
+<a href="https://developer.mozilla.org/es/docs/Web/HTML/Element">**MDN** Web Docs</a>   
+<a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/">**Tabla periódica de etiquetas HTML**</a>  
 
 ## 5. Tarea RA2 CE1
