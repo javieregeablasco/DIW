@@ -70,7 +70,7 @@ Palabras clave: DAW, DIW
 # 3. DOM 
 
 ## 3.1 - Introducción
-El <a href="https://es.wikipedia.org/wiki/Document_Object_Model">**DOM** (Document Object Model)</a> es una interfaz de programación para documentos HTML (y XML). Representa la estructura del documento como un árbol de nodos, donde cada nodo es un objeto que representa una parte del documento.  
+El <a href="https://es.wikipedia.org/wiki/Document_Object_Model">**DOM** (Document Object Model)</a> representa la estructura del documento HTML como un árbol de nodos (etiquetas), donde cada nodo es un objeto que representa una parte del documento.  
 El DOM permite a los desarrolladores interactuar **con el contenido, la estructura y el estilo** de una página web de manera dinámica mediante lenguajes como JavaScript.
 
 
@@ -83,7 +83,7 @@ El DOM organiza los elementos de un documento HTML en una estructura de árbol, 
 - **Atributos**: Son nodos que representan los atributos de los elementos (por ejemplo, `class`, `id`, `src`).
 - **Texto**: Son nodos que representan el contenido textual dentro de los elementos.
 
-Ejemplo de un documento HTML y su representación en el DOM:
+
 
 ```html
 <!DOCTYPE html>
