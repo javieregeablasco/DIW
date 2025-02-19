@@ -112,9 +112,6 @@ La estructura de las etiquetas HTML es la siguiente:
 
 ### 4.2 - Etiquetas y significado
 
-https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
-
-
 ### 4.2.1 - Estructura del documento
 - `<html>`: Define el documento HTML.
 - `<head>`: Contiene metadatos y enlaces a scripts o estilos.
