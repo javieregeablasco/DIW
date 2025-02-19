@@ -86,31 +86,26 @@ El DOM organiza los elementos de un documento HTML en una estructura de árbol, 
 <img src="./img/dom-tree.png">
 
 **Importante**  
-El uso correcto de elementos HTML para representar el propósito y la jerarquía del contenido de la página web.  
-En HTML5, el uso correcto de las etiquetas (semánticas) es especialmente importante porque introduce nuevos elementos que permiten describir mejor la estructura y el significado del contenido. 
+El uso correcto de los elementos HTML para representar el propósito y la jerarquía del contenido de la página web es especialmente importante por los siguientes motivos:  
 
-Accesibilidad:
-
+- **Accesibilidad:**  
 Los elementos semánticos ayudan a los lectores de pantalla y otras tecnologías de asistencia a entender la estructura y el propósito del contenido.
 
-Por ejemplo, un lector de pantalla puede identificar un <nav> como un menú de navegación y un <main> como el contenido principal.
-
-SEO (Optimización para motores de búsqueda):
-
+- **SEO (Search Engine Optimization)**  
 Los motores de búsqueda como Google utilizan la semántica del DOM para entender el contenido de una página y clasificarla en los resultados de búsqueda.
 
-El uso correcto de elementos como <header>, <main>, <article> y <footer> mejora la indexación del contenido.
-
-Mantenibilidad del código:
-
+- **Mantenibilidad del código:**  
 Un código semántico es más fácil de leer y entender, lo que facilita la colaboración entre desarrolladores y el mantenimiento del proyecto.
 
-Consistencia y claridad:
-
+- **Consistencia y claridad:**  
 La semántica ayuda a definir claramente la estructura del documento, lo que reduce la ambigüedad y mejora la organización del contenido.
 
+## 4. Etiquetas semanticas en HTML5
 
-### **1. Estructura del documento**
+### 4.1 - Etiquetas HTML
+
+
+### 4.2 - Estructura del documento
 - `<html>`: Define el documento HTML.
 - `<head>`: Contiene metadatos y enlaces a scripts o estilos.
 - `<title>`: Define el título de la página (visible en la pestaña del navegador).
