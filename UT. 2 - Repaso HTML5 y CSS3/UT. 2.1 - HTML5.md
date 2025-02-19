@@ -5,6 +5,188 @@ Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
+# 1. Introducción
+ HTML5 es la **quinta versión** del lenguaje de marcado HTML (HyperText Markup Language), que se utiliza para estructurar y presentar contenido en la web. 
+ Fue oficialmente lanzado en octubre de 2014 por el <a href="https://www.w3.org/"> World Wide Web Consortium (W3C) </a> y representa una evolución significativa respecto a sus predecesores, introduciendo nuevas características y mejoras que facilitan la creación de aplicaciones web más dinámicas e interactivas.
+
+# 2. Características principales de HTML5:
+
+- Nuevos elementos semánticos. 
+
+- Soporte nultimedia nativo. 
+
+- Canvas. El elemento `<canvas>` permite la renderización dinámica de gráficos 2D y 3D. 
+
+- Almacenamiento local. HTML5 ofrece APIs como `localStorage` y `sessionStorage` para almacenar datos en el lado del cliente (de forma persistente o solo durante la sesión).
+  
+- Formularios mejorados. 
+
+- Geolocalización.
+
+- Compatibilidad con dispositivos móviles. 
+
+- ... 
+
+**Ejemplo básico de una estructura HTML5**
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página HTML5</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi página web</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h2>Artículo 1</h2>
+            <p>Este es el contenido del primer artículo.</p>
+        </article>
+        <article>
+            <h2>Artículo 2</h2>
+            <p>Este es el contenido del segundo artículo.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>
+```
+
+# 3. DOM 
+
+## 3.1 - Introducción
+El <a href="https://es.wikipedia.org/wiki/Document_Object_Model">**DOM** (Document Object Model)</a> es una interfaz de programación para documentos HTML (y XML). Representa la estructura del documento como un árbol de nodos, donde cada nodo es un objeto que representa una parte del documento.  
+El DOM permite a los desarrolladores interactuar **con el contenido, la estructura y el estilo** de una página web de manera dinámica mediante lenguajes como JavaScript.
+
+
+
+## 3.2 - Estructura del DOM
+
+El DOM organiza los elementos de un documento HTML en una estructura de árbol, donde:
+
+- **Document**: Es el nodo raíz que representa todo el documento HTML.
+- **Elementos**: Son nodos que representan las etiquetas HTML (por ejemplo, `<div>`, `<p>`, `<h1>`).
+- **Atributos**: Son nodos que representan los atributos de los elementos (por ejemplo, `class`, `id`, `src`).
+- **Texto**: Son nodos que representan el contenido textual dentro de los elementos.
+
+Ejemplo de un documento HTML y su representación en el DOM:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo DOM</title>
+</head>
+<body>
+    <h1 id="titulo">Hola, DOM!</h1>
+    <p class="parrafo">Este es un ejemplo de cómo funciona el DOM.</p>
+</body>
+</html>
+```
+
+El DOM correspondiente a este HTML sería:
+
+```
+Document
+├── html
+│   ├── head
+│   │   └── title
+│   │       └── "Ejemplo DOM"
+│   └── body
+│       ├── h1 (id="titulo")
+│       │   └── "Hola, DOM!"
+│       └── p (class="parrafo")
+│           └── "Este es un ejemplo de cómo funciona el DOM."
+```
+
+---
+
+### ¿Para qué sirve el DOM?
+
+El DOM permite interactuar con una página web de manera dinámica. Algunos usos comunes incluyen:
+
+1. **Manipulación de contenido**:
+   - Cambiar el texto o HTML de un elemento.
+   - Agregar, eliminar o modificar elementos en la página.
+
+   Ejemplo:
+   ```javascript
+   document.getElementById("titulo").textContent = "¡Hola, Mundo!";
+   ```
+
+2. **Manipulación de estilos**:
+   - Cambiar los estilos CSS de los elementos.
+
+   Ejemplo:
+   ```javascript
+   document.querySelector(".parrafo").style.color = "blue";
+   ```
+
+3. **Escuchar eventos**:
+   - Responder a interacciones del usuario, como clics, movimientos del mouse o pulsaciones de teclas.
+
+   Ejemplo:
+   ```javascript
+   document.getElementById("titulo").addEventListener("click", function() {
+       alert("Hiciste clic en el título!");
+   });
+   ```
+
+4. **Acceso a datos**:
+   - Obtener valores de formularios, atributos de elementos, etc.
+
+   Ejemplo:
+   ```javascript
+   let texto = document.querySelector(".parrafo").textContent;
+   console.log(texto);
+   ```
+
+---
+
+### ¿Cómo se accede al DOM?
+
+El DOM se accede principalmente a través del objeto global `document` en JavaScript. Este objeto proporciona métodos para seleccionar y manipular elementos:
+
+- **Selección de elementos**:
+  - `document.getElementById("id")`: Selecciona un elemento por su `id`.
+  - `document.querySelector(".clase")`: Selecciona el primer elemento que coincida con un selector CSS.
+  - `document.querySelectorAll("p")`: Selecciona todos los elementos que coincidan con un selector CSS.
+
+- **Manipulación de elementos**:
+  - `element.textContent`: Obtiene o establece el texto de un elemento.
+  - `element.innerHTML`: Obtiene o establece el contenido HTML de un elemento.
+  - `element.setAttribute("atributo", "valor")`: Establece un atributo en un elemento.
+
+---
+
+### Relación entre HTML5 y el DOM
+
+HTML5 introduce nuevos elementos y APIs que amplían las capacidades del DOM. Por ejemplo:
+
+- **Nuevos elementos semánticos**: `<header>`, `<footer>`, `<article>`, `<section>`, etc., pueden ser manipulados a través del DOM.
+- **APIs modernas**: HTML5 incluye APIs como `localStorage`, `geolocation`, `canvas`, etc., que interactúan con el DOM para crear aplicaciones web más dinámicas.
+
+--
+
+
+
+
+
 ### **1. Estructura del documento**
 - `<html>`: Define el documento HTML.
 - `<head>`: Contiene metadatos y enlaces a scripts o estilos.
