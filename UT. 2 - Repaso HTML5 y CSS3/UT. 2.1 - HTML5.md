@@ -103,6 +103,12 @@ La semántica ayuda a definir claramente la estructura del documento, lo que red
 ## 4. Etiquetas semanticas en HTML5
 
 ### 4.1 - Estructura de una etiqueta HTML
+La estructura de las etiquetas HTML es la siguiente:
+- Etiqueta de apertura y atributo(s)
+- Contenido
+- Etiqueta de cierre  
+
+<img src="./img/html tag.png">
 
 
 
