@@ -74,7 +74,6 @@ El <a href="https://es.wikipedia.org/wiki/Document_Object_Model">**DOM** (Docume
 El DOM permite a los desarrolladores interactuar **con el contenido, la estructura y el estilo** de una página web de manera dinámica mediante lenguajes como JavaScript.
 
 
-
 ## 3.2 - Estructura del DOM
 
 El DOM organiza los elementos de un documento HTML en una estructura de árbol, donde:
