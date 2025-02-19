@@ -1,0 +1,144 @@
+//Cargar modulos
+@use 'sass:math';
+@use "sass:color";
+
+////////////////////////////////
+/// 2 Estilos de los botones ///
+////////////////////////////////
+ 
+//Declaracion de variables
+//Declaracion de colores 
+//Color de fondo de los botones
+$color-primary: #007bff;
+$color-secondary: #7fb0db;
+$color-success: #28a745;
+$color-danger: #dc3545;
+$color-warning: #ffc107;
+$color-accepted: #053b17;
+$color-error: #ff0000;
+$color-info: #17a2b8;
+$color-light: #f8f9fa;
+$color-dark: #727e8a;
+$color-link: #007bff; 
+
+//Color de la sombra de los botones
+$color-shadow: #888;
+
+//Radio para redondear los botones
+$border-radius: 0.4rem;
+
+//Mapa del que cogeremos los nombres para interpolarlos y los valores de los colores
+$btn-colors: (
+  "primary": $color-primary,
+  "secondary": $color-secondary,
+  "success": $color-success, 
+  "danger": $color-danger, 
+  "warning": $color-warning,
+  "error": $color-error,
+  "info": $color-info,
+  "light": $color-light,
+  "dark": $color-dark,
+  "link": $color-link
+);
+
+//////////////////////////////////
+/// 2.1 Elemento botón general ///
+/// //////////////////////////////
+.btn {
+ // respuesta aquí // 
+}
+
+/////////////////////////////////////////
+/// 2.2 Elemento botón al hacer click ///
+/////////////////////////////////////////
+
+// respuesta aquí // 
+
+//////////////////////////
+/// 3 Estilos de tabla ///
+//////////////////////////
+
+//Estilos generales para la tabla
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+//Colores para los columnas
+$color-col-pares: #cccccc;
+$color-col-impares: #888888;
+
+//////////////////////////////////////////////
+/// 3.2 Programar la función colum-color() ///
+//////////////////////////////////////////////
+
+// respuesta aquí /
+
+//Establecer los limites del iterador
+$inicio: 1;
+$fin: 4;
+
+//Bucle que se encarga de asignar colores en funcion
+//del indice de cada coluna
+@for $num from $inicio through $fin {
+  tbody tr td:nth-child(#{$num}) {
+    background-color: colum-color($num);
+  }
+}
+
+////////////////////////////////////////
+/// 4 Estilos de sistema de columnas ///
+////////////////////////////////////////
+ 
+//Sistema de maquetación
+//Padre de cada fila
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+//Tamaño y borde para distinguirlos
+.row > * {
+  border: 1px solid black;
+  height: 150px;
+}
+
+//Número máximo de elementos 
+$num_elementos: 8;
+
+//Función que devuelve la anchura correspondiente al elemento
+@function anchura_col($i) {
+  @return calc((100/$num_elementos)*$i); 
+}
+
+//////////////////////////////////////////////////////////////////
+/// 4.2 Crear las clases para definir el ancho de las columnas ///
+//////////////////////////////////////////////////////////////////
+
+// respuesta aquí //
+
+body { 
+  background-color: rgb(180, 186, 192);
+  width: 75vw;
+}
+
+tr {
+  background-color: #17a2b8;
+}
+
+p{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border:solid 4px green;
+  height: 35px;
+  width: fit-content;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+}

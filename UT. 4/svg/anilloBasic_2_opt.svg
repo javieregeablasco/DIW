@@ -1,0 +1,15 @@
+<svg width="400" height="400" version="1.1" viewBox="0 0 106 106" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>SpinnerBasic</title>
+ <defs>
+  <clipPath id="clipPath3">
+   <ellipse cx="53" cy="53" rx="38" ry="38" d="M 91.281246,52.916664 A 38.364582,38.364578 0 0 1 52.916664,91.281242 38.364582,38.364578 0 0 1 14.552082,52.916664 38.364582,38.364578 0 0 1 52.916664,14.552086 38.364582,38.364578 0 0 1 91.281246,52.916664 Z" display="none" fill="#fff"/>
+   <path class="powerclip" d="m-4-4h113v113h-113zm95 57a38 38 0 0 0-38-38 38 38 0 0 0-38 38 38 38 0 0 0 38 38 38 38 0 0 0 38-38z" fill="#fff"/>
+  </clipPath>
+  <linearGradient id="linearGradient9" x1="3" x2="103" y1="53" y2="53" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#666" offset="0"/>
+   <stop stop-color="#282828" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m105 53a52 52 0 0 1-52 52 52 52 0 0 1-52-52 52 52 0 0 1 52-52 52 52 0 0 1 52 52z" clip-path="url(#clipPath3)" fill="#e6e6e6"/>
+ <path d="m53 3a5 5 0 0 0-0.8 0.06 50 50 0 0 0-46 31 50 50 0 0 0 11 55 50 50 0 0 0 55 11 50 50 0 0 0 31-46 5 5 0 0 0 0.06-0.8 5 5 0 0 0-5-5 5 5 0 0 0-5 5 40 40 0 0 1-40 40 40 40 0 0 1-40-40 40 40 0 0 1 40-40 5 5 0 0 0 5-5 5 5 0 0 0-5-5z" fill="url(#linearGradient9)"/>
+</svg>
