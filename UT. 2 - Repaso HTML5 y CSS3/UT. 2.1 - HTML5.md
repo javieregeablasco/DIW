@@ -215,24 +215,26 @@ https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 - `<details>`: Elemento desplegable.
 - `<dialog>`: Cuadro de diálogo/modal.
 
-### **9. Elementos multimedia**
+### 4.2.9 - Elementos multimedia
 - `<audio>`: Contenedor de audio.
 - `<video>`: Contenedor de video.
 - `<source>`: Fuente alternativa para `<audio>` y `<video>`.
 - `<track>`: Subtítulos o pistas de texto para `<video>`.
 
-### **10. Contenido interactivo y embebido**
+### 4.2.10 - Contenido interactivo y embebido**
 - `<iframe>`: Incrustar otra página.
 - `<embed>`: Incrustar contenido externo.
 - `<object>`: Contenedor de objetos embebidos.
 - `<param>`: Parámetro de un `<object>`.
 
-### **11. Elementos de scripting y datos**
+### 4.2.11 - Elementos de scripting y datos
 - `<canvas>`: Dibujo gráfico con JavaScript.
 - `<svg>`: Gráficos vectoriales escalables.
 - `<math>`: Contenido matemático.
 - `<template>`: Plantilla reutilizable en JavaScript.
 - `<slot>`: Contenedor en Web Components.
-- `<shadow>` (obsoleto): Sombra en Web Components.
 
----
+
+**revisar con este enlace**
+https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
+
