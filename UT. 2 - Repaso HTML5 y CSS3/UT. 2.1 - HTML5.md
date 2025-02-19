@@ -83,107 +83,31 @@ El DOM organiza los elementos de un documento HTML en una estructura de árbol, 
 - **Atributos**: Son nodos que representan los atributos de los elementos (por ejemplo, `class`, `id`, `src`).
 - **Texto**: Son nodos que representan el contenido textual dentro de los elementos.
 
+<img src="./img/dom-tree.png">
 
+**Importante**  
+El uso correcto de elementos HTML para representar el propósito y la jerarquía del contenido de la página web.  
+En HTML5, el uso correcto de las etiquetas (semánticas) es especialmente importante porque introduce nuevos elementos que permiten describir mejor la estructura y el significado del contenido. 
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ejemplo DOM</title>
-</head>
-<body>
-    <h1 id="titulo">Hola, DOM!</h1>
-    <p class="parrafo">Este es un ejemplo de cómo funciona el DOM.</p>
-</body>
-</html>
-```
+Accesibilidad:
 
-El DOM correspondiente a este HTML sería:
+Los elementos semánticos ayudan a los lectores de pantalla y otras tecnologías de asistencia a entender la estructura y el propósito del contenido.
 
-```
-Document
-├── html
-│   ├── head
-│   │   └── title
-│   │       └── "Ejemplo DOM"
-│   └── body
-│       ├── h1 (id="titulo")
-│       │   └── "Hola, DOM!"
-│       └── p (class="parrafo")
-│           └── "Este es un ejemplo de cómo funciona el DOM."
-```
+Por ejemplo, un lector de pantalla puede identificar un <nav> como un menú de navegación y un <main> como el contenido principal.
 
----
+SEO (Optimización para motores de búsqueda):
 
-### ¿Para qué sirve el DOM?
+Los motores de búsqueda como Google utilizan la semántica del DOM para entender el contenido de una página y clasificarla en los resultados de búsqueda.
 
-El DOM permite interactuar con una página web de manera dinámica. Algunos usos comunes incluyen:
+El uso correcto de elementos como <header>, <main>, <article> y <footer> mejora la indexación del contenido.
 
-1. **Manipulación de contenido**:
-   - Cambiar el texto o HTML de un elemento.
-   - Agregar, eliminar o modificar elementos en la página.
+Mantenibilidad del código:
 
-   Ejemplo:
-   ```javascript
-   document.getElementById("titulo").textContent = "¡Hola, Mundo!";
-   ```
+Un código semántico es más fácil de leer y entender, lo que facilita la colaboración entre desarrolladores y el mantenimiento del proyecto.
 
-2. **Manipulación de estilos**:
-   - Cambiar los estilos CSS de los elementos.
+Consistencia y claridad:
 
-   Ejemplo:
-   ```javascript
-   document.querySelector(".parrafo").style.color = "blue";
-   ```
-
-3. **Escuchar eventos**:
-   - Responder a interacciones del usuario, como clics, movimientos del mouse o pulsaciones de teclas.
-
-   Ejemplo:
-   ```javascript
-   document.getElementById("titulo").addEventListener("click", function() {
-       alert("Hiciste clic en el título!");
-   });
-   ```
-
-4. **Acceso a datos**:
-   - Obtener valores de formularios, atributos de elementos, etc.
-
-   Ejemplo:
-   ```javascript
-   let texto = document.querySelector(".parrafo").textContent;
-   console.log(texto);
-   ```
-
----
-
-### ¿Cómo se accede al DOM?
-
-El DOM se accede principalmente a través del objeto global `document` en JavaScript. Este objeto proporciona métodos para seleccionar y manipular elementos:
-
-- **Selección de elementos**:
-  - `document.getElementById("id")`: Selecciona un elemento por su `id`.
-  - `document.querySelector(".clase")`: Selecciona el primer elemento que coincida con un selector CSS.
-  - `document.querySelectorAll("p")`: Selecciona todos los elementos que coincidan con un selector CSS.
-
-- **Manipulación de elementos**:
-  - `element.textContent`: Obtiene o establece el texto de un elemento.
-  - `element.innerHTML`: Obtiene o establece el contenido HTML de un elemento.
-  - `element.setAttribute("atributo", "valor")`: Establece un atributo en un elemento.
-
----
-
-### Relación entre HTML5 y el DOM
-
-HTML5 introduce nuevos elementos y APIs que amplían las capacidades del DOM. Por ejemplo:
-
-- **Nuevos elementos semánticos**: `<header>`, `<footer>`, `<article>`, `<section>`, etc., pueden ser manipulados a través del DOM.
-- **APIs modernas**: HTML5 incluye APIs como `localStorage`, `geolocation`, `canvas`, etc., que interactúan con el DOM para crear aplicaciones web más dinámicas.
-
---
-
-
-
+La semántica ayuda a definir claramente la estructura del documento, lo que reduce la ambigüedad y mejora la organización del contenido.
 
 
 ### **1. Estructura del documento**
