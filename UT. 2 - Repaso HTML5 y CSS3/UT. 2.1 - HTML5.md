@@ -232,3 +232,5 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<math>`: Contenido matemático.
 - `<template>`: Plantilla reutilizable en JavaScript.
 - `<slot>`: Contenedor en Web Components.
+
+## 5. Tarea RA2 CE1
