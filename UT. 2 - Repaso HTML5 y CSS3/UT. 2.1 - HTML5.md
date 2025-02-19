@@ -201,10 +201,10 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<meter>`: Indicador de medición.
 
 ### 4.2.8 - Contenedores y estructura de la página
-- **`<div>`: División genérica de contenido.
+- `<div>`: División genérica de contenido.
 - **`<span>`: Contenedor en línea sin semántica.
-- **`<header>`: Cabecera de una sección o documento.
-- **`<nav>`: Navegación.
+- `<header>`: Cabecera de una sección o documento.
+- `<nav>`: Navegación.
 - **`<section>`: Sección de contenido.
 - **`<article>`: Artículo independiente.
 - **`<aside>`: Contenido relacionado (barra lateral).
