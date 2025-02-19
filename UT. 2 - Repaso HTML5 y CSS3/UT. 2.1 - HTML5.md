@@ -108,24 +108,20 @@ La estructura de las etiquetas HTML es la siguiente:
 - Contenido
 - Etiqueta de cierre  
 
-<img src="./img/html tag.png">
+<img src="./img/html tag.png">  
 
-
-
-
-
-
+### 4.2 - Etiquetas y significado
 
 https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 
 
-### 4.2 - Estructura del documento
+### 4.2.1 - Estructura del documento
 - `<html>`: Define el documento HTML.
 - `<head>`: Contiene metadatos y enlaces a scripts o estilos.
 - `<title>`: Define el título de la página (visible en la pestaña del navegador).
 - `<body>`: Contiene el contenido visible de la página.
 
-### **2. Metadatos y enlaces**
+### 4.2.2 - Metadatos y enlaces**
 - `<meta>`: Proporciona metadatos sobre el documento (charset, viewport, autor, etc.).
 - `<link>`: Vincula archivos externos, como hojas de estilo CSS.
 - `<style>`: Contiene reglas CSS internas.
@@ -133,7 +129,7 @@ https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 - `<noscript>`: Define contenido alternativo si JavaScript está deshabilitado.
 - `<base>`: Define la URL base para los enlaces relativos en el documento.
 
-### **3. Texto y contenido**
+### 4.2.3 - Texto y contenido**
 - `<h1>` a `<h6>`: Encabezados de distintos niveles.
 - `<p>`: Párrafo de texto.
 - `<hr>`: Línea horizontal.
@@ -159,7 +155,7 @@ https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 - `<samp>`: Salida de programa.
 - `<var>`: Variable en programación.
 
-### **4. Listas**
+### 4.2.4 - Listas
 - `<ul>`: Lista desordenada.
 - `<ol>`: Lista ordenada.
 - `<li>`: Elemento de una lista.
@@ -167,7 +163,7 @@ https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 - `<dt>`: Término de la definición.
 - `<dd>`: Descripción de un término.
 
-### **5. Enlaces e imágenes**
+### 4.2.5 - Enlaces e imágenes
 - `<a>`: Enlace a otra página o recurso.
 - `<img>`: Imagen.
 - `<figure>`: Contenedor para elementos gráficos.
@@ -177,7 +173,7 @@ https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 - `<picture>`: Contenedor para imágenes con diferentes fuentes.
 - `<source>`: Fuente alternativa para `<picture>` y `<video>`.
 
-### **6. Tablas**
+### 4.2.6 - Tablas
 - `<table>`: Tabla.
 - `<caption>`: Título de la tabla.
 - `<thead>`: Encabezado de la tabla.
@@ -189,7 +185,7 @@ https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 - `<colgroup>`: Grupo de columnas.
 - `<col>`: Define propiedades de una columna.
 
-### **7. Formularios e inputs**
+### 4.2.7 - Formularios e inputs
 - `<form>`: Define un formulario.
 - `<input>`: Campo de entrada de datos.
 - `<textarea>`: Área de texto.
@@ -205,7 +201,7 @@ https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 - `<progress>`: Barra de progreso.
 - `<meter>`: Indicador de medición.
 
-### **8. Contenedores y estructura de la página**
+### 4.2.8 - Contenedores y estructura de la página
 - `<div>`: División genérica de contenido.
 - `<span>`: Contenedor en línea sin semántica.
 - `<header>`: Cabecera de una sección o documento.
