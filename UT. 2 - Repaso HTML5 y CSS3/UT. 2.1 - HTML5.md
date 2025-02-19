@@ -113,6 +113,7 @@ La estructura de las etiquetas HTML es la siguiente:
 ### 4.2 - Etiquetas y significado
 
 ### 4.2.1 - Estructura del documento
+- `<!DOCTYPE`>: Tipo de documento (versión de html empleada)	
 - `<html>`: Define el documento HTML.
 - `<head>`: Contiene metadatos y enlaces a scripts o estilos.
 - `<title>`: Define el título de la página (visible en la pestaña del navegador).
@@ -237,9 +238,6 @@ https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 
 
 
-
-Preámbulo y elemento raíz
-Etiqueta	Descripción	Atributos principales
 !DOCTYPE	tipo de documento (versión de html empleada)	
 html	engloba todo el documento	lang
 <!-- ... -->	comentario (sólo visible en el código fuente)	
