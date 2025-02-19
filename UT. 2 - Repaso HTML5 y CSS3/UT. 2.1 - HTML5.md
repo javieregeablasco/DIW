@@ -102,7 +102,15 @@ La semántica ayuda a definir claramente la estructura del documento, lo que red
 
 ## 4. Etiquetas semanticas en HTML5
 
-### 4.1 - Etiquetas HTML
+### 4.1 - Estructura de una etiqueta HTML
+
+
+
+
+
+
+
+https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
 
 
 ### 4.2 - Estructura del documento
