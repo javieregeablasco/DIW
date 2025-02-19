@@ -128,19 +128,20 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<base>`: Define la URL base para los enlaces relativos en el documento.
 
 ### 4.2.3 - Texto y contenido**
-- `<h1>` a `<h6>`: Encabezados de distintos niveles.
-- `<p>`: Párrafo de texto.
+- **`<h1>` a `<h6>`: Encabezados de distintos niveles.
+- `<hgroup>`: Grupo de encabezados	
+- **`<p>`: Párrafo de texto.
 - `<hr>`: Línea horizontal.
 - `<br>`: Salto de línea.
-- `<blockquote>`: Cita en bloque.
+- **`<blockquote>`: Cita en bloque.
 - `<cite>`: Referencia a la fuente de una cita.
 - `<q>`: Cita corta en línea.
 - `<abbr>`: Abreviatura con una descripción.
-- `<address>`: Información de contacto.
+- **`<address>`: Información de contacto.
 - `<b>`: Texto en negrita (sin semántica).
 - `<strong>`: Texto en negrita con importancia semántica.
 - `<i>`: Texto en cursiva (sin semántica).
-- `<em>`: Texto enfatizado (cursiva con semántica).
+- **`<em>`: Texto enfatizado (cursiva con semántica).
 - `<small>`: Texto en tamaño reducido.
 - `<mark>`: Texto resaltado.
 - `<del>`: Texto tachado.
@@ -148,7 +149,7 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<sub>`: Subíndice.
 - `<sup>`: Superíndice.
 - `<code>`: Fragmento de código.
-- `<pre>`: Texto preformateado.
+- **`<pre>`: Texto preformateado.
 - `<kbd>`: Entrada de teclado.
 - `<samp>`: Salida de programa.
 - `<var>`: Variable en programación.
@@ -162,7 +163,7 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<dd>`: Descripción de un término.
 
 ### 4.2.5 - Enlaces e imágenes
-- `<a>`: Enlace a otra página o recurso.
+- **`<a>`: Enlace a otra página o recurso.
 - `<img>`: Imagen.
 - `<figure>`: Contenedor para elementos gráficos.
 - `<figcaption>`: Leyenda de un `<figure>`.
@@ -200,14 +201,14 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<meter>`: Indicador de medición.
 
 ### 4.2.8 - Contenedores y estructura de la página
-- `<div>`: División genérica de contenido.
-- `<span>`: Contenedor en línea sin semántica.
-- `<header>`: Cabecera de una sección o documento.
-- `<nav>`: Navegación.
-- `<section>`: Sección de contenido.
-- `<article>`: Artículo independiente.
-- `<aside>`: Contenido relacionado (barra lateral).
-- `<footer>`: Pie de página.
+- **`<div>`: División genérica de contenido.
+- **`<span>`: Contenedor en línea sin semántica.
+- **`<header>`: Cabecera de una sección o documento.
+- **`<nav>`: Navegación.
+- **`<section>`: Sección de contenido.
+- **`<article>`: Artículo independiente.
+- **`<aside>`: Contenido relacionado (barra lateral).
+- **`<footer>`: Pie de página.
 - `<main>`: Contenido principal.
 - `<summary>`: Resumen de un `<details>`.
 - `<details>`: Elemento desplegable.
@@ -231,136 +232,3 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<math>`: Contenido matemático.
 - `<template>`: Plantilla reutilizable en JavaScript.
 - `<slot>`: Contenedor en Web Components.
-
-
-**revisar con este enlace**
-https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html#
-
-
-	
-base	URI base para direcciones relativas	href, target
-link	enlace a otros archivos (hoja de estilo, etc.)	href, rel, media, type, title
-meta	metainformación sobre el documento	name, content, charset
-style	hoja de estilo incluida en el documento	type, title
-Secciones
-Etiqueta	Descripción	Atributos principales
-body	delimita el cuerpo del documento	
-article	artículo	
-section	sección	
-nav	navegación	
-aside	lateral	
-h1 a h6	encabezado (de nivel 1 a 6)	
-hgroup	grupo de encabezados	
-header	cabecera	
-footer	pie	
-address	dirección (información sobre el autor)	
-Bloques de contenido
-Etiqueta	Descripción	Atributos principales
-p	párrafo	
-hr	separador	
-div	división	
-blockquote	cita larga (que incluye varios párrafos)	cite
-pre	texto preformateado	
-main	principal	
-figure	ilustración	
-figcaption	pie de ilustración	
-Texto (en línea)
-Etiqueta	Descripción	Atributos principales
-br	salto de línea	
-wbr	posible salto de línea	
-a	hiperenlace	href, target, download, rel, type
-span	contenedor de texto genérico	
-strong	importante	
-em	énfasis	
-sub	subíndice	
-sup	superíndice	
-abbr	abreviatura	title
-b	atención	
-cite	obra	
-data	datos	value
-dfn	definición	title
-kbd	teclado	
-i	tecnicismo	
-mark	resaltado añadido posteriormente, no en el original	
-q	cita	cite
-s	incorrecto	
-small	comentario	
-time	fecha y hora	datetime
-u	sonido inarticulado	
-code	código (de programa de ordenador)	
-samp	salida (de programa de ordenador)	
-var	variable (de programa de ordenador)	
-bdo	dirección de escritura	dir
-bdi	ignorar dirección de escritura	dir
-Modificaciones
-Etiqueta	Descripción	Atributos principales
-ins	texto insertado	cite, datetime
-del	texto borrado	cite, datetime
-Contenido incrustado
-Etiqueta	Descripción	Atributos principales
-picture	imagen múltiple para diferentes resoluciones o densidades	
-img	imagen	alt, src, usemap, ismap, width, height
-iframe	marco incrustado en el documento	src, srcdoc, name, sandbox, width, height
-embed		src, type, width, height
-object	objeto	data, type, width, height
-param	parámetro para <objeto>	name, value
-video		src, poster, preload, autoplay, loop, muted, controls, width, height
-audio		src, preload, autoplay, loop, muted, controls
-source	origen de <img>, <audio> o <video>	src, type
-track		kind, src, srclang, label, default
-map	mapa de imagen	name
-area	área en mapa de imagen	alt, coords, href, hreflang, rel, shape, target, type
-Listas (bloque de contenido)
-Etiqueta	Descripción	Atributos principales
-ol	lista ordenada	reversed, start, type
-ul	lista no ordenada	
-menu	equivale a ul	
-li	elemento de lista (ordenada o no ordenada)	value
-dl	lista de definición	
-dt	término en lista de definición	
-dd	definición en lista de definición	
-Tablas
-Etiqueta	Descripción	Atributos principales
-table	tabla	border
-caption	leyenda de tabla	
-colgroup	grupo de columnas	span
-tbody	cuerpo de tabla (grupo de filas)	
-thead	cabecera de tabla (grupo de filas)	
-tfoot	pie de tabla (grupo de filas)	
-tr	fila	
-td	celda	colspan, rowspan, headers
-th	celda de cabecera	colspan, rowspan, headers, scope, abbr
-col	columna	span
-Formularios
-Etiqueta	Descripción	Atributos principales
-form	formulario	accept-charset, action, autocomplete, enctype, method, target
-label	etiqueta de un control	form, for
-input	control (hay varios tipos)	type (submit, reset, button, text, password, number, search, tel, url, email, date, time, color, range, file, image, hidden, etc.), name, value, checked, selected, width, height, size, maxlength, ...
-button	botón	name, type (submit, reset, button), value, form
-select	caja de lista	name, multiple, size, ...
-datalist		
-optgroup	grupo de opciones en una caja de lista	label
-option	opción de caja de lista	label, selected, value
-textarea	área de texto	name, cols, rows, ...
-output	cálculo	name, for
-progress	barra de progreso	value, max
-meter	indicador	value, min, max, low, high, optimum
-fieldset	grupo de controles	name, disabled
-legend	leyenda de grupo de controles	
-Elementos interactivos
-Etiqueta	Descripción	Atributos principales
-details	desplegable	open, name
-summary	leyenda para <details>	
-dialog	cuadro de diálogo de una aplicación	
-Scripts
-Etiqueta	Descripción	Atributos principales
-script	script	src, type, charset, async, defer
-noscript	contenido a mostrar en navegadores que no admiten <script>	
-template	plantillas utilizables por scripts	
-slot	marcador para componente	
-canvas	zona de dibujo utilizable por script	width, height
-Notación Ruby (texto en línea)
-Etiqueta	Descripción	Atributos principales
-ruby	notación ruby	
-rt	elemento de notación ruby (texto)	
-rp	elemento de notación ruby (paréntesis)
