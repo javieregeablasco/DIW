@@ -130,18 +130,18 @@ La estructura de las etiquetas HTML es la siguiente:
 ### 4.2.3 - Texto y contenido**
 - **`<h1>` a `<h6>`: Encabezados de distintos niveles.
 - `<hgroup>`: Grupo de encabezados	
-- **`<p>`: Párrafo de texto.
+- `<p>`: Párrafo de texto.
 - `<hr>`: Línea horizontal.
 - `<br>`: Salto de línea.
-- **`<blockquote>`: Cita en bloque.
+- `<blockquote>`: Cita en bloque.
 - `<cite>`: Referencia a la fuente de una cita.
 - `<q>`: Cita corta en línea.
 - `<abbr>`: Abreviatura con una descripción.
-- **`<address>`: Información de contacto.
+- `<address>`: Información de contacto.
 - `<b>`: Texto en negrita (sin semántica).
 - `<strong>`: Texto en negrita con importancia semántica.
 - `<i>`: Texto en cursiva (sin semántica).
-- **`<em>`: Texto enfatizado (cursiva con semántica).
+- `<em>`: Texto enfatizado (cursiva con semántica).
 - `<small>`: Texto en tamaño reducido.
 - `<mark>`: Texto resaltado.
 - `<del>`: Texto tachado.
@@ -149,7 +149,7 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<sub>`: Subíndice.
 - `<sup>`: Superíndice.
 - `<code>`: Fragmento de código.
-- **`<pre>`: Texto preformateado.
+- `<pre>`: Texto preformateado.
 - `<kbd>`: Entrada de teclado.
 - `<samp>`: Salida de programa.
 - `<var>`: Variable en programación.
@@ -163,7 +163,7 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<dd>`: Descripción de un término.
 
 ### 4.2.5 - Enlaces e imágenes
-- **`<a>`: Enlace a otra página o recurso.
+- `<a>`: Enlace a otra página o recurso.
 - `<img>`: Imagen.
 - `<figure>`: Contenedor para elementos gráficos.
 - `<figcaption>`: Leyenda de un `<figure>`.
@@ -202,13 +202,13 @@ La estructura de las etiquetas HTML es la siguiente:
 
 ### 4.2.8 - Contenedores y estructura de la página
 - `<div>`: División genérica de contenido.
-- **`<span>`: Contenedor en línea sin semántica.
+- `<span>`: Contenedor en línea sin semántica.
 - `<header>`: Cabecera de una sección o documento.
 - `<nav>`: Navegación.
-- **`<section>`: Sección de contenido.
-- **`<article>`: Artículo independiente.
-- **`<aside>`: Contenido relacionado (barra lateral).
-- **`<footer>`: Pie de página.
+- `<section>`: Sección de contenido.
+- `<article>`: Artículo independiente.
+- `<aside>`: Contenido relacionado (barra lateral).
+- `<footer>`: Pie de página.
 - `<main>`: Contenido principal.
 - `<summary>`: Resumen de un `<details>`.
 - `<details>`: Elemento desplegable.
@@ -233,8 +233,9 @@ La estructura de las etiquetas HTML es la siguiente:
 - `<template>`: Plantilla reutilizable en JavaScript.
 - `<slot>`: Contenedor en Web Components.
 
-Enlaces para la descripción detallada de las etiquetas:
-<a href="https://developer.mozilla.org/es/docs/Web/HTML/Element">**MDN** Web Docs</a>   
-<a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/">**Tabla periódica de etiquetas HTML**</a>  
+# 5. Enlaces de interés
+- <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element">**MDN** Web Docs</a>   
+- <a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/">**Tabla periódica de etiquetas HTML**</a>  
+- <a href="https://lenguajehtml.com/html/cheatsheets/download/?amount=0&cmd=_donations&hosted_button_id=6XU7D2MX6ZJCA&business=joseromanhernandez%40gmail.com&return=https%3A%2F%2Flenguajehtml.com%2Fhtml%2Fcheatsheets%2Fdownload%2F&item_name=HTML5+Cheatsheet+%28Donation%29&currency_code=EUR">**HTML cheatsheet**</a>
 
 ## 5. Tarea RA2 CE1
