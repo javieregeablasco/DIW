@@ -302,7 +302,8 @@ Permiten ajustar la presentación del texto:
 - <a href="https://lenguajehtml.com/html/cheatsheets/download/?amount=0&cmd=_donations&hosted_button_id=6XU7D2MX6ZJCA&business=joseromanhernandez%40gmail.com&return=https%3A%2F%2Flenguajehtml.com%2Fhtml%2Fcheatsheets%2Fdownload%2F&item_name=HTML5+Cheatsheet+%28Donation%29&currency_code=EUR">**HTML cheatsheets**</a>
 
 # 6. Casos prácticos
-## 6.1 - Ejercicio 1. Tablas
+## 6.1 - Ejercicio 1. Listas ordenadas
+
 
 
 # 7. Tarea RA2 CE1
