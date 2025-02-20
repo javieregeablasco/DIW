@@ -248,7 +248,7 @@ Los **símbolos especiales o entidades de caracteres** se utilizan para represen
 Se escriben con un **ampersand (`&`)**, seguido de un **nombre o número de referencia**, y terminan con un **punto y coma (`;`)**.
 
 🔹 **Tipos de símbolos especiales en HTML**
-## :five:.1️⃣ **Símbolos reservados**
+## 5.1 - Símbolos reservados
 Estos caracteres tienen un significado especial en HTML, por lo que deben representarse con entidades para evitar errores:
 - `&lt;` → `<` (Menor que)
 - `&gt;` → `>` (Mayor que)
@@ -256,65 +256,45 @@ Estos caracteres tienen un significado especial en HTML, por lo que deben repres
 - `&quot;` → `"` (Comillas dobles)
 - `&apos;` → `'` (Comillas simples, no funciona en HTML4)
 
-## :five:.2️⃣ **Símbolos de monedas**
-Algunos ejemplos de símbolos monetarios incluyen:
+## 5.2 - Símbolos de monedas
+Ejemplo de símbolos monetarios:
 - `&euro;` → € (Euro)
 - `&dollar;` → $ (Dólar)
 - `&pound;` → £ (Libra esterlina)
 - `&yen;` → ¥ (Yen)
 
-### 3️⃣ **Símbolos matemáticos**
-Para escribir expresiones matemáticas correctamente:
+## 5.3 -  Símbolos matemáticos
+Permiten escribir expresiones matemáticas:
 - `&plusmn;` → ± (Más/menos)
 - `&times;` → × (Multiplicación)
 - `&divide;` → ÷ (División)
 - `&sum;` → ∑ (Suma)
 - `&infin;` → ∞ (Infinito)
 
-### 4️⃣ **Flechas y signos gráficos**
-Estos se usan para indicar direcciones o mejorar la apariencia del contenido:
+## 5.4 - Flechas y signos gráficos
+Se usan para indicar direcciones o mejorar la apariencia del contenido:
 - `&larr;` → ← (Flecha izquierda)
 - `&rarr;` → → (Flecha derecha)
 - `&uarr;` → ↑ (Flecha arriba)
 - `&darr;` → ↓ (Flecha abajo)
 
-### 5️⃣ **Símbolos de copyright y marcas registradas**
-Útiles para información legal:
+## 5.5 - Símbolos de copyright y marcas registradas
 - `&copy;` → © (Copyright)
 - `&reg;` → ® (Marca registrada)
 - `&trade;` → ™ (Marca comercial)
 
-### 6️⃣ **Símbolos de espacios y saltos de línea**
-Para ajustar la presentación del texto:
+## 5.6 - Símbolos de espacios y saltos de línea**
+Permiten ajustar la presentación del texto:
 - `&nbsp;` → Espacio en blanco (No rompe la línea)
 - `&ensp;` → Espacio medio
 - `&emsp;` → Espacio largo
 - `&shy;` → Guion suave (Se muestra si es necesario dividir la palabra)
 
-### 7️⃣ **Otros caracteres útiles**
+## 5.7 - Otros caracteres útiles
 - `&check;` → ✓ (Marca de verificación)
 - `&cross;` → ✗ (Cruz)
 - `&hearts;` → ♥ (Corazón)
 - `&star;` → ★ (Estrella)
-
-## 🔸 **Usando los códigos numéricos**
-Cada carácter especial también tiene un código numérico basado en Unicode. Se usa el formato `&#número;`:
-- `&#60;` → `<` (Menor que, igual que `&lt;`)
-- `&#169;` → © (Copyright, igual que `&copy;`)
-- `&#10084;` → ❤ (Corazón)
-
-### 📌 **¿Cuándo usar entidades en HTML?**
-- Cuando un carácter especial pueda causar conflicto (por ejemplo, `<` y `>` en código HTML).
-- Para caracteres que no están en el teclado.
-- Para garantizar compatibilidad con diferentes navegadores y codificaciones.
-
-¿Quieres una lista más detallada o un caso de uso específico? 🚀
-
-
-ómo podríamos representar en una página web el símbolo <? Lo utilizamos para las etiquetas, y en el momento en que lo pongamos, el navegador va a creer que estamos empezando una etiqueta y no lo mostrará. Al igual que ese símbolo, o su contrario >, existen ciertos símbolos que, cuando los escribimos directamente en el documento, no se representan bien (o directamente, no se representan) en la página, porque el navegador no los reconoce como símbolos imprimibles. En su lugar, debemos escribir un código alternativo.
-
-Aquí vemos un resumen de algunos símbolos útiles:
-
 
 # 6. Enlaces de interés
 - <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element">**MDN** Web Docs</a>   
@@ -322,14 +302,12 @@ Aquí vemos un resumen de algunos símbolos útiles:
 - <a href="https://lenguajehtml.com/html/cheatsheets/download/?amount=0&cmd=_donations&hosted_button_id=6XU7D2MX6ZJCA&business=joseromanhernandez%40gmail.com&return=https%3A%2F%2Flenguajehtml.com%2Fhtml%2Fcheatsheets%2Fdownload%2F&item_name=HTML5+Cheatsheet+%28Donation%29&currency_code=EUR">**HTML cheatsheets**</a>
 
 # 6. Casos prácticos
-## 6.1 - 
+## 6.1 - Ejercicio 1. Tablas
+
 
 # 7. Tarea RA2 CE1
 
-https://nachoiborraies.github.io/htmlcss/md/es/02b
 
-
-Algunos símbolos especiales
 Etiquetas de secciones
 Tablas, enlaces y multimedia
 Formularios
