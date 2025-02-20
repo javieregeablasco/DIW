@@ -242,3 +242,6 @@ La estructura de las etiquetas HTML es la siguiente:
 ## 6.1 - 
 
 # 7. Tarea RA2 CE1
+
+
+https://nachoiborraies.github.io/htmlcss/md/es/02a
