@@ -245,3 +245,13 @@ La estructura de las etiquetas HTML es la siguiente:
 
 
 https://nachoiborraies.github.io/htmlcss/md/es/02a
+https://nachoiborraies.github.io/htmlcss/md/es/02b
+etiquetas en linea
+etiqueteas en bloque
+
+Algunos símbolos especiales
+Etiquetas de secciones
+Tablas, enlaces y multimedia
+Formularios
+Listas
+Conjuntos de campos o fieldsets
