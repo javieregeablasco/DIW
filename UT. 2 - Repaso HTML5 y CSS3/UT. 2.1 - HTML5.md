@@ -384,6 +384,199 @@ Disponemos de, al menos, tres tipos de listas:
 ## 7.1 - Listas ordenadas
 
 
+Aquí tienes el documento extendido:
+
+---
+
+# 7. Listas
+
+Las listas en HTML permiten organizar y presentar información de manera estructurada. Existen tres tipos básicos de listas:
+
+- **Listas ordenadas:** Los elementos tienen un orden específico que se puede mostrar mediante números, letras, números romanos, etc. Son útiles cuando el orden es importante, como en instrucciones, clasificaciones, etc.
+- **Listas no ordenadas:** Los elementos no siguen ningún orden específico. Están representados visualmente por puntos, círculos, cuadrados u otros estilos. Se utilizan cuando el orden no es relevante, como en una lista de compras o una lista de elementos de una categoría.
+- **Listas de definición:** Cada elemento de la lista consta de un término o clave, seguido de una descripción o valor asociado. Este tipo de lista se usa principalmente para definir conceptos o vocabulario.
+
+## 7.1 - Listas ordenadas
+
+Las listas ordenadas se crean utilizando la etiqueta `<ol>`, y cada elemento de la lista se define dentro de la etiqueta `<li>` (list item). El orden predeterminado de los elementos es numérico, pero es posible personalizarlo con diferentes tipos de numeración. Esto se logra mediante el atributo `type` de la etiqueta `<ol>`, que permite cambiar el estilo de los números.
+
+### **Sintaxis básica de una lista ordenada**
+
+```html
+<ol>
+  <li>Primer elemento</li>
+  <li>Segundo elemento</li>
+  <li>Tercer elemento</li>
+</ol>
+```
+
+### **Personalización del tipo de numeración**
+
+Se puede cambiar el estilo de la numeración usando el atributo `type` en la etiqueta `<ol>`. Los valores comunes son:
+
+- `1`: Números arábigos (1, 2, 3, ...).
+- `A`: Letras mayúsculas (A, B, C, ...).
+- `a`: Letras minúsculas (a, b, c, ...).
+- `I`: Números romanos en mayúsculas (I, II, III, ...).
+- `i`: Números romanos en minúsculas (i, ii, iii, ...).
+
+**Ejemplo de una lista ordenada con numeración personalizada:**
+
+```html
+<ol type="A">
+  <li>Primero</li>
+  <li>Segundo</li>
+  <li>Tercero</li>
+</ol>
+```
+
+Esto mostrará la lista como:
+- A. Primero
+- B. Segundo
+- C. Tercero
+
+### **Listas ordenadas con numeración automática**
+
+Si no se especifica un valor en el atributo `type`, la numeración será automática con números arábigos:
+
+```html
+<ol>
+  <li>Primer elemento</li>
+  <li>Segundo elemento</li>
+  <li>Tercer elemento</li>
+</ol>
+```
+
+La lista se verá así:
+1. Primer elemento
+2. Segundo elemento
+3. Tercer elemento
+
+### **Listas ordenadas con sublistas**
+
+Dentro de una lista ordenada, también es posible crear sublistas, que pueden ser ordenadas o no. Para crear sublistas, simplemente se anidan más etiquetas `<ol>` o `<ul>` dentro de un `<li>`.
+
+**Ejemplo de una lista ordenada con sublistas:**
+
+```html
+<ol>
+  <li>Elementos de la lista principal
+    <ol>
+      <li>Subelemento 1</li>
+      <li>Subelemento 2</li>
+    </ol>
+  </li>
+  <li>Segundo elemento</li>
+</ol>
+```
+
+Esto se verá como:
+1. Elementos de la lista principal
+   1. Subelemento 1
+   2. Subelemento 2
+2. Segundo elemento
+
+### **Atributo `start` en listas ordenadas**
+
+El atributo `start` permite especificar el número de inicio de la lista. Por defecto, las listas ordenadas comienzan en el número 1, pero se puede cambiar este valor.
+
+**Ejemplo con atributo `start`:**
+
+```html
+<ol start="5">
+  <li>Elemento 5</li>
+  <li>Elemento 6</li>
+  <li>Elemento 7</li>
+</ol>
+```
+
+Esto mostrará la lista como:
+5. Elemento 5
+6. Elemento 6
+7. Elemento 7
+
+### **Listas ordenadas y estilos**
+
+Las listas ordenadas también pueden estilizarse con CSS para personalizar su apariencia, como el tipo de numeración, el espacio entre los elementos, el color, etc.
+
+**Ejemplo de lista ordenada con estilo CSS:**
+
+```html
+<ol style="list-style-type: upper-roman; color: blue;">
+  <li>Elemento I</li>
+  <li>Elemento II</li>
+  <li>Elemento III</li>
+</ol>
+```
+
+En este ejemplo, la lista utiliza números romanos en mayúsculas y tiene el texto en color azul.
+
+---
+
+## 7.2 - Listas no ordenadas
+
+Las listas no ordenadas se crean usando la etiqueta `<ul>` (unordered list), y cada ítem dentro de la lista se define con la etiqueta `<li>`. Los elementos de una lista no ordenada se presentan por defecto con un punto, aunque este estilo se puede personalizar mediante CSS.
+
+### **Sintaxis básica de una lista no ordenada**
+
+```html
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+```
+
+### **Personalización de los elementos de las listas no ordenadas**
+
+Mediante CSS, podemos cambiar el tipo de marcador para las listas no ordenadas, utilizando la propiedad `list-style-type`. Algunos de los valores más comunes incluyen:
+
+- `disc`: Puntos (por defecto).
+- `circle`: Círculos vacíos.
+- `square`: Cuadrados.
+- `none`: Sin marcador.
+
+**Ejemplo de lista no ordenada con marcadores personalizados:**
+
+```html
+<ul style="list-style-type: square;">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+```
+
+---
+
+## 7.3 - Listas de definición
+
+Las listas de definición se utilizan para definir términos, conceptos o elementos junto con sus definiciones o explicaciones. Se crean con las etiquetas `<dl>` (definition list), `<dt>` (definition term) y `<dd>` (definition description).
+
+- **`<dl>`**: Define la lista de definiciones.
+- **`<dt>`**: Define un término o concepto.
+- **`<dd>`**: Proporciona la definición o explicación del término.
+
+### **Sintaxis básica de una lista de definición**
+
+```html
+<dl>
+  <dt>HTML</dt>
+  <dd>Lenguaje de marcado utilizado para estructurar páginas web.</dd>
+  <dt>CSS</dt>
+  <dd>Lenguaje de estilo utilizado para diseñar la apariencia de las páginas web.</dd>
+</dl>
+```
+
+Esto se verá como:
+
+- **HTML**: Lenguaje de marcado utilizado para estructurar páginas web.
+- **CSS**: Lenguaje de estilo utilizado para diseñar la apariencia de las páginas web.
+
+---
+
+Con esta extensión, cubrimos los tres tipos básicos de listas en HTML y cómo personalizarlas. ¿Te gustaría que profundice en algún punto específico o agregar más ejemplos? 😊
+
+
 
 # 7. Tarea RA2 CE1
 
