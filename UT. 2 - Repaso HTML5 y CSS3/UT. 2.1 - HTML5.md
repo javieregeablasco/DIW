@@ -467,10 +467,8 @@ El atributo `start` permite especificar el número de inicio de la lista.
 </ol>
 ```
 
-Esto mostrará la lista como:
-5. Elemento 5
-6. Elemento 6
-7. Elemento 7
+Esto mostrará:
+<img src="./img/ol 3.png">
 
 ### **Listas ordenadas y estilos**
 
