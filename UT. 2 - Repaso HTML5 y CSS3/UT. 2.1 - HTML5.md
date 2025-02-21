@@ -280,40 +280,53 @@ Los formularios en HTML permiten a los usuarios ingresar y enviar datos.
 | `<progress>` | Barra de progreso. |
 | `<meter>`    | Indicador de medición. |
 
+### 4.2.9 - Elementos de scripting y datos
+Permiten integrar scripts y manejar datos estructurados dentro de una página web.
+| Etiqueta    | Descripción |  
+|-------------|------------|  
+| `<canvas>`  | Dibujo gráfico con JavaScript. |
+| `<svg>`     | Gráficos vectoriales escalables. |
+| `<math>`    | Contenido matemático. |
+| `<template>`| Plantilla reutilizable en JavaScript. |
+| `<slot>`    | Contenedor en Web Components. |
 
 
-- `<!DOCTYPE`>: Tipo de documento.	
-- `<html>`: Define el documento HTML.
-- `<head>`: Contiene metadatos y enlaces a scripts o estilos.
-- `<body>`: Contiene el contenido visible de la página.
+### 4.2.10 - Elementos básicos de una hoja HTML
 
-### 4.2.2 - Metadatos y enlaces
-- `<title>`: Define el título de la página (visible en la pestaña del navegador). 
-- `<meta>`: Proporciona metadatos sobre el documento (charset, viewport, autor, keywords etc.).
-- `<link>`: Vincula archivos externos, como hojas de estilo CSS.
-- `<style>`: Contiene reglas CSS internas.
-- `<script>`: Contiene o enlaza scripts JavaScript.
-- `<noscript>`: Define contenido alternativo si JavaScript está deshabilitado.
-- `<base>`: Define la URL base para los enlaces relativos en el documento.
+> **Elementos de cabecera de un documento web.**
 
+| Etiqueta     | Descripción |  
+|--------------|------------|  
+| `<!DOCTYPE>` | Tipo de documento.	|
+| `<html>`     | Define el documento HTML. |
+| `<head>`     | Contiene metadatos y enlaces a scripts o estilos. |
+| `<body>`     | Contiene el contenido visible de la página. |
 
+> **Metadatos y enlaces a contenido externo**
 
-
-
-
-
-
-
-
-
+| Etiqueta     | Descripción |  
+|--------------|------------|  
+| `<title>`    | Define el título de la página (visible en la pestaña del navegador). | 
+| `<meta>`     | Proporciona metadatos sobre el documento (charset, viewport, autor, keywords, etc). |
+| `<link>`     | Vincula archivos externos, como hojas de estilo CSS. |
+| `<style>`    | Contiene reglas CSS internas. |
+| `<script>`   | Contiene o enlaza scripts JavaScript. |
+| `<noscript>` | Define contenido alternativo si JavaScript está deshabilitado. |
+| `<base>`     | Define la URL base para los enlaces relativos en el documento. |
 
 
-### 4.2.11 - Elementos de scripting y datos
-- `<canvas>`: Dibujo gráfico con JavaScript.
-- `<svg>`: Gráficos vectoriales escalables.
-- `<math>`: Contenido matemático.
-- `<template>`: Plantilla reutilizable en JavaScript.
-- `<slot>`: Contenedor en Web Components.
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 5. Símbolos especiales
 Los **símbolos especiales o entidades de caracteres** se utilizan para representar caracteres incompatibles con la sintaxis HTML o que no están disponibles en el teclado. 
