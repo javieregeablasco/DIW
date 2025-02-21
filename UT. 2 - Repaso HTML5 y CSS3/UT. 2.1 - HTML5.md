@@ -244,13 +244,11 @@ A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas 
 | `<address>`   | Información de contacto o ubicación. |  
 
 ### 4.3.5 - Etiquetas de tablas
-Las etiquetas semánticas en HTML proporcionan **significado** al contenido de una página web, facilitando su interpretación tanto para los desarrolladores como para los motores de búsqueda y tecnologías de asistencia.  
-A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas semánticas indican **la función específica** del contenido que contienen.
+Las tablas permiten organizar datos en filas y columnas. Se estructuran con varias etiquetas para definir su contenido y formato.
 
 > **Etiquetas de tablas más comunes:**
-| Etiqueta      | Descripción |  
-|---------------|------------|  
-
+| Etiqueta    | Descripción |  
+|-------------|------------|  
 | `<table>`   | Tabla. |
 | `<th>`      | Celda de encabezado. |
 | `<tr>`      | Fila de la tabla. |
@@ -261,6 +259,26 @@ A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas 
 | `<tfoot>`   | Pie de la tabla. |
 | `<colgroup>`| Grupo de columnas. |
 | `<col>`     | Define propiedades de una columna. |
+
+### 4.2.8 - Formularios e inputs
+Los formularios en HTML permiten a los usuarios ingresar y enviar datos.
+
+| Etiqueta     | Descripción |  
+|--------------|------------|  
+| `<form>`     | Define un formulario. |
+| `<input>`    | Campo de entrada de datos. |
+| `<textarea>` | Área de texto. |
+| `<button>`   | Botón interactivo. |
+| `<label>`    | Etiqueta asociada a un campo. |
+| `<fieldset>` | Agrupa elementos de un formulario. |
+| `<legend>`   | Título de un `<fieldset>`. |
+| `<select>`   | Menú desplegable. |
+| `<option>`   | Opción dentro de `<select>`. |
+| `<optgroup>` | Grupo de opciones dentro de `<select>`. |
+| `<datalist>` | Lista de opciones para un `<input>`. |
+| `<output>`   | Resultado de un cálculo. |
+| `<progress>` | Barra de progreso. |
+| `<meter>`    | Indicador de medición. |
 
 
 
@@ -284,21 +302,7 @@ A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas 
 
 
 
-### 4.2.7 - Formularios e inputs
-- `<form>`: Define un formulario.
-- `<input>`: Campo de entrada de datos.
-- `<textarea>`: Área de texto.
-- `<button>`: Botón interactivo.
-- `<label>`: Etiqueta asociada a un campo.
-- `<fieldset>`: Agrupa elementos de un formulario.
-- `<legend>`: Título de un `<fieldset>`.
-- `<select>`: Menú desplegable.
-- `<option>`: Opción dentro de `<select>`.
-- `<optgroup>`: Grupo de opciones dentro de `<select>`.
-- `<datalist>`: Lista de opciones para un `<input>`.
-- `<output>`: Resultado de un cálculo.
-- `<progress>`: Barra de progreso.
-- `<meter>`: Indicador de medición.
+
 
 
 
