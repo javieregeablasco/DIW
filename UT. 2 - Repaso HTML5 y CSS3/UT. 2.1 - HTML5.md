@@ -301,8 +301,13 @@ Permiten ajustar la presentación del texto:
 - <a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/">**Tabla periódica de etiquetas HTML**</a>  
 - <a href="https://lenguajehtml.com/html/cheatsheets/download/?amount=0&cmd=_donations&hosted_button_id=6XU7D2MX6ZJCA&business=joseromanhernandez%40gmail.com&return=https%3A%2F%2Flenguajehtml.com%2Fhtml%2Fcheatsheets%2Fdownload%2F&item_name=HTML5+Cheatsheet+%28Donation%29&currency_code=EUR">**HTML cheatsheets**</a>
 
-# 6. Casos prácticos
-## 6.1 - Ejercicio 1. Listas ordenadas
+# 6. Listas
+Disponemos de, al menos, tres tipos de listas:
+- **Listas ordenadas:** Los elementos tienen un orden, que puede venir dado por números arábigos, letras, números romanos, etc. 
+- **Listas no ordenadas:** Los elementos no muestran ninguna ordenación y vienen identificadas por puntos, cuadrados, etc.
+- **Listas de definición:** Los elementos se representan por una clave y un valor asociado. 
+
+## 6.1 - Listas ordenadas
 
 
 
