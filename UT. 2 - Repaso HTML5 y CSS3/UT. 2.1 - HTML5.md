@@ -429,14 +429,9 @@ Si escribimos el siguiente código:
 </ol>
 ```
 
-Obtendremos el siguiente resultado en pantalla:
+Obtendremos el siguiente resultado en pantalla:  
 
-
-<div style="width:150px; border:2px solid black; padding-left: 5 5 5 5 ">
-  <div>1. Primer elemento</div>
-  <div>2. Segundo elemento</div>
-  <div>3. Tercer elemento</div>
-</div>
+<img src="./img/ol.png">
 
 
 ---
