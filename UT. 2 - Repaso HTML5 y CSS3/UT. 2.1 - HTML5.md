@@ -451,9 +451,10 @@ También es posible crear sublistas (listas anidadas). Para crear sublistas, sim
 </ol>
 ```
 
-Esto se verá como:
-1. Elementos de la lista principal
-   1. Subelemento 1
+En pantalla, veremos: 
+<img src="./img/ol 2.png">
+
+belemento 1
    2. Subelemento 2
 2. Segundo elemento
 
