@@ -100,7 +100,7 @@ Un código semántico es más fácil de leer y entender, lo que facilita la cola
 - **Consistencia y claridad:**  
 La semántica ayuda a definir claramente la estructura del documento, lo que reduce la ambigüedad y mejora la organización del contenido.
 
-# 4. Etiquetas semanticas en HTML5
+# 4. Etiquetas en HTML5
 
 ## 4.1 - Estructura de una etiqueta HTML
 La estructura de las etiquetas HTML es la siguiente:
@@ -110,25 +110,66 @@ La estructura de las etiquetas HTML es la siguiente:
 
 <img src="./img/html tag.png">
 
-En HTML5 existen los elementos inline (en línea) y los elementos block (en bloque). Ambos hacen referencia a cómo se muestran en el navegador.
+Cada etiqueta define un elemento. Estos elementos pueden ser inline (en línea) o block (en bloque).  
+Ambos hacen referencia a cómo se muestra el resultado en el navegador.
 
 ## 4.2 - Elementos en bloque y en línea  
-- Elementos en línea (inline)
-Los elementos inline son elementos cuyo contenido se encuentra en una misma línea. Si no especificamos un salto de línea estos elementos se mostrarán uno seguido del otro **en una misma línea**.
+En HTML, cada etiqueta define un elemento, y estos elementos pueden ser **inline** (en línea) o **block** (en bloque). La diferencia entre ellos radica en cómo se muestran en el navegador:
 
-- Elementos en bloque
-Cada vez que se utiliza un elemento en bloque (block) se hace implicitamente un salto de línea tras renderizarlo en pantalla.  
+1. **Elementos en línea (inline):** Estos elementos no comienzan en una nueva línea y solo ocupan el espacio necesario para su contenido. Ejemplos comunes incluyen `<span>`, `<a>`, `<strong>`, `<em>`, etc.
+
+2. **Elementos en bloque (block):** Estos elementos siempre comienzan en una nueva línea y ocupan todo el ancho disponible de su contenedor. Ejemplos comunes incluyen `<div>`, `<p>`, `<h1>` a `<h6>`, `<ul>`, `<li>`, etc.
+
+Ambos tipos de elementos afectan cómo se muestra el contenido en el navegador, y es importante entender sus diferencias para controlar el diseño y la estructura de una página web.
 
 
-## 4.2 - Etiquetas y significado
+## 4.3 - Etiquetas HTML
 
-### 4.2.1 - Estructura del documento
+### 4.2.1 - Etiquetas de agupación
+Las etiquetas de agrupación son elementos que se utilizan para organizar y estructurar el contenido de una página web.  
+ Estas etiquetas no tienen un significado visual por sí mismas, pero ayudan a los navegadores y a los desarrolladores a entender la relación entre diferentes partes del contenido.
+
+> **Etiquetas de agrupación más comunes:**
+
+| Etiqueta       | Descripción |
+|---------------|------------|
+| `<div>`       | Se utiliza para crear un contenedor genérico que puede agrupar cualquier tipo de contenido. Se utiliza a menudo para aplicar estilos CSS a un grupo de elementos o para manipularlos con JavaScript. |
+| `<p>`         | Define un párrafo de texto. |
+| `<hr>`        | Indica una separación temática del texto. |
+| `<main>`      | Contenedor para englobar la parte principal de la página. |
+| `<ul>`        | Se utiliza para crear una lista no ordenada (con viñetas). |
+| `<ol>`        | Se utiliza para crear una lista ordenada (con números). |
+| `<li>`        | Contiene uno de los ítems de una lista numerada o sin numerar. |
+| `<dl>`        | Se utiliza para crear una lista de definiciones. |
+| `<dt>`        | Establece el término de una definición. |
+| `<dd>`        | Establece la descripción de un término de una definición. |
+| `<pre>`       | Establece un texto preformateado (respetando espacios y saltos de línea). |
+| `<blockquote>`| Agrupa información y características de una cita (autor, fuente, etc...). |
+| `<article>`   | Representa un artículo independiente en un documento, como una publicación de blog o un comentario. |
+| `<aside>`     | Representa contenido relacionado con el contenido principal, pero que podría considerarse independiente, como una barra lateral. |
+| `<nav>`       | Representa una sección de enlaces de navegación. |
+| `<header>`    | Representa la cabecera de un documento o sección. |
+| `<footer>`    | Representa el pie de página de un documento o sección. |
+| `<figure>`    | Agrupa un elemento visual en una figura o ilustración. |
+| `<figcaption>`| Establece una leyenda a una figura o ilustración. |
+
+
+
+
+
+
+
+
+
+
+
+
 - `<!DOCTYPE`>: Tipo de documento.	
 - `<html>`: Define el documento HTML.
 - `<head>`: Contiene metadatos y enlaces a scripts o estilos.
 - `<body>`: Contiene el contenido visible de la página.
 
-### 4.2.2 - Metadatos y enlaces**
+### 4.2.2 - Metadatos y enlaces
 - `<title>`: Define el título de la página (visible en la pestaña del navegador). 
 - `<meta>`: Proporciona metadatos sobre el documento (charset, viewport, autor, keywords etc.).
 - `<link>`: Vincula archivos externos, como hojas de estilo CSS.
@@ -137,7 +178,7 @@ Cada vez que se utiliza un elemento en bloque (block) se hace implicitamente un 
 - `<noscript>`: Define contenido alternativo si JavaScript está deshabilitado.
 - `<base>`: Define la URL base para los enlaces relativos en el documento.
 
-### 4.2.3 - Texto y contenido**
+### 4.2.3 - Texto y contenido
 - **`<h1>` a `<h6>`: Encabezados de distintos niveles.
 - `<hgroup>`: Grupo de encabezados	
 - `<p>`: Párrafo de texto.
