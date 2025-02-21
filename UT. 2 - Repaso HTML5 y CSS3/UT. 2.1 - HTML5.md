@@ -125,7 +125,7 @@ Ambos tipos de elementos afectan cómo se muestra el contenido en el navegador, 
 
 ## 4.3 - Etiquetas HTML
 
-### 4.2.1 - Etiquetas de agupación
+### 4.3.1 - Etiquetas de agupación
 Las etiquetas de agrupación son elementos que se utilizan para organizar y estructurar el contenido de una página web.  
  Estas etiquetas no tienen un significado visual por sí mismas, pero ayudan a los navegadores y a los desarrolladores a entender la relación entre diferentes partes del contenido.
 
@@ -135,9 +135,10 @@ Las etiquetas de agrupación son elementos que se utilizan para organizar y estr
 |---------------|------------|
 | `<div>`       | Se utiliza para crear un contenedor genérico que puede agrupar cualquier tipo de contenido. Se utiliza a menudo para aplicar estilos CSS a un grupo de elementos o para manipularlos con JavaScript. |
 | `<p>`         | Define un párrafo de texto. |
-| `<hr>`        | Indica una separación temática del texto. |
+| `<hr>`        | Línea horizontal. Indica una separación temática del texto. |
 | `<main>`      | Contenedor para englobar la parte principal de la página. |
-| `<ul>`        | Se utiliza para crear una lista no ordenada (con viñetas). |
+| `<ul>`        | Lista no ordenada. |
+
 | `<ol>`        | Se utiliza para crear una lista ordenada (con números). |
 | `<li>`        | Contiene uno de los ítems de una lista numerada o sin numerar. |
 | `<dl>`        | Se utiliza para crear una lista de definiciones. |
@@ -153,9 +154,8 @@ Las etiquetas de agrupación son elementos que se utilizan para organizar y estr
 | `<figure>`    | Agrupa un elemento visual en una figura o ilustración. |
 | `<figcaption>`| Establece una leyenda a una figura o ilustración. |
 
-
-
-
+### 4.3.2 - Etiquetas multimedia
+Las etiquetas multimedia en HTML permiten la inclusión de contenido audiovisual en una página web (imágenes, audio y video).
 
 
 
@@ -181,10 +181,7 @@ Las etiquetas de agrupación son elementos que se utilizan para organizar y estr
 ### 4.2.3 - Texto y contenido
 - **`<h1>` a `<h6>`: Encabezados de distintos niveles.
 - `<hgroup>`: Grupo de encabezados	
-- `<p>`: Párrafo de texto.
-- `<hr>`: Línea horizontal.
 - `<br>`: Salto de línea.
-- `<blockquote>`: Cita en bloque.
 - `<cite>`: Referencia a la fuente de una cita.
 - `<q>`: Cita corta en línea.
 - `<abbr>`: Abreviatura con una descripción.
@@ -206,7 +203,6 @@ Las etiquetas de agrupación son elementos que se utilizan para organizar y estr
 - `<var>`: Variable en programación.
 
 ### 4.2.4 - Listas
-- `<ul>`: Lista desordenada.
 - `<ol>`: Lista ordenada.
 - `<li>`: Elemento de una lista.
 - `<dl>`: Lista de definiciones.
