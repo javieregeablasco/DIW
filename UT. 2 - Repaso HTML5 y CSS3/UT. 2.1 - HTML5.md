@@ -131,7 +131,7 @@ Las etiquetas de agrupación son elementos que se utilizan para organizar y estr
 
 > **Etiquetas de agrupación más comunes:**
 
-| Etiqueta       | Descripción |
+| Etiqueta      | Descripción |
 |---------------|------------|
 | `<div>`       | Se utiliza para crear un contenedor genérico que puede agrupar cualquier tipo de contenido. Se utiliza a menudo para aplicar estilos CSS a un grupo de elementos o para manipularlos con JavaScript. |
 | `<span>`      | Contenedor en línea sin semántica. |
@@ -172,7 +172,7 @@ Los enlaces y las etiquetas multimedia aportan interactividad a la página web y
 
 > **Etiquetas de enlaces y multimedia más comunes:**
 
-| Etiqueta       | Descripción |
+| Etiqueta      | Descripción |
 |---------------|------------|
 | `<a>`         | Enlace a otra página o recurso. |
 | `<img>`       | Imagen. |
@@ -195,6 +195,8 @@ Los enlaces y las etiquetas multimedia aportan interactividad a la página web y
 Las etiquetas de texto permiten estructurar, dar formato y resaltar contenido y se dividen en varias categorías según su función.
 
 > **Etiquetas de texto más comunes:**
+| Etiqueta       | Descripción |
+|----------------|------------|
 | `<h1>` a `<h6>`| Encabezados de distintos niveles. |
 | `<hgroup>`     | Grupo de encabezados. |	
 | `<br>`         | Salto de línea. |
@@ -228,18 +230,37 @@ Las etiquetas semánticas en HTML proporcionan **significado** al contenido de u
 A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas semánticas indican **la función específica** del contenido que contienen.
 
 > **Etiquetas semanticas más comunes:**
-| `<article>`   |	Entidad importante del documento (artículos, mensajes en foros, comentarios...)	
-| `<nav>`       |	Apartado o zona de navegación (enlaces de secciones, categorías, etc...)	
-| `<header>`    |	Cabecera visual de la página (logotipo, título, etc...). No confundir con | `head>` |.	
-| `<footer>`    |	Pie de página del documento (o de una sección concreta).	
-| `<h1 ... h6>` |	Encabezados o titulares con niveles de importancia del 1 al 6.
-| `<section>`   |	Sección o grupo temático de contenido. No usar sólo para dar estilo.
-| `<main>`      |	Agrupación del contenido principal del documento actual.	
-| `<aside>`     |	Agrupación de contenido no relacionado con el tema principal del documento.
-| `<search>`    |	Agrupación del contenido relacionado con búsquedas.	
-| `<address>`   |	Agrupación con la información de contacto o ubicación del autor del artículo o documento.
+| Etiqueta      | Descripción |  
+|---------------|------------|  
+| `<article>`   | Contenido independiente (artículos, comentarios, foros). |  
+| `<nav>`       | Zona de navegación (enlaces a secciones o categorías). |  
+| `<header>`    | Cabecera con logotipo, título, etc. No confundir con `<head>`. |  
+| `<footer>`    | Pie de página del documento o sección. |  
+| `<h1 ... h6>` | Encabezados de nivel 1 al 6. |  
+| `<section>`   | Sección temática de contenido. |  
+| `<main>`      | Contenido principal del documento. |  
+| `<aside>`     | Contenido relacionado pero secundario. |  
+| `<search>`    | Área de búsqueda en la página. |  
+| `<address>`   | Información de contacto o ubicación. |  
 
+### 4.3.5 - Etiquetas de tablas
+Las etiquetas semánticas en HTML proporcionan **significado** al contenido de una página web, facilitando su interpretación tanto para los desarrolladores como para los motores de búsqueda y tecnologías de asistencia.  
+A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas semánticas indican **la función específica** del contenido que contienen.
 
+> **Etiquetas de tablas más comunes:**
+| Etiqueta      | Descripción |  
+|---------------|------------|  
+
+| `<table>`   | Tabla. |
+| `<th>`      | Celda de encabezado. |
+| `<tr>`      | Fila de la tabla. |
+| `<td>`      | Celda de datos. |
+| `<caption>` | Título de la tabla. |
+| `<thead>`   | Encabezado de la tabla. |
+| `<tbody>`   | Cuerpo de la tabla. |
+| `<tfoot>`   | Pie de la tabla. |
+| `<colgroup>`| Grupo de columnas. |
+| `<col>`     | Define propiedades de una columna. |
 
 
 
@@ -261,17 +282,7 @@ A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas 
 
 
 
-### 4.2.6 - Tablas
-- `<table>`: Tabla.
-- `<caption>`: Título de la tabla.
-- `<thead>`: Encabezado de la tabla.
-- `<tbody>`: Cuerpo de la tabla.
-- `<tfoot>`: Pie de la tabla.
-- `<tr>`: Fila de la tabla.
-- `<th>`: Celda de encabezado.
-- `<td>`: Celda de datos.
-- `<colgroup>`: Grupo de columnas.
-- `<col>`: Define propiedades de una columna.
+
 
 ### 4.2.7 - Formularios e inputs
 - `<form>`: Define un formulario.
