@@ -125,7 +125,7 @@ Ambos tipos de elementos afectan cómo se muestra el contenido en el navegador, 
 
 ## 4.3 - Etiquetas HTML
 
-### 4.3.1 - Etiquetas de agupación
+### 4.3.1 - Etiquetas contenedores y estructura de una página
 Las etiquetas de agrupación son elementos que se utilizan para organizar y estructurar el contenido de una página web.  
  Estas etiquetas no tienen un significado visual por sí mismas, pero ayudan a los navegadores y a los desarrolladores a entender la relación entre diferentes partes del contenido.
 
@@ -134,6 +134,7 @@ Las etiquetas de agrupación son elementos que se utilizan para organizar y estr
 | Etiqueta       | Descripción |
 |---------------|------------|
 | `<div>`       | Se utiliza para crear un contenedor genérico que puede agrupar cualquier tipo de contenido. Se utiliza a menudo para aplicar estilos CSS a un grupo de elementos o para manipularlos con JavaScript. |
+| `<span>`      | Contenedor en línea sin semántica. |
 | `<p>`         | Define un párrafo de texto. |
 | `<hr>`        | Línea horizontal. Indica una separación temática del texto. |
 | `<main>`      | Contenedor para englobar la parte principal de la página. |
@@ -152,33 +153,51 @@ Las etiquetas de agrupación son elementos que se utilizan para organizar y estr
 | `<footer>`    | Representa el pie de página de un documento o sección. |
 | `<figure>`    | Agrupa un elemento visual en una figura o ilustración. |
 | `<figcaption>`| Establece una leyenda a una figura o ilustración. |
+| `<header>`    | Cabecera de una sección o documento. |
+| `<nav>`       | Navegación. |
+| `<section>`   | Sección de contenido. |
+| `<article>`   | Artículo independiente. |
+| `<aside>`     | Contenido relacionado (barra lateral). |
+| `<footer>`    | Pie de página. |
+| `<main>`      | Contenido principal. |
+| `<summary>`   | Resumen de un `<details>`. |
+| `<details>`   | Elemento desplegable. |
+| `<dialog>`    | Cuadro de diálogo/modal. |
 
-### 4.3.2 - Etiquetas multimedia
-Las etiquetas multimedia en HTML permiten la inclusión de contenido audiovisual en una página web (imágenes, audio y video).
 
 
+### 4.3.2 - Enlaces y etiquetas multimedia  
+Los enlaces y las etiquetas multimedia aportan interactividad a la página web y son elementos fundamentales en cualquier diseño.  
+- **Los enlaces** permiten conectar diferentes páginas web, navegar dentro de una misma página o descargar archivos.  
+- **Las etiquetas multimedia** permiten la inclusión de contenido audiovisual, como imágenes, audio y video, enriqueciendo la experiencia del usuario.  
 
+> **Etiquetas de enlaces y multimedia más comunes:**
 
+| Etiqueta       | Descripción |
+|---------------|------------|
+| `<a>`| Enlace a otra página o recurso. |
+| `<img>`| Imagen. |
+| `<figure>`| Contenedor para elementos gráficos. |
+| `<figcaption>`| Leyenda de un `<figure>`. |
+| `<map>`| Mapa de imagen. |
+| `<area>`| Definición de áreas en un mapa de imagen. |
+| `<picture>`| Contenedor para imágenes con diferentes fuentes. |
+| `<source>`| Fuente alternativa para `<picture>` y `<video>`. |
+| `<iframe>`| 
+| `<audio>`| Contenedor de audio. |
+| `<video>`| Contenedor de video. |
+| `<source>`| Fuente alternativa para `<audio>` y `<video>`. |
+| `<track>`| Subtítulos o pistas de texto para `<video>`. |
+| `<iframe>`| Incrustar otra página. |
+| `<embed>`| Incrustar contenido externo. |
+| `<object>`| Contenedor de objetos embebidos. |
+| `<param>`| Parámetro de un `<object>`. |
 
+### 4.3.3 - Etiquetas de texto  
+Las etiquetas de texto permiten estructurar, dar formato y resaltar contenido y se dividen en varias categorías según su función.
 
-
-
-- `<!DOCTYPE`>: Tipo de documento.	
-- `<html>`: Define el documento HTML.
-- `<head>`: Contiene metadatos y enlaces a scripts o estilos.
-- `<body>`: Contiene el contenido visible de la página.
-
-### 4.2.2 - Metadatos y enlaces
-- `<title>`: Define el título de la página (visible en la pestaña del navegador). 
-- `<meta>`: Proporciona metadatos sobre el documento (charset, viewport, autor, keywords etc.).
-- `<link>`: Vincula archivos externos, como hojas de estilo CSS.
-- `<style>`: Contiene reglas CSS internas.
-- `<script>`: Contiene o enlaza scripts JavaScript.
-- `<noscript>`: Define contenido alternativo si JavaScript está deshabilitado.
-- `<base>`: Define la URL base para los enlaces relativos en el documento.
-
-### 4.2.3 - Texto y contenido
-- **`<h1>` a `<h6>`: Encabezados de distintos niveles.
+> **Etiquetas de texto más comunes:**
+- `<h1>` a `<h6>`: Encabezados de distintos niveles.
 - `<hgroup>`: Grupo de encabezados	
 - `<br>`: Salto de línea.
 - `<cite>`: Referencia a la fuente de una cita.
@@ -201,19 +220,24 @@ Las etiquetas multimedia en HTML permiten la inclusión de contenido audiovisual
 - `<samp>`: Salida de programa.
 - `<var>`: Variable en programación.
 
-### 4.2.4 - Listas
- 
-- `<dd>`: Descripción de un término.
 
-### 4.2.5 - Enlaces e imágenes
-- `<a>`: Enlace a otra página o recurso.
-- `<img>`: Imagen.
-- `<figure>`: Contenedor para elementos gráficos.
-- `<figcaption>`: Leyenda de un `<figure>`.
-- `<map>`: Mapa de imagen.
-- `<area>`: Definición de áreas en un mapa de imagen.
-- `<picture>`: Contenedor para imágenes con diferentes fuentes.
-- `<source>`: Fuente alternativa para `<picture>` y `<video>`.
+- `<!DOCTYPE`>: Tipo de documento.	
+- `<html>`: Define el documento HTML.
+- `<head>`: Contiene metadatos y enlaces a scripts o estilos.
+- `<body>`: Contiene el contenido visible de la página.
+
+### 4.2.2 - Metadatos y enlaces
+- `<title>`: Define el título de la página (visible en la pestaña del navegador). 
+- `<meta>`: Proporciona metadatos sobre el documento (charset, viewport, autor, keywords etc.).
+- `<link>`: Vincula archivos externos, como hojas de estilo CSS.
+- `<style>`: Contiene reglas CSS internas.
+- `<script>`: Contiene o enlaza scripts JavaScript.
+- `<noscript>`: Define contenido alternativo si JavaScript está deshabilitado.
+- `<base>`: Define la URL base para los enlaces relativos en el documento.
+
+
+
+
 
 ### 4.2.6 - Tablas
 - `<table>`: Tabla.
@@ -243,31 +267,9 @@ Las etiquetas multimedia en HTML permiten la inclusión de contenido audiovisual
 - `<progress>`: Barra de progreso.
 - `<meter>`: Indicador de medición.
 
-### 4.2.8 - Contenedores y estructura de la página
-- `<div>`: División genérica de contenido.
-- `<span>`: Contenedor en línea sin semántica.
-- `<header>`: Cabecera de una sección o documento.
-- `<nav>`: Navegación.
-- `<section>`: Sección de contenido.
-- `<article>`: Artículo independiente.
-- `<aside>`: Contenido relacionado (barra lateral).
-- `<footer>`: Pie de página.
-- `<main>`: Contenido principal.
-- `<summary>`: Resumen de un `<details>`.
-- `<details>`: Elemento desplegable.
-- `<dialog>`: Cuadro de diálogo/modal.
 
-### 4.2.9 - Elementos multimedia
-- `<audio>`: Contenedor de audio.
-- `<video>`: Contenedor de video.
-- `<source>`: Fuente alternativa para `<audio>` y `<video>`.
-- `<track>`: Subtítulos o pistas de texto para `<video>`.
 
-### 4.2.10 - Contenido interactivo y embebido**
-- `<iframe>`: Incrustar otra página.
-- `<embed>`: Incrustar contenido externo.
-- `<object>`: Contenedor de objetos embebidos.
-- `<param>`: Parámetro de un `<object>`.
+
 
 ### 4.2.11 - Elementos de scripting y datos
 - `<canvas>`: Dibujo gráfico con JavaScript.
