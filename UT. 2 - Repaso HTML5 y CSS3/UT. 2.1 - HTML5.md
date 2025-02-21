@@ -400,7 +400,7 @@ El orden predeterminado de los elementos es numérico, pero es posible personali
 </ol>
 ```
 
-> **Personalización del tipo de numeración**
+> **Personalización del tipo de numeración**  
 Se puede cambiar el estilo de la numeración usando el atributo `type` en la etiqueta `<ol>`: 
 
 - `1`: Números arábigos (1, 2, 3, ...).
