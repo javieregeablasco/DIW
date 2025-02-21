@@ -249,6 +249,7 @@ A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas 
 Las tablas permiten organizar datos en filas y columnas. Se estructuran con varias etiquetas para definir su contenido y formato.
 
 > **Etiquetas de tablas más comunes:**
+
 | Etiqueta    | Descripción |  
 |-------------|------------|  
 | `<table>`   | Tabla. |
@@ -429,7 +430,7 @@ Si escribimos el siguiente código:
 ```
 
 Obtendremos el siguiente resultado en pantalla:
-<fieldset style="width:150px; border:1px solid blue">
+<fieldset style="width:150px; border:1px solid black">
   <div>1. Primer elemento</div>
   <div>2. Segundo elemento</div>
   <div>3. Tercer elemento</div>
