@@ -138,12 +138,11 @@ Las etiquetas de agrupación son elementos que se utilizan para organizar y estr
 | `<hr>`        | Línea horizontal. Indica una separación temática del texto. |
 | `<main>`      | Contenedor para englobar la parte principal de la página. |
 | `<ul>`        | Lista no ordenada. |
-
-| `<ol>`        | Se utiliza para crear una lista ordenada (con números). |
-| `<li>`        | Contiene uno de los ítems de una lista numerada o sin numerar. |
-| `<dl>`        | Se utiliza para crear una lista de definiciones. |
-| `<dt>`        | Establece el término de una definición. |
-| `<dd>`        | Establece la descripción de un término de una definición. |
+| `<ol>`        | Lista ordenada. |
+| `<li>`        | Elemento de una lista. |
+| `<dl>`        | Lista de definiciones. |
+| `<dt>`        | Término de una definición. |
+| `<dd>`        | Descripción de un término. |
 | `<pre>`       | Establece un texto preformateado (respetando espacios y saltos de línea). |
 | `<blockquote>`| Agrupa información y características de una cita (autor, fuente, etc...). |
 | `<article>`   | Representa un artículo independiente en un documento, como una publicación de blog o un comentario. |
@@ -203,10 +202,7 @@ Las etiquetas multimedia en HTML permiten la inclusión de contenido audiovisual
 - `<var>`: Variable en programación.
 
 ### 4.2.4 - Listas
-- `<ol>`: Lista ordenada.
-- `<li>`: Elemento de una lista.
-- `<dl>`: Lista de definiciones.
-- `<dt>`: Término de la definición.
+ 
 - `<dd>`: Descripción de un término.
 
 ### 4.2.5 - Enlaces e imágenes
