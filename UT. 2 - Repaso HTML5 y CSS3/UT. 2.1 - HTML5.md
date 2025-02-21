@@ -165,7 +165,6 @@ Las etiquetas de agrupación son elementos que se utilizan para organizar y estr
 | `<dialog>`    | Cuadro de diálogo/modal. |
 
 
-
 ### 4.3.2 - Enlaces y etiquetas multimedia  
 Los enlaces y las etiquetas multimedia aportan interactividad a la página web y son elementos fundamentales en cualquier diseño.  
 - **Los enlaces** permiten conectar diferentes páginas web, navegar dentro de una misma página o descargar archivos.  
@@ -175,50 +174,56 @@ Los enlaces y las etiquetas multimedia aportan interactividad a la página web y
 
 | Etiqueta       | Descripción |
 |---------------|------------|
-| `<a>`| Enlace a otra página o recurso. |
-| `<img>`| Imagen. |
-| `<figure>`| Contenedor para elementos gráficos. |
+| `<a>`         | Enlace a otra página o recurso. |
+| `<img>`       | Imagen. |
+| `<figure>`    | Contenedor para elementos gráficos. |
 | `<figcaption>`| Leyenda de un `<figure>`. |
-| `<map>`| Mapa de imagen. |
-| `<area>`| Definición de áreas en un mapa de imagen. |
-| `<picture>`| Contenedor para imágenes con diferentes fuentes. |
-| `<source>`| Fuente alternativa para `<picture>` y `<video>`. |
-| `<iframe>`| 
-| `<audio>`| Contenedor de audio. |
-| `<video>`| Contenedor de video. |
-| `<source>`| Fuente alternativa para `<audio>` y `<video>`. |
-| `<track>`| Subtítulos o pistas de texto para `<video>`. |
-| `<iframe>`| Incrustar otra página. |
-| `<embed>`| Incrustar contenido externo. |
-| `<object>`| Contenedor de objetos embebidos. |
-| `<param>`| Parámetro de un `<object>`. |
+| `<map>`       | Mapa de imagen. |
+| `<area>`      | Definición de áreas en un mapa de imagen. |
+| `<picture>`   | Contenedor para imágenes con diferentes fuentes. |
+| `<source>`    | Fuente alternativa para `<picture>` y `<video>`. |
+| `<audio>`     | Contenedor de audio. |
+| `<video>`     | Contenedor de video. |
+| `<source>`    | Fuente alternativa para `<audio>` y `<video>`. |
+| `<track>`     | Subtítulos o pistas de texto para `<video>`. |
+| `<iframe>`    | Incrustar otra página. |
+| `<embed>`     | Incrustar contenido externo. |
+| `<object>`    | Contenedor de objetos embebidos. |
+| `<param>`     | Parámetro de un `<object>`. |
 
 ### 4.3.3 - Etiquetas de texto  
 Las etiquetas de texto permiten estructurar, dar formato y resaltar contenido y se dividen en varias categorías según su función.
 
 > **Etiquetas de texto más comunes:**
-- `<h1>` a `<h6>`: Encabezados de distintos niveles.
-- `<hgroup>`: Grupo de encabezados	
-- `<br>`: Salto de línea.
-- `<cite>`: Referencia a la fuente de una cita.
-- `<q>`: Cita corta en línea.
-- `<abbr>`: Abreviatura con una descripción.
-- `<address>`: Información de contacto.
-- `<b>`: Texto en negrita (sin semántica).
-- `<strong>`: Texto en negrita con importancia semántica.
-- `<i>`: Texto en cursiva (sin semántica).
-- `<em>`: Texto enfatizado (cursiva con semántica).
-- `<small>`: Texto en tamaño reducido.
-- `<mark>`: Texto resaltado.
-- `<del>`: Texto tachado.
-- `<ins>`: Texto subrayado (contenido insertado).
-- `<sub>`: Subíndice.
-- `<sup>`: Superíndice.
-- `<code>`: Fragmento de código.
-- `<pre>`: Texto preformateado.
-- `<kbd>`: Entrada de teclado.
-- `<samp>`: Salida de programa.
-- `<var>`: Variable en programación.
+| `<h1>` a `<h6>`| Encabezados de distintos niveles. |
+| `<hgroup>`     | Grupo de encabezados. |	
+| `<br>`         | Salto de línea. |
+| `<cite>`       | Referencia a la fuente de una cita. |
+| `<q>`          | Cita corta en línea. |
+| `<abbr>`       | Abreviatura con una descripción. |
+| `<address>`    | Información de contacto. |
+| `<b>`          | Texto en negrita (sin semántica). |
+| `<strong>`     | Texto en negrita con importancia semántica. |
+| `<i>`          | Texto en cursiva (sin semántica). |
+| `<em>`         | Texto enfatizado (cursiva con semántica). |
+| `<small>`      | Texto en tamaño reducido. |
+| `<mark>`       | Texto resaltado. |
+| `<del>`        | Texto tachado. |
+| `<ins>`        | Texto subrayado (contenido insertado). |
+| `<sub>`        | Subíndice. |
+| `<sup>`        | Superíndice. |
+| `<code>`       | Fragmento de código. |
+| `<pre>`        | Texto preformateado. |
+| `<kbd>`        | Entrada de teclado. |
+| `<samp>`       | Salida de programa. |
+| `<mark>`       | Destaca (marca) un texto. |
+| `<var>`        | Variable en programación. |
+| `<s>`          | Tacha un texto. |
+| `<u>`          | Subraya un texto. |
+
+
+
+
 
 
 - `<!DOCTYPE`>: Tipo de documento.	
