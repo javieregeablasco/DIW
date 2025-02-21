@@ -375,32 +375,19 @@ Permiten ajustar la presentación del texto:
 - <a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/">**Tabla periódica de etiquetas HTML**</a>  
 - <a href="https://lenguajehtml.com/html/cheatsheets/download/?amount=0&cmd=_donations&hosted_button_id=6XU7D2MX6ZJCA&business=joseromanhernandez%40gmail.com&return=https%3A%2F%2Flenguajehtml.com%2Fhtml%2Fcheatsheets%2Fdownload%2F&item_name=HTML5+Cheatsheet+%28Donation%29&currency_code=EUR">**HTML cheatsheets**</a>
 
-# 7. Listas
-Disponemos de, al menos, tres tipos de listas:
-- **Listas ordenadas:** Los elementos tienen un orden, que puede venir dado por números arábigos, letras, números romanos, etc. 
-- **Listas no ordenadas:** Los elementos no muestran ninguna ordenación y vienen identificadas por puntos, cuadrados, etc.
-- **Listas de definición:** Los elementos se representan por una clave y un valor asociado. 
-
-## 7.1 - Listas ordenadas
-
-
-Aquí tienes el documento extendido:
-
----
 
 # 7. Listas
-
-Las listas en HTML permiten organizar y presentar información de manera estructurada. Existen tres tipos básicos de listas:
+Las listas permiten organizar y presentar información de manera estructurada. Existen tres tipos básicos de listas:
 
 - **Listas ordenadas:** Los elementos tienen un orden específico que se puede mostrar mediante números, letras, números romanos, etc. Son útiles cuando el orden es importante, como en instrucciones, clasificaciones, etc.
 - **Listas no ordenadas:** Los elementos no siguen ningún orden específico. Están representados visualmente por puntos, círculos, cuadrados u otros estilos. Se utilizan cuando el orden no es relevante, como en una lista de compras o una lista de elementos de una categoría.
 - **Listas de definición:** Cada elemento de la lista consta de un término o clave, seguido de una descripción o valor asociado. Este tipo de lista se usa principalmente para definir conceptos o vocabulario.
 
 ## 7.1 - Listas ordenadas
+Las listas ordenadas se crean utilizando la etiqueta `<ol>`, y cada elemento de la lista se define dentro de la etiqueta `<li>` (list item).  
+El orden predeterminado de los elementos es numérico, pero es posible personalizarlo mediante el atributo `type` de la etiqueta `<ol>`.
 
-Las listas ordenadas se crean utilizando la etiqueta `<ol>`, y cada elemento de la lista se define dentro de la etiqueta `<li>` (list item). El orden predeterminado de los elementos es numérico, pero es posible personalizarlo con diferentes tipos de numeración. Esto se logra mediante el atributo `type` de la etiqueta `<ol>`, que permite cambiar el estilo de los números.
-
-### **Sintaxis básica de una lista ordenada**
+> **Sintaxis básica de una lista ordenada**
 
 ```html
 <ol>
@@ -410,9 +397,8 @@ Las listas ordenadas se crean utilizando la etiqueta `<ol>`, y cada elemento de 
 </ol>
 ```
 
-### **Personalización del tipo de numeración**
-
-Se puede cambiar el estilo de la numeración usando el atributo `type` en la etiqueta `<ol>`. Los valores comunes son:
+> **Personalización del tipo de numeración**
+Se puede cambiar el estilo de la numeración usando el atributo `type` en la etiqueta `<ol>`: 
 
 - `1`: Números arábigos (1, 2, 3, ...).
 - `A`: Letras mayúsculas (A, B, C, ...).
@@ -420,23 +406,15 @@ Se puede cambiar el estilo de la numeración usando el atributo `type` en la eti
 - `I`: Números romanos en mayúsculas (I, II, III, ...).
 - `i`: Números romanos en minúsculas (i, ii, iii, ...).
 
-**Ejemplo de una lista ordenada con numeración personalizada:**
+> **Ejemplo de una lista ordenada con numeración personalizada:**
 
 ```html
 <ol type="A">
-  <li>Primero</li>
-  <li>Segundo</li>
-  <li>Tercero</li>
+  ... 
 </ol>
 ```
 
-Esto mostrará la lista como:
-- A. Primero
-- B. Segundo
-- C. Tercero
-
-### **Listas ordenadas con numeración automática**
-
+> **Listas ordenadas con numeración automática**
 Si no se especifica un valor en el atributo `type`, la numeración será automática con números arábigos:
 
 ```html
@@ -447,10 +425,6 @@ Si no se especifica un valor en el atributo `type`, la numeración será automá
 </ol>
 ```
 
-La lista se verá así:
-1. Primer elemento
-2. Segundo elemento
-3. Tercer elemento
 
 ### **Listas ordenadas con sublistas**
 
