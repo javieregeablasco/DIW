@@ -390,7 +390,7 @@ Las listas permiten organizar y presentar información de manera estructurada. E
 Las listas ordenadas se crean utilizando la etiqueta `<ol>`, y cada elemento de la lista se define dentro de la etiqueta `<li>` (list item).  
 El orden predeterminado de los elementos es numérico, pero es posible personalizarlo mediante el atributo `type` de la etiqueta `<ol>`.
 
-> **Sintaxis básica de una lista ordenada**
+### 7.1.1 - Sintaxis básica de una lista ordenada
 
 ```html
 <ol>
@@ -400,7 +400,7 @@ El orden predeterminado de los elementos es numérico, pero es posible personali
 </ol>
 ```
 
-> **Personalización del tipo de numeración**  
+### 7.1.2 - Personalización del tipo de numeración  
 Se puede cambiar el estilo de la numeración usando el atributo `type` en la etiqueta `<ol>`: 
 
 - `1`: Números arábigos (1, 2, 3, ...).
@@ -417,7 +417,7 @@ Se puede cambiar el estilo de la numeración usando el atributo `type` en la eti
 </ol>
 ```
 
-> **Listas ordenadas con numeración automática**
+### 7.1.3 - Listas ordenadas con numeración automática
 Si no se especifica un valor en el atributo `type`, la numeración será automática con números arábigos:
 
 Si escribimos el siguiente código:
@@ -433,21 +433,16 @@ Obtendremos el siguiente resultado en pantalla:
 
 <img src="./img/ol.png">
 
+### 7.1.4 - Listas ordenadas con sublistas
 
----
----
----
+También es posible crear sublistas (listas anidadas). Para crear sublistas, simplemente se anidan más etiquetas `<ol>` o `<ul>` dentro de un `<li>`.
 
-### **Listas ordenadas con sublistas**
-
-Dentro de una lista ordenada, también es posible crear sublistas, que pueden ser ordenadas o no. Para crear sublistas, simplemente se anidan más etiquetas `<ol>` o `<ul>` dentro de un `<li>`.
-
-**Ejemplo de una lista ordenada con sublistas:**
+**Ejemplo:**
 
 ```html
 <ol>
   <li>Elementos de la lista principal
-    <ol>
+    <ol type="A">
       <li>Subelemento 1</li>
       <li>Subelemento 2</li>
     </ol>
