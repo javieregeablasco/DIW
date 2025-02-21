@@ -195,6 +195,7 @@ Los enlaces y las etiquetas multimedia aportan interactividad a la página web y
 Las etiquetas de texto permiten estructurar, dar formato y resaltar contenido y se dividen en varias categorías según su función.
 
 > **Etiquetas de texto más comunes:**
+
 | Etiqueta       | Descripción |
 |----------------|------------|
 | `<h1>` a `<h6>`| Encabezados de distintos niveles. |
@@ -230,6 +231,7 @@ Las etiquetas semánticas en HTML proporcionan **significado** al contenido de u
 A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas semánticas indican **la función específica** del contenido que contienen.
 
 > **Etiquetas semanticas más comunes:**
+
 | Etiqueta      | Descripción |  
 |---------------|------------|  
 | `<article>`   | Contenido independiente (artículos, comentarios, foros). |  
