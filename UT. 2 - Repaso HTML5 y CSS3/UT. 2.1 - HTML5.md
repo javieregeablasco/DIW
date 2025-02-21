@@ -425,10 +425,11 @@ Si no se especifica un valor en el atributo `type`, la numeración será automá
 </ol>
 ```
 
-<fieldset>Primer elemento
-Segundo elemento
-Tercer elemento
-</feildset>
+<fieldset>
+  <div>1. Primer elemento</div>
+  <div>2. Segundo elemento</div>
+  <div>3. Tercer elemento</div>
+</fieldset>
 
 
 ### **Listas ordenadas con sublistas**
