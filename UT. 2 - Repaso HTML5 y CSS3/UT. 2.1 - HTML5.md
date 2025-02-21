@@ -381,7 +381,7 @@ Disponemos de, al menos, tres tipos de listas:
 - **Listas no ordenadas:** Los elementos no muestran ninguna ordenación y vienen identificadas por puntos, cuadrados, etc.
 - **Listas de definición:** Los elementos se representan por una clave y un valor asociado. 
 
-## 6.1 - Listas ordenadas
+## 7.1 - Listas ordenadas
 
 
 
