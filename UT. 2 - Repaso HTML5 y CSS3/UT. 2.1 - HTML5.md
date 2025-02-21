@@ -467,26 +467,8 @@ El atributo `start` permite especificar el número de inicio de la lista.
 </ol>
 ```
 
-Esto mostrará:
+Esto mostrará:  
 <img src="./img/ol 3.png">
-
-### **Listas ordenadas y estilos**
-
-Las listas ordenadas también pueden estilizarse con CSS para personalizar su apariencia, como el tipo de numeración, el espacio entre los elementos, el color, etc.
-
-**Ejemplo de lista ordenada con estilo CSS:**
-
-```html
-<ol style="list-style-type: upper-roman; color: blue;">
-  <li>Elemento I</li>
-  <li>Elemento II</li>
-  <li>Elemento III</li>
-</ol>
-```
-
-En este ejemplo, la lista utiliza números romanos en mayúsculas y tiene el texto en color azul.
-
----
 
 ## 7.2 - Listas no ordenadas
 
