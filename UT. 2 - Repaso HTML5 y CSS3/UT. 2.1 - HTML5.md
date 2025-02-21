@@ -291,41 +291,30 @@ Permiten integrar scripts y manejar datos estructurados dentro de una página we
 | `<slot>`    | Contenedor en Web Components. |
 
 
-### 4.2.10 - Elementos básicos de una hoja HTML
-
+### **4.2.10 - Elementos básicos de una hoja HTML**
 > **Elementos de cabecera de un documento web.**
 
 | Etiqueta     | Descripción |  
 |--------------|------------|  
-| `<!DOCTYPE>` | Tipo de documento.	|
-| `<html>`     | Define el documento HTML. |
-| `<head>`     | Contiene metadatos y enlaces a scripts o estilos. |
-| `<body>`     | Contiene el contenido visible de la página. |
+| `<!DOCTYPE>` | Declara el tipo de documento (HTML5, XHTML, etc.). |  
+| `<html>`     | Define el documento HTML y es el contenedor principal de la página. |  
+| `<head>`     | Contiene metadatos sobre el documento (como título, enlaces a archivos externos, etc.). |  
+| `<body>`     | Contiene el contenido visible de la página (texto, imágenes, etc.). |  
+
+**Nota**:  
+- `<!DOCTYPE>` no es exactamente parte del `<head>`, pero debe ir antes de la etiqueta `<html>` para declarar el tipo de documento.
 
 > **Metadatos y enlaces a contenido externo**
 
 | Etiqueta     | Descripción |  
 |--------------|------------|  
-| `<title>`    | Define el título de la página (visible en la pestaña del navegador). | 
-| `<meta>`     | Proporciona metadatos sobre el documento (charset, viewport, autor, keywords, etc). |
-| `<link>`     | Vincula archivos externos, como hojas de estilo CSS. |
-| `<style>`    | Contiene reglas CSS internas. |
-| `<script>`   | Contiene o enlaza scripts JavaScript. |
-| `<noscript>` | Define contenido alternativo si JavaScript está deshabilitado. |
+| `<title>`    | Define el título de la página, que aparece en la pestaña del navegador. |  
+| `<meta>`     | Proporciona metadatos (como charset, viewport, autor, keywords, etc.). |  
+| `<link>`     | Vincula archivos externos, generalmente hojas de estilo CSS. |  
+| `<style>`    | Contiene reglas CSS internas para el documento. |  
+| `<script>`   | Contiene o enlaza scripts JavaScript (internos o externos). |  
+| `<noscript>` | Define contenido alternativo si JavaScript está deshabilitado. |  
 | `<base>`     | Define la URL base para los enlaces relativos en el documento. |
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # 5. Símbolos especiales
