@@ -220,7 +220,24 @@ Las etiquetas de texto permiten estructurar, dar formato y resaltar contenido y 
 | `<var>`        | Variable en programación. |
 | `<s>`          | Tacha un texto. |
 | `<u>`          | Subraya un texto. |
+| `<kbd>`        | Representa una entrada de datos por el usuario. |
+| `<time>`       | Permite indicar la fecha y la hora. |
 
+### 4.3.4 - Etiquetas semánticas
+Las etiquetas semánticas en HTML proporcionan **significado** al contenido de una página web, facilitando su interpretación tanto para los desarrolladores como para los motores de búsqueda y tecnologías de asistencia.  
+A diferencia de las etiquetas genéricas como `<div>` o `<span>`, las etiquetas semánticas indican **la función específica** del contenido que contienen.
+
+> **Etiquetas semanticas más comunes:**
+| `article>`    |	Entidad importante del documento (artículos, mensajes en foros, comentarios...)	
+| `nav>`        |	Apartado o zona de navegación (enlaces de secciones, categorías, etc...)	
+| `header>`     |	Cabecera visual de la página (logotipo, título, etc...). No confundir con | `head>` |.	
+| `footer>`     |	Pie de página del documento (o de una sección concreta).	
+| `h1> ... h6>` |	Encabezados o titulares con niveles de importancia del 1 al 6.
+| `section>`    |	Sección o grupo temático de contenido. No usar sólo para dar estilo.
+| `main>`       |	Agrupación del contenido principal del documento actual.	
+| `aside>`      |	Agrupación de contenido no relacionado con el tema principal del documento.
+| `search>`     |	Agrupación del contenido relacionado con búsquedas.	
+| `address>`    |	Agrupación con la información de contacto o ubicación del autor del artículo o documento.
 
 
 
