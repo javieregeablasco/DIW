@@ -425,6 +425,11 @@ Si no se especifica un valor en el atributo `type`, la numeración será automá
 </ol>
 ```
 
+<fieldset>Primer elemento
+Segundo elemento
+Tercer elemento
+</feildset>
+
 
 ### **Listas ordenadas con sublistas**
 
