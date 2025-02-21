@@ -417,6 +417,7 @@ Se puede cambiar el estilo de la numeración usando el atributo `type` en la eti
 > **Listas ordenadas con numeración automática**
 Si no se especifica un valor en el atributo `type`, la numeración será automática con números arábigos:
 
+Si escribimos el siguiente código:
 ```html
 <ol>
   <li>Primer elemento</li>
@@ -425,12 +426,16 @@ Si no se especifica un valor en el atributo `type`, la numeración será automá
 </ol>
 ```
 
-<fieldset>
+Obtendremos el siguiente resultado en pantalla:
+<fieldset style="width:150px; border:1px solid blue">
   <div>1. Primer elemento</div>
   <div>2. Segundo elemento</div>
   <div>3. Tercer elemento</div>
 </fieldset>
 
+---
+---
+---
 
 ### **Listas ordenadas con sublistas**
 
