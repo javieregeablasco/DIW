@@ -451,18 +451,13 @@ También es posible crear sublistas (listas anidadas). Para crear sublistas, sim
 </ol>
 ```
 
-En pantalla, veremos: 
+En pantalla, veremos:  
 <img src="./img/ol 2.png">
 
-belemento 1
-   2. Subelemento 2
-2. Segundo elemento
+### 7.1.5 - Atributo `start`
+El atributo `start` permite especificar el número de inicio de la lista.
 
-### **Atributo `start` en listas ordenadas**
-
-El atributo `start` permite especificar el número de inicio de la lista. Por defecto, las listas ordenadas comienzan en el número 1, pero se puede cambiar este valor.
-
-**Ejemplo con atributo `start`:**
+**Ejemplo con `start`:**
 
 ```html
 <ol start="5">
