@@ -431,6 +431,7 @@ Si escribimos el siguiente código:
 
 Obtendremos el siguiente resultado en pantalla:
 
+
 <div style="width:150px; border:2px solid black; padding-left: 5 5 5 5 ">
   <div>1. Primer elemento</div>
   <div>2. Segundo elemento</div>
