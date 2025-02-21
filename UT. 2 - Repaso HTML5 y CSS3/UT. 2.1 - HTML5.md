@@ -430,11 +430,13 @@ Si escribimos el siguiente código:
 ```
 
 Obtendremos el siguiente resultado en pantalla:
-<fieldset style="width:150px; border:1px solid black">
+
+<div style="width:150px; border:1px solid black; padding:5px 5px 5px 5px">
   <div>1. Primer elemento</div>
   <div>2. Segundo elemento</div>
   <div>3. Tercer elemento</div>
-</fieldset>
+</div>
+
 
 ---
 ---
