@@ -613,11 +613,7 @@ Las listas de definición se utilizan para definir términos, conceptos o elemen
 **Esto se verá como:**  
 <img src="./img/dl.png"> 
 
-
----
-
-Con esta extensión, cubrimos los tres tipos básicos de listas en HTML y cómo personalizarlas. ¿Te gustaría que profundice en algún punto específico o agregar más ejemplos? 😊
-
+# 8. Tablas
 
 
 # 7. Tarea RA2 CE1
