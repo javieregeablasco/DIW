@@ -671,43 +671,18 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 > **Etiquetas clave**:
 - `<table>`: Define el inicio de la tabla.
 - `<thead>`: Define la sección de encabezado de la tabla.
+- `<tbody>`: Contiene el cuerpo de la tabla.
+- `<tfoot>`: Define la sección de pie de la tabla. 
 - `<tr>` (table row): Define una fila de la tabla.
 - `<th>` (table header): Representa una celda de encabezado.
-- `<tbody>`: Contiene el cuerpo de la tabla.
 - `<td>` (table data): Representa una celda de datos.
 
 
----
-
-## 🎨 **Estilizando una tabla con CSS**
-Puedes mejorar la apariencia de una tabla con CSS:
-
-```css
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-}
-
-th {
-    background-color: #f4f4f4;
-}
-```
-
-Esto hará que la tabla tenga bordes, separación en las celdas y un fondo gris en los encabezados.
-
----
-
-## 📏 **Atributos útiles en las tablas**
+> **Atributos útiles en las tablas**
 - `colspan="n"` → Une varias columnas en una celda.
 - `rowspan="n"` → Une varias filas en una celda.
 
-Ejemplo:
+**Ejemplo:**
 
 ```html
 <tr>
@@ -715,39 +690,6 @@ Ejemplo:
     <td>Dato</td>
 </tr>
 ```
-
----
-
-## 📊 **Tablas Responsivas**
-Para hacer que una tabla sea responsiva en dispositivos móviles, puedes envolverla en un contenedor con `overflow: auto`:
-
-```html
-<div style="overflow-x: auto;">
-    <table>
-        <!-- Contenido de la tabla -->
-    </table>
-</div>
-```
-
-Si usas **Tailwind CSS**, puedes hacerlo con:
-
-```html
-<div class="overflow-x-auto">
-    <table class="table-auto w-full">
-        <!-- Contenido de la tabla -->
-    </table>
-</div>
-```
-
----
-
-¿Quieres que te explique algo más específico sobre las tablas? 😊
-Estructura <table>
-Leyenda <caption>
-Cuerpos <tbody>, <thead>, <tfoot>
-Filas <tr>
-Celdas <td>, <th>
-Columnas <col>, <colgroup>
 
 # 9. Formularios
 Conjuntos de campos o fieldsets
