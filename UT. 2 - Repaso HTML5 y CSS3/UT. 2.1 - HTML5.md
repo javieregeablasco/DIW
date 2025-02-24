@@ -685,11 +685,30 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 **Ejemplo:**
 
 ```html
-<tr>
-    <td colspan="2">Celda combinada</td>
-    <td>Dato</td>
-</tr>
+<table border=”1″> 
+  <tr> 
+    <th>Columna 1</th> 
+    <th>Columna 2</th> 
+    <th>Columna 3</th> 
+  </tr> 
+  <tr> 
+    <td  rowspan="2"> Fila 1 Celda 1</td>
+    <td>Fila 1 Celda 2</td> 
+    <td> Fila 1 Celda 3</td> 
+  </tr> 
+  <tr>
+    <td> Fila 2 Celda 2</td>
+    <td> Fila 2 Celda 3</td> 
+  </tr> 
+  <tr> 
+    <td colspan="3"> Fila 3 Celda 1</td>
+  </tr> 
+</table>
 ```
+
+**Resultado**
+<img src="./img/table1.png">
+
 
 # 9. Formularios
 Conjuntos de campos o fieldsets
