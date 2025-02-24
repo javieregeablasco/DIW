@@ -599,21 +599,20 @@ Las listas de definición se utilizan para definir términos, conceptos o elemen
 - **`<dt>`**: Define un término o concepto.
 - **`<dd>`**: Proporciona la definición o explicación del término.
 
-### **Sintaxis básica de una lista de definición**
+**Ejemplo de una lista de definición**
 
 ```html
 <dl>
-  <dt>HTML</dt>
-  <dd>Lenguaje de marcado utilizado para estructurar páginas web.</dd>
-  <dt>CSS</dt>
-  <dd>Lenguaje de estilo utilizado para diseñar la apariencia de las páginas web.</dd>
+  <dt><article><strong>HTML:</strong></article></dt>
+  <dd><span><i>Lenguaje de marcado utilizado para estructurar páginas web.</i></span></dd>
+  <dt><article><strong>CSS:</strong></article></dt>
+  <dd><span><mark>Lenguaje de estilo utilizado para diseñar la apariencia de las páginas web.</mark></span></dd>
 </dl>
 ```
 
-Esto se verá como:
+**Esto se verá como:**  
+<img src="./img/dl.png"> 
 
-- **HTML**: Lenguaje de marcado utilizado para estructurar páginas web.
-- **CSS**: Lenguaje de estilo utilizado para diseñar la apariencia de las páginas web.
 
 ---
 
