@@ -571,7 +571,7 @@ La etiqueta `<ul>` no soporta argumentos que permitan cambiar el tipo de marcado
   </li> 
 </ul>
 ```
-**Resultado**
+**Resultado**  
 <img src="./img/ul1.png">
 
 **Nota:** La propiedad `list-style-type` de **CSS** permite definir el estilo de los marcadores. Algunos de los valores más comunes incluyen:
@@ -581,7 +581,7 @@ La etiqueta `<ul>` no soporta argumentos que permitan cambiar el tipo de marcado
 - `square`: Cuadrados.
 - `none`: Sin marcador.
 
-**Ejemplo de lista no ordenada con marcadores personalizados:**
+**Ejemplo:**
 
 ```html
 <ul style="list-style-type: square;">
@@ -590,8 +590,6 @@ La etiqueta `<ul>` no soporta argumentos que permitan cambiar el tipo de marcado
   <li>Elemento 3</li>
 </ul>
 ```
-
----
 
 ## 7.3 - Listas de definición
 
