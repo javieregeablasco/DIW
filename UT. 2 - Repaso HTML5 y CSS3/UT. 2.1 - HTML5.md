@@ -497,13 +497,32 @@ También es posible crear sublistas (listas anidadas). Para crearlas, simplement
 
 ```html
 <ol>
-  <li>Elementos de la lista principal
+  <li>Elemento lista 1
     <ol type="A">
-      <li>Subelemento 1</li>
-      <li>Subelemento 2</li>
+      <li>Elemento lista 2 anidado dentro de lista 1 
+        <ol type="i">
+          <li>Elemento lista 3 anidado dentro de lista 2</li>
+          <li>Elemento lista 3 anidado dentro de lista 2</li>
+        </ol>
+      </li>
+      <li>Elemento lista 2 anidado dentro de lista 1
+        <ol type="I">
+          <li>Elemento lista 3 anidado dentro de lista 2</li>
+          <li>Elemento lista 3 anidado dentro de lista 2</li>
+        </ol>
+      </li>
+      <li>Elemento lista 2</li>
+      <li>Elemento lista 2</li>
     </ol>
   </li>
-  <li>Segundo elemento</li>
+  <li>Elemento lista 1
+    <ol reversed>
+      <li>Elemento lista 2 anidado dentro de lista 1</li>
+      <li>Elemento lista 2 anidado dentro de lista 1</li>
+      <li>Elemento lista 2 anidado dentro de lista 1</li>
+      <li>Elemento lista 2 anidado dentro de lista 1</li>
+    </ol>
+  </li>
 </ol>
 ```
 
