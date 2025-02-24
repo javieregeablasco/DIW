@@ -460,11 +460,11 @@ Con el atributo `start` definiremos el valor inicial de la lista.
 Si escribimos el siguiente código:
 ```html
 <ol strat="5">
-  <li>Primer elemento</li>
-  <li>Segundo elemento</li>
-  <li>Tercer elemento</li>
-  <li>Cuarto elemento</li>
-  <li>Quinto elemento</li>
+  <li>Elemento 5</li>
+  <li>Elemento 6</li>
+  <li>Elemento 7</li>
+  <li>Elemento 8</li>
+  <li>Elemento 9</li>
 </ol>
 ```
 
