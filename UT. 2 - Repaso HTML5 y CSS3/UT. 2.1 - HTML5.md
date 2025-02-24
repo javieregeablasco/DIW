@@ -541,11 +541,15 @@ Las listas no ordenadas se crean usando la etiqueta `<ul>` (unordered list), y c
   <li>Elemento 2</li>
   <li>Elemento 3</li>
 </ul>
-```
+```  
+<img src="./img/ul.png">
 
-### **Personalización de los elementos de las listas no ordenadas**
 
-Mediante CSS, podemos cambiar el tipo de marcador para las listas no ordenadas, utilizando la propiedad `list-style-type`. Algunos de los valores más comunes incluyen:
+### 7.2.2 - Personalización de los elementos de las listas no ordenadas
+
+La etiqueta `<ul>` no soporta argumentos que permitan cambiar el tipo de marcador. Sin embargo, la mayoría de navegadores cambian el tipo de marcador en función de la profundidad de anidamiento de la lista no ordenada. 
+
+**Nota:** La propiedad `list-style-type` de **CSS** permite definir el estilo de los marcadores. Algunos de los valores más comunes incluyen:
 
 - `disc`: Puntos (por defecto).
 - `circle`: Círculos vacíos.
