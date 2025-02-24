@@ -622,7 +622,7 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
   
 <img src="./img/table.png" width=75%>
 
-- 📌 **Código HTML de la figura anterior**
+- **Código HTML de la figura anterior**
 ```html
 <table>
     <thead>
