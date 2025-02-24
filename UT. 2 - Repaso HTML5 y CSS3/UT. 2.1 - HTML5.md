@@ -614,7 +614,12 @@ Las listas de definición se utilizan para definir términos, conceptos o elemen
 <img src="./img/dl.png"> 
 
 # 8. Tablas
-
+Estructura <table>
+Leyenda <caption>
+Cuerpos <tbody>, <thead>, <tfoot>
+Filas <tr>
+Celdas <td>, <th>
+Columnas <col>, <colgroup>
 
 # 7. Tarea RA2 CE1
 
