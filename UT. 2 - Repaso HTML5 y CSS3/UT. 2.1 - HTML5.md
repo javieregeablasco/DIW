@@ -677,6 +677,7 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 - `<th>` (table header): Representa una celda de encabezado.
 - `<td>` (table data): Representa una celda de datos.
 
+<br>
 
 > **Atributos útiles en las tablas**
 - `colspan="n"` → Une varias columnas en una celda.
@@ -697,7 +698,7 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
     <td> Fila 1 Celda 3</td> 
   </tr> 
   <tr>
-    <td> Fila 2 Celda 2</td>
+    <td> Fila 2 Celda 2</td>  
     <td> Fila 2 Celda 3</td> 
   </tr> 
   <tr> 
@@ -706,7 +707,7 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 </table>
 ```
 
-**Resultado**
+**Resultado**  
 <img src="./img/table1.png">
 
 
