@@ -620,7 +620,7 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 
 - **Estructura general de una tabla**  
   
-<img src="./img/structure-of-HTML-table.jpg" width=75%>
+<img src="./img/table.png" width=75%>
 
 - 📌 **Código HTML de la figura anterior**
 ```html
