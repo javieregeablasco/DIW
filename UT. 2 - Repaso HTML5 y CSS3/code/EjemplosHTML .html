@@ -194,6 +194,19 @@
 </div>
 
 <style>
+  table {
+    border-collapse: collapse; /* Asegura que los bordes se fusionen */
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+}
+
+td:nth-child(n+2):nth-child(-n+5),
+th:nth-child(n+2):nth-child(-n+5) {
+    border: 1px solid black; /* Aplica bordes solo a las columnas 2, 3, 4 y 5 */
+}
 
 td{
   color:brown;
