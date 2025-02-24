@@ -614,6 +614,112 @@ Las listas de definición se utilizan para definir términos, conceptos o elemen
 <img src="./img/dl.png"> 
 
 # 8. Tablas
+Las **tablas** se definen con la etiqueta `<table>` y permiten estructurar la información en filas y columnas (celdas).
+
+De una manera que recuerda a un documento HTML, las tablas se organizan en grupos con las etiquetas `<caption>`, `<thead>`, `<tbody>` y `<tfoot>`.
+
+- **Estructura general de una tabla**  
+  
+<img src="./img/structure-of-HTML-table.jpg" width=75%>
+
+- 📌 **Código HTML de la figura anterior**
+```html
+<table>
+    <thead>
+        <tr>
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+            <th>Encabezado 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+            <td>Dato 3</td>
+        </tr>
+        <tr>
+            <td>Dato 4</td>
+            <td>Dato 5</td>
+            <td>Dato 6</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+🔹 **Etiquetas clave**:
+- `<table>`: Define el inicio de la tabla.
+- `<thead>`: Define la sección de encabezado de la tabla.
+- `<tr>` (table row): Define una fila de la tabla.
+- `<th>` (table header): Representa una celda de encabezado.
+- `<tbody>`: Contiene el cuerpo de la tabla.
+- `<td>` (table data): Representa una celda de datos.
+
+---
+
+## 🎨 **Estilizando una tabla con CSS**
+Puedes mejorar la apariencia de una tabla con CSS:
+
+```css
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+```
+
+Esto hará que la tabla tenga bordes, separación en las celdas y un fondo gris en los encabezados.
+
+---
+
+## 📏 **Atributos útiles en las tablas**
+- `colspan="n"` → Une varias columnas en una celda.
+- `rowspan="n"` → Une varias filas en una celda.
+
+Ejemplo:
+
+```html
+<tr>
+    <td colspan="2">Celda combinada</td>
+    <td>Dato</td>
+</tr>
+```
+
+---
+
+## 📊 **Tablas Responsivas**
+Para hacer que una tabla sea responsiva en dispositivos móviles, puedes envolverla en un contenedor con `overflow: auto`:
+
+```html
+<div style="overflow-x: auto;">
+    <table>
+        <!-- Contenido de la tabla -->
+    </table>
+</div>
+```
+
+Si usas **Tailwind CSS**, puedes hacerlo con:
+
+```html
+<div class="overflow-x-auto">
+    <table class="table-auto w-full">
+        <!-- Contenido de la tabla -->
+    </table>
+</div>
+```
+
+---
+
+¿Quieres que te explique algo más específico sobre las tablas? 😊
 Estructura <table>
 Leyenda <caption>
 Cuerpos <tbody>, <thead>, <tfoot>
@@ -621,10 +727,10 @@ Filas <tr>
 Celdas <td>, <th>
 Columnas <col>, <colgroup>
 
-# 8. Formularios
+# 9. Formularios
 Conjuntos de campos o fieldsets
 
-# 9. Tarea RA2 CE1
+# 10. Tarea RA2 CE1
 
 
 
