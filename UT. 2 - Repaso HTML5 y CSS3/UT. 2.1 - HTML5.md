@@ -549,6 +549,31 @@ Las listas no ordenadas se crean usando la etiqueta `<ul>` (unordered list), y c
 
 La etiqueta `<ul>` no soporta argumentos que permitan cambiar el tipo de marcador. Sin embargo, la mayoría de navegadores cambian el tipo de marcador en función de la profundidad de anidamiento de la lista no ordenada. 
 
+**Ejemplo**
+```html
+<ul>
+  <li>Elemento lista 1
+    <ul type="A">
+      <li>Elemento lista 2 anidado dentro de lista 1 
+        <ul>
+          <li>Elemento lista 3 anidado dentro de lista 2</li>
+          <li>Elemento lista 3 anidado dentro de lista 2</li>
+        </ul>
+      </li>
+      <li>Elemento lista 2 anidado dentro de lista 1
+        <ul>
+          <li>Elemento lista 3 anidado dentro de lista 2</li>
+          <li>Elemento lista 3 anidado dentro de lista 2</li>
+        </ul>
+      </li>
+      <li>Elemento lista 2</li>
+    </ul>
+  </li> 
+</ul>
+```
+**Resultado**
+<img src="./img/ul1.png">
+
 **Nota:** La propiedad `list-style-type` de **CSS** permite definir el estilo de los marcadores. Algunos de los valores más comunes incluyen:
 
 - `disc`: Puntos (por defecto).
