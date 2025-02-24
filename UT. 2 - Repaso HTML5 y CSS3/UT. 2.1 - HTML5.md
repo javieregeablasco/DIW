@@ -263,8 +263,10 @@ Las tablas permiten organizar datos en filas y columnas. Se estructuran con vari
 | `<colgroup>`| Grupo de columnas. |
 | `<col>`     | Define propiedades de una columna. |
 
-### 4.2.8 - Formularios e inputs
+### 4.3.6 - Formularios e inputs
 Los formularios en HTML permiten a los usuarios ingresar y enviar datos.
+
+> **Etiquetas de formularios e inputs:**
 
 | Etiqueta     | Descripción |  
 |--------------|------------|  
@@ -283,8 +285,11 @@ Los formularios en HTML permiten a los usuarios ingresar y enviar datos.
 | `<progress>` | Barra de progreso. |
 | `<meter>`    | Indicador de medición. |
 
-### 4.2.9 - Elementos de scripting y datos
+### 4.3.7 - Elementos de scripting y datos
 Permiten integrar scripts y manejar datos estructurados dentro de una página web.
+
+> **Etiquetas de scripting y datos:**
+
 | Etiqueta    | Descripción |  
 |-------------|------------|  
 | `<canvas>`  | Dibujo gráfico con JavaScript. |
@@ -294,7 +299,8 @@ Permiten integrar scripts y manejar datos estructurados dentro de una página we
 | `<slot>`    | Contenedor en Web Components. |
 
 
-### **4.2.10 - Elementos básicos de una hoja HTML**
+### **4.3.8 - Elementos básicos de una hoja HTML**
+
 > **Elementos de cabecera de un documento web.**
 
 | Etiqueta     | Descripción |  
@@ -433,6 +439,19 @@ Obtendremos el siguiente resultado en pantalla:
 
 <img src="./img/ol.png">
 
+### 7.1.4 - Ordenación inversa de una lista
+Con el argumento `reversed` invertiremos el sentido de numeración de la lista. 
+```html
+<ol reversed>
+  <li>Primer elemento</li>
+  <li>Segundo elemento</li>
+  <li>Tercer elemento</li>
+  <li>Cuarto elemento</li>
+</ol>
+```
+
+
+
 ### 7.1.4 - Listas ordenadas con sublistas
 
 También es posible crear sublistas (listas anidadas). Para crear sublistas, simplemente se anidan más etiquetas `<ol>` o `<ul>` dentro de un `<li>`.
@@ -474,7 +493,7 @@ Esto mostrará:
 
 Las listas no ordenadas se crean usando la etiqueta `<ul>` (unordered list), y cada ítem dentro de la lista se define con la etiqueta `<li>`. Los elementos de una lista no ordenada se presentan por defecto con un punto, aunque este estilo se puede personalizar mediante CSS.
 
-### **Sintaxis básica de una lista no ordenada**
+### 7.2.1 - Sintaxis básica de una lista no ordenada
 
 ```html
 <ul>
