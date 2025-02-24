@@ -622,28 +622,49 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
   
 <img src="./img/table.png" width=100%>
 
-> **Código HTML de la figura anterior**
+> **Código HTML de la tabla anterior**
 ```html
-<table>
-    <thead>
-        <tr>
-            <th>Encabezado 1</th>
-            <th>Encabezado 2</th>
-            <th>Encabezado 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Dato 1</td>
-            <td>Dato 2</td>
-            <td>Dato 3</td>
-        </tr>
-        <tr>
-            <td>Dato 4</td>
-            <td>Dato 5</td>
-            <td>Dato 6</td>
-        </tr>
-    </tbody>
+<table>    
+  <caption>Título de la tabla</caption>    
+  <thead>
+    <tr>
+      <th>Encabezado 1</th>
+      <th>Encabezado 2</th>
+      <th>Encabezado 3</th>
+      <th>Encabezado 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Columna 1</td>
+      <td>Columna 2</td>
+      <td>Columna 3</td>
+      <td>Columna 4</td>         
+    </tr>
+   <tr>  
+     <td>Columna 1</td>
+     <td>Columna 2</td>
+     <td>Columna 3</td>
+     <td>Columna 4</td>
+   </tr>
+   <tr>
+     <td>Columna 1</td>
+     <td>Columna 2</td>
+     <td>Columna 3</td>
+     <td>Columna 4</td>
+   </tr>
+   <tr>
+     <td>Columna 1</td>
+     <td>Columna 2</td>
+     <td>Columna 3</td>
+     <td>Columna 4</td>       
+   </tr>
+  </tbody>
+  <tfoot >
+    <tr >
+      <td colspan="6">Final de la tabla</td>
+    </tr>
+  </tfoot>
 </table>
 ```
 
