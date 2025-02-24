@@ -707,7 +707,7 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 </table>
 ```
 
-**Resultado**  
+**Resultado:**  
 <img src="./img/table1.png">
 
 
