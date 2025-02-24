@@ -618,11 +618,11 @@ Las **tablas** se definen con la etiqueta `<table>` y permiten estructurar la in
 
 De una manera que recuerda a un documento HTML, las tablas se organizan en grupos con las etiquetas `<caption>`, `<thead>`, `<tbody>` y `<tfoot>`.
 
-- **Estructura general de una tabla**  
+> **Estructura general de una tabla**  
   
-<img src="./img/table.png" width=75%>
+<img src="./img/table.png" width=100%>
 
-- **Código HTML de la figura anterior**
+> **Código HTML de la figura anterior**
 ```html
 <table>
     <thead>
@@ -647,13 +647,14 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 </table>
 ```
 
-🔹 **Etiquetas clave**:
+> **Etiquetas clave**:
 - `<table>`: Define el inicio de la tabla.
 - `<thead>`: Define la sección de encabezado de la tabla.
 - `<tr>` (table row): Define una fila de la tabla.
 - `<th>` (table header): Representa una celda de encabezado.
 - `<tbody>`: Contiene el cuerpo de la tabla.
 - `<td>` (table data): Representa una celda de datos.
+
 
 ---
 
