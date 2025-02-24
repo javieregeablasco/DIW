@@ -445,10 +445,9 @@ Con el atributo `reversed` invertiremos el sentido de numeración de la lista.
 Si escribimos el siguiente código:
 ```html
 <ol reversed>
-  <li>Primer elemento</li>
-  <li>Segundo elemento</li>
-  <li>Tercer elemento</li>
-  <li>Cuarto elemento</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
 </ol>
 ```
 
@@ -465,6 +464,7 @@ Si escribimos el siguiente código:
   <li>Segundo elemento</li>
   <li>Tercer elemento</li>
   <li>Cuarto elemento</li>
+  <li>Quinto elemento</li>
 </ol>
 ```
 
