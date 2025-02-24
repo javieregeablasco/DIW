@@ -621,11 +621,10 @@ Filas <tr>
 Celdas <td>, <th>
 Columnas <col>, <colgroup>
 
-# 7. Tarea RA2 CE1
-
-
-Etiquetas de secciones
-Tablas, enlaces y multimedia
-Formularios
-Listas
+# 8. Formularios
 Conjuntos de campos o fieldsets
+
+# 9. Tarea RA2 CE1
+
+
+
