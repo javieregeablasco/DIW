@@ -439,7 +439,7 @@ Obtendremos el siguiente resultado en pantalla:
 
 <img src="./img/ol.png">
 
-### 7.1.4 - Ordenación inversa de una lista
+### 7.1.4 - Numeración inversa de una lista
 Con el atributo `reversed` invertiremos el sentido de numeración de la lista. 
 
 Si escribimos el siguiente código:
@@ -452,8 +452,26 @@ Si escribimos el siguiente código:
 </ol>
 ```
 
-Obtnedremos:
+Obtendremos:  
 <img src="./img/ol 4.png">
+
+### 7.1.5 - Valor inicial de numeración de una lista
+Con el atributo `start` definiremos el valor inicial de la lista. 
+
+Si escribimos el siguiente código:
+```html
+<ol strat="5">
+  <li>Primer elemento</li>
+  <li>Segundo elemento</li>
+  <li>Tercer elemento</li>
+  <li>Cuarto elemento</li>
+</ol>
+```
+
+Obtendremos:  
+<img src="./img/ol 5.png">
+
+
 
 ### 7.1.4 - Listas ordenadas con sublistas
 
