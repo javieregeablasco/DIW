@@ -489,9 +489,9 @@ Con el siguiente ejemplo:
 Obtendremos:  
 <img src="./img/ol 6.png">
 
-### 7.1.7 - Listas ordenadas con sublistas
+### 7.1.7 - Anidamiento de listas
 
-También es posible crear sublistas (listas anidadas). Para crear sublistas, simplemente se anidan más etiquetas `<ol>` o `<ul>` dentro de un `<li>`.
+También es posible crear sublistas (listas anidadas). Para crearlas, simplemente anidaremos más etiquetas `<ol>` o `<ul>` dentro de un `<li>`.
 
 **Ejemplo:**
 
