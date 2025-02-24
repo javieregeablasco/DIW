@@ -440,7 +440,7 @@ Obtendremos el siguiente resultado en pantalla:
 <img src="./img/ol.png">
 
 ### 7.1.4 - Numeración inversa de una lista
-Con el atributo `reversed` invertiremos el sentido de numeración de la lista. 
+Con el atributo `reversed` de `<ol>` invertiremos el sentido de numeración de la lista. 
 
 Si escribimos el siguiente código:
 ```html
@@ -455,7 +455,7 @@ Obtendremos:
 <img src="./img/ol 4.png">
 
 ### 7.1.5 - Valor inicial de numeración de una lista
-Con el atributo `start` definiremos el valor inicial de la lista. 
+Con el atributo `start` de `<ol>` definiremos el valor inicial de la lista. 
 
 Si escribimos el siguiente código:
 ```html
@@ -471,9 +471,25 @@ Si escribimos el siguiente código:
 Obtendremos:  
 <img src="./img/ol 5.png">
 
+### 7.1.6 - Alteración de los valores de una lista
+Con el atributo `value` de `<li>` podemos alterar los valores de una lista **dentro de una lista**. 
 
+Con el siguiente ejemplo:
+```html
+<ol>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li value="10">Elemento 10</li>
+  <li>Elemento 11</li>
+  <li>Elemento 12</li>
+</ol>
+```
 
-### 7.1.4 - Listas ordenadas con sublistas
+Obtendremos:  
+<img src="./img/ol 6.png">
+
+### 7.1.7 - Listas ordenadas con sublistas
 
 También es posible crear sublistas (listas anidadas). Para crear sublistas, simplemente se anidan más etiquetas `<ol>` o `<ul>` dentro de un `<li>`.
 
@@ -493,22 +509,6 @@ También es posible crear sublistas (listas anidadas). Para crear sublistas, sim
 
 En pantalla, veremos:  
 <img src="./img/ol 2.png">
-
-### 7.1.5 - Atributo `start`
-El atributo `start` permite especificar el número de inicio de la lista.
-
-**Ejemplo con `start`:**
-
-```html
-<ol start="5">
-  <li>Elemento 5</li>
-  <li>Elemento 6</li>
-  <li>Elemento 7</li>
-</ol>
-```
-
-Esto mostrará:  
-<img src="./img/ol 3.png">
 
 ## 7.2 - Listas no ordenadas
 
