@@ -714,26 +714,40 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 - Un formulario es un **conjunto de elementos** que permiten a los usuarios introducir datos en una página web. Estos datos pueden ser enviados a un servidor para su procesamiento o utilizados en el lado del cliente para realizar diversas acciones.
 - Los formularios se crean utilizando la etiqueta `<form>`. Dentro de un formulario, se pueden incluir diferentes tipos de elementos, como **campos de texto**, **casillas de verificación**, **botones de opción**, **listas desplegables** y **botones de envío**.
 
+## 9.1 - Principales elementos de un formulario
+Los elementos principales de un formulario son:
 
-## 9.1 - Estructura básica de un formulario
-**Elementos clave de los formularios:**
-https://www.mclibre.org/consultar/htmlcss/html/html-formularios.html
+- **`<form>`:** Define el formulario y sus atributos. 
+   - `action`: Especifica la URL a la que se enviarán los datos.
+   - `method`: Define el método de envío (`GET` o `POST`).
+   - `target`: Indica dónde se abrirá el resultado (`_self`, `_blank`, etc.).
+   - `enctype`: Se usa con `POST` para especificar cómo se envían los datos (importante para archivos).
 
-* **`<form>`:** Define el formulario y sus atributos, como la URL de destino (`action`) y el método de envío (`method`).
-* **`<input>`:** El elemento más versátil, que permite crear diferentes tipos de campos de entrada, como:
-    * Campos de texto (`type="text"`)
-    * Contraseñas (`type="password"`)
-    * Correos electrónicos (`type="email"`)
-    * Números (`type="number"`)
-    * Casillas de verificación (`type="checkbox"`)
-    * Botones de opción (`type="radio"`)
-    * Botones de envío (`type="submit"`)
-* **`<textarea>`:** Crea un área de texto de varias líneas para que los usuarios puedan introducir texto más extenso.
-* **`<label>`:** Asocia una etiqueta de texto con un elemento de formulario, mejorando la accesibilidad y la usabilidad.
-* **`<select>`:** Crea una lista desplegable para que los usuarios puedan seleccionar una opción de una lista.
-* **`<button>`:** Crea un botón que puede realizar diferentes acciones, como enviar el formulario o realizar otras funciones.
+- **`<input>`:** El elemento más versátil, que permite crear diferentes tipos de campos de entrada, como:
+    - **`text`**: Campo de texto simple.
+    - **`email`**: Solo permite correos electrónicos válidos.
+    - **`password`**: Campo para contraseñas (oculta el texto).
+    - **`number`**: Permite solo números.
+    - **`date`**: Selector de fecha.
+    - **`radio`**: Botón de opción única en un grupo.
+    - **`checkbox`**: Casillas de selección múltiple.
+    - **`file`**: Permite subir archivos.
+    - **`submit`**: Botón para enviar el formulario.
+    - **`reset`**: Reinicia los campos del formulario.
+    
+- **`<textarea>`:** Crea un área de texto de varias líneas para que los usuarios puedan introducir texto más extenso.
+- **`<label>`:** Asocia una etiqueta de texto con un elemento de formulario, mejorando la accesibilidad y la usabilidad.
+- **`<select>`:** Crea una lista desplegable para que los usuarios puedan seleccionar una opción de una lista.
+- **`<button>`:** Crea un botón que puede realizar diferentes acciones, como enviar el formulario o realizar otras funciones.
 
----
+## 9.2 - Validaciones en formularios
+Se pueden agregar validaciones para evitar errores:
+- `required`: Obliga a completar el campo.
+- `maxlength`: Limita el número máximo de caracteres.
+- `min` y `max`: Restringe valores numéricos.
+- `pattern`: Define una expresión regular.
+
+## 9.3 - 
 ---
 
 ```html
@@ -749,28 +763,6 @@ https://www.mclibre.org/consultar/htmlcss/html/html-formularios.html
 ```
 ---
 ---
-### **🔸 Atributos de `<form>`**
-- `action`: Especifica la URL a la que se enviarán los datos.
-- `method`: Define el método de envío (`GET` o `POST`).
-- `target`: Indica dónde se abrirá el resultado (`_self`, `_blank`, etc.).
-- `enctype`: Se usa con `POST` para especificar cómo se envían los datos (importante para archivos).
-
----
-
-## 🔹 **Tipos de `<input>` más comunes**
-La etiqueta `<input>` permite introducir distintos tipos de datos. Algunos de los más usados son:
-
-- **`text`**: Campo de texto simple.
-- **`email`**: Solo permite correos electrónicos válidos.
-- **`password`**: Campo para contraseñas (oculta el texto).
-- **`number`**: Permite solo números.
-- **`date`**: Selector de fecha.
-- **`radio`**: Botón de opción única en un grupo.
-- **`checkbox`**: Casillas de selección múltiple.
-- **`file`**: Permite subir archivos.
-- **`submit`**: Botón para enviar el formulario.
-- **`reset`**: Reinicia los campos del formulario.
-
 Ejemplo con radio y checkbox:
 ```html
 <p>Selecciona tu género:</p>
@@ -790,68 +782,17 @@ Ejemplo con radio y checkbox:
 
 ---
 
-## 🔹 **Otras etiquetas importantes**
-### **`<label>`**
-Asocia un texto descriptivo con un campo de entrada. Mejora la accesibilidad.
-```html
-<label for="usuario">Usuario:</label>
-<input type="text" id="usuario" name="usuario">
-```
 
-### **`<select>` (Menús desplegables)**
-```html
-<label for="pais">País:</label>
-<select id="pais" name="pais">
-  <option value="es">España</option>
-  <option value="mx">México</option>
-  <option value="ar">Argentina</option>
-</select>
-```
 
-### **`<textarea>` (Campos de texto largos)**
-```html
-<label for="comentarios">Comentarios:</label>
-<textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
-```
 
 ---
 
-## 🔹 **Validaciones en formularios**
-Se pueden agregar validaciones para evitar errores:
-- `required`: Obliga a completar el campo.
-- `maxlength`: Limita el número máximo de caracteres.
-- `min` y `max`: Restringe valores numéricos.
-- `pattern`: Define una expresión regular.
+
   
 Ejemplo:
 ```html
 <input type="text" name="dni" pattern="[0-9]{8}[A-Z]" required>
 ```
----
----
-
-
-
-
-**Atributos importantes de `<form>`:**
-
-* **`action`:** Especifica la URL a la que se enviarán los datos del formulario.
-* **`method`:** Define el método de envío de los datos, que puede ser `GET` (los datos se envían en la URL) o `POST` (los datos se envían en el cuerpo de la solicitud).
-
-**Usos comunes de los formularios HTML:**
-
-* Recopilación de información de contacto.
-* Creación de formularios de registro y inicio de sesión.
-* Realización de encuestas y cuestionarios.
-* Procesamiento de pedidos en línea.
-* Búsqueda de información en sitios web.
-
-**Consideraciones adicionales:**
-
-* Es importante validar los datos del formulario tanto en el lado del cliente (con JavaScript) como en el lado del servidor (con lenguajes como PHP o Python) para garantizar la seguridad y la integridad de los datos.
-* Los formularios HTML deben diseñarse de manera accesible y fácil de usar para todos los usuarios, incluidas las personas con discapacidades.
-
-Espero que esta información te sea útil.
 
 
 # 10. Tarea RA2 CE1
