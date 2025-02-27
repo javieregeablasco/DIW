@@ -616,8 +616,8 @@ Las listas de definición se utilizan para definir términos, conceptos o elemen
 # 8. Tablas
 Las **tablas** se definen con la etiqueta `<table>` y permiten estructurar la información en celdas repartidas entre filas y columnas.
 
-De una manera que recuerda a un documento HTML, las tablas se organizan en grupos con las etiquetas `<caption>`, `<thead>`, `<tbody>` y `<tfoot>`.
-
+De una manera que recuerda a un documento HTML, las tablas se organizan en grupos con las etiquetas `<caption>`, `<thead>`, `<tbody>` y `<tfoot>`.  
+</br>
 > **Estructura general de una tabla**  
   
 <img src="./img/table.png" width=100%>  
@@ -751,7 +751,18 @@ Se pueden agregar validaciones para evitar errores:
 - `min` y `max`: Restringe valores numéricos.
 - `pattern`: Define una expresión regular.
 
-## 9.3 - 
+## 9.3 - Ejemplo de formulario
+
+**Ejemplo:**
+
+```html
+<ul style="list-style-type: square;">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+```
+
 ---
 
 ```html
