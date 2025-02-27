@@ -603,10 +603,10 @@ Las listas de definición se utilizan para definir términos, conceptos o elemen
 
 ```html
 <dl>
-  <dt><article><strong>HTML:</strong></article></dt>
-  <dd><span><i>Lenguaje de marcado utilizado para estructurar páginas web.</i></span></dd>
-  <dt><article><strong>CSS:</strong></article></dt>
-  <dd><span><mark>Lenguaje de estilo utilizado para diseñar la apariencia de las páginas web.</mark></span></dd>
+  <dt><strong>HTML:</strong></dt>
+  <dd><i>Lenguaje de marcado utilizado para estructurar páginas web.</i></dd>
+  <dt><strong>CSS:</strong></dt>
+  <dd><mark>Lenguaje de estilo utilizado para diseñar la apariencia de las páginas web.</mark></dd>
 </dl>
 ```
 
@@ -614,15 +614,19 @@ Las listas de definición se utilizan para definir términos, conceptos o elemen
 <img src="./img/dl.png"> 
 
 # 8. Tablas
-Las **tablas** se definen con la etiqueta `<table>` y permiten estructurar la información en filas y columnas (celdas).
+Las **tablas** se definen con la etiqueta `<table>` y permiten estructurar la información en celdas repartidas entre filas y columnas.
 
 De una manera que recuerda a un documento HTML, las tablas se organizan en grupos con las etiquetas `<caption>`, `<thead>`, `<tbody>` y `<tfoot>`.
 
 > **Estructura general de una tabla**  
   
-<img src="./img/table.png" width=100%>
+<img src="./img/table.png" width=100%>  
+
+  
 
 > **Código HTML de la tabla anterior**
+<br>
+
 ```html
 <table>    
   <caption>Título de la tabla</caption>    
