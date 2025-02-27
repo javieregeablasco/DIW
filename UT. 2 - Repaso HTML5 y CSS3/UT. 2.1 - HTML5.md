@@ -622,10 +622,10 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
   
 <img src="./img/table.png" width=100%>  
 
-  
+</br>
 
 > **Código HTML de la tabla anterior**
-<br>
+</br>
 
 ```html
 <table>    
