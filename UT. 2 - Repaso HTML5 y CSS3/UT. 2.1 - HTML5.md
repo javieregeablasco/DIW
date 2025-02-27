@@ -547,7 +547,7 @@ Las listas no ordenadas se crean usando la etiqueta `<ul>` (unordered list), y c
 
 ### 7.2.2 - Personalización de los elementos de las listas no ordenadas
 
-La etiqueta `<ul>` no soporta argumentos que permitan cambiar el tipo de marcador. Sin embargo, la mayoría de navegadores cambian el tipo de marcador en función de la profundidad de anidamiento de la lista no ordenada. 
+La etiqueta `<ul>` no soporta argumentos que permitan cambiar el tipo de marcador. Sin embargo, la mayoría de navegadores cambian el tipo de marcador en función de la profundidad de anidamiento de la lista. 
 
 **Ejemplo**
 ```html
