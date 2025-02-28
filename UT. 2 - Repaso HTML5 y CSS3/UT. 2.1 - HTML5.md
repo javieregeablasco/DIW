@@ -836,6 +836,7 @@ Se pueden agregar validaciones para evitar errores:
 ```  
 
 **Resultado:**
+<img src="./img/formulario.png">
 
 
 
