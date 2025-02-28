@@ -97,11 +97,7 @@
         gap: 5px;
     }
 
-    select {
-        text-align: left !important; 
-        text-align-last: left !important; 
-        direction: ltr !important; 
-    }
+    
     
 </style>
 </head>
@@ -141,12 +137,15 @@
             <textarea id="address" name="address" required></textarea>           
         
         <label for="provincia">Seleccionar una provincia:</label>
-        <select id="provincia" name="provincia">
+        <select id="provincia" name="provincia" size="5">
             <optgroup label="Provincias de Valencia:">
                 <option value="Castellón">Castellón</option>
                 <option value="Valencia" selected>Valencia</option>
                 <option value="Alicante">Alicante</option>        
-            </optgroup>            
+            </optgroup> 
+            <optgroup label="Otras provincias:">
+                <option value="Otras">Otra provincia</option>                       
+            </optgroup>           
         </select>
         
         <label for="ingresos">Ingresos anuales:</label>
