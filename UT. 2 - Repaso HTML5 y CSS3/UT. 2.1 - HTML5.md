@@ -379,7 +379,7 @@ Permiten ajustar la presentación del texto:
 - `&hearts;` → ♥ (Corazón)
 - `&star;` → ★ (Estrella)
 
-## 5.8 - Tarea RA2 CE1-1
+## 5.8 - Tarea RA2 CEa-1
 **Instrucciones:**  
 Observa el siguiente código HTML sin semántica adecuada.
 - Analiza su estructura y comprende su función.
