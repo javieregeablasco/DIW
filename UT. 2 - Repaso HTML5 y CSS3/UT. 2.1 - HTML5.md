@@ -779,6 +779,8 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 **Resultado:**  
 <img src="./img/table1.png">
 
+# 9 - Tarea RA2CEa-2
+
 # 9. Formularios
 - Un formulario es un **conjunto de elementos** que permiten a los usuarios introducir datos en una página web. Estos datos pueden ser enviados a un servidor para su procesamiento o utilizados en el lado del cliente para realizar diversas acciones.
 - Los formularios se crean utilizando la etiqueta `<form>`. Dentro de un formulario, se pueden incluir diferentes tipos de elementos, como **campos de texto**, **casillas de verificación**, **botones de opción**, **listas desplegables** y **botones de envío**.
