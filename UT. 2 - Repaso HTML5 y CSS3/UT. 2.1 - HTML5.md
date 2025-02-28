@@ -384,7 +384,7 @@ Permiten ajustar la presentación del texto:
 Observa el siguiente código HTML sin semántica adecuada.
 - Analiza su estructura y comprende su función.
 - Reescríbelo utilizando etiquetas semánticas apropiadas. 
-- Sube tu solución a AULES en el apartado RA2CE1-1 
+- Sube tu solución a AULES en el apartado RA2CEa-1 
 
 **Código de una Web de noticias**
 ```html
@@ -781,11 +781,11 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 
 # 10. Tarea RA2CEa-2
 **Instrucciones:**  
-Observa el siguiente código HTML sin semántica adecuada.
+Observa el siguiente layout. 
 - Analiza su estructura y comprende su función.
-- Reescríbelo utilizando etiquetas semánticas apropiadas. 
+- Escribe el código HTML para obtener un resultado similar. 
 - Sube tu solución a AULES en el apartado RA2CEa-2 
-
+<img src="./img/RA2CEa-2.png">
 
 # 11. Formularios
 - Un formulario es un **conjunto de elementos** que permiten a los usuarios introducir datos en una página web. Estos datos pueden ser enviados a un servidor para su procesamiento o utilizados en el lado del cliente para realizar diversas acciones.
