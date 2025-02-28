@@ -379,6 +379,70 @@ Permiten ajustar la presentación del texto:
 - `&hearts;` → ♥ (Corazón)
 - `&star;` → ★ (Estrella)
 
+## 5.8 - Ejercicio
+**Instrucciones:**  
+Observa el siguiente código HTML sin semántica adecuada.
+- Analiza su estructura y comprende su función.
+- Reescríbelo utilizando etiquetas semánticas apropiadas.  
+
+**Web de noticias**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div>
+        <div>Sitio de Noticias</div>
+        <div>Las últimas noticias del día</div>
+    </div>
+
+    <div>
+        <a href="#">Inicio</a>
+        <a href="#">Mundo</a>
+        <a href="#">Tecnología</a>
+        <a href="#">Deportes</a>
+        <a href="#">Cultura</a>
+        <a href="#">Contacto</a>
+    </div>
+
+    <div>
+        <div>
+            <div>
+                <div>Última Noticia</div>
+                <div>Un acontecimiento importante ha ocurrido hoy...</div>
+            </div>
+            <div>
+                <div>Noticias de Tecnología</div>
+                <div>Descubre los avances más recientes en el mundo digital...</div>
+            </div>
+            <div>
+                <div>>Deportes</div>
+                <div>El equipo local logra una victoria impresionante...</div>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <div>Publicidad: Compra los mejores productos aquí.</div>
+            </div>
+            <div>
+                <div>Publicidad: Viajes con descuento para este verano.</div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>&copy; 2025 Sitio de Noticias - Todos los derechos reservados</div>
+    </div>
+
+</body>
+</html>
+```
+
 # 6. Enlaces de interés
 - <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element">**MDN** Web Docs</a>   
 - <a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/">**Tabla periódica de etiquetas HTML**</a>  
