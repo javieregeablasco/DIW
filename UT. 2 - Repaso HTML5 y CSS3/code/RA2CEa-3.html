@@ -15,10 +15,10 @@
         <td>
           <label for="NombreEvaluador"><strong>Nombre del tutor*:</strong></label>
           <br>
-          <input id="NombreEvaluador" type="text" maxlength="25" />
+          <input id="NombreEvaluador" type="text" maxlength="25" required />
         </td>
         <td>
-          <label for="TiempoConociendo"><strong>¿Cuánto tiempo llevas conociendo el alumno?</strong></label>
+          <label for="TiempoConociendo"><strong>¿Cuánto tiempo llevas conociendo al alumno?</strong></label>
           <br>
           <select id="TiempoConociendo">
             <option value="1">1 año o menos</option>
@@ -32,13 +32,13 @@
           <br>
           <label for="NombreAlumno"><strong>Nombre del alumno*:</strong></label>
           <br>
-          <input id="NombreAlumno" name="NombreAlumno" type="text" maxlength="100" placeholder="Nombre completo alumno" />
+          <input id="NombreAlumno" name="NombreAlumno" type="text" maxlength="100" placeholder="Nombre completo alumno" required />
         </td>
         <td>          
           <label for="AnyosEscuela"><strong>Años en el IES:</strong></label>
           <br>
           <select id="AnyosEscuela" name="Nivel">
-            <option>- Nivel -</option>
+            <option value="" disabled selected>- Nivel -</option>
             <option value="1ESO">1 ESO</option>
             <option value="2ESO">2 ESO</option>
             <option value="3ESO">3 ESO</option>
@@ -47,8 +47,8 @@
             <option value="2BAT">2 BAT</option>
           </select>
           -
-          <select name="Escolarizado">
-            <option>- Años escolarizado -</option>
+          <select id="Escolarizado" name="Escolarizado">
+            <option value="" disabled selected>- Años escolarizado -</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -69,14 +69,14 @@
       <tr>
         <td>
           <select name="RendimientoAcademico">
-            <option>- Rendimiento -</option>
+            <option value="" disabled selected>- Rendimiento -</option>
             <option value="Bajo">Bajo</option>
             <option value="Normal">Normal</option>
             <option value="Alto">Alto</option>
           </select>
           -
           <select name="ParticipacionClase">
-            <option>- Participación en clase -</option>
+            <option value="" disabled selected>- Participación en clase -</option>
             <option value="Pobre">Pobre</option>
             <option value="Normal">Normal</option>
             <option value="Sobresaliente">Sobresaliente</option>
@@ -88,21 +88,18 @@
           <br>          
           <label for="Comentarios"><strong>Comentarios sobre el alumno:</strong></label>
           <br>
-          <textarea id="Comentarios" name="Comentarios" rows="7" cols="80" placeholder="Máximo 80 caracteres "></textarea>
+          <textarea id="Comentarios" name="Comentarios" rows="7" cols="80" placeholder="Máximo 80 caracteres"></textarea>
         </td>
       </tr>
     </table>
     <hr>
-    <table>
-      <tr>
-        <td colspan="2">
-          <br>
-          <input name="submit" type="submit" value="Enviar" />
-          <input name="skip" type="reset" value="Limpiar" />
-        </td>
-      </tr>
-    </table>
+
+    <br>
+    <input name="submit" type="submit" value="Enviar" />
+    <input name="reset" type="reset" value="Limpiar" />
+
   </form>
 </body>
+
 
 </html>
