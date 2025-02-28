@@ -85,6 +85,18 @@
         cursor: pointer;
     }
 
+    .checkbox-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .checkbox-group label {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+    }
+
     
 </style>
 </head>
@@ -136,18 +148,12 @@
         <label for="dni">Subir fotocopia del DNI</label>
         <input type="file" id="dni" name="pass" required />
     
-        <div>
-            <p>Selecciona tus aficiones:</p>
-            <input type="checkbox" id="deportes" value="deportes">
-            <label for="deportes">Deportes</label></br>     
-            <input type="checkbox" id="musica" value="musica">
-            <label for="musica">Música</label>      
-            <input type="checkbox" id="tecnologia" value="tecnologia">
-            <label for="tecnologia">Tecnología</label>
-            <input type="checkbox" id="viajar" value="viajar">
-            <label for="viajar">Viajar</label>
-
-            
+        <p>Selecciona tus aficiones:</p>
+        <div class="checkbox-group">
+          <label><input type="checkbox" id="deportes" value="deportes"> Deportes</label>    
+          <label><input type="checkbox" id="musica" value="musica"> Música</label>      
+          <label><input type="checkbox" id="tecnologia" value="tecnologia"> Tecnología</label>
+          <label><input type="checkbox" id="viajar" value="viajar"> Viajar</label>
         </div>
 
          
