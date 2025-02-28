@@ -918,8 +918,10 @@ Queremos que el DNI de una persona se introducza correctamente, es decir, 8 digi
 <img src="./img/formulario.png">
 
 # 12. Tarea RA2 CEa-3
-estructura semantica
-tablas
-formularios
-
+**Instrucciones:**  
+- Observa el siguiente layout. 
+- Analiza su estructura y comprende su función.
+- Escribe el código HTML para obtener un resultado similar. 
+- Sube tu solución a AULES en el apartado RA2CEa-3.  
+<img src="./img/RA2CEa-3.png">
 
