@@ -60,12 +60,165 @@ selector {
 }
 ```
 
-## 2.2. - Reglas adicionales en la sintaxis
+## 2.2. - Tipos de selectores
+Existen diversas maneras de definir selectores, desde los más básicos hasta los más avanzados. A continuación, se mostraran los más habituales.
+
+### 2.2.1. - Selectores de etiqueta (Tag Selectors)
+También llamados **selectores de tipo**, se utilizan para aplicar estilos a **todas las instancias** de una etiqueta.  
+
+**Ejemplo**  
+```css
+p {
+  color: blue;
+}
+```
+:arrow_right: Todos los elementos `<p>` de la página tendrán el texto en color azul.  
+
+---
+
+### 2.2.2. - Selectores de identificadores (`id`)
+Se usan para aplicar estilos a un **elemento `id` (identificador) único** en la página.   
+
+**Ejemplo**  
+```css
+#titulo {
+  font-size: 24px;
+  font-weight: bold;
+}
+```
+```html
+<h1 id="titulo">Este es un título</h1>
+```
+:arrow_right: Solo el elemento con `id="titulo"` tendrá el tamaño de 24px y estará en negrita.  
+
+### 2.2.3. - Selectores de clases (`class`)
+Permiten aplicar estilos a múltiples elementos con la misma clase.  
+
+**Ejemplo**  
+```css
+.destacado {
+  background-color: yellow;
+}
+```
+```html
+<p class="destacado">Este párrafo tiene fondo amarillo.</p>
+<div class="destacado">Este div también tiene fondo amarillo.</div>
+```
+:arrow_right: Tanto el `<p>` como el `<div>` con la clase `.destacado` tendrán un fondo amarillo.  
+
+
+### 2.2.4. - Selectores de pseudoclases
+Las pseudoclases permiten aplicar estilos a elementos en función de su estado o posición en el documento.  
+
+**Ejemplo**  
+```css
+a:hover {
+  color: red;
+}
+```
+```html
+<a href="#">Pasa el ratón por aquí</a>
+```
+:arrow_right:** Cuando el usuario pase el ratón sobre el enlace, el color cambiará a rojo.  
+
+**Pseudoclases más comunes**  
+- `:hover` → Cuando el usuario pasa el ratón sobre un elemento.  
+- `:focus` → Cuando un campo de formulario está enfocado.  
+- `:nth-child(n)` → Selecciona un hijo específico de un contenedor.  
+- `:first-child`, `:last-child` → Selecciona el primer o último hijo de un elemento padre.  
+
+### 2.2.5. - Selector Universal (`*`)  
+Aplica estilos a todos los elementos de la página.  
+```css
+* {
+  margin: 0;
+  padding: 0;
+}
+```
+
+### 2.2.6. - Selectores de atributos  
+Permiten aplicar estilos a elementos con atributos específicos.  
+
+**Ejemplo:**  
+```css
+a[target="_blank"] {
+    color: green;
+}
+```
+```html
+<a href="https://ejemplo.com" target="_blank">Abrir en nueva pestaña</a>
+```
+ :arrow_right: Seleccionar todos los enlaces con el atributo `target="_blank"` (se abren en una nueva pestaña) y aplicarles un color de texto verde.  
+    
+- **Otros selectores de atributos:**  
+  - `[type="text"]` → Aplica estilos solo a `<input type="text">`.  
+  - `[disabled]` → Selecciona elementos con el atributo `disabled`.  
+  - `[href^="https"]` → Selecciona enlaces que comiencen con "https".  
+  - `[href$=".png"]` → Selecciona enlaces que terminen con `.png`". 
+
+
+
+
+## 2.3. - Combinación de selectores
+Se usan principalmente para seleccionar elementos dentro de otros elementos permitiendo una aplicación precisa del estilo.
+
+**Ejemplo:**
+```css
+div p {
+    color: red;
+}
+```
+```html
+<div>
+    <p>Este párrafo es rojo.</p>
+</div>
+<p>Este párrafo no es rojo.</p>
+```
+:arrow_right: Solo los `<p>` dentro de `<div>` tendrán el texto en rojo.  
+
+### 2.3.1. - Combinador descendiente
+---
+HASTA AQUÍ
+--- 
+
+##### **Ejemplo: Selector Hijo Directo (`>`)**  
+```css
+div > p {
+    color: blue;
+}
+```
+📌 **Explicación:** Solo los párrafos que son hijos directos de un `<div>` serán azules.  
+
+##### **Ejemplo: Selector Hermano Adyacente (`+`)**
+```css
+h1 + p {
+    color: orange;
+}
+```
+📌 **Explicación:** Selecciona el primer `<p>` que sigue inmediatamente a un `<h1>`.  
+
+---
+
+### **6. Combinación de Selectores**
+Podemos combinar selectores para aplicar estilos de manera más precisa.  
+
+#### **Ejemplo: Usar un `id` y una `class` juntos**
+```css
+#contenedor .elemento {
+    font-size: 18px;
+}
+```
+📌 **Explicación:** Solo los elementos con la clase `.elemento` dentro del `#contenedor` tendrán el tamaño de fuente de 18px.  
+
+
+
+    ## 2.3. - Cascadas de estilos
+
+
+---
 https://lenguajecss.com/css/introduccion/css-moderno/
-
-
 https://nachoiborraies.github.io/htmlcss/
-
+---
 
 
 
