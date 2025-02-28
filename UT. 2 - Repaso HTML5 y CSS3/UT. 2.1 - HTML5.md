@@ -753,6 +753,7 @@ Se pueden agregar validaciones para evitar errores:
 
 ## 9.3 - Ejemplo de formulario
 
+**Código:**  
 ```html
 <form>
   <fieldset>
@@ -832,7 +833,11 @@ Se pueden agregar validaciones para evitar errores:
 
   </fieldset>
 </form>
-```
+```  
+
+**Resultado:**
+
+
 
 ---
 
