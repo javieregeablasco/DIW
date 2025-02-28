@@ -753,14 +753,8 @@ Se pueden agregar validaciones para evitar errores:
 
 ## 9.3 - Ejemplo de formulario
 
-**Ejemplo:**
-
 ```html
-<ul style="list-style-type: square;">
-  <li>Elemento 1</li>
-  <li>Elemento 2</li>
-  <li>Elemento 3</li>
-</ul>
+
 ```
 
 ---
