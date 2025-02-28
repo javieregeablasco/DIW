@@ -112,15 +112,19 @@
         
         <label for="name">Introducir el nombre completo:</label>
         <input type="text" id="name" name="name" required />
+        <br><br>
 
         <label for="email">Introducir el correo electrónico:</label>
         <input type="email" id="email" name="email" required />
+        <br><br>
 
         <label for="password">Introducir la contraseña:</label>
         <input type="password" id="password" name="password" required />
+        <br><br>
 
         <label for="confirmPassword">Repetir la contraseña:</label>
         <input type="password" id="confirmPassword" name="confirmPassword" required />
+        <br><br>
 
         <label>Seleccionar el género:</label>
         <div class="gender-group">
@@ -131,12 +135,15 @@
             <input type="radio" name="gender" value="others" id="others" />
             <label for="others">Otros</label>
         </div>
-
+        <br><br>
+        
         <label for="dob">Fecha de nacimiento:</label>
         <input type="date" id="dob" name="dob" required />
+        <br><br>
 
         <label for="address">Dirección de residencia:</label>
         <textarea id="address" name="address" required></textarea>           
+        <br><br>
 
         <label for="provincia">Seleccionar una provincia:</label>
         <select id="provincia" name="provincia">
@@ -149,12 +156,15 @@
                 <option value="Otras">Otra provincia</option>                       
             </optgroup>           
         </select>
+        <br><br>
 
         <label for="ingresos">Ingresos anuales:</label>
         <input type="number" id="ingresos" name="ingresos" min="0" required />   
+        <br><br>
 
         <label for="dni">Subir fotocopia del DNI:</label>
         <input type="file" id="dni" name="dni" required />
+        <br><br>
 
         <p>Selecciona tus aficiones:</p>
         <div class="checkbox-group">
@@ -163,12 +173,11 @@
             <label><input type="checkbox" name="aficiones" value="tecnologia"> Tecnología</label>
             <label><input type="checkbox" name="aficiones" value="viajar"> Viajar</label>
         </div>
-        <br>
+        <br><br>
 
         <label for="rango">Satisfacción del formulario:</label>
         <input type="range" id="rango" name="satisfaccion" min="0" max="10" value="5" class="slider">
-        
-        <br><br>
+        <br><br><br>
 
         <input type="submit" value="Enviar" />
         <input type="reset" value="Restablecer" />
