@@ -54,11 +54,6 @@
         border-radius: 4px;
     }
 
-    label[type="deportes"] {
-        margin-left: 50px;
-        display: flex;
-    }
-
     input[type="file"] {
         border: none;
 
@@ -88,6 +83,10 @@
         padding: 10px 20px;
         border-radius: 5px;
         cursor: pointer;
+    }
+
+    div {
+        display: flex;
     }
 </style>
 </head>
@@ -139,15 +138,19 @@
         <label for="dni">Subir fotocopia del DNI</label>
         <input type="file" id="dni" name="pass" required />
     
-        <p>Selecciona tus aficiones:</p>
-        <input type="checkbox" id="deportes" value="deportes">
-        <label for="deportes">Deportes</label>      
-        <input type="checkbox" id="musica" value="musica">
-        <label for="musica">Música</label>      
-        <input type="checkbox" id="tecnologia" value="tecnologia">
-        <label for="tecnologia">Tecnología</label>
-        <input type="checkbox" id="viajar" value="viajar">
-        <label for="viajar">Viajar</label>
+        <div>
+            <p>Selecciona tus aficiones:</p>
+            <input type="checkbox" id="deportes" value="deportes">
+            <label for="deportes">Deportes</label>      
+            <input type="checkbox" id="musica" value="musica">
+            <label for="musica">Música</label>      
+            <input type="checkbox" id="tecnologia" value="tecnologia">
+            <label for="tecnologia">Tecnología</label>
+            <input type="checkbox" id="viajar" value="viajar">
+            <label for="viajar">Viajar</label>
+
+            
+        </div>
 
          
         
