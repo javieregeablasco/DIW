@@ -110,34 +110,34 @@
         
         <label for="name">Introducir el nombre completo:</label>
         <input type="text" id="name" name="name" required />
-        
+
         <label for="email">Introducir el correo electrónico:</label>
         <input type="email" id="email" name="email" required />
-        
+
         <label for="password">Introducir la contraseña:</label>
-        <input type="password" id="password" name="pass" required />
-        
+        <input type="password" id="password" name="password" required />
+
         <label for="confirmPassword">Repetir la contraseña:</label>
-        <input type="password" id="confirmPassword" name="confirmPass" required />
-        
-        <label>Seleccionar el genero:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required />
+
+        <label>Seleccionar el género:</label>
         <div class="gender-group">
             <input type="radio" name="gender" value="male" id="male" required />
-            <label for="male">Mujer</label>
+            <label for="male">Hombre</label>
             <input type="radio" name="gender" value="female" id="female" />
-            <label for="female">Hombre</label>
+            <label for="female">Mujer</label>
             <input type="radio" name="gender" value="others" id="others" />
             <label for="others">Otros</label>
         </div>
 
         <label for="dob">Fecha de nacimiento:</label>
-            <input type="date" id="dob" name="dob" required />
-        
+        <input type="date" id="dob" name="dob" required />
+
         <label for="address">Dirección de residencia:</label>
-            <textarea id="address" name="address" required></textarea>           
-        
+        <textarea id="address" name="address" required></textarea>           
+
         <label for="provincia">Seleccionar una provincia:</label>
-        <select id="provincia" name="provincia"> <!--Si ponemos el argumento size="..." perdemos el desplegable-->
+        <select id="provincia" name="provincia">
             <optgroup label="Provincias de Valencia:">
                 <option value="Castellón">Castellón</option>
                 <option value="Valencia" selected>Valencia</option>
@@ -147,31 +147,33 @@
                 <option value="Otras">Otra provincia</option>                       
             </optgroup>           
         </select>
-        
+
         <label for="ingresos">Ingresos anuales:</label>
-        <input type="number" id="ingresos" name="pass" required />   
-        
-        <label for="dni">Subir fotocopia del DNI</label>
-        <input type="file" id="dni" name="pass" required />
-    
+        <input type="number" id="ingresos" name="ingresos" min="0" required />   
+
+        <label for="dni">Subir fotocopia del DNI:</label>
+        <input type="file" id="dni" name="dni" required />
+
         <p>Selecciona tus aficiones:</p>
         <div class="checkbox-group">
-          <label><input type="checkbox" id="deportes" value="deportes"> Deportes</label>    
-          <label><input type="checkbox" id="musica" value="musica"> Música</label>      
-          <label><input type="checkbox" id="tecnologia" value="tecnologia"> Tecnología</label>
-          <label><input type="checkbox" id="viajar" value="viajar"> Viajar</label>
+            <label><input type="checkbox" name="aficiones" value="deportes"> Deportes</label>    
+            <label><input type="checkbox" name="aficiones" value="musica"> Música</label>      
+            <label><input type="checkbox" name="aficiones" value="tecnologia"> Tecnología</label>
+            <label><input type="checkbox" name="aficiones" value="viajar"> Viajar</label>
         </div>
-        <br>
 
-        <label for="satifaccion">Satisfacción del formulario:</label>
-        <input type="range" min="0" max="10" value="5" class="slider" id="rango">
+        <label for="rango">Satisfacción del formulario:</label>
+        <input type="range" id="rango" name="satisfaccion" min="0" max="10" value="5" class="slider">
+        
         <br><br>
-                
-        <input type="submit" value="submit" />
-        <input type="reset" value="reset" />
+
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Restablecer" />
 
     </fieldset>
 </form>
+
+    
 </div>
 
 </body>
