@@ -385,7 +385,7 @@ Observa el siguiente código HTML sin semántica adecuada.
 - Analiza su estructura y comprende su función.
 - Reescríbelo utilizando etiquetas semánticas apropiadas.  
 
-**Web de noticias**
+**Código de una Web de noticias**
 ```html
 <!DOCTYPE html>
 <html lang="es">
