@@ -379,7 +379,7 @@ Permiten ajustar la presentación del texto:
 - `&hearts;` → ♥ (Corazón)
 - `&star;` → ★ (Estrella)
 
-## 5.8 - Tarea RA2 CEa-1
+## 6 - Tarea RA2 CEa-1
 **Instrucciones:**  
 Observa el siguiente código HTML sin semántica adecuada.
 - Analiza su estructura y comprende su función.
@@ -444,24 +444,24 @@ Observa el siguiente código HTML sin semántica adecuada.
 </html>
 ```
 
-# 6. Enlaces de interés
+# 7. Enlaces de interés
 - <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element">**MDN** Web Docs</a>   
 - <a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/">**Tabla periódica de etiquetas HTML**</a>  
 - <a href="https://lenguajehtml.com/html/cheatsheets/download/?amount=0&cmd=_donations&hosted_button_id=6XU7D2MX6ZJCA&business=joseromanhernandez%40gmail.com&return=https%3A%2F%2Flenguajehtml.com%2Fhtml%2Fcheatsheets%2Fdownload%2F&item_name=HTML5+Cheatsheet+%28Donation%29&currency_code=EUR">**HTML cheatsheets**</a>
 
 
-# 7. Listas
+# 8. Listas
 Las listas permiten organizar y presentar información de manera estructurada. Existen tres tipos básicos de listas:
 
 - **Listas ordenadas:** Los elementos tienen un orden específico que se puede mostrar mediante números, letras, números romanos, etc. Son útiles cuando el orden es importante, como en instrucciones, clasificaciones, etc.
 - **Listas no ordenadas:** Los elementos no siguen ningún orden específico. Están representados visualmente por puntos, círculos, cuadrados u otros estilos. Se utilizan cuando el orden no es relevante, como en una lista de compras o una lista de elementos de una categoría.
 - **Listas de definición:** Cada elemento de la lista consta de un término o clave, seguido de una descripción o valor asociado. Este tipo de lista se usa principalmente para definir conceptos o vocabulario.
 
-## 7.1 - Listas ordenadas
+## 8.1 - Listas ordenadas
 Las listas ordenadas se crean utilizando la etiqueta `<ol>`, y cada elemento de la lista se define dentro de la etiqueta `<li>` (list item).  
 El orden predeterminado de los elementos es numérico, pero es posible personalizarlo mediante el atributo `type` de la etiqueta `<ol>`.
 
-### 7.1.1 - Sintaxis básica de una lista ordenada
+### 8.1.1 - Sintaxis básica de una lista ordenada
 
 ```html
 <ol>
@@ -471,7 +471,7 @@ El orden predeterminado de los elementos es numérico, pero es posible personali
 </ol>
 ```
 
-### 7.1.2 - Personalización del tipo de numeración  
+### 8.1.2 - Personalización del tipo de numeración  
 Se puede cambiar el estilo de la numeración usando el atributo `type` en la etiqueta `<ol>`: 
 
 - `1`: Números arábigos (1, 2, 3, ...).
@@ -488,7 +488,7 @@ Se puede cambiar el estilo de la numeración usando el atributo `type` en la eti
 </ol>
 ```
 
-### 7.1.3 - Listas ordenadas con numeración automática
+### 8.1.3 - Listas ordenadas con numeración automática
 Si no se especifica un valor en el atributo `type`, la numeración será automática con números arábigos:
 
 Si escribimos el siguiente código:
@@ -504,7 +504,7 @@ Obtendremos el siguiente resultado en pantalla:
 
 <img src="./img/ol.png">
 
-### 7.1.4 - Numeración inversa de una lista
+### 8.1.4 - Numeración inversa de una lista
 Con el atributo `reversed` de `<ol>` invertiremos el sentido de numeración de la lista. 
 
 Si escribimos el siguiente código:
@@ -519,7 +519,7 @@ Si escribimos el siguiente código:
 Obtendremos:  
 <img src="./img/ol 4.png">
 
-### 7.1.5 - Valor inicial de numeración de una lista
+### 8.1.5 - Valor inicial de numeración de una lista
 Con el atributo `start` de `<ol>` definiremos el valor inicial de la lista. 
 
 Si escribimos el siguiente código:
@@ -536,7 +536,7 @@ Si escribimos el siguiente código:
 Obtendremos:  
 <img src="./img/ol 5.png">
 
-### 7.1.6 - Alteración de los valores de una lista
+### 8.1.6 - Alteración de los valores de una lista
 Con el atributo `value` de `<li>` podemos alterar los valores de una lista **dentro de una lista**. 
 
 Con el siguiente ejemplo:
@@ -554,7 +554,7 @@ Con el siguiente ejemplo:
 Obtendremos:  
 <img src="./img/ol 6.png">
 
-### 7.1.7 - Anidamiento de listas
+### 8.1.7 - Anidamiento de listas
 
 También es posible crear sublistas (listas anidadas). Para crearlas, simplemente anidaremos más etiquetas `<ol>` o `<ul>` dentro de un `<li>`.
 
@@ -594,11 +594,11 @@ También es posible crear sublistas (listas anidadas). Para crearlas, simplement
 En pantalla, veremos:  
 <img src="./img/ol 2.png">
 
-## 7.2 - Listas no ordenadas
+## 8.2 - Listas no ordenadas
 
 Las listas no ordenadas se crean usando la etiqueta `<ul>` (unordered list), y cada ítem dentro de la lista se define con la etiqueta `<li>`. Los elementos de una lista no ordenada se presentan por defecto con un punto, aunque este estilo se puede personalizar mediante CSS.
 
-### 7.2.1 - Sintaxis básica de una lista no ordenada
+### 8.2.1 - Sintaxis básica de una lista no ordenada
 
 ```html
 <ul>
@@ -610,7 +610,7 @@ Las listas no ordenadas se crean usando la etiqueta `<ul>` (unordered list), y c
 <img src="./img/ul.png">
 
 
-### 7.2.2 - Personalización de los elementos de las listas no ordenadas
+### 8.2.2 - Personalización de los elementos de las listas no ordenadas
 
 La etiqueta `<ul>` no soporta argumentos que permitan cambiar el tipo de marcador. Sin embargo, la mayoría de navegadores cambian el tipo de marcador en función de la profundidad de anidamiento de la lista. 
 
@@ -656,7 +656,7 @@ La etiqueta `<ul>` no soporta argumentos que permitan cambiar el tipo de marcado
 </ul>
 ```
 
-## 7.3 - Listas de definición
+## 8.3 - Listas de definición
 
 Las listas de definición se utilizan para definir términos, conceptos o elementos junto con sus definiciones o explicaciones. Se crean con las etiquetas `<dl>` (definition list), `<dt>` (definition term) y `<dd>` (definition description).
 
@@ -678,7 +678,7 @@ Las listas de definición se utilizan para definir términos, conceptos o elemen
 **Esto se verá como:**  
 <img src="./img/dl.png"> 
 
-# 8. Tablas
+# 9. Tablas
 Las **tablas** se definen con la etiqueta `<table>` y permiten estructurar la información en celdas repartidas entre filas y columnas.
 
 De una manera que recuerda a un documento HTML, las tablas se organizan en grupos con las etiquetas `<caption>`, `<thead>`, `<tbody>` y `<tfoot>`.  
@@ -779,13 +779,13 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 **Resultado:**  
 <img src="./img/table1.png">
 
-# 9 - Tarea RA2CEa-2
+# 10. Tarea RA2CEa-2
 
-# 9. Formularios
+# 11. Formularios
 - Un formulario es un **conjunto de elementos** que permiten a los usuarios introducir datos en una página web. Estos datos pueden ser enviados a un servidor para su procesamiento o utilizados en el lado del cliente para realizar diversas acciones.
 - Los formularios se crean utilizando la etiqueta `<form>`. Dentro de un formulario, se pueden incluir diferentes tipos de elementos, como **campos de texto**, **casillas de verificación**, **botones de opción**, **listas desplegables** y **botones de envío**.
 
-## 9.1 - Principales elementos de un formulario
+## 11.1 - Principales elementos de un formulario
 Los elementos principales de un formulario son:
 
 - **`<form>`:** Define el formulario y sus atributos. 
@@ -811,7 +811,7 @@ Los elementos principales de un formulario son:
 - **`<select>`:** Crea una lista desplegable para que los usuarios puedan seleccionar una opción de una lista.
 - **`<button>`:** Crea un botón que puede realizar diferentes acciones, como enviar el formulario o realizar otras funciones.
 
-## 9.2 - Validaciones en formularios
+## 11.2 - Validaciones en formularios
 Se pueden agregar validaciones para evitar errores:
 - `required`: Obliga a completar el campo.
 - `maxlength`: Limita el número máximo de caracteres.
@@ -824,7 +824,7 @@ Queremos que el DNI de una persona se introducza correctamente, es decir, 8 digi
 <input type="text" name="dni" pattern="[0-9]{8}[A-Z]" required>
 ```
 
-## 9.3 - Ejemplo de formulario
+## 11.3 - Ejemplo de formulario
 
 **Código:**  
 ```html
@@ -911,7 +911,7 @@ Queremos que el DNI de una persona se introducza correctamente, es decir, 8 digi
 **Resultado:**  
 <img src="./img/formulario.png">
 
-# 10. Tarea RA2 CE1
+# 11. Tarea RA2 CEa-3
 estructura semantica
 tablas
 formularios
