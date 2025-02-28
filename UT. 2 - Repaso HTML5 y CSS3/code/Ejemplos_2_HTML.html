@@ -98,9 +98,10 @@
     }
 
     select {
-        text-align: left;
+        text-align: left !important; 
+        text-align-last: left !important; /* Asegura que la opción seleccionada también esté a la izquierda */
+        direction: ltr !important; /* Asegura la dirección del texto de izquierda a derecha */
     }
-
     
 </style>
 </head>
