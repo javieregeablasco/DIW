@@ -6,53 +6,31 @@ Palabras clave: DAW, DIW
 ---
 
 # 1. Introducción
+**CSS3 (Cascading Style Sheets, nivel 3)** es la última versión del lenguaje de estilos que permite controlar la apariencia y el diseño (estilos) de las páginas web.  
+Para definir un estilo sobre una página web en CSS, se utiliza lo que se llaman reglas. Una regla se compone de un **selector** (nombre del elemento sobre el que se va a aplicar el estilo) y, entre llaves y separados por punto y coma, las declaraciones o estilos que vamos a aplicar sobre ese elemento (tipo de letra, tamaño, color, bordes…). Cada declaración está formada por una propiedad y un valor (o valores) asociado a esa propiedad.  
+Los estilos se organizan en hojas de estilos, que son archivos donde definimos cómo se verá nuestra página web. En lugar de escribir los estilos directamente dentro del HTML, los guardamos en un archivo separado (estilos.css) y lo enlazamos desde nuestra página web usando la etiqueta <link> en el <head>.
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Sitio Web de Noticias</title>
+</head>
+```
+
+
+https://lenguajecss.com/css/introduccion/como-usar-css/
+
+
 https://nachoiborraies.github.io/htmlcss/
-https://lenguajecss.com/css/introduccion/que-es-css/
 
 
-Diseño web con HTML y CSS
-Introducción a CSS
-   
-A la hora de afrontar el diseño web de un sitio, fundamentalmente vamos a acudir a dos tipos de documentos, que pueden formar uno solo o estar enlazados entre sí:
 
-Los documentos HTML, mediante los que dotaremos de estructura y contenido a cada página, es decir, indicaremos qué tipos de contenidos tendrán (imágenes, párrafos, títulos, subtítulos, etc), y en qué orden.
-Los documentos CSS, mediante los que dotaremos de estilo a las páginas, es decir, indicaremos aspectos como el tipo de letra, tamaño, colores, bordes, márgenes, etc.
-Como veremos a lo largo de este tema, ambos conceptos son independientes, es decir, podemos tener páginas HTML que no tengan ningún estilo CSS (aunque no es lo habitual), y documentos de estilos CSS que no apliquemos a ninguna página (aunque serían inútiles). Así, estas dos herramientas de diseño pueden caminar en paralelo, vincularse la una a la otra en las páginas que nos interesen, o bien embeber los estilos en la propia página.
 
-1. Historia
-Para dotar de estilo a una página disponemos de lo que se llaman hojas de estilo en cascada (en inglés Cascading Style Sheets, abreviado CSS). Se trata de fragmentos de texto que definen estilos para los diferentes elementos de las páginas web, y que pueden ir tanto embebidos en la misma página web, como enlazados desde un fichero aparte. De esta forma se consigue separar por un lado el contenido (que irá en páginas HTML) del estilo (que irá en documentos CSS).
 
-La primera versión de CSS (CSS1) fue publicada en 1996. En ella se definieron las directrices para ciertos estilos básicos, como tipos de letra, color de texto, alineación, márgenes, bordes…
-
-Le siguió poco tiempo después CSS2, publicada en 1998, y que corregía y ampliaba las posibilidades de CSS1, añadiendo posicionamientos, sombras, textos bidireccionales, etc. Esta versión tuvo una revisión, la CSS2.1, que corregía algunos errores encontrados y eliminaba algunas funcionalidades que muchos navegadores no soportaban.
-
-Finalmente, llegamos a la versión de CSS3. A diferencia de las anteriores, que son especificaciones globales de mucha información contenida, esta versión está formada por una serie de módulos, y cada uno añade un paquete de funcionalidades a lo que ya había en CSS2, por lo que se mantiene la compatibilidad con esta versión. De hecho, se empezó a trabajar con CSS3 en 1999, y cada módulo ha tenido una evolución diferente. Algunos se convirtieron en estándares pronto, y otros han tenido un camino más largo que recorrer.
-
-2. Funcionamiento básico
-Para definir un estilo sobre una página web en CSS, se utiliza lo que se llaman reglas. Una regla se compone de un selector (nombre del elemento sobre el que se va a aplicar el estilo) y, entre llaves y separados por punto y coma, las declaraciones o estilos que vamos a aplicar sobre ese elemento, como por ejemplo tipo de letra, tamaño, color, bordes… Cada declaración está formada por una propiedad y un valor (o valores) asociado a esa propiedad.
-
-Así, si quisiéramos establecer que todos los párrafos de una página web fueran de color rojo y de tamaño 12 puntos tendríamos una regla como la siguiente:
-
-p 
-{ 
-    color:red; 
-    font-size: 12pt; 
-} 
-Observemos que lo primero que ponemos es el selector, o nombre del elemento (en este caso, el nombre de la etiqueta HTML que hace referencia a los párrafos, p). Después, entre llaves, los diferentes estilos a aplicar, a base de declaraciones. En este ejemplo usamos dos declaraciones: una con la propiedad color para cambiar el color del texto a rojo, y otra con la propiedad font-size para cambiar el tamaño de letra a 12 puntos.
-
-Si quisiéramos añadir otro estilo (otra regla) para que los encabezados de nivel 1 tengan color verde, podríamos añadirlo a continuación (o antes) del anterior:
-
-p 
-{ 
-    color: red; 
-    font-size: 12pt; 
-}
-
-h1 
-{ 
-    color: green; 
-}
-Veremos más adelante varios ejemplos de estilos que podemos incluir en estas llaves, divididos en categorías, pero primero vamos a ver cómo podemos aplicar estos estilos a una página HTML.
 
 2.1. Aplicar los estilos a las páginas
 Para aplicar un estilo o un conjunto de estilos CSS a una página web, tenemos varias alternativas:
