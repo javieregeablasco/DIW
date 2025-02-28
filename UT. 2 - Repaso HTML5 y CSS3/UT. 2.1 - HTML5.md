@@ -845,6 +845,8 @@ Queremos que el DNI de una persona se introducza correctamente, es decir, 8 digi
 <img src="./img/formulario.png">
 
 # 10. Tarea RA2 CE1
-
+estructura semantica
+tablas
+formularios
 
 
