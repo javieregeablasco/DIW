@@ -384,7 +384,7 @@ Permiten ajustar la presentación del texto:
 Observa el siguiente código HTML sin semántica adecuada.
 - Analiza su estructura y comprende su función.
 - Reescríbelo utilizando etiquetas semánticas apropiadas. 
-- Sube tu solución a AULES en el apartado RA2CEa-1 
+- Sube tu solución a AULES en el apartado RA2CEa-1.
 
 **Código de una Web de noticias**
 ```html
@@ -781,10 +781,10 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 
 # 10. Tarea RA2CEa-2
 **Instrucciones:**  
-Observa el siguiente layout. 
+- Observa el siguiente layout. 
 - Analiza su estructura y comprende su función.
 - Escribe el código HTML para obtener un resultado similar. 
-- Sube tu solución a AULES en el apartado RA2CEa-2 
+- Sube tu solución a AULES en el apartado RA2CEa-2.  
 <img src="./img/RA2CEa-2.png">
 
 # 11. Formularios
@@ -917,7 +917,7 @@ Queremos que el DNI de una persona se introducza correctamente, es decir, 8 digi
 **Resultado:**  
 <img src="./img/formulario.png">
 
-# 11. Tarea RA2 CEa-3
+# 12. Tarea RA2 CEa-3
 estructura semantica
 tablas
 formularios
