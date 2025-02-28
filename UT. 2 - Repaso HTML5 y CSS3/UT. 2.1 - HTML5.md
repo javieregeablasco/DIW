@@ -780,6 +780,12 @@ De una manera que recuerda a un documento HTML, las tablas se organizan en grupo
 <img src="./img/table1.png">
 
 # 10. Tarea RA2CEa-2
+**Instrucciones:**  
+Observa el siguiente código HTML sin semántica adecuada.
+- Analiza su estructura y comprende su función.
+- Reescríbelo utilizando etiquetas semánticas apropiadas. 
+- Sube tu solución a AULES en el apartado RA2CEa-2 
+
 
 # 11. Formularios
 - Un formulario es un **conjunto de elementos** que permiten a los usuarios introducir datos en una página web. Estos datos pueden ser enviados a un servidor para su procesamiento o utilizados en el lado del cliente para realizar diversas acciones.
