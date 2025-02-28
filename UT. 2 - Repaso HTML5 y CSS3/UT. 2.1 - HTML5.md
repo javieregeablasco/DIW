@@ -751,6 +751,12 @@ Se pueden agregar validaciones para evitar errores:
 - `min` y `max`: Restringe valores numéricos.
 - `pattern`: Define una expresión regular.
 
+**Ejemplo**  
+Queremos que el DNI de una persona se introducza correctamente, es decir, 8 digitos y una letra:
+```html
+<input type="text" name="dni" pattern="[0-9]{8}[A-Z]" required>
+```
+
 ## 9.3 - Ejemplo de formulario
 
 **Código:**  
@@ -835,56 +841,12 @@ Se pueden agregar validaciones para evitar errores:
 </form>
 ```  
 
-**Resultado:**
+**Resultado:**  
 <img src="./img/formulario.png">
 
 
 
----
-
-```html
-<form action="procesar.php" method="POST">
-  <label for="nombre">Nombre:</label>
-  <input type="text" id="nombre" name="nombre" required>
-
-  <label for="email">Correo:</label>
-  <input type="email" id="email" name="email" required>
-
-  <input type="submit" value="Enviar">
-</form>
-```
----
----
-Ejemplo con radio y checkbox:
-```html
-<p>Selecciona tu género:</p>
-<input type="radio" id="masculino" name="genero" value="masculino">
-<label for="masculino">Masculino</label>
-
-<input type="radio" id="femenino" name="genero" value="femenino">
-<label for="femenino">Femenino</label>
-
-<p>Selecciona tus intereses:</p>
-<input type="checkbox" id="musica" name="intereses" value="musica">
-<label for="musica">Música</label>
-
-<input type="checkbox" id="deporte" name="intereses" value="deporte">
-<label for="deporte">Deporte</label>
-```
-
----
-
-
-
-
----
-
-
-  
 Ejemplo:
-```html
-<input type="text" name="dni" pattern="[0-9]{8}[A-Z]" required>
-```
 
 
 # 10. Tarea RA2 CE1
