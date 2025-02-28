@@ -6,9 +6,11 @@ Palabras clave: DAW, DIW
 ---
 
 # 1. Introducción
-**CSS3 (Cascading Style Sheets, nivel 3)** es la última versión del lenguaje de estilos que permite controlar la apariencia y el diseño (estilos) de las páginas web.  
-Para definir un estilo sobre una página web en CSS, se utiliza lo que se llaman reglas. Una regla se compone de un **selector** (nombre del elemento sobre el que se va a aplicar el estilo) y, entre llaves y separados por punto y coma, las declaraciones o estilos que vamos a aplicar sobre ese elemento (tipo de letra, tamaño, color, bordes…). Cada declaración está formada por una propiedad y un valor (o valores) asociado a esa propiedad.  
-Los estilos se organizan en hojas de estilos, que son archivos donde definimos cómo se verá nuestra página web. En lugar de escribir los estilos directamente dentro del HTML, los guardamos en un archivo separado (estilos.css) y lo enlazamos desde nuestra página web usando la etiqueta <link> en el <head>.
+CSS3 (Cascading Style Sheets, nivel 3) es la versión más reciente del lenguaje de estilos que permite controlar la apariencia y el diseño de las páginas web mediante hojas de estilos.
+
+Para definir un estilo, se utilizan lo que se conocen como reglas. Cada regla está compuesta por un selector (el nombre del elemento al que se aplicará el estilo) y un bloque de declaraciones, donde se especifican los estilos a aplicar (como tipo de letra, tamaño, color o bordes). Cada declaración consta de una propiedad y un valor (o varios valores) asociado a esa propiedad.
+
+Los estilos se organizan en hojas de estilos, donde definimos cómo se verá nuestra página web. Aunque es posible escribir los estilos directamente dentro del documento HTML (usando la etiqueta `<style>` en el `<head>` o con atributos style en los elementos), esto no se considera una buena práctica. Por ello, lo recomendable es almacenarlos en un archivo separado (por ejemplo, estilos.css) y enlazarlo a la página web mediante la etiqueta `<link>` dentro del `<head>`.
 
 ```html
 <!DOCTYPE html>
