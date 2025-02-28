@@ -35,6 +35,13 @@ Los estilos se organizan en hojas de estilos, donde definimos cómo se verá nue
 </head>
 ```
 
+**Formas de aplicar estilos:**
+| Mediante...                       | Descripción                                                |
+|------------------------------------|------------------------------------------------------------|
+| Etiqueta `<link rel="stylesheet">` en el `<head>`  | Archivo CSS externo: El código se escribe en un archivo `.css` aparte. |
+| Etiqueta `<style>`                 | Bloque de estilos: El código se escribe en una etiqueta `<style>` dentro del documento HTML. |
+| Atributo HTML `style="..."`        | Estilos en línea: El código se escribe en un atributo `style` dentro de una etiqueta HTML. |
+
 
 https://lenguajecss.com/css/introduccion/como-usar-css/
 
