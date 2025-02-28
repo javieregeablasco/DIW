@@ -42,8 +42,26 @@ Los estilos se organizan en hojas de estilos, donde definimos cómo se verá nue
 | Etiqueta `<style>`                 | Bloque de estilos: El código se escribe en una etiqueta `<style>` dentro del documento HTML. |
 | Atributo HTML `style="..."`        | Estilos en línea: El código se escribe en un atributo `style` dentro de una etiqueta HTML. |
 
+# 2. Sintaxis CSS
+Como hemos visto, la sintaxis de CSS se basa en **reglas** que definen cómo se debe aplicar el estilo a los elementos de una página web. Cada regla está compuesta por **selectores**, **propiedades** y **valores**.  
 
-https://lenguajecss.com/css/introduccion/como-usar-css/
+## 2.1. - Elementos de la sintaxis CSS
+1. **Selector:** Indica a qué elementos HTML se aplicarán los estilos.  
+2. **Propiedad:** Define la característica visual que se va a modificar.  
+3. **Valor:** Especifica cómo se aplicará la propiedad.  
+4. **Bloque de declaraciones:** Se encuentra entre llaves `{}` y agrupa las declaraciones de las propiedades y sus valores.   
+5. **Comentarios:** Contiene información aclaratoria sobre el contenido del selector.
+
+ **Estructura básica de una regla CSS**  
+```css
+selector {
+  propiedad: valor;
+  propiedad: valor;
+}
+```
+
+## 2.2. - Reglas adicionales en la sintaxis
+https://lenguajecss.com/css/introduccion/css-moderno/
 
 
 https://nachoiborraies.github.io/htmlcss/
