@@ -32,6 +32,12 @@ div p {
   text-decoration:underline;
 }
 
+table, th, td {
+  border: 1px solid black;
+  padding: 8px; /* Añade espacio alrededor del contenido de las celdas */
+  text-align: center; /* Alinea el texto a la izquierda */
+}
+
   </style>
 </head>
 
@@ -53,7 +59,7 @@ div p {
     <p>Párrafo 6 (dentro de otro div)</p>
   </div>
   
-  <table border="1">
+  <table>
     <caption>Ejemplo de combinadores de estilos sobre una tabla</caption>
     <thead>
       <tr>
@@ -65,38 +71,38 @@ div p {
     </thead> 
     <tbody>
       <tr>
-        <td>&nbsp;&nbsp;Fila 1 (contenido)&nbsp;&nbsp;</td>
+        <td>Fila 1</td>
         <td>&nbsp;&nbsp;(contenido sin especificar)&nbsp;&nbsp;</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>&nbsp;&nbsp;Fila 2 (contenido)&nbsp;&nbsp;</td>
+        <td>Fila 2</td>
         <td></td>
         <td>&nbsp;&nbsp;(contenido sin especificar)&nbsp;&nbsp;</td>
         <td></td>
         
       </tr>
       <tr>
-        <td>&nbsp;&nbsp;Fila 3 (contenido)&nbsp;&nbsp;</td>
+        <td>Fila 3</td>
         <td></td>
         <td></td>
         <td>&nbsp;&nbsp;(contenido sin especificar)&nbsp;&nbsp;</td>
       </tr>
       <tr>
-        <td>&nbsp;&nbsp;Fila 4 (contenido)&nbsp;&nbsp;</td>
+        <td>Fila 4</td>
         <td>&nbsp;&nbsp;(contenido sin especificar)</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>&nbsp;&nbsp;Fila 5 (contenido)&nbsp;&nbsp;</td>
+        <td>Fila 5</td>
         <td></td>
         <td>&nbsp;&nbsp;(contenido sin especificar)</td>
         <td></td>
       </tr>
       <tr>
-        <td>&nbsp;&nbsp;Fila 6 (contenido)</td>
+        <th>Fila 6</th>
         <td></td>
         <td></td>
         <td>&nbsp;&nbsp;(contenido sin especificar)</td>
