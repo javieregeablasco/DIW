@@ -127,7 +127,30 @@ a:hover {
 - `:nth-child(n)` → Selecciona un hijo específico de un contenedor.  
 - `:first-child`, `:last-child` → Selecciona el primer o último hijo de un elemento padre.  
 
-### 2.2.5. - Selector Universal (`*`)  
+### 2.2.5. - Selectores de pseudoelementos
+Los pseudoelementos permiten aplicar estilos a partes específicas de un elemento. Se utilizan para **crear elementos virtuales que no existen en el DOM**, pero que se pueden estilizar como si fueran elementos reales.
+
+```css
+a::before {
+  content: "→"; 
+  margin-right: 5px; 
+  color: blue; 
+}
+```
+:arrow_right: Cada enlace `<a>` tendrá una flecha azul antes del texto separada del contenido con un margen de 5px. 
+
+**Pseudo-elementos más comunes**
+
+* `::before`: Inserta contenido antes del contenido del elemento seleccionado.
+* `::after`: Inserta contenido después del contenido del elemento seleccionado.
+* `::first-letter`: Selecciona la primera letra del contenido del elemento.
+* `::first-line`: Selecciona la primera línea del contenido del elemento.
+* `::selection`: Selecciona la parte del contenido del elemento que el usuario ha seleccionado.
+* `::marker`: Estiliza los marcadores de las listas (`<li>`).
+* `::placeholder`: Estiliza el texto de marcador de posición de los campos de formulario.
+* `::file-selector-button`: Estiliza el botón de selección de archivos de los campos de entrada de tipo `file`.
+
+### 2.2.6. - Selector Universal (`*`)  
 Aplica estilos a todos los elementos de la página.  
 ```css
 * {
@@ -136,7 +159,7 @@ Aplica estilos a todos los elementos de la página.
 }
 ```
 
-### 2.2.6. - Selectores de atributos  
+### 2.2.7. - Selectores de atributos  
 Permiten aplicar estilos a elementos con atributos específicos.  
 
 **Ejemplo:**  
@@ -156,9 +179,6 @@ a[target="_blank"] {
   - `[href^="https"]` → Selecciona enlaces que comiencen con "https".  
   - `[href$=".png"]` → Selecciona enlaces que terminen con `.png`". 
 
-
-
-
 ## 2.3. - Combinación de selectores
 Se usan principalmente para seleccionar elementos dentro de otros elementos permitiendo una aplicación precisa del estilo.
 
@@ -176,7 +196,114 @@ div p {
 ```
 :arrow_right: Solo los `<p>` dentro de `<div>` tendrán el texto en rojo.  
 
-### 2.3.1. - Combinador descendiente
+### 2.3.1. - Combinador descendiente (espacio)
+El combinador de espacio, permite seleccionar elementos HTML basados en su relación jerárquica dentro del documento. 
+
+* **Sintaxis:**  
+    `selector_padre selector_descendiente`. El espacio en blanco entre los selectores indica la relación de descendencia.
+
+**Ejemplo**
+```css
+div p {
+  color: blue;
+}
+```
+:arrow_right: Selecciona todos los elementos `<p>` que están dentro de cualquier elemento `<div>` en la página y les aplica el color azul.
+
+  ### 2.3.2. - Combinador hijo (>)
+Los combinadores hijo permiten seleccionar elementos que son hijos directos de otro elemento especificado. Esto significa que **solo seleccionan elementos que están inmediatamente anidados dentro de otro elemento**, sin importar si hay otros elementos intermedios.
+
+* **Sintaxis:**
+    `selector_padre > selector_hijo`
+
+**Ejemplo**
+```css
+ul > li {
+  color: red;
+}
+```
+:arrow_right: Selecciona solo los elementos `<li>` que **son hijos directos de elementos** `<ul>` y les aplica el color rojo. Los elementos `<li>` que estén anidados dentro de otros elementos dentro del `<ul>` no se verán afectados.
+
+### 2.3.3. - Combinador hermano adyacente (+)
+El combinador de hermano adyacente permite seleccionar un elemento que **sigue inmediatamente a otro elemento especificado**, siempre y cuando ambos compartan el mismo elemento padre.
+
+* **Sintaxis:**
+    `selector_anterior + selector_siguiente`
+    
+**Ejemplo**
+```css
+h2 + p {
+  color: green;
+}
+```
+:arrow_right: Selecciona solo el elemento `<p>` que viene justo después de un elemento `<h2>` y le aplica el color verde. Si hay otros párrafos después del `<h2>` pero no inmediatamente, no se verán afectados.
+
+### 2.3.4. - Combinador hermano general (~)
+El combinador de hermano general permite seleccionar elementos que **comparten el mismo padre y que siguen a otro elemento específico, sin importar si están inmediatamente adyacentes a él**.
+
+* **Sintaxis:**
+    `selector_anterior ~ selector_siguiente`
+
+**Ejemplos**
+```css
+h2 ~ p {
+  color: purple;
+}
+```
+:arrow_right: Selecciona todos los elementos `<p>` que siguen a un elemento `<h2>` **sin importar cuántos elementos haya entre ellos**, y les aplica el color púrpura.
+
+### 2.3.5. - Tabla resumen
+| **Combinador** | **Símbolo** | **Ejemplo** | **Descripción** |  
+|--|--|--|--|
+| **Combinador descendiente** | (espacio) | div p | Selecciona elementos dentro de otros (cualquier nivel). |  
+| **Combinador hijo** | > | ul > li | Selecciona hijos directos. |  
+| **Combinador hermano adyacente** | + | h2 + p | Selecciona elementos contiguos a otros (mismo nivel). |  
+| **Combinador hermano general** | ~ | h2 ~ p | Selecciona elementos que siguen a otros (mismo nivel). |  
+    
+**Ejemplo**
+```html
+<div class="contenedor">
+  <p>Párrafo 1 (dentro del contenedor)</p>
+  <section>
+    <p>Párrafo 2 (dentro de la sección)</p>
+    <div>
+      <p>Párrafo 3 (dentro del div anidado)</p>
+    </div>
+  </section>
+  <h2>Encabezado 1</h2>
+  <p>Párrafo 4 (hermano adyacente de h2)</p>
+  <p>Párrafo 5 (hermano general de h2)</p>
+  <div>
+    <p>Párrafo 6 (dentro de otro div)</p>
+  </div>
+  <p>Párrafo 7 (otro hermano general de h2)</p>
+</div>
+<p>Párrafo 8 (fuera del contenedor)</p>
+```
+```css
+/* Combinador descendiente (espacio): selecciona todos los descendientes */
+.contenedor p {
+  color: blue;
+}
+
+/* Combinador hijo (>): selecciona solo los hijos directos */
+.contenedor > section > p {
+  font-weight: bold;
+}
+
+/* Combinador hermano adyacente (+): selecciona el hermano siguiente inmediato */
+h2 + p {
+  background-color: lightgreen;
+}
+
+/* Combinador hermano general (~): selecciona todos los hermanos siguientes */
+h2 ~ p {
+  text-decoration: underline;
+}
+```
+
+
+
 ---
 HASTA AQUÍ
 --- 
@@ -210,9 +337,6 @@ Podemos combinar selectores para aplicar estilos de manera más precisa.
 ```
 📌 **Explicación:** Solo los elementos con la clase `.elemento` dentro del `#contenedor` tendrán el tamaño de fuente de 18px.  
 
-
-
-    ## 2.3. - Cascadas de estilos
 
 
 ---
