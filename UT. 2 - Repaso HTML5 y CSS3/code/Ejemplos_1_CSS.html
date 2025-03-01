@@ -19,6 +19,7 @@
 /* Combinador hermano adyacente (+): selecciona el hermano siguiente inmediato */
 h2 + p {
   background-color: lightgreen;
+  color: black !important;
 }
 
 /* Combinador hermano general (~): selecciona todos los hermanos siguientes */
@@ -47,9 +48,11 @@ div p {
     <p>Párrafo 4 se aplica el combinador <mark>h2 + p</mark> al ser hermano adyacente</p>
     <p>Párrafo 5 no se aplica el combinador <mark>h2 + p</mark> al no ser hermano adyacente</p>
   </div>
+  
   <div>
     <p>Párrafo 6 (dentro de otro div)</p>
   </div>
+  
   <table border="1">
     <caption>Ejemplo de combinadores de estilos sobre una tabla</caption>
     <thead>
@@ -99,11 +102,11 @@ div p {
         <td></td>
       </tr>
     </tbody>
-    
-
   </table>
-    <p>Párrafo 7 (otro hermano general de h2)</p>
-  </div>
+
+
+  <p>Párrafo 7 (otro hermano general de h2)</p>
+  
   <p>Párrafo 8 (fuera del contenedor)</p>
 
 </body>
