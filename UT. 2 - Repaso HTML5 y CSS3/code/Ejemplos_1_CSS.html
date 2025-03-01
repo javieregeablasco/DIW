@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+/* Combinador descendiente (espacio): selecciona todos los descendientes */
+.contenedor p {
+  color: blue;
+}
+
+/* Combinador hijo (>): selecciona solo los hijos directos */
+.contenedor > section > p {
+  font-weight: bold;
+}
+
+/* Combinador hermano adyacente (+): selecciona el hermano siguiente inmediato */
+h2 + p {
+  background-color: lightgreen;
+}
+
+/* Combinador hermano general (~): selecciona todos los hermanos siguientes */
+h2 ~ p {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+  
+</body>
+</html>
