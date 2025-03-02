@@ -96,7 +96,7 @@
       background-color: rgba(184, 22, 149, 0.068);
     } 
 
-    div.hermano + div {
+    p.hermano + p {
       color: blue;
     }
 
@@ -193,14 +193,9 @@ table, th, td {
     <section class="parrafos3">
       <article>
         <p><strong>En esta sección de parrafos aplicaremos combinadores hermano adyacente (+)</strong></p>
-        <div class="hermano">
-          <p class="hijo">A este texto se le aplica el estilo definido por el <strong>combinador hermano adyacente </strong>al estar al lado del hermano.</p>
-        </div>
-        <div class="hermanoAdyancente">
-          <p class="hijo">A este texto se le aplica el estilo definido por el <strong>combinador hijo </strong> al ser descendiente directo de <strong>div.padre</strong>.</p>
-        </div>
-        <div class="hermano_No_Adyacente">
-            <p class="hijo">A este texto se le aplica el estilo definido por el <strong>combinador hijo </strong> al ser descendiente directo de <strong>div.padre</strong>.</p>
+        <p class="hermano">Este texto representa el primer hermano.</p>
+        <p class="hermanoAdyancente">A este texto se le aplica el estilo definido por el <strong>combinador hermano adyacente </strong>al estar al lado del hermano</strong>.</p>
+        <p class="hermano_No_Adyacente">A este texto se le aplica el estilo definido por el <strong>combinador hijo </strong> al ser descendiente directo de <strong>div.padre</strong>.</p>
         </div>
         <div class="hermano_No_Adyacente">
             <p class="hijo">A este texto se le aplica el estilo definido por el <strong>combinador hijo </strong> al ser descendiente directo de <strong>div.padre</strong>.</p>
