@@ -189,15 +189,18 @@ table, th, td {
     <section class="parrafos3">
       <article>
         <p><strong>En esta sección de parrafos aplicaremos combinadores hermano adyacente (+)</strong></p>
-        <div class="padre">
+        <div class="hermano">
           <p class="hijo">A este texto se le aplica el estilo definido por el <strong>combinador hijo </strong> al ser descendiente directo de <strong>div.padre</strong>.</p>
-          <div>
-            <p class="nieto">A este texto <strong>no se le aplicará el estilo al ser nieto</strong></p>
-            <div>
-              <p class="bisnieto">Otro texto más anidado aun. Tampoco se le aplicará el estilo al ser bisnieto.</p> 
-            </div>
-          </div>
-        </div>                    
+        </div>
+        <div class="hermanoAdyancente">
+          <p class="hijo">A este texto se le aplica el estilo definido por el <strong>combinador hijo </strong> al ser descendiente directo de <strong>div.padre</strong>.</p>
+        </div>
+        <div class="hermanoNoAdyacente">
+          <p class="hijo">A este texto se le aplica el estilo definido por el <strong>combinador hijo </strong> al ser descendiente directo de <strong>div.padre</strong>.</p>
+        </div>
+        <div class="hermanoNoAdyacente">
+          <p class="hijo">A este texto se le aplica el estilo definido por el <strong>combinador hijo </strong> al ser descendiente directo de <strong>div.padre</strong>.</p>
+        </div>
       </article>        
     </section>
      
