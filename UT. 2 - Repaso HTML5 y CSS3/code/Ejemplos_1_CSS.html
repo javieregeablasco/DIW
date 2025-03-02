@@ -44,10 +44,14 @@
     
     /* seccion parrafos */
 
-.parrafos1 {
-  border: 1px solid rgb(212, 131, 131); 
-  padding: 0.25rem;
-}
+    .parrafos1 {
+      border: 1px solid rgb(212, 131, 131); 
+      padding: 0.25rem;
+    }
+
+    article > p {
+      text-decoration: line-through;
+    }
 
 .parrafos > p{
   font-style: italic;
@@ -115,9 +119,11 @@ table, th, td {
       <p>Hemos definido una seccion a la que le aplicamos un border rojo, un padding de 0.5rem</p>
           
       <article>
-        <p>Linea 1: Aplicamos el combinador <mark>hijo directo (>) de article</mark></p>
-        <p>Párrafo 2, se aplica el combinador <mark>.contenedor > section > p</mark></p>
-          <div>
+        <p>Linea 1: Aplicamos el combinador <mark>hijo directo (>) de article</mark>, con un estilo tachado </p>
+        <p>Linea 2: Esta línea, no se le aplicará  el combinador hijo directo al no ser hijo directo.</p>
+      </article>  
+        <div>
+
 
     
           <p>Párrafo 3, no se aplica el combinador <mark>.contenedor > section > p</mark> al no ser hijo directo</p>
