@@ -114,15 +114,15 @@ table, th, td {
     <section class="parrafos1">
       <p>Hemos definido una seccion a la que le aplicamos un border rojo, un padding de 0.5rem</p>
           
-      <div>
-      <p>Párrafo 1, se aplica el combinador <mark>.contenedor p</mark></p>
-      <section>
-        <p>Párrafo 2, se aplica el combinador <mark>.contenedor > section > p</mark></p>
-        <div>
+      <article>
+        <p>Párrafo 1, se aplica el combinador <mark>.contenedor p</mark></p>
+        <article>
+          <p>Párrafo 2, se aplica el combinador <mark>.contenedor > section > p</mark></p>
+          <div>
 
     
           <p>Párrafo 3, no se aplica el combinador <mark>.contenedor > section > p</mark> al no ser hijo directo</p>
-        </div>
+          </div>
       </section>
       <h2>Encabezado 1</h2>
       <p>Párrafo 4 se aplica el combinador <mark>h2 + p</mark> al ser hermano adyacente</p>
