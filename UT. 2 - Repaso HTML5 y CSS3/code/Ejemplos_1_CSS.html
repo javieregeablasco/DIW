@@ -61,6 +61,15 @@
       background-color: rgb(235, 208, 168);
     }
 
+    .parrafos2 {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding: 0.25rem;
+      border: 1px solid rgb(194, 212, 92);  
+      border-radius: 0.5rem;  
+      box-shadow: 4px 4px 5px rgba(194, 212, 92, 0.5); 
+      background-color: rgb(235, 208, 168);
+    }
 
 
 
@@ -135,18 +144,20 @@ table, th, td {
           <li>Si lo dejamos tal cual veremos que heredamos un estilo sobre &lt;li&gt; que hemos definido anteriormente así que podremos otro estilo para sobreescribirlo.</li>
         </ol>
       </article>  
-
-      <article>
-        <p>En esta sección de parrafos aplicaremos combinadores hermanos adyacente</p>
-        <div>
-          <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
-          <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
-        </div>
-        </div>
-      </article>
-    
     </section>
     
+    <section class="parrafos2">
+      <article>
+          <p>En esta sección de parrafos aplicaremos combinadores hermanos adyacente</p>
+          <div>
+            <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
+            <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
+          </div>
+          </div>
+      </article>        
+    </section>
+    
+     
     
     <h2>Encabezado 1</h2>
       <p>Párrafo 4 se aplica el combinador <mark>h2 + p</mark> al ser hermano adyacente</p>
