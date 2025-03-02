@@ -6,42 +6,43 @@
   <title>Selectores de estilos</title>
   <style>
     /* seccion universal */
-* {
-  /*aunque sea para fines didácticos, solo usar el * para propiedades esenciales*/
-  background-color: rgb(213, 233, 183);
-}
-/* fin seccion universal */
-
-/* seccion header */
-header {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.25rem;
-  border: 1px solid rgb(6, 56, 37);  
-  border-radius: 0.5rem;  
-  box-shadow: 4px 4px 5px rgba(29, 53, 2, 0.685); 
-}
-
-h1 {
-  text-align: center;
-  text-decoration: underline;
-}
-
-h1 ~ ul {
-  font-style: italic;
-}
-
-header, h1, ul, li, strong {
-  background-color: bisque;
-}
-/* fin seccion header */
-
-
-hr {
-  border: 1px solid rgb(202, 121, 121);
-}
-
-
+    * {
+      /* aunque el ejemplo sea para fines didácticos, solo usar el * para propiedades esenciales */
+      background-color: rgb(213, 233, 183);
+    }
+    /* fin seccion universal */
+    
+    /* seccion header */
+    header {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding: 0.25rem;
+      border: 1px solid rgb(6, 56, 37);  
+      border-radius: 0.5rem;  
+      box-shadow: 4px 4px 5px rgba(29, 53, 2, 0.685); 
+    }
+    
+    h1 {
+      text-align: center;
+      text-decoration: underline;
+    }
+    
+    h1 ~ ul {
+      font-style: italic;
+    }
+    
+    header, h1, ul, li, strong {
+      background-color: bisque;
+    }
+    /* fin seccion header */
+    
+    /* linea de separacion entre secciones */
+    hr {
+      border: 1px solid rgb(202, 121, 121);
+    }
+    /* fin linea de separacion entre secciones */
+    
+    /* seccion parrafos */
 
 #parrafos {
   border: 1px solid rgb(212, 131, 131); 
@@ -103,7 +104,7 @@ table, th, td {
   <header>
     <h1>El selector universal * añade un color al fondo</h1>
     <ul>
-      <li>Además el selector * centra todo el contenido y delimita un ancho de 75vw.</li>
+      <li>El selector * es <mark>"peligroso"</mark> ya que aplica estilos a TODOS los elementos del documento.</li>
       <li>Con el combinador hermano general <strong>h1 ~ ul</strong> ponemos en itálica estas 2 listas que siguen al h1.</li>
     </ul>    
   </header>
