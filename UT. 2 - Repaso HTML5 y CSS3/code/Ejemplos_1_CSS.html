@@ -115,13 +115,14 @@ table, th, td {
     <h1>El selector universal * añade un color al fondo</h1>
     <ul>
       <li>El <strong>selector * </strong>es <strong>"peligroso" y muy potente </strong>ya que aplica estilos a <strong>TODOS </strong>los elementos del documento.</li>
-      <li>Con el combinador hermano general <strong>h1 ~ ul </strong>ponemos en itálica estas 2 listas que siguen al h1.</li>
+      <li>Con el combinador hermano general <strong>h1 ~ ul </strong> es decir que <strong>h1 y ul estan al mismo nivel </strong>ponemos en itálica estas 2 listas que siguen al h1.</li>
     </ul>    
   </header>
   <hr>
 
   <main>
     <section class="parrafos1">
+    
       <p>Hemos definido una seccion a la que le aplicamos un border rojo, un padding de 0.5rem</p>
           
       <article>
@@ -132,12 +133,14 @@ table, th, td {
         </ol>
       </article>  
 
-
-      <div>
-        <p>Párrafo 3, no se aplica el combinador <mark>.contenedor > section > p</mark> al no ser hijo directo</p>
-        <p>Párrafo 3, no se aplica el combinador <mark>.contenedor > section > p</mark> al no ser hijo directo</p>
-        <p>Párrafo 3, no se aplica el combinador <mark>.contenedor > section > p</mark> al no ser hijo directo</p>
-      </div>
+      <article>
+        <div>
+          <p>Párrafo 3, no se aplica el combinador <mark>.contenedor > section > p</mark> al no ser hijo directo</p>
+          <p>Párrafo 3, no se aplica el combinador <mark>.contenedor > section > p</mark> al no ser hijo directo</p>
+          <p>Párrafo 3, no se aplica el combinador <mark>.contenedor > section > p</mark> al no ser hijo directo</p>
+        </div>
+      </article>
+    
     </section>
     
     
