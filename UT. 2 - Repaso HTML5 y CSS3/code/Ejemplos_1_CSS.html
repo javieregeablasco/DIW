@@ -72,9 +72,9 @@
       border-radius: 0.5rem;  
       box-shadow: 4px 4px 5px rgba(190, 142, 119, 0.5); 
       background-color: rgb(226, 203, 221);
-    }
-
-    .parrafos2 p > div {
+    }  
+    
+    .nivel_0 > div {
       color: aqua;
     }
 
@@ -156,11 +156,19 @@ table, th, td {
     <section class="parrafos2">
       <article>
           <p><strong>En esta sección de parrafos aplicaremos combinadores hijos</strong></p>
-          <div>
-            <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
-            <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
-          </div>
-          </div>
+          <div class="nivel_0">
+            <div>
+              <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
+              <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
+              <p>texto de prueba</p>
+            
+              <div>
+                <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
+                <p>Párrafo 3, no se aplica el combinador <strong>.contenedor > section > p</strong> al no ser hijo directo</p>
+                <p>texto de prueba</p>
+              </div>
+            </div>
+          </div>  
       </article>        
     </section>
     
