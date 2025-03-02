@@ -50,7 +50,7 @@
     }
 
     article > p {
-      text-decoration: line-through;
+      text-decoration: underline;
     }
 
 .parrafos > p{
@@ -119,8 +119,12 @@ table, th, td {
       <p>Hemos definido una seccion a la que le aplicamos un border rojo, un padding de 0.5rem</p>
           
       <article>
-        <p>Linea 1: Aplicamos el combinador <mark>hijo directo (>) de article</mark>, con un estilo tachado </p>
-        <p>Linea 2: Esta línea, no se le aplicará  el combinador hijo directo al no ser hijo directo.</p>
+        <ul>
+          <p>Linea 1: Aplicamos el combinador <mark>descendiente (_) de article</mark>, con un estilo subrayado.</p>
+          <p>Linea 2: Esta línea, también se le aplicará el combinador descendiente.</p>
+
+
+        </ul>
       </article>  
         <div>
 
