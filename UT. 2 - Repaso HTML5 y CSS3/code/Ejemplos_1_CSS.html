@@ -19,8 +19,14 @@ h1 {
 
 h1 + p {
   text-align: center;
+  font-style: italic;
 }
 
+.parrafos {
+  border: 1 solid red !important; 
+}
+
+/*
 section {
   height: 100%;
   width: 75vw;
@@ -30,24 +36,25 @@ section {
   border: 1px solid blue;
 }
 
-/* Combinador descendiente (espacio): selecciona todos los descendientes */
+ Combinador descendiente (espacio): selecciona todos los descendientes 
 .contenedor p {
   color: blue;
 }
 
-/* Combinador hijo (>): selecciona solo los hijos directos */
+ Combinador hijo (>): selecciona solo los hijos directos 
 .contenedor > section > p {
   font-weight: bold;
   color: red;
 }
 
-/* Combinador hermano adyacente (+): selecciona el hermano siguiente inmediato */
+* Combinador hermano adyacente (+): selecciona el hermano siguiente inmediato 
 h2 + p {
   background-color: black;
   color: whitesmoke !important;
+  tex
 }
 
-/* Combinador hermano general (~): selecciona todos los hermanos siguientes */
+ Combinador hermano general (~): selecciona todos los hermanos siguientes 
 h2 ~ p {
   text-decoration: underline;
 }
@@ -59,25 +66,28 @@ div p {
 
 table, th, td {
   border: 1px solid black;
-  padding: 8px; /* Añade espacio alrededor del contenido de las celdas */
-  text-align: center; /* Alinea el texto al centro */
+  padding: 8px;  Añade espacio alrededor del contenido de las celdas 
+  text-align: center;  Alinea el texto al centro 
 }
-
+*/
   </style>
 </head>
 
 <body>
   <header>
     <h1>El selector universal añade un color al fondo</h1>
-    <p>Con el selector descendiente <strong>* (espacio) h1</strong> añadiremos estilos adicionales al título: centrado y subrayado.</p>    
+    <p>Con el combinador hermano adyacente <strong>h1 + p</strong> damos estilo a este texto: centrado e itálica.</p>    
   </header>
   <main>
 
+    <section id="parrafos">
     <div class="contenedor">
       <p>Párrafo 1, se aplica el combinador <mark>.contenedor p</mark></p>
       <section>
         <p>Párrafo 2, se aplica el combinador <mark>.contenedor > section > p</mark></p>
         <div>
+
+    
           <p>Párrafo 3, no se aplica el combinador <mark>.contenedor > section > p</mark> al no ser hijo directo</p>
         </div>
       </section>
@@ -85,6 +95,7 @@ table, th, td {
       <p>Párrafo 4 se aplica el combinador <mark>h2 + p</mark> al ser hermano adyacente</p>
       <p>Párrafo 5 no se aplica el combinador <mark>h2 + p</mark> al no ser hermano adyacente</p>
     </div>
+  </section>  
     
     <div>
       <p>Párrafo 6 (dentro de otro div)</p>
