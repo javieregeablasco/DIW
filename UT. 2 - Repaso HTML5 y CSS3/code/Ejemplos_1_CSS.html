@@ -44,12 +44,12 @@
     
     /* seccion parrafos */
 
-#parrafos {
+.parrafos1 {
   border: 1px solid rgb(212, 131, 131); 
-  padding: 0.5rem;
+  padding: 0.25rem;
 }
 
-#parrafos > p{
+.parrafos > p{
   font-style: italic;
 }
 
@@ -109,10 +109,11 @@ table, th, td {
     </ul>    
   </header>
   <hr>
+
   <main>
-    <section id="parrafos">
+    <section class="parrafos1">
       <p>Hemos definido una seccion a la que le aplicamos un border rojo, un padding de 0.5rem</p>
-      <hr>    
+          
       <div>
       <p>Párrafo 1, se aplica el combinador <mark>.contenedor p</mark></p>
       <section>
@@ -128,6 +129,11 @@ table, th, td {
       <p>Párrafo 5 no se aplica el combinador <mark>h2 + p</mark> al no ser hermano adyacente</p>
     </div>
   </section>  
+
+  <section class="parrafos2">
+
+
+  </section>
     
     <div>
       <p>Párrafo 6 (dentro de otro div)</p>
