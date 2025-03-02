@@ -448,7 +448,7 @@ Observa el siguiente código HTML sin semántica adecuada.
 - <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element">**MDN** Web Docs</a>   
 - <a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/">**Tabla periódica de etiquetas HTML**</a>  
 - <a href="https://lenguajehtml.com/html/cheatsheets/download/?amount=0&cmd=_donations&hosted_button_id=6XU7D2MX6ZJCA&business=joseromanhernandez%40gmail.com&return=https%3A%2F%2Flenguajehtml.com%2Fhtml%2Fcheatsheets%2Fdownload%2F&item_name=HTML5+Cheatsheet+%28Donation%29&currency_code=EUR">**HTML cheatsheets**</a>
-
+- <a href="https://www.webusable.com/CharsExtendedTable.html">**Códigos de caracteres en HTML</a>
 
 # 8. Listas
 Las listas permiten organizar y presentar información de manera estructurada. Existen tres tipos básicos de listas:
