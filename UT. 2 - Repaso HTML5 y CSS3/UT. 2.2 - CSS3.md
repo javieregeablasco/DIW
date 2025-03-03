@@ -327,7 +327,7 @@ Las hojas de estilos alternativas permiten definir diferentes estilos para un mi
 - Diferentes estilos para mejorar la accesibilidad.  
 - Personalización de la interfaz según las preferencias del usuario.  
 
-### Ejemplo de implementación:  
+**Ejemplo:**  
 ```html
 <head>
   <link rel="stylesheet" href="estilos-principal.css" title="Estilo por defecto">
@@ -339,14 +339,13 @@ Para cambiar entre estilos alternativos, es necesario utilizar JavaScript o conf
 **Nota**
 El soporte para **hojas de estilos alternativas** es limitado en los navegadores modernos. Aunque la especificación de HTML permite definirlas con `rel="alternate stylesheet"`, la mayoría de los navegadores actuales no ofrecen una interfaz nativa para cambiar entre ellas.  
 
-### Soporte en navegadores:  
-
-- **Firefox**: Hasta versiones recientes, permitía cambiar entre hojas de estilos alternativas a través del menú "Ver" → "Estilo de página". Sin embargo, esta función ha sido eliminada en versiones más nuevas.  
+## 4.1. - Soporte en navegadores:  
+- **Firefox**: Hasta la versión 135.0.1, permite cambiar entre hojas de estilos a través del menú "Ver" → "Estilo de página".  
 - **Safari**: Soporta hojas de estilos alternativas, pero no proporciona una interfaz de usuario para cambiarlas. Solo es posible hacerlo mediante JavaScript.  
 - **Google Chrome, Edge, Opera y otros basados en Chromium**: No soportan hojas de estilos alternativas de forma nativa, por lo que el cambio debe hacerse mediante JavaScript.  
 
-### Cómo cambiar hojas de estilo con JavaScript:  
-Dado que la mayoría de los navegadores no permiten seleccionar estilos alternativos de forma predeterminada, es común usar JavaScript para gestionarlos manualmente:  
+ ## 4.2. - Cambiar hojas de estilo con JavaScript  
+Dado que la mayoría de los navegadores no permiten seleccionar estilos alternativos de forma nativa, se usará JavaScript para gestionarlos manualmente:  
 
 ```javascript
 function cambiarEstilo(titulo) {
@@ -356,9 +355,6 @@ function cambiarEstilo(titulo) {
 }
 ```
 
-Luego, puedes llamar a `cambiarEstilo('Estilo alternativo');` para activarlo.  
-
-En conclusión, aunque la especificación de hojas de estilos alternativas sigue vigente, su soporte es inconsistente en los navegadores actuales, por lo que suele ser necesario un enfoque basado en JavaScript para implementarlas eficazmente.
 
 
 
