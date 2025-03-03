@@ -347,12 +347,7 @@ El soporte para **hojas de estilos alternativas** es limitado en los navegadores
  ## 4.2. - Cambiar hojas de estilo con JavaScript  
 Dado que la mayoría de los navegadores no permiten seleccionar estilos alternativos de forma nativa, se usará JavaScript para gestionarlos manualmente:  
 
-```javascript
-function cambiarEstilo(titulo) {
-    document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
-        link.disabled = link.title !== titulo;
-    });
-}
+**Ejemplo:**
 ```
 
 
