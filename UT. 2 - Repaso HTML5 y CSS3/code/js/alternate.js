@@ -1,5 +1,5 @@
 function toggleMode() {
-  let links = document.querySelectorAll('link[rel="canonical"], link[rel="alternate"]');
+  let links = document.querySelectorAll('link[rel="stylesheet"], link[rel="alternatestylesheet"]');
   links.forEach(link => {
       link.disabled = !link.disabled;
   });
