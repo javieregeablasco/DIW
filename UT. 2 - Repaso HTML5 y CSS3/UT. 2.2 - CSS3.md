@@ -319,32 +319,10 @@ Aquí tienes un desarrollo del enunciado:
 
 ---
 
-# 4. Hojas de Estilos  
+# 4. Hojas de estilos alternativas
+Las hojas de estilos alternativas permiten definir diferentes estilos para un mismo documento, ofreciendo al usuario la posibilidad de elegir entre distintas apariencias predefinidas. Se implementan utilizando el atributo `rel="alternate stylesheet"` en la etiqueta `<link>`.  
 
-Las hojas de estilos en cascada (CSS) permiten definir la apariencia y el diseño de una página web. Existen diferentes formas de aplicar estilos a un documento HTML.  
-
-## 4.1. Hojas de Estilos Externas  
-
-Las hojas de estilos externas son archivos CSS independientes que se vinculan a un documento HTML mediante la etiqueta `<link>` en la sección `<head>`. Esta técnica permite separar el contenido del diseño, facilitando la reutilización y el mantenimiento de los estilos en múltiples páginas.  
-
-### Ventajas:  
-- Permiten una mejor organización del código.  
-- Facilitan la actualización del diseño de un sitio web.  
-- Reducen la redundancia y el tamaño del HTML.  
-- Mejoran el rendimiento al aprovechar la caché del navegador.  
-
-### Ejemplo de vinculación:  
-```html
-<head>
-  <link rel="stylesheet" href="estilos.css">
-</head>
-```  
-
-## 4.2. Hojas de Estilos Alternativas  
-
-Las hojas de estilos alternativas permiten definir diferentes estilos para un mismo documento HTML, ofreciendo al usuario la posibilidad de elegir entre distintas apariencias predefinidas. Se implementan utilizando el atributo `rel="alternate stylesheet"` en la etiqueta `<link>`.  
-
-### Usos comunes:  
+**Usos comunes:**  
 - Cambios de tema (modo claro/oscuro).  
 - Diferentes estilos para mejorar la accesibilidad.  
 - Personalización de la interfaz según las preferencias del usuario.  
@@ -358,6 +336,7 @@ Las hojas de estilos alternativas permiten definir diferentes estilos para un mi
 ```  
 
 Para cambiar entre estilos alternativos, es necesario utilizar JavaScript o configuraciones específicas en el navegador.
+**Nota**
 alternativas
 
 
