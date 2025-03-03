@@ -256,7 +256,7 @@ h2 ~ p {
 | **Combinador** | **Símbolo** | **Ejemplo** | **Descripción** |  
 |--|--|--|--|
 | **Combinador descendiente** | (espacio) | div p | Selecciona elementos dentro de otros (cualquier nivel). |  
-| **Combinador hijo** | > | ul > li | Selecciona hijos directos. |  
+| **Combinador hijo** | > | ul > li | Selecciona hijos directos (primer nivel). |  
 | **Combinador hermano adyacente** | + | h2 + p | Selecciona elementos contiguos a otros (mismo nivel). |  
 | **Combinador hermano general** | ~ | h2 ~ p | Selecciona elementos que siguen a otros (mismo nivel). |  
     
