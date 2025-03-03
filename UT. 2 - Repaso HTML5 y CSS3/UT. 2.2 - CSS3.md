@@ -301,6 +301,10 @@ h2 ~ p {
   text-decoration: underline;
 }
 ```
+
+### 2.3.6. - Ejemplo prácticos
+Pinchando en el siguiente <a href="./code/Ejemplos_1_CSS.html">**enlace**</a> encontraréis un ejemplo de código de combinadores, tablas y pseudo elementos.
+
 # 3. Prácticas evaluables
 
 ## 3.1. - Práctica RA2 CEb-1
