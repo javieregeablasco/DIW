@@ -14,21 +14,12 @@
     <!-- Estilos alternativos (modo noche) -->
     <link rel="alternate stylesheet" href="./css/noche.css" title="Noche">
 
-    <script></script>
+    <script src="./js/alternate.js"></script>
 </head>
 <body>
 
     <h1>Alternar Modo Día/Noche</h1>
     <button onclick="toggleMode()">Cambiar Modo</button>
-
-    <script>
-        function toggleMode() {
-            let links = document.querySelectorAll('link[rel="stylesheet"], link[rel="alternate stylesheet"]');
-            links.forEach(link => {
-                link.disabled = !link.disabled;
-            });
-        }
-    </script>
-
+  
 </body>
 </html>
