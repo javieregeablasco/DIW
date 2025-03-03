@@ -340,7 +340,7 @@ Para cambiar entre estilos alternativos, es necesario utilizar JavaScript o conf
 El soporte para **hojas de estilos alternativas** es limitado en los navegadores modernos. Aunque la especificación de HTML permite definirlas con `rel="alternate stylesheet"`, la mayoría de los navegadores actuales no ofrecen una interfaz nativa para cambiar entre ellas.  
 
 ## 4.1. - Soporte en navegadores:  
-- **Firefox**: Hasta la versión 135.0.1, permite cambiar entre hojas de estilos a través del menú "Ver" → "Estilo de página".  
+- **Firefox (versión 135.0.1)** Permite cambiar entre hojas de estilos a través del menú "Ver" → "Estilo de página".  
 - **Safari**: Soporta hojas de estilos alternativas, pero no proporciona una interfaz de usuario para cambiarlas. Solo es posible hacerlo mediante JavaScript.  
 - **Google Chrome, Edge, Opera y otros basados en Chromium**: No soportan hojas de estilos alternativas de forma nativa, por lo que el cambio debe hacerse mediante JavaScript.  
 
