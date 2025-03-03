@@ -125,6 +125,28 @@
     .parrafos4 p {     
         background-color: rgb(223, 201, 184);
     }
+
+    table {
+  width: 100%;
+  border-collapse: collapse;
+  }
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Aplicar color a las filas impares */
+tbody tr:nth-child(odd)::before {
+  background-color: rgba(0, 0, 255, 0.1); /* Azul claro */
+}
+
+/* Aplicar color a las filas pares */
+tbody tr:nth-child(even)::before {
+  background-color: rgba(255, 0, 0, 0.1); /* Rojo claro */
+}
+
 /*
 section {
   height: 100%;
