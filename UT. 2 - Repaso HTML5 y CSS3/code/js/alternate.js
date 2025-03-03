@@ -1,12 +1,13 @@
 function toggleMode() {
-  const daySheet = document.querySelector('link[title="Día"]');
-  const nightSheet = document.querySelector('link[title="Noche"]');
+  const hojaDia = document.querySelector('link[title="Día"]');
+  const hojaNoche = document.querySelector('link[title="Noche"]');
 
-  if (daySheet.disabled) {
-    daySheet.disabled = false;
-    nightSheet.disabled = true;
+  if (hojaDia.disabled) {
+    hojaDia.disabled = false;
+    hojaNoche.disabled = true;
+    
   } else {
-    daySheet.disabled = true;
-    nightSheet.disabled = false;
+    hojaDia.disabled = true;
+    hojaNoche.disabled = false;
   }
 }
