@@ -351,6 +351,7 @@ Dado que la mayoría de los navegadores no permiten seleccionar estilos alternat
 ```
 
 https://github.com/GoogleChromeLabs/dark-mode-toggle
+https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=es
 
 
 
