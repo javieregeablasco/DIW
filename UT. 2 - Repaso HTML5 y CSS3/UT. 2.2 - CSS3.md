@@ -315,7 +315,11 @@ Pinchando en el siguiente <a href="./code/Ejemplos_1_CSS.html">**enlace**</a> en
 
 ## 3.4. - Práctica RA2 CEc-2
 
-# 4. Hojas de estilos alternativas
+# 4. Hojas de estilos 
+## 4.1. - Hojas de estilos externas
+
+## 4.2. - Hojas de estilos alternativas
+alternativas
 
 
 ---
@@ -326,7 +330,7 @@ HASTA AQUÍ
 
 
 ---
-https://lenguajecss.com/css/introduccion/css-moderno/
+
 
 https://nachoiborraies.github.io/htmlcss/  
 
