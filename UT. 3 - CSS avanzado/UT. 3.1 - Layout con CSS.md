@@ -80,7 +80,7 @@ La propiedad `position` puede adoptar los siguientes valores:
 |Float|La caja se sitúa todo lo posible a la izquierda o derecha, dentro de la línea horizontal en que se encuentra.|
 |Sticky|La caja se desplaza cuando hacemos scroll hasta quedarse pegada en la parte superior cuando se alcanza cierta posición.|
 
-## 3.1. - Posicionamiento Static
+## 3.1. - Posicionamiento con Static
 Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto significa que el elemento se coloca en el flujo normal del documento, es decir, en el lugar que le corresponde según el orden en que aparece en el código.
 
 - **Propiedad:** `position: static;` 
@@ -108,7 +108,7 @@ Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto s
 ![alt text](./img/static.png)
 
 
-## 3.2. - Posicionamiento Relative
+## 3.2. - Posicionamiento con Relative
 Cuando se aplica `position: relative;`, el elemento se coloca en su posición normal dentro del flujo del documento, pero puede moverse respecto a su posición original usando las propiedades `top`, `right`, `bottom`, o `left`.
 
 - **Propiedad:** `position: relative;`
@@ -140,7 +140,7 @@ Cuando se aplica `position: relative;`, el elemento se coloca en su posición no
 >**Resultado:**  
 ![alt text](./img/relative.png)
 
-## 3.3. - Posicionamiento Absolute
+## 3.3. - Posicionamiento con Absolute
 Un elemento con `position: absolute;` se posiciona en relación con el contenedor más cercano que tenga `position: relative;`, `absolute;` o `fixed;`. Si no existe tal contenedor, el elemento se posiciona en relación con el elemento `<html>`.  
 
 - **Propiedad:** `position: absolute;`
@@ -187,15 +187,95 @@ Un elemento con `position: absolute;` se posiciona en relación con el contenedo
 >**Resultado:**  
 ![alt text](./img/absolute.png)
 
-## 3.4. - Posicionamiento Fixed
+## 3.4. - Posicionamiento con Fixed
 El posicionamiento fijo hace que el elemento se quede en una posición específica en la pantalla, independientemente de si el usuario hace scroll en la página.  
 **Importante:** El elemento se posiciona respecto a la ventana del navegador (viewport) y sus dimensiones también son relativas al viewport (no al contenedor padre).
 
 - **Propiedad:** `position: fixed;`
-- **Comportamiento:** El elemento se posiciona respecto a la ventana del navegador y permanece visible cuando el usuario hace scroll.
+- **Comportamiento:** El elemento se posiciona respecto a la ventana del navegador y permanece visible cuando el usuario hace scroll.  
 
+>**Ejemplo:**
+```css
+.contenedor {
+  width: 50vw;
+  height:400vh;
+  background-color: antiquewhite;
+  padding: 1px;
+}
+.caja1 {
+  background-color: rgba(0, 0, 255, 0.192);
+  width: 75%;
+  text-align: center;    
+  margin: 20px;
+  padding: 10px;
+}
+.caja2 {
+  background-color: rgba(255, 0, 0, 0.7);
+  width: 75%; /* 75% del viewport al salirse del flujo del documento */
+  text-align: center;
+  padding: 10px;
+  position: fixed; /* Se fija a la ventana del navegador */
+  top: 100px;  /* 100px del borde superior de la ventana */
+  right: 20px; /* 20px del borde derecho de la ventana */
+}
+```
 
+```html
+  <div class="contenedor">
+    <div class="caja1">Contenido caja 1</div>
+    <div class="caja2">Contenido caja 2 (Fija)</div>
+  </div>
+```
 
+## 3.5. - Posicionamiento con Float
+La propiedad `float` permite que un elemento se desplace hacia la izquierda o la derecha dentro de su contenedor, permitiendo que otros elementos fluyan a su alrededor.  
+
+**Importante:** A diferencia de `position: fixed;`, los elementos flotantes **siguen formando parte del flujo del documento** y su tamaño sigue dependiendo de su contenedor padre.  
+
+- **Propiedad:** `float: left;` o `float: right;`  
+- **Comportamiento:** El elemento flota a un lado y los elementos siguientes se acomodan alrededor de él.  
+
+> **Ejemplo:**  
+```css
+.contenedor {
+  width: 50vw;
+  height: 400vh;
+  background-color: antiquewhite;
+  padding: 1px;
+}
+
+.caja1 {
+  background-color: rgba(0, 0, 255, 0.192);
+  width: 75%;
+  text-align: center;    
+  margin: 20px;
+  padding: 10px;
+  float: left; /* La caja1 flota a la izquierda */
+}
+
+.caja2 {
+  background-color: rgba(255, 0, 0, 0.7);
+  width: 75%;
+  text-align: center;
+  padding: 10px;
+  float: right; /* La caja2 flota a la derecha */
+}
+```
+
+```html
+<div class="contenedor">
+  <div class="caja1">Contenido caja 1 (Flota a la izquierda)</div>
+  <div class="caja2">Contenido caja 2 (Flota a la derecha)</div>
+</div>
+```
+
+### 📝 Notas:  
+- Si no se usa `clear`, otros elementos pueden seguir flotando alrededor de las cajas.  
+- Para evitar que un contenedor colapse con elementos flotantes, se puede usar `overflow: hidden;` o `clearfix`.  
+
+---
+
+Este texto ahora explica `float` en lugar de `position: fixed`, manteniendo el mismo estilo de presentación. 🚀
 
 
 HASTA Aqui
@@ -243,15 +323,6 @@ El posicionamiento sticky es una mezcla entre el posicionamiento relativo y fijo
   top: 0;  /* Se queda pegado en la parte superior cuando se hace scroll */
 }
 ```
-
-### Consejos:
-- **Posición relativa:** Útil cuando deseas mover un elemento sin afectar su lugar en el flujo.
-- **Posición absoluta:** Utilizada cuando necesitas sacar un elemento del flujo normal y posicionarlo exactamente en un lugar.
-- **Posición fija:** Ideal para menús, barras de navegación, o cualquier elemento que deba mantenerse visible al hacer scroll.
-- **Posición sticky:** Muy útil para cabeceras o menús que deben desplazarse con la página pero quedarse pegados en la parte superior cuando se alcanza cierta posición.
-
-¿Te gustaría ver algún ejemplo práctico o necesitas ayuda con algo más sobre posicionamiento?
-
 
 
 https://nachoiborraies.github.io/htmlcss/md/es/03b
