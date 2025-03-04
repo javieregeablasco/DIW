@@ -69,7 +69,7 @@ Si un contenedor no tiene contenido ni `padding`, su `margin-top` o `margin-bott
 ## 2.2. - Ejercicios
 
 # 3. Posicionamiento CSS
-El posicionamiento CSS se refiere a cómo los elementos HTML se colocan en la página web y cómo se relacionan con otros elementos. 
+El posicionamiento CSS se refiere a cómo los elementos HTML se colocan en la página web y cómo se relacionan con otros elementos.   
 La propiedad `position` puede adoptar los siguientes valores:
 | Valor | Definición |
 |---|---|
@@ -80,7 +80,7 @@ La propiedad `position` puede adoptar los siguientes valores:
 |Float|La caja se sitúa todo lo posible a la izquierda o derecha, dentro de la línea horizontal en que se encuentra.|
 |Sticky|La caja se desplaza cuando hacemos scroll hasta quedarse pegada en la parte superior cuando se alcanza cierta posición.|
 
-## 3.1. Posicionamiento Estático (static)
+## 3.1. - Posicionamiento Static
 Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto significa que el elemento se coloca en el flujo normal del documento, es decir, en el lugar que le corresponde según el orden en que aparece en el código.
 
 - **Propiedad:** `position: static;` (Este es el valor por defecto, por lo que no necesitas definirlo explícitamente).
