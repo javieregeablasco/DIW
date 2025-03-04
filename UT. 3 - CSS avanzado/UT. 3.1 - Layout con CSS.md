@@ -16,26 +16,18 @@ Existen diversas técnicas para distribuir los elementos en una página web, ent
 
 
 # 2. Modelo de cajas
-Cada elemento HTML se encuentra rodeado de una caja con varias propiedades que pueden ser modificadas.
+Cada elemento HTML se encuentra rodeado de una caja con varias propiedades que pueden ser modificadas.  
 ![alt text](./img/caja-css.png)
-La figura muestra esas propiedades.
 
-Además del contenido, cada elemento puede tener o no un borde y, además, podemos modificar la distancia entre el borde y el límite de la caja (margin) y la distancia entre ese borde y el comienzo del contenido (padding).
+CSS permite definir las características de cada una de estas cajas (altura, anchura, posición, color…). Para ello, hemos de tener en cuenta que cada caja se compone de ciertos elementos:
 
-Estas opciones nos proporcionan un gran control sobre cómo debe situarse cada elemento.
-Altura y anchura de una caja
+- El contenido de la caja.
+- Border: Borde (visible o no) que enmarca el contenido.
+- Padding: Espacio entre el contenido y el borde.
+- Margin, espacio entre cajas adyacentes.
+- Width y height: El tamaño de la caja (anchura y altura).
+- El color de fondo del elemento. Alternativamente, también se puede definir una imagen de fondo con la propiedad background-image, que se superpone al color de fondo.
 
-Cada elemento HTML de una página web cuenta con una anchura y una altura específica. En muchos casos esas dimensiones se las proporciona el propio contenido, como en un párrafo o una imagen, por ejemplo. Esos valores de anchura (width) y de altura (height) pueden ser modificados mediante las hojas de estilo, gracias a las propiedades del mismo nombre.
-
-Así podemos hacer párrafos más estrechos, imágenes que se sobredimensionen o simplemente ajustar diferentes bloques, para que se acomoden correctamente en la pantalla.
-
-Los valores width y height se acompañan de un valor numérico exacto o de un porcentaje, como en otras muchas propiedades.
-
-body {
-
-principal { width: 400px;
-background-color: rgb(0, 126, 0);
-}
 Margen
 
 Comenzaremos con la imagen. Con tan sólo modificar su margen, observaremos cómo se distancia del resto de los elementos. Usaremos la propiedad margin seguida de un valor numérico o de un porcentaje:
