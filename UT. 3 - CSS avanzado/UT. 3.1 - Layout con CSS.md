@@ -117,6 +117,35 @@ Cuando se aplica `position: relative;`, el elemento se coloca en su posición no
 >**Ejemplo:**
 
 ```css
+.caja1 {
+  background-color: rgba(0, 0, 255, 0.192);
+  width: 25vw;
+  text-align:center;    
+  margin: 20px;
+  padding: 10px;
+}
+
+.caja2 {
+  background-color: rgba(255, 0, 0, 0.192);
+  width: 25vw;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  position: relative; /* Posicionamiento relativo a su ubicación original */
+  left: 20px; /* Desplazamiento 20px derecha */
+  top: 10px;  /* Desplazamiento 10px hacia abajo */
+}
+```
+
+>**Resultado:**  
+![alt text](./img/relative.png)
+
+## 3.3. - Posicionamiento Absolute
+Un elemento con `position: absolute;` se posiciona en relación con el contenedor más cercano que tenga `position: relative;`, `absolute;` o `fixed;`. Si no existe tal contenedor, el elemento se posiciona en relación con el elemento `<html>`.  
+
+- **Propiedad:** `position: absolute;`
+- **Comportamiento:** El elemento se saca del flujo normal del documento y no ocupa espacio. Puede ser colocado en cualquier parte del contenedor usando `top`, `right`, `bottom`, o `left`.
+
 
 
 HASTA Aqui
@@ -125,11 +154,7 @@ https://lenguajecss.com/css/posicionamiento/position/
 
 
 
-### 3. **Posicionamiento Absoluto (absolute)**
-Un elemento con `position: absolute;` se posiciona en relación con el contenedor más cercano que tenga `position: relative;`, `absolute;` o `fixed;`. Si no existe tal contenedor, el elemento se posiciona en relación con el elemento `<html>`.
 
-- **Propiedad:** `position: absolute;`
-- **Comportamiento:** El elemento se saca del flujo normal del documento y no ocupa espacio. Puede ser colocado en cualquier parte del contenedor usando `top`, `right`, `bottom`, o `left`.
 
 ### 4. **Posicionamiento Fijo (fixed)**
 El posicionamiento fijo hace que el elemento se quede en una posición específica en la pantalla, independientemente de si el usuario hace scroll en la página. El elemento se posiciona respecto a la ventana del navegador (viewport).

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Absolute</title>
+  <style>
+  .contenedor {
+    position: relative; /* Contenedor con posición relativa para que .caja2 se posicione dentro de él */
+    width: 40%;
+    height: 200px; /* Se define un alto para visualizar mejor el efecto */
+    background-color: antiquewhite;
+  }
+
+  .caja1 {
+    background-color: rgba(0, 0, 255, 0.192);
+    width: 25vw;
+    text-align: center;    
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .caja2 {
+    background-color: rgba(255, 0, 0, 0.192);
+    width: 25vw;
+    text-align: center;
+    padding: 10px;
+    position: absolute; /* Se posiciona absolutamente con respecto a .contenedor */
+    top: 50px;  /* Se desplaza 50px desde la parte superior del contenedor */
+    left: 50px; /* Se desplaza 50px desde la izquierda del contenedor */
+  }  
+
+  </style>
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="caja1">Contenido caja 1</div>
+    <div class="caja2">Contenido caja 2</div>
+  </div>
+</body>
+</html>
