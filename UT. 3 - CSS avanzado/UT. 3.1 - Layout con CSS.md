@@ -175,11 +175,21 @@ Un elemento con `position: absolute;` se posiciona en relación con el contenedo
 }
 ```
 
+```html
+<body>
+  <div class="contenedor">
+    <div class="caja1">Contenido caja 1</div>
+    <div class="caja2">Contenido caja 2</div>
+  </div>
+</body>
+``` 
+
 >**Resultado:**  
 ![alt text](./img/absolute.png)
 
 ## 3.4. - Posicionamiento Fixed
-El posicionamiento fijo hace que el elemento se quede en una posición específica en la pantalla, independientemente de si el usuario hace scroll en la página. El elemento se posiciona respecto a la ventana del navegador (viewport).
+El posicionamiento fijo hace que el elemento se quede en una posición específica en la pantalla, independientemente de si el usuario hace scroll en la página.  
+**Importante:** El elemento se posiciona respecto a la ventana del navegador (viewport) y sus dimensiones también son relativas al viewport (no al contenedor padre).
 
 - **Propiedad:** `position: fixed;`
 - **Comportamiento:** El elemento se posiciona respecto a la ventana del navegador y permanece visible cuando el usuario hace scroll.
