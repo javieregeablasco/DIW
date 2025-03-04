@@ -146,6 +146,38 @@ Un elemento con `position: absolute;` se posiciona en relación con el contenedo
 - **Propiedad:** `position: absolute;`
 - **Comportamiento:** El elemento se saca **del flujo normal del documento y no ocupa espacio**. Puede ser colocado en cualquier parte del contenedor usando `top`, `right`, `bottom`, o `left`.
 
+>**Ejemplo:**
+```css
+.contenedor {
+  position: relative; /* Contenedor relative para que caja2 se posicione dentro de él */
+  width: 35vw;
+  height: 20vh;
+  background-color: antiquewhite;
+  padding: 1px; /* solo para dar contenido al contenedor */
+}
+
+.caja1 {
+  background-color: rgba(0, 0, 255, 0.192);
+  width: 25vw;
+  text-align: center;    
+  margin: 10px;
+  padding: 10px;
+}
+
+.caja2 {
+  background-color: rgba(255, 0, 0, 0.192);
+  width: 25vw;
+  text-align: center;
+  padding: 10px;
+  position: absolute; /* elemento con posición absolute relativo a .contenedor */
+  top: 40px;  /* 40px hacia abajo desde el contenedor relative */
+  left: 50px; /* 50px hacia la izquierda desde el contenedor relative */
+}
+```
+
+>**Resultado:**  
+![alt text](./img/absolute.png)
+
 
 
 HASTA Aqui
