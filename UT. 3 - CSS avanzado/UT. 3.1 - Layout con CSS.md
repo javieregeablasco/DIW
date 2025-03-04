@@ -66,6 +66,102 @@ Si un contenedor no tiene contenido ni `padding`, su `margin-top` o `margin-bott
 - **Bordes (`border`)**: Un `border` en el contenedor impide el colapso de márgenes.
 - **Propiedad `display: flex` o `display: grid`**: Con estos modelos de maquetación no se aplica el margin collapse. 
 
+## 2.2. - Ejercicios
+
+# 3. Posicionamiento CSS
+El posicionamiento CSS se refiere a cómo los elementos HTML se colocan en la página web y cómo se relacionan con otros elementos. 
+La propiedad `position` puede adoptar los siguientes valores:
+| Valor | Definición |
+|---|---|
+|Static| Valor por defecto. Los elementos van apareciendo según el orden del documento HTML.|
+|Relative|Se desplaza la caja respecto a lo que sería su posicionamiento normal.|
+|Absolute|La caja se sitúa en una posición absoluta respecto de su elemento contenedor.|
+|Fixed|La caja se sitúa en una posición fija en pantalla, independientemente de si el usuario sube o baja la página.|
+|Float|La caja se sitúa todo lo posible a la izquierda o derecha, dentro de la línea horizontal en que se encuentra.|
+|Sticky|La caja se desplaza cuando hacemos scroll hasta quedarse pegada en la parte superior cuando se alcanza cierta posición.|
+
+## 3.1. Posicionamiento Estático (static)
+Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto significa que el elemento se coloca en el flujo normal del documento, es decir, en el lugar que le corresponde según el orden en que aparece en el código.
+
+- **Propiedad:** `position: static;` (Este es el valor por defecto, por lo que no necesitas definirlo explícitamente).
+- **Comportamiento:** Los elementos no pueden ser desplazados con las propiedades `top`, `right`, `bottom` o `left`.
+
+### 2. **Posicionamiento Relativo (relative)**
+Cuando se aplica `position: relative;`, el elemento se coloca en su posición normal dentro del flujo del documento, pero puedes moverlo respecto a su posición original usando las propiedades `top`, `right`, `bottom`, o `left`.
+
+- **Propiedad:** `position: relative;`
+- **Comportamiento:** El elemento se mueve respecto a su ubicación original, pero aún mantiene su lugar en el flujo del documento. Esto significa que no afecta a otros elementos que están en el flujo.
+
+### 3. **Posicionamiento Absoluto (absolute)**
+Un elemento con `position: absolute;` se posiciona en relación con el contenedor más cercano que tenga `position: relative;`, `absolute;` o `fixed;`. Si no existe tal contenedor, el elemento se posiciona en relación con el elemento `<html>`.
+
+- **Propiedad:** `position: absolute;`
+- **Comportamiento:** El elemento se saca del flujo normal del documento y no ocupa espacio. Puede ser colocado en cualquier parte del contenedor usando `top`, `right`, `bottom`, o `left`.
+
+### 4. **Posicionamiento Fijo (fixed)**
+El posicionamiento fijo hace que el elemento se quede en una posición específica en la pantalla, independientemente de si el usuario hace scroll en la página. El elemento se posiciona respecto a la ventana del navegador (viewport).
+
+- **Propiedad:** `position: fixed;`
+- **Comportamiento:** El elemento se posiciona respecto a la ventana del navegador y permanece visible cuando el usuario hace scroll.
+
+### 5. **Posicionamiento Sticky (sticky)**
+El posicionamiento sticky es una mezcla entre el posicionamiento relativo y fijo. Un elemento con `position: sticky;` se comporta de manera normal hasta que se desplaza por la página hasta un cierto punto, y luego se "pega" a una posición específica mientras el usuario sigue desplazándose.
+
+- **Propiedad:** `position: sticky;`
+- **Comportamiento:** El elemento se comporta como un `relative` hasta que alcanza el umbral especificado con `top`, `right`, `bottom` o `left`, momento en el cual se fija en esa posición.
+
+### Ejemplo de uso:
+
+```css
+/* Posicionamiento relativo */
+.relative {
+  position: relative;
+  top: 20px; /* Se mueve 20px hacia abajo */
+}
+
+/* Posicionamiento absoluto */
+.absolute {
+  position: absolute;
+  top: 50px;  /* Se mueve 50px desde la parte superior del contenedor */
+  right: 30px; /* Se mueve 30px desde la parte derecha */
+}
+
+/* Posicionamiento fijo */
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/* Posicionamiento sticky */
+.sticky {
+  position: sticky;
+  top: 0;  /* Se queda pegado en la parte superior cuando se hace scroll */
+}
+```
+
+### Consejos:
+- **Posición relativa:** Útil cuando deseas mover un elemento sin afectar su lugar en el flujo.
+- **Posición absoluta:** Utilizada cuando necesitas sacar un elemento del flujo normal y posicionarlo exactamente en un lugar.
+- **Posición fija:** Ideal para menús, barras de navegación, o cualquier elemento que deba mantenerse visible al hacer scroll.
+- **Posición sticky:** Muy útil para cabeceras o menús que deben desplazarse con la página pero quedarse pegados en la parte superior cuando se alcanza cierta posición.
+
+¿Te gustaría ver algún ejemplo práctico o necesitas ayuda con algo más sobre posicionamiento?
+
+
+
+https://nachoiborraies.github.io/htmlcss/md/es/03b
+
+https://lenguajecss.com/css/posicionamiento/position/
+
+https://www.mardeasa.es/descargas/curso-Confeccion-y-publicacion-de-paginas-web/11-CSS-Posicionamiento.pdf
+
+# 4. Flexbox
+https://lenguajecss.com/css/layout/display-css/
+https://lenguajecss.com/css/flex/que-es-flex/
+
+# 5. Grid layout 
+https://lenguajecss.com/css/grid/que-es-grid/
 
 
 
