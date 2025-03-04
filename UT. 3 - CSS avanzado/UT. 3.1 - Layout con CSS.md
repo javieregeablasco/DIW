@@ -83,8 +83,30 @@ La propiedad `position` puede adoptar los siguientes valores:
 ## 3.1. - Posicionamiento Static
 Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto significa que el elemento se coloca en el flujo normal del documento, es decir, en el lugar que le corresponde según el orden en que aparece en el código.
 
-- **Propiedad:** `position: static;` (Este es el valor por defecto, por lo que no necesitas definirlo explícitamente).
+- **Propiedad:** `position: static;` 
 - **Comportamiento:** Los elementos no pueden ser desplazados con las propiedades `top`, `right`, `bottom` o `left`.
+- **Ejemplo:**
+
+```css
+#caja1
+{
+    background-color: blue;
+    width: 30%;
+    height: 100px;
+    text-align:center;
+    margin: 20px;
+}
+
+#caja2
+{
+    background-color: red;
+    width: 30%;
+    height: 100px;
+    text-align:center;
+    margin: 20px;
+}
+```
+
 
 ### 2. **Posicionamiento Relativo (relative)**
 Cuando se aplica `position: relative;`, el elemento se coloca en su posición normal dentro del flujo del documento, pero puedes moverlo respecto a su posición original usando las propiedades `top`, `right`, `bottom`, o `left`.
