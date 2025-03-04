@@ -111,6 +111,11 @@ Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto s
 ## 3.2. - Posicionamiento Relative
 Cuando se aplica `position: relative;`, el elemento se coloca en su posición normal dentro del flujo del documento, pero puede moverse respecto a su posición original usando las propiedades `top`, `right`, `bottom`, o `left`.
 
+HASTA Aqui
+https://nachoiborraies.github.io/htmlcss/md/es/03b#31-posicionamiento-css2
+https://lenguajecss.com/css/posicionamiento/position/
+
+
 - **Propiedad:** `position: relative;`
 - **Comportamiento:** El elemento se mueve respecto a su ubicación original, pero aún mantiene su lugar en el flujo del documento. Esto significa que no afecta a otros elementos que están en el flujo.
 
