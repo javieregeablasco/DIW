@@ -144,7 +144,7 @@ Cuando se aplica `position: relative;`, el elemento se coloca en su posición no
 Un elemento con `position: absolute;` se posiciona en relación con el contenedor más cercano que tenga `position: relative;`, `absolute;` o `fixed;`. Si no existe tal contenedor, el elemento se posiciona en relación con el elemento `<html>`.  
 
 - **Propiedad:** `position: absolute;`
-- **Comportamiento:** El elemento se saca del flujo normal del documento y no ocupa espacio. Puede ser colocado en cualquier parte del contenedor usando `top`, `right`, `bottom`, o `left`.
+- **Comportamiento:** El elemento se saca **del flujo normal del documento y no ocupa espacio**. Puede ser colocado en cualquier parte del contenedor usando `top`, `right`, `bottom`, o `left`.
 
 
 
