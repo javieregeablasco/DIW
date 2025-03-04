@@ -308,16 +308,15 @@ Pinchando en el siguiente <a href="./code/Ejemplos_1_CSS.html">**enlace**</a> en
 # 3. Prácticas evaluables
 
 ## 3.1. - Práctica RA2 CEb-1
-
+se han definido estilos de forma directa.
 ## 3.2. - Práctica RA2 CEb-2
+se han definido estilos de forma directa.
 
 ## 3.3. - Práctica RA2 CEc-1
-
+se han definido estilos globales en hojas externas 
 ## 3.4. - Práctica RA2 CEc-2
+se han definido estilos globales en hojas externas 
 
-Aquí tienes un desarrollo del enunciado:  
-
----
 
 # 4. Hojas de estilos alternativas
 Las hojas de estilos alternativas permiten definir diferentes estilos para un mismo documento, ofreciendo al usuario la posibilidad de elegir entre distintas apariencias predefinidas. Se implementan utilizando el atributo `rel="alternate stylesheet"` en la etiqueta `<link>`.  
@@ -335,8 +334,8 @@ Las hojas de estilos alternativas permiten definir diferentes estilos para un mi
 </head>
 ```  
 
-Para cambiar entre estilos alternativos, es necesario utilizar JavaScript o configuraciones específicas en el navegador.
-**Nota**
+Para cambiar entre estilos alternativos, es necesario utilizar **JavaScript** o **configuraciones específicas en el navegador**.  
+  
 El soporte para **hojas de estilos alternativas** es limitado en los navegadores modernos. Aunque la especificación de HTML permite definirlas con `rel="alternate stylesheet"`, la mayoría de los navegadores actuales no ofrecen una interfaz nativa para cambiar entre ellas.  
 
 ## 4.1. - Soporte en navegadores:  
@@ -348,7 +347,95 @@ El soporte para **hojas de estilos alternativas** es limitado en los navegadores
 Dado que la mayoría de los navegadores no permiten seleccionar estilos alternativos de forma nativa, se usará JavaScript para gestionarlos manualmente:  
 
 **Ejemplo:**
+
+>**Archivo index.html**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modo Día/Noche</title>
+  <!-- Estilo que se aplican siempre -->
+  <link rel="stylesheet" href="./css/global.css"> 
+  <!-- Estilo principal (modo día por defecto) -->
+  <link rel="stylesheet" href="./css/dia.css" title="Día">
+  <!-- Estilo alternativo (modo noche) -->
+  <link rel="alternate stylesheet" href="./css/noche.css" title="Noche" disabled>
+  <!-- Cargar el script de JS -->
+  <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <h1>Alternar modo Día/Noche</h1>
+    <button id="btn" onclick="toggleMode()">Modo noche</button>
+</body>
+</html>
+```  
+  
+>**Archivo dia.css**
+```css
+body {
+  background-color: white;
+  color: black;
+}
+button {
+  background-color: black;
+  color: white;
+}
+
+>**Archivo noche.css**
+```css
+body {
+  background-color: black;
+  color: white;
+}
+button {
+  background-color: white;
+  color: black;
+}
 ```
+
+>**Archivo global.css**
+```css
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+```
+>**Archivo script.js**
+```js
+function toggleMode() {
+  const hojaDia = document.querySelector('link[title="Día"]');
+  const hojaNoche = document.querySelector('link[title="Noche"]');
+  const texto = document.getElementById("btn");
+
+  if (hojaDia.disabled) {
+    hojaDia.disabled = false;
+    hojaNoche.disabled = true;
+    texto.innerHTML = "Modo noche";
+
+  } else {
+    hojaDia.disabled = true;
+    hojaNoche.disabled = false;
+    texto.innerHTML = "Modo día";
+  }
+}
+```
+
+
+
+
+
+
 
 https://github.com/GoogleChromeLabs/dark-mode-toggle
 https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=es
