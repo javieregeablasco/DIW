@@ -178,6 +178,14 @@ Un elemento con `position: absolute;` se posiciona en relación con el contenedo
 >**Resultado:**  
 ![alt text](./img/absolute.png)
 
+## 3.4. - Posicionamiento Fixed
+El posicionamiento fijo hace que el elemento se quede en una posición específica en la pantalla, independientemente de si el usuario hace scroll en la página. El elemento se posiciona respecto a la ventana del navegador (viewport).
+
+- **Propiedad:** `position: fixed;`
+- **Comportamiento:** El elemento se posiciona respecto a la ventana del navegador y permanece visible cuando el usuario hace scroll.
+
+
+
 
 
 HASTA Aqui
@@ -188,11 +196,7 @@ https://lenguajecss.com/css/posicionamiento/position/
 
 
 
-### 4. **Posicionamiento Fijo (fixed)**
-El posicionamiento fijo hace que el elemento se quede en una posición específica en la pantalla, independientemente de si el usuario hace scroll en la página. El elemento se posiciona respecto a la ventana del navegador (viewport).
 
-- **Propiedad:** `position: fixed;`
-- **Comportamiento:** El elemento se posiciona respecto a la ventana del navegador y permanece visible cuando el usuario hace scroll.
 
 ### 5. **Posicionamiento Sticky (sticky)**
 El posicionamiento sticky es una mezcla entre el posicionamiento relativo y fijo. Un elemento con `position: sticky;` se comporta de manera normal hasta que se desplaza por la página hasta un cierto punto, y luego se "pega" a una posición específica mientras el usuario sigue desplazándose.

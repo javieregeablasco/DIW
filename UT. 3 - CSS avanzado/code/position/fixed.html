@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed</title>
+  <style>
+    .caja1 {
+      background-color: rgba(0, 0, 255, 0.192);
+      width: 25vw;
+      text-align: center;    
+      margin: 20px;
+      padding: 10px;
+    }
+
+    .caja2 {
+      background-color: rgba(255, 0, 0, 0.7);
+      width: 25vw;
+      text-align: center;
+      padding: 10px;
+      position: fixed; /* Se fija a la ventana del navegador */
+      top: 20px;  /* Se ubica a 20px del borde superior de la ventana */
+      right: 20px; /* Se ubica a 20px del borde derecho de la ventana */
+    }
+  </style>
+</head>
+<body>
+  <div class="caja1">Contenido caja 1</div>
+  <div class="caja2">Contenido caja 2 (Fija)</div>
+</body>
+</html>
