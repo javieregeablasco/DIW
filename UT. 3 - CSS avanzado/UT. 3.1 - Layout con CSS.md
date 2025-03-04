@@ -6,7 +6,7 @@ Palabras clave: DAW, DIW
 ---
 
 # 1. Introducción
-En el desarrollo web, la **maquetación** y el **posicionamiento** de elementos son fundamentales para estructurar y diseñar interfaces atractivas y funcionales. A través de HTML y CSS, los desarrolladores organizan el contenido en la pantalla, asegurando una correcta visualización en distintos dispositivos y resoluciones.
+En el desarrollo web, la **maquetación**,  y el **posicionamiento** de elementos son fundamentales para estructurar y diseñar interfaces atractivas y funcionales. A través de HTML y CSS, los desarrolladores organizan el contenido en la pantalla, asegurando una correcta visualización en distintos dispositivos y resoluciones.
 
 Existen diversas técnicas para distribuir los elementos en una página web, entre las más utilizadas destacan:
 
@@ -18,8 +18,7 @@ Existen diversas técnicas para distribuir los elementos en una página web, ent
 
 Dominar estas herramientas permite desarrollar páginas bien estructuradas, adaptables y con una experiencia de usuario óptima.
 
-https://github.com/GoogleChromeLabs/dark-mode-toggle
-https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=es
+
 
 
 
