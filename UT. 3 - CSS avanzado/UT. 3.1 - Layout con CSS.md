@@ -5,6 +5,8 @@ Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
+# 1. Introducción
+
 
 https://github.com/GoogleChromeLabs/dark-mode-toggle
 https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=es
