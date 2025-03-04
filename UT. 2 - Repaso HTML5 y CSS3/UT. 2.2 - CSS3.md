@@ -433,7 +433,7 @@ function toggleMode() {
 
 >**Cambio de hoja de estilos desde firefox**  
   
-![alt text](image.png)
+![alt text](./img/firefox.png)
 
 
 
