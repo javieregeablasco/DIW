@@ -85,7 +85,7 @@ Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto s
 
 - **Propiedad:** `position: static;` 
 - **Comportamiento:** Los elementos no pueden ser desplazados con las propiedades `top`, `right`, `bottom` o `left`.
-- **Ejemplo:**
+> **Ejemplo:**
 
 ```css
 .caja1 {
@@ -104,12 +104,12 @@ Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto s
   padding: 10px;
 }
 ```
-**Resultado**
+> **Resultado:**  
 ![alt text](./img/static.png)
 
 
-### 2. **Posicionamiento Relativo (relative)**
-Cuando se aplica `position: relative;`, el elemento se coloca en su posición normal dentro del flujo del documento, pero puedes moverlo respecto a su posición original usando las propiedades `top`, `right`, `bottom`, o `left`.
+## 3.2. - Posicionamiento Relative
+Cuando se aplica `position: relative;`, el elemento se coloca en su posición normal dentro del flujo del documento, pero puede moverse respecto a su posición original usando las propiedades `top`, `right`, `bottom`, o `left`.
 
 - **Propiedad:** `position: relative;`
 - **Comportamiento:** El elemento se mueve respecto a su ubicación original, pero aún mantiene su lugar en el flujo del documento. Esto significa que no afecta a otros elementos que están en el flujo.
@@ -177,6 +177,8 @@ https://nachoiborraies.github.io/htmlcss/md/es/03b
 https://lenguajecss.com/css/posicionamiento/position/
 
 https://www.mardeasa.es/descargas/curso-Confeccion-y-publicacion-de-paginas-web/11-CSS-Posicionamiento.pdf
+
+
 
 # 4. Flexbox
 https://lenguajecss.com/css/layout/display-css/
