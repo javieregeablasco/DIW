@@ -88,24 +88,24 @@ Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto s
 - **Ejemplo:**
 
 ```css
-#caja1
-{
-    background-color: blue;
-    width: 30%;
-    height: 100px;
-    text-align:center;
-    margin: 20px;
+.caja1 {
+  background-color: rgba(0, 0, 255, 0.192);
+  width: 25vw;
+  text-align:center;    
+  margin: 20px;
+  padding: 10px;
 }
 
-#caja2
-{
-    background-color: red;
-    width: 30%;
-    height: 100px;
-    text-align:center;
-    margin: 20px;
+.caja2 {
+  background-color: rgba(255, 0, 0, 0.192);
+  width: 25vw;
+  text-align:center;
+  margin: 20px;
+  padding: 10px;
 }
 ```
+**Resultado**
+![alt text](./img/static.png)
 
 
 ### 2. **Posicionamiento Relativo (relative)**
