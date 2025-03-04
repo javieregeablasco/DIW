@@ -1,22 +1,19 @@
 ---
-Título: UD. 5.3 - CSS3 avanzado: Maquetación (layout)
+Título: UD. 5.3 - CSS3 avanzado: Modelo de cajas y Maquetación (layout)
 Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
 # 1. Introducción
-En el desarrollo web, la **maquetación**,  y el **posicionamiento** de elementos son fundamentales para estructurar y diseñar interfaces atractivas y funcionales. A través de HTML y CSS, los desarrolladores organizan el contenido en la pantalla, asegurando una correcta visualización en distintos dispositivos y resoluciones.
-
+En el desarrollo web, la **maquetación** permite diseñar y estructurar interfaces atractivas y funcionales.  
 Existen diversas técnicas para distribuir los elementos en una página web, entre las más utilizadas destacan:
 
-- **Modelo de Caja**: Todos los elementos en HTML se representan como cajas rectangulares, con propiedades como *margin*, *padding*, *border* y *width/height*.
+- **Modelo de cajas**: Todos los elementos en HTML se representan como cajas rectangulares.
 - **Posicionamiento con CSS**: Se pueden emplear valores como `static`, `relative`, `absolute`, `fixed` y `sticky` para definir cómo se ubican los elementos respecto a su contenedor o a la ventana del navegador.
-- **Flexbox**: Un sistema de diseño flexible que permite distribuir elementos de manera eficiente en una fila o columna.
-- **Grid Layout**: Un sistema más avanzado que permite crear diseños complejos dividiendo el espacio en filas y columnas.
-- **Flotantes y Display**: Técnicas más antiguas que permiten modificar el comportamiento de los elementos en la maquetación.
+- **Flexbox**: Es un sistema de diseño flexible que permite distribuir elementos de manera eficiente en una fila o columna.
+- **Grid Layout**: Es un sistema más avanzado que permite crear diseños complejos dividiendo el espacio en filas y columnas.
 
-Dominar estas herramientas permite desarrollar páginas bien estructuradas, adaptables y con una experiencia de usuario óptima.
 
 
 
