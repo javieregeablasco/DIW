@@ -84,7 +84,7 @@ La propiedad `position` puede adoptar los siguientes valores:
 Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto significa que el elemento se coloca en el flujo normal del documento, es decir, en el lugar que le corresponde según el orden en que aparece en el código.
 
 - **Propiedad:** `position: static;` 
-- **Comportamiento:** Los elementos no pueden ser desplazados con las propiedades `top`, `right`, `bottom` o `left`.
+- **Comportamiento:** Los elementos no pueden ser desplazados con las propiedades `top`, `right`, `bottom` o `left`.  
 > **Ejemplo:**
 
 ```css
@@ -111,13 +111,19 @@ Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto s
 ## 3.2. - Posicionamiento Relative
 Cuando se aplica `position: relative;`, el elemento se coloca en su posición normal dentro del flujo del documento, pero puede moverse respecto a su posición original usando las propiedades `top`, `right`, `bottom`, o `left`.
 
+- **Propiedad:** `position: relative;`
+- **Comportamiento:** El elemento se mueve respecto a su ubicación original, pero aún mantiene su lugar en el flujo del documento. Esto significa que no afecta a otros elementos que están en el flujo.  
+
+>**Ejemplo:**
+
+```css
+
+
 HASTA Aqui
 https://nachoiborraies.github.io/htmlcss/md/es/03b#31-posicionamiento-css2
 https://lenguajecss.com/css/posicionamiento/position/
 
 
-- **Propiedad:** `position: relative;`
-- **Comportamiento:** El elemento se mueve respecto a su ubicación original, pero aún mantiene su lugar en el flujo del documento. Esto significa que no afecta a otros elementos que están en el flujo.
 
 ### 3. **Posicionamiento Absoluto (absolute)**
 Un elemento con `position: absolute;` se posiciona en relación con el contenedor más cercano que tenga `position: relative;`, `absolute;` o `fixed;`. Si no existe tal contenedor, el elemento se posiciona en relación con el elemento `<html>`.
