@@ -278,6 +278,11 @@ La propiedad `float` permite que un elemento se desplace hacia la izquierda o la
 Este texto ahora explica `float` en lugar de `position: fixed`, manteniendo el mismo estilo de presentación. 🚀
 
 
+
+
+
+
+
 HASTA Aqui
 https://nachoiborraies.github.io/htmlcss/md/es/03b#31-posicionamiento-css2
 https://lenguajecss.com/css/posicionamiento/position/
@@ -323,6 +328,9 @@ El posicionamiento sticky es una mezcla entre el posicionamiento relativo y fijo
   top: 0;  /* Se queda pegado en la parte superior cuando se hace scroll */
 }
 ```
+
+
+HABLAR DE Z-INDEX
 
 
 https://nachoiborraies.github.io/htmlcss/md/es/03b
