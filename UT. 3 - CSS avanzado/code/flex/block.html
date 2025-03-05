@@ -5,11 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>flex</title>
   <style>
-    .container {
-      width: 95vw;
+    .container1 {
+      margin: 10px;
       display: flex;
-      background-color: antiquewhite;
+      background-color: rgb(8, 235, 20);
     }
+
+    .container2 {
+      margin: 10px;
+      display:inline-flex;
+      background-color: blueviolet;
+    }
+
+
     .E1 {
       margin: 5px;
       padding: 5px;
@@ -23,7 +31,7 @@
     .E3{
       margin: 10px;
       padding: 10px;
-      background-color: blueviolet;
+      background-color: rgb(226, 75, 30);
     }
     
 
@@ -31,7 +39,12 @@
   </style>
 </head>
 <body>
-<div class="container">
+<div class="container1">
+  <div class="E1">Elemento 1</div>
+  <div class="E2">Elemento 2</div>
+  <div class="E3">Elemento 3</div>
+</div>
+<div class="container2">
   <div class="E1">Elemento 1</div>
   <div class="E2">Elemento 2</div>
   <div class="E3">Elemento 3</div>
