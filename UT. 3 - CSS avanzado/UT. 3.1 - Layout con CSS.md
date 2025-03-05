@@ -402,10 +402,17 @@ Los valores de `z-index` pueden ser:
 <video controls src="./img/zindex.mp4" title="Title"></video>
 
 ## 3.7. - Tarea RA2 CEf-1
+<poner aqui un ejemplo de navbar sidebar etc>
 
 # 4. Flexbox
+## 4.1. - Introducción
+**Flexbox**, coloquialmente conocida como **flex** proviene de “Flexible Box Layout”, que se traduce como “Diseño de caja flexible”. Se trata de una solución **unidimensional** para la creación de "responsive designs", ya que permite organizar un conjunto de elementos flexibles que se adaptan automáticamente a su contenedor. Además, ofrece control sobre parámetros como la alineación, la dirección (horizontal o vertical) y el ajuste de las filas según el tamaño de los elementos, entre otros."
 
+## 4.2. - Conceptos
+El <a href="https://www.w3.org/TR/css-flexbox-1/">**W3C**</a> define a esta estructura como un “flujo flexible” de elementos en **dirección unidimensional** (arriba hacia abajo o izquierda hacia derecha) y **tamaño** (anchura/altura) según los ejes principal (horizontal) y transversal (vertical).
+![alt text](./img/flex-direction-terms.svg)
 
+![alt text](./img/flex_terms.png)
 
 HASTA Aqui  
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
