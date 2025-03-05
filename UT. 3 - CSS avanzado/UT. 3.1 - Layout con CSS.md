@@ -384,24 +384,6 @@ Los valores de `z-index` pueden ser:
 >**Resultado:**
 <video controls src="./img/zindex.mp4" title="Title"></video>
 
-```html
-<div class="caja caja1"></div>
-<div class="caja caja2"></div>
-<div class="caja caja3"></div>
-```
-🔎 **Explicación:** La `caja3` (verde) está encima de la `caja2` (azul), y esta a su vez está encima de la `caja1` (roja) porque tienen valores de `z-index` mayores.
-
----
-
-### 🔹 Consideraciones  
-✔ **`z-index` solo funciona en elementos posicionados** (`relative`, `absolute`, `fixed`, `sticky`).  
-✔ **Los elementos hijos respetan el `z-index` del padre** a menos que este tenga `z-index: auto`.  
-✔ **Los elementos dentro de un mismo contenedor siguen el orden de apilamiento natural**, salvo que se modifique con `z-index`.  
-
-🚀 **¿Cuándo usarlo?**  
-- Para crear **ventanas modales** o **menús desplegables**.  
-- Para manejar la superposición de elementos en **diseños complejos**.  
-- Para corregir problemas de visibilidad con elementos ocultos detrás de otros.
 
 
 HASTA Aqui
