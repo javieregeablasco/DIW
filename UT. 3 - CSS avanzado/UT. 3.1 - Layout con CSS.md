@@ -409,10 +409,18 @@ Los valores de `z-index` pueden ser:
 **Flexbox**, coloquialmente conocida como **flex** proviene de “Flexible Box Layout”, que se traduce como “Diseño de caja flexible”. Se trata de una solución **unidimensional** para la creación de "responsive designs", ya que permite organizar un conjunto de elementos flexibles que se adaptan automáticamente a su contenedor. Además, ofrece control sobre parámetros como la alineación, la dirección (horizontal o vertical) y el ajuste de las filas según el tamaño de los elementos, entre otros."
 
 ## 4.2. - Conceptos
-El <a href="https://www.w3.org/TR/css-flexbox-1/">**W3C**</a> define a esta estructura como un “flujo flexible” de elementos en **dirección unidimensional** (arriba hacia abajo o izquierda hacia derecha) y **tamaño** (anchura/altura) según los ejes principal (horizontal) y transversal (vertical).
-![alt text](./img/flex-direction-terms.svg)
+El <a href="https://www.w3.org/TR/css-flexbox-1/">**W3C**</a> define a esta estructura como un “flujo flexible” de elementos en **dirección unidimensional** (arriba hacia abajo o izquierda hacia derecha) y **tamaño** (anchura/altura) según los ejes principal (horizontal) y transversal (vertical).  
 
 ![alt text](./img/flex_terms.png)
+
+- **Contenedor flexible** (flex container): Es el elemento padre que contiene los ítems flexibles.   
+- **Eje principal** (main axis): Los contenedores flexibles tienen una orientación específica. Por defecto, el eje principal del contenedor flex es el horizontal.  
+- **Eje secundario** (cross axis): Del mismo modo, los contenedores flexibles tienen una orientación secundaria específica, perpendicular a la principal.   
+- Es posible permutar la orientación de los ejes y asignar el eje principal al vertical y el secundario al horizontal.  
+- **Elemento flexible** (flex item): Son los elementos que se encuentran dentro del "flex container". 
+
+
+
 
 HASTA Aqui  
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
