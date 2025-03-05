@@ -424,11 +424,50 @@ Existen dos tipos de contenedores flexibles: `flex` (flexible) e `inline-flex` (
 
 |Tipo de contenedor|Comportamiento de los elementos hijos|
 |-|-|
-| **display:flex** |El contenedor se comporta como un bloque, es decir, ocupa todo el espacio (horizontal) disponible (similar a `block`), , pero sus elementos hijos solo ocupan el espacio necesario, a menos que se especifique lo contrario.|
+| **display:flex** |El contenedor se comporta como un bloque, es decir, ocupa todo el espacio (horizontal) disponible (similar a `block`), pero sus elementos hijos solo ocupan el espacio necesario (a menos que se especifique lo contrario).|
 |**display:inline-flex**|El contenedor se comporta como un elemento en-línea, es decir, ocupa solo el espacio necesario y pueden colocarse unos detrás de otros en la misma línea (similar a inline-block). Sin embargo, sus elementos hijos siguen comportándose como en un contenedor `flex`. |
 
 >**Ejemplos**
+```css
+.container1 {
+  margin: 10px;
+  display: flex;
+  background-color: rgb(8, 235, 20);
+}
+.container2 {
+  margin: 10px;
+  display:inline-flex;
+  background-color: blueviolet;
+}
+.element1 {
+  margin: 5px;
+  padding: 5px;
+  background-color: aquamarine;
+}
+.element2 {
+  margin: 15px;
+  padding: 15px;
+  background-color: bisque;
+}
+.element3{
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(226, 75, 30);
+}
+```
 
+```html
+<div class="container1">
+  <div class="element1">Elemento 1</div>
+  <div class="element2">Elemento 2</div>
+  <div class="element3">Elemento 3</div>
+</div>
+<div class="container2">
+  <div class="element1">Elemento 1</div>
+  <div class="element2">Elemento 2</div>
+  <div class="element3">Elemento 3</div>
+</div>
+```
 
 
 
