@@ -467,6 +467,11 @@ Existen dos tipos de contenedores flexibles: `flex` (flexible) e `inline-flex` (
   <div class="element2">Elemento 2</div>
   <div class="element3">Elemento 3</div>
 </div>
+<div class="container2">
+  <div class="element1">Elemento 1</div>
+  <div class="element2">Elemento 2</div>
+  <div class="element3">Elemento 3</div>
+</div>
 ```
 
 >**Resultado:**
