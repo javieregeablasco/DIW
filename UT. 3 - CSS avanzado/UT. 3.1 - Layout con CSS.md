@@ -206,25 +206,29 @@ El posicionamiento fijo hace que el elemento se quede en una posición específi
   background-color: rgba(0, 0, 255, 0.192);
   width: 75%;
   text-align: center;    
-  margin: 20px;
+  margin-top: 50px;
+  margin-left: 10px;
   padding: 10px;
 }
 .caja2 {
   background-color: rgba(255, 0, 0, 0.7);
-  width: 75%; /* 75% del viewport al salirse del flujo del documento */
+  width: 50%; /* 50% del viewport al salirse del flujo del documento */
   text-align: center;
   padding: 10px;
   position: fixed; /* Se fija a la ventana del navegador */
-  top: 100px;  /* 100px del borde superior de la ventana */
-  right: 20px; /* 20px del borde derecho de la ventana */
+  top: 0px;  /* Se ubica a 0px del borde superior de la ventana */
+  left: 0px; /* Se ubica a 0px del borde derecho de la ventana */
 }
 ```
 
 ```html
-  <div class="contenedor">
-    <div class="caja1">Contenido caja 1</div>
-    <div class="caja2">Contenido caja 2 (Fija)</div>
-  </div>
+<div class="contenedor">
+  <div class="caja1">Contenido caja 1</div>
+  <div class="caja2">Contenido caja 2 (Fija)</div>
+  <div class="caja1">Contenido caja 1</div>
+  <div class="caja1">Contenido caja 1</div>
+  <div class="caja1">Contenido caja 1</div>
+</div>
 ```
 
 ## 3.5. - Posicionamiento con Float
