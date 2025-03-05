@@ -353,31 +353,48 @@ Los valores de `z-index` pueden ser:
 
 >**Ejemplo:**  
 ```css
-.caja {
-  width: 100px;
-  height: 100px;
-  position: absolute;
+.contenedor {
+  position: relative; 
+  width: 50vw;
+  height: 20vh;
+  background-color: antiquewhite;
+  padding: 1px; 
 }
-
+.caja1, .caja2, .caja3, .caja4, .caja5 {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  position: absolute; 
+}
 .caja1 {
-  background-color: red;
-  top: 20px;
+  background-color: rgb(0, 255, 242);
+  top: 20px;  
   left: 20px;
-  z-index: 1; /* Detrás */
+  z-index: 0; 
 }
-
 .caja2 {
-  background-color: blue;
-  top: 40px;
-  left: 40px;
-  z-index: 2; /* Encima de caja1 */
-}
-
+  background-color: rgb(255, 0, 43);   
+  top: 25px;  
+  left: 25px;
+  z-index: 1; 
+}  
 .caja3 {
-  background-color: green;
-  top: 60px;
-  left: 60px;
-  z-index: 3; /* Encima de caja2 */
+  background-color: rgb(217, 255, 0);
+  top: 30px;  
+  left: 30px;
+  z-index: 2; 
+}
+.caja4 {
+  background-color: rgb(0, 60, 255);
+  top: 35px;  
+  left: 35px;
+  z-index: 3; 
+}
+.caja5 {
+  background-color: rgb(225, 0, 255);
+  top: 40px;  
+  left: 40px;
+  z-index: 4; 
 }
 ```
 
