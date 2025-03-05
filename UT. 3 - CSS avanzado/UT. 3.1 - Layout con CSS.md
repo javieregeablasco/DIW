@@ -410,7 +410,7 @@ Los valores de `z-index` pueden ser:
 HASTA Aqui  
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
 
-https://lenguajecss.com/css/flex/que-es-flex/
+https://lenguajecss.com/css/flex/que-es-flex/  
 https://nachoiborraies.github.io/htmlcss/md/es/03b#33-la-propiedad-display
 
 https://www.yunbitsoftware.com/blog/2017/03/30/flexbox-css3-tutorial-descripcion-ejemplos-html/
