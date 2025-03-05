@@ -238,34 +238,42 @@ La propiedad `float` permite que un elemento se desplace hacia la izquierda o la
 > **Ejemplo:**  
 ```css
 .contenedor {
-  width: 50vw;
-  height: 400vh;
+  width: 40vw;
+  height:30vh;
   background-color: antiquewhite;
   padding: 1px;
 }
-
 .caja1 {
-  background-color: rgba(0, 0, 255, 0.192);
-  width: 75%;
+  background-color: rgba(143, 223, 140, 0.192);
+  width: 25%;
   text-align: center;    
-  margin: 20px;
+  margin: 5px;
   padding: 10px;
-  float: left; /* La caja1 flota a la izquierda */
+  float: none; /* no flota */
 }
-
 .caja2 {
-  background-color: rgba(255, 0, 0, 0.7);
-  width: 75%;
-  text-align: center;
+  background-color: rgba(0, 0, 255, 0.192);
+  width: 25%;
+  text-align: center;    
+  margin: 5px;
   padding: 10px;
-  float: right; /* La caja2 flota a la derecha */
+  float: left; /* flota a la izquierda */
+}
+.caja3 {
+  background-color: rgba(255, 0, 0, 0.7);
+  width: 25%; 
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  float: right; /* flota a la derecha */
 }
 ```
 
 ```html
 <div class="contenedor">
-  <div class="caja1">Contenido caja 1 (Flota a la izquierda)</div>
-  <div class="caja2">Contenido caja 2 (Flota a la derecha)</div>
+  <div class="caja1">Contenido caja 1</div>
+  <div class="caja2">Contenido caja 2</div>
+  <div class="caja3">Contenido caja 3</div>
 </div>
 ```
 
