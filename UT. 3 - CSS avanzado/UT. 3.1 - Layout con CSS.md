@@ -419,7 +419,13 @@ El <a href="https://www.w3.org/TR/css-flexbox-1/">**W3C**</a> define a esta estr
 - Es posible permutar la orientación de los ejes y asignar el eje principal al vertical y el secundario al horizontal.  
 - **Elemento flexible** (flex item): Son los elementos que se encuentran dentro del "flex container". 
 
+## 4.3. - Tipos de contenedores flexibles
+Existen dos tipos de contenedores flexibles: `flex` (flexible) e `inline-flex` (flexible en línea). La propiedad `display` permite definir el tipo de contenedor flexible. 
 
+|Tipo de contenedor|Comportamiento de los hijos|
+|-|-|
+|flex|El contenedor se comporta como un bloque, es decir, los elementos hijos ocupan todo el espacio disponible (similar a `block`).|
+|inline-flex|El contenedor se comporta como un elemento en-línea, es decir, los elementos hijos sólo ocupan el espacio necesario y pueden colocarse unos detrás de otros en la misma línea si el espacio disponible lo permite.)|
 
 
 HASTA Aqui  
