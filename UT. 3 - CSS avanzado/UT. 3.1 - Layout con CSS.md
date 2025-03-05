@@ -401,6 +401,10 @@ Los valores de `z-index` pueden ser:
 >**Resultado:**
 <video controls src="./img/zindex.mp4" title="Title"></video>
 
+# 4. Flexbox
+https://lenguajecss.com/css/layout/display-css/
+https://lenguajecss.com/css/flex/que-es-flex/
+
 
 
 HASTA Aqui
@@ -414,9 +418,6 @@ https://lenguajecss.com/css/posicionamiento/position/
 
 
 
-HABLAR DE Z-INDEX
-
-
 https://nachoiborraies.github.io/htmlcss/md/es/03b
 
 https://lenguajecss.com/css/posicionamiento/position/
@@ -424,10 +425,6 @@ https://lenguajecss.com/css/posicionamiento/position/
 https://www.mardeasa.es/descargas/curso-Confeccion-y-publicacion-de-paginas-web/11-CSS-Posicionamiento.pdf
 
 
-
-# 4. Flexbox
-https://lenguajecss.com/css/layout/display-css/
-https://lenguajecss.com/css/flex/que-es-flex/
 
 # 5. Grid layout 
 https://lenguajecss.com/css/grid/que-es-grid/
