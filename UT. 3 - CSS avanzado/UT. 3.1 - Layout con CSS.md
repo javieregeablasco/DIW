@@ -343,8 +343,65 @@ La propiedad `position: sticky;` permite que un elemento se comporte como `relat
 >**Resultado:**  
 <video controls src="./img/sticky.mp4" title="Title"></video>
 
-  ## 3.6. - Posicionamiento con z-index  
+## 3.6. - Posicionamiento con z-index  
+La propiedad `z-index` en CSS se usa para **controlar la profundidad y el orden de apilamiento** de los elementos en la pantalla. Funciona solo en elementos que tienen una propiedad `position` distinta de `static`, es decir, que la propiedad sea `relative`, `absolute`, `fixed` o `sticky`.  
 
+Los valores de `z-index` pueden ser:  
+- **Positivos** (`z-index: 10;`): El elemento se coloca por encima de los que tienen un valor menor.  
+- **Negativos** (`z-index: -1;`): El elemento se coloca detrás de otros elementos con valores superiores.  
+- **`auto`**: Usa el mismo valor de `z-index` que su elemento padre.  
+
+>**Ejemplo:**  
+```css
+.caja {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.caja1 {
+  background-color: red;
+  top: 20px;
+  left: 20px;
+  z-index: 1; /* Detrás */
+}
+
+.caja2 {
+  background-color: blue;
+  top: 40px;
+  left: 40px;
+  z-index: 2; /* Encima de caja1 */
+}
+
+.caja3 {
+  background-color: green;
+  top: 60px;
+  left: 60px;
+  z-index: 3; /* Encima de caja2 */
+}
+```
+
+>**Resultado:**
+<video controls src="./img/zindex.mp4" title="Title"></video>
+
+```html
+<div class="caja caja1"></div>
+<div class="caja caja2"></div>
+<div class="caja caja3"></div>
+```
+🔎 **Explicación:** La `caja3` (verde) está encima de la `caja2` (azul), y esta a su vez está encima de la `caja1` (roja) porque tienen valores de `z-index` mayores.
+
+---
+
+### 🔹 Consideraciones  
+✔ **`z-index` solo funciona en elementos posicionados** (`relative`, `absolute`, `fixed`, `sticky`).  
+✔ **Los elementos hijos respetan el `z-index` del padre** a menos que este tenga `z-index: auto`.  
+✔ **Los elementos dentro de un mismo contenedor siguen el orden de apilamiento natural**, salvo que se modifique con `z-index`.  
+
+🚀 **¿Cuándo usarlo?**  
+- Para crear **ventanas modales** o **menús desplegables**.  
+- Para manejar la superposición de elementos en **diseños complejos**.  
+- Para corregir problemas de visibilidad con elementos ocultos detrás de otros.
 
 
 HASTA Aqui
