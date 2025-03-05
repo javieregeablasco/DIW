@@ -568,6 +568,86 @@ Los posibles valores de la propiedad `flex-wrap` son:
 |**flex_wrap: wrap** | Los elementos se muestran en línea, en una sola fila. Su tamaño se ajusta al contenedor siempre que la suma de todos ellos sea inferior al 100% de la anchura del contenedor. Si es superior, se muestran en varias líneas (desbordamiento).|
 |**flex_wrap: wrap-reverse** | Similar a `warp` pero esta vez, si hay desbordamiento, las filas de elementos se muestran en orden inverso.|
 
+>**Ejemplo:**
+```css
+.container1, .container2, .container3 {
+  margin: 10px;
+  padding: 5px;
+  display: flex;      
+}
+.element1, .element2, .element3 {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;  
+  border: 1px solid gray;
+  border-radius: 3px;  
+  text-align: center;        
+}
+.container1 {
+  flex-wrap: nowrap;
+  background-color: rgb(8, 235, 20);
+}
+.container2 {
+  flex-wrap: wrap;
+  background-color: blueviolet;
+}
+.container3 {      
+  flex-wrap: wrap-reverse;
+  background-color: rgb(21, 230, 150);
+}   
+.element1 {
+  background-color: aquamarine;
+}
+.element2 {
+  background-color: bisque;
+}
+.element3{
+  background-color: rgb(226, 75, 30);
+}
+```
+```html
+<div class="container1">  
+  <div class="element1">1</div>
+  <div class="element2">2</div>
+  <div class="element3">3</div>
+  <div class="element1">4</div>
+  <div class="element2">5</div>
+  <div class="element3">6</div>
+  <div class="element1">7</div>
+  <div class="element2">8</div>
+  <div class="element3">9</div>
+</div>
+
+<div class="container2">  
+  <div class="element1">1</div>
+  <div class="element2">2</div>
+  <div class="element3">3</div>
+  <div class="element1">4</div>
+  <div class="element2">5</div>
+  <div class="element3">6</div>
+  <div class="element1">7</div>
+  <div class="element2">8</div>
+  <div class="element3">9</div>
+</div>
+
+<div class="container3">  
+  <div class="element1">1</div>
+  <div class="element2">2</div>
+  <div class="element3">3</div>
+  <div class="element1">4</div>
+  <div class="element2">5</div>
+  <div class="element3">6</div>
+  <div class="element1">7</div>
+  <div class="element2">8</div>
+  <div class="element3">9</div>
+</div>
+```
+
+>**Resultado:**
+<video controls src="./img/wrap.mp4" title="Title"></video>
+
+
 
 
 HASTA Aqui  
