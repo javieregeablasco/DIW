@@ -427,7 +427,7 @@ Existen dos tipos de contenedores flexibles: `flex` (flexible) e `inline-flex` (
 | **display:flex** |El contenedor se comporta como un bloque, es decir, ocupa todo el espacio (horizontal) disponible (similar a `block`), pero sus elementos hijos solo ocupan el espacio necesario (a menos que se especifique lo contrario).|
 |**display:inline-flex**|El contenedor se comporta como un elemento en-línea, es decir, ocupa solo el espacio necesario y pueden colocarse unos detrás de otros en la misma línea (similar a inline-block). Sin embargo, sus elementos hijos siguen comportándose como en un contenedor `flex`. |
 
->**Ejemplos**
+>**Ejemplo:**
 ```css
 .container1 {
   margin: 10px;
@@ -488,7 +488,74 @@ Los posibles valores de `flex-direction` son:
 |**flex_direction: column** |Los elementos se visualizan de **arriba hacia abajo**.|
 |**flex_direction: column-reverse** |Los elementos se visualizan de **abajo hacia arriba**.|
 
-HASTA Aqui  
+>**Ejemplo:**
+```css
+.container1, .container2, .container3, .container4 {
+  margin: 10px;
+  padding: 5px;
+  display: inline-flex;
+}
+.element1, .element2, .element3 {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;  
+  border: 1px solid gray;
+  border-radius: 3px;    
+}
+.container1 {
+  flex-direction: row;
+  background-color: rgb(8, 235, 20);
+}
+.container2 {
+  flex-direction:row-reverse;
+  background-color: blueviolet;
+}
+.container3 {      
+  flex-direction: column;
+  background-color: rgb(21, 230, 150);
+}
+.container4 {
+  flex-direction: column-reverse;
+  background-color: rgb(196, 166, 35);
+}
+.element1 {
+  background-color: aquamarine;
+}
+.element2 {
+  background-color: bisque;
+}
+.element3{
+  background-color: rgb(226, 75, 30);
+}
+```
+```html
+<div class="container1">  
+  <div class="element1">1</div>
+  <div class="element2">2</div>
+  <div class="element3">3</div>
+</div>
+
+<div class="container2">
+  <div class="element1">1</div>
+  <div class="element2">2</div>
+  <div class="element3">3</div>
+</div>
+
+<div class="container3">
+  <div class="element1">1</div>
+  <div class="element2">2</div>
+  <div class="element3">3</div>
+</div>
+
+<div class="container4">
+  <div class="element1">1</div>
+  <div class="element2">2</div>
+  <div class="element3">3</div>
+</div>
+```
+
+STA Aqui  
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
 
 https://lenguajecss.com/css/flex/que-es-flex/  
