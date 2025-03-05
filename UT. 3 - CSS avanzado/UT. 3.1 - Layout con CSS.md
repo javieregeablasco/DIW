@@ -79,7 +79,7 @@ La propiedad `position` puede adoptar los siguientes valores:
 |Fixed|La caja se sitúa en una posición fija en pantalla, independientemente de si el usuario sube o baja la página.|
 |Float|La caja se sitúa todo lo posible a la izquierda o derecha, dentro de la línea horizontal en que se encuentra.|
 |Sticky|La caja se desplaza cuando hacemos scroll hasta quedarse pegada en la parte superior cuando se alcanza cierta posición.|
-|z-index|Permite controlar la profundidad y el orden de apilamiento de los elementos que tienen la propiedad position, siempre que la propiedad position sea distinta de static relative, absolute, fixed o sticky.|
+|z-index|Permite controlar la profundidad y el orden de apilamiento de los elementos que tienen la propiedad position, siempre que la propiedad position sea distinta de static.|
 
 ## 3.1. - Posicionamiento con Static
 Por defecto, todos los elementos HTML tienen el posicionamiento `static`. Esto significa que el elemento se coloca en el flujo normal del documento, es decir, en el lugar que le corresponde según el orden en que aparece en el código.
@@ -343,6 +343,9 @@ La propiedad `position: sticky;` permite que un elemento se comporte como `relat
 >**Resultado:**  
 <video controls src="./img/sticky.mp4" title="Title"></video>
 
+  ## 3.6. - Posicionamiento con z-index  
+
+
 
 HASTA Aqui
 https://nachoiborraies.github.io/htmlcss/md/es/03b#31-posicionamiento-css2
@@ -353,42 +356,6 @@ https://lenguajecss.com/css/posicionamiento/position/
 
 
 
-
-### 5. **Posicionamiento Sticky (sticky)**
-El posicionamiento sticky es una mezcla entre el posicionamiento relativo y fijo. Un elemento con `position: sticky;` se comporta de manera normal hasta que se desplaza por la página hasta un cierto punto, y luego se "pega" a una posición específica mientras el usuario sigue desplazándose.
-
-- **Propiedad:** `position: sticky;`
-- **Comportamiento:** El elemento se comporta como un `relative` hasta que alcanza el umbral especificado con `top`, `right`, `bottom` o `left`, momento en el cual se fija en esa posición.
-
-### Ejemplo de uso:
-
-```css
-/* Posicionamiento relativo */
-.relative {
-  position: relative;
-  top: 20px; /* Se mueve 20px hacia abajo */
-}
-
-/* Posicionamiento absoluto */
-.absolute {
-  position: absolute;
-  top: 50px;  /* Se mueve 50px desde la parte superior del contenedor */
-  right: 30px; /* Se mueve 30px desde la parte derecha */
-}
-
-/* Posicionamiento fijo */
-.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
-
-/* Posicionamiento sticky */
-.sticky {
-  position: sticky;
-  top: 0;  /* Se queda pegado en la parte superior cuando se hace scroll */
-}
-```
 
 
 HABLAR DE Z-INDEX
