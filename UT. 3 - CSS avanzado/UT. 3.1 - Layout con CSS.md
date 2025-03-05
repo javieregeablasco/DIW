@@ -231,6 +231,10 @@ El posicionamiento fijo hace que el elemento se quede en una posición específi
 </div>
 ```
 
+>**Resultado:**  
+<video controls src="./img/fixed.mp4" title="Title"></video>
+
+
 ## 3.5. - Posicionamiento con Float
 La propiedad `float` permite que un elemento se desplace hacia la izquierda o la derecha dentro de su contenedor, permitiendo que otros elementos fluyan a su alrededor.  
 
