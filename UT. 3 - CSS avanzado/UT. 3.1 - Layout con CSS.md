@@ -402,27 +402,22 @@ Los valores de `z-index` pueden ser:
 <video controls src="./img/zindex.mp4" title="Title"></video>
 
 # 4. Flexbox
-https://lenguajecss.com/css/layout/display-css/
-https://lenguajecss.com/css/flex/que-es-flex/
-
-
-
 HASTA Aqui
+https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
+
+https://victorroblesweb.es/2022/09/27/como-funciona-flexbox-en-css/
+
+https://lenguajecss.com/css/flex/que-es-flex/
 https://nachoiborraies.github.io/htmlcss/md/es/03b#31-posicionamiento-css2
-https://lenguajecss.com/css/posicionamiento/position/
+
+https://mardeasa.es/descargas/curso-Confeccion-y-publicacion-de-paginas-web/22-CSS-Flexbox-y-Grid.pdf
+https://www.yunbitsoftware.com/blog/2017/03/30/flexbox-css3-tutorial-descripcion-ejemplos-html/
 
 
 
 
 
 
-
-
-https://nachoiborraies.github.io/htmlcss/md/es/03b
-
-https://lenguajecss.com/css/posicionamiento/position/
-
-https://www.mardeasa.es/descargas/curso-Confeccion-y-publicacion-de-paginas-web/11-CSS-Posicionamiento.pdf
 
 
 
@@ -434,11 +429,6 @@ https://lenguajecss.com/css/grid/que-es-grid/
 
 ---
 
-
-https://nachoiborraies.github.io/htmlcss/  
-
-modelo de cajas   https://lenguajecss.com/css/modelo-de-cajas/que-es/
-
 variables css  https://lenguajecss.com/css/variables-css/css-custom-properties/  
 
 funciones css   https://lenguajecss.com/css/funciones-css/que-son/  
@@ -449,11 +439,7 @@ enlazar a google fonts. https://lenguajecss.com/css/cargar-tipografias/tipografi
 
 display   https://lenguajecss.com/css/layout/display-css/  
 grid https://lenguajecss.com/css/grid/que-es-grid/  
-flex  https://lenguajecss.com/css/flex/que-es-flex/  
-position  https://lenguajecss.com/css/posicionamiento/position/  
 funciones de filtros para colores https://lenguajecss.com/css/efectos/filtros-css/  
 formas básicas  https://lenguajecss.com/css/mascaras-y-recortes/formas-basicas/  
 responsive design https://lenguajecss.com/css/responsive-web-design/que-es/  
 transformaciones https://lenguajecss.com/css/transformaciones/transform/
-
-
