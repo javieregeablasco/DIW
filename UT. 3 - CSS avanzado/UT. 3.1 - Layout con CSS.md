@@ -408,12 +408,9 @@ Los valores de `z-index` pueden ser:
 HASTA Aqui  
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
 
-https://victorroblesweb.es/2022/09/27/como-funciona-flexbox-en-css/
-
 https://lenguajecss.com/css/flex/que-es-flex/
-https://nachoiborraies.github.io/htmlcss/md/es/03b#31-posicionamiento-css2
+https://nachoiborraies.github.io/htmlcss/md/es/03b#33-la-propiedad-display
 
-https://mardeasa.es/descargas/curso-Confeccion-y-publicacion-de-paginas-web/22-CSS-Flexbox-y-Grid.pdf
 https://www.yunbitsoftware.com/blog/2017/03/30/flexbox-css3-tutorial-descripcion-ejemplos-html/
 
 
@@ -440,8 +437,7 @@ programacion  https://lenguajecss.com/css/logica-css/css-es-programacion/
 
 enlazar a google fonts. https://lenguajecss.com/css/cargar-tipografias/tipografias-google-fonts/  
 
-display   https://lenguajecss.com/css/layout/display-css/  
-grid https://lenguajecss.com/css/grid/que-es-grid/  
+ 
 funciones de filtros para colores https://lenguajecss.com/css/efectos/filtros-css/  
 formas básicas  https://lenguajecss.com/css/mascaras-y-recortes/formas-basicas/  
 responsive design https://lenguajecss.com/css/responsive-web-design/que-es/  
