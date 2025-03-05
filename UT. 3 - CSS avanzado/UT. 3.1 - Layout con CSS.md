@@ -422,7 +422,7 @@ El <a href="https://www.w3.org/TR/css-flexbox-1/">**W3C**</a> define a esta estr
 ## 4.3. - Tipos de contenedores flexibles
 Existen dos tipos de contenedores flexibles: `flex` (flexible) e `inline-flex` (flexible en línea). La propiedad `display` permite definir el tipo de contenedor flexible. 
 
-|Tipo de contenedor|Comportamiento de los elementos hijos|
+|**Tipo de contenedor**|**Comportamiento de los elementos hijos**|
 |-|-|
 | **display:flex** |El contenedor se comporta como un bloque, es decir, ocupa todo el espacio (horizontal) disponible (similar a `block`), pero sus elementos hijos solo ocupan el espacio necesario (a menos que se especifique lo contrario).|
 |**display:inline-flex**|El contenedor se comporta como un elemento en-línea, es decir, ocupa solo el espacio necesario y pueden colocarse unos detrás de otros en la misma línea (similar a inline-block). Sin embargo, sus elementos hijos siguen comportándose como en un contenedor `flex`. |
@@ -475,8 +475,18 @@ Existen dos tipos de contenedores flexibles: `flex` (flexible) e `inline-flex` (
 ```
 
 >**Resultado:**
-![alt text](./img/flex.png)
+![alt text](./img/flex%20inlineflex.png)
 
+## 4.4. - Dirección de los elementos hijos del contenedor flexible
+La propiedad `flex-direction` permite definir la dirección del eje principal del contenedor flexible (padre) según el eje horizontal (por defecto) o vertical. 
+
+Los posibles valores de `flex-direction` son: 
+|**Valores de flex-direction**|**Comportamiento**|
+|-|-|
+|**flex_direction: row** |Los elementos se visualizan **de izquierda a derecha** (valor por defecto).|
+|**flex_direction: row-reverse** |Los elementos se visualizan de **derecha a izquierda**.|
+|**flex_direction: column** |Los elementos se visualizan de **arriba hacia abajo**.|
+|**flex_direction: column-reverse** |Los elementos se visualizan de **abajo hacia arriba**.|
 
 HASTA Aqui  
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
