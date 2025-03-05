@@ -280,11 +280,6 @@ La propiedad `float` permite que un elemento se desplace hacia la izquierda o la
 >**Resultado:**  
 ![alt text](./img/float.png)
 
-## 3.2. - Posicionamiento con Sticky
-Aquí tienes el enunciado adaptado para usar `sticky` en lugar de `float`:  
-
----
-
 ## 3.5. - Posicionamiento con Sticky  
 La propiedad `position: sticky;` permite que un elemento se comporte como `relative` hasta que alcanza un determinado umbral de desplazamiento, momento en el cual se mantiene "pegado" en su posición dentro del contenedor padre.  
 
@@ -336,9 +331,8 @@ La propiedad `position: sticky;` permite que un elemento se comporte como `relat
 </div>
 ```
 
-En este ejemplo, la `caja1` se mantiene fija en la parte superior cuando se hace scroll dentro del `contenedor`.
-
-
+>**Resultado:**  
+<video controls src="./img/sticky.mp4" title="Title"></video>
 
 
 HASTA Aqui
