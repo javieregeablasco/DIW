@@ -469,6 +469,8 @@ Existen dos tipos de contenedores flexibles: `flex` (flexible) e `inline-flex` (
 </div>
 ```
 
+>**Resultado:**
+![alt text](./img/flex.png)
 
 
 HASTA Aqui  
