@@ -277,19 +277,67 @@ La propiedad `float` permite que un elemento se desplace hacia la izquierda o la
 </div>
 ```
 
->**Resultado:**
+>**Resultado:**  
 ![alt text](./img/float.png)
 
-### 📝 Notas:  
-- Si no se usa `clear`, otros elementos pueden seguir flotando alrededor de las cajas.  
-- Para evitar que un contenedor colapse con elementos flotantes, se puede usar `overflow: hidden;` o `clearfix`.  
+## 3.2. - Posicionamiento con Sticky
+Aquí tienes el enunciado adaptado para usar `sticky` en lugar de `float`:  
 
 ---
 
-Este texto ahora explica `float` en lugar de `position: fixed`, manteniendo el mismo estilo de presentación. 🚀
+## 3.5. - Posicionamiento con Sticky  
+La propiedad `position: sticky;` permite que un elemento se comporte como `relative` hasta que alcanza un determinado umbral de desplazamiento, momento en el cual se mantiene "pegado" en su posición dentro del contenedor padre.  
 
+**Importante:** A diferencia de `position: fixed;`, los elementos con `sticky` **siguen estando dentro del flujo del documento** y solo se fijan cuando se desplazan más allá del umbral definido.  
 
+- **Propiedad:** `position: sticky;` con un valor para `top`, `left`, `right` o `bottom`  
+- **Comportamiento:** El elemento se mantiene en su posición original hasta que el usuario hace scroll, momento en el que se fija en el punto definido.  
 
+> **Ejemplo:**  
+```css
+.contenedor {
+  width: 40vw;
+  height: 50vh;
+  background-color: antiquewhite;
+  padding: 1px;
+  overflow: auto;
+}
+.caja1 {
+  background-color: rgba(143, 223, 140, 0.192);
+  width: 100%;
+  text-align: center;    
+  margin: 5px;
+  padding: 10px;
+  position: sticky;
+  top: 0; /* se queda pegado en la parte superior al hacer scroll */
+}
+.caja2 {
+  background-color: rgba(0, 0, 255, 0.192);
+  width: 100%;
+  text-align: center;    
+  margin: 5px;
+  padding: 10px;
+}
+.caja3 {
+  background-color: rgba(255, 0, 0, 0.7);
+  width: 100%; 
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+}
+```
+
+```html
+<div class="contenedor">
+  <div class="caja1">Caja sticky</div>
+  <div class="caja2">Contenido caja 2</div>
+  <div class="caja3">Contenido caja 3</div>
+  <div class="caja2">Más contenido</div>
+  <div class="caja3">Aún más contenido</div>
+</div>
+```
+
+En este ejemplo, la `caja1` se mantiene fija en la parte superior cuando se hace scroll dentro del `contenedor`.
 
 
 

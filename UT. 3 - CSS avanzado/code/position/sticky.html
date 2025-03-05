@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky</title>
+  <style>
+   .contenedor {
+  width: 50vw;
+  height: 50vh;
+  background-color: antiquewhite;
+  padding: 1px;
+  overflow: auto;
+}
+.caja1 {
+  background-color: rgba(143, 223, 140, 0.192);
+  width: 80%;
+  text-align: center;    
+  margin: 5px;
+  padding: 10px;
+  position: sticky;
+  top: 0; /* Se mantiene pegado en la parte superior al hacer scroll */
+}
+.caja2 {
+  background-color: rgba(0, 0, 255, 0.192);
+  width: 80%;
+  text-align: center;    
+  margin: 5px;
+  padding: 10px;
+}
+.caja3 {
+  background-color: rgba(255, 0, 0, 0.7);
+  width: 80%; 
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div class="caja1">Caja sticky</div>
+    <div class="caja2">Contenido caja 2</div>
+    <div class="caja3">Contenido caja 3</div>
+    <div class="caja2">Más contenido</div>
+    <div class="caja3">Aún más contenido</div>
+  </div>
+</body>
+</html>
