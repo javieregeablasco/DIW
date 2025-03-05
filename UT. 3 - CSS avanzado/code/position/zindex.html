@@ -5,24 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Relative</title>
   <style>
-    .caja1 {
-      background-color: rgba(0, 0, 255, 0.192);
-      width: 25vw;
-      text-align:center;    
-      margin: 20px;
-      padding: 10px;
-    }
+    .contenedor {
+    position: relative; /* Contenedor relativa para que .caja2 se posicione dentro de él */
+    width: 35vw;
+    height: 20vh;
+    background-color: antiquewhite;
+    padding: 1px; /* solo para dar contenido al contenedor */
+  }
 
-    .caja2 {
-      background-color: rgba(255, 0, 0, 0.192);
-      width: 25vw;
-      text-align: center;
-      margin: 20px;
-      padding: 10px;
-      position: relative; /* Posicionamiento relativo a su ubicación original */
-      left: 20px; /* Desplazamiento 20px derecha */
-      top: 10px;  /* Desplazamiento 10px hacia abajo */
-    }
+  .caja1 {
+    background-color: rgba(0, 0, 255, 0.192);
+    width: 25vw;
+    text-align: center;    
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .caja2 {
+    background-color: rgba(255, 0, 0, 0.192);
+    width: 25vw;
+    text-align: center;
+    padding: 10px;
+    position: absolute; /* elemento con posición absolute relativo a .contenedor */
+    top: 40px;  /* 40px hacia abajo desde el contenedor relative */
+    left: 50px; /* 50px hacia la izquierda desde el contenedor relative */
+  }  
+
 
   </style>
 </head>
