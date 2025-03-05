@@ -558,6 +558,16 @@ Los posibles valores de `flex-direction` son:
 >**Resultado:**
 ![alt text](./img/flexdirection.png)
 
+## 4.5. - Ajuste en línea de los elementos flexibles: propiedad flex-warp
+La propiedad `flex-wrap` establece si los elementos se colocan en una sola línea o en varias.
+
+Los posibles valores de la propiedad `flex-wrap` son:
+|**Valores de flex-wrap**|**Comportamiento**|
+|-|-|
+|**flex_wrap: nowrap** | Los elementos se muestran en línea, en una sola fila. Su tamaño se ajusta al contenedor siempre que la suma de todos ellos sea mayor que el 100% de la anchura del contenedor. Si es inferior, se muestran en línea pero conservan su tamaño. No se permite el desbordamiento en varias líneas.|
+|**flex_wrap: wrap** | Los elementos se muestran en línea, en una sola fila. Su tamaño se ajusta al contenedor siempre que la suma de todos ellos sea inferior al 100% de la anchura del contenedor. Si es superior, se muestran en varias líneas (desbordamiento).|
+|**flex_wrap: wrap-reverse** | Similar a `warp` pero esta vez, si hay desbordamiento, las filas de elementos se muestran en orden inverso.|
+
 
 
 HASTA Aqui  
