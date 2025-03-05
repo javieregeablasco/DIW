@@ -277,6 +277,9 @@ La propiedad `float` permite que un elemento se desplace hacia la izquierda o la
 </div>
 ```
 
+>**Resultado:**
+![alt text](./img/float.png)
+
 ### 📝 Notas:  
 - Si no se usa `clear`, otros elementos pueden seguir flotando alrededor de las cajas.  
 - Para evitar que un contenedor colapse con elementos flotantes, se puede usar `overflow: hidden;` o `clearfix`.  
