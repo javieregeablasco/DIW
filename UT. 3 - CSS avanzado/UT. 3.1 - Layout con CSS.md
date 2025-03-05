@@ -422,10 +422,14 @@ El <a href="https://www.w3.org/TR/css-flexbox-1/">**W3C**</a> define a esta estr
 ## 4.3. - Tipos de contenedores flexibles
 Existen dos tipos de contenedores flexibles: `flex` (flexible) e `inline-flex` (flexible en línea). La propiedad `display` permite definir el tipo de contenedor flexible. 
 
-|Tipo de contenedor|Comportamiento de los hijos|
+|Tipo de contenedor|Comportamiento de los elementos hijos|
 |-|-|
-|flex|El contenedor se comporta como un bloque, es decir, los elementos hijos ocupan todo el espacio disponible (similar a `block`).|
-|inline-flex|El contenedor se comporta como un elemento en-línea, es decir, los elementos hijos sólo ocupan el espacio necesario y pueden colocarse unos detrás de otros en la misma línea si el espacio disponible lo permite.)|
+| **display:flex** |El contenedor se comporta como un bloque, es decir, ocupa todo el espacio (horizontal) disponible (similar a `block`), , pero sus elementos hijos solo ocupan el espacio necesario, a menos que se especifique lo contrario.|
+|**display:inline-flex**|El contenedor se comporta como un elemento en-línea, es decir, ocupa solo el espacio necesario y pueden colocarse unos detrás de otros en la misma línea (similar a inline-block). Sin embargo, sus elementos hijos siguen comportándose como en un contenedor `flex`. |
+
+>**Ejemplos**
+
+
 
 
 HASTA Aqui  
