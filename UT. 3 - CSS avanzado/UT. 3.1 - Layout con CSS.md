@@ -555,7 +555,12 @@ Los posibles valores de `flex-direction` son:
 </div>
 ```
 
-STA Aqui  
+>**Resultado:**
+![alt text](./img/flexdirection.png)
+
+
+
+HASTA Aqui  
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
 
 https://lenguajecss.com/css/flex/que-es-flex/  
