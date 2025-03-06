@@ -1045,21 +1045,50 @@ Los valores más habituales de `align-items`son:
 ```
 
 >**align-items: baseline**
+Con `align-items: baseline;` los elementos se alinean en la dirección secundaria según **la primera línea de texto**. Para ilustrar el ejemplo, se ha añadido la propiedad `padding-top` con distintos valores para cada elemento.  
 ```css
 .container1 {
-  margin: 10px;
-  padding: 5px;
-  display:flex;
-  justify-content:center;
-  align-items:baseline;      
-  width: 800px;
-  background-color: rgb(8, 235, 20);      
-}
+      margin: 10px;
+      padding: 5px;
+      display:flex;
+      justify-content:center;
+      align-items:baseline;      
+      width: 800px;
+      background-color: rgb(8, 235, 20);      
+    }
+    .element1, 
+    .element2,
+    .element3     
+    {
+      margin: 5px;
+      padding: 5px;  
+      border: 1px solid gray;
+      border-radius: 3px;                           
+      text-align: center; 
+    } 
+    .element1 {
+      padding-top: 5px;
+      flex: 1 1 0%;
+      height: 100px;
+      background-color: aquamarine;
+    }
+    .element2 {
+      padding-top: 20px;
+      flex: 1 1 0%;
+      height: 150px;
+      background-color: bisque;      
+    }
+    .element3 {
+      padding-top: 35px;
+      flex: 1 1 0%;
+      height:50px;
+      background-color:aqua;
+    }
 ```
 **Resultado:**  
-![alt text](./img/center.png)
+![alt text](./img/baseline.png)
 
-
+## 4.11. - Alineación individual de los elementos en la dirección secundaria: propiedad `align-self`
 
 
 https://lenguajecss.com/css/flex/flex-grow-shrink/#la-propiedad-flex-shrink
