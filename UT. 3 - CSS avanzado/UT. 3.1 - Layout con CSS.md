@@ -832,6 +832,8 @@ flex: flex-grow flex-shrink flex-basis;
 1️⃣ **Valor por defecto (initial)**  
 ```css
 flex: 0 1 auto;
+/*también se puede escribir*/
+flex: initial;
 ```
 - No crece (`flex-grow: 0`).
 - Se encoge si es necesario (`flex-shrink: 1`).
