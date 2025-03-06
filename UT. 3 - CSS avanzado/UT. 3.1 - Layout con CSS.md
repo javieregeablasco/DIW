@@ -777,22 +777,8 @@ La propiedad `flex-grow` define el **factor de crecimiento** de los elementos fl
 🔹 `element1` y `element2` comienzan con **100px** de tamaño base.  
 🔹 Si el contenedor tiene 500px de ancho y solo se han ocupado 200px, quedan **300px de espacio libre**.  
 🔹 `element1` y `element2` crecerán para ocupar ese espacio en proporción a sus valores de `flex-grow`:  
-   - `item1` obtiene **100px de extra** (1 parte de 3).  
-   - `item2` obtiene **200px de extra** (2 partes de 3).  
-
-> **Tamaño final:**  
-> - `item1`: 100px + 100px = **200px**  
-> - `item2`: 100px + 200px = **300px**  
-
----
-
-### 📌 **Corrección de tu versión**  
-❌ **"Hay un `flex-basis` definido"** → `flex-grow` puede funcionar aunque `flex-basis` no esté explícitamente definido (porque su valor por defecto es `auto`).  
-❌ **"Los elementos ocupan la totalidad del contenedor flexible"** → En realidad, `flex-grow` **actúa cuando hay espacio libre disponible**, no cuando el contenedor ya está lleno.  
-
-🚀 ¡Espero que esto lo aclare!
-
-
+ :arrow_right: `elemento1` obtiene **100px extra** (1 parte de 3).  
+ :arrow_right: `elemento2` obtiene **200px extra** (2 partes de 3).  
 
 
 Compresión: flex-shrink
