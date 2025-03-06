@@ -673,14 +673,15 @@ Si asignamos un valor a la propiedad order, los elementos hijos no seguirán el 
 ```
 
 ## 4.8. - Tamaño inicial de los elementos flexibles: Flex-basis
-Habitualmente, el tamaño de los elementos flexibles viene determinado por su contenido. Si no hay espacio suficiente en la dirección principal, el espacio disponible se distribuye de forma desigual entre todos los elementos, dando más espacio a los elementos con más contenido, de manera que el tamaño en la dirección secundaria sea el menor posible:
-La propiedad flex-basis establece el tamaño inicial del elemento, antes de que se reparta en su caso el espacio libre.
-Los posibles valores de la propiedad `flex-flow` son:  
+Habitualmente, el tamaño de los elementos flexibles viene determinado por su contenido. Si no hay espacio suficiente en la dirección principal, el espacio disponible se distribuye de forma desigual entre todos los elementos, dando más espacio a los elementos con más contenido.
+La propiedad flex-basis establece el tamaño inicial del elemento, antes de que se reparta el espacio libre.
+
+Los posibles valores de la propiedad `flex-basis` son:  
 | **Valores de flex-basis** | **Comportamiento** |  
 |--------------------------|--------------------|  
 | **flex-basis: content** | Los elementos se organizan en una sola fila (horizontalmente) y no se permite el desbordamiento en varias líneas. |  
 | **flex-basis: auto** | Los elementos se organizan en una fila principal, pero si no caben en el contenedor, se envuelven en varias líneas. |  
-| **flex-basis: row wrap-reverse** | Similar a `row wrap`, pero las nuevas líneas aparecen en la parte superior en lugar de la parte inferior. |  
+| **flex-basis: valor** | Similar a `row wrap`, pero las nuevas líneas aparecen en la parte superior en lugar de la parte inferior. |  
 
 
 Tamaño inicial: flex-basis
