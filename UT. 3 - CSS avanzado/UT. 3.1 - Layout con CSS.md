@@ -971,11 +971,13 @@ Los valores más habituales de `align-items`son:
       background-color:aqua;
     }
 ```
->**Resultado:**
+**Resultado:**
 ![alt text](./img/stretch.png)
 
 
----
+
+>**align-items: flex-start**
+
 
 ## **📌 `align-items` en `display: grid`**
 En `grid`, `align-items` **controla la alineación vertical de todas las celdas** dentro de su fila.
