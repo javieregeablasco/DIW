@@ -889,23 +889,7 @@ flex: 1 1 0%;
 ## 4.9. - Alineación de elementos: propiedad `justify-content`  
 La propiedad `justify-content` se usa en **contenedores flex (`display: flex;`)** y **grid (`display: grid;`)** (que veremos más adelante) para **controlar la alineación horizontal** de los elementos dentro del contenedor.  
 
-Los valores más habituales de `justify-content` son: 
-1. `flex-start`
-2. `flex-end`
-3. `center`
-4. `space-between`
-5. `space-around`
-6. `space-evenly`
-
-**Sintaxis**
-```css
-.container {
-  display: flex;
-  justify-content: /*valor*/;
-}
-```
-
-**Explicación de los valores de `justify-content`:**
+**Valores habituales de `justify-content`:**
 | **Valor** | **Descripción** | **Ejemplo en un `display: flex`** |
 |--------|-------------|--------------------------------|
 | **`flex-start`** *(por defecto)* | Alinea los elementos al **inicio** (izquierda en `row`, arriba en `column`). | ⚪⚪⚪⚪⚪⬛⬛⬛⬛ |
@@ -915,15 +899,28 @@ Los valores más habituales de `justify-content` son:
 | **`space-around`** | Distribuye los elementos con **espacio igual alrededor** (bordes tienen la mitad del espacio). | ⬛⚪⬛⬛⚪⬛⬛⚪⬛ |
 | **`space-evenly`** | Distribuye los elementos con **espacios iguales entre ellos y en los bordes**. | ⬛⚪⬛⚪⬛⚪⬛⚪⬛ |
 
+**Sintaxis**
+```css
+.container {
+  display: flex;
+  justify-content: /*valor*/;
+}
+```
+
+
+
 ## 4.10. - Alineación de elementos en la dirección secundaria: propiedad `align-items`
 La propiedad `align-items` se usa en **contenedores flex (`display: flex;`)** y **grid (`display: grid;`)** para **controlar la alineación vertical de los elementos hijos** dentro del contenedor.
 
-Los valores más habituales de `align-items`son: 
-1. `stretch`  
-2. `flex-start`  
-3. `flex-end`  
-4. `center`  
-5. `baseline`  
+**Valores habituales de `align-items`**
+
+| **Valor** | **Descripción** |
+|--------|-------------|
+| **`stretch`** *(por defecto)* | Los elementos se estiran para ocupar todo el alto del contenedor. |
+| **`flex-start`** | Alinea los elementos **arriba** del contenedor (en `row`) o a la **izquierda** (en `column`). | 
+| **`flex-end`** | Alinea los elementos **abajo** del contenedor (en `row`) o a la **derecha** (en `column`). |
+| **`center`** | Centra los elementos verticalmente en el contenedor. |
+| **`baseline`** | Alinea los elementos según su línea base del texto. |  
 
 **Sintaxis**
 ```css
@@ -933,15 +930,7 @@ Los valores más habituales de `align-items`son:
 }
 ```
 
-**Explicación de los valores de `align-items`**
 
-| **Valor** | **Descripción** |
-|--------|-------------|
-| **`stretch`** *(por defecto)* | Los elementos se estiran para ocupar todo el alto del contenedor. |
-| **`flex-start`** | Alinea los elementos **arriba** del contenedor (en `row`) o a la **izquierda** (en `column`). | 
-| **`flex-end`** | Alinea los elementos **abajo** del contenedor (en `row`) o a la **derecha** (en `column`). |
-| **`center`** | Centra los elementos verticalmente en el contenedor. |
-| **`baseline`** | Alinea los elementos según su línea base del texto. |
 
 **Ejemplos**
 >**align-items: strech**
@@ -1096,12 +1085,14 @@ Con `align-items: baseline;` los elementos se alinean en la dirección secundari
 ## 4.11. - Alineación individual de los elementos en la dirección secundaria: propiedad `align-self`
 La propiedad `align-self` permite **modificar la alineación vertical de un solo elemento hijo** dentro de un contenedor `flex` o `grid`, **sin afectar a los demás elementos**.  
 
-Los valores habituales de `align-self` son los mismos que los de la propiedad `align-items`: 
-1. `stretch`  
-2. `flex-start`  
-3. `flex-end`  
-4. `center`  
-5. `baseline` 
+**Valores habituales de `align-self`**
+| **Valor** | **Descripción** |
+|--------|-------------|
+| **`auto`** *(por defecto)* | Toma el valor de `align-items` del contenedor padre. |
+| **`stretch`** | El elemento se **estira** para ocupar todo el alto del contenedor (si no tiene altura definida). |
+| **`flex-start`** | Alinea el elemento **arriba** del contenedor (en `row`) o a la **izquierda** (en `column`). | **`flex-end`** | Alinea el elemento **abajo** del contenedor (en `row`) o a la **derecha** (en `column`). |
+| **`center`** | Centra el elemento **verticalmente** en el contenedor. |
+| **`baseline`** | Alinea el elemento según su **línea base del texto**. | 
 
 **Sintaxis**
 ```css
@@ -1110,17 +1101,10 @@ Los valores habituales de `align-self` son los mismos que los de la propiedad `a
 }
 ```
 
-**Explicación de los valores de `align-self`**
-| **Valor** | **Descripción** |
-|--------|-------------|
-| **`auto`** *(por defecto)* | Toma el valor de `align-items` del contenedor padre. |
-| **`stretch`** | El elemento se **estira** para ocupar todo el alto del contenedor (si no tiene altura definida). |
-| **`flex-start`** | Alinea el elemento **arriba** del contenedor (en `row`) o a la **izquierda** (en `column`). | **`flex-end`** | Alinea el elemento **abajo** del contenedor (en `row`) o a la **derecha** (en `column`). |
-| **`center`** | Centra el elemento **verticalmente** en el contenedor. |
-| **`baseline`** | Alinea el elemento según su **línea base del texto**. |
+
 
 **Ejemplo con `align-self: flex-end`**
-Como podemos ver en los fragmentos de código, todos los elementos hijos tienen la propiedad `align-items:baseline;` pero adicionalmente el elemento con la clase `elemento3` tiene el `align-self: self-end;`.   
+Como podemos ver en los fragmentos de código, todos los elementos hijos tienen la propiedad `align-items:baseline;` pero adicionalmente el elemento con la clase `elemento3` tiene el `align-self: self-end;`. Como consecuencia de ese valor el elemento se posiciona a partir de la base del elemento `flex` padre.   
 ```css
 ...
 .container1 {
@@ -1146,8 +1130,107 @@ Como podemos ver en los fragmentos de código, todos los elementos hijos tienen 
 >**resultado:**
 ![alt text](./img/align-self.png)
 
+## 4.12. - Alineación en la dirección secundaria: propiedad `align-content`
+La propiedad `align-content` en CSS se usa en **contenedores flex (`display: flex;`) y grid (`display: grid;`)** para **controlar la distribución del espacio entre las líneas** cuando hay múltiples filas.  
+
+**Solo tiene efecto cuando hay varias líneas de elementos**, es decir:  
+- En `flex-wrap: wrap;` dentro de `display: flex;`  
+- En `display: grid;` con varias filas  
+Si solo hay una fila, esta propiedad **no tiene efecto**.  
+
+---
+---
+---
+HASTA AQUI
+---
+
+**Sintaxis**
+```css
+.container {
+  display: flex;  
+  flex-wrap: wrap; 
+  align-content: /*valor*/;
+}
+```
 
 
+
+## Valores habituales de `align-content`**
+
+| Valor | Descripción | Ejemplo Visual en `flex-wrap: wrap;` |
+|--------|-------------|--------------------------------|
+| **`stretch`** *(por defecto)* | Las líneas se estiran para ocupar todo el alto disponible del contenedor. | 🔳🔳🔳🔳 (ocupando todo) |
+| **`flex-start`** | Todas las líneas se agrupan **arriba** del contenedor. | 🔳🔳🔳⬜⬜⬜ |
+| **`flex-end`** | Todas las líneas se agrupan **abajo** del contenedor. | ⬜⬜⬜🔳🔳🔳 |
+| **`center`** | Las líneas se **agrupan en el centro** verticalmente. | ⬜🔳🔳🔳⬜ |
+| **`space-between`** | Máximo espacio entre filas, sin margen en los bordes. | 🔳⬜🔳⬜🔳 |
+| **`space-around`** | Espacio igual alrededor de cada fila. | ⬜🔳⬜🔳⬜🔳⬜ |
+| **`space-evenly`** | Espacio **idéntico** entre filas y en los bordes. | 🔳⬜🔳⬜🔳 |
+
+📌 **Diferencia con `align-items`:**  
+- `align-items` → **Alinea elementos dentro de una fila.**  
+- `align-content` → **Alinea las filas entre sí.**  
+
+---
+
+## **🎯 Ejemplo práctico en `display: flex`**
+```css
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  align-content: center; /* Agrupa las filas en el centro */
+  background-color: lightgray;
+}
+
+.item {
+  width: 80px;
+  height: 50px;
+  background-color: blue;
+  margin: 5px;
+}
+```
+```html
+<div class="container">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+```
+🔹 Aquí, las filas de `.item` estarán **agrupadas en el centro** del `.container`.
+
+---
+
+## **📌 `align-content` en `display: grid`**
+En `grid`, `align-content` **controla la alineación de las filas en la cuadrícula**.
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  height: 300px;
+  align-content: flex-end; /* Todas las filas bajarán */
+  background-color: lightgray;
+}
+```
+
+---
+
+## **🎯 ¿Cuándo usar `align-content`?**
+- Cuando usas `flex-wrap: wrap;` y necesitas **organizar las filas dentro del contenedor**.  
+- En `display: grid;` para **distribuir filas en el eje vertical**.  
+- Para **optimizar el uso del espacio disponible** en contenedores flexibles.
+
+---
+
+Si necesitas un ejemplo más detallado, dime y lo ajustamos. 😊
+
+---
+---
+---
 
 
 
