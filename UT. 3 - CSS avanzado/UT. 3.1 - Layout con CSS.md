@@ -941,27 +941,39 @@ Los valores más habituales de `align-items`son:
 **Ejemplos**
 >**align-items: strech**
 ```css
-.container {
-  display: flex;
-  height: 200px;
-  align-items: center; 
-  background-color: lightgray;
-}
+    .container1 {
+      margin: 10px;
+      padding: 5px;
+      display:flex;
+      justify-content: center;
+      align-items: strech;      
+      width: 800px;
+      background-color: rgb(8, 235, 20);      
+    }
+    .element1, 
+    .element2,
+    .element3     
+    {
+      margin: 5px;
+      padding: 5px;  
+      border: 1px solid gray;
+      border-radius: 3px;                           
+      text-align: center; 
+    } 
+    .element1 {
+      height: 100px;
+      background-color: aquamarine;
+    }
+    .element2 {
+      background-color: bisque;
+    }
+    .element3 {
+      background-color:aqua;
+    }
+```
+>**Resultado:**
+![alt text](./img/stretch.png)
 
-.item {
-  width: 50px;
-  height: 50px;
-  background-color: blue;
-}
-```
-```html
-<div class="container">
-  <div class="item"></div>
-  <div class="item"></div>
-  <div class="item"></div>
-</div>
-```
-🔹 Aquí, los elementos `.item` estarán **centrados verticalmente** dentro del `.container`.
 
 ---
 
@@ -977,19 +989,6 @@ En `grid`, `align-items` **controla la alineación vertical de todas las celdas*
   background-color: lightgray;
 }
 ```
-
----
-
-## **🎯 ¿Cuándo usar cada valor?**
-- **`stretch`** → Si quieres que los elementos **ocupen todo el alto disponible** (comportamiento por defecto).  
-- **`flex-start`** → Si quieres que los elementos se alineen **arriba**.  
-- **`flex-end`** → Para alinearlos **abajo**.  
-- **`center`** → Para centrar los elementos **verticalmente**.  
-- **`baseline`** → Cuando tienes textos con diferentes tamaños y quieres que queden alineados correctamente.  
-
----
-
-Si tienes dudas o necesitas un caso específico, dime y lo ajustamos. 😊 
 
 
 
