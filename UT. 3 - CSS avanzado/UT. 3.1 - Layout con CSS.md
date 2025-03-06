@@ -1228,7 +1228,10 @@ container1 {
 </div>
  ...
 ```
->**Resultado:**
+>**Resultado:**  
+El contenedor de arriba no tiene asignado ningún valor para `align-content`.  
+El contenedor de abajo tiene asignado el valor `align-content:flex-end`.
+
 <video controls src="./img/aligncontent.mp4" title="Title"></video>
 
 
