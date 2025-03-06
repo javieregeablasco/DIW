@@ -558,7 +558,7 @@ Los posibles valores de `flex-direction` son:
 >**Resultado:**
 ![alt text](./img/flexdirection.png)
 
-## 4.5. - Ajuste en línea de los elementos flexibles: Flex-warp
+## 4.5. - Ajuste en línea de los elementos flexibles: flex-warp
 La propiedad `flex-wrap` establece si los elementos se colocan en una sola línea o en varias.
 
 Los posibles valores de la propiedad `flex-wrap` son:
@@ -647,7 +647,7 @@ Los posibles valores de la propiedad `flex-wrap` son:
 >**Resultado:**
 <video controls src="./img/wrap.mp4" title="Title"></video>
 
-## 4.6. - Ajuste bidireccional de los elementos flexibles: Flex-flow
+## 4.6. - Ajuste bidireccional de los elementos flexibles: flex-flow
 La propiedad `flex-flow` establece simultáneamente las propiedades `flex-direction` y `flex-wrap`.
 
 Los posibles valores de la propiedad `flex-flow` son:  
@@ -673,7 +673,7 @@ Si asignamos un valor a la propiedad order, los elementos hijos no seguirán el 
 ```
 
 ## 4.8. - Tamaño de los elementos flexibles
-### 4.8.1. - Ajustando el tamaño inicial de los elementos: Flex-basis
+### 4.8.1. - Ajustando el tamaño inicial de los elementos: flex-basis
 Habitualmente, el tamaño de los elementos flexibles viene determinado por su contenido. Si no hay espacio suficiente en la dirección principal, el espacio disponible se distribuye de forma desigual entre todos los elementos, dando más espacio a los elementos con más contenido y siempre minimizando el tamaño de los elementos en la dirección secundaria.
 La propiedad `flex-basis` permite establecer el tamaño inicial de los elementos, antes de que se reparta el espacio libre.
 
@@ -736,12 +736,56 @@ Los posibles valores de la propiedad `flex-basis` son:
 | **flex-basis: content** | Se basa solo en el tamaño del contenido, sin importar `width` o `height`. | ✅ Sí |
 | **flex-basis: 100px** (valor fijo) | Usa exactamente el valor especificado. | ❌ No |
 
+
+### 4.8.1. - Ajustando el tamaño inicial de los elementos: `flex-grow`  
+
+La propiedad `flex-grow` define el **factor de crecimiento** de los elementos flexibles cuando hay espacio adicional disponible en el contenedor.  
+
+- **Si `flex-grow` es `0`** (valor por defecto), el elemento no crecerá más allá de su tamaño inicial (`flex-basis`).  
+- **Si `flex-grow` es mayor que `0`**, el elemento crecerá proporcionalmente al espacio libre disponible en el contenedor.  
+- **Si varios elementos tienen `flex-grow` con diferentes valores**, el espacio libre se distribuirá en proporción a estos valores.  
+
+>**Nota:**
+`flex-grow` funciona junto con `flex-basis`, ya que el tamaño final del elemento se calculará como:  
+- **Tamaño final = `flex-basis` + (espacio disponible * `flex-grow`)**  
+
+### 🔍 **Ejemplo**  
+```css
+.container {
+  display: flex;
+  width: 500px;
+}
+
+.item1 {
+  flex-basis: 100px;
+  flex-grow: 1;
+}
+
+.item2 {
+  flex-basis: 100px;
+  flex-grow: 2;
+}
+```
+🔹 Aquí `item1` y `item2` comienzan con **100px** de tamaño base.  
+🔹 Si el contenedor tiene 500px de ancho y solo se han ocupado 200px, quedan **300px de espacio libre**.  
+🔹 `item1` y `item2` crecerán para ocupar ese espacio en proporción a sus valores de `flex-grow`:  
+   - `item1` obtiene **100px de extra** (1 parte de 3).  
+   - `item2` obtiene **200px de extra** (2 partes de 3).  
+
+> **Tamaño final:**  
+> - `item1`: 100px + 100px = **200px**  
+> - `item2`: 100px + 200px = **300px**  
+
 ---
 
+### 📌 **Corrección de tu versión**  
+❌ **"Hay un `flex-basis` definido"** → `flex-grow` puede funcionar aunque `flex-basis` no esté explícitamente definido (porque su valor por defecto es `auto`).  
+❌ **"Los elementos ocupan la totalidad del contenedor flexible"** → En realidad, `flex-grow` **actúa cuando hay espacio libre disponible**, no cuando el contenedor ya está lleno.  
+
+🚀 ¡Espero que esto lo aclare!
 
 
 
-Expansión: flex-grow
 
 Compresión: flex-shrink
 
