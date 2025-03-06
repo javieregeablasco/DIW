@@ -737,7 +737,7 @@ Los posibles valores de la propiedad `flex-basis` son:
 | **flex-basis: 100px** (valor fijo) | Usa exactamente el valor especificado. | ❌ No |
 
 
-### 4.8.1. - Ajustando el tamaño inicial de los elementos: `flex-grow`  
+### 4.8.2. - Ajustando el tamaño inicial de los elementos: `flex-grow`  
 
 La propiedad `flex-grow` define el **factor de crecimiento** de los elementos flexibles cuando hay espacio adicional disponible en el contenedor.  
 
@@ -781,6 +781,7 @@ La propiedad `flex-grow` define el **factor de crecimiento** de los elementos fl
  :arrow_right: `elemento2` obtiene **200px extra** (2 partes de 3).  
 
 
+### 4.8.3. - Ajustando el tamaño inicial de los elementos: `flex-shrink`  
 Compresión: flex-shrink
 
 Tamaños: flex
