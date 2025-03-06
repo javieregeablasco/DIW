@@ -1133,10 +1133,7 @@ Como podemos ver en los fragmentos de código, todos los elementos hijos tienen 
 ## 4.12. - Alineación en la dirección secundaria: propiedad `align-content`
 La propiedad `align-content` en CSS se usa en **contenedores flex (`display: flex;`) y grid (`display: grid;`)** para **controlar la distribución del espacio entre las líneas** cuando hay múltiples filas.  
 
-**Solo tiene efecto cuando hay varias líneas de elementos**. Si solo hay una fila, esta propiedad **no tiene efecto**.  
-
-## Valores habituales de `align-content`**
-
+**Valores habituales de `align-content`**
 | Valor | Descripción |
 |--------|-------------|
 | **`stretch`** *(por defecto)* | Las líneas se estiran para ocupar todo el alto disponible del contenedor. |
@@ -1156,72 +1153,83 @@ La propiedad `align-content` en CSS se usa en **contenedores flex (`display: fle
 }
 ```
 
-
-
-
-  HASTA AQUI
-
-
-
-
-## **🎯 Ejemplo práctico en `display: flex`**
+**Ejemplo con `align-content:flex-end`**
 ```css
-.container {
-  display: flex;
+container1 {
+  margin: 10px;
+  padding: 5px;
+  height: 25vh;
+  display:flex;
   flex-wrap: wrap;
-  height: 300px;
-  align-content: center; /* Agrupa las filas en el centro */
-  background-color: lightgray;
+  justify-content:left;
+  align-content:flex-end;
+  background-color: rgb(8, 235, 20);             
 }
-
-.item {
-  width: 80px;
-  height: 50px;
-  background-color: blue;
+.container2 {
+  margin: 10px;
+  padding: 5px;
+  height: 25vh;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:left;
+  background-color: rgb(8, 235, 20);             
+}
+.element1, 
+.element2,
+.element3,     
+.element4,    
+.element5,     
+.element6,     
+.element7,
+.element8,
+.element9     
+{
   margin: 5px;
+  padding: 5px;  
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 3px;                           
+  text-align: center; 
+} 
+.element1 {
+  background-color: aquamarine;
+}
+.element2 {
+  background-color: bisque;      
+}
+.element3 {
+  background-color:aqua;
 }
 ```
+
 ```html
-<div class="container">
-  <div class="item"></div>
-  <div class="item"></div>
-  <div class="item"></div>
-  <div class="item"></div>
-  <div class="item"></div>
-  <div class="item"></div>
+...
+<div class="container2">  
+  <div class="element1"><strong>Elemento 1</strong></div>
+  <div class="element2"><strong>Elemento 2</strong></div>     
+  <div class="element3"><strong>Elemento 3</strong></div>     
+  <div class="element1"><strong>Elemento 4</strong></div>     
+  <div class="element2"><strong>Elemento 5</strong></div>     
+  <div class="element3"><strong>Elemento 6</strong></div>     
+  <div class="element1"><strong>Elemento 7</strong></div>     
+  <div class="element2"><strong>Elemento 8</strong></div>     
+  <div class="element3"><strong>Elemento 9</strong></div>     
+</div> 
+<div class="container1">  
+  <div class="element1"><strong>Elemento 1</strong></div>
+  <div class="element2"><strong>Elemento 2</strong></div>     
+  <div class="element3"><strong>Elemento 3</strong></div>     
+  <div class="element1"><strong>Elemento 4</strong></div>     
+  <div class="element2"><strong>Elemento 5</strong></div>     
+  <div class="element3"><strong>Elemento 6</strong></div>     
+  <div class="element1"><strong>Elemento 7</strong></div>     
+  <div class="element2"><strong>Elemento 8</strong></div>     
+  <div class="element3"><strong>Elemento 9</strong></div>     
 </div>
+ ...
 ```
-🔹 Aquí, las filas de `.item` estarán **agrupadas en el centro** del `.container`.
-
----
-
-## **📌 `align-content` en `display: grid`**
-En `grid`, `align-content` **controla la alineación de las filas en la cuadrícula**.
-
-```css
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  height: 300px;
-  align-content: flex-end; /* Todas las filas bajarán */
-  background-color: lightgray;
-}
-```
-
----
-
-## **🎯 ¿Cuándo usar `align-content`?**
-- Cuando usas `flex-wrap: wrap;` y necesitas **organizar las filas dentro del contenedor**.  
-- En `display: grid;` para **distribuir filas en el eje vertical**.  
-- Para **optimizar el uso del espacio disponible** en contenedores flexibles.
-
----
-
-Si necesitas un ejemplo más detallado, dime y lo ajustamos. 😊
-
----
----
----
+>**Resultado:**
+<video controls src="./img/aligncontent.mp4" title="Title"></video>
 
 
 
