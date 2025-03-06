@@ -823,16 +823,9 @@ Se recomienda utilizar la propiedad compuesta `flex` en vez de definir individua
 
 **Sintaxis de `flex`**  
 ```css
+/*los valores pasados se interpretan en ese orden*/
 flex: flex-grow flex-shrink flex-basis;
 ```
-
------------------------------------------
------------------------------------------
------------------------------------------
-HASTA aqui
------------------------------------------
------------------------------------------
------------------------------------------
 
 **Ejemplos de uso**  
 
