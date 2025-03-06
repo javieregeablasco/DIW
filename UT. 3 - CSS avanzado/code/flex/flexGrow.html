@@ -9,7 +9,7 @@
       margin: 10px;
       padding: 5px;
       display: flex;      
-      width: 80vw;
+      
       flex-wrap: nowrap;
       background-color: rgb(8, 235, 20);
     }
@@ -24,12 +24,18 @@
       text-align: center;        
     } 
     .element1 {
+      flex-basis: auto;
+      flex-grow: 3;
       background-color: aquamarine;
     }
     .element2 {
+      flex-basis: auto;
+      flex-grow: 1;
       background-color: bisque;
     }
     .element3{
+      flex-basis: auto;
+      flex-grow: 2;
       background-color: rgb(226, 75, 30);
     }
     
@@ -38,9 +44,9 @@
 <body>
 
   <div class="container1">  
-    <div class="element1"><strong>auto: </strong>El ajuste del elemento viene definido por la propiedad <strong>width</strong> y la distribución puede dar resultados sorprendentes. </div>
-    <div class="element2"><strong>content: </strong>El elemento tiene un tamaño inicial pero siempre se intenta poner todo el contenido en una misma línea.</div>
-    <div class="element3"><strong>300px: </strong>El ancho inicial está predefinido y no se puede cambiar, por mucho contenido que haya en el elemento.</div>  
+    <div class="element1"><strong>flex-grow: 3. </strong>Contenido identico.</div>
+    <div class="element2"><strong>flex-grow: 1. </strong>Contenido identico.</div>
+    <div class="element3"><strong>flex-grow: 2. </strong>Contenido identico.</div>  
   </div>
 
 </body>
