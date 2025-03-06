@@ -1119,69 +1119,19 @@ Los valores habituales de `align-self` son los mismos que los de la propiedad `a
 | **`center`** | Centra el elemento **verticalmente** en el contenedor. |
 | **`baseline`** | Alinea el elemento según su **línea base del texto**. |
 
-📌 **Diferencia con `align-items`:**  
-- `align-items` **afecta a todos los hijos** de un contenedor flex/grid.  
-- `align-self` **modifica solo un hijo específico**.  
-
----
-
-## **🎯 Ejemplo práctico en `display: flex`**
+**Ejemplo con `align-self: flex-end`**
 ```css
-.container {
-  display: flex;
-  height: 200px;
-  align-items: flex-start; /* Todos los elementos arriba */
-  background-color: lightgray;
-}
-
-.item {
-  width: 50px;
-  height: 50px;
-  background-color: blue;
-}
-
-.special {
-  align-self: flex-end; /* Solo este elemento baja al fondo */
-}
-```
-```html
-<div class="container">
-  <div class="item"></div>
-  <div class="item special"></div> <!-- Solo este se mueve abajo -->
-  <div class="item"></div>
-</div>
-```
-🔹 Aquí, todos los `.item` estarán **arriba** excepto el `.special`, que se alineará **abajo**.
-
----
-
-## **📌 `align-self` en `display: grid`**
-En `grid`, `align-self` **controla la alineación vertical de una sola celda**, sin afectar al resto.
-
-```css
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  height: 200px;
-  align-items: center; /* Todos centrados */
-  background-color: lightgray;
-}
-
-.special {
-  align-self: flex-end; /* Solo este se mueve abajo */
+...
+.element3 {
+  padding-top: 35px;
+  flex: 1 1 0%;
+  height:50px;
+  align-self: self-end;
+  background-color:aqua;
 }
 ```
 
----
-
-## **🎯 ¿Cuándo usar `align-self`?**
-- Cuando necesitas **excepciones** en la alineación de ciertos elementos.  
-- Para **sobrescribir `align-items`** en un solo hijo.  
-- Para **organizar elementos de manera más flexible** en `flexbox` y `grid`.
-
----
-
-Si necesitas un ejemplo más detallado, dime y lo ajustamos. 😊
+>**resultado:**
 
 
 
