@@ -1,5 +1,5 @@
 ---
-Título: UD. 5.3 - CSS3 avanzado Maquetación (layout) con CSS
+Título: UD. 5.3 - Maquetación con CSS3
 Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
@@ -401,7 +401,7 @@ Los valores de `z-index` pueden ser:
 >**Resultado:**
 <video controls src="./img/zindex.mp4" title="Title"></video>
 
-## 3.7. - Tarea RA2 CEf-1
+## 3.7. - Tarea RA2 CEf
 <poner aqui un ejemplo de navbar sidebar etc>
 
 # 4. Flexbox
@@ -1230,9 +1230,15 @@ El contenedor de abajo tiene asignado el valor `align-content:flex-end`.
 
 <video controls src="./img/aligncontent.mp4" title="Title"></video>
 
+# 5. Tarea RA2-CEg-1
+<placa base>
 
-# 5. - Grid
+# 6. Grid layout 
 
+
+
+# 7. Tarea RA2-CEg-2
+https://lenguajecss.com/css/grid/que-es-grid/
 
 
 https://lenguajecss.com/css/flex/flex-grow-shrink/#la-propiedad-flex-shrink
@@ -1247,17 +1253,6 @@ HASTA Aqui
 https://nachoiborraies.github.io/htmlcss/md/es/03b#33-la-propiedad-display
 
 https://www.yunbitsoftware.com/blog/2017/03/30/flexbox-css3-tutorial-descripcion-ejemplos-html/
-
-
-
-
-
-
-
-
-
-# 5. Grid layout 
-https://lenguajecss.com/css/grid/que-es-grid/
 
 
 
