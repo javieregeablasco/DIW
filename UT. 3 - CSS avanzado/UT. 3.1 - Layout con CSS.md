@@ -778,6 +778,7 @@ La propiedad `flex-grow` define el **factor de crecimiento** de los elementos fl
 </div>
 ...
 ``` 
+![alt text](./img/flexgrow.png)
 🔹 Aquí `item1` y `item2` comienzan con **100px** de tamaño base.  
 🔹 Si el contenedor tiene 500px de ancho y solo se han ocupado 200px, quedan **300px de espacio libre**.  
 🔹 `item1` y `item2` crecerán para ocupar ese espacio en proporción a sus valores de `flex-grow`:  
