@@ -889,7 +889,7 @@ flex: 1 1 0%;
 ## 4.9. - Alineación de elementos: propiedad `justify-content`  
 La propiedad `justify-content` se usa en **contenedores flex (`display: flex;`)** y **grid (`display: grid;`)** (que veremos más adelante) para **controlar la alineación horizontal** de los elementos dentro del contenedor.  
 
-Los valores de `justify-content` más habituales son: 
+Los valores más habituales de `justify-content` son: 
 1. `flex-start`
 2. `flex-end`
 3. `center`
@@ -906,28 +906,46 @@ Los valores de `justify-content` más habituales son:
 ```
 
 **Explicación de los valores de `justify-content`:**
-| Valor | Descripción | Ejemplo Visual (en un `display: flex`) |
+| Valor | Descripción | Ejemplo en un `display: flex` |
 |--------|-------------|--------------------------------|
-| **`flex-start`** *(por defecto)* | Alinea los elementos al **inicio** (izquierda en `row`, arriba en `column`). | ⚪⚪⚪⚪⬛⬛⬛ |
-| **`flex-end`** | Alinea los elementos al **final** (derecha en `row`, abajo en `column`). | ⬛⬛⬛⚪⚪⚪⚪ |
-| **`center`** | Centra los elementos en el contenedor. | ⬛⬛⚪⚪⚪⬛⬛ |
-| **`space-between`** | Distribuye los elementos con **el máximo espacio posible entre ellos** (sin margen en los extremos). | ⚪⬛⬛⚪⬛⬛⚪ |
-| **`space-around`** | Distribuye los elementos con **espacio igual alrededor** (bordes tienen la mitad del espacio). | ⚪⬛⚪⬛⚪⬛⚪ |
-| **`space-evenly`** | Distribuye los elementos con **espacios iguales entre ellos y en los bordes**. | ⬛⚪⬛⚪⬛ |
+| **`flex-start`** *(por defecto)* | Alinea los elementos al **inicio** (izquierda en `row`, arriba en `column`). | ⚪⚪⚪⚪⚪⬛⬛⬛⬛ |
+| **`flex-end`** | Alinea los elementos al **final** (derecha en `row`, abajo en `column`). | ⬛⬛⬛⬛⚪⚪⚪⚪⚪ |
+| **`center`** | Centra los elementos en el contenedor. | ⬛⬛⚪⚪⚪⚪⚪⬛⬛ |
+| **`space-between`** | Distribuye los elementos con **el máximo espacio posible entre ellos** (sin margen en los extremos). | ⚪⬛⬛⬛⚪⬛⬛⬛⚪ |
+| **`space-around`** | Distribuye los elementos con **espacio igual alrededor** (bordes tienen la mitad del espacio). | ⬛⚪⬛⬛⚪⬛⬛⚪⬛ |
+| **`space-evenly`** | Distribuye los elementos con **espacios iguales entre ellos y en los bordes**. | ⬛⚪⬛⚪⬛⚪⬛⚪⬛ |
 
+## 4.10. - Alineación de elementos en la dirección secundaria: propiedad `align-items`
+La propiedad `align-items` se usa en **contenedores flex (`display: flex;`)** y **grid (`display: grid;`)** para **controlar la alineación vertical de los elementos hijos** dentro del contenedor.
 
----
+Los valores más habituales de `align-items`son: 
 
+**Sintaxis**
+```css
+.container {
+  display: flex; 
+  align-items: /*valor*/;
+}
+```
 
+**Explicación de los valores de `align-items`**
 
+| Valor | Descripción |
+|--------|-------------|
+| **`stretch`** *(por defecto)* | Los elementos se estiran para ocupar todo el alto del contenedor. |
+| **`flex-start`** | Alinea los elementos **arriba** del contenedor (en `row`) o a la **izquierda** (en `column`). | 
+| **`flex-end`** | Alinea los elementos **abajo** del contenedor (en `row`) o a la **derecha** (en `column`). |
+| **`center`** | Centra los elementos verticalmente en el contenedor. |
+| **`baseline`** | Alinea los elementos según su línea base del texto. |
 
-## **🎯 Ejemplo práctico en `display: flex`**
+**Ejemplos**
+>**align-items: strech**
 ```css
 .container {
   display: flex;
-  justify-content: space-between; 
+  height: 200px;
+  align-items: center; 
   background-color: lightgray;
-  padding: 10px;
 }
 
 .item {
@@ -943,48 +961,41 @@ Los valores de `justify-content` más habituales son:
   <div class="item"></div>
 </div>
 ```
-🔹 **Esto hará que los `.item` estén separados con el mayor espacio posible entre ellos.**
+🔹 Aquí, los elementos `.item` estarán **centrados verticalmente** dentro del `.container`.
 
 ---
 
-## **📌 `justify-content` en `display: grid`**
-En `grid`, `justify-content` **controla la alineación del conjunto de celdas dentro del contenedor**, no de los elementos individuales.
+## **📌 `align-items` en `display: grid`**
+En `grid`, `align-items` **controla la alineación vertical de todas las celdas** dentro de su fila.
+
 ```css
 .container {
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  justify-content: center; /* Centra toda la cuadrícula */
+  height: 200px;
+  align-items: flex-end; /* Elementos alineados abajo */
   background-color: lightgray;
 }
 ```
-🔹 Aquí, la cuadrícula completa se centrará en el contenedor.
 
 ---
 
 ## **🎯 ¿Cuándo usar cada valor?**
-- **`flex-start`** → Cuando quieres que los elementos comiencen alineados a la izquierda (por defecto en `row`).  
-- **`flex-end`** → Para alinear los elementos a la derecha.  
-- **`center`** → Para centrar elementos horizontalmente.  
-- **`space-between`** → Cuando quieres que los elementos ocupen todo el espacio sin márgenes en los extremos.  
-- **`space-around`** → Para un espaciado proporcional alrededor de cada elemento.  
-- **`space-evenly`** → Para espaciado completamente uniforme.  
+- **`stretch`** → Si quieres que los elementos **ocupen todo el alto disponible** (comportamiento por defecto).  
+- **`flex-start`** → Si quieres que los elementos se alineen **arriba**.  
+- **`flex-end`** → Para alinearlos **abajo**.  
+- **`center`** → Para centrar los elementos **verticalmente**.  
+- **`baseline`** → Cuando tienes textos con diferentes tamaños y quieres que queden alineados correctamente.  
 
 ---
 
-Si tienes dudas o necesitas un caso específico, dime y lo ajustamos. 😊
-### 4.9.1. - Alineación en la dirección principal
-
- 
+Si tienes dudas o necesitas un caso específico, dime y lo ajustamos. 😊 
 
 
 
 https://lenguajecss.com/css/flex/flex-grow-shrink/#la-propiedad-flex-shrink
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html#flex
 
-
-Márgenes automáticos: margin
-
-Alineación principal: justify-content
 
 Alineación secundaria (1): align-items
 
