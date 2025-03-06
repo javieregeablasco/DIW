@@ -1146,11 +1146,6 @@ La propiedad `align-content` en CSS se usa en **contenedores flex (`display: fle
 | **`space-between`** | Máximo espacio entre filas, sin margen en los bordes. |
 | **`space-around`** | Espacio igual alrededor de cada fila. |
 | **`space-evenly`** | Espacio **idéntico** entre filas y en los bordes. |
----
----
----
-HASTA AQUI
----
 
 **Sintaxis**
 ```css
@@ -1164,12 +1159,10 @@ HASTA AQUI
 
 
 
+  HASTA AQUI
 
-📌 **Diferencia con `align-items`:**  
-- `align-items` → **Alinea elementos dentro de una fila.**  
-- `align-content` → **Alinea las filas entre sí.**  
 
----
+
 
 ## **🎯 Ejemplo práctico en `display: flex`**
 ```css
