@@ -14,9 +14,8 @@
     }
     .element1, 
     .element2, 
-    .element3,
-    .element4,
-    .element5  {
+    .element3
+      {
       height: 50px;
       margin: 5px;
       padding: 5px;  
@@ -30,19 +29,11 @@
     }
     .element2 {
       width: 350px;
-      flex-basis:auto; 
+      flex-basis:content; 
       background-color: bisque;
     }
     .element3{
-      flex-basis:content;
-      background-color: rgb(226, 75, 30);
-    }
-    .element4{
-      flex-basis: 350px;
-      background-color: rgb(226, 75, 30);
-    }
-    .element5{
-      flex-basis: 25%;
+      flex-basis: 35%;
       background-color: rgb(226, 75, 30);
     }
     
@@ -51,11 +42,9 @@
 <body>
 
 <div class="container1">  
-  <div class="element1">Elemento 1. </div>
-  <div class="element2">Elemento 2. Sus medidas iniciales están predefinidas.</div>
-  <div class="element3">Elemento 3. Se ajusta a su contenido.</div>
-  <div class="element4">Elemento 4</div>
-  <div class="element5">Elemento 5</div>
+  <div class="element1">Elemento 1. El ajuste del elemento es automático. </div>
+  <div class="element2">Elemento 2. El elemento se ajusta a su contenido.</div>
+  <div class="element3">Elemento 3. El ancho inicial está predefinido.</div>  
 </div>
 
 </body>
