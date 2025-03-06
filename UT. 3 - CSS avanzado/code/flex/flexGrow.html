@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>flexBasis</title>
+  <title>flexGrow</title>
   <style>
     .container1 {
       margin: 10px;
@@ -24,19 +24,14 @@
       text-align: center;        
     } 
     .element1 {
-      flex-basis: content;
+      flex-basis: 100px;
       flex-grow: 3;
       background-color: aquamarine;
     }
     .element2 {
-      flex-basis:content;
+      flex-basis: 100px;
       flex-grow: 1;
       background-color: bisque;
-    }
-    .element3{
-      flex-basis: content;
-      flex-grow: 2;
-      background-color: rgb(226, 75, 30);
     }
     
   </style>
@@ -45,8 +40,7 @@
 
   <div class="container1">  
     <div class="element1"><strong>flex-grow: 3. </strong>Contenido identico.</div>
-    <div class="element2"><strong>flex-grow: 1. </strong>Contenido identico.</div>
-    <div class="element3"><strong>flex-grow: 2. </strong>Contenido identico.</div>  
+    <div class="element2"><strong>flex-grow: 1. </strong>Contenido identico.</div>     
   </div>
 
 </body>

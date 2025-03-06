@@ -753,22 +753,31 @@ La propiedad `flex-grow` define el **factor de crecimiento** de los elementos fl
 ```css
 ...
  .element1 {
-  flex-basis: content;
+  flex-basis: 100px;
   flex-grow: 3;
   background-color: aquamarine;
 }
 .element2 {
-  flex-basis:content;
+  flex-basis:100px;
   flex-grow: 1;
   background-color: bisque;
 }
 .element3 {
-  flex-basis: content;
+  flex-basis: 100px;
   flex-grow: 2;
   background-color: rgb(226, 75, 30);
 }
 ...
 ```
+```html
+...
+<div class="container1">  
+  <div class="element1"><strong>flex-grow: 3. </strong>Contenido identico.</div>
+  <div class="element2"><strong>flex-grow: 1. </strong>Contenido identico.</div>
+  <div class="element3"><strong>flex-grow: 2. </strong>Contenido identico.</div>  
+</div>
+...
+``` 
 🔹 Aquí `item1` y `item2` comienzan con **100px** de tamaño base.  
 🔹 Si el contenedor tiene 500px de ancho y solo se han ocupado 200px, quedan **300px de espacio libre**.  
 🔹 `item1` y `item2` crecerán para ocupar ese espacio en proporción a sus valores de `flex-grow`:  
