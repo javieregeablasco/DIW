@@ -1133,11 +1133,19 @@ Como podemos ver en los fragmentos de código, todos los elementos hijos tienen 
 ## 4.12. - Alineación en la dirección secundaria: propiedad `align-content`
 La propiedad `align-content` en CSS se usa en **contenedores flex (`display: flex;`) y grid (`display: grid;`)** para **controlar la distribución del espacio entre las líneas** cuando hay múltiples filas.  
 
-**Solo tiene efecto cuando hay varias líneas de elementos**, es decir:  
-- En `flex-wrap: wrap;` dentro de `display: flex;`  
-- En `display: grid;` con varias filas  
-Si solo hay una fila, esta propiedad **no tiene efecto**.  
+**Solo tiene efecto cuando hay varias líneas de elementos**. Si solo hay una fila, esta propiedad **no tiene efecto**.  
 
+## Valores habituales de `align-content`**
+
+| Valor | Descripción |
+|--------|-------------|
+| **`stretch`** *(por defecto)* | Las líneas se estiran para ocupar todo el alto disponible del contenedor. |
+| **`flex-start`** | Todas las líneas se agrupan **arriba** del contenedor. |
+| **`flex-end`** | Todas las líneas se agrupan **abajo** del contenedor. |
+| **`center`** | Las líneas se **agrupan en el centro** verticalmente. |
+| **`space-between`** | Máximo espacio entre filas, sin margen en los bordes. |
+| **`space-around`** | Espacio igual alrededor de cada fila. |
+| **`space-evenly`** | Espacio **idéntico** entre filas y en los bordes. |
 ---
 ---
 ---
@@ -1155,17 +1163,7 @@ HASTA AQUI
 
 
 
-## Valores habituales de `align-content`**
 
-| Valor | Descripción | Ejemplo Visual en `flex-wrap: wrap;` |
-|--------|-------------|--------------------------------|
-| **`stretch`** *(por defecto)* | Las líneas se estiran para ocupar todo el alto disponible del contenedor. | 🔳🔳🔳🔳 (ocupando todo) |
-| **`flex-start`** | Todas las líneas se agrupan **arriba** del contenedor. | 🔳🔳🔳⬜⬜⬜ |
-| **`flex-end`** | Todas las líneas se agrupan **abajo** del contenedor. | ⬜⬜⬜🔳🔳🔳 |
-| **`center`** | Las líneas se **agrupan en el centro** verticalmente. | ⬜🔳🔳🔳⬜ |
-| **`space-between`** | Máximo espacio entre filas, sin margen en los bordes. | 🔳⬜🔳⬜🔳 |
-| **`space-around`** | Espacio igual alrededor de cada fila. | ⬜🔳⬜🔳⬜🔳⬜ |
-| **`space-evenly`** | Espacio **idéntico** entre filas y en los bordes. | 🔳⬜🔳⬜🔳 |
 
 📌 **Diferencia con `align-items`:**  
 - `align-items` → **Alinea elementos dentro de una fila.**  
