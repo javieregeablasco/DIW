@@ -974,8 +974,6 @@ Los valores más habituales de `align-items`son:
 **Resultado:**
 ![alt text](./img/stretch.png)
 
-
-
 >**align-items: flex-start**
 ```css
 .container1 {
@@ -1017,20 +1015,7 @@ Los valores más habituales de `align-items`son:
 **Resultado:**
 ![](./img/flex-start.png)
 
-
-
-## **📌 `align-items` en `display: grid`**
-En `grid`, `align-items` **controla la alineación vertical de todas las celdas** dentro de su fila.
-
-```css
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  height: 200px;
-  align-items: flex-end; /* Elementos alineados abajo */
-  background-color: lightgray;
-}
-```
+>**align-items: flex-end**
 
 
 
