@@ -749,22 +749,25 @@ La propiedad `flex-grow` define el **factor de crecimiento** de los elementos fl
 `flex-grow` funciona junto con `flex-basis`, ya que el tamaño final del elemento se calculará como:  
 - **Tamaño final = `flex-basis` + (espacio disponible * `flex-grow`)**  
 
-### 🔍 **Ejemplo**  
+>**Fragmento de código con la propiedad flex-grow:** 
 ```css
-.container {
-  display: flex;
-  width: 500px;
+...
+ .element1 {
+  flex-basis: content;
+  flex-grow: 3;
+  background-color: aquamarine;
 }
-
-.item1 {
-  flex-basis: 100px;
+.element2 {
+  flex-basis:content;
   flex-grow: 1;
+  background-color: bisque;
 }
-
-.item2 {
-  flex-basis: 100px;
+.element3 {
+  flex-basis: content;
   flex-grow: 2;
+  background-color: rgb(226, 75, 30);
 }
+...
 ```
 🔹 Aquí `item1` y `item2` comienzan con **100px** de tamaño base.  
 🔹 Si el contenedor tiene 500px de ancho y solo se han ocupado 200px, quedan **300px de espacio libre**.  
