@@ -7,52 +7,53 @@
   <style>
     .container1 {
       margin: 10px;
-      display: flex;
-      background-color: rgb(8, 235, 20);
-    }
-
-    .container2 {
-      margin: 10px;
-      display:inline-flex;
-      background-color: blueviolet;
-    }
-    .element1 {
-      margin: 5px;
       padding: 5px;
+      display: flex;
+      flex: initial;      
+      width: 500px;
+      flex-wrap:nowrap;
+      background-color: rgb(8, 235, 20);      
+    }
+    .element1, 
+    .element2,
+    .element3,
+    .element 
+    {
+      margin: 5px;
+      padding: 5px;  
+      border: 1px solid gray;
+      border-radius: 3px;  
+      text-align: center;  
+      flex-basis: 250px;      
+    } 
+    .element1 {
+      flex-shrink: 1;
       background-color: aquamarine;
     }
     .element2 {
-      margin: 15px;
-      padding: 15px;
+      flex-shrink: 4;
       background-color: bisque;
     }
-    .element3{
-      margin: 10px;
-      padding: 10px;
-      background-color: rgb(226, 75, 30);
+    .element3 {
+      flex-shrink: 2;
+      background-color:aqua;
     }
-    
-
+   
 
   </style>
 </head>
 <body>
-<div class="container1">
-  
-  <div class="element1">Elemento 1</div>
-  <div class="element2">Elemento 2</div>
-  <div class="element3">Elemento 3</div>
-</div>
-<div class="container2">
-  <div class="element1">Elemento 1</div>
-  <div class="element2">Elemento 2</div>
-  <div class="element3">Elemento 3</div>
-</div>
-<div class="container2">
-  <div class="element1">Elemento 1</div>
-  <div class="element2">Elemento 2</div>
-  <div class="element3">Elemento 3</div>
-</div>
+  <div class="container1">  
+    <div class="element" style="background-color: antiquewhite;"><strong>Sin flex-shrink. </strong>Contenido idéntico.</div>
+    <div class="element" style="background-color: bisque;"><strong>Sin flex-shrink. </strong>Contenido idéntico.</div>     
+    <div class="element" style="background-color: aqua;"><strong>Sin flex-shrink. </strong>Contenido idéntico.</div>     
+  </div>
+
+  <div class="container1">  
+    <div class="element1"><strong>flex-shrink: 1. </strong>Contenido idéntico.</div>
+    <div class="element2"><strong>flex-shrink: 4. </strong>Contenido idéntico.</div>     
+    <div class="element3"><strong>flex-shrink: 2. </strong>Contenido idéntico.</div>     
+  </div>
 
 </body>
 </html>
