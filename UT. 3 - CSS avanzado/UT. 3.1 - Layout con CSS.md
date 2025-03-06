@@ -477,7 +477,7 @@ Existen dos tipos de contenedores flexibles: `flex` (flexible) e `inline-flex` (
 >**Resultado:**
 ![alt text](./img/flex%20inlineflex.png)
 
-## 4.4. - Dirección de los elementos hijos del contenedor flexible
+## 4.4. - Dirección de los elementos hijos del contenedor flexible: Flex_direction
 La propiedad `flex-direction` permite definir la dirección del eje principal del contenedor flexible (padre) según el eje horizontal (por defecto) o vertical. 
 
 Los posibles valores de `flex-direction` son: 
@@ -558,7 +558,7 @@ Los posibles valores de `flex-direction` son:
 >**Resultado:**
 ![alt text](./img/flexdirection.png)
 
-## 4.5. - Ajuste en línea de los elementos flexibles: propiedad flex-warp
+## 4.5. - Ajuste en línea de los elementos flexibles: Flex-warp
 La propiedad `flex-wrap` establece si los elementos se colocan en una sola línea o en varias.
 
 Los posibles valores de la propiedad `flex-wrap` son:
@@ -647,13 +647,51 @@ Los posibles valores de la propiedad `flex-wrap` son:
 >**Resultado:**
 <video controls src="./img/wrap.mp4" title="Title"></video>
 
+## 4.6. - Ajuste bidireccional de los elementos flexibles: Flex-flow
+La propiedad `flex-flow` establece simultáneamente las propiedades `flex-direction` y `flex-wrap`.
+
+Los posibles valores de la propiedad `flex-flow` son:  
+| **Valores de flex-flow** | **Comportamiento** |  
+|--------------------------|--------------------|  
+| **flex-flow: row nowrap** | Los elementos se organizan en una sola fila (horizontalmente) y no se permite el desbordamiento en varias líneas. |  
+| **flex-flow: row wrap** | Los elementos se organizan en una fila principal, pero si no caben en el contenedor, se envuelven en varias líneas. |  
+| **flex-flow: row wrap-reverse** | Similar a `row wrap`, pero las nuevas líneas aparecen en la parte superior en lugar de la parte inferior. |  
+| **flex-flow: column nowrap** | Los elementos se organizan en una sola columna (verticalmente) sin desbordamiento. |  
+| **flex-flow: column wrap** | Los elementos se organizan en una columna y pueden desbordarse en varias columnas si es necesario. |  
+| **flex-flow: column wrap-reverse** | Similar a `column wrap`, pero las nuevas columnas aparecen en el lado izquierdo en lugar del derecho. |  
+
+## 4.7. - Ordenación de los elementos flexibles: Order
+Si asignamos un valor a la propiedad order, los elementos hijos no seguirán el orden en el que fueron definidos originalmente, sino que se organizarán según el valor de `order`.
 
 
+
+
+Los posibles valores de la propiedad `flex-flow` son:  
+| **Valores de flex-flow** | **Comportamiento** |  
+|--------------------------|--------------------|  
+| **flex-flow: row nowrap** | Los elementos se organizan en una sola fila (horizontalmente) y no se permite el desbordamiento en varias líneas. |  
+| **flex-flow: row wrap** | Los elementos se organizan en una fila principal, pero si no caben en el contenedor, se envuelven en varias líneas. |  
+| **flex-flow: row wrap-reverse** | Similar a `row wrap`, pero las nuevas líneas aparecen en la parte superior en lugar de la parte inferior. |  
+| **flex-flow: column nowrap** | Los elementos se organizan en una sola columna (verticalmente) sin desbordamiento. |  
+| **flex-flow: column wrap** | Los elementos se organizan en una columna y pueden desbordarse en varias columnas si es necesario. |  
+| **flex-flow: column wrap-reverse** | Similar a `column wrap`, pero las nuevas columnas aparecen en el lado izquierdo en lugar del derecho. |  
+
+
+Orden: order
+Tamaño inicial: flex-basis
+Expansión: flex-grow
+Compresión: flex-shrink
+Tamaños: flex
+Márgenes automáticos: margin
+Alineación principal: justify-content
+Alineación secundaria (1): align-items
+Alineación individual: align-self
+Alineación secundaria (n): align-content
 
 HASTA Aqui  
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
+https://lenguajecss.com/css/flex/alinear-centrar-css/
 
-https://lenguajecss.com/css/flex/que-es-flex/  
 https://nachoiborraies.github.io/htmlcss/md/es/03b#33-la-propiedad-display
 
 https://www.yunbitsoftware.com/blog/2017/03/30/flexbox-css3-tutorial-descripcion-ejemplos-html/
