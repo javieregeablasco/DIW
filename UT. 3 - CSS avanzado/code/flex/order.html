@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>flex-direction</title>
+  <title>order</title>
   <style>
-    .container1, .container2, .container3 {
+    .container1 {
       margin: 10px;
       padding: 5px;
       display: flex;      
@@ -20,17 +20,10 @@
       text-align: center;        
     }
     .container1 {
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       background-color: rgb(8, 235, 20);
     }
-    .container2 {
-      flex-wrap: wrap;
-      background-color: blueviolet;
-    }
-    .container3 {      
-      flex-wrap: wrap-reverse;
-      background-color: rgb(21, 230, 150);
-    }   
+   
     .element1 {
       background-color: aquamarine;
     }
@@ -56,31 +49,6 @@
   <div class="element2">8</div>
   <div class="element3">9</div>
 </div>
-
-<div class="container2">  
-  <div class="element1">1</div>
-  <div class="element2">2</div>
-  <div class="element3">3</div>
-  <div class="element1">4</div>
-  <div class="element2">5</div>
-  <div class="element3">6</div>
-  <div class="element1">7</div>
-  <div class="element2">8</div>
-  <div class="element3">9</div>
-</div>
-
-<div class="container3">  
-  <div class="element1">1</div>
-  <div class="element2">2</div>
-  <div class="element3">3</div>
-  <div class="element1">4</div>
-  <div class="element2">5</div>
-  <div class="element3">6</div>
-  <div class="element1">7</div>
-  <div class="element2">8</div>
-  <div class="element3">9</div>
-</div>
-
 
 </body>
 </html>
