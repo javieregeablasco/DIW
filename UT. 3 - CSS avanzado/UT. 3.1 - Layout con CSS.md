@@ -1122,6 +1122,16 @@ Los valores habituales de `align-self` son los mismos que los de la propiedad `a
 **Ejemplo con `align-self: flex-end`**
 ```css
 ...
+.container1 {
+  margin: 10px;
+  padding: 5px;
+  display:flex;
+  justify-content:center;
+  align-items:baseline;      
+  width: 800px;
+  background-color: rgb(8, 235, 20);      
+}
+...
 .element3 {
   padding-top: 35px;
   flex: 1 1 0%;
