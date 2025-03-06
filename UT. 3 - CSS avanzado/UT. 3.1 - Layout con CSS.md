@@ -1028,7 +1028,7 @@ Los valores más habituales de `align-items`son:
 }
 ...
 ```
-
+**Resultado:**  
 ![alt text](./img/flex-end.png)
 
 >**align-items: center**
@@ -1044,6 +1044,19 @@ Los valores más habituales de `align-items`son:
 }
 ```
 
+>**align-items: baseline**
+```css
+.container1 {
+  margin: 10px;
+  padding: 5px;
+  display:flex;
+  justify-content:center;
+  align-items:baseline;      
+  width: 800px;
+  background-color: rgb(8, 235, 20);      
+}
+```
+**Resultado:**  
 ![alt text](./img/center.png)
 
 
