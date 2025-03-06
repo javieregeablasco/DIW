@@ -685,7 +685,7 @@ Los posibles valores de la propiedad `flex-basis` son:
 | **flex-basis: valor** | Define el tamaño inicial del elemento. La unidad del valor puede ser, `px`, `rem`, `%`, etc. |  
 
 
-
+![alt text](./img/flexBasis.png)
 
 
 Expansión: flex-grow
