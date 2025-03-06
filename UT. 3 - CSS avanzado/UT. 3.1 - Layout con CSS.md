@@ -728,17 +728,13 @@ Los posibles valores de la propiedad `flex-basis` son:
 >**Resultado:**  
 ![alt text](./img/flexBasis.png)
 
-La diferencia entre `flex-basis: content`, `flex-basis: auto` y `flex-basis` con un valor fijo radica en cómo se calcula el tamaño inicial del elemento en un contenedor flexible.  
-
----
-
 **Diferencias clave entre valores de flex-basis.**  
 
-| Propiedad | ¿Cómo se calcula el tamaño inicial? | ¿Depende del contenido? |
+| **Propiedad** | **¿Cómo se calcula el tamaño inicial?** | **¿Depende del contenido?** |
 |-----------|--------------------------------------|------------------------|
-| `flex-basis: auto` | Usa el valor de `width` o `height` si están definidos. Si no, el tamaño del contenido. | ✅ Sí (si no hay `width` o `height`). |
-| `flex-basis: content` | Se basa solo en el tamaño del contenido, sin importar `width` o `height`. | ✅ Sí |
-| `flex-basis: 100px` (valor fijo) | Usa exactamente el valor especificado. | ❌ No |
+| **flex-basis: auto** | Usa el valor de `width` o `height` si están definidos. Si no, el tamaño del contenido. | ✅ Sí (si no hay `width` o `height`). |
+| **flex-basis: content** | Se basa solo en el tamaño del contenido, sin importar `width` o `height`. | ✅ Sí |
+| **flex-basis: 100px** (valor fijo) | Usa exactamente el valor especificado. | ❌ No |
 
 ---
 
