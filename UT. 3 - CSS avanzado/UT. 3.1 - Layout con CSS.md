@@ -906,7 +906,7 @@ Los valores más habituales de `justify-content` son:
 ```
 
 **Explicación de los valores de `justify-content`:**
-| Valor | Descripción | Ejemplo en un `display: flex` |
+| **Valor** | **Descripción** | **Ejemplo en un `display: flex`** |
 |--------|-------------|--------------------------------|
 | **`flex-start`** *(por defecto)* | Alinea los elementos al **inicio** (izquierda en `row`, arriba en `column`). | ⚪⚪⚪⚪⚪⬛⬛⬛⬛ |
 | **`flex-end`** | Alinea los elementos al **final** (derecha en `row`, abajo en `column`). | ⬛⬛⬛⬛⚪⚪⚪⚪⚪ |
@@ -919,6 +919,11 @@ Los valores más habituales de `justify-content` son:
 La propiedad `align-items` se usa en **contenedores flex (`display: flex;`)** y **grid (`display: grid;`)** para **controlar la alineación vertical de los elementos hijos** dentro del contenedor.
 
 Los valores más habituales de `align-items`son: 
+1. `stretch`  
+2. `flex-start`  
+3. `flex-end`  
+4. `center`  
+5. `baseline`  
 
 **Sintaxis**
 ```css
@@ -930,7 +935,7 @@ Los valores más habituales de `align-items`son:
 
 **Explicación de los valores de `align-items`**
 
-| Valor | Descripción |
+| **Valor** | **Descripción** |
 |--------|-------------|
 | **`stretch`** *(por defecto)* | Los elementos se estiran para ocupar todo el alto del contenedor. |
 | **`flex-start`** | Alinea los elementos **arriba** del contenedor (en `row`) o a la **izquierda** (en `column`). | 
@@ -1089,13 +1094,107 @@ Con `align-items: baseline;` los elementos se alinean en la dirección secundari
 ![alt text](./img/baseline.png)
 
 ## 4.11. - Alineación individual de los elementos en la dirección secundaria: propiedad `align-self`
+La propiedad `align-self` permite **modificar la alineación vertical de un solo elemento hijo** dentro de un contenedor `flex` o `grid`, **sin afectar a los demás elementos**.  
+
+Los valores habituales de `align-self` son los mismos que los de la propiedad `align-items`: 
+1. `stretch`  
+2. `flex-start`  
+3. `flex-end`  
+4. `center`  
+5. `baseline` 
+
+**Sintaxis**
+```css
+.elemento {
+  align-self: /*valor*/;
+}
+```
+
+**Explicación de los valores de `align-self`**
+| **Valor** | **Descripción** |
+|--------|-------------|
+| **`auto`** *(por defecto)* | Toma el valor de `align-items` del contenedor padre. |
+| **`stretch`** | El elemento se **estira** para ocupar todo el alto del contenedor (si no tiene altura definida). |
+| **`flex-start`** | Alinea el elemento **arriba** del contenedor (en `row`) o a la **izquierda** (en `column`). | **`flex-end`** | Alinea el elemento **abajo** del contenedor (en `row`) o a la **derecha** (en `column`). |
+| **`center`** | Centra el elemento **verticalmente** en el contenedor. |
+| **`baseline`** | Alinea el elemento según su **línea base del texto**. |
+
+📌 **Diferencia con `align-items`:**  
+- `align-items` **afecta a todos los hijos** de un contenedor flex/grid.  
+- `align-self` **modifica solo un hijo específico**.  
+
+---
+
+## **🎯 Ejemplo práctico en `display: flex`**
+```css
+.container {
+  display: flex;
+  height: 200px;
+  align-items: flex-start; /* Todos los elementos arriba */
+  background-color: lightgray;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+.special {
+  align-self: flex-end; /* Solo este elemento baja al fondo */
+}
+```
+```html
+<div class="container">
+  <div class="item"></div>
+  <div class="item special"></div> <!-- Solo este se mueve abajo -->
+  <div class="item"></div>
+</div>
+```
+🔹 Aquí, todos los `.item` estarán **arriba** excepto el `.special`, que se alineará **abajo**.
+
+---
+
+## **📌 `align-self` en `display: grid`**
+En `grid`, `align-self` **controla la alineación vertical de una sola celda**, sin afectar al resto.
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  height: 200px;
+  align-items: center; /* Todos centrados */
+  background-color: lightgray;
+}
+
+.special {
+  align-self: flex-end; /* Solo este se mueve abajo */
+}
+```
+
+---
+
+## **🎯 ¿Cuándo usar `align-self`?**
+- Cuando necesitas **excepciones** en la alineación de ciertos elementos.  
+- Para **sobrescribir `align-items`** en un solo hijo.  
+- Para **organizar elementos de manera más flexible** en `flexbox` y `grid`.
+
+---
+
+Si necesitas un ejemplo más detallado, dime y lo ajustamos. 😊
+
+
+
+
+
+
+
+
 
 
 https://lenguajecss.com/css/flex/flex-grow-shrink/#la-propiedad-flex-shrink
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html#flex
 
-
-Alineación secundaria (1): align-items
 
 Alineación individual: align-self
 
