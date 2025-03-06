@@ -829,7 +829,7 @@ flex: flex-grow flex-shrink flex-basis;
 
 **Ejemplos de uso**  
 
-1️⃣ **Valor por defecto (initial)**  
+1️⃣ **Valor: initial**  
 ```css
 flex: 0 1 auto;
 /*también se puede escribir*/
@@ -839,7 +839,27 @@ flex: initial;
 - Se encoge si es necesario (`flex-shrink: 1`).
 - Su tamaño inicial depende del contenido (`flex-basis: auto`).
 
-2️⃣ **Hacer que un elemento crezca en proporción**  
+2️⃣ **Valor: auto**  
+```css
+flex: 1 1 auto;
+/*también se puede escribir*/
+flex: auto;
+```
+- Puede crecer (`flex-grow: 1`).
+- Se encoge si es necesario (`flex-shrink: 1`).
+- Su tamaño inicial depende del contenido (`flex-basis: auto`).
+
+:three: **Valor: none**  
+```css
+flex: 0 0 auto;
+/*también se puede escribir*/
+flex: none;
+```
+- No crece (`flex-grow: 0`).
+- No se encoje (`flex-shrink: 0`).
+- Su tamaño inicial depende del contenido (`flex-basis: auto`).
+
+:four: **Hacer que un elemento crezca en proporción**  
 ```css
 flex: 1 1 0%;
 ```
@@ -847,7 +867,7 @@ flex: 1 1 0%;
 - Puede encogerse (`flex-shrink: 1`).
 - Su tamaño inicial es `0%`, lo que significa que no tiene un tamaño predefinido.
 
-3️⃣ **Evitar que un elemento se encoja**  
+:five: **Evitar que un elemento se encoja**  
 ```css
 flex: 1 0 auto;
 ```
@@ -855,26 +875,108 @@ flex: 1 0 auto;
 - No se encoge (`flex-shrink: 0`).
 - Su tamaño inicial depende del contenido (`flex-basis: auto`).
 
-4️⃣ **Distribuir elementos en partes iguales**  
+:six: **Distribuir elementos en partes iguales**  
 Si queremos que todos los elementos ocupen el mismo espacio disponible, usamos:
 ```css
 flex: 1;
+/*también se puede escribir*/
+flex: 1 1 0%;
 ```
-Esto es equivalente a `flex: 1 1 0%;`, lo que significa que:  
 - Todos los elementos pueden crecer (`flex-grow: 1`).
 - Todos pueden encogerse (`flex-shrink: 1`).
 - No tienen un tamaño base (`flex-basis: 0%`).
 
+## 4.9. - Alineación de elementos: propiedad `justify-content`  
+La propiedad `justify-content` se usa en **contenedores flex (`display: flex;`)** y **grid (`display: grid;`)** (que veremos más adelante) para **controlar la alineación horizontal** de los elementos dentro del contenedor.  
+
+Los valores de `justify-content` más habituales son: 
+1. `flex-start`
+2. `flex-end`
+3. `center`
+4. `space-between`
+5. `space-around`
+6. `space-evenly`
+
+**Sintaxis**
+```css
+.container {
+  display: flex;
+  justify-content: /*valor*/;
+}
+```
+
+**Explicación de los valores de `justify-content`:**
+| Valor | Descripción | Ejemplo Visual (en un `display: flex`) |
+|--------|-------------|--------------------------------|
+| **`flex-start`** *(por defecto)* | Alinea los elementos al **inicio** (izquierda en `row`, arriba en `column`). | ⚪⚪⚪⚪⬛⬛⬛ |
+| **`flex-end`** | Alinea los elementos al **final** (derecha en `row`, abajo en `column`). | ⬛⬛⬛⚪⚪⚪⚪ |
+| **`center`** | Centra los elementos en el contenedor. | ⬛⬛⚪⚪⚪⬛⬛ |
+| **`space-between`** | Distribuye los elementos con **el máximo espacio posible entre ellos** (sin margen en los extremos). | ⚪⬛⬛⚪⬛⬛⚪ |
+| **`space-around`** | Distribuye los elementos con **espacio igual alrededor** (bordes tienen la mitad del espacio). | ⚪⬛⚪⬛⚪⬛⚪ |
+| **`space-evenly`** | Distribuye los elementos con **espacios iguales entre ellos y en los bordes**. | ⬛⚪⬛⚪⬛ |
+
+
 ---
 
-### 🔹 **Casos de uso recomendados**
-✅ Cuando se quiere distribuir elementos de manera flexible en un contenedor.  
-✅ Para evitar el uso de `width` en diseños flexibles.  
-✅ Para crear diseños responsivos sin necesidad de media queries.  
 
-Si estás usando **Tailwind CSS**, puedes usar clases como `flex-1`, `flex-none`, o combinaciones de `grow`, `shrink`, y `basis`. 🚀  
+
+
+## **🎯 Ejemplo práctico en `display: flex`**
+```css
+.container {
+  display: flex;
+  justify-content: space-between; 
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+```
+```html
+<div class="container">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+```
+🔹 **Esto hará que los `.item` estén separados con el mayor espacio posible entre ellos.**
 
 ---
+
+## **📌 `justify-content` en `display: grid`**
+En `grid`, `justify-content` **controla la alineación del conjunto de celdas dentro del contenedor**, no de los elementos individuales.
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center; /* Centra toda la cuadrícula */
+  background-color: lightgray;
+}
+```
+🔹 Aquí, la cuadrícula completa se centrará en el contenedor.
+
+---
+
+## **🎯 ¿Cuándo usar cada valor?**
+- **`flex-start`** → Cuando quieres que los elementos comiencen alineados a la izquierda (por defecto en `row`).  
+- **`flex-end`** → Para alinear los elementos a la derecha.  
+- **`center`** → Para centrar elementos horizontalmente.  
+- **`space-between`** → Cuando quieres que los elementos ocupen todo el espacio sin márgenes en los extremos.  
+- **`space-around`** → Para un espaciado proporcional alrededor de cada elemento.  
+- **`space-evenly`** → Para espaciado completamente uniforme.  
+
+---
+
+Si tienes dudas o necesitas un caso específico, dime y lo ajustamos. 😊
+### 4.9.1. - Alineación en la dirección principal
+
+ 
+
+
 
 https://lenguajecss.com/css/flex/flex-grow-shrink/#la-propiedad-flex-shrink
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html#flex
