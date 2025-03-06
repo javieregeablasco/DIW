@@ -782,9 +782,108 @@ La propiedad `flex-grow` define el **factor de crecimiento** de los elementos fl
 
 
 ### 4.8.3. - Ajustando el tamaño inicial de los elementos: `flex-shrink`  
-Compresión: flex-shrink
 
-Tamaños: flex
+La propiedad `flex-shrink` especifica **el factor de contracción** (siempre entero, no puede ser decimal) de un elemento flexible.  
+Cuando el tamaño de los elementos flexibles sea mayor al de su contenedor, los elementos flexibles se encogerán para llenar el contenedor de acuerdo al valor `flex-shrink`.
+
+>**Fragmento de código con la propiedad flex-shrink:** 
+```css
+...
+.element1 {
+  flex-shrink: 1;
+  background-color: aquamarine;
+}
+.element2 {
+  flex-shrink: 4;
+  background-color: bisque;
+}
+.element3 {
+  flex-shrink: 2;
+  background-color:aqua;
+}
+...
+```
+```html
+...
+<div class="container1">  
+  <div class="element1"><strong>flex-shrink: 1. </strong>Contenido idéntico.</div>
+  <div class="element2"><strong>flex-shrink: 4. </strong>Contenido idéntico.</div>     
+  <div class="element3"><strong>flex-shrink: 2. </strong>Contenido idéntico.</div>     
+</div>
+...
+```  
+
+>**Resultado:**  
+
+![alt text](./img/flexShrink.png)
+
+### 4.8.4. - Propiedad compuesta `flex` 
+La propiedad compuesta `flex` es una forma abreviada de definir las propiedades vistas anteriormente de un elemento flexible dentro de un contenedor con `display: flex` o `display: inline-flex`.  
+Se recomienda utilizar la propiedad compuesta `flex` en vez de definir individualmente `flex-grow`, `flex-shrink` y `flex-basis`, para asegurar que se definen las tres propiedades y evitar renderizados inesperados.  
+
+**Sintaxis de `flex`**  
+```css
+flex: flex-grow flex-shrink flex-basis;
+```
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+HASTA aqui
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+
+**Ejemplos de uso**  
+
+1️⃣ **Valor por defecto (initial)**  
+```css
+flex: 0 1 auto;
+```
+- No crece (`flex-grow: 0`).
+- Se encoge si es necesario (`flex-shrink: 1`).
+- Su tamaño inicial depende del contenido (`flex-basis: auto`).
+
+2️⃣ **Hacer que un elemento crezca en proporción**  
+```css
+flex: 1 1 0%;
+```
+- Puede crecer (`flex-grow: 1`).
+- Puede encogerse (`flex-shrink: 1`).
+- Su tamaño inicial es `0%`, lo que significa que no tiene un tamaño predefinido.
+
+3️⃣ **Evitar que un elemento se encoja**  
+```css
+flex: 1 0 auto;
+```
+- Crece si hay espacio disponible (`flex-grow: 1`).
+- No se encoge (`flex-shrink: 0`).
+- Su tamaño inicial depende del contenido (`flex-basis: auto`).
+
+4️⃣ **Distribuir elementos en partes iguales**  
+Si queremos que todos los elementos ocupen el mismo espacio disponible, usamos:
+```css
+flex: 1;
+```
+Esto es equivalente a `flex: 1 1 0%;`, lo que significa que:  
+- Todos los elementos pueden crecer (`flex-grow: 1`).
+- Todos pueden encogerse (`flex-shrink: 1`).
+- No tienen un tamaño base (`flex-basis: 0%`).
+
+---
+
+### 🔹 **Casos de uso recomendados**
+✅ Cuando se quiere distribuir elementos de manera flexible en un contenedor.  
+✅ Para evitar el uso de `width` en diseños flexibles.  
+✅ Para crear diseños responsivos sin necesidad de media queries.  
+
+Si estás usando **Tailwind CSS**, puedes usar clases como `flex-1`, `flex-none`, o combinaciones de `grow`, `shrink`, y `basis`. 🚀  
+
+---
+
+https://lenguajecss.com/css/flex/flex-grow-shrink/#la-propiedad-flex-shrink
+https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html#flex
+
 
 Márgenes automáticos: margin
 
@@ -797,9 +896,6 @@ Alineación individual: align-self
 Alineación secundaria (n): align-content
 
 HASTA Aqui  
-https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html
-https://lenguajecss.com/css/flex/alinear-centrar-css/
-
 https://nachoiborraies.github.io/htmlcss/md/es/03b#33-la-propiedad-display
 
 https://www.yunbitsoftware.com/blog/2017/03/30/flexbox-css3-tutorial-descripcion-ejemplos-html/
