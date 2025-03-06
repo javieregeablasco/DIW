@@ -977,7 +977,43 @@ Los valores más habituales de `align-items`son:
 
 
 >**align-items: flex-start**
-
+```css
+.container1 {
+  margin: 10px;
+  padding: 5px;
+  display:flex;
+  
+  justify-content:center;
+  align-items:flex-start;      
+  width: 800px;
+  background-color: rgb(8, 235, 20);      
+}
+.element1, 
+.element2,
+.element3     
+{
+  margin: 5px;
+  padding: 5px;  
+  border: 1px solid gray;
+  border-radius: 3px;                           
+  text-align: center; 
+} 
+.element1 {
+  flex: 1 1 0%;
+  height: 100px;
+  background-color: aquamarine;
+}
+.element2 {
+  flex: 1 1 0%;
+  height: 150px;
+  background-color: bisque;
+}
+.element3 {
+  flex: 1 1 0%;
+  height:50px;
+  background-color:aqua;
+}
+```
 
 ## **📌 `align-items` en `display: grid`**
 En `grid`, `align-items` **controla la alineación vertical de todas las celdas** dentro de su fila.
