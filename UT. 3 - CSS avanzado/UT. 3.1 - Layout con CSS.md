@@ -684,8 +684,65 @@ Los posibles valores de la propiedad `flex-basis` son:
 | **flex-basis: auto** | El tamaño inicial viene determinado por las propiedades `width` y `height`. |  
 | **flex-basis: valor** | Define el tamaño inicial del elemento. La unidad del valor puede ser, `px`, `rem`, `%`, etc. |  
 
-
+>**Ejemplo:**
+```css
+.container1 {
+  margin: 10px;
+  padding: 5px;
+  display: flex;      
+  width: 80vw;
+  flex-wrap: nowrap;
+  background-color: rgb(8, 235, 20);
+}
+.element1, 
+.element2, 
+.element3
+  {
+  margin: 5px;
+  padding: 5px;  
+  border: 1px solid gray;
+  border-radius: 3px;  
+  text-align: center;        
+} 
+.element1 {
+  width: 200px;
+  flex-basis:auto;
+  background-color: aquamarine;
+}
+.element2 {
+  flex-basis:content; 
+  background-color: bisque;
+}
+.element3{
+  flex-basis: 300px;
+  background-color: rgb(226, 75, 30);
+}
+```
+```html
+<div class="container1">  
+  <div class="element1"><strong>auto: </strong>El ajuste del elemento viene definido por la propiedad <strong>width</strong> y la distribución puede dar resultados sorprendentes. </div>
+  <div class="element2"><strong>content: </strong>El elemento tiene un tamaño inicial pero siempre se intenta poner todo el contenido en una misma línea.</div>
+  <div class="element3"><strong>300px: </strong>El ancho inicial está predefinido y no se puede cambiar, por mucho contenido que haya en el elemento.</div>  
+</div>
+```
+>**Resultado:**  
 ![alt text](./img/flexBasis.png)
+
+La diferencia entre `flex-basis: content`, `flex-basis: auto` y `flex-basis` con un valor fijo radica en cómo se calcula el tamaño inicial del elemento en un contenedor flexible.  
+
+---
+
+**Diferencias clave entre valores de flex-basis.**  
+
+| Propiedad | ¿Cómo se calcula el tamaño inicial? | ¿Depende del contenido? |
+|-----------|--------------------------------------|------------------------|
+| `flex-basis: auto` | Usa el valor de `width` o `height` si están definidos. Si no, el tamaño del contenido. | ✅ Sí (si no hay `width` o `height`). |
+| `flex-basis: content` | Se basa solo en el tamaño del contenido, sin importar `width` o `height`. | ✅ Sí |
+| `flex-basis: 100px` (valor fijo) | Usa exactamente el valor especificado. | ❌ No |
+
+---
+
+
 
 
 Expansión: flex-grow
