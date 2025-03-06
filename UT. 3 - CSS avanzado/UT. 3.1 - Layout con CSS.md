@@ -674,15 +674,15 @@ Si asignamos un valor a la propiedad order, los elementos hijos no seguirán el 
 
 ## 4.8. - Tamaño de los elementos flexibles
 ### 4.8.1. - Ajustando el tamaño inicial de los elementos: Flex-basis
-Habitualmente, el tamaño de los elementos flexibles viene determinado por su contenido. Si no hay espacio suficiente en la dirección principal, el espacio disponible se distribuye de forma desigual entre todos los elementos, dando más espacio a los elementos con más contenido.
-La propiedad `flex-basis` establece el tamaño inicial del elemento, antes de que se reparta el espacio libre.
+Habitualmente, el tamaño de los elementos flexibles viene determinado por su contenido. Si no hay espacio suficiente en la dirección principal, el espacio disponible se distribuye de forma desigual entre todos los elementos, dando más espacio a los elementos con más contenido y siempre minimizando el tamaño de los elementos en la dirección secundaria.
+La propiedad `flex-basis` permite establecer el tamaño inicial de los elementos, antes de que se reparta el espacio libre.
 
 Los posibles valores de la propiedad `flex-basis` son:  
 | **Valores de flex-basis** | **Comportamiento** |  
 |--------------------------|--------------------|  
 | **flex-basis: content** | El tamaño inicial del elemento viene determinado por su contenido. |  
 | **flex-basis: auto** | El tamaño inicial viene determinado por las propiedades `width` y `height`. |  
-| **flex-basis: valor** | Define el tamaño inicial del elemento. La unidad del valor puede ser, `px`, `rem`, `em`, `%`, etc. |  
+| **flex-basis: valor** | Define el tamaño inicial del elemento. La unidad del valor puede ser, `px`, `rem`, `%`, etc. |  
 
 
 
