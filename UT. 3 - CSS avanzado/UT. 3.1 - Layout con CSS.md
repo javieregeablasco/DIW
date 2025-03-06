@@ -1031,6 +1031,23 @@ Los valores más habituales de `align-items`son:
 
 ![alt text](./img/flex-end.png)
 
+>**align-items: center**
+```css
+.container1 {
+  margin: 10px;
+  padding: 5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;      
+  width: 800px;
+  background-color: rgb(8, 235, 20);      
+}
+```
+
+![alt text](./img/center.png)
+
+
+
 
 https://lenguajecss.com/css/flex/flex-grow-shrink/#la-propiedad-flex-shrink
 https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html#flex
