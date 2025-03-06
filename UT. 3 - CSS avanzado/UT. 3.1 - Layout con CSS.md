@@ -1120,6 +1120,7 @@ Los valores habituales de `align-self` son los mismos que los de la propiedad `a
 | **`baseline`** | Alinea el elemento según su **línea base del texto**. |
 
 **Ejemplo con `align-self: flex-end`**
+Como podemos ver en los fragmentos de código, todos los elementos hijos tienen la propiedad `align-items:baseline;` pero adicionalmente el elemento con la clase `elemento3` tiene el `align-self: self-end;`.   
 ```css
 ...
 .container1 {
@@ -1139,10 +1140,11 @@ Los valores habituales de `align-self` son los mismos que los de la propiedad `a
   align-self: self-end;
   background-color:aqua;
 }
+...
 ```
 
 >**resultado:**
-
+![alt text](./img/align-self.png)
 
 
 
