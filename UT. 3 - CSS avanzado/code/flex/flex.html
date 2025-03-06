@@ -8,32 +8,31 @@
     .container1 {
       margin: 10px;
       padding: 5px;
-      flex: initial;      
+      display:flex;
+      justify-content: center;
+      align-items: strech;      
       width: 500px;
       background-color: rgb(8, 235, 20);      
     }
     .element1, 
     .element2,
-    .element3,
-    .element 
+    .element3     
     {
       margin: 5px;
       padding: 5px;  
       border: 1px solid gray;
       border-radius: 3px;  
-      text-align: center;  
-      flex-basis: 250px;      
+      text-align: center; 
+      height: 50px;                  
     } 
     .element1 {
-      flex-shrink: 1;
+      height: 100px;
       background-color: aquamarine;
     }
     .element2 {
-      flex-shrink: 4;
       background-color: bisque;
     }
     .element3 {
-      flex-shrink: 2;
       background-color:aqua;
     }
    
@@ -42,15 +41,9 @@
 </head>
 <body>
   <div class="container1">  
-    <div class="element" style="background-color: antiquewhite;"><strong>Sin flex-shrink. </strong>Contenido idéntico.</div>
-    <div class="element" style="background-color: bisque;"><strong>Sin flex-shrink. </strong>Contenido idéntico.</div>     
-    <div class="element" style="background-color: aqua;"><strong>Sin flex-shrink. </strong>Contenido idéntico.</div>     
-  </div>
-
-  <div class="container1">  
-    <div class="element1"><strong>flex-shrink: 1. </strong>Contenido idéntico.</div>
-    <div class="element2"><strong>flex-shrink: 4. </strong>Contenido idéntico.</div>     
-    <div class="element3"><strong>flex-shrink: 2. </strong>Contenido idéntico.</div>     
+    <div class="element1"><strong></strong>Contenido idéntico.</div>
+    <div class="element2"><strong></strong>Contenido idéntico.</div>     
+    <div class="element3"><strong></strong>Contenido idéntico.</div>     
   </div>
 
 </body>
