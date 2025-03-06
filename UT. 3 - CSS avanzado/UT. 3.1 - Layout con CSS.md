@@ -1,5 +1,5 @@
 ---
-Título: UD. 5.3 - CSS3 avanzado: Modelo de cajas y Maquetación (layout)
+Título: UD. 5.3 - CSS3 avanzado: Maquetación (layout) con CSS
 Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
@@ -930,8 +930,6 @@ La propiedad `align-items` se usa en **contenedores flex (`display: flex;`)** y 
 }
 ```
 
-
-
 **Ejemplos**
 >**align-items: strech**
 ```css
@@ -1101,8 +1099,6 @@ La propiedad `align-self` permite **modificar la alineación vertical de un solo
 }
 ```
 
-
-
 **Ejemplo con `align-self: flex-end`**
 Como podemos ver en los fragmentos de código, todos los elementos hijos tienen la propiedad `align-items:baseline;` pero adicionalmente el elemento con la clase `elemento3` tiene el `align-self: self-end;`. Como consecuencia de ese valor el elemento se posiciona a partir de la base del elemento `flex` padre.   
 ```css
@@ -1235,7 +1231,7 @@ El contenedor de abajo tiene asignado el valor `align-content:flex-end`.
 <video controls src="./img/aligncontent.mp4" title="Title"></video>
 
 
-
+# 5. - Grid
 
 
 
