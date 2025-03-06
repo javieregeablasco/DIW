@@ -687,14 +687,21 @@ Los posibles valores de la propiedad `flex-basis` son:
 
 
 
-Tamaño inicial: flex-basis
+
 Expansión: flex-grow
+
 Compresión: flex-shrink
+
 Tamaños: flex
+
 Márgenes automáticos: margin
+
 Alineación principal: justify-content
+
 Alineación secundaria (1): align-items
+
 Alineación individual: align-self
+
 Alineación secundaria (n): align-content
 
 HASTA Aqui  
