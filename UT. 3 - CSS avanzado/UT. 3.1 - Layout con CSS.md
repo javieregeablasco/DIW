@@ -663,21 +663,26 @@ Los posibles valores de la propiedad `flex-flow` son:
 ## 4.7. - Ordenación de los elementos flexibles: Order
 Si asignamos un valor a la propiedad order, los elementos hijos no seguirán el orden en el que fueron definidos originalmente, sino que se organizarán según el valor de `order`.
 
+>**Fragmento de código con la propiedad order:**
+```css
+.element1 {
+  order: 3;
+  background-color: aquamarine;
+  ...
+}
+```
 
-
-
+## 4.8. - Tamaño inicial de los elementos flexibles: Flex-basis
+Habitualmente, el tamaño de los elementos flexibles viene determinado por su contenido. Si no hay espacio suficiente en la dirección principal, el espacio disponible se distribuye de forma desigual entre todos los elementos, dando más espacio a los elementos con más contenido, de manera que el tamaño en la dirección secundaria sea el menor posible:
+La propiedad flex-basis establece el tamaño inicial del elemento, antes de que se reparta en su caso el espacio libre.
 Los posibles valores de la propiedad `flex-flow` son:  
-| **Valores de flex-flow** | **Comportamiento** |  
+| **Valores de flex-basis** | **Comportamiento** |  
 |--------------------------|--------------------|  
-| **flex-flow: row nowrap** | Los elementos se organizan en una sola fila (horizontalmente) y no se permite el desbordamiento en varias líneas. |  
-| **flex-flow: row wrap** | Los elementos se organizan en una fila principal, pero si no caben en el contenedor, se envuelven en varias líneas. |  
-| **flex-flow: row wrap-reverse** | Similar a `row wrap`, pero las nuevas líneas aparecen en la parte superior en lugar de la parte inferior. |  
-| **flex-flow: column nowrap** | Los elementos se organizan en una sola columna (verticalmente) sin desbordamiento. |  
-| **flex-flow: column wrap** | Los elementos se organizan en una columna y pueden desbordarse en varias columnas si es necesario. |  
-| **flex-flow: column wrap-reverse** | Similar a `column wrap`, pero las nuevas columnas aparecen en el lado izquierdo en lugar del derecho. |  
+| **flex-basis: content** | Los elementos se organizan en una sola fila (horizontalmente) y no se permite el desbordamiento en varias líneas. |  
+| **flex-basis: auto** | Los elementos se organizan en una fila principal, pero si no caben en el contenedor, se envuelven en varias líneas. |  
+| **flex-basis: row wrap-reverse** | Similar a `row wrap`, pero las nuevas líneas aparecen en la parte superior en lugar de la parte inferior. |  
 
 
-Orden: order
 Tamaño inicial: flex-basis
 Expansión: flex-grow
 Compresión: flex-shrink
