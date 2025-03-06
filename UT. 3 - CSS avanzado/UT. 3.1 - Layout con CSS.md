@@ -980,7 +980,6 @@ Los valores más habituales de `align-items`son:
   margin: 10px;
   padding: 5px;
   display:flex;
-  
   justify-content:center;
   align-items:flex-start;      
   width: 800px;
@@ -1016,7 +1015,21 @@ Los valores más habituales de `align-items`son:
 ![](./img/flex-start.png)
 
 >**align-items: flex-end**
+```css
+...
+.container1 {
+  margin: 10px;
+  padding: 5px;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;      
+  width: 800px;
+  background-color: rgb(8, 235, 20);      
+}
+...
+```
 
+![alt text](./img/flex-end.png)
 
 
 https://lenguajecss.com/css/flex/flex-grow-shrink/#la-propiedad-flex-shrink
