@@ -1,5 +1,5 @@
 ---
-Título: UD. 5.3 - CSS3 avanzado: Maquetación (layout) con CSS
+Título: UD. 5.3 - CSS3 avanzado Maquetación (layout) con CSS
 Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
