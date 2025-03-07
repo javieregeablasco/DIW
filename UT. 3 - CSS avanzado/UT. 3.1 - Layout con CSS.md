@@ -1234,15 +1234,40 @@ El contenedor de abajo tiene asignado el valor `align-content:flex-end`.
 <placa base>
 
 # 6. Grid layout 
+https://lenguajecss.com/css/grid/que-es-grid/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://www.joshwcomeau.com/css/interactive-guide-to-grid/
+https://victorroblesweb.es/2022/10/19/como-funciona-css-grid-layout/
+https://oscarmaestre.github.io/lenguajes_marcas/tema3.html#maquetacion-avanzada-con-grid-layouts
 
-
+idea de indice:
+00:00:00 Introducción
+00:01:23 Diferencia entre grid y flexbox
+00:03:16 Conceptos básicos de Grid
+00:09:05 Ejercicio 1: configurando grid básico
+00:14:32 Cómo definir lineas o posiciones
+00:19:30 Ejercicio 2: definir líneas o posiciones
+00:22:15 Áreas en Grid
+00:24:27 Ejercicio 3: definiendo áreas
+00:27:13 Sintaxis simplificada con grid-template
+00:31:54 Ejercicio 4: usando sintaxis simplificada
+00:36:50 Gap en Grid
+00:37:38 justify-items - Alineación horizontal de elementos
+00:40:09 align-items -Alineación vertical de elementos
+00:40:52 justify-content -Alineación horizontal de cuadrícula
+00:44:09 align-content - Alineación vertical de cuadrícula
+00:46:36 Ejercicio 5: alineación de elementos y cuadrícula
+00:52:08 Posicionar elementos en Grid
+00:55:48 Ejercicio 6: Posicionar elementos en Grid
+00:59:21 Acomodar elementos en áreas
+01:00:39 Ejercicio 7: Posicionar elementos en áreas
+01:01:57 justify-self - Acomodar cada elemento horizontalmente
+01:03:24 align-self - Acomodar cada elemento verticalmente
+01:04:04 Ejercicio 8: uso de justify-self y align-self
 
 # 7. Tarea RA2-CEg-2
-https://lenguajecss.com/css/grid/que-es-grid/
 
 
-https://lenguajecss.com/css/flex/flex-grow-shrink/#la-propiedad-flex-shrink
-https://www.mclibre.org/consultar/htmlcss/css/css-flexbox.html#flex
 
 
 Alineación individual: align-self
