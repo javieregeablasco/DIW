@@ -1262,27 +1262,21 @@ Para utilizar Grid correctamente, es necesario conocer los términos clave que d
 
 **CSS Grid** es un sistema de diseño avanzado que permite crear estructuras de diseño bidimensionales en la web, organizando elementos tanto en filas como en columnas de manera flexible. Se introdujo en CSS3 y es una de las formas más potentes para maquetar páginas web de manera eficiente.
 
-## 6.3. - Modalidades de grip
+## 6.3. - Modalidades de grid
 Para activar CSS Grid en un **elemento contenedor**, se usa la propiedad `display: grid` o `display: inline-grid`.
 
 | Tipo de elemento | Descripción |
 |-|-|
-|**inline-grid**| Establece una cuadrícula con ítems en línea, de forma equivalente a inline-block. |
-| **grid** | Establece una cuadrícula con ítems en bloque, de forma equivalente a block. |
+| **grid** | Crea un contenedor de cuadrícula cuyo comportamiento es similar a `display: block`, ocupando todo el ancho disponible del contenedor padre. |
+| **inline-grid** | Crea un contenedor de cuadrícula con un comportamiento similar a `display: inline-block`, lo que significa que solo ocupará el espacio necesario según su contenido. |
 
 
 
 
-```css
-.contenedor {
-  display: grid;
-}
-```
-
-### 📌 2. **Grid Items (Elementos dentro del grid)**
+## 6.4. - Grid Items, elementos dentro del grid
 Los elementos hijos directos del contenedor se convierten automáticamente en "grid items" y se pueden colocar en la cuadrícula.
 
-### 📌 3. **Definir Columnas y Filas**
+## 6.5. - Definir Columnas y Filas
 Se usa `grid-template-columns` y `grid-template-rows` para definir el tamaño de las columnas y filas.
 
 ```css
