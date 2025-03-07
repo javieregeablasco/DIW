@@ -1317,7 +1317,6 @@ Las propiedades `grid-row-gap` y `grid-column-gap` se utilizan para definir el e
 
 ![alt text](./img/gutters.webp)
 
-
 :one: **`grid-row-gap`**  
 - Define el espacio entre las filas de la cuadrícula.  
 - Se especifica en unidades como `px`, `em`, `%`, etc.  
@@ -1361,28 +1360,76 @@ Las propiedades `grid-row-gap` y `grid-column-gap` se utilizan para definir el e
 - Si se especifica solo un valor en `gap`, se aplicará tanto a filas como a columnas (`gap: 20px;`).  
 - Para valores diferentes, el primero se aplicará a las filas y el segundo a las columnas (`gap: 20px 15px;`).  
 
+### 6.5.3. - Filas y columnas repetitivas
+Cuando queremos definir varias filas o columnas con un mismo tamaño o patrón, podemos utilizar la función `repeat()`.  
+
+>**Ejemplo de uso de `repeat()` en columnas**  
+Crear 4 columnas de 100px cada una.  
+```css
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+}
+```
+
+>**Ejemplo de uso de `repeat()` en filas**  
+Del mismo modo, podemos definir filas repetitivas dentro de `grid-template-rows`.  
+Crear 3 filas de 200px cada una.  
+```css
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 200px);
+}
+```
+
+**Uso de `repeat()` con `auto-fill` y `auto-fit`**  
+Podemos usar `auto-fill` o `auto-fit` para generar columnas dinámicamente según el ancho disponible.  
+
+>**Ejemplo con `auto-fill`**  
+```css
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+```
+:arrow_right: Se crean tantas columnas de al menos **150px** como sea posible dentro del contenedor.  
+:arrow_right: Si sobra espacio, este se distribuye **entre** las columnas existentes.  
+
+>**Ejemplo con `auto-fit`**  
+```css
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+```
+:arrow_right: Similar a `auto-fill`, pero si hay espacio sobrante, las columnas **se expanden** para ocuparlo.  
+
+### 6.5.4. - Propiedad `grid-template-areas`
+Permite definir un diseño con nombres de áreas.
+
+```css
+.contenedor {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+}
+
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.footer { grid-area: footer; }
+
+![](./img/gridTemplateArea.webp)
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Filas y columnas repetitivas
-https://lenguajecss.com/css/grid/que-es-grid/#filas-y-columnas-repetitivas
 
 Atajo: La propiedad grid-template
 https://lenguajecss.com/css/grid/que-es-grid/#atajo-la-propiedad-grid-template
@@ -1405,16 +1452,6 @@ También puedes usar `grid-column-start` y `grid-column-end` por separado.
 
 ---
 
-## 🎯 **Propiedades Avanzadas**
-### ✅ **`gap` (Espaciado entre celdas)**
-```css
-.contenedor {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px; /* Espaciado entre filas y columnas */
-}
-```
-
 ### ✅ **`grid-auto-rows` y `grid-auto-columns`**
 Sirven para definir tamaños de filas y columnas adicionales que se generen automáticamente.
 
@@ -1426,65 +1463,8 @@ Sirven para definir tamaños de filas y columnas adicionales que se generen auto
 }
 ```
 
-### ✅ **`grid-template-areas`**
-Permite definir un diseño con nombres de áreas.
 
-```css
-.contenedor {
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "sidebar content"
-    "footer footer";
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto;
-}
-
-.header { grid-area: header; }
-.sidebar { grid-area: sidebar; }
-.content { grid-area: content; }
-.footer { grid-area: footer; }
 ```
-
----
-
-## 🔥 **Ejemplo Completo**
-```html
-<div class="contenedor">
-  <div class="item1">1</div>
-  <div class="item2">2</div>
-  <div class="item3">3</div>
-  <div class="item4">4</div>
-</div>
-
-<style>
-  .contenedor {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 100px);
-    gap: 10px;
-  }
-
-  .contenedor div {
-    background: lightblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-  }
-</style>
-```
-
-Esto crea una cuadrícula de 2x2 con espacio entre celdas.
-
----
-
-## 🚀 **¿Por qué usar CSS Grid?**
-✅ Facilita la alineación y distribución de elementos.  
-✅ Es más potente que Flexbox para estructuras complejas.  
-✅ Permite un control preciso de filas y columnas.  
-
-¿Necesitas ayuda con algo específico de Grid? 😊
 
 ---
 
@@ -1501,7 +1481,6 @@ https://www.youtube.com/watch?v=Fj6BGtNvXIc
 
 
 
-00:03:16 Conceptos básicos de Grid
 00:09:05 Ejercicio 1: configurando grid básico
 00:14:32 Cómo definir lineas o posiciones
 00:19:30 Ejercicio 2: definir líneas o posiciones
