@@ -1234,15 +1234,28 @@ El contenedor de abajo tiene asignado el valor `align-content:flex-end`.
 <placa base>
 
 # 6. Grid layout 
+## 6.1. - Introducción
+**Grid** es un sistema de diseño avanzado que permite crear estructuras de diseño **bidimensionales**, organizando elementos tanto **en filas como en columnas** de manera flexible. Se introdujo en CSS3 y es una de las formas más potentes para maquetar páginas web.
+
+>**Ejemplo de disposición grid**
+![](./img/gridLayout.png)
+## 6.2. - Conceptos
+
+
+
+
+.
 https://lenguajecss.com/css/grid/que-es-grid/
 https://css-tricks.com/snippets/css/complete-guide-grid/
 https://www.joshwcomeau.com/css/interactive-guide-to-grid/
 https://victorroblesweb.es/2022/10/19/como-funciona-css-grid-layout/
 https://oscarmaestre.github.io/lenguajes_marcas/tema3.html#maquetacion-avanzada-con-grid-layouts
 
-idea de indice:
-00:00:00 Introducción
-00:01:23 Diferencia entre grid y flexbox
+https://www.youtube.com/watch?v=Fj6BGtNvXIc
+
+
+
+
 00:03:16 Conceptos básicos de Grid
 00:09:05 Ejercicio 1: configurando grid básico
 00:14:32 Cómo definir lineas o posiciones
@@ -1266,7 +1279,7 @@ idea de indice:
 01:04:04 Ejercicio 8: uso de justify-self y align-self
 
 # 7. Tarea RA2-CEg-2
-
+<placa base>
 
 
 
