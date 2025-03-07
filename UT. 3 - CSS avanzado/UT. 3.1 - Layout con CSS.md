@@ -1248,22 +1248,157 @@ Para utilizar Grid correctamente, es necesario conocer los términos clave que d
 
 | **Concepto**    | **Descripción** |
 |----------------|---------------|
-| **Contenedor** | El elemento padre que define la cuadrícula o rejilla. |
-| **Ítem** | Cada uno de los hijos que contiene la cuadrícula (elemento contenedor). |
-| **Grid cells** | Es la unidad más pequeña dentro de una cuadrícula. Conceptualmente, es similar a una celda de una tabla. |
-| **Grid track** | Es el espacio entre dos líneas en una cuadrícula. |
+| **Container** | Elemento padre que define el grid. |
+| **Ítem** | Elementos hijos del container. |
+| **Grid cells** | Unidad más pequeña dentro del grid. Conceptualmente, es similar a una celda de una tabla. |
+| **Grid track** | Es el espacio entre dos líneas en una cuadrícula (pueden ser verticales o horizontales). |
 | **Grid lines** | Separador horizontal o vertical de las celdas de la cuadrícula. |
-| **Grid area**   | Los elementos pueden ocupar una o más celdas, tanto en filas como en columnas, creando un área de cuadrícula (*grid area*). Las áreas de cuadrícula deben ser rectangulares; no es posible crear una forma en "L", por ejemplo. |
+| **Grid area**   | Elemento que puede ocupar una o más celdas, tanto en filas como en columnas, creando un área de cuadrícula (*grid area*). Las áreas de cuadrícula solo pueden ser rectangulares, por ejemplo, no es posible crear una cuadrícula forma en "L". |
 | **Grid row**    | Una fila de cuadrícula (*grid row*) es una pista horizontal, similar a `flex-direction: row` en Flexbox. Se define con la propiedad `grid-template-rows`. |
 | **Grid column** | Una columna de cuadrícula (*grid column*) es una pista vertical, similar a `flex-direction: column` en Flexbox. Se define con la propiedad `grid-template-columns`. |
 | **Grid gap**    | La propiedad `gap` de CSS define los espacios entre filas y columnas. |
 
 ![alt text](./img/css-grid-nomenclaturas.png)
 
+**CSS Grid** es un sistema de diseño avanzado que permite crear estructuras de diseño bidimensionales en la web, organizando elementos tanto en filas como en columnas de manera flexible. Se introdujo en CSS3 y es una de las formas más potentes para maquetar páginas web de manera eficiente.
+
+## 6.3. - Modalidades de grip
+Para activar CSS Grid en un **elemento contenedor**, se usa la propiedad `display: grid` o `display: inline-grid`.
+
+| Tipo de elemento | Descripción |
+|-|-|
+|**inline-grid**| Establece una cuadrícula con ítems en línea, de forma equivalente a inline-block. |
+| **grid** | Establece una cuadrícula con ítems en bloque, de forma equivalente a block. |
 
 
 
-.
+
+```css
+.contenedor {
+  display: grid;
+}
+```
+
+### 📌 2. **Grid Items (Elementos dentro del grid)**
+Los elementos hijos directos del contenedor se convierten automáticamente en "grid items" y se pueden colocar en la cuadrícula.
+
+### 📌 3. **Definir Columnas y Filas**
+Se usa `grid-template-columns` y `grid-template-rows` para definir el tamaño de las columnas y filas.
+
+```css
+.contenedor {
+  display: grid;
+  grid-template-columns: 200px 1fr 2fr;
+  grid-template-rows: 100px auto;
+}
+```
+📌 Aquí:
+- La primera columna mide **200px**.
+- La segunda columna usa **1fr** (fracción del espacio restante).
+- La tercera columna usa **2fr** (doble del espacio de la segunda).
+- Las filas tienen la primera de **100px** y la segunda ajustándose automáticamente.
+
+---
+
+## 📏 **Colocación de Elementos**
+Puedes colocar elementos en posiciones específicas dentro del grid con `grid-column` y `grid-row`.
+
+```css
+.item1 {
+  grid-column: 1 / 3; /* Ocupa desde la columna 1 hasta la 3 */
+  grid-row: 1 / 2;    /* Ocupa desde la fila 1 hasta la 2 */
+}
+```
+
+También puedes usar `grid-column-start` y `grid-column-end` por separado.
+
+---
+
+## 🎯 **Propiedades Avanzadas**
+### ✅ **`gap` (Espaciado entre celdas)**
+```css
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* Espaciado entre filas y columnas */
+}
+```
+
+### ✅ **`grid-auto-rows` y `grid-auto-columns`**
+Sirven para definir tamaños de filas y columnas adicionales que se generen automáticamente.
+
+```css
+.contenedor {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-auto-rows: 100px;
+}
+```
+
+### ✅ **`grid-template-areas`**
+Permite definir un diseño con nombres de áreas.
+
+```css
+.contenedor {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+}
+
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.footer { grid-area: footer; }
+```
+
+---
+
+## 🔥 **Ejemplo Completo**
+```html
+<div class="contenedor">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+</div>
+
+<style>
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+  }
+
+  .contenedor div {
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+</style>
+```
+
+Esto crea una cuadrícula de 2x2 con espacio entre celdas.
+
+---
+
+## 🚀 **¿Por qué usar CSS Grid?**
+✅ Facilita la alineación y distribución de elementos.  
+✅ Es más potente que Flexbox para estructuras complejas.  
+✅ Permite un control preciso de filas y columnas.  
+
+¿Necesitas ayuda con algo específico de Grid? 😊
+
+---
+
+
+https://blog.soaresdev.com/guia-rapido-css-grid/
 https://lenguajecss.com/css/grid/que-es-grid/
 https://css-tricks.com/snippets/css/complete-guide-grid/
 https://www.joshwcomeau.com/css/interactive-guide-to-grid/
