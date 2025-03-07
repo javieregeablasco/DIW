@@ -1270,31 +1270,60 @@ Para activar CSS Grid en un **elemento contenedor**, se usa la propiedad `displa
 | **grid** | Crea un contenedor de cuadrícula cuyo comportamiento es similar a `display: block`, ocupando todo el ancho disponible del contenedor padre. |
 | **inline-grid** | Crea un contenedor de cuadrícula con un comportamiento similar a `display: inline-block`, lo que significa que solo ocupará el espacio necesario según su contenido. |
 
+>**Contenedor display:grid**
+![alt text](./img/displaygrid.webp)
 
-
+>**Contenedor display:inline-grid**
+![alt text](./img/inlinegrid.webp)
 
 ## 6.4. - Grid Items, elementos dentro del grid
 Los elementos hijos directos del contenedor se convierten automáticamente en "grid items" y se pueden colocar en la cuadrícula.
 
 ## 6.5. - Definir Columnas y Filas
+### 6.5.1. - Filas y columnas fijas
 Se usa `grid-template-columns` y `grid-template-rows` para definir el tamaño de las columnas y filas.
 
+>**Ejemplo**
+```css
+.contenedor {
+  display: grid;
+  grid-template-columns: 200px 300px;
+  grid-template-rows: 100px auto;
+}
+```
+>**Explicación del código**
+- La primera columna mide **200px** de ancho.
+- La segunda columna mide **300px** de ancho.
+- La primera fila tiene mide **100px** de alto y la segunda se ajusta automáticamente al espacio restante.
+
+**Nota:**
+Es común encontrar la unidad `fr` (fraction unit) como medida en CSS Grid para definir el tamaño de determinadas celdas. Esta unidad representa una fracción del espacio disponible dentro del contenedor de la cuadrícula, permitiendo distribuir automáticamente el espacio entre columnas o filas de manera flexible y proporcional.
+>**Ejemplo:**
 ```css
 .contenedor {
   display: grid;
   grid-template-columns: 200px 1fr 2fr;
   grid-template-rows: 100px auto;
 }
-```
-📌 Aquí:
-- La primera columna mide **200px**.
-- La segunda columna usa **1fr** (fracción del espacio restante).
-- La tercera columna usa **2fr** (doble del espacio de la segunda).
-- Las filas tienen la primera de **100px** y la segunda ajustándose automáticamente.
+``` 
+>**Donde:**
+- La primera columna mide 200px.
+- La segunda columna usa 1fr (fracción del espacio restante).
+- La tercera columna usa 2fr (doble del espacio de la segunda).
+- Las filas tienen un alto de 100px para la primera y un alto automático para la segunda.
 
----
+### 6.5.2. - Colocación de Elementos
 
-## 📏 **Colocación de Elementos**
+Filas y columnas repetitivas
+https://lenguajecss.com/css/grid/que-es-grid/#filas-y-columnas-repetitivas
+
+Atajo: La propiedad grid-template
+https://lenguajecss.com/css/grid/que-es-grid/#atajo-la-propiedad-grid-template
+
+https://lenguajecss.com/css/grid/que-es-grid/#atajo-la-propiedad-grid-template
+
+
+
 Puedes colocar elementos en posiciones específicas dentro del grid con `grid-column` y `grid-row`.
 
 ```css
