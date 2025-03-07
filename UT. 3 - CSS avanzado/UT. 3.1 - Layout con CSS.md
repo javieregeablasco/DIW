@@ -1411,33 +1411,31 @@ Permite definir un diseño con nombres de áreas.
 .contenedor {
   display: grid;
   grid-template-areas:
-    "header header"
-    "sidebar content"
+    "navbar navbar"
+    "main sidebar"
     "footer footer";
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: auto;
 }
 
-.header { grid-area: header; }
+.navbar { grid-area: navbar; }
+.main { grid-area: main; }
 .sidebar { grid-area: sidebar; }
-.content { grid-area: content; }
 .footer { grid-area: footer; }
+```
+![](./img/grid-template-area.png)
 
-![](./img/gridTemplateArea.webp)
-
-
-
-
+### 6.5.5. -  
 
 
+https://lenguajecss.com/css/grid/alinear-centrar-css/
 
-Atajo: La propiedad grid-template
-https://lenguajecss.com/css/grid/que-es-grid/#atajo-la-propiedad-grid-template
-
-https://lenguajecss.com/css/grid/que-es-grid/#atajo-la-propiedad-grid-template
 
 
 https://medium.com/html-all-the-things/getting-started-with-css-grid-c80f6376b04f
+
+https://www.scaler.com/topics/css/css-grid/
+
 
 Puedes colocar elementos en posiciones específicas dentro del grid con `grid-column` y `grid-row`.
 
