@@ -1312,7 +1312,74 @@ Es común encontrar la unidad `fr` (fraction unit) como medida en CSS Grid para 
 - La tercera columna usa 2fr (doble del espacio de la segunda).
 - Las filas tienen un alto de 100px para la primera y un alto automático para la segunda.
 
-### 6.5.2. - Colocación de Elementos
+### 6.5.2. - Gutters: Espacio entre columnas y filas
+Las propiedades `grid-row-gap` y `grid-column-gap` se utilizan para definir el espacio entre filas y columnas dentro de una cuadrícula. Sin embargo, actualmente han sido reemplazadas por la propiedad `gap`, que combina ambas en una sola.  
+
+![alt text](./img/gutters.webp)
+
+
+:one: **`grid-row-gap`**  
+- Define el espacio entre las filas de la cuadrícula.  
+- Se especifica en unidades como `px`, `em`, `%`, etc.  
+>**Ejemplo:**  
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px, 250px, 25px;
+  grid-row-gap: 20px; /* Espaciado entre filas */
+}
+```
+
+:two: **`grid-column-gap`**  
+- Define el espacio entre las columnas de la cuadrícula.  
+- Funciona de la misma manera que `grid-row-gap`, pero aplicado a las columnas.  
+
+>**Ejemplo:**  
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px; /* Espaciado entre columnas */
+}
+```
+
+:three: **Definir márgenes con `gap`**  
+`grid-row-gap` y `grid-column-gap` han quedado obsoletas y se recomienda usar la propiedad `gap`:  
+
+```css
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px 15px; /* Primera medida: filas, Segunda medida: columnas */
+}
+```
+
+🔹 **Nota:**  
+- Si se especifica solo un valor en `gap`, se aplicará tanto a filas como a columnas (`gap: 20px;`).  
+- Para valores diferentes, el primero se aplicará a las filas y el segundo a las columnas (`gap: 20px 15px;`).  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Filas y columnas repetitivas
 https://lenguajecss.com/css/grid/que-es-grid/#filas-y-columnas-repetitivas
@@ -1323,6 +1390,7 @@ https://lenguajecss.com/css/grid/que-es-grid/#atajo-la-propiedad-grid-template
 https://lenguajecss.com/css/grid/que-es-grid/#atajo-la-propiedad-grid-template
 
 
+https://medium.com/html-all-the-things/getting-started-with-css-grid-c80f6376b04f
 
 Puedes colocar elementos en posiciones específicas dentro del grid con `grid-column` y `grid-row`.
 
