@@ -1237,8 +1237,12 @@ El contenedor de abajo tiene asignado el valor `align-content:flex-end`.
 ## 6.1. - Introducción
 **Grid** es un sistema de diseño avanzado que permite crear estructuras de diseño **bidimensionales**, organizando elementos tanto **en filas como en columnas** de manera flexible. Se introdujo en CSS3 y es una de las formas más potentes para maquetar páginas web.
 
->**Ejemplo de disposición grid**
+>**Ejemplo de disposición grid (rejilla)**
 ![](./img/gridLayout.png)
+
+>**Ejemplo de aplicacion del concepto de grid al diseño web**
+![](./img/gridhtml.webp)
+
 ## 6.2. - Conceptos
 
 
