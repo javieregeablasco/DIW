@@ -1243,7 +1243,22 @@ El contenedor de abajo tiene asignado el valor `align-content:flex-end`.
 >**Ejemplo de aplicacion del concepto de grid al diseño web**
 ![](./img/gridhtml.webp)
 
-## 6.2. - Conceptos
+## 6.2. - Nomenclatura de grid CSS
+Para utilizar Grid correctamente, es necesario conocer los términos clave que describen sus diferentes partes y cómo interactúan entre sí.  
+
+| **Concepto**    | **Descripción** |
+|----------------|---------------|
+| **Contenedor** | El elemento padre que define la cuadrícula o rejilla. |
+| **Ítem** | Cada uno de los hijos que contiene la cuadrícula (elemento contenedor). |
+| **Grid cells** | Es la unidad más pequeña dentro de una cuadrícula. Conceptualmente, es similar a una celda de una tabla. |
+| **Grid track** | Es el espacio entre dos líneas en una cuadrícula. |
+| **Grid lines** | Separador horizontal o vertical de las celdas de la cuadrícula. |
+| **Grid area**   | Los elementos pueden ocupar una o más celdas, tanto en filas como en columnas, creando un área de cuadrícula (*grid area*). Las áreas de cuadrícula deben ser rectangulares; no es posible crear una forma en "L", por ejemplo. |
+| **Grid row**    | Una fila de cuadrícula (*grid row*) es una pista horizontal, similar a `flex-direction: row` en Flexbox. Se define con la propiedad `grid-template-rows`. |
+| **Grid column** | Una columna de cuadrícula (*grid column*) es una pista vertical, similar a `flex-direction: column` en Flexbox. Se define con la propiedad `grid-template-columns`. |
+| **Grid gap**    | La propiedad `gap` de CSS define los espacios entre filas y columnas. |
+
+![alt text](./img/css-grid-nomenclaturas.png)
 
 
 
