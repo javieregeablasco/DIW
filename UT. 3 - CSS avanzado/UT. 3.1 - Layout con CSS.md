@@ -1706,11 +1706,15 @@ Es importante tener en cuenta que la propiedad de justificación afecta **al eje
 .item:nth-child(5) { background-color: blue; order: 4; }
 .item:nth-child(6) { background-color: yellow; order: 5; }
 ```
-Con esta modificación los items 7, 8 y 9 aparecerán primero dentro del `grid` quedando de la siguiente manera:
+Con esta modificación los items 4, 5 y 6, con un order superior al resto de items (order por defecto: 1) aparecerán los últimos dentro del `grid` quedando de la siguiente manera:  
 ![alt text](./img/gridOrder.png)
 
-https://lenguajecss.com/css/grid/alinear-centrar-css/#orden-de-los-elementos
+### 6.5.8. - Creacion de grid layouts irregulares (o personalizados)
+Hasta ahora hemos definido un grid (rejilla) regular, es decir, todas las celdas de una misma fila o columna ocupan el mismo espacio.  
 
+Con las propiedades `grid-column-start`, `grid-column-end`, `grid-row-start` y `grid-row-end` podremos alterar el tamaño (vertical u horizontal) de un elemento dentro de la cuadrícula.
+
+>**Ejemplo:**
 
 
 
@@ -1732,8 +1736,6 @@ https://lenguajecss.com/css/grid/alinear-centrar-css/
 
 
 
-### 6.5.6. - Creacion de grid layouts personalizados (irregulares)
-https://lenguajecss.com/css/grid/irregular-grid/#crear-celdas-irregulares
 
 ### 6.5.6. - Lineas con nombres
 https://lenguajecss.com/css/grid/grid-linenames/
