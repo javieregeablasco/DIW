@@ -1493,6 +1493,9 @@ Auque es muy habitual usar la propiedad `margin` para definir la separación ent
 |-|-|-|
 |**column-gap**| Separación entre **columnas**|Solo se define la **separación entre columnas**, no entre columnas y contendor padre.|
 |**row-gap**| Separación entre **filas**|Solo se define la **separación entre filas**, no entre filas y contendor padre.|
+|**gap**| Separación entre **columnas y filas**|Sintaxis: size_columns size_rows|
+
+>Ejemplo:**
 
 
 ### 6.5.6. - 
