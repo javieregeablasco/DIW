@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid e Inline-Grid</title>
+    <style>
+        .contenedor-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            gap: 10px;
+            background-color: lightblue;
+            padding: 10px;
+            width: max-content;
+        }
+
+        .contenedor-inline-grid {
+            display: inline-grid;
+            grid-template-columns: repeat(3, 100px);
+            gap: 10px;
+            background-color: lightcoral;
+            padding: 10px;
+            width: max-content;
+        }
+
+        .item {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Display: Grid</h2>
+    <div class="contenedor-grid">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+
+    <h2>Display: Inline-Grid</h2>
+    <p>Este contenedor se comporta como un elemento en línea.</p>
+    <div class="contenedor-inline-grid">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+    </div>
+    <p>Texto después del inline-grid.</p>
+</body>
+</html>
