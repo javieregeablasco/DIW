@@ -5,21 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaps</title>
     <style>
-        .contenedor-grid {
+        .contenedor-sin-gutters {
             display: grid;
-            grid-template-columns: repeat(1, auto);
+            grid-template-columns: repeat(2, auto);
             background-color: lightblue;
             border: 1px solid rgba(0, 0, 255, 0.404);
         }
 
-        .contenedor-inline-grid {
-            display: inline-grid;
+        .contenedor-con-gutters {
+            display: grid;
             grid-template-columns: repeat(2, auto);
-            gap: 10px;
-            background-color: lightcoral;
-            padding: 10px;
+            background-color: lightblue;
+            border: 1px solid rgba(0, 0, 255, 0.404);
+            gap: 5px 5px;
         }
-
         .item {
             background-color: antiquewhite;
             padding: 20px;
@@ -30,7 +29,7 @@
 </head>
 <body>
     <h2>Contenedor sin gutters</h2>
-      <div class="contenedor-grid">
+      <div class="contenedor-sin-gutters">
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
@@ -38,7 +37,7 @@
     </div>
 
     <h2>Contenedor con gutters</h2>
-      <div class="contenedor-grid">
+      <div class="contenedor-con-gutters">
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
