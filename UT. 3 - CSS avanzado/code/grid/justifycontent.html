@@ -27,46 +27,54 @@
       justify-content: center;
       font-weight: bold;
     }
+    .subHeader {
+      text-decoration: underline;
+      tab-size: 5px;
+    }
     </style>
 </head>
 <body>
     <h2>Alineación de las celdas dentro del grid</h2>
     <p class="subHeader">Propiedades de justificación:</p>
-      <ul>
-        <li>
-          <label>justify-items:
-            <select id="justifyItems">
-              <option>start</option>
-              <option selected>center</option>
-              <option>end</option>
-              <option>stretch</option>
-            </select>
-          </label>
-        </li>
-        <li>
-          <label>justify-content:
-            <select id="justifyContent">
-              <option>start</option>
-              <option selected>center</option>
-              <option>end</option>
-              <option>space-between</option>
-              <option>space-around</option>
-              <option>space-evenly</option>
-            </select>
-          </label>
-        </li>
-      </ul>
-    <p>Propiedades de alineación:</p>
-    <label>align-items:
-        <select id="alignItems">
+    <ul>
+      <li>
+        <label>justify-items:
+          <select id="justifyItems">
             <option>start</option>
             <option selected>center</option>
             <option>end</option>
             <option>stretch</option>
-        </select>
-    </label>
-    <label>align-content:
-        <select id="alignContent">
+          </select>
+        </label>
+      </li>
+      <li>
+        <label>justify-content:
+          <select id="justifyContent">
+            <option>start</option>
+            <option selected>center</option>
+            <option>end</option>
+            <option>space-between</option>
+            <option>space-around</option>
+            <option>space-evenly</option>
+          </select>
+        </label>
+      </li>
+    </ul>
+    <p class="subHeader">Propiedades de alineación:</p>
+    <ul>
+      <li>
+        <label>align-items:
+          <select id="alignItems">
+            <option>start</option>
+            <option selected>center</option>
+            <option>end</option>
+            <option>stretch</option>
+          </select>
+        </label>
+      </li>
+      <li>
+        <label>align-content:
+          <select id="alignContent">
             <option>start</option>
             <option selected>center</option>
             <option>end</option>
@@ -74,8 +82,12 @@
             <option>space-around</option>
             <option>space-evenly</option>
             <option>stretch</option>
-        </select>
-    </label>
+          </select>
+        </label>
+
+      </li>
+    </ul>
+
     
     <div class="container" id="gridContainer">
         <div class="item">1</div>
