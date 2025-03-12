@@ -1702,12 +1702,13 @@ Es importante tener en cuenta que la propiedad de justificación afecta **al eje
 
 >**Modificación (ampliación) del código del ejemplo anterior**
 ```css
-  .item:nth-child(7) { order: 1; }
-  .item:nth-child(8) { order: 2; }
-  .item:nth-child(9) { order: 3; }
+.item:nth-child(4) { background-color:red; order: 6; }
+.item:nth-child(5) { background-color: blue; order: 4; }
+.item:nth-child(6) { background-color: yellow; order: 5; }
 ```
 Con esta modificación los items 7, 8 y 9 aparecerán primero dentro del `grid` quedando de la siguiente manera:
- 
+![alt text](./img/gridOrder.png)
+
 https://lenguajecss.com/css/grid/alinear-centrar-css/#orden-de-los-elementos
 
 
