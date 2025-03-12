@@ -10,6 +10,7 @@ Aunque CSS no sea una lenguaje de programación al uso, si que permite definir v
 
 
 # 2. Variables CSS
+## 2.1. - Definición de las variables
 Las **CSS Custom Properties** (variables CSS) permiten definir valores reutilizables y modificar estilos de manera flexible.
 Por convención, las variables CSS se definen de la siguiente manera:    
 ```css
@@ -17,7 +18,7 @@ Por convención, las variables CSS se definen de la siguiente manera:
 ```
 
 Y generalmente se colocan al principio de la hoja de estilos dentro de :root, lo que las hace globales a toda la hoja de estilos.
->**Ejemplo:**
+>**Ejemplo de custom properties:**
 ```css
 :root{
   --motherboard-color: #f5f5f5;
@@ -31,33 +32,26 @@ Y generalmente se colocan al principio de la hoja de estilos dentro de :root, lo
 } 
 ```
 
+## 2.2. - Uso de las variables
+Para poder acceder a las variables CSS, usaremos la función `var(--nombre-variable)` que será la responsable de devolver el contenido de la variable en el formato esperado por la propiedad de CSS.
 
-
->**Ejemplo de variables CSS:**
+>**Ejemplo de variables y su posterior utilización:**
 ```css
 :root {
-
   --color-primario: #3498db;
-  --tamano-texto: 16px;
+  --tamanyo-texto: 16px;
 }
 
 .boton {
   background-color: var(--color-primario);
-  font-size: var(--tamano-texto);
+  font-size: var(--tamanyo-texto);
   padding: 10px;
 }
 ```
-📌 **Características**:
-- Se definen con `--nombre-variable`.
-- Se accede con `var(--nombre-variable)`.
-- Se pueden redefinir dentro de **selectores específicos** para personalizar estilos.
+## 2.3. - Variables CSS dinámicas**
+Al igual que en los lenguajes de programación, podemos modificar el valor de las variables CSS de forma dinámica, pero este cambio suele ocurrir dentro de un contexto específico, como en estados de interacción o dentro de un selector.
 
----
-
-## 🔹 **2. Variables CSS dinámicas**
-Las variables pueden cambiar en función de eventos o condiciones.
-
-### ✅ **Ejemplo con `hover`**:
+>**Ejemplo con `hover`:**
 ```css
 .boton {
   --color-boton: #e74c3c;
@@ -69,28 +63,20 @@ Las variables pueden cambiar en función de eventos o condiciones.
   --color-boton: #c0392b;
 }
 ```
-📌 **Ventaja**: Permite cambiar valores sin necesidad de duplicar código.
-
----
-
-## 🔹 **3. Funciones matemáticas en CSS**
+## 3. Funciones matemáticas en CSS
 CSS tiene varias funciones útiles para hacer cálculos en tiempo real.
 
-### ✅ **3.1. `calc()` – Operaciones matemáticas**
+### 3.1. - Operaciones matemáticas con `calc()`
+>**Ejemplo:**
 ```css
-.caja {
+.container {
   width: calc(100% - 50px);
   height: calc(50vh + 20px);
 }
 ```
-📌 **Usos comunes**:
-- Restar márgenes dinámicamente.
-- Combinar valores fijos y relativos.
 
----
-
-### ✅ **3.2. `min()`, `max()` y `clamp()` – Control de tamaños**
-📌 **Definen valores mínimos, máximos y rangos para tamaños de elementos.**
+## 3.2. - Control de tamaños con `min()`, `max()` y `clamp()`
+Definen valores mínimos, máximos y rangos para tamaños de elementos.**
 
 ```css
 .texto {
@@ -105,12 +91,8 @@ CSS tiene varias funciones útiles para hacer cálculos en tiempo real.
   font-size: clamp(16px, 4vw, 32px); /* Entre 16px y 32px según el viewport */
 }
 ```
-📌 **Ventajas**:
-- **`min()`**: Usa el valor más pequeño.
-- **`max()`**: Usa el valor más grande.
-- **`clamp()`**: Define un rango adaptable.
 
----
+## 3.3. - Control de tamañox con minmax()
 
 ## 🔹 **4. Funciones de color en CSS**
 📌 CSS incluye funciones para manipular colores:
@@ -155,26 +137,6 @@ CSS tiene varias funciones útiles para hacer cálculos en tiempo real.
 
 ---
 
-### 🚀 **Resumen de funciones y variables en CSS nativo**
-| Tipo | Ejemplo | Uso |
-|------|---------|-----|
-| **Variables CSS** | `--color: red;` | Reutilización de valores |
-| **`var()`** | `color: var(--color);` | Acceder a variables CSS |
-| **`calc()`** | `width: calc(100% - 50px);` | Cálculos dinámicos |
-| **`min()` / `max()`** | `font-size: min(5vw, 40px);` | Tamaños responsivos |
-| **`clamp()`** | `clamp(16px, 4vw, 32px);` | Rango adaptable |
-| **Colores (`rgb()`, `hsl()`)** | `color: rgba(0, 0, 255, 0.5);` | Control de color y transparencia |
-| **Transformaciones** | `rotate(15deg) scale(1.2);` | Efectos en elementos |
-| **Filtros** | `filter: blur(5px);` | Aplicar efectos visuales |
-
----
-
-### 📌 **Conclusión**
-- CSS ha evolucionado y permite **programar estilos de manera flexible sin preprocesadores**.
-- Puedes usar **variables, cálculos dinámicos y funciones avanzadas** para mejorar la mantenibilidad del código.
-- **Con `calc()`, `clamp()`, `min()` y `max()` se pueden hacer diseños más responsivos sin media queries.**
-
-📌 **¿Quieres un ejemplo más avanzado o aplicado a tu proyecto?** 🚀
 
 
 poner el minmax de grid
