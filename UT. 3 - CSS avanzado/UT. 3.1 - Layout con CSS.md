@@ -1467,6 +1467,7 @@ Podemos usar `auto-fill` o `auto-fit` para generar columnas dinámicamente segú
 ### 6.5.4. - Propiedad `grid-template-areas`
 Permite definir un diseño con nombres de áreas.
 
+>**Fragmento de código:**
 ```css
 .contenedor {
   display: grid;
@@ -1485,7 +1486,16 @@ Permite definir un diseño con nombres de áreas.
 ```
 ![](./img/grid-template-area.png)
 
-### 6.5.5. -  
+### 6.5.5. - Gutters, espacios entre celdas
+Auque es muy habitual usar la propiedad `margin` para definir la separación entre celdas, no resulta del todo correcta dentro de un `grid`. En este caso resulta más adecuado usar las propiedades `column-gap` para el espacio entre columnas, `row-gap` para el espacio entre filas  y su generalización `gap` donde se definen las 2 propiedades a la vez.  
+
+|**Propiedad**|**Descripción**|**Información adicional**|
+|-|-|-|
+|**column-gap**| Separación entre **columnas**|Solo se define la **separación entre columnas**, no entre columnas y contendor padre.|
+|**row-gap**| Separación entre **filas**|Solo se define la **separación entre filas**, no entre filas y contendor padre.|
+
+
+### 6.5.6. - 
 
 
 https://lenguajecss.com/css/grid/alinear-centrar-css/
