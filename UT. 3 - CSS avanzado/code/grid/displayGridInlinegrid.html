@@ -7,22 +7,23 @@
     <style>
         .contenedor-grid {
             display: grid;
-            grid-template-columns: 1, 100px;
+            grid-template-columns: repeat(1, auto);
             gap: 10px;
             background-color: lightblue;
             padding: 10px;            
+            border: 1px solid rgba(0, 0, 255, 0.404);
         }
 
         .contenedor-inline-grid {
             display: inline-grid;
-            grid-template-columns: repeat(3, 100px);
+            grid-template-columns: repeat(2, auto);
             gap: 10px;
             background-color: lightcoral;
             padding: 10px;
         }
 
         .item {
-            background-color: white;
+            background-color: antiquewhite;
             padding: 20px;
             text-align: center;
             border: 1px solid black;
@@ -31,6 +32,7 @@
 </head>
 <body>
     <h2>Display: Grid</h2>
+    <p>El contenedor (azul) ocupa todo el espacio disponible.</p>
     <div class="contenedor-grid">
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
