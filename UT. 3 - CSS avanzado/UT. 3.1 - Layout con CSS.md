@@ -1276,6 +1276,66 @@ Para activar CSS Grid en un **elemento contenedor**, se usa la propiedad `displa
 >**Contenedor display:inline-grid**
 ![alt text](./img/inlinegrid.webp)
 
+>**Ejemplo completo:**  
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid e Inline-Grid</title>
+    <style>
+        .contenedor-grid {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+            gap: 10px;
+            background-color: lightblue;
+            padding: 10px;            
+            border: 1px solid rgba(0, 0, 255, 0.404);
+        }
+
+        .contenedor-inline-grid {
+            display: inline-grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 10px;
+            background-color: lightcoral;
+            padding: 10px;
+        }
+
+        .item {
+            background-color: antiquewhite;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Display: Grid</h2>
+    <p><strong>El contenedor padre (azul)</strong> ocupa todo el espacio disponible.</p>
+    <p><strong>Los elementos hijos (items)</strong>, si no es especifica lo contrario, ocuparan todo el espacio disponible.</p>
+    <div class="contenedor-grid">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>
+
+    <h2>Display: Inline-Grid</h2>
+    <p><strong>El contenedor padre (rojo)</strong> se comporta como un elemento en línea, es decir, solo ocupa el espacio necesario.</p>
+    <p><strong>Los elementos hijos</strong>, solo ocupan el espacio necesario definido por su contenido.</p>
+    <div class="contenedor-inline-grid">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>       
+    </div>
+    <p>Texto después del inline-grid.</p>
+</body>
+</html>
+```
+
+
 ## 6.4. - Grid Items, elementos dentro del grid
 Los elementos hijos directos del contenedor se convierten automáticamente en "grid items" y se pueden colocar en la cuadrícula.
 
