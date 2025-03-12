@@ -1566,6 +1566,17 @@ La alineación y justificación son útiles cuando los elementos del grid no lle
 
 Es importante tener en cuenta que la propiedad de justificación afecta **al eje horizontal** mientras que la propiedad de alineación lo hace en el **eje vertical** (del grid).
 
+|**Propiedad**|**Descripción**|**Valores**|
+|-------------|---------------|-----------|
+| **justify-items**   | Alinea horizontalmente los elementos hijos **dentro de cada celda de un contenedor grid**. | `start`, `end`, `center`, `stretch` |
+| **align-items**     | Alinea verticalmente los elementos hijos **dentro de cada celda de un contenedor grid**. | `start`, `end`, `center`, `stretch` |
+| **justify-content** | Alinea horizontalmente el contenido de los elementos **dentro del contenedor padre**. | `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly` |
+| **align-content**   | Alinea verticalmente el contenido dentro del **contenedor padre**. | `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly`, `stretch` |
+
+
+     
+
+
 
 
 ---
