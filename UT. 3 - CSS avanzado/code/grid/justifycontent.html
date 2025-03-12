@@ -106,7 +106,7 @@
         <div class="item">8</div>
         <div class="item">9</div>
     </div>
-    
+    <!--
     <script>
       const container = document.getElementById("gridContainer");
       document.querySelectorAll("select").forEach(select => {
@@ -118,5 +118,21 @@
         });
       });
     </script>
+  -->
+<script>
+  const container = document.getElementById("gridContainer");
+  const updateGridStyles = () => {
+      container.style.justifyItems = document.getElementById("justifyItems").value;
+      container.style.alignItems = document.getElementById("alignItems").value;
+      container.style.justifyContent = document.getElementById("justifyContent").value;
+      container.style.alignContent = document.getElementById("alignContent").value;
+  };
+  
+  document.querySelectorAll("select").forEach(select => {
+      select.addEventListener("change", updateGridStyles);
+  });
+  
+  window.addEventListener("load", updateGridStyles);
+</script>
 </body>
 </html>
