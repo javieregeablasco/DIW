@@ -1818,6 +1818,20 @@ Con las propiedades `grid-column-start`, `grid-column-end`, `grid-row-start` y `
 >**Resultado:**  
 ![alt text](./img/customCells.png)
 
+**Nota:**
+Otras propiedades que permiten personalizar la rejilla simplificando la sintaxis: `grid-column` `row-column`.
+>**Ejemplo:**
+```css
+.item3 {
+  grid-column: 3 / 5;
+  grid-row: 1 / 3;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+} 
+```
+
 ### 6.5.7. - Overlapping grid items
 To prevent this we can use min-max function and specify the size on the parent element. It takes two arguments, the minimum size and the max size.
 https://www.scaler.com/topics/css/css-grid/
@@ -1847,9 +1861,6 @@ https://lenguajecss.com/css/grid/grid-linenames/#atajo-utilizar-grid-area
 https://lenguajecss.com/css/grid/grid-auto/
 
 
-
-
-https://lenguajecss.com/css/grid/alinear-centrar-css/
 
 
 
