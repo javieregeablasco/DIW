@@ -1722,8 +1722,101 @@ Con las propiedades `grid-column-start`, `grid-column-end`, `grid-row-start` y `
 |**grid-row-end**|Indica en que fila terminará el ítem de la cuadrícula.|
 
 >**Ejemplo:**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaps</title>
+  <style>
+    body {
+      background-color: rgba(128, 128, 128, 0.232);
+    }
+    li, .item3 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .contenedor {
+      display: grid;
+      grid-template-columns: repeat(6, auto);
+      background-color: lightblue;
+      border: 1px solid rgba(0, 0, 255, 0.404);
+      
+    }
+    .item {
+      background-color: antiquewhite;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid black;
+    }
+    .item3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    }
+  </style>
+</head>
+<body>
+  <h2>Ejemplo de rejilla regular</h2>
+  <div class="contenedor">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+    <div class="item">Item 7</div>
+    <div class="item">Item 8</div>
+    <div class="item">Item 9</div>
+    <div class="item">Item 10</div>
+    <div class="item">Item 11</div>
+    <div class="item">Item 12</div>
+    <div class="item">Item 13</div>
+    <div class="item">Item 14</div>
+    <div class="item">Item 15</div>
+    <div class="item">Item 16</div>
+    <div class="item">Item 17</div>
+    <div class="item">Item 18</div>
+  </div>
+  
+  <h2>Rejilla con tamaños de celdas personalizados</h2>
+  <ol>
+    <li>
+      <p>grid-column-start: 3 y grid-column-end: 5</p>
+    </li>
+    <li>
+      <p>grid-row-start: 1 y grid-row-end: 3</p>
+    </li>
+  </ol>
+  <div class="contenedor">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item item3">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+    <div class="item">Item 7</div>
+    <div class="item">Item 8</div>
+    <div class="item">Item 9</div>
+    <div class="item">Item 10</div>
+    <div class="item">Item 11</div>
+    <div class="item">Item 12</div>
+    <div class="item">Item 13</div>
+    <div class="item">Item 14</div>
+    <div class="item">Item 15</div>
+  </div>    
+</body>
+</html>
+```
 
-
+>**Resultado:**  
+![alt text](./img/customCells.png)
 
 ### 6.5.7. - Overlapping grid items
 To prevent this we can use min-max function and specify the size on the parent element. It takes two arguments, the minimum size and the max size.
