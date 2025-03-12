@@ -9,13 +9,34 @@ Palabras clave: DAW, DIW
 Aunque CSS no sea una lenguaje de programación al uso, si que permite definir variables y dispone de una libreria de funciones que nos permitiran, entre otras, realizar animaciones.  
 
 
-# 2. Variables CSS (`--nombre-variable`)**
+# 2. Variables CSS
 Las **CSS Custom Properties** (variables CSS) permiten definir valores reutilizables y modificar estilos de manera flexible.
+Por convención, las variables CSS se definen de la siguiente manera:    
+```css
+--nombre-variable: valor 
+```
+
+Y generalmente se colocan al principio de la hoja de estilos dentro de :root, lo que las hace globales a toda la hoja de estilos.
+>**Ejemplo:**
+```css
+:root{
+  --motherboard-color: #f5f5f5;
+  --default-border-color: black;
+  --cpu-color: #06D6A0;
+  --slot-color: #073B4C;
+  --connector-color: #EF476F;
+  --connector-size: 2em;
+  --cpu-size: 7em;
+  --default-gap: 1em;
+} 
+```
+
 
 
 >**Ejemplo de variables CSS:**
 ```css
 :root {
+
   --color-primario: #3498db;
   --tamano-texto: 16px;
 }
