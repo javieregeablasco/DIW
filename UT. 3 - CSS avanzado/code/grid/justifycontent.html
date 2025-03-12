@@ -33,6 +33,7 @@
     }
     li {
       padding: 0.5rem;
+      font-size: 16px;
     }
     </style>
 </head>
@@ -105,15 +106,15 @@
     </div>
     
     <script>
-        const container = document.getElementById("gridContainer");
-        document.querySelectorAll("select").forEach(select => {
-            select.addEventListener("change", () => {
-                container.style.justifyItems = document.getElementById("justifyItems").value;
-                container.style.alignItems = document.getElementById("alignItems").value;
-                container.style.justifyContent = document.getElementById("justifyContent").value;
-                container.style.alignContent = document.getElementById("alignContent").value;
-            });
+      const container = document.getElementById("gridContainer");
+      document.querySelectorAll("select").forEach(select => {
+        select.addEventListener("change", () => {
+          container.style.justifyItems = document.getElementById("justifyItems").value;
+          container.style.alignItems = document.getElementById("alignItems").value;
+          container.style.justifyContent = document.getElementById("justifyContent").value;
+          container.style.alignContent = document.getElementById("alignContent").value;
         });
+      });
     </script>
 </body>
 </html>
