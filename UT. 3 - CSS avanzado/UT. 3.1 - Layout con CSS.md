@@ -1714,6 +1714,13 @@ Hasta ahora hemos definido un grid (rejilla) regular, es decir, todas las celdas
 
 Con las propiedades `grid-column-start`, `grid-column-end`, `grid-row-start` y `grid-row-end` podremos alterar el tamaño (vertical u horizontal) de un elemento dentro de la cuadrícula.
 
+|**Propiedad**|**Descripción**|
+|-------------|---------------|
+| **grid-column-start**   | Alinea horizontalmente los elementos hijos **dentro de cada celda de un contenedor grid**. | `start`, `end`, `center`, `stretch` |
+| **agrid-column-end**     | Alinea verticalmente los elementos hijos **dentro de cada celda de un contenedor grid**. | `start`, `end`, `center`, `stretch` |
+| **grid-row-start** | Alinea horizontalmente el contenido de los elementos **dentro del contenedor padre**. | `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly` |
+| **grid-row-end**   | Alinea verticalmente el contenido dentro del **contenedor padre**. | `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly`, `stretch` |
+
 >**Ejemplo:**
 
 
