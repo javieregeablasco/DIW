@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaps</title>
-    <style>
-      body {
-        background-color: rgba(128, 128, 128, 0.232);
-      }
-      li, .item3 {
-        font-size: 18px;
-        font-weight: bold;
-      }
-      .contenedor {
-        display: grid;
-        grid-template-columns: repeat(6, auto);
-        background-color: lightblue;
-        border: 1px solid rgba(0, 0, 255, 0.404);
-        
-      }
-      .item {
-        background-color: antiquewhite;
-        padding: 20px;
-        text-align: center;
-        border: 1px solid black;
-      }
-      .item3 {
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        background-color: aquamarine;
-        display: flex;
-        align-items: center;
-        text-align: center;
-      }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaps</title>
+  <style>
+    body {
+      background-color: rgba(128, 128, 128, 0.232);
+    }
+    li, .item3 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .contenedor {
+      display: grid;
+      grid-template-columns: repeat(6, auto);
+      background-color: lightblue;
+      border: 1px solid rgba(0, 0, 255, 0.404);
+      
+    }
+    .item {
+      background-color: antiquewhite;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid black;
+    }
+    .item3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    text-align: center;
+}
+
     </style>
 </head>
 <body>
