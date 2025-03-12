@@ -1716,10 +1716,10 @@ Con las propiedades `grid-column-start`, `grid-column-end`, `grid-row-start` y `
 
 |**Propiedad**|**Descripción**|
 |-------------|---------------|
-| **grid-column-start**   | Alinea horizontalmente los elementos hijos **dentro de cada celda de un contenedor grid**. | `start`, `end`, `center`, `stretch` |
-| **agrid-column-end**     | Alinea verticalmente los elementos hijos **dentro de cada celda de un contenedor grid**. | `start`, `end`, `center`, `stretch` |
-| **grid-row-start** | Alinea horizontalmente el contenido de los elementos **dentro del contenedor padre**. | `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly` |
-| **grid-row-end**   | Alinea verticalmente el contenido dentro del **contenedor padre**. | `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly`, `stretch` |
+|**grid-column-start** |Indica en que columna empezará el ítem de la cuadrícula. |
+|**agrid-column-end**|Indica en que columna terminará el ítem de la cuadrícula.|
+|**grid-row-start**|Indica en que fila empezará el ítem de la cuadrícula.|
+|**grid-row-end**|Indica en que fila terminará el ítem de la cuadrícula.|
 
 >**Ejemplo:**
 
