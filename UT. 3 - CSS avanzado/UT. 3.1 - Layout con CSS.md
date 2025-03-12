@@ -1851,9 +1851,6 @@ hasta aqui
 ### 6.5.6. - Lineas con nombres
 https://lenguajecss.com/css/grid/grid-linenames/
 
-### 6.5.6. - gRID AREA
-https://lenguajecss.com/css/grid/grid-linenames/#atajo-utilizar-grid-area
-
 ### 6.5.6. - GRID auto flow
 https://lenguajecss.com/css/grid/grid-auto/
 
