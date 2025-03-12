@@ -92,7 +92,63 @@ Definen valores mínimos, máximos y rangos para tamaños de elementos.**
 }
 ```
 
-## 3.3. - Control de tamañox con minmax()
+## 3.3. - Control de tamaños con minmax()
+La función minmax(min, max) permite definir un rango para, por ejemplo, definir el tamaño de filas o columnas de un contenedor `grid`.
+
+    min: Tamaño mínimo que puede tener la columna o fila.
+    max: Tamaño máximo que puede alcanzar la columna o fila.
+
+---
+hasta aqui
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Grid con minmax()</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .grid-item {
+            background-color: lightblue;
+            border: 2px solid blue;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+</body>
+</html>
+
+📌 ¿Cómo funciona minmax() aquí?
+
+    minmax(200px, 1fr): Cada columna tiene al menos 200px, pero si hay más espacio disponible, se expandirá hasta llenar el ancho disponible.
+    auto-fill: Se crean tantas columnas como quepan en la pantalla.
+    Si el viewport es pequeño, las columnas se reducirán y se ajustarán automáticamente.
+
 
 ## 🔹 **4. Funciones de color en CSS**
 📌 CSS incluye funciones para manipular colores:
