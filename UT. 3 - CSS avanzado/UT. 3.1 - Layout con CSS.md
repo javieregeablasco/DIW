@@ -1495,8 +1495,69 @@ Auque es muy habitual usar la propiedad `margin` para definir la separación ent
 |**row-gap**| Separación entre **filas**|Solo se define la **separación entre filas**, no entre filas y contendor padre.|
 |**gap**| Separación entre **columnas y filas**|Sintaxis: size_columns size_rows|
 
->Ejemplo:**
+>**Ejemplo:**  
 
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaps</title>
+    <style>
+        .contenedor-sin-gutters {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            background-color: lightblue;
+            border: 1px solid rgba(0, 0, 255, 0.404);
+        }
+
+        .contenedor-con-gutters {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            background-color: lightblue;
+            border: 1px solid rgba(0, 0, 255, 0.404);
+            gap: 5px 5px;
+        }
+        .item {
+            background-color: antiquewhite;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .marging{
+            margin: 5px;            
+        }
+    </style>
+</head>
+<body>
+    <h2>Contenedor sin gutters</h2>
+      <div class="contenedor-sin-gutters">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>
+
+    <h2>Contenedor con gutters</h2>
+    <p>Como se puede ver el gap <strong>solo afecta al espacio entre celdas.</strong></p>
+    <div class="contenedor-con-gutters">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>    
+    <h2>Contenedor con gutters y margin</h2>
+    <p>Como se puede ver el margin <strong>se suma al gutter.</strong></p>
+      <div class="contenedor-con-gutters">
+        <div class="item marging">Item 1</div>
+        <div class="item marging">Item 2</div>
+        <div class="item marging">Item 3</div>
+        <div class="item marging">Item 4</div>
+    </div>    
+</body>
+</html>
+```
 
 ### 6.5.6. - 
 
