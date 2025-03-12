@@ -1832,34 +1832,7 @@ Otras propiedades que permiten personalizar la rejilla simplificando la sintaxis
   justify-content: center; 
 }
 ```
-
-### 6.5.7. - Overlapping grid items
-To prevent this we can use min-max function and specify the size on the parent element. It takes two arguments, the minimum size and the max size.
-https://www.scaler.com/topics/css/css-grid/
-     
  
----
-hasta aqui
----
- 
- 
-
-
-https://blog.soaresdev.com/guia-rapido-css-grid/
-https://lenguajecss.com/css/grid/que-es-grid/
-https://css-tricks.com/snippets/css/complete-guide-grid/
-https://www.joshwcomeau.com/css/interactive-guide-to-grid/
-https://victorroblesweb.es/2022/10/19/como-funciona-css-grid-layout/
-https://oscarmaestre.github.io/lenguajes_marcas/tema3.html#maquetacion-avanzada-con-grid-layouts
-
-https://www.youtube.com/watch?v=Fj6BGtNvXIc
-
 # 7. Tarea RA2-CEg-2
 <placa base>
 
-
-
-funciones de filtros para colores https://lenguajecss.com/css/efectos/filtros-css/  
-formas básicas  https://lenguajecss.com/css/mascaras-y-recortes/formas-basicas/  
-responsive design https://lenguajecss.com/css/responsive-web-design/que-es/  
-transformaciones https://lenguajecss.com/css/transformaciones/transform/
