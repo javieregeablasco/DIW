@@ -1829,68 +1829,19 @@ Otras propiedades que permiten personalizar la rejilla simplificando la sintaxis
   display: flex;
   align-items: center; 
   justify-content: center; 
-} 
+}
 ```
 
 ### 6.5.7. - Overlapping grid items
 To prevent this we can use min-max function and specify the size on the parent element. It takes two arguments, the minimum size and the max size.
 https://www.scaler.com/topics/css/css-grid/
      
-
-
-
-
+ 
 ---
 hasta aqui
 ---
-
-
-
-
-
-### 6.5.6. - Lineas con nombres
-https://lenguajecss.com/css/grid/grid-linenames/
-
-### 6.5.6. - GRID auto flow
-https://lenguajecss.com/css/grid/grid-auto/
-
-
-
-
-
-https://medium.com/html-all-the-things/getting-started-with-css-grid-c80f6376b04f
-
-https://www.scaler.com/topics/css/css-grid/
-
-
-Puedes colocar elementos en posiciones específicas dentro del grid con `grid-column` y `grid-row`.
-
-```css
-.item1 {
-  grid-column: 1 / 3; /* Ocupa desde la columna 1 hasta la 3 */
-  grid-row: 1 / 2;    /* Ocupa desde la fila 1 hasta la 2 */
-}
-```
-
-También puedes usar `grid-column-start` y `grid-column-end` por separado.
-
----
-
-### ✅ **`grid-auto-rows` y `grid-auto-columns`**
-Sirven para definir tamaños de filas y columnas adicionales que se generen automáticamente.
-
-```css
-.contenedor {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  grid-auto-rows: 100px;
-}
-```
-
-
-```
-
----
+ 
+ 
 
 
 https://blog.soaresdev.com/guia-rapido-css-grid/
@@ -1902,58 +1853,11 @@ https://oscarmaestre.github.io/lenguajes_marcas/tema3.html#maquetacion-avanzada-
 
 https://www.youtube.com/watch?v=Fj6BGtNvXIc
 
-
-
-
-00:09:05 Ejercicio 1: configurando grid básico
-00:14:32 Cómo definir lineas o posiciones
-00:19:30 Ejercicio 2: definir líneas o posiciones
-00:22:15 Áreas en Grid
-00:24:27 Ejercicio 3: definiendo áreas
-00:27:13 Sintaxis simplificada con grid-template
-00:31:54 Ejercicio 4: usando sintaxis simplificada
-00:36:50 Gap en Grid
-00:37:38 justify-items - Alineación horizontal de elementos
-00:40:09 align-items -Alineación vertical de elementos
-00:40:52 justify-content -Alineación horizontal de cuadrícula
-00:44:09 align-content - Alineación vertical de cuadrícula
-00:46:36 Ejercicio 5: alineación de elementos y cuadrícula
-00:52:08 Posicionar elementos en Grid
-00:55:48 Ejercicio 6: Posicionar elementos en Grid
-00:59:21 Acomodar elementos en áreas
-01:00:39 Ejercicio 7: Posicionar elementos en áreas
-01:01:57 justify-self - Acomodar cada elemento horizontalmente
-01:03:24 align-self - Acomodar cada elemento verticalmente
-01:04:04 Ejercicio 8: uso de justify-self y align-self
-
 # 7. Tarea RA2-CEg-2
 <placa base>
 
 
 
-Alineación individual: align-self
-
-Alineación secundaria (n): align-content
-
-HASTA Aqui  
-https://nachoiborraies.github.io/htmlcss/md/es/03b#33-la-propiedad-display
-
-https://www.yunbitsoftware.com/blog/2017/03/30/flexbox-css3-tutorial-descripcion-ejemplos-html/
-
-
-
-
----
-
-variables css  https://lenguajecss.com/css/variables-css/css-custom-properties/  
-
-funciones css   https://lenguajecss.com/css/funciones-css/que-son/  
-
-programacion  https://lenguajecss.com/css/logica-css/css-es-programacion/
-
-enlazar a google fonts. https://lenguajecss.com/css/cargar-tipografias/tipografias-google-fonts/  
-
- 
 funciones de filtros para colores https://lenguajecss.com/css/efectos/filtros-css/  
 formas básicas  https://lenguajecss.com/css/mascaras-y-recortes/formas-basicas/  
 responsive design https://lenguajecss.com/css/responsive-web-design/que-es/  
