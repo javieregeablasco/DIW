@@ -1728,7 +1728,7 @@ Con las propiedades `grid-column-start`, `grid-column-end`, `grid-row-start` y `
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaps</title>
+  <title>Custom Cells</title>
   <style>
     body {
       background-color: rgba(128, 128, 128, 0.232);
@@ -1844,9 +1844,6 @@ https://www.scaler.com/topics/css/css-grid/
 hasta aqui
 ---
 
-https://lenguajecss.com/css/grid/alinear-centrar-css/
-
- 
 
 
 
