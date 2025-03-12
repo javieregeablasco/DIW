@@ -1819,11 +1819,12 @@ Con las propiedades `grid-column-start`, `grid-column-end`, `grid-row-start` y `
 ![alt text](./img/customCells.png)
 
 **Nota:**
-Otras propiedades que permiten personalizar la rejilla simplificando la sintaxis: `grid-column` `row-column`.
+Otras propiedades que permiten personalizar la rejilla simplificando la sintaxis: `grid-column` y `row-column`.
 >**Ejemplo:**
 ```css
 .item3 {
   grid-column: 3 / 5;
+  grid-column: 3 / span 2; /*Otra sintaxis*/
   grid-row: 1 / 3;
   background-color: aquamarine;
   display: flex;
