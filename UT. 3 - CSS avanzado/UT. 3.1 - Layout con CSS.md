@@ -1564,7 +1564,7 @@ Controlar dónde se muestran las celdas dentro del grid se logra con **las propi
 
 La alineación y justificación son útiles cuando los elementos del grid no llenan completamente el contenedor, dejando espacios no esperados afectando negativamente a la UI/UX.  
 
-Es importante tener en cuenta que la propiedad de justificación afecta **al eje horizontal** mientras que la propiedad de alineación lo hace en el **eje vertical** (del grid).
+Es importante tener en cuenta que la propiedad de justificación afecta **al eje horizontal del grid** mientras que la propiedad de alineación lo hace en el **eje vertical**.
 
 |**Propiedad**|**Descripción**|**Valores**|
 |-------------|---------------|-----------|
@@ -1667,18 +1667,18 @@ Es importante tener en cuenta que la propiedad de justificación afecta **al eje
           <option>stretch</option>
         </select>
       </label>
-   </li>
+    </li>
   </ul>    
   <div class="container" id="gridContainer">
-      <div class="item">1</div>
-      <div class="item">2</div>
-      <div class="item">3</div>
-      <div class="item">4</div>
-      <div class="item">5</div>
-      <div class="item">6</div>
-      <div class="item">7</div>
-      <div class="item">8</div>
-      <div class="item">9</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
   </div>
   <script>
     const container = document.getElementById("gridContainer");
@@ -1687,18 +1687,35 @@ Es importante tener en cuenta que la propiedad de justificación afecta **al eje
       container.style.alignItems = document.getElementById("alignItems").value;
       container.style.justifyContent = document.getElementById("justifyContent").value;
       container.style.alignContent = document.getElementById("alignContent").value;
-    };
-    
+    };    
     document.querySelectorAll("select").forEach(select => {
       select.addEventListener("change", updateGridStyles);
-    });
-    
+    });    
     window.addEventListener("load", updateGridStyles);
   </script>
 </body>
 </html>
 ```
 
+### 6.5.7. - Orden de los elementos
+**Order** es una función que, al igual que en `flex` establece el orden de aparición de los elementos, independientemente de su ordenación dentro del documento HTML.
+
+>**Modificación (ampliación) del código del ejemplo anterior**
+```css
+  .item:nth-child(7) { order: 1; }
+  .item:nth-child(8) { order: 2; }
+  .item:nth-child(9) { order: 3; }
+```
+Con esta modificación los items 7, 8 y 9 aparecerán primero dentro del `grid` quedando de la siguiente manera:
+ 
+https://lenguajecss.com/css/grid/alinear-centrar-css/#orden-de-los-elementos
+
+
+
+
+### 6.5.7. - Overlapping grid items
+To prevent this we can use min-max function and specify the size on the parent element. It takes two arguments, the minimum size and the max size.
+https://www.scaler.com/topics/css/css-grid/
      
 
 
@@ -1708,32 +1725,11 @@ Es importante tener en cuenta que la propiedad de justificación afecta **al eje
 hasta aqui
 ---
 
-
-justify-items	start | end | center | stretch	Elementos 1️⃣
-align-items	start | end | center | stretch	Elementos 2️⃣
-justify-content	start | end | center | stretch | space-around | space-between | space-evenly	Contenido 1️⃣
-align-content	start | end | center | stretch | space-around | space-between | space-evenly	Contenido
-
-
 https://lenguajecss.com/css/grid/alinear-centrar-css/
 
-https://www.scaler.com/topics/css/css-grid/
-    auto
-    normal
-    start
-    end
-    center
-    stretch
-    baseline
-    first baseline
-    last baseline
+ 
 
-### 6.5.6. - Overlapping grid items
-To prevent this we can use min-max function and specify the size on the parent element. It takes two arguments, the minimum size and the max size.
-https://www.scaler.com/topics/css/css-grid/
 
-### 6.5.6. - Orden de los elementos
-https://lenguajecss.com/css/grid/alinear-centrar-css/#orden-de-los-elementos
 
 ### 6.5.6. - Creacion de grid layouts personalizados (irregulares)
 https://lenguajecss.com/css/grid/irregular-grid/#crear-celdas-irregulares
