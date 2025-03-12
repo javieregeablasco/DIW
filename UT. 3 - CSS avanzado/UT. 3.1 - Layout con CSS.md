@@ -1574,6 +1574,130 @@ Es importante tener en cuenta que la propiedad de justificación afecta **al eje
 | **align-content**   | Alinea verticalmente el contenido dentro del **contenedor padre**. | `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly`, `stretch` |
 
 >**Ejemplo:**  
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justify-Align</title>
+  <style>
+    body {
+      font-family: 'arial', 'Liberation Serif';
+      background-color: beige;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 80px);
+      grid-template-rows: repeat(3, 80px);
+      width: 16rem;
+      height: 16rem;
+      border: 2px solid black;
+      margin-left: 7rem;
+      background-color: #8ecfde39;
+    }
+    .item {
+      background-color: rgb(230, 183, 173);
+      border: 1px solid blue;
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+      font-weight: bold;
+    }
+    .subHeader {
+      text-decoration: underline;
+      padding-left: 1rem;
+    }
+    li {
+      padding: 0.5rem;
+    }
+    select {
+      background-color: aquamarine;
+    }
+    </style>
+</head>
+<body>
+  <h2>Alineación de las celdas dentro del grid</h2>
+  <p class="subHeader">Propiedades de justificación:</p>
+  <ul>
+    <li>
+      <label>justify-items:
+        <select id="justifyItems">
+          <option>start</option>
+          <option selected>center</option>
+          <option>end</option>
+          <option>stretch</option>
+        </select>
+      </label>
+    </li>
+    <li>
+      <label>justify-content:
+        <select id="justifyContent">
+          <option>start</option>
+          <option selected>center</option>
+          <option>end</option>
+          <option>space-between</option>
+          <option>space-around</option>
+          <option>space-evenly</option>
+        </select>
+      </label>
+    </li>
+  </ul>
+  <p class="subHeader">Propiedades de alineación:</p>
+  <ul>
+    <li>
+      <label>align-items:
+        <select id="alignItems">
+          <option>start</option>
+          <option selected>center</option>
+          <option>end</option>
+          <option>stretch</option>
+        </select>
+      </label>
+    </li>
+    <li>
+      <label>align-content:
+        <select id="alignContent">
+          <option>start</option>
+          <option selected>center</option>
+          <option>end</option>
+          <option>space-between</option>
+          <option>space-around</option>
+          <option>space-evenly</option>
+          <option>stretch</option>
+        </select>
+      </label>
+   </li>
+  </ul>    
+  <div class="container" id="gridContainer">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+  </div>
+  <script>
+    const container = document.getElementById("gridContainer");
+    const updateGridStyles = () => {
+      container.style.justifyItems = document.getElementById("justifyItems").value;
+      container.style.alignItems = document.getElementById("alignItems").value;
+      container.style.justifyContent = document.getElementById("justifyContent").value;
+      container.style.alignContent = document.getElementById("alignContent").value;
+    };
+    
+    document.querySelectorAll("select").forEach(select => {
+      select.addEventListener("change", updateGridStyles);
+    });
+    
+    window.addEventListener("load", updateGridStyles);
+  </script>
+</body>
+</html>
+```
 
      
 
