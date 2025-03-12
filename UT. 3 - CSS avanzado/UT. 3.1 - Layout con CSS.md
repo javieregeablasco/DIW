@@ -1559,7 +1559,59 @@ Auque es muy habitual usar la propiedad `margin` para definir la separación ent
 </html>
 ```
 
-### 6.5.6. - 
+### 6.5.6. - Alineación de las celdas dentro del grid
+Controlar dónde se muestran las celdas dentro del grid se logra con **las propiedades de justificación y alineación**.  
+
+La alineación y justificación son útiles cuando los elementos del grid no llenan completamente el contenedor, dejando espacios no esperados afectando negativamente a la UI/UX.  
+
+Es importante tener en cuenta que la propiedad de justificación afecta **al eje horizontal** mientras que la propiedad de alineación lo hace en el **eje vertical** (del grid).
+
+
+
+---
+hasta aqui
+---
+
+
+justify-items	start | end | center | stretch	Elementos 1️⃣
+align-items	start | end | center | stretch	Elementos 2️⃣
+justify-content	start | end | center | stretch | space-around | space-between | space-evenly	Contenido 1️⃣
+align-content	start | end | center | stretch | space-around | space-between | space-evenly	Contenido
+
+
+https://lenguajecss.com/css/grid/alinear-centrar-css/
+
+https://www.scaler.com/topics/css/css-grid/
+    auto
+    normal
+    start
+    end
+    center
+    stretch
+    baseline
+    first baseline
+    last baseline
+
+### 6.5.6. - Overlapping grid items
+To prevent this we can use min-max function and specify the size on the parent element. It takes two arguments, the minimum size and the max size.
+https://www.scaler.com/topics/css/css-grid/
+
+### 6.5.6. - Orden de los elementos
+https://lenguajecss.com/css/grid/alinear-centrar-css/#orden-de-los-elementos
+
+### 6.5.6. - Creacion de grid layouts personalizados (irregulares)
+https://lenguajecss.com/css/grid/irregular-grid/#crear-celdas-irregulares
+
+### 6.5.6. - Lineas con nombres
+https://lenguajecss.com/css/grid/grid-linenames/
+
+### 6.5.6. - gRID AREA
+https://lenguajecss.com/css/grid/grid-linenames/#atajo-utilizar-grid-area
+
+### 6.5.6. - GRID auto flow
+https://lenguajecss.com/css/grid/grid-auto/
+
+
 
 
 https://lenguajecss.com/css/grid/alinear-centrar-css/
