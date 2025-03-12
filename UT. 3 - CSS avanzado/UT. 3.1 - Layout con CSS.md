@@ -1573,6 +1573,7 @@ Es importante tener en cuenta que la propiedad de justificación afecta **al eje
 | **justify-content** | Alinea horizontalmente el contenido de los elementos **dentro del contenedor padre**. | `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly` |
 | **align-content**   | Alinea verticalmente el contenido dentro del **contenedor padre**. | `start`, `end`, `center`, `space-between`, `space-around`, `space-evenly`, `stretch` |
 
+>**Ejemplo:**  
 
      
 
