@@ -5,7 +5,7 @@ Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
-# 1. - Introducción
+# 1. Introducción
 En el desarrollo web moderno, garantizar una experiencia de usuario óptima en una amplia variedad de **dispositivos** es esencial. Para lograrlo, se emplean dos enfoques principales: **diseño responsive** y **diseño adaptativo**. 
 ![alt text](./img/ResponsiveAdaptative.png.png) 
 
@@ -15,9 +15,8 @@ Por otro lado, el **diseño adaptativo** se fundamenta en la creación de **vari
 
 Ambos enfoques tienen sus ventajas y desventajas. Mientras que el diseño responsive ofrece mayor **flexibilidad y mantenimiento más sencillo**, el diseño adaptativo permite un **mayor control sobre la experiencia de usuario en cada dispositivo**. La elección entre uno u otro dependerá de factores como el tipo de contenido, el público objetivo y los recursos disponibles para el desarrollo.
 
-# 2. - Responsive design
+# 2. Responsive design
 ## 2.1. - Pros del diseño responsive  
-
 - Elimina la necesidad de desarrollar diferentes diseños para cada dispositivo de visualización.   
 - Los sitios web responsivos redimensionan imágenes, contenido, formas y botones para maximizar el espacio en pantalla. Esto hace que el contenido sea fácil de visualizar, que las imágenes se ajusten al tamaño de la pantalla y que los botones sean fácilmente seleccionables.  
 - Un diseño responsive se adapta fácilmente a los estándares web modernos.  
@@ -28,37 +27,37 @@ Ambos enfoques tienen sus ventajas y desventajas. Mientras que el diseño respon
 - Las páginas web responsivas pueden tardar más en cargarse (lo que penaliza el **SEO**).  
 - Dado que el sitio **se organiza verticalmente** para ajustarse al espacio reducido de la pantalla, el usuario puede pasar por alto elementos esenciales de la página debido al **scrolling excesivo**.
 
-# 3. - Adaptative design
+# 3. Adaptative design
 ## 3.1. - Pros del diseño adaptativo
 - **Carga de página más rápida**. Los contenidos se ajustan para mostrar solo las características necesarias para cada dispositivo y optimizar todo el contenido según el tamaño y la resolución de la pantalla.  
 - **Interfaz optimizada para cada tamaño de dispositivo**. El diseño adaptativo permite **personalizar el contenido y su distribución** para mejorar la experiencia de usuario. Esto permite mostrar un diseño específico para cada tipo de dispositivo, a diferencia del diseño responsive, donde se mantiene el mismo diseño para todos.  
 - **Mejor experiencia para una audiencia más amplia**. No todos los usuarios tienen dispositivos modernos capaces de ejecutar o interpretar el código complejo y las propiedades CSS avanzadas de un diseño responsive, lo que puede afectar negativamente la experiencia de usuario.   
 
 ## 3.2. - Contras del diseño adaptativo  
+- **Mayor esfuerzo de desarrollo**. El diseño adaptativo implica **trabajo repetitivo** ya que implica, tantos diseños como dispositivos.  
+- **Requiere desarrolladores especializados** al necesitar un buen conocimiento de los distintos dispositivos. 
 
-HASTA AQUI
+# 4. Grid y flexbox en el diseño responsive y adaptativo  
+En el desarrollo web moderno, **CSS Grid** y **Flexbox** son herramientas fundamentales para la creación de diseños responsivos y adaptativos. Ambos modelos de diseño en CSS facilitan la disposición de los elementos en una página web, permitiendo que la interfaz se ajuste dinámicamente a distintos dispositivos y resoluciones de pantalla.  
 
-- **Mayor esfuerzo de desarrollo** – Muchos diseñadores evitan el diseño adaptativo porque implica **trabajo repetitivo**. Mientras que en el diseño responsive solo se necesita un conjunto de HTML y CSS que se adapta a diferentes tamaños de pantalla, en el diseño adaptativo es necesario escribir **diferentes códigos para distintos dispositivos**, lo que requiere más tiempo y esfuerzo.  
-- **Requiere desarrolladores especializados** – El diseño web adaptativo suele necesitar un equipo de desarrolladores con experiencia para manejar la complejidad de distintos dispositivos. Se deben crear y ajustar múltiples diseños para distintos viewports con el fin de ofrecer la mejor interfaz en cada caso. Esto puede ser una **desventaja para pequeñas empresas con recursos limitados**.
+El **diseño responsive**, que busca una adaptación fluida de la interfaz sin necesidad de versiones específicas, se beneficia enormemente de **Flexbox y Grid**. **Flexbox** es ideal para la alineación y distribución de elementos en una sola dimensión (filas o columnas), mientras que **Grid** permite diseñar estructuras más complejas en dos dimensiones, proporcionando un control avanzado sobre el espaciado y la distribución de los componentes. Gracias a estas herramientas, los elementos pueden reorganizarse automáticamente según el tamaño del viewport, sin necesidad de cambios manuales.  
 
+Por otro lado, el **diseño adaptativo**, que se basa en versiones predefinidas de la misma página según el dispositivo, también puede aprovechar **Flexbox y Grid** para ajustar los elementos de cada diseño específico. En este enfoque, Grid facilita la creación de layouts personalizados para cada versión de la página, mientras que Flexbox permite una distribución eficiente dentro de cada sección de la interfaz.  
 
+Para hacer que estos diseños sean verdaderamente efectivos, es necesario complementar Grid y Flexbox con **media queries**.  
 
-
-https://www.xenonstack.com/insights/adaptive-design-vs-responsive-design
-https://www.geeksforgeeks.org/difference-between-responsive-design-and-adaptive-design/
-  https://medium.com/theymakedesign/responsive-vs-adaptive-web-design-1da9e5398669
-  https://www.idento.es/blog/desarrollo-web/diseno-responsive-vs-adaptive-cual-es-mejor/
-
+# 5. Media queries  
+Las **media queries** permiten aplicar estilos diferentes según el tamaño del dispositivo o las características de la pantalla. Gracias a ellas, se pueden definir puntos de quiebre (**breakpoints**) que ajustan el diseño de la página para mejorar la experiencia del usuario en distintos dispositivos. En combinación con **Grid y Flexbox**, las media queries permiten crear **layouts flexibles y adaptativos**, asegurando que la interfaz se vea bien en cualquier pantalla, desde móviles hasta monitores de gran tamaño.
 
 
-poner el minmax de grid
+  
+HASTA AQUI  
 
 https://blog.soaresdev.com/guia-rapido-css-grid/
 https://lenguajecss.com/css/grid/que-es-grid/
-https://css-tricks.com/snippets/css/complete-guide-grid/
-https://www.joshwcomeau.com/css/interactive-guide-to-grid/
+
 https://victorroblesweb.es/2022/10/19/como-funciona-css-grid-layout/
-https://oscarmaestre.github.io/lenguajes_marcas/tema3.html#maquetacion-avanzada-con-grid-layouts
+
 
 https://www.youtube.com/watch?v=Fj6BGtNvXIc
 
