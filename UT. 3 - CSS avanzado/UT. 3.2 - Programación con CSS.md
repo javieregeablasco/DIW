@@ -179,30 +179,29 @@ Desde los primeros pasos de programación en `HTML + CSS`, llevamos utilizando e
 }
 ```
 
----
+### 3.4.5. - Funciones de transformación
+Aunque lasveremos mas extensivamente dentro de la unidad sobre animaciones, existen funciones de CSS que permiten manipular, por ejemplo, el tamaño, la posición y la rotación de elementos.
 
-## 🔹 **5. Funciones de transformación**
-📌 Manipulan el tamaño, posición y rotación de elementos.
-
-### ✅ **Ejemplo con `translate()`, `rotate()`, `scale()`**
+>**Ejemplos con `translate()`, `rotate()`, `scale()`**
 ```css
 .caja {
   transform: translate(20px, 30px) rotate(15deg) scale(1.2);
 }
 ```
 
----
+### 3.4.6. - Funciones de filtros (`filter()`)**
+Permiten aplicar efectos visuales como desenfoques, contrastes y escalas de grises.
 
-## 🔹 **6. Funciones de filtros (`filter()`)**
-📌 Aplican efectos visuales como desenfoques, contrastes y escalas de grises.
-
-### ✅ **Ejemplo de filtros en imágenes**
+>**Ejemplo de filtros en imágenes**
 ```css
 .imagen {
   filter: grayscale(50%) brightness(120%);
 }
 ```
 
+
+---
+HASTA aqui
 ---
 
 
