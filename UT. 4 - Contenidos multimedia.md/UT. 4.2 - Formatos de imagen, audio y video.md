@@ -17,7 +17,7 @@ Este apartado se dividirá entre las imágenes rasterizadas y las imagenes vecto
 -  Los **formatos de imagen rasterizados** (JPEG, PNG, WebP, ...) están compuestos por una matriz de píxeles, donde cada píxel tiene un color específico. Son ideales para fotografías y gráficos complejos con muchos detalles, pero pierden calidad cuando se amplían, ya que la resolución es fija.  
 -  Los **formatos de imagen vectoriales** (SVG) están formados por fórmulas matemáticas que definen formas, líneas y colores. Son escalables sin pérdida de calidad, lo que los hace perfectos para logotipos, iconos y gráficos simples.
 
-## 2.1. - Formatos de imagenes rasterizados
+## 2.1. - Formatos de imagenes rasterizadas
 ### 2.1.1. - Formato de imagen JPG y JPEG  
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/JPEG_format_logo.svg/250px-JPEG_format_logo.svg.png" width=10%>  
 
@@ -33,7 +33,7 @@ El formato JPEG (Joint Photographic Experts Group) es un formato de imagen muy c
 ---
 
 ### 2.1.2. - Formato de imagen PNG  
-<img src="https://cdn.icon-icons.com/icons2/2063/PNG/512/format_extension_png_page_file_icon_124654.png" width=13%>  
+<img src="https://cdn.icon-icons.com/icons2/2063/PNG/512/format_extension_png_page_file_icon_124654.png" width=11%>  
 
 El formato PNG (Portable Network Graphics) destaca por la posibilidad de comprimir imágenes **sin pérdidas** y de ofrecer una profundidad de color de hasta 24 bits por píxel. Con el formato PNG **no se pueden generar animaciones**.    
 
@@ -52,17 +52,18 @@ A causa del proceso de compresión sin pérdidas, los archivos son relativamente
 - **Fotos sin pérdidas.**
 ---   
 ### 2.1.3. - Formato de imagen BMP  
-<img src="https://cdn.icon-icons.com/icons2/265/PNG/512/BMP_29699.png" width=15%>  
+<img src="https://cdn.icon-icons.com/icons2/265/PNG/512/BMP_29699.png" width=10%>  
   
 El formato BMP (Windows bitmap), inicialmente desarrollado para **sistemas operativos Microsoft e IBM** es un formato de almacenamiento para mapas de bits con una profundidad de color de hasta 24 bits por píxel.  
 
 El formato de imagen **sin comprimir** asigna a cada píxel un valor cromático, por lo que los archivos suelen ser muy grandes, motivo por el que el formato **no es adecuado** para su uso en páginas web.
 
->**Aplicación recomendada:** Almacenamiento de fotos/gráficos en el ámbito offline. 
+>**Casos típicos de uso de imágenes en formato BMP:** 
+- Almacenamiento de fotos/gráficos en el ámbito offline. 
 ---
 
 ### 2.1.4. - Formato de imagen GIF  
-<img src="https://cdn.icon-icons.com/icons2/265/PNG/512/GIF_29666.png" width=15%>  
+<img src="https://cdn.icon-icons.com/icons2/265/PNG/512/GIF_29666.png" width=10%>  
 
 El formato GIF (Graphics Interchange Format) es una trama que utiliza la compresión sin pérdidas de calidad para imágenes de hasta 256 colores.  
 
@@ -82,7 +83,7 @@ A pesar de su limitada calidad de imagen, mucha gente utiliza el GIF porque perm
 ---
 
 ### 2.1.5. - Formato de imagen HEIF  
-<img src="./img/heif.png" width=25%>  
+<img src="./img/heif.png" width=11%>  
 
 El formato HEIF (High Efficiency Image Format) no es ampliamente utilizado en la web, aunque tiene potencial debido a su eficiencia en la compresión de imágenes (mayor calidad y menor tamaño que JPEG).  
 
@@ -107,20 +108,22 @@ Como **principal inconveniente** el formato WEBP no es compatible con todos los 
 
 ## 2.2. - Formatos de imagenes vectoriales
 ### 2.2.1. - Formato SVG
-<img src="https://cdn.icon-icons.com/icons2/1098/PNG/512/1485481342-5_78632.png" width=15%>  
+<img src="https://cdn.icon-icons.com/icons2/1098/PNG/512/1485481342-5_78632.png" width=11%>  
 
 El formato SVG (Scalable Vector Graphics) es un formato de imagen vectorial basado en XML que soporta transparencia y animaciones. Esto permite que las imágenes sean escalables sin perder calidad haciendolas ideales para gráficos e iconos de alta calidad en diferentes tamaños y resoluciones.
 
--  **Casos típicos de uso de imágenes en formato SVG:**  
+>**Casos típicos de uso de imágenes en formato SVG:**  
   
-    **Logotipos y marcas.**
+- **Logotipos y marcas.**
    
-    **Iconos y elementos gráficos.** (botones, ...)
+- **Iconos y elementos gráficos.** (botones, ...)
    
-    **Animaciones.** Los SVG permiten animaciones interactivas utilizando CSS o JavaScript.
+- **Animaciones.** Los SVG permiten animaciones interactivas utilizando CSS o JavaScript.
+
 ---
+
 ### 2.2.2 - Formato EPS
-<img src="https://cdn.icon-icons.com/icons2/265/PNG/512/EPS_29667.png" width=13%>  
+<img src="https://cdn.icon-icons.com/icons2/265/PNG/512/EPS_29667.png" width=10%>  
 
 El formato EPS (Encapsulated PostScript) se utiliza para guardar ilustraciones o trabajos de diseño gráfico en programas de ilustración como Adobe Illustrator y CorelDraw.  
 
@@ -129,8 +132,9 @@ Utilizado principalmente en gráficos profesionales es útil para crear imágene
 Aunque se pueda encontrar, no es muy común en la web y generalmente se convierte a SVG o PNG para su visualización.
 
 ---
+
 ### 2.2.3 - Formato PDF
-<img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_pdf_icon_130274.png" width=18%>  
+<img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_pdf_icon_130274.png" width=13%>  
 
 El formato PDF (Portable Document Format) es muy familiar como formato de documento, pero también puede utilizarse para guardar imágenes e ilustraciones.  
 
@@ -141,7 +145,7 @@ También es la mejor opción para los informes visuales interactivos o las infog
 También es posible incluir elementos interactivos en un PDF, por ejemplo, enlaces y botones CTA.
 
 ---
-## 2.3 - Tabla resumen / comprativa de los 4 formatos de imágenes mas populares.
+## 2.3 - Tabla resumen / comprativa de los 4 formatos de imágenes más populares.
 
 | Característica         | JPG                                     | PNG                                                         | GIF                      | SVG                                          |
 |------------------------|-----------------------------------------|--------------------------------------------------------------|--------------------------|----------------------------------------------|
