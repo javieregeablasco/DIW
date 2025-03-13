@@ -178,9 +178,48 @@ Desde los primeros pasos de programación en `HTML + CSS`, llevamos utilizando e
   color: hsl(335, 61.10%, 7.10%); /* Azul puro */
 }
 ```
+>**Ejemplo 1 de uso simple de la funcion brillo**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funciones sobre colores</title>
+  <style>
+    :root {
+    --color-primario: red;    
+    --color-texto: blanchedalmond;
+    }
+    .conFiltro, .sinFiltro {
+      color: var(--color-texto);
+      background-color: var(--color-primario);
+    }
+    .conFiltro {
+      filter: brightness(0.5);
+    }     
+  </style>
+</head>
+<body>
+  <article>
+    <span class="sinFiltro">Texto al que no se le ajusta  el brillo</span>
+    <br><br>
+    <span class="conFiltro">Texto al que se le ajusta el brillo</span>
+  </article>  
+</body>
+</html>
+```
+
+>**Ejemplo 2 de uso simple de la funcion de saturación**
+En este caso la saturación se ajusta (en tiempo real) al ancho del documento.
+```html
+
+```
+
+
 
 ### 3.4.5. - Funciones de transformación
-Aunque lasveremos mas extensivamente dentro de la unidad sobre animaciones, existen funciones de CSS que permiten manipular, por ejemplo, el tamaño, la posición y la rotación de elementos.
+Aunque las veremos mas extensivamente dentro de la unidad sobre animaciones, existen funciones de CSS que permiten manipular, por ejemplo, el tamaño, la posición y la rotación de los elementos.
 
 >**Ejemplos con `translate()`, `rotate()`, `scale()`**
 ```css
