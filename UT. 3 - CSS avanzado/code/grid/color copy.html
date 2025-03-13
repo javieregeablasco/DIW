@@ -11,8 +11,11 @@
         }
 
         .conFiltro, .sinFiltro {
+          display: block;
+          width: 25rem;
             color: var(--color-texto);
             background-color: var(--color-primario);
+            margin: 2rem;
             padding: 20px;
             text-align: center;
             font-weight: bold;
@@ -27,7 +30,6 @@
 <body>
   <article>
     <span class="sinFiltro">Texto al que no se le ajusta el brillo</span>
-    <br><br><br>
     <span class="conFiltro">Texto al que se le ajusta el brillo</span>
   </article>
 
@@ -38,7 +40,7 @@
         const viewportWidth = window.innerWidth;  // Usamos innerWidth en vez de visualViewport.width
 
         // Realizar el cálculo para el brillo, 1 + 0.1 * (100vw / 1000)
-        const brilloTiempoReal = 0.75 + 0.2 * (viewportWidth/1000);
+        const brilloTiempoReal = 0.75 + (viewportWidth/100);
 
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
