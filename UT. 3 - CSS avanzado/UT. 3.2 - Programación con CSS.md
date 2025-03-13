@@ -102,48 +102,62 @@ La función `minmax(min, max)` permite definir un rango entre los 2 valores que 
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo Grid con minmax()</title>
-    <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-            gap: 15px;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-
-        .grid-item {
-            background-color: lightblue;
-            border: 2px solid blue;
-            padding: 20px;
-            text-align: center;
-            font-size: 18px;
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo Grid con minmax()</title>
+  <style>
+    .grid-container {
+      display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 15px;
+        padding: 20px;
+        background-color: #f5f5f5;
+    }
+    .grid-item {
+      background-color: lightblue;
+      border: 2px solid blue;
+      padding: 20px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+  </div>
+  <p id="info"></p>
+		
 
-    <div class="grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-    </div>
+  <script>
+	  function updateGridInfo() {
+      const grid = document.querySelector('.grid-container');
+      const styles = getComputedStyle(grid);
+        document.getElementById('info').textContent = 
+        "Contenido de grid-template-columns: " + styles.getPropertyValue('grid-template-columns');
+    }
 
+    // Actualizar al cargar la página
+    updateGridInfo();
+
+    // Actualizar cada vez que se redimensione la ventana
+    window.addEventListener('resize', updateGridInfo);			
+  </script>
 </body>
 </html>
 ```
 
 >**Explicación de la utilidad de minmax():**
 - `minmax(200px, 1fr)`: Cada columna tiene al menos 200px, pero si hay más espacio disponible, se expandirá hasta llenar el ancho disponible.
-- `auto-fill:` Se crean tantas columnas como quepan en la pantalla.
+- `auto-fill:` Se crean tantas columnas como quepan en la pantalla **aunque no todas se representen**.
 
 ## 🔹 **4. Funciones de color en CSS**
 📌 CSS incluye funciones para manipular colores:
