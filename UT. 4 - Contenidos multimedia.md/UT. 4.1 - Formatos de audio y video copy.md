@@ -146,7 +146,8 @@ El objetivo fundamental de esos recursos es garantizar el cumplimiento de las no
 :five: **Free Music Archive:** Repositorio de música libre que ofrece una amplia variedad de pistas bajo diferentes tipos de licencias, incluidas las licencias Creative Commons. Permite a los usuarios descargar música de manera gratuita y legal para su uso en **proyectos personales y comerciales, dependiendo de los términos de cada licencia**.
         
    
-# 7. Tarea RA3-CEa - Licencias y derechos de autor en el uso de material multimedia.
-1 - Visualizar esta <a href="https://www.istockphoto.com/es/foto/amor-composici%C3%B3n-foto-de-estudio-gm508139730-85082625">imagen</a> y comentar qué tipo de licencia de uso tiene.  
-2 - Buscar en google una imagen que se pueda usar bajo **licencias CC**. Explicar brevemente las limitaciones **CC** de la imagen encontrada.  
-3 - Responder a las preguntas tipo test del documento adjuntado en aules.  
+# 7. Tarea RA3-CEa
+**Licencias y derechos de autor en el uso de material multimedia.**  
+:one: - Visualizar esta <a href="https://www.istockphoto.com/es/foto/amor-composici%C3%B3n-foto-de-estudio-gm508139730-85082625">imagen</a> y comentar qué tipo de licencia de uso tiene.  
+:two: - Buscar en google una imagen que se pueda usar bajo **licencias CC**. Explicar brevemente las limitaciones **CC** de la imagen encontrada.  
+:three: - Responder a las preguntas tipo test del documento adjuntado en aules.  
