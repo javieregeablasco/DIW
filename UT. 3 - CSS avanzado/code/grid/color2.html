@@ -37,30 +37,17 @@
     function updateBrillo() {
         // ancho del viewport
         const viewportWidth = window.innerWidth;  
-        let erre=25;
-        let ge=25;
-        let be=25;
         // cálculo de la opacidad
       //  const opacidad = 0.6 * viewportWidth /1750;
         const opacidad = Math.min(255, 255* viewportWidth /1750);
-        if (opacidad<80) {
-          erre = opacidad;        
-        }
-        if (opacidad<160) {
-          ge = opacidad;          
-        }
-        else {
-          be = opacidad;
-        }
           
               
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
    //     conFiltro.style.filter = `opacity(${opacidad})`;
-        conFiltro.style.backgroundColor = `rgba(${erre},${ge},${be})`;
-        console.log('valor R='+erre);
-        console.log('valor G'+ge);
-        console.log('valor B'+be);
+        conFiltro.style.backgroundColor = `rgba(0,0,255,${opacidad})`;
+        console.log('valor R='+opacidad);
+  
     }
 
     // Actualizar al cargar la página
