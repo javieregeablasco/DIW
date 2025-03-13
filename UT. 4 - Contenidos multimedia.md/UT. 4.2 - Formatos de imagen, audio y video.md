@@ -33,7 +33,7 @@ El formato JPEG (Joint Photographic Experts Group) es un formato de imagen muy c
 ---
 
 ### 2.1.2. - Formato de imagen PNG  
-<img src="https://cdn.icon-icons.com/icons2/2063/PNG/512/format_extension_png_page_file_icon_124654.png" width=18%>  
+<img src="https://cdn.icon-icons.com/icons2/2063/PNG/512/format_extension_png_page_file_icon_124654.png" width=13%>  
 
 El formato PNG (Portable Network Graphics) destaca por la posibilidad de comprimir imágenes **sin pérdidas** y de ofrecer una profundidad de color de hasta 24 bits por píxel. Con el formato PNG **no se pueden generar animaciones**.    
 
