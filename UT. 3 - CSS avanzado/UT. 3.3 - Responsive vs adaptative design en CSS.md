@@ -49,8 +49,9 @@ Para hacer que estos diseños sean verdaderamente efectivos, es necesario comple
 # 5. Media queries  
 Las **media queries** permiten aplicar estilos diferentes según el tamaño del dispositivo o las características de la pantalla. Gracias a ellas, se pueden definir puntos de quiebre (**breakpoints**) que ajustan el diseño de la página para mejorar la experiencia del usuario en distintos dispositivos. En combinación con **Grid y Flexbox**, las media queries permiten crear **layouts flexibles y adaptativos**, asegurando que la interfaz se vea bien en cualquier pantalla, desde móviles hasta monitores de gran tamaño.
 
+# 5.1. - Puntos de quiebre.
 
-  
+
 HASTA AQUI  
 
 https://blog.soaresdev.com/guia-rapido-css-grid/
