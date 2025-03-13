@@ -6,7 +6,8 @@ Palabras clave: DAW, DIW
 ---
 
 # 1. - Introducción
-En el desarrollo web moderno, garantizar una experiencia de usuario óptima en una amplia variedad de **dispositivos** es esencial. Para lograrlo, se emplean dos enfoques principales: **diseño responsive** y **diseño adaptativo**.  
+En el desarrollo web moderno, garantizar una experiencia de usuario óptima en una amplia variedad de **dispositivos** es esencial. Para lograrlo, se emplean dos enfoques principales: **diseño responsive** y **diseño adaptativo**. 
+![alt text](./img/ResponsiveAdaptative.png.png) 
 
 El **diseño responsive** (o diseño responsivo) se basa en el uso de **CSS flexible** para que una misma estructura de página se adapte dinámicamente al tamaño de pantalla del usuario. Utiliza técnicas como **media queries, flexbox y grid** para reorganizar y escalar los elementos de la interfaz sin necesidad de versiones específicas para cada dispositivo.  
 
@@ -14,6 +15,7 @@ Por otro lado, el **diseño adaptativo** se fundamenta en la creación de **vari
 
 Ambos enfoques tienen sus ventajas y desventajas. Mientras que el diseño responsive ofrece mayor **flexibilidad y mantenimiento más sencillo**, el diseño adaptativo permite un **mayor control sobre la experiencia de usuario en cada dispositivo**. La elección entre uno u otro dependerá de factores como el tipo de contenido, el público objetivo y los recursos disponibles para el desarrollo.
 
+# 2. - Responsive design
 
 
 https://www.xenonstack.com/insights/adaptive-design-vs-responsive-design
