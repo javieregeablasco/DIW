@@ -108,7 +108,7 @@ La función `minmax(min, max)` permite definir un rango entre los 2 valores que 
     <style>
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
             gap: 15px;
             padding: 20px;
             background-color: #f5f5f5;
@@ -142,10 +142,8 @@ La función `minmax(min, max)` permite definir un rango entre los 2 valores que 
 ```
 
 >**Explicación de la utilidad de minmax():**
-`minmax(200px, 1fr)`: Cada columna tiene al menos 200px, pero si hay más espacio disponible, se expandirá hasta llenar el ancho disponible.
-    auto-fill: Se crean tantas columnas como quepan en la pantalla.
-    Si el viewport es pequeño, las columnas se reducirán y se ajustarán automáticamente.
-
+- `minmax(200px, 1fr)`: Cada columna tiene al menos 200px, pero si hay más espacio disponible, se expandirá hasta llenar el ancho disponible.
+- `auto-fill:` Se crean tantas columnas como quepan en la pantalla.
 
 ## 🔹 **4. Funciones de color en CSS**
 📌 CSS incluye funciones para manipular colores:
