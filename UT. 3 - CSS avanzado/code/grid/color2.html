@@ -42,8 +42,8 @@
       const opacidad = 256*0.6 * viewportWidth /1750;
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
-        conFiltro.style.filter = `opacity(${opacidad})`;
-   //     conFiltro.style.filter = `rgb(${opacidad},${opacidad},${opacidad})`;
+   //     conFiltro.style.filter = `opacity(${opacidad})`;
+        conFiltro.style.filter = `rgb(${opacidad} ${opacidad} ${opacidad})`;
         console.log('color='+conFiltro.style.filter)
     }
 
