@@ -49,7 +49,7 @@ const grid = document.querySelector('.grid-container');
         const grid = document.querySelector('.grid-container');
         const styles = getComputedStyle(grid);
           document.getElementById('info').textContent = 
-          "grid-template-columns: " + styles.getPropertyValue('grid-template-columns').split(/\s+/);
+          "grid-template-columns: " + styles.getPropertyValue('grid-template-columns');
         }
 
       // Actualizar al cargar la página
