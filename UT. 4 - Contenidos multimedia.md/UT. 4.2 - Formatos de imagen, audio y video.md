@@ -1,153 +1,312 @@
 ---
-Título: UD. 4.1 - Derechos de autor y propiedad intelectual en el uso de material multimedia
+Título: UD. 4.2 - Formatos de imagen, audio y vídeo.
 Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
 # 1. Introducción
-El objetivo general de esta unidad es reconocer las implicaciones legales, éticas y profesionales del uso de material multimedia sujeto a licencias y derechos de autor y aplicar las mejores prácticas para respetarlas.
+La gran popularidad de internet reside en el uso de contenidos multimedia, como imagenes, audios y videos. De hecho, se ha demostrado que estos contribuyen ampliamente a mejorar la experiencia del usuario (UX).  
 
-# 2. Derechos del autor y propiedad intelectual
-  - Los **derechos de autor** son un conjunto de normas legales que otorgan al creador de una obra original (incluidos videos, imágenes, música y texto) el control exclusivo sobre su uso y distribución.  
-  Estos derechos permiten que el autor o titular decida cómo se puede utilizar, reproducir, modificar o distribuir su obra, ya sea texto, música, arte, películas, software u otros tipos de obras creativas.
-  - La **propiedad intelectual** es un conjunto de derechos que protege las creaciones, como inventos, obras literarias y artísticas, símbolos y diseños. Su objetivo es asegurar que los creadores puedan controlar el uso de sus obras y recibir reconocimiento o compensación por su trabajo.  
-  - La principal diferencia que existe entre **derechos de autor** y **propiedad intelectual** es que todos los derechos de autor son parte de la propiedad intelectual, pero no toda la propiedad intelectual se limita a derechos de autor.
+No obstante, el uso o abuso de contenidos multimedia en una página web puede presentar diversos problemas como, por ejemplo, ralentizar la carga de la misma, presentar problemas de compatibilidad, etc. Por ese motivo es importante identificar correctamente los formatos adecuados para optimizar la carga, calidad y compatibilidad entre diferentes navegadores y dispositivos.
 
-**Ejemplo de diferencias entre propiedad intelectual y derechos de autor.**  
-  - **Derechos de autor**: Un autor escribe una novela. Los derechos de autor protegen su obra, permitiéndole decidir quién puede publicarla, reproducirla o adaptarla a otros formatos (como hacer una película basada en el libro).  
-  - **Propiedad intelectual**: Ese mismo autor inventa un nuevo tipo de libro electrónico que permite leer en tres dimensiones. Para proteger esa invención, solicita una **patente**. En este caso, **la patente sería un tipo de propiedad intelectual**, distinta de los derechos de autor que protegen la novela en sí.  
-  - **Conclusión** Los derechos de autor protegen las obras literarias, mientras que la propiedad intelectual incluye también patentes, marcas y otros tipos de protección.  
+# 2. Formatos de Imagen
+En las interfaces web, las imágenes son un componente visual clave. Disponemos de muchos formatos, cada uno tiene sus propias características en términos de calidad, vistosidad y tamaño.  
 
-**En el caso que nos afecta las creaciones multimedia están protegidas por los de derechos de autor, así que nos centraremos en ellas.**    
+Este apartado se dividirá entre las imágenes rasterizadas y las imagenes vectoriales. 
+-  Los **formatos de imagen rasterizados** (JPEG, PNG, WebP, ...) están compuestos por una matriz de píxeles, donde cada píxel tiene un color específico. Son ideales para fotografías y gráficos complejos con muchos detalles, pero pierden calidad cuando se amplían, ya que la resolución es fija.  
+-  Los **formatos de imagen vectoriales** (SVG) están formados por fórmulas matemáticas que definen formas, líneas y colores. Son escalables sin pérdida de calidad, lo que los hace perfectos para logotipos, iconos y gráficos simples.
+
+## 2.1. - Formatos de imagenes rasterizados
+### 2.1.1. - Formato de imagen JPG y JPEG  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/JPEG_format_logo.svg/250px-JPEG_format_logo.svg.png" width=10%>  
+
+El formato JPEG (Joint Photographic Experts Group) es un formato de imagen muy común debido a su eficiencia en la compresión de imágenes fotográficas. Utiliza compresión **con pérdida**, al reducir el tamaño del archivo eliminando información de la imagen que el ojo humano no puede percibir fácilmente. 
   
-## 2.1. - Protección automática 
-   Los derechos de autor se otorgan automáticamente al creador desde el momento en que la obra es creada y fijada en un medio tangible (soporte digital, papel o almacenada de alguna manera).
+>**Casos típicos de uso de imágenes en formato JPG JPEG:**
+  
+- **Imágenes de contenido:** Ya sea para el blog, páginas web o nuestras redes sociales.
 
-## 2.2 - Derechos exclusivos del autor
-Los derechos exclusivos son aquellos que permiten a su titular autorizar o prohibir los actos de explotación de su obra o prestación protegida por el usuario, y a exigir de este una retribución a cambio de la autorización que le conceda.   
-Los derechos exlusivos del autor se pueden describir de la siguiente manera:
-   - **Reproducción:** Solo el titular puede reproducir la obra o autorizar su copia.
-   - **Distribución:** Control sobre la distribución de copias de la obra.
-   - **Comunicación pública:** El derecho de presentar la obra al público (ej. en conciertos, cines, exposiciones).
-   - **Transformación:** Modificación de la obra, como adaptaciones o traducciones.
+- **Imágenes de producto:** Siempre que los mismos **no requieran de fondo transparente**.
+
+- **Imágenes de fondo:** Al permitir una buena optimización su uso es típico en fondos y efectos decorativos.  
+---
+
+### 2.1.2. - Formato de imagen PNG  
+<img src="https://cdn.icon-icons.com/icons2/2063/PNG/512/format_extension_png_page_file_icon_124654.png" width=18%>  
+
+El formato PNG (Portable Network Graphics) destaca por la posibilidad de comprimir imágenes **sin pérdidas** y de ofrecer una profundidad de color de hasta 24 bits por píxel. Con el formato PNG **no se pueden generar animaciones**.    
+
+El formato PNG soporta tanto la transparencia como la semitransparencia (gracias al canal alfa integrado).    
+
+Los mecanismos de corrección del color y del brillo garantizan que los archivos de imagen en formato PNG tengan más o menos la misma apariencia en los diferentes sistemas.    
+
+A causa del proceso de compresión sin pérdidas, los archivos son relativamente grandes, de modo que el formato no resulta tan adecuado para la presentación de fotografías.    
+  
+>**Casos típicos de uso de imágenes en formato PNG:**  
+  
+- **Almacenamiento y publicación** de imágenes y gráficos pequeños (logotipos, iconos, barras, etc.).
    
-## 2.3 - Duración 
-   Los derechos de autor suelen durar toda la vida del autor más un período adicional, que varía según el país (en muchos casos, 70 años después de la muerte del creador). 
-   Tras este período, la obra pasa a ser de dominio público.
-   En el caso de propiedad intelectual protegida por patente, la duración máxima de la patente es de 20 años. 
+- **Gráficos con transparencia.**
+   
+- **Fotos sin pérdidas.**
+---   
+### 2.1.3. - Formato de imagen BMP  
+<img src="https://cdn.icon-icons.com/icons2/265/PNG/512/BMP_29699.png" width=15%>  
+  
+El formato BMP (Windows bitmap), inicialmente desarrollado para **sistemas operativos Microsoft e IBM** es un formato de almacenamiento para mapas de bits con una profundidad de color de hasta 24 bits por píxel.  
 
-## 2.4 - Cesión y licencias 
-   El autor puede vender, ceder o conceder licencias para que otros utilicen su obra bajo ciertas condiciones, como en el caso de las licencias de software o las licencias Creative Commons.
+El formato de imagen **sin comprimir** asigna a cada píxel un valor cromático, por lo que los archivos suelen ser muy grandes, motivo por el que el formato **no es adecuado** para su uso en páginas web.
 
-## 2.5 - Infracción de derechos de autor 
-   El uso de una obra sin permiso puede constituir una violación de los derechos de autor, lo que puede conllevar sanciones legales.
+>**Aplicación recomendada:** Almacenamiento de fotos/gráficos en el ámbito offline. 
+---
 
-## 2.6 - Legislación y enlaces:
-  <a href="https://administracion.gob.es/pag_Home/Tu-espacio-europeo/derechos-obligaciones/empresas/inicio-gestion-cierre/derechos/propiedad-intelectual.html">Propiedad intelectual</a>.  
-  <a href="https://www.boe.es/buscar/pdf/2023/BOE-A-2023-16215-consolidado.pdf">Real Decreto 611/2023, de 11 de julio, por el que se aprueba el Reglamento del Registro de la Propiedad Intelectual</a>.
+### 2.1.4. - Formato de imagen GIF  
+<img src="https://cdn.icon-icons.com/icons2/265/PNG/512/GIF_29666.png" width=15%>  
 
+El formato GIF (Graphics Interchange Format) es una trama que utiliza la compresión sin pérdidas de calidad para imágenes de hasta 256 colores.  
 
-# 3. Tipos de licencias
+Por ese motivo, con imágenes con más de 256 colores, la imagen debe adaptarse (reducire la cantidad de colores), lo que produce una consecuente pérdida de calidad.  
 
-- **Copyright tradicional:**   
-  El creador tiene control total sobre su obra. El uso de este material requiere permisos explícitos.
-     
-- **Licencias de uso:**   
-  Una licencia de uso es la autorización o permiso que da un titular de derechos de autor, para que otra persona utilice la obra de la forma señalada en el permiso.  
-     Esta autorización puede o no estar sujeta a un pago, lo que dependerá del titular de los respectivos derechos.
-     
-- **Creative Commons (CC):**  
-  Las licencias **Creative Commons** habitualmente llamadas **licencias CC** permiten a los autores otorgar permisos a los usuarios con mucha flexibilidad.  
-  Es habitual verlas en numerosos documentos:
-     
-  ---
+Su limitación de 8 bits hace que el tamaño del archivo sea pequeño, lo que le ideal para crear contenidos **de animación** cortos y atractivos.  
 
-  ![image](https://github.com/user-attachments/assets/20d001cf-d800-4baa-82b9-31e84e50dd72)  
-  **Reconocimiento (by):** Se permite cualquier explotación de la obra, incluyendo una finalidad comercial, así como la creación de obras derivadas cuya distribución está permitida sin ninguna restricción.
+A pesar de su limitada calidad de imagen, mucha gente utiliza el GIF porque permite ofrecer un contenido visual más elaborado que una imagen estática.
 
-  ![image](https://github.com/user-attachments/assets/f1ca43d0-76ff-4631-a39f-052ab45e7931)  
-  **Reconocimiento – No Comercial (by-nc):** permite la generación de obras derivadas siempre que no se haga un uso comercial. Tampoco permite utilizar la obra original con finalidades comerciales.
-     
-  ![image](https://github.com/user-attachments/assets/48e0bddb-117a-4524-b6f8-b2f1f01e84c4)  
-  **Reconocimiento – No Comercial – Compartir Igual (by-nc-sa):** No permite un uso comercial de la obra original ni de las posibles obras derivadas. La distribución de la obra derivada se debe hacer con una licencia igual a la que regula la obra original.
+>**Casos típicos de uso de imágenes en formato GIF:**  
+  
+- **Animaciones simples.**
+   
+- **Indicadores de carga.**
+   
+- **Memes y reacciones.**
+---
 
-  ![image](https://github.com/user-attachments/assets/7f438d06-c497-493b-86f2-db26f09a62a8)  
-  **Reconocimiento – Compartir Igual (by-sa):** Se permite el uso comercial de la obra y de las posibles obras derivadas, cuya distribución se debe hacer con una licencia igual a la que regula la obra.
+### 2.1.5. - Formato de imagen HEIF  
 
-  ![image](https://github.com/user-attachments/assets/726446ff-d5ab-4b4b-ab9d-6f94327ede2c)  
-  **Reconocimiento – Sin Obra Derivada (by-nd):** Se permite el uso comercial de la obra, pero no se permite generar obras derivadas.
+El formato HEIF (High Efficiency Image Format) no es ampliamente utilizado en la web, aunque tiene potencial debido a su eficiencia en la compresión de imágenes (mayor calidad y menor tamaño que JPEG).  
+
+HEIF es más común en dispositivos móviles, especialmente en productos de Apple, donde se usa por defecto para capturar fotos.
+
+El formato HEIF aún no ha sido adoptado como un estándar en la web porque presenta una **compatibilidad limitada** con algunos navegadores y sobre todo porque existen **alternativas más populares** como el formato **WebP**.  
+  
+---   
+
+### 2.1.6 - Formato de imagen WebP  
+![alt text](./img/webp.png)  
+
+El formato WEBP es una alternativa relativamente nueva para imágenes en la web y fue desarrollada por Google. Este formato utiliza **una combinación de compresión sin pérdida y con pérdida** para lograr tamaños de archivo más pequeños que los formatos de imagen anteriores.  
+
+El formato WEBP es compatible con transparencia y es compatible con imágenes animadas, lo que lo hace ideal para banners o publicidad en línea.  
+
+Otra característica del formato WEBP es que puede mostrar una imagen progresivamente, lo que puede mejorar significativamente el tiempo de carga de la página web y mejorar la experiencia del usuario.  
+
+Como **principal inconveniente** el formato WEBP no es compatible con todos los navegadores web y plataformas de redes sociales.
 
 ---
 
-Más información sobre licencias Creative Comons <a href="https://cedec.intef.es/las-licencias-creative-commons-que-son-por-que-utilizarlas-y-como-hacerlo/">aquí</a>.
+## 2.2. - Formatos de imagenes vectoriales
+### 2.2.1. - Formato SVG
+<img src="https://cdn.icon-icons.com/icons2/1098/PNG/512/1485481342-5_78632.png" width=15%>  
 
-# 4. Uso justo y dominio público
+El formato SVG (Scalable Vector Graphics) es un formato de imagen vectorial basado en XML que soporta transparencia y animaciones. Esto permite que las imágenes sean escalables sin perder calidad haciendolas ideales para gráficos e iconos de alta calidad en diferentes tamaños y resoluciones.
 
-**Uso justo** y **dominio público** son conceptos relacionados con los derechos de autor que permiten el uso de **obras protegidas sin infringir la ley**.
-
-## 4.1. - Uso justo (fair use)
-
-El **uso justo** permite utilizar partes limitadas de una obra protegida por derechos de autor sin necesidad de permiso del titular. 
-Se aplica principalmente en situaciones específicas y bajo ciertas condiciones.
-
->**Condiciones que permiten el uso justo:**
-- **Propósito y carácter del uso:** Si el uso es para fines educativos, de investigación, crítica, comentario, parodia, noticia o análisis, tiene más probabilidades de ser considerado uso justo.
-- **Naturaleza de la obra utilizada:** Obras como reportajes o investigaciones, tienden a tener más flexibilidad bajo el uso justo que obras puramente creativas, como novelas o películas.
-- **Cantidad y proporción usada:** Cuanto menor sea la porción de la obra utilizada, más probable será que se considere uso justo. El uso de pequeñas partes de la obra, en lugar de la obra completa, suele estar mejor protegido.
-- **Efecto en el mercado:** Si el uso de la obra afecta negativamente el valor económico o la venta de la obra original, es menos probable que se considere uso justo.
-
-## 4.2. - Dominio público
-
-El **dominio público** se refiere a obras creativas que no están protegidas por derechos de autor, ya sea porque el plazo de protección ha expirado, o porque nunca estuvieron bajo protección.  
-Las obras en dominio público pueden ser utilizadas por cualquier persona de manera libre, sin necesidad de permiso o pago.
-
->**Obras que pueden estar en dominio público:**
-- **Obras cuyo plazo de derechos ha expirado:** 
-- **Obras del gobierno:** En países como los Estados Unidos, los trabajos creados por agencias gubernamentales están en dominio público desde el momento de su creación.
-- **Obras no registradas:** Algunas obras que no cumplen los requisitos de protección o que el autor voluntariamente pone en el dominio público.
-
-# 5. Aspectos éticos y legales
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Copy-roger.svg/1024px-Copy-roger.svg.png" width=15%>
-
->**Ejemplos de infracciones de derechos de autor:**  
--  **Piratería:** Es la forma más extendida de infracción en internet (descarga y distribución ilegal de películas, música, libros electrónicos, software y videojuegos).  
--  **Uso no autorizado de imágenes y fotografías:** Bastante común y relativamente fácil de infringir, ya que las imágenes y fotografías protegidas por derechos de autor se utilizan con frecuencia sin permiso en sitios web, blogs y redes sociales.  
--  **Infracción en plataformas de video y redes sociales:** YouTube, Facebook e Instagram son focos comunes de infracciones. Usuarios suben y comparten contenido protegido sin las licencias necesarias (clips de películas, programas de televisión y videos musicales).  
--  **Plagio y contenidos generados por (otros) usuarios:** Implica presentar trabajos ajenos como propios, se considera una infracción tanto ética como legal. Los contenidos generados por usuarios, como fan art, remixes de música y adaptaciones de obras literarias, 
-     también pueden violar los derechos de autor si no cuentan con la autorización adecuada. La línea entre el uso legítimo y la infracción puede ser ambigua, especialmente cuando se trata de parodias o usos transformativos (fair use).
-- **Ética del uso de material multimedia:** 
-  La importancia de atribuir correctamente las fuentes y respetar los derechos de los creadores.  
-  La ética del uso de material multimedia implica el respeto por los derechos de autor y las normativas de licencias que protegen la creación y distribución de contenidos visuales, auditivos o audiovisuales.  
-  los usuarios deben reconozer que el contenido multimedia como imágenes, videos, música y gráficos, es propiedad intelectual de sus creadores.
-  Para asegurar un uso ético del material multimedia, se deben seguir un código de buenas prácticas:
--  Siempre obtener el permiso adecuado o adquirir las licencias correspondientes cuando se planea usar material protegido por derechos de autor (se puede optar por utilizar recursos con licencias menos restrictivas).
-- Siempre citar correctamente las fuentes del material utilizado
--  Evitar la alteración del contenido sin autorización expresa.
--  El uso responsable del material multimedia no solo garantiza el cumplimiento de la ley, sino que también fomenta una cultura de respeto y reconocimiento hacia los creadores y sus contribuciones artísticas o intelectuales.
-    
-- **Repercusión en el trabajo profesional:** 
-  El mal uso de material protegido puede afectar la reputación y credibilidad de un profesional o empresa. En cualquier ámbito laboral, las competencias técnicas y el conocimiento especializado son cruciales, pero también lo es cómo se aplica ese conocimiento.  
-  Un desempeño profesional sólido genera un vinculo de confianza entre los compañeros de trabajo y sobre todo clientes. Eso se traduce en mayores oportunidades y reconocimiento en el entorno laboral.
-     
-# 6. Recursos para el uso legal de material multimedia
-Dentro de esos recursos encontramos las plataformas o servicios que facilitan el acceso y uso de contenido protegido por derechos de autor de manera legal. Estas recursos incluyen bancos de imágenes, música o videos con licencias adecuadas, generadores de licencias, filtros de búsqueda que identifican contenido libre de derechos o con licencias abiertas, como Creative Commons, así como servicios que gestionan la adquisición de licencias comerciales o la atribución correcta del material utilizado. 
-El objetivo fundamental de esos recursos es garantizar el cumplimiento de las normativas de propiedad intelectual en proyectos profesionales o educativos.
-
-- **Repositorios de uso libre:** 
-:one: **Unsplash:** Ofrece una amplia colección de fotografías de alta calidad que se pueden usar de forma gratuita para fines personales y comerciales.
-
-:two: **Pixabay:** 
-
-:three: **Pexels:** 
-
-:four: **Freesound:** Comunidad de intercambio de sonidos bajo licencias Creative Commons, donde se pueden encontrar efectos de sonido y grabaciones que se pueden utilizar en proyectos multimedia, **con distintas condiciones de atribución dependiendo de la licencia elegida**.
-      
-:five: **Free Music Archive:** Repositorio de música libre que ofrece una amplia variedad de pistas bajo diferentes tipos de licencias, incluidas las licencias Creative Commons. Permite a los usuarios descargar música de manera gratuita y legal para su uso en **proyectos personales y comerciales, dependiendo de los términos de cada licencia**.
-        
+-  **Casos típicos de uso de imágenes en formato SVG:**  
+  
+    **Logotipos y marcas.**
    
-# 7. Tarea RA3-CEa
-**Licencias y derechos de autor en el uso de material multimedia.**  
-:one: - Visualizar esta <a href="https://www.istockphoto.com/es/foto/amor-composici%C3%B3n-foto-de-estudio-gm508139730-85082625">imagen</a> y comentar qué tipo de licencia de uso tiene.  
-:two: - Buscar en google una imagen que se pueda usar bajo **licencias CC**. Explicar brevemente las limitaciones **CC** de la imagen encontrada.  
-:three: - Responder a las preguntas tipo test del documento adjuntado en aules.  
+    **Iconos y elementos gráficos.** (botones, ...)
+   
+    **Animaciones.** Los SVG permiten animaciones interactivas utilizando CSS o JavaScript.
+---
+### 2.2.2 - Formato EPS
+<img src="https://cdn.icon-icons.com/icons2/265/PNG/512/EPS_29667.png" width=13%>  
+
+El formato EPS (Encapsulated PostScript) se utiliza para guardar ilustraciones o trabajos de diseño gráfico en programas de ilustración como Adobe Illustrator y CorelDraw.  
+
+Utilizado principalmente en gráficos profesionales es útil para crear imágenes de alta calidad. 
+
+Aunque se pueda encontrar, no es muy común en la web y generalmente se convierte a SVG o PNG para su visualización.
+
+---
+### 2.2.3 - Formato PDF
+<img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_pdf_icon_130274.png" width=18%>  
+
+El formato PDF (Portable Document Format) es muy familiar como formato de documento, pero también puede utilizarse para guardar imágenes e ilustraciones.  
+
+Un archivo PDF se basa en el mismo lenguaje PostScript que el EPS. Es un vector con compresión sin pérdidas, lo que te permite ampliar una imagen PDF tanto como un desea.
+
+También es la mejor opción para los informes visuales interactivos o las infografías, ya que es indexable y tiene texto que se puede buscar.  
+
+También es posible incluir elementos interactivos en un PDF, por ejemplo, enlaces y botones CTA.
+
+---
+## 2.3 - Tabla resumen / comprativa de los 4 formatos de imágenes mas populares.
+
+| Característica         | JPG                                     | PNG                                                         | GIF                      | SVG                                          |
+|------------------------|-----------------------------------------|--------------------------------------------------------------|--------------------------|----------------------------------------------|
+| **Esquemas de color**   | RGB, escala de grises, CMYK             | RGB, escala de grises, colores indexados                     | Colores indexados         | RGB, nombres de color de SVG                 |
+| **Número de colores**   | Hasta 16,7 mill.                        | Hasta 18 trillones                                           | Hasta 256                 | Hasta 16,7 mill.                             |
+| **Canales de color**    | Tres                                    | Tres (más un canal alfa)                                     | Uno                      | Tres (más un canal alfa)                     |
+| **Profundidad de bits** | 8 bits por canal                        | 1-16 bits por canal                                          | 1-8 bits                 | 8 bits por canal                             |
+| **Compresión**          | Alta, con pérdidas                      | Alta, sin pérdidas                                           | Escasa                    | Ninguna                                      |
+| **Tamaño de archivos**  | Muy pequeño                             | Pequeño                                                      | Grande                    | Individual                                   |
+| **Animaciones**         | No                                      | No                                                           | Sí                        | Sí                                           |
+| **Adecuado para**       | Fotos                                   | Imágenes y gráficos de pequeña envergadura (ej: logotipos), fotos sin pérdidas | Animaciones               | Todo tipo de gráficos (logotipos, iconos, diagramas, etc.) |
+
+# 3. - Formatos de Audio
+El audio en las interfaces web se utiliza principalmente en contenido multimedia, como videos o podcasts. Los formatos deben ofrecer un equilibrio entre calidad y tamaño de archivo.  
+Existen muchos tipos de formatos de audio (mp3, wav, ogg, mp4…). Los que más se utilizan en la web son los formatos mp3 y ogg.
+
+## 3.1 - Formato MP3
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Mp3.svg/250px-Mp3.svg.png" width=20%>  
+
+El formato MP3 (MPEG 1 Layer 3) fue creado por el Instituto Fraunhofer. Su extraordinario grado de compresión y alta calidad lo ha convertido en el candidato ideal para publicar audios en la web.
+  - **Ventajas**: Alta compatibilidad, buena compresión con pérdida aceptable.  
+  - **Desventajas**: Calidad limitada en tasas de bits bajas.
+  - **Usos**: Música, podcasts, efectos de sonido.  
+
+
+## 3.2 - Formato OGG
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ogg_Logo.svg/250px-Ogg_Logo.svg.png" width=15%>
+
+Desarrollado por la fundación Xiph.org, es libre y de código abierto (a diferencia del formato MP3). 
+  - **Ventajas**: Libre de patentes, buena calidad y compresión.
+  - **Desventajas**: Menor soporte en algunos navegadores comparado con MP3.
+  - **Usos**: Alternativa a MP3 en navegadores que lo soporten.
+
+## 3.3 - Formato WAV
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/AudacityWAV.png/100px-AudacityWAV.png" width=10%>
+
+El formato WAV (WaveForm Audio File) es un archivo que desarrolló originalmente Microsoft para guardar audio.
+  - **Ventajas**: Sin pérdida de calidad, alta fidelidad.
+  - **Desventajas**: Tamaño de archivo muy grande.
+  - **Usos**: Audio de alta calidad, efectos de sonido breves.
+
+
+# 4. - Formatos de Video
+El video es otro recurso de las interfaces web, pero su uso intensivo de datos requiere formatos que ofrezcan buena compresión sin sacrificar demasiada calidad.
+
+## 4.1 - Formato MP4
+<img src="https://icons.veryicon.com/png/o/file-type/file-type-icon/mp4-icon-1.png" width=10%>
+
+El formato MP4 es uno de los formatos más utilizados en la actualidad, especialmente cuando se trata de compartir contenido en línea. YouTube, por ejemplo, recomienda cargar archivos en formato .mp4 para obtener la mejor calidad de video.  
+
+Además de los datos de video y audio, también se puede usar para almacenar cosas como subtítulos e imágenes fijas. Por lo general, se combina con H.264 o H.265.  
+
+Los videos que usan el contenedor .MP4 pueden tener tamaños de archivo relativamente pequeños mientras conservan una alta calidad.
+  - **Ventajas**: Alta compresión, buena calidad, muy compatible.
+  - **Desventajas**: Codificación con pérdida.
+  - **Usos**: Videos en streaming, contenido multimedia general.
+
+## 4.2 - Formato WebM
+<img src="https://icons.veryicon.com/png/o/file-type/full-file-extension/webm.png" width=10%>
+
+WebM es un formato multimedia abierto y libre desarrollado por Google y orientado para usarse con HTML5. 
+  - **Ventajas**: Libre de patentes, buena compresión, compatible con HTML5.
+  - **Desventajas**: Menor soporte que MP4 en algunos dispositivos.
+  - **Usos**: Videos optimizados para web, streaming.
+
+## 4.3 - Formato OGG
+<img src="https://icons.veryicon.com/png/o/file-type/full-file-extension/ogg-11.png" width=10%>
+
+Ogg es un formato contenedor libre y abierto, desarrollado y mantenido por la Fundación Xiph.Org
+
+Ogg está diseñado para proporcionar una difusión de flujo eficiente y manipulación de multimedios digitales de alta calidad.
+  - **Ventajas**: Libre de patentes, buena compresión.
+  - **Desventajas**: Menor calidad comparada con mp4 o WebM.
+  - **Usos**: Alternativa a mp4 o WebM en navegadores compatibles.
+
+# 5 - Tarea:
+Preguntas tipo test. 
+
+# 6. - Herramientas para generar contenido multimedia. 
+
+## 6.1 - Herramientas de edición de imagenes gratuitas
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/120px-The_GIMP_icon_-_gnome.svg.png)  
+**GIMP** (GNU Image Manipulation Program) es una de las alternativas más poderosas y completas a Adobe Photoshop. Ofrece herramientas avanzadas de edición y diseño de imágenes.  
+- **Características**: Edición de capas, herramientas de selección avanzadas, filtros, soporte para plugins.
+---   
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Krita-logo.svg/160px-Krita-logo.svg.png)  
+**Krita** es un programa de código abierto diseñado principalmente para ilustración y arte digital, pero también tiene capacidades de edición de imágenes.
+- **Características**: Herramientas avanzadas de pintura digital, soporte para tabletas gráficas, capas, selección y ajuste de color.
+---   
+![](https://media.inkscape.org/static/images/inkscape-logo.svg)  
+**Inkscape** es principalmente **un editor de gráficos vectoriales**, pero también permite trabajar con imágenes rasterizadas.
+- **Características**: Creación y edición de gráficos vectoriales, soporte para SVG, herramientas de dibujo y edición.
+---
+<img src="https://pixlr.com/learn/wp-content/uploads/2021/04/PixlrX-Overview-400x250_tn.jpg" width=15%>  
+
+**Pixlr X** es una herramienta de **edición de imágenes online** que ofrece una interfaz moderna con herramientas básicas y avanzadas para retoques rápidos.
+- **Características**: Filtros, herramientas de edición de capas, ajustes de color, herramientas de retoque, soporte IA. Funciones avanzadas limitadas en comparación con software de escritorio gratuito.
+---
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Darktable_icon.svg/120px-Darktable_icon.svg.png)  
+
+**Darktable** es un software gratuito de edición de imágenes para fotógrafos.
+- **Características**: Herramientas avanzadas de corrección de color y exposición.
+---   
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/RawTherapee_logo-text-black.svg/120px-RawTherapee_logo-text-black.svg.png)  
+**RawTherapee** está diseñado para la **edición de imágenes RAW** con un enfoque en la corrección de color y el procesamiento de alta calidad.
+- **Características**: Procesamiento de imágenes RAW, ajustes de exposición, balance de blancos, corrección de color.
+---
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Photopea_logo.svg/120px-Photopea_logo.svg.png)  
+**Photopea** es una herramienta de edición de imágenes **online** que se asemeja a Adobe Photoshop.  
+
+Está diseñado para trabajar con gráficos rasterizados y vectoriales, y permite la edición de imágenes **online**.
+- **Características**:  
+   - Soporta múltiples formatos de archivo, incluidos PSD (Photoshop), XCF (GIMP), Sketch, AI, y formatos estándar como PNG, JPEG, SVG.
+   - Edición de capas, herramientas de selección avanzadas, ajuste de color, retoque de imágenes, y soporte para máscaras y objetos inteligentes.
+   - Herramientas de texto, filtros y efectos visuales.
+   - Compatibilidad con gráficos vectoriales y rasterizados, permitiendo trabajar con formas, líneas y trazados.
+   - Exportación de archivos en varios formatos comunes de imagen.
+
+## 6.2 - Herramientas de edición de audio gratuitas
+ ![](https://upload.wikimedia.org/wikipedia/commons/e/e2/Audacity_Logo_nofilter.svg))  
+
+**Audacity** es una de las herramientas de edición de audio más populares y completas.   
+- **Características**: Grabación y edición multipista, efectos de audio, soporte para varios formatos (MP3, WAV, OGG, FLAC), eliminación de ruido.
+---
+![](https://www.ocenaudio.com/imgs/logo.png)
+
+**Ocenaudio** es una alternativa más ligera y fácil de usar que Audacity, ideal para ediciones rápidas y sencillas.
+- **Características**: Edición en tiempo real, soporte para efectos VST, análisis espectral, y soporte para múltiples formatos.
+---   
+![](https://ardour.org/images/ardour_logo_navbar.png)  
+**Ardour** es ideal para la grabación, edición y mezcla de audio multipista, especialmente orientado a músicos y productores.  
+- **Características**: Grabación multipista, edición no destructiva, soporte para efectos VST, MIDI, y exportación a múltiples formatos.
+---
+![](https://users.notam02.no/~kjetism/radium/radium_logo_128x128_colorized.png)
+
+**Radium** es un software de edición y composición de audio principalmente para Mac.  
+
+Tiene una propuesta diferente en cuanto a la organización de su interfaz, lo que puede ser un poco desconcertante al principio. .
+
+Con Radium se puede editar audio manualmente, pero cuenta con pequeñas ayudas para automatizar la velocidad y el tempo y para aplicar efectos y correcciones por su cuenta.
+
+Este editor está enfocado a la edición musical, por lo que cuenta con soporte para plugins VST, AU y LADSPA, además de mezclador modular y secuenciador MIDI.
+
+## 6.3 - Herramientas de edición de video gratuitas
+![](https://www.videosoftdev.com/images/video_editor/box.png)  
+**VSDC Free Video Editor** es un editor de video gratuito que ofrece una amplia gama de herramientas de edición para proyectos complejos, ideal para quienes buscan una opción robusta pero gratuita.
+   - **Características**: Edición no lineal, efectos visuales, corrección de color, soporte para múltiples formatos de video, exportación en alta definición.
+---    
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DaVinci_Resolve_17_logo.svg/250px-DaVinci_Resolve_17_logo.svg.png" width=12%>  
+
+**DaVinci Resolve** un editor de video profesional que ofrece herramientas avanzadas para edición, corrección de color, efectos visuales, y postproducción de audio.
+   - **Características**: Edición no lineal, corrección de color avanzada, edición multipista, herramientas de postproducción de audio, efectos visuales.
+---    
+![](https://upload.wikimedia.org/wikipedia/commons/f/fe/Shotcut-logo-64.png)  
+**Shotcut** es un editor de video gratuito y de código abierto que ofrece una interfaz fácil de usar y soporte para una amplia gama de formatos de video.
+   - **Características**: Soporte para edición de video HD, filtros y efectos de video, línea de tiempo avanzada, soporte para múltiples formatos.
+---   
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Kdenlive_new_logo.png" width=25%>
+
+**Kdenlive** es un editor de video de código abierto para Linux, aunque también está disponible para Windows y macOS. Es una de las mejores opciones gratuitas para usuarios de Linux.
+   - **Características**: Edición multipista, efectos de video y transiciones, soporte para múltiples formatos de video y audio, integración con FFmpeg.
+---
+## 6.4 - Ejemplos de ediciones de video lineal y no lineales:
+
+<a href="https://www.youtube.com/watch?v=63vqob-MljQ&list=PLuAMrIXhypV6rSk9RAS9hwF8VoMW3OVaE&index=2">Video lineal</a>  
+<a href="https://www.youtube.com/watch?v=0P4A1K4lXDo">Video no lineal</a>
+
+# 7 - Tarea:
+Realizar breves comentarios sobre las herramientas elegidas. 
