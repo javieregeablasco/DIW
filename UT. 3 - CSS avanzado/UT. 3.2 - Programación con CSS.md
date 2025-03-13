@@ -211,12 +211,59 @@ Desde los primeros pasos de programación en `HTML + CSS`, llevamos utilizando e
 ```
 
 >**Ejemplo 2 de uso simple de la funcion de saturación**
-En este caso la saturación se ajusta (en tiempo real) al ancho del documento.
+En este caso la opacidad del color de fondo se ajusta (en tiempo real) al ancho del documento.
+
 ```html
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saturacion Dinámica</title>
+  <style>
+    :root {
+      --color-primario: red;
+      --color-texto: blue;
+    }
+    .conFiltro, .sinFiltro {
+      display: block;
+      width: 20rem;
+      color: var(--color-texto);
+      background-color: var(--color-primario);
+      margin: 2rem;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .conFiltro {
+      transition: filter 0.01s ease;
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <span class="sinFiltro">Elemento al que no se le ajusta la opacidad</span>
+    <span class="conFiltro">Elemento al que se le ajusta la opacidad</span>
+  </article>
+  <script>
+    // Función para actualizar la opacidad basado en el ancho del viewport
+    function updateOpacidad() {
+      // ancho del viewport
+      const viewportWidth = window.innerWidth;  
+      // cálculo de la opacidad
+      const opacidad = Math.min (0.95, -0.00075 * viewportWidth + 1.15);
+      // Asignar el valor calculado al filtro de opacidad
+      const conFiltro = document.querySelector('.conFiltro');
+      conFiltro.style.backgroundColor = `rgba(255,0,0,${opacidad})`;  
+    }
+    // actualizar al cargar la página
+    updateOpacidad();
+    // evento stretch ventana
+    window.addEventListener('resize', updateOpacidad);
+  </script>
+</body>
+</html>
 ```
-
-
 
 ### 3.4.5. - Funciones de transformación
 Aunque las veremos mas extensivamente dentro de la unidad sobre animaciones, existen funciones de CSS que permiten manipular, por ejemplo, el tamaño, la posición y la rotación de los elementos.
@@ -238,6 +285,7 @@ Permiten aplicar efectos visuales como desenfoques, contrastes y escalas de gris
 }
 ```
 
+# 4. Tarea 
 
 ---
 HASTA aqui
