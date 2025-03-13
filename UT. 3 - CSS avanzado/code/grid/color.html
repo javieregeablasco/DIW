@@ -4,8 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Funciones sobre colores</title>
+  <style>
+    :root {
+    --color-primario: red;    
+    }
+    .conFiltro, .sinFiltro {
+      color: blanchedalmond;
+      background-color: var(--color-primario);
+    }
+    .conFiltro {
+      filter: brightness(0.5);
+    }    
+  </style>
+
 </head>
 <body>
+  <div>
+    <span class="sinFiltro">Texto al que no se le ajusta el brillo</span>
+    <span class="conFiltro">Texto al que no se le ajusta el brillo</span>
+
+
+  </div>
   
 </body>
 </html>
