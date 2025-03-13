@@ -39,10 +39,18 @@
         const viewportWidth = window.innerWidth;  
         // cálculo de la opacidad
       //  const opacidad = 0.6 * viewportWidth /1750;
-      const opacidad = Math.min(255, 255* viewportWidth /1750);
-      const erre = opacidad -20;
-      const ge = opacidad - 40;
-      const be = opacidad + 60
+        const opacidad = Math.min(255, 255* viewportWidth /1750);
+        if (opacidad<80) {
+          const erre = opacidad;        
+        }
+        if (opacidad<160) {
+          const ge = opacidad;          
+        }
+        else {
+          const be = opacidad;
+        }
+          
+              
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
    //     conFiltro.style.filter = `opacity(${opacidad})`;
