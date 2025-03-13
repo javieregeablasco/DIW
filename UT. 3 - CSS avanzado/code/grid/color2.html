@@ -39,12 +39,12 @@
         const viewportWidth = window.innerWidth;  
         // cálculo de la opacidad
       //  const opacidad = 0.6 * viewportWidth /1750;
-      const opacidad = Math.min(255, 255*0.6 * viewportWidth /1750);
+      const opacidad = Math.min(255, 255* viewportWidth /1750);
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
    //     conFiltro.style.filter = `opacity(${opacidad})`;
         conFiltro.style.backgroundColor = `rgb(${opacidad}, ${opacidad}, ${opacidad})`;
-        console.log('color='+conFiltro.backgroundColor)
+        console.log('color='+conFiltro.style.backgroundColor)
     }
 
     // Actualizar al cargar la página
