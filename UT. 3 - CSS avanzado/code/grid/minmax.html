@@ -39,18 +39,26 @@
 
 
     <script>
-            function updateGridInfo() {
-            const grid = document.querySelector('.grid');
-            const styles = getComputedStyle(grid);
-            document.getElementById('info').textContent = 
-                "grid-template-columns: " + styles.getPropertyValue('grid-template-columns');
+/*        const grid = document.querySelector('.grid-container');
+        const styles = getComputedStyle(grid);
+        document.getElementById('info').textContent = 
+            "grid-template-columns: " + styles.getPropertyValue('grid-template-columns');
+*/
+			function updateGridInfo() {
+        const grid = document.querySelector('.grid-container');
+        const styles = getComputedStyle(grid);
+          document.getElementById('info').textContent = 
+          "grid-template-columns: " + styles.getPropertyValue('grid-template-columns');
         }
 
-        // Actualizar al cargar la página
-        updateGridInfo();
+      // Actualizar al cargar la página
+      updateGridInfo();
 
-        // Actualizar cada vez que se redimensione la ventana
-        window.addEventListener('resize', updateGridInfo);
+      // Actualizar cada vez que se redimensione la ventana
+      window.addEventListener('resize', updateGridInfo);			
+
+
+
     </script>
 
 </body>
