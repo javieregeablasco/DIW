@@ -62,10 +62,10 @@ Al igual que en los lenguajes de programación, podemos modificar el valor de la
   --color-boton: #c0392b;
 }
 ```
-## 3. Funciones en CSS
+# 3. Funciones en CSS
 CSS tiene varias funciones útiles para hacer cálculos en tiempo real.
 
-### 3.1. - Operaciones matemáticas con `calc()`
+## 3.1. - Operaciones matemáticas con `calc()`
 >**Ejemplo:**
 ```css
 .container {
@@ -138,17 +138,18 @@ La función `minmax(min, max)` permite definir un rango entre los 2 valores que 
 		
 
   <script>
+    // recuperar el contendido de grid
 	  function updateGridInfo() {
       const grid = document.querySelector('.grid-container');
       const styles = getComputedStyle(grid);
-        document.getElementById('info').textContent = 
+      document.getElementById('info').textContent = 
         "Contenido de grid-template-columns: " + styles.getPropertyValue('grid-template-columns');
     }
 
-    // Actualizar al cargar la página
+    // llamar a la funcion actualizar
     updateGridInfo();
 
-    // Actualizar cada vez que se redimensione la ventana
+    // actualizar en tiempo real
     window.addEventListener('resize', updateGridInfo);			
   </script>
 </body>
@@ -159,20 +160,22 @@ La función `minmax(min, max)` permite definir un rango entre los 2 valores que 
 - `minmax(200px, 1fr)`: Cada columna tiene al menos 200px, pero si hay más espacio disponible, se expandirá hasta llenar el ancho disponible.
 - `auto-fill:` Se crean tantas columnas como quepan en la pantalla **aunque no todas se representen**.
 
-## 🔹 **4. Funciones de color en CSS**
-📌 CSS incluye funciones para manipular colores:
+## 3.4. - Funciones de control de color en CSS
+CSS también incluye funciones para manipular colores:
 
-### ✅ **4.1. `rgb()`, `rgba()` – Colores con transparencia**
+### 3.4.1. `rgb()`, `rgba()`
+Desde los primeros pasos de programación en `HTML + CSS`, llevamos utilizando esas funciones sin saber que eran funciones de CSS. 
+
 ```css
-.caja {
-  background-color: rgba(52, 152, 219, 0.5); /* Azul con 50% de opacidad */
+.contendor {
+  background-color: rgba(52, 152, 219, 0.5);
 }
 ```
 
-### ✅ **4.2. `hsl()`, `hsla()` – Control de tono, saturación y luminosidad**
+### 3.4.2. - `hsl()`, `hsla()` – Control de tono, saturación y luminosidad**
 ```css
 .texto {
-  color: hsl(200, 100%, 50%); /* Azul puro */
+  color: hsl(335, 61.10%, 7.10%); /* Azul puro */
 }
 ```
 
