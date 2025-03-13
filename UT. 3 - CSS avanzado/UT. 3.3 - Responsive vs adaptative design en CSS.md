@@ -44,20 +44,18 @@ El **diseño responsive**, que busca una adaptación fluida de la interfaz sin n
 
 Por otro lado, el **diseño adaptativo**, que se basa en versiones predefinidas de la misma página según el dispositivo, también puede aprovechar **Flexbox y Grid** para ajustar los elementos de cada diseño específico. En este enfoque, Grid facilita la creación de layouts personalizados para cada versión de la página, mientras que Flexbox permite una distribución eficiente dentro de cada sección de la interfaz.  
 
-Para hacer que estos diseños sean verdaderamente efectivos, es necesario complementar Grid y Flexbox con **media queries**.  
+Para hacer que estos diseños sean verdaderamente efectivos, es necesario complementar Grid y Flexbox con **puntos de quiebre** y **media queries**.  
 
-# 5. Media queries  
-Las **media queries** permiten aplicar estilos diferentes según el tamaño del dispositivo o las características de la pantalla. Gracias a ellas, se pueden definir puntos de quiebre (**breakpoints**) que ajustan el diseño de la página para mejorar la experiencia del usuario en distintos dispositivos. En combinación con **Grid y Flexbox**, las media queries permiten crear **layouts flexibles y adaptativos**, asegurando que la interfaz se vea bien en cualquier pantalla, desde móviles hasta monitores de gran tamaño.
 
-# 5.1. - Puntos de quiebre.
+# 5. Puntos de quiebre.
 
-# 5.1.1. - Introducción
+## 5.1. - Introducción
 Los **puntos de quiebre** o **breakpoints** en CSS son valores predefinidos de ancho de pantalla que determinan cuándo aplicar estilos específicos para optimizar el diseño de una página en distintos dispositivos. Se utilizan en conjunto con **media queries** para modificar la disposición de los elementos y mejorar la experiencia del usuario según el tamaño de la pantalla.
 
-# 5.1.2. - Funcionamiento de los breakpoints  
+## 5.2. - Funcionamiento de los breakpoints  
 Cuando el viewport de un dispositivo alcanza un determinado **ancho mínimo o máximo**, los estilos definidos en la media query correspondiente entran en acción. Esto permite, por ejemplo, cambiar la estructura de un diseño **de una columna en móvil a varias columnas en pantallas más grandes** o ajustar el tamaño de los elementos para mejorar la legibilidad.  
 
-# 5.1.3. - Breakpoints más utilizados 
+### 5.3. - Breakpoints más utilizados 
 Si bien los valores exactos pueden variar según el proyecto, los siguientes breakpoints suelen ser muy comunes al estar basados en tamaños estándar de dispositivos:  
 
 | Dispositivo         | Ancho Aproximado |
@@ -68,8 +66,9 @@ Si bien los valores exactos pueden variar según el proyecto, los siguientes bre
 | Escritorios       | 1024px - 1279px  |
 | Pantallas grandes  | 1280px en adelante |
 
-# 5.1.4. - Breakpoints según diversos frameworks CSS 
-**Bootstrap**
+### 5.4. - Breakpoints según diversos frameworks CSS 
+>**Bootstrap**  
+
 | **Breakpoint** | **Resolución** | **Clase** |
 |---------------------|-----------------|-|
 | **Extra small**   | <576px | - |
@@ -79,7 +78,8 @@ Si bien los valores exactos pueden variar según el proyecto, los siguientes bre
 | **Extra large** | ≥1200px | xl |
 | **Extra extra large** | ≥1400px | xxl |
 
-**Foundation**
+>**Foundation**  
+
 | **Breakpoint** | **Resolución** | **Clase** |
 |---------------------|-----------------|-|
 | **Small** | <640px | sm |
@@ -88,7 +88,8 @@ Si bien los valores exactos pueden variar según el proyecto, los siguientes bre
 | **Extra large** | ≥1200px | xl |
 | **Extra extra large** | ≥1440px | xxl |
 
-**Bulma**
+>**Bulma**  
+
 | **Breakpoint** | **Resolución** |
 |---------------------|-----------------|
 | **mobile** | <768px |
@@ -97,7 +98,11 @@ Si bien los valores exactos pueden variar según el proyecto, los siguientes bre
 | **widescreen** | ≥1216px |
 | **fullhd** | ≥1408px |
 
+# 6. Media queries  
+## 6.1. - Introducción
+Las **media queries** permiten aplicar estilos diferentes según el tamaño del dispositivo o las características de la pantalla. Gracias a ellas, se pueden definir puntos de quiebre (**breakpoints**) que ajustan el diseño de la página para mejorar la experiencia del usuario en distintos dispositivos. En combinación con **Grid y Flexbox**, las media queries permiten crear **layouts flexibles y adaptativos**, asegurando que la interfaz se vea bien en cualquier pantalla, desde móviles hasta monitores de gran tamaño.
 
+## 6.2. -  
 
 
 
