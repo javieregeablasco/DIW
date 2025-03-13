@@ -7,7 +7,7 @@
   <style>
     :root {
     --color-primario: red;    
-    --color-texto: blanchedalmond
+    --color-texto: blanchedalmond;
     }
     .conFiltro, .sinFiltro {
       color: var(--color-texto);
@@ -15,7 +15,7 @@
     }
     .conFiltro {
       --viewport-width: vw;
-      filter: brightness(calc(1 + 0.01 * (--viewport-width)));
+      filter: brightness(calc(1 + 0.01 * (var(--viewport-width))));
     }     
   </style>
 
