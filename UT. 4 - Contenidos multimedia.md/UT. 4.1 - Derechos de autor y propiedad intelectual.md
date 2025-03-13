@@ -114,8 +114,7 @@ Las obras en dominio público pueden ser utilizadas por cualquier persona de man
 -  **Piratería:** Es la forma más extendida de infracción en internet (descarga y distribución ilegal de películas, música, libros electrónicos, software y videojuegos).  
 -  **Uso no autorizado de imágenes y fotografías:** Bastante común y relativamente fácil de infringir, ya que las imágenes y fotografías protegidas por derechos de autor se utilizan con frecuencia sin permiso en sitios web, blogs y redes sociales.  
 -  **Infracción en plataformas de video y redes sociales:** YouTube, Facebook e Instagram son focos comunes de infracciones. Usuarios suben y comparten contenido protegido sin las licencias necesarias (clips de películas, programas de televisión y videos musicales).  
--  **Plagio y contenidos generados por (otros) usuarios:** Implica presentar trabajos ajenos como propios, se considera una infracción tanto ética como legal. Los contenidos generados por usuarios, como fan art, remixes de música y adaptaciones de obras literarias, 
-     también pueden violar los derechos de autor si no cuentan con la autorización adecuada. La línea entre el uso legítimo y la infracción puede ser ambigua, especialmente cuando se trata de parodias o usos transformativos (fair use).
+-  **Plagio y contenidos generados por (otros) usuarios:** Implica presentar trabajos ajenos como propios, se considera una infracción tanto ética como legal. Los contenidos generados por usuarios, como fan art, remixes de música y adaptaciones de obras literarias, también pueden violar los derechos de autor si no cuentan con la autorización adecuada. La línea entre el uso legítimo y la infracción puede ser ambigua, especialmente cuando se trata de parodias o usos transformativos (fair use).
 - **Ética del uso de material multimedia:** 
   La importancia de atribuir correctamente las fuentes y respetar los derechos de los creadores.  
   La ética del uso de material multimedia implica el respeto por los derechos de autor y las normativas de licencias que protegen la creación y distribución de contenidos visuales, auditivos o audiovisuales.  
@@ -123,8 +122,8 @@ Las obras en dominio público pueden ser utilizadas por cualquier persona de man
   Para asegurar un uso ético del material multimedia, se deben seguir un código de buenas prácticas:
 -  Siempre obtener el permiso adecuado o adquirir las licencias correspondientes cuando se planea usar material protegido por derechos de autor (se puede optar por utilizar recursos con licencias menos restrictivas).
 - Siempre citar correctamente las fuentes del material utilizado
--  Evitar la alteración del contenido sin autorización expresa.
--  El uso responsable del material multimedia no solo garantiza el cumplimiento de la ley, sino que también fomenta una cultura de respeto y reconocimiento hacia los creadores y sus contribuciones artísticas o intelectuales.
+- Evitar la alteración del contenido sin autorización expresa.
+- El uso responsable del material multimedia no solo garantiza el cumplimiento de la ley, sino que también fomenta una cultura de respeto y reconocimiento hacia los creadores y sus contribuciones artísticas o intelectuales.
     
 - **Repercusión en el trabajo profesional:** 
   El mal uso de material protegido puede afectar la reputación y credibilidad de un profesional o empresa. En cualquier ámbito laboral, las competencias técnicas y el conocimiento especializado son cruciales, pero también lo es cómo se aplica ese conocimiento.  
