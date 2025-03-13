@@ -14,7 +14,7 @@
       background-color: var(--color-primario);
     }
     .conFiltro {
-      filter: brightness(brilloTiempoReal);
+      filter: brightness(0.5);
     }     
   </style>
 
@@ -23,28 +23,7 @@
   <article>
     <span class="sinFiltro">Texto al que no se le ajusta  el brillo</span>
     <br><br>
-    <span class="conFiltro">Texto al que no se le ajusta el brillo</span>
-  </article>
-
-  <script>
-    // Función para actualizar el brillo en base al ancho del viewport
-    function updateBrightness() {
-        // Obtener el ancho del viewport
-        const viewportWidth = visualViewport.width;
-        
-        // Calcular el valor de brillo utilizando la fórmula
-        const brilloTiempoReal = 1 + 0.1 * (viewportWidth / 1000);
-
-        // Aplicar el valor calculado al filtro brightness de .conFiltro
-        document.querySelector('.conFiltro').style.filter = `brightness(${brilloTiempoReal})`;
-    }
-
-    // Actualizar al cargar la página
-    updateBrightness();
-
-    // Actualizar cada vez que se redimensione la ventana
-    window.addEventListener('resize', updateBrightness);
-</script>
-  
+    <span class="conFiltro">Texto al que se le ajusta el brillo</span>
+  </article>  
 </body>
 </html>
