@@ -6,8 +6,7 @@ Palabras clave: DAW, DIW
 ---
 
 # 1. - Introducción
-Aunque CSS no sea una lenguaje de programación al uso, si que permite definir variables y dispone de una libreria de funciones que nos permitiran, entre otras, realizar animaciones.  
-
+Aunque CSS no sea un lenguaje de programación como tal, sí que permite definir variables y dispone de una librería de funciones que nos permitirá, entre otras cosas, realizar animaciones.  
 
 # 2. Variables CSS
 ## 2.1. - Definición de las variables
@@ -17,7 +16,7 @@ Por convención, las variables CSS se definen de la siguiente manera:
 --nombre-variable: valor 
 ```
 
-Y generalmente se colocan al principio de la hoja de estilos dentro de :root, lo que las hace globales a toda la hoja de estilos.
+Generalmente se colocan al principio de la hoja de estilos dentro de `:root`, convirtiedon las variables en **globales a toda la hoja de estilos**.
 >**Ejemplo de custom properties:**
 ```css
 :root{
@@ -48,7 +47,7 @@ Para poder acceder a las variables CSS, usaremos la función `var(--nombre-varia
   padding: 10px;
 }
 ```
-## 2.3. - Variables CSS dinámicas**
+## 2.3. - Variables CSS dinámicas
 Al igual que en los lenguajes de programación, podemos modificar el valor de las variables CSS de forma dinámica, pero este cambio suele ocurrir dentro de un contexto específico, como en estados de interacción o dentro de un selector.
 
 >**Ejemplo con `hover`:**
@@ -63,7 +62,7 @@ Al igual que en los lenguajes de programación, podemos modificar el valor de la
   --color-boton: #c0392b;
 }
 ```
-## 3. Funciones matemáticas en CSS
+## 3. Funciones en CSS
 CSS tiene varias funciones útiles para hacer cálculos en tiempo real.
 
 ### 3.1. - Operaciones matemáticas con `calc()`
@@ -76,7 +75,7 @@ CSS tiene varias funciones útiles para hacer cálculos en tiempo real.
 ```
 
 ## 3.2. - Control de tamaños con `min()`, `max()` y `clamp()`
-Definen valores mínimos, máximos y rangos para tamaños de elementos.**
+Definen valores mínimos, máximos y rangos para tamaños de elementos.*
 
 ```css
 .texto {
@@ -93,15 +92,13 @@ Definen valores mínimos, máximos y rangos para tamaños de elementos.**
 ```
 
 ## 3.3. - Control de tamaños con minmax()
-La función minmax(min, max) permite definir un rango para, por ejemplo, definir el tamaño de filas o columnas de un contenedor `grid`.
+La función `minmax(min, max)` permite definir un rango entre los 2 valores que le pasamos a la función. Resulta ser bastante útil para definir el tamaño de filas o columnas dentro de un contenedor `grid`.
 
-    min: Tamaño mínimo que puede tener la columna o fila.
-    max: Tamaño máximo que puede alcanzar la columna o fila.
+>**Ejemplo de uso de `minmax()` dentro de un `grid`.**   
+- **min:** Tamaño mínimo que puede tener la columna o fila.  
+- **max:** Tamaño máximo que puede alcanzar la columna o fila.
 
----
-hasta aqui
----
-
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -142,10 +139,10 @@ hasta aqui
 
 </body>
 </html>
+```
 
-📌 ¿Cómo funciona minmax() aquí?
-
-    minmax(200px, 1fr): Cada columna tiene al menos 200px, pero si hay más espacio disponible, se expandirá hasta llenar el ancho disponible.
+>**Explicación de la utilidad de minmax():**
+`minmax(200px, 1fr)`: Cada columna tiene al menos 200px, pero si hay más espacio disponible, se expandirá hasta llenar el ancho disponible.
     auto-fill: Se crean tantas columnas como quepan en la pantalla.
     Si el viewport es pequeño, las columnas se reducirán y se ajustarán automáticamente.
 
