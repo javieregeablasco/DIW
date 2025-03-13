@@ -36,15 +36,14 @@
   <script>
     // Función para actualizar el brillo basado en el ancho del viewport
     function updateBrillo() {
-        // Obtener el ancho del viewport en px
-        const viewportWidth = window.innerWidth;  // Usamos innerWidth en vez de visualViewport.width
-
-        // Realizar el cálculo para el brillo, 1 + 0.1 * (100vw / 1000)
-        const brilloTiempoReal = 1 - viewportWidth/750;
+        // ancho del viewport
+        const viewportWidth = window.innerWidth;  
+        // cálculo para el brillo, 1 + 0.1 * (100vw / 1000)
+        const brillo = 1 - viewportWidth/750;
 
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
-        conFiltro.style.filter = `opacity(${brilloTiempoReal})`;
+        conFiltro.style.filter = `opacity(${brillo})`;
     }
 
     // Actualizar al cargar la página
