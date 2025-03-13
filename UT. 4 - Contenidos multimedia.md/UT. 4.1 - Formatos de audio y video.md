@@ -48,7 +48,7 @@ Los derechos exlusivos del autor se pueden describir de la siguiente manera:
   <a href="https://www.boe.es/buscar/pdf/2023/BOE-A-2023-16215-consolidado.pdf">Real Decreto 611/2023, de 11 de julio, por el que se aprueba el Reglamento del Registro de la Propiedad Intelectual</a>.
 
 
-## 3. Tipos de licencias
+# 3. Tipos de licencias
 
 - **Copyright tradicional:**   
   El creador tiene control total sobre su obra. El uso de este material requiere permisos explícitos.
@@ -82,7 +82,7 @@ Los derechos exlusivos del autor se pueden describir de la siguiente manera:
 
 Más información sobre licencias Creative Comons <a href="https://cedec.intef.es/las-licencias-creative-commons-que-son-por-que-utilizarlas-y-como-hacerlo/">aquí</a>.
 
-## 4. Uso justo y dominio público
+# 4. Uso justo y dominio público
 
 **Uso justo** y **dominio público** son conceptos relacionados con los derechos de autor que permiten el uso de **obras protegidas sin infringir la ley**.
 
@@ -107,10 +107,10 @@ Las obras en dominio público pueden ser utilizadas por cualquier persona de man
 - **Obras del gobierno:** En países como los Estados Unidos, los trabajos creados por agencias gubernamentales están en dominio público desde el momento de su creación.
 - **Obras no registradas:** Algunas obras que no cumplen los requisitos de protección o que el autor voluntariamente pone en el dominio público.
 
-## 5. Aspectos éticos y legales
+# 5. Aspectos éticos y legales
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Copy-roger.svg/1024px-Copy-roger.svg.png" width=15%>
 
-- **Ejemplos de infracciones de derechos de autor:**  
+>**Ejemplos de infracciones de derechos de autor:**  
 -  **Piratería:** Es la forma más extendida de infracción en internet (descarga y distribución ilegal de películas, música, libros electrónicos, software y videojuegos).  
 -  **Uso no autorizado de imágenes y fotografías:** Bastante común y relativamente fácil de infringir, ya que las imágenes y fotografías protegidas por derechos de autor se utilizan con frecuencia sin permiso en sitios web, blogs y redes sociales.  
 -  **Infracción en plataformas de video y redes sociales:** YouTube, Facebook e Instagram son focos comunes de infracciones. Usuarios suben y comparten contenido protegido sin las licencias necesarias (clips de películas, programas de televisión y videos musicales).  
@@ -130,7 +130,7 @@ Las obras en dominio público pueden ser utilizadas por cualquier persona de man
   El mal uso de material protegido puede afectar la reputación y credibilidad de un profesional o empresa. En cualquier ámbito laboral, las competencias técnicas y el conocimiento especializado son cruciales, pero también lo es cómo se aplica ese conocimiento.  
   Un desempeño profesional sólido genera un vinculo de confianza entre los compañeros de trabajo y sobre todo clientes. Eso se traduce en mayores oportunidades y reconocimiento en el entorno laboral.
      
-## 6. Recursos para el uso legal de material multimedia
+# 6. Recursos para el uso legal de material multimedia
 Dentro de esos recursos encontramos las plataformas o servicios que facilitan el acceso y uso de contenido protegido por derechos de autor de manera legal. Estas recursos incluyen bancos de imágenes, música o videos con licencias adecuadas, generadores de licencias, filtros de búsqueda que identifican contenido libre de derechos o con licencias abiertas, como Creative Commons, así como servicios que gestionan la adquisición de licencias comerciales o la atribución correcta del material utilizado. 
 El objetivo fundamental de esos recursos es garantizar el cumplimiento de las normativas de propiedad intelectual en proyectos profesionales o educativos.
 
@@ -146,7 +146,7 @@ El objetivo fundamental de esos recursos es garantizar el cumplimiento de las no
 :five: **Free Music Archive:** Repositorio de música libre que ofrece una amplia variedad de pistas bajo diferentes tipos de licencias, incluidas las licencias Creative Commons. Permite a los usuarios descargar música de manera gratuita y legal para su uso en **proyectos personales y comerciales, dependiendo de los términos de cada licencia**.
         
    
-## 7. Tarea RA3-CEa - Licencias y derechos de autor en el uso de material multimedia.
+# 7. Tarea RA3-CEa - Licencias y derechos de autor en el uso de material multimedia.
 1 - Visualizar esta <a href="https://www.istockphoto.com/es/foto/amor-composici%C3%B3n-foto-de-estudio-gm508139730-85082625">imagen</a> y comentar qué tipo de licencia de uso tiene.  
 2 - Buscar en google una imagen que se pueda usar bajo **licencias CC**. Explicar brevemente las limitaciones **CC** de la imagen encontrada.  
 3 - Responder a las preguntas tipo test del documento adjuntado en aules.  
