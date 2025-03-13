@@ -102,7 +102,117 @@ Si bien los valores exactos pueden variar según el proyecto, los siguientes bre
 ## 6.1. - Introducción
 Las **media queries** permiten aplicar estilos diferentes según el tamaño del dispositivo o las características de la pantalla. Gracias a ellas, se pueden definir puntos de quiebre (**breakpoints**) que ajustan el diseño de la página para mejorar la experiencia del usuario en distintos dispositivos. En combinación con **Grid y Flexbox**, las media queries permiten crear **layouts flexibles y adaptativos**, asegurando que la interfaz se vea bien en cualquier pantalla, desde móviles hasta monitores de gran tamaño.
 
-## 6.2. -  
+## 6.2. - Regla @media
+La regla `@media` en CSS es una regla de consulta de medios (*media query*) que permite aplicar estilos específicos en función de las características del dispositivo o la ventana del navegador. Se usa principalmente para crear diseños responsivos que se adapten a diferentes tamaños de pantalla, resoluciones y otros parámetros.
+
+## **Sintaxis básica**
+```css
+@media (condición) {
+  /* Reglas CSS */
+}
+```
+Ejemplo simple:
+```css
+body {
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
+}
+```
+En este caso, el fondo del `body` será blanco en pantallas grandes, pero cambiará a gris claro cuando el ancho de la pantalla sea menor o igual a 600 píxeles.
+
+---
+
+## **Tipos de consultas de medios más comunes**
+
+1. **Ancho y alto de la pantalla**
+   - `max-width`: Aplica los estilos si la pantalla tiene un ancho **máximo** especificado.
+   - `min-width`: Aplica los estilos si la pantalla tiene un ancho **mínimo** especificado.
+   - `max-height` / `min-height`: Funcionan igual, pero con la altura de la pantalla.
+
+   ```css
+   @media (min-width: 768px) {
+     body {
+       font-size: 18px;
+     }
+   }
+   ```
+
+2. **Orientación de la pantalla**
+   - `orientation: portrait`: Aplica estilos cuando el dispositivo está en modo vertical.
+   - `orientation: landscape`: Aplica estilos cuando el dispositivo está en modo horizontal.
+
+   ```css
+   @media (orientation: landscape) {
+     body {
+       background-color: lightblue;
+     }
+   }
+   ```
+
+3. **Resolución de pantalla**
+   - `min-resolution` y `max-resolution` permiten aplicar estilos dependiendo de la resolución en `dpi` o `dppx`.
+   ```css
+   @media (min-resolution: 300dpi) {
+     img {
+       width: 200px;
+       height: auto;
+     }
+   }
+   ```
+
+4. **Detectar modo oscuro del sistema**
+   ```css
+   @media (prefers-color-scheme: dark) {
+     body {
+       background-color: black;
+       color: white;
+     }
+   }
+   ```
+
+---
+
+## **Combinar múltiples condiciones**
+Puedes combinar condiciones con operadores lógicos:
+- **AND (`and`)** → Ambas condiciones deben cumplirse.
+- **OR (`,`)** → Se aplicará si al menos una condición se cumple.
+- **NOT (`not`)** → Se usa para negar una condición.
+
+Ejemplo con **AND**:
+```css
+@media (min-width: 600px) and (max-width: 1200px) {
+  body {
+    background-color: yellow;
+  }
+}
+```
+Ejemplo con **OR**:
+```css
+@media (max-width: 600px), (orientation: portrait) {
+  body {
+    font-size: 14px;
+  }
+}
+```
+
+---
+
+### **Uso en HTML (raro, pero posible)**
+También puedes usar `@media` dentro de una etiqueta `<style>` en HTML o incluso en atributos de `<link>`:
+```html
+<link rel="stylesheet" href="estilos.css" media="screen and (max-width: 768px)">
+```
+Sin embargo, es más común definirlas dentro del CSS.
+
+---
+
+## **Conclusión**
+La regla `@media` es clave para el diseño responsivo en CSS, permitiendo adaptar el estilo de una web a diferentes tamaños de pantalla, resoluciones y preferencias del usuario. Se usa junto con Flexbox o Grid para crear interfaces dinámicas y adaptables.
 
 
 
