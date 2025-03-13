@@ -40,7 +40,7 @@
         const viewportWidth = window.innerWidth;  // Usamos innerWidth en vez de visualViewport.width
 
         // Realizar el cálculo para el brillo, 1 + 0.1 * (100vw / 1000)
-        const brilloTiempoReal = viewportWidth/2000;
+        const brilloTiempoReal = 0.25 + viewportWidth/2000;
 
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
