@@ -51,6 +51,75 @@ Las **media queries** permiten aplicar estilos diferentes según el tamaño del 
 
 # 5.1. - Puntos de quiebre.
 
+# 5.1.1. - Introducción
+Los **puntos de quiebre** o **breakpoints** en CSS son valores predefinidos de ancho de pantalla que determinan cuándo aplicar estilos específicos para optimizar el diseño de una página en distintos dispositivos. Se utilizan en conjunto con **media queries** para modificar la disposición de los elementos y mejorar la experiencia del usuario según el tamaño de la pantalla.
+
+# 5.1.2. - Funcionamiento de los breakpoints  
+Cuando el viewport de un dispositivo alcanza un determinado **ancho mínimo o máximo**, los estilos definidos en la media query correspondiente entran en acción. Esto permite, por ejemplo, cambiar la estructura de un diseño **de una columna en móvil a varias columnas en pantallas más grandes** o ajustar el tamaño de los elementos para mejorar la legibilidad.  
+
+# 5.1.3. - Breakpoints más utilizados 
+Si bien los valores exactos pueden variar según el proyecto, los siguientes breakpoints suelen ser muy comunes al estar basados en tamaños estándar de dispositivos:  
+
+| Dispositivo         | Ancho Aproximado |
+|---------------------|-----------------|
+| Móviles pequeños   | 320px - 480px    |
+| Teléfonos grandes  | 481px - 767px    |
+| Tabletas          | 768px - 1023px   |
+| Escritorios       | 1024px - 1279px  |
+| Pantallas grandes  | 1280px en adelante |
+
+# 5.1.4. - Breakpoints según diversos frameworks CSS 
+**Bootstrap**
+| **Breakpoint** | **Resolución** | **Clase** |
+|---------------------|-----------------|-|
+| **Extra small**   | <576px | - |
+| **Small** | ≥576px | sm |
+| **Medium** | ≥768px | md |
+| **Large** | ≥992px | lg |
+| **Extra large** | ≥1200px | xl |
+| **Extra extra large** | ≥1400px | xxl |
+
+**Foundation**
+| **Breakpoint** | **Resolución** | **Clase** |
+|---------------------|-----------------|-|
+| **Small** | <640px | sm |
+| **Medium** | ≥640px | md |
+| **Large** | ≥1024px | lg |
+| **Extra large** | ≥1200px | xl |
+| **Extra extra large** | ≥1440px | xxl |
+
+**Bulma**
+| **Breakpoint** | **Resolución** |
+|---------------------|-----------------|
+| **mobile** | <768px |
+| **tablet** | ≥769px |
+| **desktop** | ≥1024px |
+| **widescreen** | ≥1216px |
+| **fullhd** | ≥1408px |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 HASTA AQUI  
 
