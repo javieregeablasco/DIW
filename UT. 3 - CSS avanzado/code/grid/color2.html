@@ -37,17 +37,20 @@
     function updateBrillo() {
         // ancho del viewport
         const viewportWidth = window.innerWidth;  
+        let erre=25;
+        let ge=25;
+        let be=25;
         // cálculo de la opacidad
       //  const opacidad = 0.6 * viewportWidth /1750;
         const opacidad = Math.min(255, 255* viewportWidth /1750);
         if (opacidad<80) {
-          const erre = opacidad;        
+          erre = opacidad;        
         }
         if (opacidad<160) {
-          const ge = opacidad;          
+          ge = opacidad;          
         }
         else {
-          const be = opacidad;
+          be = opacidad;
         }
           
               
