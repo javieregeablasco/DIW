@@ -15,6 +15,7 @@ En las interfaces web, las imágenes son un componente visual clave. Disponemos 
 
 Este apartado se dividirá entre las imágenes rasterizadas y las imagenes vectoriales. 
 -  Los **formatos de imagen rasterizados** (JPEG, PNG, WebP, ...) están compuestos por una matriz de píxeles, donde cada píxel tiene un color específico. Son ideales para fotografías y gráficos complejos con muchos detalles, pero pierden calidad cuando se amplían, ya que la resolución es fija.  
+![alt text](./img/lena.png)
 -  Los **formatos de imagen vectoriales** (SVG) están formados por fórmulas matemáticas que definen formas, líneas y colores. Son escalables sin pérdida de calidad, lo que los hace perfectos para logotipos, iconos y gráficos simples.
 
 ## 2.1. - Formatos de imagenes rasterizadas
