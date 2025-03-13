@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brillo Dinámico</title>
+    <title>Saturacion Dinámica</title>
     <style>
         :root {
             --color-primario: red;
@@ -23,7 +23,7 @@
 
         .conFiltro {
             /* Se aplicará el brillo dinámicamente mediante el script */
-           /* transition: filter 0.05s ease; /* Para un efecto de transición suave */
+          transition: filter 0.05s ease;
         }
     </style>
 </head>
@@ -39,7 +39,7 @@
         // ancho del viewport
         const viewportWidth = window.innerWidth;  
         // cálculo para el brillo, 1 + 0.1 * (100vw / 1000)
-        const brillo = 1 - viewportWidth/750;
+        const brillo = 0.6 * viewportWidth /1750;
 
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
