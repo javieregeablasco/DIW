@@ -43,7 +43,7 @@
         const styles = getComputedStyle(grid);
         document.getElementById('info').textContent = 
             "grid-template-columns: " + styles.getPropertyValue('grid-template-columns');
-*/
+
 			function updateGridInfo() {
         const grid = document.querySelector('.grid-container');
         const styles = getComputedStyle(grid);
@@ -56,8 +56,35 @@
 
       // Actualizar cada vez que se redimensione la ventana
       window.addEventListener('resize', updateGridInfo);			
+*/
+function countGridColumns() {
+            const grid = document.querySelector('.grid-container');
+            const styles = getComputedStyle(grid);
+            let gridTemplateColumns = styles.getPropertyValue('grid-template-columns');
 
+            document.getElementById('info').textContent = "grid-template-columns: " + gridTemplateColumns;
 
+            // Expresión regular para detectar repeat(n, valor)
+            const repeatRegex = /repeat\((\d+),\s*([^)]+)\)/g;
+            let totalColumns = 0;
+
+            // Procesar cada ocurrencia de repeat()
+            gridTemplateColumns = gridTemplateColumns.replace(repeatRegex, (match, count, value) => {
+                totalColumns += parseInt(count); // Añadir el número de repeticiones
+                return new Array(parseInt(count)).fill(value).join(" "); // Expandir repeat()
+            });
+
+            // Contar el número de valores restantes después de expandir repeat()
+            totalColumns += gridTemplateColumns.split(/\s+/).length;
+
+            document.getElementById('column-count').textContent = `Número total de columnas: ${totalColumns}`;
+        }
+
+        // Actualizar al cargar la página
+        countGridColumns();
+
+        // Actualizar cada vez que se redimensione la ventana
+        window.addEventListener('resize', countGridColumns);
 
     </script>
 
