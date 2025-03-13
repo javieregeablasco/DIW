@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brillo Dinámico</title>
+    <style>
+        :root {
+            --color-primario: red;
+            --color-texto: blanchedalmond;
+        }
+
+        .conFiltro, .sinFiltro {
+            color: var(--color-texto);
+            background-color: var(--color-primario);
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .conFiltro {
+            /* Se aplicará el brillo dinámicamente mediante el script */
+            transition: filter 0.3s ease; /* Para un efecto de transición suave */
+        }
+    </style>
+</head>
+<body>
+  <article>
+    <span class="sinFiltro">Texto al que no se le ajusta el brillo</span>
+    <br><br>
+    <span class="conFiltro">Texto al que se le ajusta el brillo</span>
+  </article>
+
+  <script>
+    // Función para actualizar el brillo basado en el ancho del viewport
+    function updateBrillo() {
+        // Obtener el ancho del viewport en px
+        const viewportWidth = window.innerWidth;  // Usamos innerWidth en vez de visualViewport.width
+
+        // Realizar el cálculo para el brillo, 1 + 0.1 * (100vw / 1000)
+        const brilloTiempoReal = 1 + 0.1 * (viewportWidth / 1000);
+
+        // Asignar el valor calculado al filtro de brillo
+        const conFiltro = document.querySelector('.conFiltro');
+        conFiltro.style.filter = `brightness(${brilloTiempoReal})`;
+    }
+
+    // Actualizar al cargar la página
+    updateBrillo();
+
+    // Actualizar cada vez que se redimensione la ventana
+    window.addEventListener('resize', updateBrillo);
+  </script>
+</body>
+</html>
+
