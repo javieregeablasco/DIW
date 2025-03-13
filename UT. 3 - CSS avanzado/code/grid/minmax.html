@@ -44,7 +44,7 @@ const grid = document.querySelector('.grid-container');
         const styles = getComputedStyle(grid);
         document.getElementById('info').textContent = 
             "grid-template-columns: " + styles.getPropertyValue('grid-template-columns');
-*/
+
 			function updateGridInfo() {
         const grid = document.querySelector('.grid-container');
         const styles = getComputedStyle(grid);
@@ -57,7 +57,7 @@ const grid = document.querySelector('.grid-container');
 
       // Actualizar cada vez que se redimensione la ventana
       window.addEventListener('resize', updateGridInfo);			
-/*
+*/
 function countGridColumns() {
             const grid = document.querySelector('.grid-container');
             const styles = getComputedStyle(grid);
@@ -86,7 +86,7 @@ function countGridColumns() {
 
         // Actualizar cada vez que se redimensione la ventana
         window.addEventListener('resize', countGridColumns);
-*/
+
     </script>
 
 </body>
