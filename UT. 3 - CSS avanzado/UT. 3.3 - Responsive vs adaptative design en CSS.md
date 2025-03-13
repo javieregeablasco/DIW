@@ -16,6 +16,32 @@ Por otro lado, el **diseño adaptativo** se fundamenta en la creación de **vari
 Ambos enfoques tienen sus ventajas y desventajas. Mientras que el diseño responsive ofrece mayor **flexibilidad y mantenimiento más sencillo**, el diseño adaptativo permite un **mayor control sobre la experiencia de usuario en cada dispositivo**. La elección entre uno u otro dependerá de factores como el tipo de contenido, el público objetivo y los recursos disponibles para el desarrollo.
 
 # 2. - Responsive design
+## 2.1. - Pros del diseño responsive  
+
+- Elimina la necesidad de desarrollar diferentes diseños para cada dispositivo de visualización.   
+- Los sitios web responsivos redimensionan imágenes, contenido, formas y botones para maximizar el espacio en pantalla. Esto hace que el contenido sea fácil de visualizar, que las imágenes se ajusten al tamaño de la pantalla y que los botones sean fácilmente seleccionables.  
+- Un diseño responsive se adapta fácilmente a los estándares web modernos.  
+- En un diseño responsive facilita el mantenimiento al solo existir una versión del sitio web.   
+- Mejora **SEO** del sitio web, ya que los motores de búsqueda no necesitan rastrear versiones separadas para dispositivos móviles y escritorio.  
+
+## 2.2. - Contras del diseño responsive  
+- Las páginas web responsivas pueden tardar más en cargarse (lo que penaliza el **SEO**).  
+- Dado que el sitio **se organiza verticalmente** para ajustarse al espacio reducido de la pantalla, el usuario puede pasar por alto elementos esenciales de la página debido al **scrolling excesivo**.
+
+# 3. - Adaptative design
+## 3.1. - Pros del diseño adaptativo
+- **Carga de página más rápida**. Los contenidos se ajustan para mostrar solo las características necesarias para cada dispositivo y optimizar todo el contenido según el tamaño y la resolución de la pantalla.  
+- **Interfaz optimizada para cada tamaño de dispositivo**. El diseño adaptativo permite **personalizar el contenido y su distribución** para mejorar la experiencia de usuario. Esto permite mostrar un diseño específico para cada tipo de dispositivo, a diferencia del diseño responsive, donde se mantiene el mismo diseño para todos.  
+- **Mejor experiencia para una audiencia más amplia**. No todos los usuarios tienen dispositivos modernos capaces de ejecutar o interpretar el código complejo y las propiedades CSS avanzadas de un diseño responsive, lo que puede afectar negativamente la experiencia de usuario.   
+
+## 3.2. - Contras del diseño adaptativo  
+
+HASTA AQUI
+
+- **Mayor esfuerzo de desarrollo** – Muchos diseñadores evitan el diseño adaptativo porque implica **trabajo repetitivo**. Mientras que en el diseño responsive solo se necesita un conjunto de HTML y CSS que se adapta a diferentes tamaños de pantalla, en el diseño adaptativo es necesario escribir **diferentes códigos para distintos dispositivos**, lo que requiere más tiempo y esfuerzo.  
+- **Requiere desarrolladores especializados** – El diseño web adaptativo suele necesitar un equipo de desarrolladores con experiencia para manejar la complejidad de distintos dispositivos. Se deben crear y ajustar múltiples diseños para distintos viewports con el fin de ofrecer la mejor interfaz en cada caso. Esto puede ser una **desventaja para pequeñas empresas con recursos limitados**.
+
+
 
 
 https://www.xenonstack.com/insights/adaptive-design-vs-responsive-design
