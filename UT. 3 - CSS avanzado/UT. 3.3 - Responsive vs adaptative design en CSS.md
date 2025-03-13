@@ -1,5 +1,5 @@
 ---
-Título: UD. 3.2 - Funciones y variables en CSS
+Título: UD. 3.3 - Diseño adaptativo y reactivo en CSS
 Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
