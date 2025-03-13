@@ -39,16 +39,17 @@
 		<p id="column-count"></p>
 
     <script>
-        const grid = document.querySelector('.grid-container');
+/*
+const grid = document.querySelector('.grid-container');
         const styles = getComputedStyle(grid);
         document.getElementById('info').textContent = 
             "grid-template-columns: " + styles.getPropertyValue('grid-template-columns');
-
+*/
 			function updateGridInfo() {
         const grid = document.querySelector('.grid-container');
         const styles = getComputedStyle(grid);
           document.getElementById('info').textContent = 
-          "grid-template-columns: " + styles.getPropertyValue('grid-template-columns').slice(0,2);
+          "grid-template-columns: " + styles.getPropertyValue('grid-template-columns').slice(1,2);
         }
 
       // Actualizar al cargar la página
