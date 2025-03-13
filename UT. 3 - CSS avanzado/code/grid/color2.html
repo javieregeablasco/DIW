@@ -40,11 +40,14 @@
         // cálculo de la opacidad
       //  const opacidad = 0.6 * viewportWidth /1750;
       const opacidad = Math.min(255, 255* viewportWidth /1750);
+      const erre = opacidad -20;
+      const ge = opacidad + 40;
+      const be = opacidad + 60
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
    //     conFiltro.style.filter = `opacity(${opacidad})`;
-        conFiltro.style.backgroundColor = `rgb(${opacidad}, ${opacidad}, ${opacidad})`;
-        console.log('color='+conFiltro.style.backgroundColor)
+        conFiltro.style.backgroundColor = `rgb(${opacidad}-20, ${opacidad}+40, ${opacidad})60`;
+        console.log('valor R='+erre+'valor G'+ge+'valor B'+be)
     }
 
     // Actualizar al cargar la página
