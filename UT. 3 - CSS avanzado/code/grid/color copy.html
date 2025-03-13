@@ -20,14 +20,14 @@
 
         .conFiltro {
             /* Se aplicará el brillo dinámicamente mediante el script */
-            transition: filter 0.3s ease; /* Para un efecto de transición suave */
+            transition: filter 0.05s ease; /* Para un efecto de transición suave */
         }
     </style>
 </head>
 <body>
   <article>
     <span class="sinFiltro">Texto al que no se le ajusta el brillo</span>
-    <br><br>
+    <br><br><br>
     <span class="conFiltro">Texto al que se le ajusta el brillo</span>
   </article>
 
@@ -38,7 +38,7 @@
         const viewportWidth = window.innerWidth;  // Usamos innerWidth en vez de visualViewport.width
 
         // Realizar el cálculo para el brillo, 1 + 0.1 * (100vw / 1000)
-        const brilloTiempoReal = 1 + 0.1 * (viewportWidth);
+        const brilloTiempoReal = 0.75 + 0.2 * (viewportWidth/1000);
 
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
