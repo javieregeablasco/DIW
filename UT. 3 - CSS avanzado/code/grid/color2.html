@@ -28,21 +28,21 @@
 </head>
 <body>
   <article>
-    <span class="sinFiltro">Texto al que no se le ajusta el brillo</span>
-    <span class="conFiltro">Texto al que se le ajusta el brillo</span>
+    <span class="sinFiltro">Texto al que no se le ajusta la opacidad</span>
+    <span class="conFiltro">Texto al que se le ajusta la opacidad</span>
   </article>
 
   <script>
-    // Función para actualizar el brillo basado en el ancho del viewport
+    // Función para actualizar la opacidad basado en el ancho del viewport
     function updateBrillo() {
         // ancho del viewport
         const viewportWidth = window.innerWidth;  
-        // cálculo para el brillo, 1 + 0.1 * (100vw / 1000)
-        const brillo = 0.6 * viewportWidth /1750;
+        // cálculo de la opacidad
+        const opacidad = 0.6 * viewportWidth /1750;
 
         // Asignar el valor calculado al filtro de brillo
         const conFiltro = document.querySelector('.conFiltro');
-        conFiltro.style.filter = `opacity(${brillo})`;
+        conFiltro.style.filter = `opacity(${opacidad})`;
     }
 
     // Actualizar al cargar la página
