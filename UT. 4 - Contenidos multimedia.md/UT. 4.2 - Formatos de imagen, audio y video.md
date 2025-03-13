@@ -82,6 +82,7 @@ A pesar de su limitada calidad de imagen, mucha gente utiliza el GIF porque perm
 ---
 
 ### 2.1.5. - Formato de imagen HEIF  
+<img src="./img/heif.png" width=25%>  
 
 El formato HEIF (High Efficiency Image Format) no es ampliamente utilizado en la web, aunque tiene potencial debido a su eficiencia en la compresión de imágenes (mayor calidad y menor tamaño que JPEG).  
 
