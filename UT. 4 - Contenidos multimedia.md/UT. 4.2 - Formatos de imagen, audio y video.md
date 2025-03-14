@@ -443,12 +443,7 @@ La **compresión de video** reduce el tamaño del archivo eliminando informació
 El **bitrate** en video determina la cantidad de datos utilizados para representar el video durante un período de tiempo. Se mide en **kilobits por segundo (kbps)** y afecta directamente a la calidad y tamaño del archivo.
 edia. 
 
-
-
-
-
-
-## 6.3 - Herramientas de edición de video gratuitas
+## 4.8. - Herramientas de edición de video gratuitas
 ![](https://www.videosoftdev.com/images/video_editor/box.png)  
 **VSDC Free Video Editor** es un editor de video gratuito que ofrece una amplia gama de herramientas de edición para proyectos complejos, ideal para quienes buscan una opción robusta pero gratuita.
    - **Características**: Edición no lineal, efectos visuales, corrección de color, soporte para múltiples formatos de video, exportación en alta definición.
@@ -467,7 +462,7 @@ edia.
 **Kdenlive** es un editor de video de código abierto para Linux, aunque también está disponible para Windows y macOS. Es una de las mejores opciones gratuitas para usuarios de Linux.
    - **Características**: Edición multipista, efectos de video y transiciones, soporte para múltiples formatos de video y audio, integración con FFmpeg.
 ---
-## 6.4 - Ejemplos de ediciones de video lineal y no lineales:
+## 4.9 - Ejemplos de ediciones de video lineal y no lineales:
 
 <a href="https://www.youtube.com/watch?v=63vqob-MljQ&list=PLuAMrIXhypV6rSk9RAS9hwF8VoMW3OVaE&index=2">Video lineal</a>  
 <a href="https://www.youtube.com/watch?v=0P4A1K4lXDo">Video no lineal</a>
