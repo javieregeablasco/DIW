@@ -185,7 +185,7 @@ También es posible incluir elementos interactivos en un PDF, por ejemplo, enlac
 
 **Photopea** es una herramienta de edición de imágenes **online** que se asemeja a Adobe Photoshop.  
 
-## 2.5. - Tarea RA3-CEa-1
+## 2.5. - Tarea RA3-CEc / RA3-CEd
 
 # 3. Formatos de Audio
 El audio en las interfaces web se utiliza principalmente en contenido multimedia, como videos o podcasts. Los formatos deben ofrecer un equilibrio entre calidad y tamaño de archivo.  
@@ -349,8 +349,7 @@ El formato WAV (WaveForm Audio File) es un archivo que desarrolló originalmente
 
 **Radium** es un software de edición y composición de audio principalmente para Mac. Tiene una propuesta diferente en cuanto a la organización de su interfaz, lo que puede ser un poco desconcertante al principio.
 
-## 3.4. - Tarea RA3-CEa-2
-
+## 3.4. - Tarea RA3-CEc - RA3-CEe - 1
 # 4. Formatos de Video  
 El video es otro recurso de las interfaces web, pero su uso intensivo de datos requiere formatos que ofrezcan buena compresión sin sacrificar demasiada calidad.
 Existen diversos formatos de video (MP4, WebM, AVI, MKV, MOV…), pero los más utilizados en la web son los formatos MP4 y WebM debido a su amplia compatibilidad y buen rendimiento.
@@ -470,5 +469,4 @@ edia.
 <a href="https://www.youtube.com/watch?v=63vqob-MljQ&list=PLuAMrIXhypV6rSk9RAS9hwF8VoMW3OVaE&index=2">Video lineal</a>  
 <a href="https://www.youtube.com/watch?v=0P4A1K4lXDo">Video no lineal</a>
 
-# 7 - Tarea:
-Realizar breves comentarios sobre las herramientas elegidas. 
+## 4.10. - Tarea RA3-CEc - RA3-CEe - 2
