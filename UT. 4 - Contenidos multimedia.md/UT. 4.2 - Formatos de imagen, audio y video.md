@@ -414,41 +414,23 @@ El **bitrate** en video determina la cantidad de datos utilizados para represent
 **GIMP** (GNU Image Manipulation Program) es una de las alternativas gratuitas más poderosas y completas a editores depago como Adobe Photoshop. Ofrece herramientas avanzadas de edición y diseño de imágenes.  
 
 ---   
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Krita-logo.svg/160px-Krita-logo.svg.png)  
-**Krita** es un programa de código abierto diseñado principalmente para ilustración y arte digital, pero también tiene capacidades de edición de imágenes.
-- **Características**: Herramientas avanzadas de pintura digital, soporte para tabletas gráficas, capas, selección y ajuste de color.
----   
+
 ![](https://media.inkscape.org/static/images/inkscape-logo.svg)  
 **Inkscape** es principalmente **un editor de gráficos vectoriales**, pero también permite trabajar con imágenes rasterizadas.
-- **Características**: Creación y edición de gráficos vectoriales, soporte para SVG, herramientas de dibujo y edición.
----
-<img src="https://pixlr.com/learn/wp-content/uploads/2021/04/PixlrX-Overview-400x250_tn.jpg" width=15%>  
 
-**Pixlr X** es una herramienta de **edición de imágenes online** que ofrece una interfaz moderna con herramientas básicas y avanzadas para retoques rápidos.
-- **Características**: Filtros, herramientas de edición de capas, ajustes de color, herramientas de retoque, soporte IA. Funciones avanzadas limitadas en comparación con software de escritorio gratuito.
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Darktable_icon.svg/120px-Darktable_icon.svg.png)  
+   
+<img src="./img/therapy.png" width=50%>
 
-**Darktable** es un software gratuito de edición de imágenes para fotógrafos.
-- **Características**: Herramientas avanzadas de corrección de color y exposición.
----   
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/RawTherapee_logo-text-black.svg/120px-RawTherapee_logo-text-black.svg.png)  
 **RawTherapee** está diseñado para la **edición de imágenes RAW** con un enfoque en la corrección de color y el procesamiento de alta calidad.
-- **Características**: Procesamiento de imágenes RAW, ajustes de exposición, balance de blancos, corrección de color.
+
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Photopea_logo.svg/120px-Photopea_logo.svg.png)  
+<img src="./img/fotopea.png" width =20%>  
+
 **Photopea** es una herramienta de edición de imágenes **online** que se asemeja a Adobe Photoshop.  
 
-Está diseñado para trabajar con gráficos rasterizados y vectoriales, y permite la edición de imágenes **online**.
-- **Características**:  
-   - Soporta múltiples formatos de archivo, incluidos PSD (Photoshop), XCF (GIMP), Sketch, AI, y formatos estándar como PNG, JPEG, SVG.
-   - Edición de capas, herramientas de selección avanzadas, ajuste de color, retoque de imágenes, y soporte para máscaras y objetos inteligentes.
-   - Herramientas de texto, filtros y efectos visuales.
-   - Compatibilidad con gráficos vectoriales y rasterizados, permitiendo trabajar con formas, líneas y trazados.
-   - Exportación de archivos en varios formatos comunes de imagen.
-
 ## 6.2 - Herramientas de edición de audio gratuitas
- ![](https://upload.wikimedia.org/wikipedia/commons/e/e2/Audacity_Logo_nofilter.svg))  
+ ![](https://upload.wikimedia.org/wikipedia/commons/e/e2/Audacity_Logo_nofilter.svg) 
 
 **Audacity** es una de las herramientas de edición de audio más populares y completas.   
 - **Características**: Grabación y edición multipista, efectos de audio, soporte para varios formatos (MP3, WAV, OGG, FLAC), eliminación de ruido.
