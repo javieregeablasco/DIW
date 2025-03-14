@@ -370,24 +370,24 @@ WebM es un formato multimedia abierto y libre desarrollado por Google y orientad
 - **Usos**: Videos optimizados para web, streaming.
 
 ### 4.5.3. - AVI (Audio Video Interleave)
-![alt text](./img/avilogo.png)
-Formato más antiguo, compatible en Windows pero con un mayor tamaño de archivo. 
- **Ventajas**: Alta calidad, sin pérdida de datos.  
+<img src="./img/avilogo.png" width=12%>  
+
+Formato más antiguo, compatible en Windows pero con un mayor tamaño de archivo.   
+- **Ventajas**: Alta calidad, sin pérdida de datos.  
 - **Desventajas**: Archivos grandes y mayor demanda de almacenamiento y ancho de banda.  
 - **Usos**: Videos de alta calidad en entornos controlados, como edición de video.
 
 ### 4.5.4. - Formato OGG
 <img src="https://icons.veryicon.com/png/o/file-type/full-file-extension/ogg-11.png" width=10%>
 
-Ogg es un formato contenedor libre y abierto, desarrollado y mantenido por la Fundación Xiph.Org
-
-Ogg está diseñado para proporcionar una difusión de flujo eficiente y manipulación de multimedios digitales de alta calidad.
+Ogg es un formato contenedor libre y abierto, desarrollado y mantenido por la Fundación Xiph.Org. Está diseñado para proporcionar una difusión de flujo eficiente y manipulación de multimedios digitales de alta calidad.
   - **Ventajas**: Libre de patentes, buena compresión.
   - **Desventajas**: Menor calidad comparada con mp4 o WebM.
   - **Usos**: Alternativa a mp4 o WebM en navegadores compatibles.
 
 ### 4.5.5. - Formato MKV
-![alt text](./img/mkvlogo.png)
+<img src="./img/mkvlogo.png" width=12%>  
+
 El **MKV** es un contenedor flexible que puede contener múltiples pistas de audio, subtítulos y capítulos.
 
 - **Ventajas**: Sin pérdidas, flexible y soporta múltiples idiomas y subtítulos.  
@@ -407,16 +407,9 @@ La **compresión de video** reduce el tamaño del archivo eliminando informació
 ## 4.7. - Bitrate de Video
 El **bitrate** en video determina la cantidad de datos utilizados para representar el video durante un período de tiempo. Se mide en **kilobits por segundo (kbps)** y afecta directamente a la calidad y tamaño del archivo.
 
+# 5. - Herramientas para generar contenido multimedia. 
 
-
-
-
-# 5 - Tarea:
-Preguntas tipo test. 
-
-# 6. - Herramientas para generar contenido multimedia. 
-
-## 6.1 - Herramientas de edición de imagenes gratuitas
+## 5.1 - Herramientas de edición de imagenes gratuitas
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/120px-The_GIMP_icon_-_gnome.svg.png)  
 **GIMP** (GNU Image Manipulation Program) es una de las alternativas más poderosas y completas a Adobe Photoshop. Ofrece herramientas avanzadas de edición y diseño de imágenes.  
 - **Características**: Edición de capas, herramientas de selección avanzadas, filtros, soporte para plugins.
