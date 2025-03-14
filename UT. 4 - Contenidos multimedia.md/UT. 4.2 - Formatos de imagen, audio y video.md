@@ -165,6 +165,27 @@ También es posible incluir elementos interactivos en un PDF, por ejemplo, enlac
 | **Animaciones**         | No                                      | No                                                           | Sí                        | Sí                                           |
 | **Adecuado para**       | Fotos                                   | Imágenes y gráficos de pequeña envergadura (ej: logotipos), fotos sin pérdidas | Animaciones               | Todo tipo de gráficos (logotipos, iconos, diagramas, etc.) |
 
+## 2.4 - Herramientas de edición de imagenes gratuitas
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/120px-The_GIMP_icon_-_gnome.svg.png)  
+**GIMP** (GNU Image Manipulation Program) es una de las alternativas gratuitas más poderosas y completas a editores depago como Adobe Photoshop. Ofrece herramientas avanzadas de edición y diseño de imágenes.  
+
+---   
+
+![](https://media.inkscape.org/static/images/inkscape-logo.svg)  
+**Inkscape** es principalmente **un editor de gráficos vectoriales**, pero también permite trabajar con imágenes rasterizadas.
+
+---
+   
+<img src="./img/therapy.png" width=50%>
+
+**RawTherapee** está diseñado para la **edición de imágenes RAW** con un enfoque en la corrección de color y el procesamiento de alta calidad.
+
+---
+<img src="./img/fotopea.png" width =20%>  
+
+**Photopea** es una herramienta de edición de imágenes **online** que se asemeja a Adobe Photoshop.  
+
+
 # 3. Formatos de Audio
 El audio en las interfaces web se utiliza principalmente en contenido multimedia, como videos o podcasts. Los formatos deben ofrecer un equilibrio entre calidad y tamaño de archivo.  
 Existen muchos tipos de formatos de audio (mp3, wav, ogg, mp4…). Los que más se utilizan en la web son los formatos mp3 y ogg.
@@ -406,28 +427,9 @@ La **compresión de video** reduce el tamaño del archivo eliminando informació
 
 ## 4.7. - Bitrate de Video
 El **bitrate** en video determina la cantidad de datos utilizados para representar el video durante un período de tiempo. Se mide en **kilobits por segundo (kbps)** y afecta directamente a la calidad y tamaño del archivo.
+edia. 
 
-# 5. - Herramientas para generar contenido multimedia. 
 
-## 5.1 - Herramientas de edición de imagenes gratuitas
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/120px-The_GIMP_icon_-_gnome.svg.png)  
-**GIMP** (GNU Image Manipulation Program) es una de las alternativas gratuitas más poderosas y completas a editores depago como Adobe Photoshop. Ofrece herramientas avanzadas de edición y diseño de imágenes.  
-
----   
-
-![](https://media.inkscape.org/static/images/inkscape-logo.svg)  
-**Inkscape** es principalmente **un editor de gráficos vectoriales**, pero también permite trabajar con imágenes rasterizadas.
-
----
-   
-<img src="./img/therapy.png" width=50%>
-
-**RawTherapee** está diseñado para la **edición de imágenes RAW** con un enfoque en la corrección de color y el procesamiento de alta calidad.
-
----
-<img src="./img/fotopea.png" width =20%>  
-
-**Photopea** es una herramienta de edición de imágenes **online** que se asemeja a Adobe Photoshop.  
 
 ## 6.2 - Herramientas de edición de audio gratuitas
  ![](https://upload.wikimedia.org/wikipedia/commons/e/e2/Audacity_Logo_nofilter.svg) 
