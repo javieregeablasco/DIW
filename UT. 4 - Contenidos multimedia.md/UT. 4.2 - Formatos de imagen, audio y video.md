@@ -21,7 +21,7 @@ Este apartado se dividirá entre las imágenes rasterizadas y las imagenes vecto
       <br>
 -  Los **formatos de imagen vectoriales** (SVG) están formados por fórmulas matemáticas que definen formas, líneas y colores. **Son escalables sin pérdida de calidad**, lo que los hace perfectos para logotipos, iconos y gráficos simples.
 
-    <img src="./img/svg.png" width=58%>
+    <img src="./img/svg.png" width=50%>
 
 
 ## 2.1. - Formatos de imagenes rasterizadas
