@@ -4,8 +4,7 @@ Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
 ---
-
-![alt text](./img/tailwind.png)
+<img src="./img/tailwind.png" width=50%> 
 
 # 1. Introducción: "Desarrollo Frontend con Tailwind CSS"
 
