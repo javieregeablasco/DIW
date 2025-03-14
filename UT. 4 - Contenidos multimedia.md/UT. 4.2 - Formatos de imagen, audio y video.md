@@ -442,19 +442,10 @@ edia.
 **Ocenaudio** es una alternativa más ligera y fácil de usar que Audacity, ideal para ediciones rápidas y sencillas.
 - **Características**: Edición en tiempo real, soporte para efectos VST, análisis espectral, y soporte para múltiples formatos.
 ---   
-![](https://ardour.org/images/ardour_logo_navbar.png)  
-**Ardour** es ideal para la grabación, edición y mezcla de audio multipista, especialmente orientado a músicos y productores.  
-- **Características**: Grabación multipista, edición no destructiva, soporte para efectos VST, MIDI, y exportación a múltiples formatos.
----
 ![](https://users.notam02.no/~kjetism/radium/radium_logo_128x128_colorized.png)
 
-**Radium** es un software de edición y composición de audio principalmente para Mac.  
+**Radium** es un software de edición y composición de audio principalmente para Mac. Tiene una propuesta diferente en cuanto a la organización de su interfaz, lo que puede ser un poco desconcertante al principio.
 
-Tiene una propuesta diferente en cuanto a la organización de su interfaz, lo que puede ser un poco desconcertante al principio. .
-
-Con Radium se puede editar audio manualmente, pero cuenta con pequeñas ayudas para automatizar la velocidad y el tempo y para aplicar efectos y correcciones por su cuenta.
-
-Este editor está enfocado a la edición musical, por lo que cuenta con soporte para plugins VST, AU y LADSPA, además de mezclador modular y secuenciador MIDI.
 
 ## 6.3 - Herramientas de edición de video gratuitas
 ![](https://www.videosoftdev.com/images/video_editor/box.png)  
