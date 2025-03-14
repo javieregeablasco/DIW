@@ -166,9 +166,41 @@ También es posible incluir elementos interactivos en un PDF, por ejemplo, enlac
 | **Adecuado para**       | Fotos                                   | Imágenes y gráficos de pequeña envergadura (ej: logotipos), fotos sin pérdidas | Animaciones               | Todo tipo de gráficos (logotipos, iconos, diagramas, etc.) |
 
 # 3. Formatos de Audio
-## 3.1. - Definiciones
 El audio en las interfaces web se utiliza principalmente en contenido multimedia, como videos o podcasts. Los formatos deben ofrecer un equilibrio entre calidad y tamaño de archivo.  
 Existen muchos tipos de formatos de audio (mp3, wav, ogg, mp4…). Los que más se utilizan en la web son los formatos mp3 y ogg.
+## 3.1. - Definiciones
+### 3.1.1. - Digitalización de la señal de audio
+Toda fuente La digitalización y tratamiento del audio digital que podemos realizar utilizando programas de software se divide en dos etapas:
+<br>  
+:one: Muestrear (o discretizar) **la señal analógica** a intervalos regulares.    
+:two: Asignarle a esas muestras **un valor binario** para crear una **señal digital**.
+
+![alt text](./img/Muestreo.png)
+
+<br>
+
+### 3.1.2. - Frecuencia de muestreo
+La frecuencia de muestreo es el número de veces por segundo que se toma una muestra de una señal analógica para convertirla en digital. Se mide en hercios (Hz) o muestras por segundo.
+<br><br>
+
+>**Frecuencias de muestreo comunes:**  
+
+Algunos valores estándar de frecuencia de muestreo en audio digital son:  
+    8 kHz → Usado en telefonía (voz humana).  
+    :arrow_forward: **22.05 kHz** → Se usa en efectos de sonido ligeros o clips de audio en aplicaciones web para reducir el peso de los archivos.  
+    :arrow_forward: **44.1 kHz** → Estándar en la mayoría de archivos de audio en la web, ya que es la misma frecuencia de muestreo de los CDs de audio. Se usa en música en streaming, podcasts y efectos de sonido. 
+    :arrow_forward: **48 kHz** → Común en videos y plataformas multimedia como YouTube y Vimeo, ya que es el estándar en producción de video.  
+    96 kHz - 192 kHz → Usado en grabaciones de alta fidelidad y estudios de audio.  
+
+<br>
+
+>**Efectos de la frecuencia de muestreo:**
+- **Frecuencia baja** → Puede generar aliasing, un efecto que distorsiona la señal original.
+- **Frecuencia alta** → Aumenta la calidad, pero también el tamaño del archivo y la demanda de procesamiento.
+
+ 
+
+
 
 ---
 https://www.usastreams.com/blog-streaming/4056/aclarando-terminos-que-es-bitrate-samplerate-mono-estereo-cbr-decibelio/
