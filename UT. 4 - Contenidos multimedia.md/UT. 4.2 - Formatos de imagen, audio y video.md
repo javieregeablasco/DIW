@@ -317,46 +317,33 @@ El formato WAV (WaveForm Audio File) es un archivo que desarrolló originalmente
 El video es otro recurso de las interfaces web, pero su uso intensivo de datos requiere formatos que ofrezcan buena compresión sin sacrificar demasiada calidad.
 Existen diversos formatos de video (MP4, WebM, AVI, MKV, MOV…), pero los más utilizados en la web son los formatos MP4 y WebM debido a su amplia compatibilidad y buen rendimiento.
 
-## 4.1. - Definiciones
+## 4.1. - Componentes de un archivo de video
+Un archivo de video digital está compuesto principalmente por los siguientes componentes:  
 
-### 4.1.1. - Componentes de un archivo de video
-Un archivo de video digital está compuesto principalmente por dos componentes:  
-
-- **Video**: Contiene las imágenes en movimiento que conforman el video.  
-- **Audio**: Acompaña al video proporcionando sonido.
+- **Video:** Contiene las imágenes en movimiento que conforman el video.  
+- **Audio:** Acompaña al video proporcionando sonido.
+- **Subtítulos:** Texto que se sobrepone a la imagen. Aportan información adicional sobre los contenidos, traducen si son extranjeros o simplemente replican los diálogos para facilitar la accesibilidad a personas con dificultades auditivas.   
 
 Cada uno de estos componentes se codifica por separado utilizando diferentes códecs, como H.264 para video y AAC para audio.
---------------------------------------
-HASTA AQUI
----------------------------------------
 
-
-### 3.1.2. - Resolución de video
+##  4.2. - Resolución de video
 La **resolución de video** es la cantidad de píxeles que componen cada fotograma del video, lo que afecta directamente a la calidad visual. Las resoluciones comunes incluyen:
 
-- **480p (SD)**: Definición estándar, utilizada en televisores antiguos o conexiones lentas.  
-- **720p (HD)**: Alta definición, ideal para video en línea y dispositivos móviles.  
+- :arrow_forward: **480p (SD)**: Definición estándar, utilizada en televisores antiguos o conexiones lentas.  
+- :arrow_forward: **720p (HD)**: Alta definición, ideal para video en línea y dispositivos móviles.  
 - **1080p (Full HD)**: Full High Definition, ampliamente utilizado en plataformas de streaming y Blu-Ray.  
 - **1440p (2K)**: Resolución de mayor calidad, utilizada en producción profesional.  
 - **2160p (4K)**: Ultra Alta Definición, ideal para pantallas grandes y producción cinematográfica.  
 - **4320p (8K)**: Resolución de altísima definición, utilizada en producción de cine de última generación.
 
->**Impacto de la Resolución en el Video**  
-- **Mayor resolución** → Mejor calidad visual, pero mayor tamaño de archivo y requisitos de ancho de banda.  
-- **Menor resolución** → Menor calidad, pero archivos más pequeños y menor demanda de recursos.
-
-### 3.1.3. - Tasa de cuadros (Frame Rate)
-La **tasa de cuadros** o **frame rate** se refiere a la cantidad de imágenes (fotogramas) que se muestran por segundo. Las tasas de cuadros comunes son:
+## 4.3. -  Frame rate o fotogramas por segundo (FPS)
+El **frame rate** se refiere a la cantidad de imágenes (fotogramas) que se muestran por segundo. Los FPS más comunes son:
 
 - **24 fps**: Usado en cine, proporciona un movimiento natural.  
 - **30 fps**: Común en televisión y videos en línea.  
 - **60 fps**: Proporciona una experiencia fluida, ideal para videojuegos y transmisiones deportivas.
 
->**Efectos de la tasa de cuadros**  
-- **Baja tasa de cuadros** → Menor carga en el sistema, pero puede parecer entrecortado.  
-- **Alta tasa de cuadros** → Mayor fluidez, pero mayor uso de almacenamiento y ancho de banda.
-
-### 3.1.4. - Códecs de Video
+## 4.4. - Códecs de Video
 El **códec** es el software encargado de comprimir y descomprimir el archivo de video. Algunos códecs populares incluyen:
 
 - **H.264**: Códec más utilizado para video en la web, ofrece buena calidad y compresión.  
@@ -364,96 +351,32 @@ El **códec** es el software encargado de comprimir y descomprimir el archivo de
 - **VP8 / VP9**: Códecs de Google utilizados en plataformas como YouTube, con buena eficiencia y calidad.  
 - **AV1**: Códec emergente con una alta tasa de compresión, especialmente útil para video en 4K y superior.
 
->**Impacto del Códec en la Calidad del Video**  
-- **Códecs eficientes** → Reducen el tamaño del archivo sin comprometer demasiado la calidad.  
-- **Códecs menos eficientes** → Mayor tamaño de archivo y mayor demanda de ancho de banda.
-
-### 3.1.5. - Formatos de Contenedor
-Un **formato de contenedor** es el formato del archivo que almacena tanto el video como el audio, además de metadatos y subtítulos. Algunos formatos de contenedor comunes son:
-
-- **MP4 (MPEG-4)**: El formato más popular, compatible con casi todos los dispositivos y plataformas de streaming.  
-- **WebM**: Formato de código abierto usado en la web, especialmente en plataformas de video como YouTube.  
-- **AVI (Audio Video Interleave)**: Formato más antiguo, compatible en Windows pero con un mayor tamaño de archivo.  
-- **MKV (Matroska)**: Formato flexible que soporta múltiples pistas de audio y video, ideal para videos de alta calidad.  
-- **MOV**: Formato usado por Apple en sus dispositivos y software como QuickTime.
-
-### 3.1.6. - Compresión de Video
-La **compresión de video** reduce el tamaño del archivo eliminando información redundante o irrelevante. Existen dos tipos de compresión:
-
-- **Compresión con pérdida**: Elimina datos que no afectan perceptiblemente la calidad (ej., MP4 con H.264).  
-- **Compresión sin pérdida**: Mantiene todos los datos originales, pero produce archivos mucho más grandes (ej., AVI sin compresión).
-
->**Efectos de la Compresión de Video**  
-- **Compresión con pérdida** → Menor tamaño de archivo, pero puede haber una pérdida de calidad perceptible.  
-- **Compresión sin pérdida** → Alta calidad, pero tamaños de archivo muy grandes.
-
-### 3.1.7. - Bitrate de Video
-El **bitrate** en video determina la cantidad de datos utilizados para representar el video durante un período de tiempo. Se mide en **kilobits por segundo (kbps)** o **megabits por segundo (Mbps)** y afecta directamente a la calidad y tamaño del archivo. Un **bitrate alto** ofrece mejor calidad, pero genera un archivo más grande.
-
->**Efectos del Bitrate en la Calidad**  
-- **Bitrate bajo** → Calidad de video reducida y más compresión visible.  
-- **Bitrate alto** → Mejor calidad de imagen, pero mayor tamaño de archivo.
-
-## 3.2. - Formatos de Archivos de Video
-
-### 3.2.1. - Formato MP4
-El formato **MP4** es el más utilizado para video en la web. Es compatible con casi todos los navegadores, dispositivos y plataformas de streaming.
-
-- **Ventajas**: Alta compatibilidad, buena compresión, calidad aceptable.  
-- **Desventajas**: Compresión con pérdida, lo que puede reducir la calidad en tasas de bits bajas.  
-- **Usos**: Video en línea, plataformas de streaming, grabaciones en dispositivos móviles.
-
-### 3.2.2. - Formato WebM
-El **WebM** es un formato libre y abierto desarrollado por Google, ideal para el uso en la web, especialmente en YouTube y otros sitios de video.
-
-- **Ventajas**: Libre de patentes, alta compresión y calidad.  
-- **Desventajas**: Menor soporte en algunos navegadores o dispositivos más antiguos.  
-- **Usos**: Videos en línea, especialmente en navegadores compatibles como Chrome y Firefox.
-
-### 3.2.3. - Formato AVI
-El **AVI** es un formato más antiguo de Microsoft, que guarda audio y video sin comprimir o con poca compresión.
-
-- **Ventajas**: Alta calidad, sin pérdida de datos.  
-- **Desventajas**: Archivos grandes y mayor demanda de almacenamiento y ancho de banda.  
-- **Usos**: Videos de alta calidad en entornos controlados, como edición de video.
-
-### 3.2.4. - Formato MKV
-El **MKV** es un contenedor flexible que puede contener múltiples pistas de audio, subtítulos y capítulos.
-
-- **Ventajas**: Sin pérdidas, flexible y soporta múltiples idiomas y subtítulos.  
-- **Desventajas**: Menor compatibilidad con algunos dispositivos.  
-- **Usos**: Video en alta calidad, almacenamiento de películas y series.
-
----
-
----
-
-
-
-# 4. - Formatos de Video
-El video es otro recurso de las interfaces web, pero su uso intensivo de datos requiere formatos que ofrezcan buena compresión sin sacrificar demasiada calidad.
-
-## 4.1 - Formato MP4
+## 4.5. - Formatos de los archivos de video
+### 4.5.1 - MP4 (MPEG-4)
 <img src="https://icons.veryicon.com/png/o/file-type/file-type-icon/mp4-icon-1.png" width=10%>
 
-El formato MP4 es uno de los formatos más utilizados en la actualidad, especialmente cuando se trata de compartir contenido en línea. YouTube, por ejemplo, recomienda cargar archivos en formato .mp4 para obtener la mejor calidad de video.  
+Es el formato más popular, compatible con casi todos los dispositivos y plataformas de streaming. Los videos que usan el contenedor .MP4 pueden tener tamaños de archivo relativamente pequeños mientras conservan una alta calidad.
 
-Además de los datos de video y audio, también se puede usar para almacenar cosas como subtítulos e imágenes fijas. Por lo general, se combina con H.264 o H.265.  
+- **Ventajas**: Alta compresión, buena calidad, muy compatible.
+- **Desventajas**: Compresión con pérdida, lo que puede reducir la calidad en tasas de bits bajas.  
+- **Usos**: Video en línea, plataformas de streaming, grabaciones en dispositivos móviles. 
 
-Los videos que usan el contenedor .MP4 pueden tener tamaños de archivo relativamente pequeños mientras conservan una alta calidad.
-  - **Ventajas**: Alta compresión, buena calidad, muy compatible.
-  - **Desventajas**: Codificación con pérdida.
-  - **Usos**: Videos en streaming, contenido multimedia general.
-
-## 4.2 - Formato WebM
+### 4.5.2. - WebM
 <img src="https://icons.veryicon.com/png/o/file-type/full-file-extension/webm.png" width=10%>
 
 WebM es un formato multimedia abierto y libre desarrollado por Google y orientado para usarse con HTML5. 
-  - **Ventajas**: Libre de patentes, buena compresión, compatible con HTML5.
-  - **Desventajas**: Menor soporte que MP4 en algunos dispositivos.
-  - **Usos**: Videos optimizados para web, streaming.
+- **Ventajas**: Libre de patentes, buena compresión, compatible con HTML5.
+- **Desventajas**: Menor soporte que MP4 en algunos dispositivos.
+- **Usos**: Videos optimizados para web, streaming.
 
-## 4.3 - Formato OGG
+### 4.5.3. - AVI (Audio Video Interleave)
+![alt text](./img/avilogo.png)
+Formato más antiguo, compatible en Windows pero con un mayor tamaño de archivo. 
+ **Ventajas**: Alta calidad, sin pérdida de datos.  
+- **Desventajas**: Archivos grandes y mayor demanda de almacenamiento y ancho de banda.  
+- **Usos**: Videos de alta calidad en entornos controlados, como edición de video.
+
+### 4.5.4. - Formato OGG
 <img src="https://icons.veryicon.com/png/o/file-type/full-file-extension/ogg-11.png" width=10%>
 
 Ogg es un formato contenedor libre y abierto, desarrollado y mantenido por la Fundación Xiph.Org
@@ -462,6 +385,31 @@ Ogg está diseñado para proporcionar una difusión de flujo eficiente y manipul
   - **Ventajas**: Libre de patentes, buena compresión.
   - **Desventajas**: Menor calidad comparada con mp4 o WebM.
   - **Usos**: Alternativa a mp4 o WebM en navegadores compatibles.
+
+### 4.5.5. - Formato MKV
+![alt text](./img/mkvlogo.png)
+El **MKV** es un contenedor flexible que puede contener múltiples pistas de audio, subtítulos y capítulos.
+
+- **Ventajas**: Sin pérdidas, flexible y soporta múltiples idiomas y subtítulos.  
+- **Desventajas**: Menor compatibilidad con algunos dispositivos.  
+- **Usos**: Video en alta calidad, almacenamiento de películas y series.
+
+## 4.6. - Compresión de Video
+La **compresión de video** reduce el tamaño del archivo eliminando información redundante o irrelevante. Existen dos tipos de compresión:
+
+- **Compresión con pérdida**: Elimina datos que no afectan perceptiblemente la calidad (ej., MP4).  
+- **Compresión sin pérdida**: Mantiene todos los datos originales, pero produce archivos mucho más grandes (ej., AVI sin compresión).
+
+>**Efectos de la Compresión de Video**  
+- **Compresión con pérdida** → Menor tamaño de archivo, pero puede haber una pérdida de calidad perceptible (pixelado).  
+- **Compresión sin pérdida** → Alta calidad, pero tamaños de archivo muy grandes.
+
+## 4.7. - Bitrate de Video
+El **bitrate** en video determina la cantidad de datos utilizados para representar el video durante un período de tiempo. Se mide en **kilobits por segundo (kbps)** y afecta directamente a la calidad y tamaño del archivo.
+
+
+
+
 
 # 5 - Tarea:
 Preguntas tipo test. 
