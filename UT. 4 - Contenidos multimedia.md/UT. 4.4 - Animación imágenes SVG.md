@@ -2379,8 +2379,6 @@ Animación de carga de windows 11:
 </html>
 ```
 
-
-
 ## 5.5 Creación de imágenes SVG con editores de imágenes.
 Existen numerosos editores de imagenes que permiten guardar los archivos en formato *.svg .  
 En nuestro caso usaremos **Inkscape** al ser uno de los más populares y completos, además de gratuito.  
@@ -2390,14 +2388,14 @@ En nuestro caso usaremos **Inkscape** al ser uno de los más populares y complet
   <img src="https://media.inkscape.org/static/images/inkscape-logo.svg" alt="click para instalar">
 </a>
 
-### 5.5.1 Tarea 4 - RA3-CEd  
+### 5.5.1 Tarea RA3-CEf-2  
 1 - Con la ayuda del programa de edición de imágenes Inkscape realizar el siguiente icono:  
 <img src="https://github.com/javieregeablasco/DAW/blob/main/DIW/UT.%204/img/loaderBasic.png" width=15%/> 
 
 2 - Animar el icono <a href="https://github.com/javieregeablasco/DAW/blob/main/DIW/UT.%204/mpeg/loadingBasic.mp4">de la siguiente manera</a>
 
 
-### 5.5.2 Tarea 5 - RA3-CEf  
+### 5.5.2 Tarea 5 RA3-CEf-3  
 1 - Realizar la siguiente <a href="https://github.com/javieregeablasco/DAW/blob/main/DIW/UT.%204/mpeg/loadingVintage.mp4">animación</a>
 
 ## 5.6 Creación de animaciones SVG con editores.
