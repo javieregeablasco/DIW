@@ -152,7 +152,7 @@ También es la mejor opción para los informes visuales interactivos o las infog
 También es posible incluir elementos interactivos en un PDF, por ejemplo, enlaces y botones CTA.
 
 ---
-## 2.3 - Tabla resumen / comprativa de los 4 formatos de imágenes más populares.
+## 2.3. - Tabla resumen / comprativa de los 4 formatos de imágenes más populares.
 
 | Característica         | JPG                                     | PNG                                                         | GIF                      | SVG                                          |
 |------------------------|-----------------------------------------|--------------------------------------------------------------|--------------------------|----------------------------------------------|
@@ -165,7 +165,7 @@ También es posible incluir elementos interactivos en un PDF, por ejemplo, enlac
 | **Animaciones**         | No                                      | No                                                           | Sí                        | Sí                                           |
 | **Adecuado para**       | Fotos                                   | Imágenes y gráficos de pequeña envergadura (ej: logotipos), fotos sin pérdidas | Animaciones               | Todo tipo de gráficos (logotipos, iconos, diagramas, etc.) |
 
-## 2.4 - Herramientas de edición de imagenes gratuitas
+## 2.4. - Herramientas de edición de imagenes gratuitas
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/120px-The_GIMP_icon_-_gnome.svg.png)  
 **GIMP** (GNU Image Manipulation Program) es una de las alternativas gratuitas más poderosas y completas a editores depago como Adobe Photoshop. Ofrece herramientas avanzadas de edición y diseño de imágenes.  
 
@@ -185,6 +185,7 @@ También es posible incluir elementos interactivos en un PDF, por ejemplo, enlac
 
 **Photopea** es una herramienta de edición de imágenes **online** que se asemeja a Adobe Photoshop.  
 
+## 2.5. - Tarea RA3-CEa-1
 
 # 3. Formatos de Audio
 El audio en las interfaces web se utiliza principalmente en contenido multimedia, como videos o podcasts. Los formatos deben ofrecer un equilibrio entre calidad y tamaño de archivo.  
@@ -347,6 +348,8 @@ El formato WAV (WaveForm Audio File) es un archivo que desarrolló originalmente
 ![](https://users.notam02.no/~kjetism/radium/radium_logo_128x128_colorized.png)
 
 **Radium** es un software de edición y composición de audio principalmente para Mac. Tiene una propuesta diferente en cuanto a la organización de su interfaz, lo que puede ser un poco desconcertante al principio.
+
+## 3.4. - Tarea RA3-CEa-2
 
 # 4. Formatos de Video  
 El video es otro recurso de las interfaces web, pero su uso intensivo de datos requiere formatos que ofrezcan buena compresión sin sacrificar demasiada calidad.
