@@ -2437,3 +2437,4 @@ Al igual que para la edición de imágenes y posterior guardado en formato SVG, 
 <a href="https://app.svgator.com/">**Enlace a la web de SVGator**</a>  
 <a href="https://github.com/javieregeablasco/DAW/blob/main/DIW/UT.%204/mpeg/spinner%20win11.mp4">**Ejemplo de spinner**</a>
 
+### 5.6.3. - Tarea RA3-CEh
