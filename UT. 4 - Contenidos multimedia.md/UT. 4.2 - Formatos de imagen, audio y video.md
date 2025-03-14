@@ -326,6 +326,10 @@ Un archivo de video digital está compuesto principalmente por dos componentes:
 - **Audio**: Acompaña al video proporcionando sonido.
 
 Cada uno de estos componentes se codifica por separado utilizando diferentes códecs, como H.264 para video y AAC para audio.
+--------------------------------------
+HASTA AQUI
+---------------------------------------
+
 
 ### 3.1.2. - Resolución de video
 La **resolución de video** es la cantidad de píxeles que componen cada fotograma del video, lo que afecta directamente a la calidad visual. Las resoluciones comunes incluyen:
