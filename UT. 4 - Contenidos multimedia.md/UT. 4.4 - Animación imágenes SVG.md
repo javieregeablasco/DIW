@@ -1,17 +1,10 @@
 ---
-Título: UD. 4.3 - Animación de imágenes.
+Título: UD. 4.4 - Animación de imágenes SVG.
 Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
-
----
-Título: UD. 4.3 - SVG
-Autor: Javier Egea Blasco
-Año: 24-25
-Palabras clave: DAW, DIW
----
 <div align="center">
 <img src="https://github.com/javieregeablasco/DAW/blob/main/DIW/UT.%204/img/SVG_logo.svg" width=25%>
 </div>
