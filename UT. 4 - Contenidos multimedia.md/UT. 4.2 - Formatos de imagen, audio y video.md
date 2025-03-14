@@ -308,7 +308,7 @@ Los archivos de audio digital pueden clasificarse según su compresión y calida
 Los formatos habitualmente utilizados para la reproducción de audio son los **con compresión con perdida**, siendo el formato de compresión descompresión (CODEC) **MP3** (CODEC: **CO**mpressor- **DEC**ompressor) uno de los más populares. 
 
 
-## 3.2.1. - Formato MP3
+### 3.2.1. - Formato MP3
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Mp3.svg/250px-Mp3.svg.png" width=15%>  
 
 El formato MP3 (MPEG 1 Layer 3) fue creado por el Instituto Fraunhofer. Su extraordinario grado de compresión y alta calidad lo ha convertido en el candidato ideal para publicar audios en la web.
@@ -317,7 +317,7 @@ El formato MP3 (MPEG 1 Layer 3) fue creado por el Instituto Fraunhofer. Su extra
   - **Usos**: Música, podcasts, efectos de sonido.  
 
 
-## 3.2.2. - Formato OGG
+### 3.2.2. - Formato OGG
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ogg_Logo.svg/250px-Ogg_Logo.svg.png" width=10%>
 
 Desarrollado por la fundación Xiph.org, es libre y de código abierto (a diferencia del formato MP3). 
@@ -325,7 +325,7 @@ Desarrollado por la fundación Xiph.org, es libre y de código abierto (a difere
   - **Desventajas**: Menor soporte en algunos navegadores comparado con MP3.
   - **Usos**: Alternativa a MP3 en navegadores que lo soporten.
 
-## 3.2.3. - Formato WAV
+### 3.2.3. - Formato WAV
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/AudacityWAV.png/100px-AudacityWAV.png" width=10%>
 
 El formato WAV (WaveForm Audio File) es un archivo que desarrolló originalmente Microsoft para guardar audio.
@@ -333,6 +333,20 @@ El formato WAV (WaveForm Audio File) es un archivo que desarrolló originalmente
   - **Desventajas**: Tamaño de archivo muy grande.
   - **Usos**: Audio de alta calidad, efectos de sonido breves.
 
+## 3.3. - Herramientas de edición de audio gratuitas
+ ![](https://upload.wikimedia.org/wikipedia/commons/e/e2/Audacity_Logo_nofilter.svg) 
+
+**Audacity** es una de las herramientas de edición de audio más populares y completas.   
+- **Características**: Grabación y edición multipista, efectos de audio, soporte para varios formatos (MP3, WAV, OGG, FLAC), eliminación de ruido.
+---
+![](https://www.ocenaudio.com/imgs/logo.png)
+
+**Ocenaudio** es una alternativa más ligera y fácil de usar que Audacity, ideal para ediciones rápidas y sencillas.
+- **Características**: Edición en tiempo real, soporte para efectos VST, análisis espectral, y soporte para múltiples formatos.
+---   
+![](https://users.notam02.no/~kjetism/radium/radium_logo_128x128_colorized.png)
+
+**Radium** es un software de edición y composición de audio principalmente para Mac. Tiene una propuesta diferente en cuanto a la organización de su interfaz, lo que puede ser un poco desconcertante al principio.
 
 # 4. Formatos de Video  
 El video es otro recurso de las interfaces web, pero su uso intensivo de datos requiere formatos que ofrezcan buena compresión sin sacrificar demasiada calidad.
@@ -431,20 +445,7 @@ edia.
 
 
 
-## 6.2 - Herramientas de edición de audio gratuitas
- ![](https://upload.wikimedia.org/wikipedia/commons/e/e2/Audacity_Logo_nofilter.svg) 
 
-**Audacity** es una de las herramientas de edición de audio más populares y completas.   
-- **Características**: Grabación y edición multipista, efectos de audio, soporte para varios formatos (MP3, WAV, OGG, FLAC), eliminación de ruido.
----
-![](https://www.ocenaudio.com/imgs/logo.png)
-
-**Ocenaudio** es una alternativa más ligera y fácil de usar que Audacity, ideal para ediciones rápidas y sencillas.
-- **Características**: Edición en tiempo real, soporte para efectos VST, análisis espectral, y soporte para múltiples formatos.
----   
-![](https://users.notam02.no/~kjetism/radium/radium_logo_128x128_colorized.png)
-
-**Radium** es un software de edición y composición de audio principalmente para Mac. Tiene una propuesta diferente en cuanto a la organización de su interfaz, lo que puede ser un poco desconcertante al principio.
 
 
 ## 6.3 - Herramientas de edición de video gratuitas
