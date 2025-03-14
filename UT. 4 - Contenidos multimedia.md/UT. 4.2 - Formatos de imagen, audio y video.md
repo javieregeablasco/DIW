@@ -411,8 +411,8 @@ El **bitrate** en video determina la cantidad de datos utilizados para represent
 
 ## 5.1 - Herramientas de edición de imagenes gratuitas
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/120px-The_GIMP_icon_-_gnome.svg.png)  
-**GIMP** (GNU Image Manipulation Program) es una de las alternativas más poderosas y completas a Adobe Photoshop. Ofrece herramientas avanzadas de edición y diseño de imágenes.  
-- **Características**: Edición de capas, herramientas de selección avanzadas, filtros, soporte para plugins.
+**GIMP** (GNU Image Manipulation Program) es una de las alternativas gratuitas más poderosas y completas a editores depago como Adobe Photoshop. Ofrece herramientas avanzadas de edición y diseño de imágenes.  
+
 ---   
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Krita-logo.svg/160px-Krita-logo.svg.png)  
 **Krita** es un programa de código abierto diseñado principalmente para ilustración y arte digital, pero también tiene capacidades de edición de imágenes.
