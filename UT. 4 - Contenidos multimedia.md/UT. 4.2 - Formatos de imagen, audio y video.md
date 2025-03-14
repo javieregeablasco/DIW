@@ -169,7 +169,32 @@ También es posible incluir elementos interactivos en un PDF, por ejemplo, enlac
 El audio en las interfaces web se utiliza principalmente en contenido multimedia, como videos o podcasts. Los formatos deben ofrecer un equilibrio entre calidad y tamaño de archivo.  
 Existen muchos tipos de formatos de audio (mp3, wav, ogg, mp4…). Los que más se utilizan en la web son los formatos mp3 y ogg.
 ## 3.1. - Definiciones
-### 3.1.1. - Digitalización de la señal de audio
+### 3.1.1. - Señales audibles por el oído humano.
+El oído humano puede percibir frecuencias en un rango aproximado de **20 Hz a 20 kHz** (20.000 Hz), aunque esta capacidad varía con la edad y otros factores:  
+
+- **Frecuencias bajas (20 Hz - 250 Hz)** → Son los **graves**, percibidos más como vibraciones que como sonido.  
+- **Frecuencias medias (250 Hz - 4 kHz)** → Contienen la mayor parte de los sonidos del habla humana.  
+- **Frecuencias altas (4 kHz - 20 kHz)** → Son los **agudos**, como el canto de los pájaros o sonidos metálicos.  
+
+>**Factores que afectan la audición**  
+- Con la edad, la sensibilidad a las frecuencias altas disminuye, especialmente por encima de **15 kHz**.  
+- La exposición prolongada a ruidos fuertes puede reducir la percepción de ciertas frecuencias.  
+
+### 3.1.2. - Canales de audio
+- :arrow_forward: **Mono (Monofónico)**: El audio se reproduce a través de un solo canal. Se usa en radios AM, llamadas telefónicas y algunas grabaciones de voz.  
+
+- :arrow_forward: **Estéreo (Estereofónico)**: Utiliza dos canales (izquierdo y derecho), creando una sensación de espacialidad y dirección del sonido. Es el formato más común en música, películas y videojuegos.  
+
+- **2.1**: Es un sistema estéreo con un subwoofer adicional para frecuencias bajas, mejorando los graves.  
+
+- **5.1**: Configuración de sonido envolvente con seis canales: frontal izquierdo/derecho, central, trasero izquierdo/derecho y un subwoofer. Se usa en cine en casa y videojuegos.  
+
+- **7.1**: Similar al 5.1, pero con dos canales adicionales para mayor inmersión sonora, utilizado en cines y sistemas avanzados de sonido.  
+
+- **Dolby Atmos / DTS:X**: Formatos de audio tridimensionales que posicionan sonidos en un espacio virtual, creando una experiencia más realista en cines y sistemas de sonido avanzados.  
+
+
+### 3.1.3. - Digitalización de la señal de audio
 Toda fuente La digitalización y tratamiento del audio digital que podemos realizar utilizando programas de software se divide en dos etapas:
 <br>  
 :one: Muestrear (o discretizar) **la señal analógica** a intervalos regulares.    
@@ -179,9 +204,10 @@ Toda fuente La digitalización y tratamiento del audio digital que podemos reali
 
 <br>
 
-### 3.1.2. - Frecuencia de muestreo
+### 3.1.4. - Frecuencia de muestreo
 La frecuencia de muestreo es el número de veces por segundo que se toma una muestra de una señal analógica para convertirla en digital. Se mide en hercios (Hz) o muestras por segundo.
 <br><br>
+![alt text](./img/muestro_192.jpg)
 
 >**Frecuencias de muestreo comunes:**  
 
@@ -198,27 +224,71 @@ Algunos valores estándar de frecuencia de muestreo en audio digital son:
 - **Frecuencia baja** → Puede generar aliasing, un efecto que distorsiona la señal original.
 - **Frecuencia alta** → Aumenta la calidad, pero también el tamaño del archivo y la demanda de procesamiento.
 
- 
+### 3.1.6. - Resolución 
+La **resolución en audio digital** es la **cantidad de bits usados para representar cada muestra de la señal analógica**. Se mide en **bits por muestra** (bit depth) y determina la **precisión y rango dinámico** del sonido digital.  
+
+> **Valores típicos de resolución**  
+- :arrow_forward: **8 bits** → Calidad baja, con un rango dinámico de **48 dB** (usado en telefonía y sonidos básicos).  
+- :arrow_forward: **16 bits** → Estándar en CDs de audio, con un rango dinámico de **96 dB**.  
+- **24 bits** → Usado en estudios profesionales y audio de alta fidelidad, con **144 dB** de rango dinámico.  
+- **32 bits flotantes** → Calidad extrema, usada en producción profesional y aplicaciones especializadas.  
+
+> **Efecto de la Resolución en el Audio**  
+- **Mayor resolución (más bits)** → Más precisión en la representación del sonido, menor ruido de cuantización y mejor fidelidad.  
+- **Menor resolución (menos bits)** → Más distorsión y ruido, menor calidad.  
+
+En combinación con la **frecuencia de muestreo**, la resolución define la calidad final del audio digital.
+
+### 3.1.7. - Bitrate, calidad de emisión
+El **bitrate** es la cantidad de datos procesados por segundo en una señal de audio. Se mide en **kilobits por segundo (kbps)** y determina la calidad del sonido y el tamaño del archivo.  
+
+>**Cálculo del Bitrate**  
+El bitrate se calcula con la fórmula:  
+
+**Bitrate** = **Frecuencia de muestreo** * **Resolución (bits por muestra)** * **N° de canales**
+
+Por ejemplo, para un archivo de **CD de audio** (44.1 kHz, 16 bits, estéreo):  
+44.100 * 16 * 2 = 1.411.200bps = 1411 kbps
 
 
+>**Tipos de Bitrate en Audio**  
 
----
-https://www.usastreams.com/blog-streaming/4056/aclarando-terminos-que-es-bitrate-samplerate-mono-estereo-cbr-decibelio/
+:one: **Bitrate constante (CBR - Constant Bit Rate)**  
+   - Usa el mismo bitrate en todo el archivo.  
+   - Mayor previsibilidad en el tamaño del archivo.     
 
-https://www.emitironline.com/blog/aclarando-terminos-bitrate-samplerate-mono-estereo/
+:two: **Bitrate variable (VBR - Variable Bit Rate)**  
+   - Ajusta el bitrate según la complejidad del audio.  
+   - Mejora la calidad en momentos de alta demanda y reduce el tamaño en partes simples.  
+   - Se usa en formatos como MP3 VBR o AAC para optimizar calidad y peso.  
 
-https://qloudea.com/blog/diferencias-entre-el-audio-a-16-y-24-bits-calidad-master-studio/?srsltid=AfmBOory8vkHCJdz0A7BzYUy30IYZel8Z7axcpeT7WThohUSm-Dt6uQB
+:three: **Bitrate adaptativo (ABR - Average Bit Rate)**  
+   - Mezcla de CBR y VBR: mantiene un bitrate promedio, pero ajusta en momentos clave.  
+   - Se usa en streaming, como en Spotify o YouTube Music.  
 
-https://libros.uvq.edu.ar/spm/341_digitalizacin_de_la_seal_de_audio.html
+>**Bitrate y Calidad del Audio**  
+- :arrow_forward: **96 kbps o menos** → Baja calidad, suficiente para voz o radio online.  
+- :arrow_forward: **128 kbps - 192 kbps** → Calidad aceptable en MP3, común en música en streaming.  
+- **256 kbps - 320 kbps** → Alta calidad en formatos comprimidos como MP3/AAC.  
+- **1411 kbps (CD Audio, WAV, FLAC)** → Calidad sin pérdidas, fiel al original.  
+- **Más de 2000 kbps (Hi-Res Audio, 24 bits/96 kHz o más)** → Audio profesional y audiófilo.  
 
-https://zococity.es/blogs/blog/que-es-bitrate-en-el-sonido-y-como-afecta-a-su-calidad?srsltid=AfmBOorLwOOlofmKuVx-0TLYbwpiOKtVepq2qaWboFgZiuD09br5UQKa
+>**Ejemplos de pesos de archivos en función del bitrate**
 
----
+| BIT Depth|	Sample Rate|	Bit Rate|	Tamaño de archivo para un minuto de música en estéreo	|Tamaño del fichero para 3 minutos de música|  
+|-|-|-|-|-|  
+|16	|44,100	|1.35 Mbit/seg	|10.1 megabytes	| 30.3 megabytes|
+|16	|48,000|	1.46 Mbit/seg	|11.0 megabytes	|33 megabytes|
+|24	|96,000	|4.39 Mbit/seg	|33.0 megabytes|	99 megabytes|
+|Fichero MP3|	128 k/bit rate	|0.13 Mbit/seg|	0.94 megabytes	|2.82 megabytes|
+
+## 3.2. - Formatos de archivos
+Los archivos de audio digital pueden clasificarse según su compresión y calidad en tres tipos principales: sin compresión, con compresión sin pérdida y con compresión con pérdida.  
+Los formatos habitualmente utilizados para la reproducción de audio son los **con compresión con perdida**, siendo el formato de compresión descompresión (CODEC) **MP3** (CODEC: **CO**mpressor- **DEC**ompressor) uno de los más populares. 
 
 
-
-## 3.1 - Formato MP3
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Mp3.svg/250px-Mp3.svg.png" width=20%>  
+## 3.2.1. - Formato MP3
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Mp3.svg/250px-Mp3.svg.png" width=15%>  
 
 El formato MP3 (MPEG 1 Layer 3) fue creado por el Instituto Fraunhofer. Su extraordinario grado de compresión y alta calidad lo ha convertido en el candidato ideal para publicar audios en la web.
   - **Ventajas**: Alta compatibilidad, buena compresión con pérdida aceptable.  
@@ -226,21 +296,134 @@ El formato MP3 (MPEG 1 Layer 3) fue creado por el Instituto Fraunhofer. Su extra
   - **Usos**: Música, podcasts, efectos de sonido.  
 
 
-## 3.2 - Formato OGG
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ogg_Logo.svg/250px-Ogg_Logo.svg.png" width=15%>
+## 3.2.2. - Formato OGG
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ogg_Logo.svg/250px-Ogg_Logo.svg.png" width=10%>
 
 Desarrollado por la fundación Xiph.org, es libre y de código abierto (a diferencia del formato MP3). 
   - **Ventajas**: Libre de patentes, buena calidad y compresión.
   - **Desventajas**: Menor soporte en algunos navegadores comparado con MP3.
   - **Usos**: Alternativa a MP3 en navegadores que lo soporten.
 
-## 3.3 - Formato WAV
+## 3.2.3. - Formato WAV
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/AudacityWAV.png/100px-AudacityWAV.png" width=10%>
 
 El formato WAV (WaveForm Audio File) es un archivo que desarrolló originalmente Microsoft para guardar audio.
   - **Ventajas**: Sin pérdida de calidad, alta fidelidad.
   - **Desventajas**: Tamaño de archivo muy grande.
   - **Usos**: Audio de alta calidad, efectos de sonido breves.
+
+
+# 4. Formatos de Video  
+El video es otro recurso de las interfaces web, pero su uso intensivo de datos requiere formatos que ofrezcan buena compresión sin sacrificar demasiada calidad.
+Existen diversos formatos de video (MP4, WebM, AVI, MKV, MOV…), pero los más utilizados en la web son los formatos MP4 y WebM debido a su amplia compatibilidad y buen rendimiento.
+
+## 4.1. - Definiciones
+
+### 4.1.1. - Componentes de un archivo de video
+Un archivo de video digital está compuesto principalmente por dos componentes:  
+
+- **Video**: Contiene las imágenes en movimiento que conforman el video.  
+- **Audio**: Acompaña al video proporcionando sonido.
+
+Cada uno de estos componentes se codifica por separado utilizando diferentes códecs, como H.264 para video y AAC para audio.
+
+### 3.1.2. - Resolución de video
+La **resolución de video** es la cantidad de píxeles que componen cada fotograma del video, lo que afecta directamente a la calidad visual. Las resoluciones comunes incluyen:
+
+- **480p (SD)**: Definición estándar, utilizada en televisores antiguos o conexiones lentas.  
+- **720p (HD)**: Alta definición, ideal para video en línea y dispositivos móviles.  
+- **1080p (Full HD)**: Full High Definition, ampliamente utilizado en plataformas de streaming y Blu-Ray.  
+- **1440p (2K)**: Resolución de mayor calidad, utilizada en producción profesional.  
+- **2160p (4K)**: Ultra Alta Definición, ideal para pantallas grandes y producción cinematográfica.  
+- **4320p (8K)**: Resolución de altísima definición, utilizada en producción de cine de última generación.
+
+>**Impacto de la Resolución en el Video**  
+- **Mayor resolución** → Mejor calidad visual, pero mayor tamaño de archivo y requisitos de ancho de banda.  
+- **Menor resolución** → Menor calidad, pero archivos más pequeños y menor demanda de recursos.
+
+### 3.1.3. - Tasa de cuadros (Frame Rate)
+La **tasa de cuadros** o **frame rate** se refiere a la cantidad de imágenes (fotogramas) que se muestran por segundo. Las tasas de cuadros comunes son:
+
+- **24 fps**: Usado en cine, proporciona un movimiento natural.  
+- **30 fps**: Común en televisión y videos en línea.  
+- **60 fps**: Proporciona una experiencia fluida, ideal para videojuegos y transmisiones deportivas.
+
+>**Efectos de la tasa de cuadros**  
+- **Baja tasa de cuadros** → Menor carga en el sistema, pero puede parecer entrecortado.  
+- **Alta tasa de cuadros** → Mayor fluidez, pero mayor uso de almacenamiento y ancho de banda.
+
+### 3.1.4. - Códecs de Video
+El **códec** es el software encargado de comprimir y descomprimir el archivo de video. Algunos códecs populares incluyen:
+
+- **H.264**: Códec más utilizado para video en la web, ofrece buena calidad y compresión.  
+- **H.265 (HEVC)**: Códec más eficiente que H.264, ideal para 4K y videos de alta calidad, aunque no tan compatible en todos los dispositivos.  
+- **VP8 / VP9**: Códecs de Google utilizados en plataformas como YouTube, con buena eficiencia y calidad.  
+- **AV1**: Códec emergente con una alta tasa de compresión, especialmente útil para video en 4K y superior.
+
+>**Impacto del Códec en la Calidad del Video**  
+- **Códecs eficientes** → Reducen el tamaño del archivo sin comprometer demasiado la calidad.  
+- **Códecs menos eficientes** → Mayor tamaño de archivo y mayor demanda de ancho de banda.
+
+### 3.1.5. - Formatos de Contenedor
+Un **formato de contenedor** es el formato del archivo que almacena tanto el video como el audio, además de metadatos y subtítulos. Algunos formatos de contenedor comunes son:
+
+- **MP4 (MPEG-4)**: El formato más popular, compatible con casi todos los dispositivos y plataformas de streaming.  
+- **WebM**: Formato de código abierto usado en la web, especialmente en plataformas de video como YouTube.  
+- **AVI (Audio Video Interleave)**: Formato más antiguo, compatible en Windows pero con un mayor tamaño de archivo.  
+- **MKV (Matroska)**: Formato flexible que soporta múltiples pistas de audio y video, ideal para videos de alta calidad.  
+- **MOV**: Formato usado por Apple en sus dispositivos y software como QuickTime.
+
+### 3.1.6. - Compresión de Video
+La **compresión de video** reduce el tamaño del archivo eliminando información redundante o irrelevante. Existen dos tipos de compresión:
+
+- **Compresión con pérdida**: Elimina datos que no afectan perceptiblemente la calidad (ej., MP4 con H.264).  
+- **Compresión sin pérdida**: Mantiene todos los datos originales, pero produce archivos mucho más grandes (ej., AVI sin compresión).
+
+>**Efectos de la Compresión de Video**  
+- **Compresión con pérdida** → Menor tamaño de archivo, pero puede haber una pérdida de calidad perceptible.  
+- **Compresión sin pérdida** → Alta calidad, pero tamaños de archivo muy grandes.
+
+### 3.1.7. - Bitrate de Video
+El **bitrate** en video determina la cantidad de datos utilizados para representar el video durante un período de tiempo. Se mide en **kilobits por segundo (kbps)** o **megabits por segundo (Mbps)** y afecta directamente a la calidad y tamaño del archivo. Un **bitrate alto** ofrece mejor calidad, pero genera un archivo más grande.
+
+>**Efectos del Bitrate en la Calidad**  
+- **Bitrate bajo** → Calidad de video reducida y más compresión visible.  
+- **Bitrate alto** → Mejor calidad de imagen, pero mayor tamaño de archivo.
+
+## 3.2. - Formatos de Archivos de Video
+
+### 3.2.1. - Formato MP4
+El formato **MP4** es el más utilizado para video en la web. Es compatible con casi todos los navegadores, dispositivos y plataformas de streaming.
+
+- **Ventajas**: Alta compatibilidad, buena compresión, calidad aceptable.  
+- **Desventajas**: Compresión con pérdida, lo que puede reducir la calidad en tasas de bits bajas.  
+- **Usos**: Video en línea, plataformas de streaming, grabaciones en dispositivos móviles.
+
+### 3.2.2. - Formato WebM
+El **WebM** es un formato libre y abierto desarrollado por Google, ideal para el uso en la web, especialmente en YouTube y otros sitios de video.
+
+- **Ventajas**: Libre de patentes, alta compresión y calidad.  
+- **Desventajas**: Menor soporte en algunos navegadores o dispositivos más antiguos.  
+- **Usos**: Videos en línea, especialmente en navegadores compatibles como Chrome y Firefox.
+
+### 3.2.3. - Formato AVI
+El **AVI** es un formato más antiguo de Microsoft, que guarda audio y video sin comprimir o con poca compresión.
+
+- **Ventajas**: Alta calidad, sin pérdida de datos.  
+- **Desventajas**: Archivos grandes y mayor demanda de almacenamiento y ancho de banda.  
+- **Usos**: Videos de alta calidad en entornos controlados, como edición de video.
+
+### 3.2.4. - Formato MKV
+El **MKV** es un contenedor flexible que puede contener múltiples pistas de audio, subtítulos y capítulos.
+
+- **Ventajas**: Sin pérdidas, flexible y soporta múltiples idiomas y subtítulos.  
+- **Desventajas**: Menor compatibilidad con algunos dispositivos.  
+- **Usos**: Video en alta calidad, almacenamiento de películas y series.
+
+---
+
+---
+
 
 
 # 4. - Formatos de Video
