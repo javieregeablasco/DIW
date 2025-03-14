@@ -17,11 +17,11 @@ Este apartado se dividirá entre las imágenes rasterizadas y las imagenes vecto
 -  Los **formatos de imagen rasterizados** (JPEG, PNG, WebP, ...) están compuestos por una matriz de píxeles, donde cada píxel tiene un color específico. Son ideales para fotografías y gráficos complejos con muchos detalles, pero pierden calidad cuando se amplían, ya que la resolución es fija.  
 
       ![alt text](./img/lena.png)
+
+      <br>
 -  Los **formatos de imagen vectoriales** (SVG) están formados por fórmulas matemáticas que definen formas, líneas y colores. **Son escalables sin pérdida de calidad**, lo que los hace perfectos para logotipos, iconos y gráficos simples.
 
-    <img src="./img/svg.png" width=60%>
-<br>
-
+    <img src="./img/svg.png" width=58%>
 
 
 ## 2.1. - Formatos de imagenes rasterizadas
@@ -165,9 +165,25 @@ También es posible incluir elementos interactivos en un PDF, por ejemplo, enlac
 | **Animaciones**         | No                                      | No                                                           | Sí                        | Sí                                           |
 | **Adecuado para**       | Fotos                                   | Imágenes y gráficos de pequeña envergadura (ej: logotipos), fotos sin pérdidas | Animaciones               | Todo tipo de gráficos (logotipos, iconos, diagramas, etc.) |
 
-# 3. - Formatos de Audio
+# 3. Formatos de Audio
+## 3.1. - Definiciones
 El audio en las interfaces web se utiliza principalmente en contenido multimedia, como videos o podcasts. Los formatos deben ofrecer un equilibrio entre calidad y tamaño de archivo.  
 Existen muchos tipos de formatos de audio (mp3, wav, ogg, mp4…). Los que más se utilizan en la web son los formatos mp3 y ogg.
+
+---
+https://www.usastreams.com/blog-streaming/4056/aclarando-terminos-que-es-bitrate-samplerate-mono-estereo-cbr-decibelio/
+
+https://www.emitironline.com/blog/aclarando-terminos-bitrate-samplerate-mono-estereo/
+
+https://qloudea.com/blog/diferencias-entre-el-audio-a-16-y-24-bits-calidad-master-studio/?srsltid=AfmBOory8vkHCJdz0A7BzYUy30IYZel8Z7axcpeT7WThohUSm-Dt6uQB
+
+https://libros.uvq.edu.ar/spm/341_digitalizacin_de_la_seal_de_audio.html
+
+https://zococity.es/blogs/blog/que-es-bitrate-en-el-sonido-y-como-afecta-a-su-calidad?srsltid=AfmBOorLwOOlofmKuVx-0TLYbwpiOKtVepq2qaWboFgZiuD09br5UQKa
+
+---
+
+
 
 ## 3.1 - Formato MP3
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Mp3.svg/250px-Mp3.svg.png" width=20%>  
