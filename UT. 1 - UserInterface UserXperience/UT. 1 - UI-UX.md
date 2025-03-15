@@ -23,52 +23,7 @@ Palabras clave: DAW, DIW
 ---  
  
 
-Taula de continguts
- 1. Introducció.	3
- 2. Glossari.	3
- 3. Evolució del disseny web	4
- 4. Interacció persona – ordinador.	5
- 4.1. Definició d’User Interface (UI):	5
- 4.2. Definició d’User Experience (UX):	6
- 5. Disseny gràfic de una interfície web.	7
- 5.1. Elements del disseny.	7
- 5.2. Patrons de disseny.	9
- 5.3. Patrons de disseny: Psicologia Gestals.	10
- 5.4. Colors.	14
- 5.5. Interacció persona-ordenador.	22
- 5.6. Elements d'una interfície web: identificació, navegació, continguts i interacció	23
-5.6.1. Elements d'identificació	23
-5.6.2. Elements de navegació	24
-5.6.3. Elements de continguts:	25
-5.6.4. Elements d’interacció:	26
- 5.7. Components d'una interfície web:	27
-5.7.1. Capçalera (header)	28
-5.7.2. Cos de la pàgina	28
-5.7.3. Peu de pàgina (footer)	29
-5.7.4. Barra lateral (sidebar)	29
-5.7.5. Menú de navegació (navbar)	29
-5.7.6. Altres components d'una interfície web	30
-5.7.7. Exemples de components en interfícies	32
- 5.8. Guia d'estils	35
-5.8.1. Continguts d’una guia d’estils.	35
-5.8.2. Passos per a crear una guia d’estils.	35
-5.8.3. Guía d’estils: Tipografia.	36
-5.8.4. Guia d'estil: Icones.	38
-5.8.5. Exemples de guies d’estils.	39
-5.8.6. Enllaços a articles de guies d’estils.	40
-5.8.7. Guies d'estils de grans corporacions:	40
- 5.9. Prototipatge web	41
-5.9.1. Esbós (Sketch)	42
-5.9.2. Esquema (Wireframe).	43
-5.9.3. Maqueta (mockup)	44
-5.9.4. Prototip (prototype)	45
-5.9.5. És necessari passar per totes les fases SWMP?	46
-5.9.6. Exemples de guies d’estils.	47
-
-
-
-
- 1. Introducció.
+# 1. Introducció.
 Les aplicacions i llocs web són essencials en la nostra vida diària per consultar informació, gestionar tràmits o comunicar-nos.
 Independentment del dispositiu, la web representa la imatge d’una entitat, per això és crucial que el contingut i les funcionalitats siguin atractius, accessibles i fàcils d’usar, amb un disseny agradable que capti l’atenció de l’usuari.
 Aquest mòdul se centra en proporcionar als estudiants els conceptes i les habilitats necessàries per crear interfícies web seguint els estàndards de disseny, centrats en l’experiència d’usuari, l’accessibilitat i la usabilitat.
