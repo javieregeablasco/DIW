@@ -23,33 +23,50 @@ Palabras clave: DAW, DIW
 ---  
  
 
-# 1. Introducció.
-Les aplicacions i llocs web són essencials en la nostra vida diària per consultar informació, gestionar tràmits o comunicar-nos.
-Independentment del dispositiu, la web representa la imatge d’una entitat, per això és crucial que el contingut i les funcionalitats siguin atractius, accessibles i fàcils d’usar, amb un disseny agradable que capti l’atenció de l’usuari.
+# 1. Introducció
+Les aplicacions i llocs web són essencials en la nostra vida diària per consultar informació, gestionar tràmits o comunicar-nos.  
+Independentment del dispositiu, la web representa la imatge d’una entitat, per això és crucial que el contingut i les funcionalitats siguin atractius, accessibles i fàcils d’usar, amb un disseny agradable que capti l’atenció de l’usuari.  
 Aquest mòdul se centra en proporcionar als estudiants els conceptes i les habilitats necessàries per crear interfícies web seguint els estàndards de disseny, centrats en l’experiència d’usuari, l’accessibilitat i la usabilitat.
 
- 2. Glossari.
+# 2. Glossari.
 Argot de les paraules que s'usen habitualment quan tractem de disseny d'interfícies web.
-    • Disseny gràfic. Programació, projecció i realització de comunicacions visuals d'aplicacions, pàgines o llocs web que, generalment, seran transmeses per mitjans industrials.
-    • Gestor de continguts (CMS). Programa que permet crear, editar i publicar contingut web a través d'una interfície gràfica, sense necessitat de tindre coneixements de programació previs.
-    • Interacció. Disciplina que estudia l'intercanvi d'informació entre les persones i els ordinadors, l'objectiu dels quals és que este intercanvi siga més eficient i s'incremente la satisfacció.
-    • Jerarquia visual. Consistix en el tipus d'organització dels elements d'un lloc web segons la seua importància. Es tracta d'un dels pilars claus en el disseny d'interfícies.
-    • Layouts. Blocs genèrics o parts comunes que es reutilitzen en diverses pàgines web del lloc web.
-    • Plantilla. Web predissenyada que l'usuari només ha de completar amb el contingut desitjat. Es tracta de la manera més senzilla de començar a crear un lloc web, i la menys costosa.
-    • Prototip. Maqueta o model d'un disseny o dispositiu per a fer-se una idea del producte final que s'obtindrà.
-    • Sketching. Primer "prototip" del lloc web. En ell es realitzen dissenys esquemàtics en paper basats, essencialment, a establir la jerarquia de continguts, però sense detalls de disseny.
-    • Wireframe. Prototip visual de baixa qualitat. Es tracta d'un esquelet d'un lloc o aplicació web. Se sol utilitzar per a distribuir de manera inicial el lloc web. No ha d'incloure elements de disseny final; estos es fan en blanc i negre o en escala de grises.
-    • Capçalera. La capçalera és l'element de la pàgina web l'objectiu principal de la qual és la identificació del lloc. Esta part apareix en totes les pàgines que formen part del lloc web.
-    • Colors segurs. També denominats web-safecolors, s'aplica a aquells colors que es representen de la mateixa forma en qualsevol navegador, dispositiu o sistema operatiu; d'esta manera tots els usuaris tindran la mateixa experiència cromàtica.
-    • Colors vertaders (true-color). Sistema de representació de colors que pot reproduir el total de colors que l'ull humà és capaç de percebre.
-    • Cos. Part central d'una pàgina web en la qual s'arreplega el contingut que es desitja mostrar a l'usuari. Se situa davall de la capçalera i del menú de navegació. És recomanable que tots els elements que se situen en el cos mantinguen un disseny uniforme i similar entre les diferents pàgines.
-    • Mapa conceptual. Esquema d'idees que servix de ferramenta per a organitzar de manera gràfica i simplificada els conceptes i enunciats, a fi de reforçar un coneixement.
-    • Mapa de navegació. Esquema en el qual es mostren totes les seccions o pàgines d'un lloc web, i la relació que existix entre cadascuna d'elles. Este esquema facilitarà el disseny òptim del lloc.
-    • Maquetació web. Distribució dels elements en l'espai disponible en un lloc o pàgina web. Una dels principals avantatges de la maquetació és que permet realitzar tots els canvis de disseny desitjats abans de començar amb la implementació.
-    • Sistema RGB. Sistema de representació dels colors de l'espectre cromàtic basat en la combinació dels tres colors primaris (roig [R], verda [G] i blau [B]), a partir dels quals s'obtenen la resta dels colors.
-      
+- **Disseny gràfic**. Programació, projecció i realització de comunicacions visuals d'aplicacions, pàgines o llocs web que, generalment, seran transmeses per mitjans industrials.  
 
- 3. Evolució del disseny web
+- **Gestor de continguts (CMS)**. Programa que permet crear, editar i publicar contingut web a través d'una interfície gràfica, sense necessitat de tindre coneixements de programació previs.  
+
+- **Interacció**. Disciplina que estudia l'intercanvi d'informació entre les persones i els ordinadors, l'objectiu dels quals és que este intercanvi siga més eficient i s'incremente la satisfacció.  
+
+- **Jerarquia visual**. Consistix en el tipus d'organització dels elements d'un lloc web segons la seua importància. Es tracta d'un dels pilars claus en el disseny d'interfícies.  
+
+- **Layouts**. Blocs genèrics o parts comunes que es reutilitzen en diverses pàgines web del lloc web.  
+
+- **Plantilla**. Web predissenyada que l'usuari només ha de completar amb el contingut desitjat. Es tracta de la manera més senzilla de començar a crear un lloc web, i la menys costosa.
+
+- **Prototip**. Maqueta o model d'un disseny o dispositiu per a fer-se una idea del producte final que s'obtindrà.  
+
+- **Sketching**. Primer "prototip" del lloc web. En ell es realitzen dissenys esquemàtics en paper basats, essencialment, a establir la jerarquia de continguts, però sense detalls de disseny.  
+
+- **Wireframe**. Prototip visual de baixa qualitat. Es tracta d'un esquelet d'un lloc o aplicació web. Se sol utilitzar per a distribuir de manera inicial el lloc web. No ha d'incloure elements de disseny final; estos es fan en blanc i negre o en escala de grises.  
+
+- **Capçalera**. La capçalera és l'element de la pàgina web l'objectiu principal de la qual és la identificació del lloc. Esta part apareix en totes les pàgines que formen part del lloc web.
+
+- **Colors segurs**. També denominats web-safecolors, s'aplica a aquells colors que es representen de la mateixa forma en qualsevol navegador, dispositiu o sistema operatiu; d'esta manera tots els usuaris tindran la mateixa experiència cromàtica.
+
+- **Colors vertaders (true-color)**. Sistema de representació de colors que pot reproduir el total de colors que l'ull humà és capaç de percebre.
+
+- **Cos**. Part central d'una pàgina web en la qual s'arreplega el contingut que es desitja mostrar a l'usuari. Se situa davall de la capçalera i del menú de navegació. És recomanable que tots els elements que se situen en el cos mantinguen un disseny uniforme i similar entre les diferents pàgines.  
+
+- **Mapa conceptual**. Esquema d'idees que servix de ferramenta per a organitzar de manera gràfica i simplificada els conceptes i enunciats, a fi de reforçar un coneixement.
+
+- **Mapa de navegació**. Esquema en el qual es mostren totes les seccions o pàgines d'un lloc web, i la relació que existix entre cadascuna d'elles. Este esquema facilitarà el disseny òptim del lloc.  
+
+- **Maquetació web**. Distribució dels elements en l'espai disponible en un lloc o pàgina web. Una dels principals avantatges de la maquetació és que permet realitzar tots els canvis de disseny desitjats abans de començar amb la implementació.
+
+- **Sistema RGB**. Sistema de representació dels colors de l'espectre cromàtic basat en la combinació dels tres colors primaris (roig [R], verda [G] i blau [B]), a partir dels quals s'obtenen la resta dels colors.
+
+     
+
+# 3. Evolució del disseny web
 L'evolució del disseny web ha passat per diverses etapes clau, impulsada principalment pels avanços en HTML i CSS:
     1. Primera etapa (1990): El disseny web era molt bàsic, centrat en documents de text amb HTML estàtic, amb imatges i enllaços simples. Les pàgines eren majorment funcionals, sense molt d'enfocament en l'estètica o l'experiència de l'usuari.
     2. Taules i marcs (1990 - 2000): Els dissenyadors van començar a usar taules per a estructurar el contingut de manera més complexa i visualment atractiva. Així i tot, el control del disseny era limitat i difícil de mantindre.
