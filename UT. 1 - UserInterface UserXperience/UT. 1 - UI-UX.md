@@ -16,9 +16,11 @@ Palabras clave: DAW, DIW
 
 <br>
 
-**Licencia Creative Commons:**  
-<img src="./img/by-nc-nd-eu_.png" width=30%>  
-Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA: No se permite un uso comercia 	de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con 	una licencia igual a la obra regula la obra original.  
+| **Licencia Creative Commons:** |
+| - |
+| <img src="./img/by-nc-nd-eu_.png" width=30%> |  
+| Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA: No se permite un uso comercia 	de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con 	una licencia igual a la obra regula la obra original. |
+---  
  
 
 Taula de continguts
