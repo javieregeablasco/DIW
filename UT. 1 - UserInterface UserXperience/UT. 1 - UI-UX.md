@@ -9,10 +9,20 @@ Palabras clave: DAW, DIW
 
 <br>
 
-| **Resultados de aprendizaje y criterios de evaluación de la unidad didáctica** |
+| **Resultados de aprendizaje** |
 |-|
-| **RA.:** 1 |
-| **CE.:** a, b, c, d, e, f, g |
+| **RA. 1:** Planifica la creación de una interfaz web valorando y aplicando especificaciones de diseño.|
+
+|**Criterios de evaluación de la unidad didáctica**|
+|-|
+| **CE. a&#41;** Se ha reconocido la importancia de la comunicación visual y sus principios básicos.|
+| **CE. b&#41;** Se han analizado y seleccionado los colores y tipografías adecuados para su visualización en pantalla.|
+| **CE. c&#41;** Se han analizado alternativas para la presentación de la información en documentos web.|
+| **CE. d&#41;** Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación web.|
+| **CE. e&#41;** Se han utilizado y valorado distintas tecnologías para el diseño de documentos web.|
+| **CE. f&#41;** Se han creado y utilizado plantillas de diseño.|
+
+
 
 <br>
 
