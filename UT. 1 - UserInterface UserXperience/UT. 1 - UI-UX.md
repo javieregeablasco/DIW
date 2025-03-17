@@ -192,10 +192,45 @@ Identificar los elementos conceptuales de la siguiente página web.
 ![alt text](./img/conceptualEjercicio.png)
 
 ## 5.2. - Elementos visuales
-Son la parte más importante de un diseño: Definen la forma, el color, la medida y la textura de la interfaz web.
+En el diseño web, los elementos visuales fundamentales incluyen **forma, color, medida y textura**.  
+
 ![alt text](./img/elementVisual.png)
 
-### 5.2.1. - Tarea RA1 CEb  
+### 5.2.1. - Forma  
+Define la estructura visual de los elementos dentro de una página web. Puede ser:  
+- **Geométrica**: Cuadrados, círculos, triángulos, usados en botones, iconos o tarjetas. 
+<a href="http://www.usefulsimple.co.uk/">![alt text](./img/geometrica.png)</a>
+
+- **Orgánica**: Formas irregulares o naturales, aportan dinamismo y originalidad.  
+<a href="http://www.sageblue.com/">![alt text](./img/natural.png)</a>
+
+- **Abstracta**: Se utilizan para generar impacto visual sin representar objetos reales.  
+<a href="https://lovefreelancing.com/">![alt text](./img/abstract.png)</a>
+
+
+### 5.2.2. - Color  
+Influye en la percepción y la emoción del usuario. Se utiliza para:  
+- **Generar identidad visual** (branding).  
+<a href="http://www.wakeinteractive.com/">![alt text](./img/color.png)</a>
+
+- **Crear contrastes** y mejorar la accesibilidad.  
+- **Diferenciar secciones** o establecer jerarquías.  
+<a href="http://hello.carsonified.com/">![alt text](./img/secciones.png)</a>
+![alt text](image.png)
+
+### 5.2.3. - Medida  
+Hace referencia al tamaño y la escala de los elementos en una interfaz:  
+- **Tipografía**: Tamaños de fuente adaptables para distintos dispositivos (rem, em, px).  
+- **Imágenes y gráficos**: Se escalan correctamente para mantener calidad y rendimiento.  
+- **Espaciado y proporción**: Márgenes, padding y grids permiten un diseño equilibrado.  
+
+### 5.2.4. - Textura  
+Aunque el diseño web es bidimensional, se pueden simular texturas para dar profundidad y sensación táctil:  
+- **Fondos con degradados o patrones**.  
+- **Sombras y efectos de iluminación** para realismo.  
+- **Superposiciones y transparencias** para dinamismo.  
+
+### 5.2.5. - Tarea RA1 CEb  
 Identificar los errores visuales de las siguientes interfaces web. Comentar el tipo de error encontrado.   
 
 :one: 
@@ -244,7 +279,10 @@ Identificar los errores visuales de las siguientes interfaces web. Comentar el t
 
 ![alt text](./img/ra1ceb8.png)
 
- ## 5.3. - Elementos de relación
+
+## 5.3. - Elementos de relación
+
+
 ## 5.4. - Elementos prácticos
 
 
