@@ -9,10 +9,10 @@ Palabras clave: DAW, DIW
 
 <br>
 
-| **Resultats d’aprenentatge i criteris d’avaluació de l'unitat didàctica** |
-|---------------------------------------------|
+| **Resultados de aprendizaje y criterios de evaluación de la unidad didáctica** |
+|-|
 | **RA.:** 1 |
-| **CA.:** a, b, c, d, e, f, g |
+| **CE.:** a, b, c, d, e, f, g |
 
 <br>
 
@@ -23,69 +23,177 @@ Palabras clave: DAW, DIW
 ---  
  
 
-# 1. Introducció
-Les aplicacions i llocs web són essencials en la nostra vida diària per consultar informació, gestionar tràmits o comunicar-nos.  
-Independentment del dispositiu, la web representa la imatge d’una entitat, per això és crucial que el contingut i les funcionalitats siguin atractius, accessibles i fàcils d’usar, amb un disseny agradable que capti l’atenció de l’usuari.  
-Aquest mòdul se centra en proporcionar als estudiants els conceptes i les habilitats necessàries per crear interfícies web seguint els estàndards de disseny, centrats en l’experiència d’usuari, l’accessibilitat i la usabilitat.
+# 1. Introducción
+Las aplicaciones y sitios web son esenciales en nuestra vida diaria para consultar información, gestionar trámites o comunicarnos. 
+Independientemente del dispositivo, la web representa la imagen de una entidad, por eso es crucial que el contenido y las funcionalidades sean atractivos, accesibles y fáciles de usar (User Experience), con un diseño agradable que capte la atención del usuario (User Interface). 
 
-# 2. Glossari.
-Argot de les paraules que s'usen habitualment quan tractem de disseny d'interfícies web.
-- **Disseny gràfic**. Programació, projecció i realització de comunicacions visuals d'aplicacions, pàgines o llocs web que, generalment, seran transmeses per mitjans industrials.  
+# 2. Glosario de palabras dentre del ámbito de la creación web
+- **Diseño web**. El diseño web se encarga de crear, diseñar y desarrollar páginas web, plataformas o interfaces. Dentro de esta área se incluyen conceptos importantes como el diseño gráfico, la experiencia de usuario, la arquitectura de la web o la navegabilidad.
 
-- **Gestor de continguts (CMS)**. Programa que permet crear, editar i publicar contingut web a través d'una interfície gràfica, sense necessitat de tindre coneixements de programació previs.  
+- **Interacción**. Disciplina que estudia el intercambio de información entre las personas y los ordenadores, el objetivo de los cuales es que este intercambio sea más eficiente y se incremente la satisfacción de usuario. 
 
-- **Interacció**. Disciplina que estudia l'intercanvi d'informació entre les persones i els ordinadors, l'objectiu dels quals és que este intercanvi siga més eficient i s'incremente la satisfacció.  
+- **Jerarquía visual**. Consiste en el tipo de organización de los elementos de un sitio web según su importancia. Se trata de uno de los pilares claves en el diseño de interfaces. 
 
-- **Jerarquia visual**. Consistix en el tipus d'organització dels elements d'un lloc web segons la seua importància. Es tracta d'un dels pilars claus en el disseny d'interfícies.  
+- ***Layouts**. Bloques genéricos o partes comunes que se reutilizan en varias páginas web del sitio web. 
 
-- **Layouts**. Blocs genèrics o parts comunes que es reutilitzen en diverses pàgines web del lloc web.  
+- **Prototipo**. Maqueta o modelo de un diseño o dispositivo para hacerse una idea del producto final que se obtendrá. 
 
-- **Plantilla**. Web predissenyada que l'usuari només ha de completar amb el contingut desitjat. Es tracta de la manera més senzilla de començar a crear un lloc web, i la menys costosa.
+- **Sketching**. Primer "prototipo" del sitio web. En él se realizan diseños esquemáticos en papel basados, esencialmente, a establecer la jerarquía de contenidos, pero sin detalles de diseño. 
 
-- **Prototip**. Maqueta o model d'un disseny o dispositiu per a fer-se una idea del producte final que s'obtindrà.  
+- **Wireframe**. Prototipo visual de baja calidad. Se trata de un esqueleto de un lugar o aplicación web. Se suele utilizar para distribuir de manera inicial el sitio web. No tiene que incluir elementos de diseño final; estos se hacen en blanco y negro o en escala de grises. 
 
-- **Sketching**. Primer "prototip" del lloc web. En ell es realitzen dissenys esquemàtics en paper basats, essencialment, a establir la jerarquia de continguts, però sense detalls de disseny.  
+- **Colores seguros**. También denominados web-*safecolors, se aplica a aquellos colores que se representan de la misma forma en cualquier navegador, dispositivo o sistema operativo; de este modo todos los usuarios tendrán la misma experiencia cromática.
 
-- **Wireframe**. Prototip visual de baixa qualitat. Es tracta d'un esquelet d'un lloc o aplicació web. Se sol utilitzar per a distribuir de manera inicial el lloc web. No ha d'incloure elements de disseny final; estos es fan en blanc i negre o en escala de grises.  
+- **Colores verdaderos (true-color)**. Sistema de representación de colores que puede reproducir el total de colores que el ojo humano es capaz de percibir.
 
-- **Capçalera**. La capçalera és l'element de la pàgina web l'objectiu principal de la qual és la identificació del lloc. Esta part apareix en totes les pàgines que formen part del lloc web.
+- **Cabecera**. La cabecera es el elemento de la página web el objetivo principal de la cual es la identificación del lugar. Esta parte aparece en todas las páginas que forman parte del sitio web.
 
-- **Colors segurs**. També denominats web-safecolors, s'aplica a aquells colors que es representen de la mateixa forma en qualsevol navegador, dispositiu o sistema operatiu; d'esta manera tots els usuaris tindran la mateixa experiència cromàtica.
+- **Cuerpo**. Parte central de una página web en la cual se recoge el contenido que se desea mostrar al usuario. Se sitúa debajo de la cabecera y del menú de navegación. Es recomendable que todos los elementos que se sitúen en el cuerpo mantengan un diseño uniforme y similar entre las diferentes páginas. 
 
-- **Colors vertaders (true-color)**. Sistema de representació de colors que pot reproduir el total de colors que l'ull humà és capaç de percebre.
+- **Pie**. Es la sección ubicada en la parte inferior de una página web. Generalmente, contiene información adicional como enlaces a páginas legales, datos de contacto, redes sociales, copyright, enlaces de navegación secundarios, etc. Su propósito es ofrecer contenido de soporte y mejorar la usabilidad del sitio.
 
-- **Cos**. Part central d'una pàgina web en la qual s'arreplega el contingut que es desitja mostrar a l'usuari. Se situa davall de la capçalera i del menú de navegació. És recomanable que tots els elements que se situen en el cos mantinguen un disseny uniforme i similar entre les diferents pàgines.  
+- **Mapa conceptual**. Esquema de ideas que sirve de herramienta para organizar de manera gráfica y simplificada los conceptos y enunciados, a fin de reforzar un conocimiento.
 
-- **Mapa conceptual**. Esquema d'idees que servix de ferramenta per a organitzar de manera gràfica i simplificada els conceptes i enunciats, a fi de reforçar un coneixement.
+- **Mapa de navegación**. Esquema en el cual se muestran todas las secciones o páginas de un sitio web, y la relación que existe entre cada una de ellas. Este esquema facilitará el diseño óptimo del lugar. 
 
-- **Mapa de navegació**. Esquema en el qual es mostren totes les seccions o pàgines d'un lloc web, i la relació que existix entre cadascuna d'elles. Este esquema facilitarà el disseny òptim del lloc.  
+- **Maquetación web**. Distribución de los elementos en el espacio disponible en un lugar o página web. Una de las principales ventajas de la maquetación es que permite realizar todos los cambios de diseño deseados antes de empezar con la implementación.
 
-- **Maquetació web**. Distribució dels elements en l'espai disponible en un lloc o pàgina web. Una dels principals avantatges de la maquetació és que permet realitzar tots els canvis de disseny desitjats abans de començar amb la implementació.
+- **Sistema RGB**. Sistema de representación de los colores del espectro cromático basado en la combinación de los tres colores primarios (rojo [R], verde [G] y moratón [B]), a partir de los cuales se obtienen el resto de los colores.
 
-- **Sistema RGB**. Sistema de representació dels colors de l'espectre cromàtic basat en la combinació dels tres colors primaris (roig [R], verda [G] i blau [B]), a partir dels quals s'obtenen la resta dels colors.
+# 3. Evolución del diseño web
+## 3.1. - 1991-1994 inicios de la web  
+- **1991:** Tim Berners-Lee crea la primera página web con solo texto y enlaces en HTML.  
+- **1993:** Aparece el primer navegador gráfico, Mosaic, permitiendo imágenes junto con texto.  
+- **1994:** Netscape Navigator introduce mejoras en el renderizado de páginas y establece el estándar de navegación.  
 
-     
+## 3.2. - 1995-1999: HTML y el diseño en tablas  
+- **1995:** Se lanza JavaScript, permitiendo interactividad en el navegador.  
+- **1996:** Aparece CSS (Cascading Style Sheets) para separar contenido y presentación. También surge Flash, revolucionando la animación en la web.  
+- **1997:** HTML 4.0 se populariza con el uso de tablas para estructurar páginas web.  
+- **1998:** Google aparece y cambia la forma de buscar información en la web.  
+- **1999:** Se consolida el uso de Flash y JavaScript en la creación de interfaces interactivas.  
 
-# 3. Evolució del disseny web
-L'evolució del disseny web ha passat per diverses etapes clau, impulsada principalment pels avanços en HTML i CSS:
-    1. Primera etapa (1990): El disseny web era molt bàsic, centrat en documents de text amb HTML estàtic, amb imatges i enllaços simples. Les pàgines eren majorment funcionals, sense molt d'enfocament en l'estètica o l'experiència de l'usuari.
-    2. Taules i marcs (1990 - 2000): Els dissenyadors van començar a usar taules per a estructurar el contingut de manera més complexa i visualment atractiva. Així i tot, el control del disseny era limitat i difícil de mantindre.
-    3. HTML + CSS (2000 - ): La separació del contingut (HTML) i la presentació (CSS) va permetre un major control sobre l'estil visual de les pàgines. Amb CSS, els dissenyadors podien personalitzar fonts, colors i distribucions de manera més eficient, donant pas a dissenys més complexos i consistents.
-    4. Responsive design (2010 - ): Amb l'auge dels dispositius mòbils, el disseny web va evolucionar cap a interfícies responsives que s'adapten a diferents grandàries de pantalla. Això va millorar l'accessibilitat i experiència en múltiples dispositius.
-    5.  HTML5 i CSS3 (2015 - present): L'arribada de HTML5 i CSS3 va portar noves capacitats, com a animacions, tipografies personalitzades, i l'ús de multimèdia sense complements externs. A més, va facilitar el desenrotllament de llocs interactius i aplicacions web més riques en funcionalitats, acostant-se a l'experiència de les aplicacions natives.
+## 3.3. - 2000-2006: CSS y el auge del diseño web  
+- **2000:** Se adopta CSS para diseños, reemplazando las tablas.  
+- **2003:** Aparece WordPress, facilitando la creación de sitios web sin necesidad de programar.  
+- **2004:** Se popularizan las técnicas de diseño líquido y adaptable.  
+- **2005:** Nace AJAX, permitiendo recargar contenido sin necesidad de actualizar la página completa.  
+
+## 3.4. - 2007-2012: Móviles y responsive design  
+- **2007:** Apple lanza el iPhone.  
+- **2010:** Ethan Marcotte introduce el término **Responsive Web Design (RWD)**, impulsando el diseño adaptable a cualquier dispositivo.  
+- **2011:** HTML5 y CSS3 se consolidan, permitiendo animaciones sin Flash.  
+- **2012:** Se expande el diseño minimalista con estilos planos y colores vibrantes.  
+
+## 3.5. - 2013-2019: UI/UX, frameworks y accesibilidad  
+- **2013:** Google presenta Material Design, estableciendo un estándar visual con sombras y animaciones realistas.  
+- **2015:** Se popularizan frameworks como Bootstrap y Foundation para acelerar el desarrollo web.  
+- **2016:** La velocidad y la accesibilidad se convierten en prioridades con la optimización para SEO y Core Web Vitals.  
+- **2019:** Dark mode se convierte en una tendencia en muchas interfaces web.  
+
+## 3.6. - 2020-presente: IA, diseño sin código y Web 3.0  
+- **2020:** Herramientas como Webflow y Figma facilitan la creación de sitios sin necesidad de programar.  
+- **2022:** La IA empieza a usarse para generar diseños y mejorar la experiencia del usuario.  
+- **2024-2025:** Web 3.0, con blockchain y aplicaciones descentralizadas, empieza a redefinir la propiedad y seguridad en la web.  
+
+# 4. Componentes de una interfaz web
+https://www.eniun.com/guia-estilo-diseno-interfaces-web/
+
+Muchos de los componentes o elementos de una interfaz web son comunes en todos los sitios web. Algunos ejemplos son: la cabecera, el menú de navegación, el cuerpo, la barra lateral o el pie de página.
+
+Contenidos del artículo
+
+    4. Componentes de una interfaz web
+    4.1. Cabecera o header
+    4.2. Cuerpo de la página
+    4.3. Pie de página (footer)
+    4.4. Barra lateral (sidebar)
+    4.5. Menú de navegación (navbar)
+    4.6. Otros componentes de una interfaz web
+    4.7. Diferentes nomenclaturas y convenciones para los componentes de una interfaz
+    4.8. Ejemplos de componentes en interfaces
+
+Conocer el nombre de cada una de las partes de una aplicación web es esencial ya que forma parte del vocabulario utilizado por los desarrolladores y diseñadores. La siguiente figura muestra la estructura general de un sitio web.
+componentes interfaz webFigura 4.1. Componentes de una interfaz web
+
+Veamos detenidamente la descripción de los componentes principales de una interfaz web:
+4.1. Cabecera o header
+
+La cabecera o header es la zona de la interfaz web situada en la parte superior y que sirve para identificar la empresa o marca. Normalmente se utiliza para mostrar el logotipo de la empresa o su nombre. Además, este espacio da cabida a textos descriptivos, imágenes, paneles de acceso o banners publicitarios, entre otras cosas. Aunque la cabecera no es obligatoria, es utilizada en prácticamente todos los desarrollos de sitios web.
+
+Debido a nuestra lectura visual, de arriba a abajo y de izquierda a derecha, el primer elemento que vemos en toda interfaz web es la parte superior izquierda de la página. Por este motivo, no es de extrañar que se aproveche este espacio para posicionar el logotipo y el nombre de la marca. Aunque también es posible encontrar el logotipo en la parte central de la cabecera o en otras ubicaciones.
+4.2. Cuerpo de la página
+
+El cuerpo de la página es donde se muestran los contenidos. Puede verse acompañado de uno o varios sidebars (o menús laterales de navegación). Se sitúa bajo de la cabecera o header o bajo del navbar (o menú de navegación principal). Generalmente, el cuerpo de la página cuenta con un título descriptivo. Todos los elementos del cuerpo de página deben seguir la guía de estilo del resto de la web.
+4.3. Pie de página (footer)
+
+El pie de página o footer se sitúa en la parte inferior de una interfaz web, bajo el cuerpo de la página. Generalmente, suele utilizarse para para mostrar enlaces a servicios, formulario de contacto, banners publicitarios, políticas de privacidad y cookies, entre otras cosas.
+4.4. Barra lateral (sidebar)
+
+La barra lateral o sidebar de una página web es un área ubicada a un lado del contenido principal, generalmente a la derecha o a la izquierda, que puede contener información adicional, enlaces a otras páginas o secciones, o widgets como un calendario o una lista de etiquetas.
+
+Puede ser utilizada para mostrar contenido relacionado con el contenido principal de la página, como enlaces a artículos relacionados en un blog, o para mostrar información adicional que pueda ser útil para el usuario, como una lista de categorías o etiquetas en una tienda en línea.
+
+También puede ser utilizada para mostrar anuncios o promociones, o para incluir elementos interactivos como formularios de suscripción a boletines o encuestas.
+4.5. Menú de navegación (navbar)
+
+El menú de navegación de una página web es un elemento crucial para ayudar a los usuarios a encontrar y acceder al contenido que buscan. Un menú de navegación bien diseñado puede mejorar la experiencia del usuario y aumentar la probabilidad de que los usuarios encuentren lo que buscan en la página.
+
+Un menú de navegación suele ubicarse en el encabezado de la página y puede incluir enlaces a las principales secciones o páginas de la web. Estos enlaces pueden organizarse en una estructura jerárquica, con submenús que se despliegan al pasar el cursor sobre ellos, o pueden mostrarse en una sola fila o columna.
+
+El diseño del menú de navegación debe ser claro y fácil de usar, con etiquetas descriptivas para cada enlace y una disposición lógica de las opciones. También es importante asegurarse de que el menú sea fácilmente accesible desde cualquier parte de la página y que se adapte bien a diferentes tamaños de pantalla.
+4.6. Otros componentes de una interfaz web
+
+Además de los componentes principales que hemos estudiado, hay una serie de elementos que suelen ser muy habituales en las páginas web. Aunque no vamos a entrar en una explicación tan detallada de cada uno de ellos, conviene conocerlos ya que forman parte del vocabulario técnico que todo diseñador de interfaces web debe conocer.
+
+    Acordeón (Accordion): Un acordeón es un elemento de interfaz que permite mostrar y ocultar contenido en secciones expandibles y colapsables.
+    Anuncio (Banner, Ad or Advertisement): Un anuncio, banner o ad es un elemento de publicidad que se muestra en una página web para promocionar un producto o servicio.
+    Ayudas Flotantes (Tooltip): Las ayudas flotantes o tooltips son pequeñas cajas de texto que aparecen al pasar el cursor sobre un elemento para proporcionar información adicional.
+    Barra de Acciones (Action Bar): Una barra de acciones o action bar es una barra de herramientas que proporciona acceso rápido a acciones comunes en una aplicación o página web.
+    Barra de Búsqueda (Search Bar): Una barra de búsqueda o search bar es un campo de entrada que permite a los usuarios buscar contenido en una página web.
+    Barras de herramientas, cuadrículas y listas (Toolbars, grids, lists): Son elementos utilizados para organizar y presentar información en una página web o aplicación.
+    Barra de Progreso (Progress Bar): Una barra de progreso o progress bar es un elemento visual que muestra el progreso de una tarea en curso, como la carga de una página o la descarga de un archivo.
+    Botones (Buttons): Los botones son elementos interactivos que permiten a los usuarios realizar acciones, como enviar un formulario o navegar a otra página.
+    Carrito de compra o cesta (Shopping cart or Basket): Un carrito de compra o cesta es un elemento en una tienda en línea que permite a los usuarios guardar productos para comprarlos más tarde.
+    Carrusel (Carousel): Un carrusel o carousel, también llamado slider (porque se puede deslizar el contenido), es un elemento que permite mostrar múltiples elementos en un espacio limitado, desplazándolos horizontalmente. Suele consistir en un pase de diapositivas, que pueden estar animadas o ser imágenes fijas.
+    Cuadros de diálogo (Dialog boxes): Son ventanas que se abren en pantalla para comunicar algo al usuario o para pedirle que elija una opción o que introduzca algún dato. Por ejemplo, cuando quieres guardar un archivo , se abre un cuadro de diálogo que permite indicar el nombre y la ubicación del archivo.
+    Deslizador (Slider): Un deslizador o slider es un elemento que permite a los usuarios ajustar un valor desplazando un control deslizante a lo largo de una barra.
+    Fichas, campos y secciones (Tabs, fields, sections): Son elementos utilizados para organizar el contenido en una página web o aplicación.
+    Formulario de contacto (Contact Form): Un formulario de contacto o contact form es un formulario que permite a los usuarios enviar un mensaje al propietario de una página web.
+    Imagen destacada o imagen de portada (Hero image): Imagen de gran tamaño que suele aparecer al inicio de un sitio web y que sirve para destacar el mensaje, los productos o la esencia de una compañía.
+    Inscripción al boletín de noticias (Newsletter Subscription): La inscripción al boletín de noticias o newsletter es un formulario que permite a los usuarios suscribirse para recibir noticias y actualizaciones por correo electrónico.
+    Llamada a la acción (Call to action): Es un botón o enlace situado en un sitio web que busca atraer clientes potenciales y convertirlos en clientes finales, normalmente a través de un formulario en una página de destino o landing page.
+    Menú desplegable (Drop-down menu): Es un elemento de la interfaz gráfica de usuario que permite al usuario seleccionar una opción de una lista de opciones.
+    Menú desplegable multinivel (Multilevel drop-down menu): Un menú desplegable multilevel o multinivel es un tipo de menú desplegable que contiene varios niveles de opciones. Cuando el usuario interactúa con una opción del menú, se despliega una lista de subopciones relacionadas con esa opción.
+    Menú hamburguesa (Hamburger menu) o toggle (Toggle): Es un icono que se utiliza para representar un menú en dispositivos móviles. Cuando se hace clic en él, se despliega un menú con opciones.
+    Migas de pan (Breadcrumbs): Son una serie de enlaces que muestran la ruta que ha seguido el usuario para llegar a una página en particular dentro de un sitio web.
+    Notificaciones (Notifications): Son mensajes que informan al usuario sobre eventos importantes dentro de una aplicación.
+    Paginado (Pagination): Es el proceso de dividir el contenido en varias páginas para facilitar la navegación y mejorar la experiencia del usuario.
+    Panel de acciones (Action panel): Es un panel que contiene botones u opciones para realizar acciones rápidas dentro de una aplicación.
+    Pestañas (Tabs): Son elementos de la interfaz gráfica de usuario que permiten al usuario cambiar entre diferentes vistas o secciones dentro de una misma página.
+    Políticas de privacidad y cookies (Privacy and cookie policies): Son documentos legales que informan al usuario sobre cómo se recopilan, utilizan y protegen sus datos personales y sobre el uso de cookies en un sitio web.
+    Redes sociales (Social media): Son plataformas en línea que permiten a los usuarios interactuar entre sí y compartir contenido.
+    Rosco de carga (Spinner): Es un elemento gráfico que indica al usuario que una acción está en proceso y que debe esperar.
+    Selector de idiomas (Language selector): Es un elemento de la interfaz gráfica de usuario que permite al usuario seleccionar el idioma en el que desea ver el contenido de un sitio web.
+    Tarjetas (Cards): Son elementos gráficos utilizados para presentar información de manera visual y organizada.
+    Ventana emergente (Popup) o popover (Popover): Es una ventana que aparece en la pantalla sin haber sido solicitada por el usuario, normalmente con el fin de mostrar publicidad o información adicional.
+
+4.7. Diferentes nomenclaturas y convenciones para los componentes de una interfaz
+
+Las herramientas de desarrollo de software a menudo tienen sus propias convenciones de nomenclatura para los componentes de la interfaz de usuario. Esto significa que un mismo componente puede tener diferentes nombres dependiendo de la herramienta de desarrollo que se utilice.
+
+Un ejemplo de cómo diferentes herramientas de desarrollo pueden llamar a los componentes de la interfaz de usuario de distintas maneras es el caso de la barra de navegación o navbar. En Xcode, la herramienta de desarrollo de Apple para iOS y macOS, se llama UINavigationBar. Sin embargo, en otras herramientas de desarrollo, como por ejemplo en Bootstrap, un framework popular para el desarrollo de sitios web, se llama Navbar. Aunque ambos términos se refieren al mismo componente, cada herramienta utiliza su propia convención de nomenclatura.
+
+Otro ejemplo es el caso de la la barra de pestañas o Tab Bar. En iOS, la barra de pestañas se llama Tab Bar y se implementa utilizando el componente UITabBar. Android llama a la barra de pestañas Bottom Navigation y se implementa utilizando el componente BottomNavigationView. En Bootstrap, se llama Navs y se implementa utilizando componentes como Nav, NavItem y NavLink. Aunque todos estos términos se refieren al mismo tipo de componente, cada plataforma o herramienta de desarrollo utiliza su propia convención de nomenclatura.
+4.8. Ejemplos de componentes en interfaces
+
+Veamos ahora el siguiente tablero de Pinterest en el que se han recogido diferentes páginas web con la descripción de sus componentes.
 
 
 
 
 
 
-
-
-
-
-
-
-Etapes clau de l’evolució del disseny web.
 
 
 
