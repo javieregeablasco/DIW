@@ -211,12 +211,14 @@ Define la estructura visual de los elementos dentro de una página web. Puede se
 ### 5.2.2. - Color  
 Influye en la percepción y la emoción del usuario. Se utiliza para:  
 - **Generar identidad visual** (branding).  
-<a href="http://www.wakeinteractive.com/">![alt text](./img/color.png)</a>
+![alt text](./img/color.png)
 
 - **Crear contrastes** y mejorar la accesibilidad.  
+<img src="./img/contrast.png" width=50%>
+
 - **Diferenciar secciones** o establecer jerarquías.  
-<a href="http://hello.carsonified.com/">![alt text](./img/secciones.png)</a>
-![alt text](image.png)
+![alt text](./img/secciones.png)
+
 
 ### 5.2.3. - Medida  
 Hace referencia al tamaño y la escala de los elementos en una interfaz:  
