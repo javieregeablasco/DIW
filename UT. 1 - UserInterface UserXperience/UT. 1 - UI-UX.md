@@ -9,11 +9,11 @@ Palabras clave: DAW, DIW
 
 <br>
 
-| **Resultados de aprendizaje** |
+| **Resultados de aprendizaje de la unidad didáctica:** |
 |-|
 | **RA. 1:** Planifica la creación de una interfaz web valorando y aplicando especificaciones de diseño.|
 
-|**Criterios de evaluación de la unidad didáctica**|
+|**Criterios de evaluación de la unidad didáctica:**|
 |-|
 | **CE. a&#41;** Se ha reconocido la importancia de la comunicación visual y sus principios básicos.|
 | **CE. b&#41;** Se han analizado y seleccionado los colores y tipografías adecuados para su visualización en pantalla.|
@@ -37,76 +37,135 @@ Palabras clave: DAW, DIW
 Las aplicaciones y sitios web son esenciales en nuestra vida diaria para consultar información, gestionar trámites o comunicarnos. 
 Independientemente del dispositivo, la web representa la imagen de una entidad, por eso es crucial que el contenido y las funcionalidades sean atractivos, accesibles y fáciles de usar (User Experience), con un diseño agradable que capte la atención del usuario (User Interface). 
 
-# 2. Glosario de palabras del ámbito de la creación web
-- **Diseño web**. El diseño web se encarga de crear, diseñar y desarrollar páginas web, plataformas o interfaces. Dentro de esta área se incluyen conceptos importantes como el diseño gráfico, la experiencia de usuario, la arquitectura de la web o la navegabilidad.
+# 2. Evolución del diseño web
+<br>
 
-- **Interacción**. Disciplina que estudia el intercambio de información entre las personas y los ordenadores, el objetivo de los cuales es que este intercambio sea más eficiente y se incremente la satisfacción de usuario. 
+![alt text](./img/evolucionhtml.png)
 
-- **Jerarquía visual**. Consiste en el tipo de organización de los elementos de un sitio web según su importancia. Se trata de uno de los pilares claves en el diseño de interfaces. 
+<br>
 
-- ***Layouts**. Bloques genéricos o partes comunes que se reutilizan en varias páginas web del sitio web. 
-
-- **Prototipo**. Maqueta o modelo de un diseño o dispositivo para hacerse una idea del producto final que se obtendrá. 
-
-- **Sketching**. Primer "prototipo" del sitio web. En él se realizan diseños esquemáticos en papel basados, esencialmente, a establecer la jerarquía de contenidos, pero sin detalles de diseño. 
-
-- **Wireframe**. Prototipo visual de baja calidad. Se trata de un esqueleto de un lugar o aplicación web. Se suele utilizar para distribuir de manera inicial el sitio web. No tiene que incluir elementos de diseño final; estos se hacen en blanco y negro o en escala de grises. 
-
-- **Colores seguros**. También denominados web-*safecolors, se aplica a aquellos colores que se representan de la misma forma en cualquier navegador, dispositivo o sistema operativo; de este modo todos los usuarios tendrán la misma experiencia cromática.
-
-- **Colores verdaderos (true-color)**. Sistema de representación de colores que puede reproducir el total de colores que el ojo humano es capaz de percibir.
-
-- **Cabecera**. La cabecera es el elemento de la página web el objetivo principal de la cual es la identificación del lugar. Esta parte aparece en todas las páginas que forman parte del sitio web.
-
-- **Cuerpo**. Parte central de una página web en la cual se recoge el contenido que se desea mostrar al usuario. Se sitúa debajo de la cabecera y del menú de navegación. Es recomendable que todos los elementos que se sitúen en el cuerpo mantengan un diseño uniforme y similar entre las diferentes páginas. 
-
-- **Pie**. Es la sección ubicada en la parte inferior de una página web. Generalmente, contiene información adicional como enlaces a páginas legales, datos de contacto, redes sociales, copyright, enlaces de navegación secundarios, etc. Su propósito es ofrecer contenido de soporte y mejorar la usabilidad del sitio.
-
-- **Mapa conceptual**. Esquema de ideas que sirve de herramienta para organizar de manera gráfica y simplificada los conceptos y enunciados, a fin de reforzar un conocimiento.
-
-- **Mapa de navegación**. Esquema en el cual se muestran todas las secciones o páginas de un sitio web, y la relación que existe entre cada una de ellas. Este esquema facilitará el diseño óptimo del lugar. 
-
-- **Maquetación web**. Distribución de los elementos en el espacio disponible en un lugar o página web. Una de las principales ventajas de la maquetación es que permite realizar todos los cambios de diseño deseados antes de empezar con la implementación.
-
-- **Sistema RGB**. Sistema de representación de los colores del espectro cromático basado en la combinación de los tres colores primarios (rojo [R], verde [G] y moratón [B]), a partir de los cuales se obtienen el resto de los colores.
-
-# 3. Evolución del diseño web
-## 3.1. - 1991-1994 inicios de la web  
+>**1991-1994 inicios de la web**  
 - **1991:** Tim Berners-Lee crea la primera página web con solo texto y enlaces en HTML.  
 - **1993:** Aparece el primer navegador gráfico, Mosaic, permitiendo imágenes junto con texto.  
 - **1994:** Netscape Navigator introduce mejoras en el renderizado de páginas y establece el estándar de navegación.  
 
-## 3.2. - 1995-1999: HTML y el diseño en tablas  
+>**1995-1999: HTML y el diseño en tablas**  
 - **1995:** Se lanza JavaScript, permitiendo interactividad en el navegador.  
 - **1996:** Aparece CSS (Cascading Style Sheets) para separar contenido y presentación. También surge Flash, revolucionando la animación en la web.  
 - **1997:** HTML 4.0 se populariza con el uso de tablas para estructurar páginas web.  
 - **1998:** Google aparece y cambia la forma de buscar información en la web.  
 - **1999:** Se consolida el uso de Flash y JavaScript en la creación de interfaces interactivas.  
 
-## 3.3. - 2000-2006: CSS y el auge del diseño web  
+>**2000-2006: CSS y el auge del diseño web**  
 - **2000:** Se adopta CSS para diseños, reemplazando las tablas.  
 - **2003:** Aparece WordPress, facilitando la creación de sitios web sin necesidad de programar.  
 - **2004:** Se popularizan las técnicas de diseño líquido y adaptable.  
 - **2005:** Nace AJAX, permitiendo recargar contenido sin necesidad de actualizar la página completa.  
 
-## 3.4. - 2007-2012: Móviles y responsive design  
+>**2007-2012: Móviles y responsive design**  
 - **2007:** Apple lanza el iPhone.  
 - **2010:** Ethan Marcotte introduce el término **Responsive Web Design (RWD)**, impulsando el diseño adaptable a cualquier dispositivo.  
 - **2011:** HTML5 y CSS3 se consolidan, permitiendo animaciones sin Flash.  
 - **2012:** Se expande el diseño minimalista con estilos planos y colores vibrantes.  
 
-## 3.5. - 2013-2019: UI/UX, frameworks y accesibilidad  
+>**2013-2019: UI/UX, frameworks y accesibilidad**  
 - **2013:** Google presenta Material Design, estableciendo un estándar visual con sombras y animaciones realistas.  
 - **2015:** Se popularizan frameworks como Bootstrap y Foundation para acelerar el desarrollo web.  
 - **2016:** La velocidad y la accesibilidad se convierten en prioridades con la optimización para SEO y Core Web Vitals.  
 - **2019:** Dark mode se convierte en una tendencia en muchas interfaces web.  
 
-## 3.6. - 2020-presente: IA, diseño sin código y Web 3.0  
+>**2020-presente: IA, diseño sin código y Web 3.0**  
 - **2020:** Herramientas como Webflow y Figma facilitan la creación de sitios sin necesidad de programar.  
 - **2022:** La IA empieza a usarse para generar diseños y mejorar la experiencia del usuario.  
 - **2024-2025:** Web 3.0, con blockchain y aplicaciones descentralizadas, empieza a redefinir la propiedad y seguridad en la web.  
 
+# 3. Definiciones
+>**Interacción Persona-Ordenador (IPO)**  
+La **Interacción Persona-Ordenador (IPO)** es la ciencia que estudia la relación entre los seres humanos y los sistemas informáticos. Su objetivo principal es diseñar interfaces que permitan una comunicación eficiente, intuitiva y accesible entre los usuarios y las computadoras.  
+
+Dentro de la IPO encontramos:  
+- **Ergonomía y usabilidad**: Se busca que los sistemas sean fáciles de usar y reduzcan la carga cognitiva del usuario.  
+- **Modelos de interacción**: Analiza cómo las personas perciben, aprenden y usan la tecnología.  
+- **Diseño centrado en el usuario**: Enfatiza la importancia de diseñar software basado en las necesidades y comportamientos del usuario final.  
+- **Accesibilidad**: Considera a usuarios con diferentes capacidades físicas o cognitivas para garantizar una experiencia inclusiva.  
+
+>**Interfaz de Usuario (UI - User Interface)**  
+
+![alt text](./img/ui.png)
+
+La **Interfaz de Usuario** es el medio a través del cual los usuarios interactúan con un sistema o aplicación. Puede incluir elementos visuales, táctiles y auditivos. Existen distintos tipos de interfaces:  
+
+- **Interfaz gráfica (GUI - Graphical User Interface)**: Es la más común y se compone de menús, iconos y ventanas.  
+- **Interfaz de línea de comandos (CLI - Command Line Interface)**: Utilizada principalmente por usuarios avanzados, no está diseñada para el gran público.  
+- **Interfaces de voz (VUI - Voice User Interface)**: Usadas en asistentes virtuales como Alexa o Google Assistant.  
+- **Interfaces hápticas**: Basadas en el tacto, como los dispositivos con retroalimentación por vibración.  
+
+>**Experiencia de Usuario (UX - User Experience)** 
+
+![alt text](./img/ux.png)
+
+La **Experiencia de Usuario (UX)** abarca todos los aspectos de la interacción de una persona con un producto o servicio digital. Va más allá de la interfaz y se enfoca en la percepción global del usuario sobre la usabilidad, accesibilidad y satisfacción con el sistema.  
+
+Los principales factores que influyen en la UX son:  
+- **Usabilidad**: Facilidad con la que el usuario puede aprender y utilizar el sistema.  
+- **Diseño visual**: La estética y la disposición de los elementos en la interfaz.  
+- **Accesibilidad**: Adaptabilidad para usuarios con diversas capacidades.  
+- **Flujo de interacción**: La estructura lógica de la navegación dentro de la aplicación o sitio web.  
+- **Emoción y confianza**: La percepción del usuario sobre la seguridad y eficiencia del sistema.  
+
 # 4. Componentes de una interfaz web
+La **interfaz web** o **interfaz de usuario** es el punto de interacción entre el usuario y un sitio web o una aplicación. Para que sea efectiva, debe ser intuitiva, accesible y atractiva. 
+
+A continuación, se enumeran los componentes clave que toda interfaz web debe incorporar:  
+
+## :four:.1️⃣. - Elementos de identificación  
+Los elementos de identificación son aquellos que permiten a los usuarios reconocer y recordar un sitio web específico. Su función principal es establecer la identidad visual y de marca, facilitando la navegación y la confianza del usuario.
+
+🔹 **Logotipo:** Un buen diseño es crucial para el recuerdo y la identidad visual.  
+🔹 **Nombre de dominio:** Debe ser claro y fácil de recordar.  
+🔹 **Título de la página:** Aparece en la pestaña del navegador y en **los resultados de búsqueda**. Debe ser conciso y descriptivo del contenido de la página.  
+🔹 **Imagen de cabecera:** Generalemente, aparece en la parte superior de la página y ayuda a entender el contenido de la web.  
+🔹 **Elementos de marca:** Incluyen colores, tipografía y otros elementos visuales que refuerzan la identidad corporativa de una marca.  
+🔹 **Favicon:** Icono que aparece en la pestaña del navegador junto al título de la página.  
+
+## :four:.2️⃣. - Elementos de navegación  
+Son los elementos encargados de organizar la información y permiten acceder de forma rápida e intuitiva a los diversos contenidos del sitio:  
+
+🔹 **Barra de navegación (Navbar)**: Menú que facilita el acceso a las diferentes secciones del sitio.
+🔹 **Menús y submenús**: Listas de opciones organizadas jerárquicamente para mejorar la experiencia de navegación.  
+🔹 **Migas de pan (Breadcrumbs)**: Indicadores que muestran la ubicación del usuario dentro del sitio y permiten una navegación más sencilla.  
+🔹 **Footer (Pie de página)**: Contiene enlaces, términos de uso y redes sociales.  
+
+
+## :four:.:three: Elementos de Contenidos  
+Son los componentes que presentan la información al usuario:  
+
+🔹📝 **Encabezados y texto**: Estructuran la jerarquía del contenido.  
+🔹📸 **Imágenes e íconos**: Refuerzan el mensaje visual y mejoran la estética del sitio.  
+🔹🎬 **Videos y multimedia**: Se utilizan para presentar información de manera más dinámica.  
+🔹📂 **Tablas y listas**: Organizan la información en formatos estructurados.  
+
+## :four:.:four: - Elementos Interactivos  
+Facilitan la interacción del usuario con la web, entre ellos tenemos:  
+
+🔹🖱 **Botones (Buttons)**: Permiten realizar acciones como enviar formularios o navegar entre páginas.  
+🔹📩 **Formularios y campos de entrada**: Recolectan la información del usuario y realizan consultas a bases de datos.  
+🔹🔁 **Sliders y carruseles**: Muestran contenido de forma dinámica en un espacio reducido.  
+🔹📌 **Pestañas y acordeones**: Organizan contenido en secciones colapsables para mejorar la usabilidad.  
+🔹🎛 **Modales y pop-ups**: Ventanas emergentes que muestran información adicional o alertas.  
+
+
+## :four:.:five: - Elementos de Retroalimentación  
+En todo momento, informan al usuario del estado de sus acciones o consultas:  
+
+🔹✅ **Mensajes de éxito o error**: Notificaciones sobre el resultado de una acción, como el envío de un formulario.  
+🔹📢 **Tooltips y ayudas**: Pequeños textos emergentes que explican el uso de un elemento.  
+🔹🔄 **Indicadores de carga (Spinners, progress bars)**: Informan sobre el estado de procesos en ejecución.  
+
+
+
+
+
 https://www.eniun.com/guia-estilo-diseno-interfaces-web/
 
 Muchos de los componentes o elementos de una interfaz web son comunes en todos los sitios web. Algunos ejemplos son: la cabecera, el menú de navegación, el cuerpo, la barra lateral o el pie de página.
@@ -119,9 +178,7 @@ Contenidos del artículo
     4.3. Pie de página (footer)
     4.4. Barra lateral (sidebar)
     4.5. Menú de navegación (navbar)
-    4.6. Otros componentes de una interfaz web
-    4.7. Diferentes nomenclaturas y convenciones para los componentes de una interfaz
-    4.8. Ejemplos de componentes en interfaces
+
 
 Conocer el nombre de cada una de las partes de una aplicación web es esencial ya que forma parte del vocabulario utilizado por los desarrolladores y diseñadores. La siguiente figura muestra la estructura general de un sitio web.
 componentes interfaz webFigura 4.1. Componentes de una interfaz web
