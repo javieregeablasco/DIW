@@ -222,9 +222,14 @@ Influye en la percepción y la emoción del usuario. Se utiliza para:
 
 ### 5.2.3. - Medida  
 Hace referencia al tamaño y la escala de los elementos en una interfaz:  
-- **Tipografía**: Tamaños de fuente adaptables para distintos dispositivos (rem, em, px).  
-- **Imágenes y gráficos**: Se escalan correctamente para mantener calidad y rendimiento.  
-- **Espaciado y proporción**: Márgenes, padding y grids permiten un diseño equilibrado.  
+- **Tipografía**: Tamaños de fuente adaptables para distintos dispositivos o contenidos.
+![alt text](./img/fonsize.webp)
+
+- **Imágenes y gráficos**: Se escalan correctamente para mantener calidad y rendimiento.
+![alt text](./img/image.webp)
+
+- **Espaciado y proporción**: Márgenes, padding y grids permiten un diseño equilibrado.
+  ![alt text](./img/marginpadding.png)
 
 ### 5.2.4. - Textura  
 Aunque el diseño web es bidimensional, se pueden simular texturas para dar profundidad y sensación táctil:  
