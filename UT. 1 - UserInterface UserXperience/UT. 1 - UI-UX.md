@@ -37,7 +37,7 @@ Palabras clave: DAW, DIW
 Las aplicaciones y sitios web son esenciales en nuestra vida diaria para consultar información, gestionar trámites o comunicarnos. 
 Independientemente del dispositivo, la web representa la imagen de una entidad, por eso es crucial que el contenido y las funcionalidades sean atractivos, accesibles y fáciles de usar (User Experience), con un diseño agradable que capte la atención del usuario (User Interface). 
 
-# 2. Glosario de palabras dentre del ámbito de la creación web
+# 2. Glosario de palabras del ámbito de la creación web
 - **Diseño web**. El diseño web se encarga de crear, diseñar y desarrollar páginas web, plataformas o interfaces. Dentro de esta área se incluyen conceptos importantes como el diseño gráfico, la experiencia de usuario, la arquitectura de la web o la navegabilidad.
 
 - **Interacción**. Disciplina que estudia el intercambio de información entre las personas y los ordenadores, el objetivo de los cuales es que este intercambio sea más eficiente y se incremente la satisfacción de usuario. 
