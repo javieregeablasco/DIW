@@ -296,6 +296,17 @@ Identificar los errores visuales de las siguientes interfaces web. Comentar el t
 Este grupo de elementos está relacionado con la ubicación y la interrelación de las formas dentro de una composición. La dirección y la posición pueden ser percibidas mientras que el espacio y la gravedad son sentidas.
 ![alt text](./img/relacion.png)
 
+- **Dirección:** Guía la mirada del usuario y se usa para organizar la información y definir el flujo de navegación. Existen tres tipos principales: **Horizontal**, **vertical** y en **diagonal o Z**.   
+![alt text](./img/direccionZ.png)
+
+- **Posición:** La posición define dónde se colocan los elementos en la pantalla en relación con otros. Esto afecta la usabilidad y la coherencia visual.  
+![alt text](./img/posicion.png)
+
+- **Espacio:** El espacio (white space) es fundamental para la legibilidad y la organización del contenido.  
+  ![alt text](./img/espacio.jpg)
+
+- **Gravedad:** La gravedad visual se refiere a la percepción del peso de los elementos en un diseño. Algunos factores que influyen en ella son: **Tamaño y color**, **sombra y profundidad** y **equilibrio visual**. 
+![alt text](./img/gravedad.jpg)
 
 
 ## 5.4. - Elementos prácticos
