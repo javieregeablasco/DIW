@@ -233,11 +233,16 @@ Hace referencia al tamaño y la escala de los elementos en una interfaz:
 
 ### 5.2.4. - Textura  
 Aunque el diseño web es bidimensional, se pueden simular texturas para dar profundidad y sensación táctil:  
-- **Fondos con degradados o patrones**.  
+- **Fondos con degradados o patrones** para misterio y sofisticación.  
+![alt text](./img/degradados.jpg)
 - **Sombras y efectos de iluminación** para realismo.  
+![alt text](./img/iluminacion.gif)
 - **Superposiciones y transparencias** para dinamismo.  
+![alt text](./img/superposicion.png)
 
-### 5.2.5. - Tarea RA1 CEb  
+<br>
+
+### 5.2.5. - Tarea RA1 CEc  
 Identificar los errores visuales de las siguientes interfaces web. Comentar el tipo de error encontrado.   
 
 :one: 
@@ -288,6 +293,9 @@ Identificar los errores visuales de las siguientes interfaces web. Comentar el t
 
 
 ## 5.3. - Elementos de relación
+Este grupo de elementos está relacionado con la ubicación y la interrelación de las formas dentro de una composición. La dirección y la posición pueden ser percibidas mientras que el espacio y la gravedad son sentidas.
+![alt text](./img/relacion.png)
+
 
 
 ## 5.4. - Elementos prácticos
