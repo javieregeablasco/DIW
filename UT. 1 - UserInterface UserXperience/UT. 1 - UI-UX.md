@@ -322,9 +322,10 @@ En el diseño web, los **elementos prácticos** son aquellos que van más allá 
 - **Función:** Es el propósito práctico de cada elemento en la interfaz y cómo contribuye a la experiencia del usuario. La función puede ser **informativa**, **interactiva** o **estructural**.
 ![alt text](./img/funcion.png)
 
+## 5.5. - Patrones de diseño, psicología Gestals
+![alt text](./img/gestals.png)
 
-
-
+# 6. Guía de estilo 
 
 
 https://www.eniun.com/guia-estilo-diseno-interfaces-web/
