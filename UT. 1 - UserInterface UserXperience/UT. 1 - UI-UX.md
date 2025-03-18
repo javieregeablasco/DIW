@@ -310,6 +310,17 @@ Este grupo de elementos está relacionado con la ubicación y la interrelación 
 
 
 ## 5.4. - Elementos prácticos
+En el diseño web, los **elementos prácticos** son aquellos que van más allá de la estética y se centran en la comunicación y la experiencia del usuario. Estos incluyen, entre otros, la representación, el significado y la función
+![alt text](./img/elementosPracticos.png)
+
+- **Representación:** Se refiere a cómo se presentan los elementos visuales en la interfaz y su relación con la realidad o la abstracción.
+![alt text](./img/representacion.png)
+
+- **Significado:** Es el mensaje o la idea que transmite un elemento dentro del diseño. Puede ser, **explícito** o **implícito**. 
+![alt text](./img/significado.png)
+
+- **Función:** Es el propósito práctico de cada elemento en la interfaz y cómo contribuye a la experiencia del usuario. La función puede ser **informativa**, **interactiva** o **estructural**.
+![alt text](./img/funcion.png)
 
 
 
