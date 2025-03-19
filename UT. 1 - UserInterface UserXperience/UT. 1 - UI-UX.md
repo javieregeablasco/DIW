@@ -336,58 +336,67 @@ La Gestalt propone una serie de principios que explican cómo organizamos la inf
 - **Principio de la experiencia**
 Este principio se basa en el hecho que la percepción del ser humano está fundamentado de acuerdo **sus propias experiencias**. Así pues, buscaremos que los diseños compartan similitudes con las experiencias de los usuarios.
 ![alt text](./img/experiencia.png)
+<br><br>
+    **Iconos de FontAwesome** cuyas acciones identificamos inmediatamente. 
+    ![alt text](./img/experiencia2.png)
+<br><br>
 
 - **Principio de simetría**
 Las imágenes simétricas son percibidas como iguales, como un solo elemento, en la distancia. 
 ![alt text](./img/simetria.png)
+<br><br>
+    **Contenidos** organizados de forma simetrica. 
+    ![alt text](./img/simetria2.png)
+<br><br>
 
 - **Principio de proximidad**
 Los objetos adjuntos tienden a ser vistos como una unidad. Los estímulos que están próximos tienden a percibirse como parte de la misma unidad.
 ![alt text](./img/proximidad.png)
+<br><br>
+    **Organización de contenidos** siguiendo el principio de proximidad. 
+    ![alt text](./img/proximidad2.png)
+<br><br>
 
 - **Principio de similitud**
 La mente agrupa los elementos similares en una entidad. La semejanza depende de la forma, del tamaño, del color y de otros aspectos visuales de los elementos. 
 ![alt text](./img/similitud.png)
+<br><br>
+    **Similitud** entre 2 secciones de precios.
+    ![alt text](./img/similitud2.png)
+<br><br>
 
 - **Principio de continuidad**
 Los detalles que mantienen un patrón o dirección tienden a agruparse juntos, como parte de un modelo. Es decir, percibimos elementos continuos, aunque estén interrumpidos entre sí. 
 ![alt text](./img/continuidad.png)
+<br><br>
+    **Percepción de continuidad** del carrusel a pesar de la interrupción abrupta de los contenidos.
+    ![alt text](./img/continuidad2.png)
+<br><br>
 
 - **Principio de simplicidad**
-El individuo organiza sus campos perceptuales con rasgos simples, regulares y tiende a formas buenas.
+El individuo organiza sus campos perceptuales con rasgos simples y regulares.  
 ![alt text](./img/simplicidad.png)
+<br><br>
+    **página simplificada** al máximo para evitar de crear malestar entre los posibles clientes.
+    ![alt text](./img/simplicidad2.png)
+<br><br>
 
+- **Principio de dirección común**
+Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura.
+![alt text](./img/comun.png)  
+<br><br>
+    **Las flechas del carrusel** no indican la posibilidad de movimiento horizontal del elemento.
+    ![alt text](./img/comun2.png)
+<br><br>
 
-
-Principio de dirección común
-Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura. Por ejemplo, las bandadas de pájaros que vuelan como un todo, es decir, como si se tratara de un organismo único.
-
-
-Principio de igualdad o equivalencia
-Dice que, cuando concurren varios elementos de diferentes clases, hay una tendencia a constituir grupos con los que son iguales. Esta experiencia la presentamos aislada, para evitar la influencia de otras leyes y por ello están equidistantes todos los elementos integrantes. Si las desigualdades se basan en el color, el efecto es más sorprendente que en la forma. Ahondando en las desigualdades, si se potencian las formas iguales, con un color común, se establecen condicionantes potenciadores, para el fenómeno agrupador de la percepción. En el caso de que el color no sea común en ambas figuras, acceden ampliamente a ser vistas como experiencia visionaria.
-
-Principio del cerramiento o del cierre
-Las líneas que circundan una superficie se captan, en igualdad de circunstancias, más fácilmente como unidad o como figura, en comparación con aquellas otras que se unen entre sí. Las circunferencias, cuadriláteros o triángulos producen el efecto de cerramiento. Esta nueva ley parece ser operativa porque señala el hecho de que las líneas rectas paralelas forman grupos más definidos y estables que los puntos, que delimitan un espacio con más dificultad. Al igual que esto las manzanas son rojas tan claro como que existen diferentes colores así mismo existen diferentes personalidades.
-
-
-Ernst Mach definió las propiedades de las formas especiales y auditivas como totalidades principales perceptuales. Estas formas poseen cualidades que las distinguen de sus elementos; las sensaciones se organizan en la conciencia y crean cualidades formales que pueden ser novedosas.
-
-Pensamiento holístico: el todo es siempre más que la suma de sus partes.
-Fundamentos fenomenológicos: los fenómenos son objeto de estudio de interés para la psicología. El análisis psicológico debe proceder de los fenómenos a su esencia.
-Metodología: la psicología de la Gestalt realiza experimentos parecidos a los sucesos de la vida (realidad) empleando pocos sujetos.
-Isomorfosis: los procesos psicológicos se relacionan de modo directo con procesos biológicos, en especial cerebrales.
-Estas percepciones, afirmaba Edgar Rubin, surgen como un todo y en forma gradual. Tales figuras demuestran que nuestras percepciones son activadas, vívidas y organizadas; no somos simples receptores pasivos de estímulos sensoriales.
-
-Los psicólogos de la Gestalt afirmaron que los principios de la organización perceptual no solo explican nuestras percepciones visuales, sino también nuestras percepciones auditivas y táctiles y procesos mentales superiores tales como la memoria.
-
-
-Tarea RA1-CEb
+## 5.6. - Patrones de diseño, psicología de la Gestalt
 
 
 
 
 # 6. Guía de estilo 
 
+Tarea RA1-CEb
 
 https://www.eniun.com/guia-estilo-diseno-interfaces-web/
 
