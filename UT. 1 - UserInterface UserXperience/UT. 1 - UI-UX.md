@@ -384,14 +384,94 @@ El individuo organiza sus campos perceptuales con rasgos simples y regulares.
 - **Principio de dirección común**
 Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura.
 ![alt text](./img/comun.png)  
-<br><br>
+<br>
     **Las flechas del carrusel** no indican la posibilidad de movimiento horizontal del elemento.
     ![alt text](./img/comun2.png)
 <br><br>
 
-## 5.6. - Patrones de diseño, psicología de la Gestalt
+- **Principio de Figura y Fondo**
+Este principio describe la tendencia del ojo humano a ver y separar los elementos de su entorno. No podemos percibir una misma forma como figura y fondo a la vez. El fondo es todo el que no se percibe como figura.  
+<br>
+![alt text](./img/figurafondo.png)
+<br><br>
+    **El contraste entre figura y fondo** nos hace separar el elemento principal del resto de la imagen.
+    ![alt text](image.png)
+<br><br>
 
+- **Principio del cierre**
+Es una tendencia del ojo humano a completar una infomración parcial.
+![alt text](./img/cierre.png)
+<br><br>
+    **El contraste de las flechas** nos hace entender que falta información en la página web. 
+    ![alt text](./img/cierre2.png) 
+<br><br>
 
+## 5.7. - Colores y teoría del color 
+El color es el **medio esencial** para tocar las emociones de los visitantes del sitio web porque crea una reacción física y emocional. Los colores son capaces de establecer el tono adecuado (calmar, excitar, estimular a las acciones). 
+Cuando se establece un **esquema de color** para el diseño web es importante hacerlo correctamente, guiándose por los principios de la teoría del color.
+
+El color es un **elemento fundamental** en el diseño web, ya que influye en las emociones y reacciones de los visitantes. Puede ayudar a establecer el tono adecuado del sitio (calma, excitación, estímulo a la acción) y generar una conexión emocional con los usuarios. 
+Sin embargo, su impacto es más efectivo cuando se combina con otros aspectos del diseño, como la tipografía, la disposición de los elementos y las imágenes. 
+Al definir un esquema de color, es importante hacerlo de manera estratégica, basándose en los principios de la **teoría del color** para lograr una experiencia visual coherente y atractiva. 
+
+### 5.7.1. - Círculo cromático
+![alt text](./img/circulo.png)
+
+El círculo cromático es una herramienta indispensable para diseñadores. Consiste en 6 colores básicos (rojo, naranja, amarillo, verde, azul y violeta).  
+Para elegir una gama o mezcla armoniosa, hay que elegir dos colores opuestos entre sí (por ejemplo 1 y 2), y otros 2 igualmente espaciados entre sí (p.e. 3 y 4).
+Al final obtendremos el triángulo de colores de la figura también llamado **esquema de colores**.
+
+Para este ejemplo distinguiremos:
+- Colores primarios: **Rojo**, **amarillo** y **azul**.  
+- Colores secundarios: **Naranja**, **verde** y **violeta**.
+- Colores terciarios: Se obtienen mezclando un color primario con otro secundario.
+- Colores complementarios: Son los colores opuestos en el círculo cromático (rojo - verde, azul - naranja, violeta - amarillo).
+
+Cada combinación (esquema) de colores transmite una sensación diferente.
+
+### 5.7.2. - Esquemas de color  
+Se pueden aplicar diferentes combinaciones de colores dependiendo de su finalidad. 
+
+1️⃣ **Monocromático**: Usa diferentes tonos de un solo color. Proporciona un diseño limpio y armonioso.  
+2️⃣ **Complementario**: Usa colores opuestos en el círculo cromático (ej. azul y naranja). Crea alto contraste y dinamismo.  
+3️⃣ **Análogo**: Usa colores adyacentes (ej. azul, azul verdoso y verde). Genera una apariencia equilibrada y natural.  
+4️⃣ **Triádico**: Usa tres colores equidistantes (ej. rojo, amarillo y azul). Aporta diversidad y equilibrio.  
+5️⃣ **Tetrádico**: Usa dos pares de colores complementarios. Es vibrante, pero requiere equilibrio para no saturar el diseño.  
+
+### 5.7.3. - Enlaces de interés
+Para facilitar la selección de colores en diseño web, existen herramientas como:  
+✔ [Adobe Color](https://color.adobe.com/)  
+✔ [Coolors](https://coolors.co/)  
+✔ [Paletton](https://paletton.com/)  
+
+### 5.7.4. - Ejemplos de esquemas de colores
+![alt text](./img/color0.png) 
+El blanco y el negro transmiten elegancia, simplicidad y eficiencia. Es el mismo que busca Apple en todos sus productos. 
+<br>  
+<br>
+![alt text](./img/color1.png)
+Un fondo negro combinado con colores grises y cafés apagados generan un ambiente lúgubre.
+<br>
+<br>
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png) 
+
+![alt text](image-6.png)
+
+![alt text](image-7.png) 
+
+![alt text](image-8.png) 
+
+![alt text](image-9.png)
+
+![alt text](image-10.png) 
+
+![alt text](image-11.png) 
 
 
 # 6. Guía de estilo 
