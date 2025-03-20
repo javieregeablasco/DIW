@@ -466,9 +466,11 @@ Fingerspelling enseña el lenguaje de signos. En su paleta de colores solo se en
 <br>
 <br>
 ![alt text](./img/color5.png) 
+Con la combinación del moratón oscuro y verdes claros se transmite seguridad y calma.
 <br>
 <br>
 ![alt text](./img/color6.png)
+La combinación de azul y verdes transmite calma y seguridad.
 <br>
 <br>
 ![alt text](./img/color7.png) 
