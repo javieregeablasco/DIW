@@ -548,8 +548,8 @@ Elegir una página web al azar y extraer la guía de estilos.
 **airbnb**
 ![](./img/airbnb.png)
 
-**Bacardi**
-![alt text](./img/bacardi.png)
+**Bacardi** {style="font-size: 12px;"}  
+![alt text](./img/bacardi.png) 
 
 **Cruz roja Americana**
 ![alt text](./img/aRedCross.png)
