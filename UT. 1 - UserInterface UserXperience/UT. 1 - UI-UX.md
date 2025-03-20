@@ -466,15 +466,15 @@ Fingerspelling enseña el lenguaje de signos. En su paleta de colores solo se en
 <br>
 <br>
 ![alt text](./img/color5.png) 
-Con la combinación del moratón oscuro y verdes claros se transmite seguridad y calma.
+La combinación del azul y verde transmite calma y seguridad.
 <br>
 <br>
 ![alt text](./img/color6.png)
-La combinación de azul y verdes transmite calma y seguridad.
-<br>
-<br>
-![alt text](./img/color7.png) 
 En la página de Schweppes, predomina el amarillo para expresar su personalidad alegre y  desenfadada. 
+<br>
+<br>
+![alt text](./img/color7.png)  
+Los gradientes permiten combinar diferentes tonos de un mismo color de manera suave y gradual, creando añadiendo profundidad a los elementos del sitio web. 
 <br>
 <br>
 ![alt text](./img/color8.png) 
