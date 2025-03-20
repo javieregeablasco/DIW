@@ -545,27 +545,24 @@ Las **guías de estilo** son documentos que establecen las reglas visuales y fun
 Elegir una página web al azar y extraer la guía de estilos. 
 
 ## 6.3. - Ejemplos de guías de estilos 
-**airbnb**
+<strong style="font-size: 20px;">airbnb</strong>
 ![](./img/airbnb.png)
 
-<strong style="font-size: 24px;">Bacardi</strong>
-
+<strong style="font-size: 20px;">Bacardi</strong>  
 ![alt text](./img/bacardi.png) 
 
-**Cruz roja Americana**
+<strong style="font-size: 20px;">Cruz roja Americana</strong>    
 ![alt text](./img/aRedCross.png)
 Responsive design 
 
-
-
-
-### 🔹 **Ejemplos de guías de estilo populares**
----
+## 6.4. - Documentación de guías de estilos 
 Algunas marcas y plataformas han publicado sus guías de estilo para que los desarrolladores y diseñadores puedan seguir sus estándares:
 
-- **Material Design** (Google) → [material.io](https://material.io/)
-- **Human Interface Guidelines** (Apple) → [developer.apple.com/design](https://developer.apple.com/design/)
-- **Carbon Design System** (IBM) → [carbondesignsystem.com](https://carbondesignsystem.com/)
+- <a href="https://material.io/">**Material Design** (Google)</a>
+- <a href="https://developer.apple.com/design/">**Human Interface Guidelines** (Apple)</a>
+- <a href="https://carbondesignsystem.com/">**Carbon Design System** (IBM)</a>
+- <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**samsung Design**</a>, <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**Guía de estilo en formato pdf**</a>
+
 
 
 https://www.eniun.com/guia-estilo-diseno-interfaces-web/
