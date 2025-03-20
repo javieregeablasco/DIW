@@ -468,22 +468,22 @@ Fingerspelling enseña el lenguaje de signos. En su paleta de colores solo se en
 ![alt text](./img/color5.png) 
 <br>
 <br>
-![alt text](image-6.png)
+![alt text](./img/color6.png)
 <br>
 <br>
-![alt text](image-7.png) 
+![alt text](./img/color7.png) 
 <br>
 <br>
-![alt text](image-8.png) 
+![alt text](./img/color8.png) 
 <br>
 <br>
-![alt text](image-9.png)
+![alt text](./img/color9.png)
 <br>
 <br>
-![alt text](image-10.png) 
+![alt text](./img/color10.png) 
 <br>
 <br>
-![alt text](image-11.png) 
+![alt text](./img/color11.png) 
 
 
 # 6. Guía de estilo 
