@@ -444,7 +444,7 @@ Para facilitar la selección de colores en diseño web, existen herramientas com
 ✔ [Coolors](https://coolors.co/)  
 ✔ [Paletton](https://paletton.com/)  
 
-### 5.7.4. - Ejemplos de esquemas de colores
+### 5.7.4. - Ejemplos del uso de esquemas de colores en páginas web  
 ![alt text](./img/color0.png) 
 El blanco y el negro transmiten elegancia, simplicidad y eficiencia. Es el mismo que busca Apple en todos sus productos. 
 <br>  
@@ -453,24 +453,35 @@ El blanco y el negro transmiten elegancia, simplicidad y eficiencia. Es el mismo
 Un fondo negro combinado con colores grises y cafés apagados generan un ambiente lúgubre.
 <br>
 <br>
-![alt text](image-2.png)
-
-![alt text](image-3.png)
-
+![alt text](./img/color2.png)   
+Sección Amarilla elige el negro y el amarillo para captar la atención.
+<br>
+<br>
+![alt text](./img/color3.png)    
+Los colores claros hacen destacar el color rojo.
+<br>
+<br>
 ![alt text](image-4.png)
-
+<br>
+<br>
 ![alt text](image-5.png) 
-
+<br>
+<br>
 ![alt text](image-6.png)
-
+<br>
+<br>
 ![alt text](image-7.png) 
-
+<br>
+<br>
 ![alt text](image-8.png) 
-
+<br>
+<br>
 ![alt text](image-9.png)
-
+<br>
+<br>
 ![alt text](image-10.png) 
-
+<br>
+<br>
 ![alt text](image-11.png) 
 
 
