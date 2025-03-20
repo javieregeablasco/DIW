@@ -478,15 +478,19 @@ Los gradientes permiten combinar diferentes tonos de un mismo color de manera su
 <br>
 <br>
 ![alt text](./img/color8.png) 
+Las transparencias añaden profundidad y permiten una integración más armoniosa de los elementos en la página. 
 <br>
 <br>
-![alt text](./img/color9.png)
+<a href="https://www.peppasauce.love/">![alt text](./img/color9.png)</a>
+Las ilustraciones en 2D transmiten un aspecto sofisticado y moderno a los diseños. 
 <br>
 <br>
 ![alt text](./img/color10.png) 
+Los colores suaves y naturales como el beige, marrones y verdes apagados crean una sensación de calma y tranquilidad. 
 <br>
 <br>
 ![alt text](./img/color11.png) 
+Los colores brillantes y llamativos se utilizan para atraer la atención del usuario y resaltar elementos importantes. 
 
 
 # 6. Guía de estilo 
