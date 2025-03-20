@@ -561,11 +561,7 @@ Algunas marcas y plataformas han publicado sus guías de estilo para que los des
 - <a href="https://material.io/">**Material Design** (Google)</a>
 - <a href="https://developer.apple.com/design/">**Human Interface Guidelines** (Apple)</a>
 - <a href="https://carbondesignsystem.com/">**Carbon Design System** (IBM)</a>
-- <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**samsung Design**</a>, <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**Guía de estilo en formato pdf**</a>
+- <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**Samsung Design** (Samsung)</a>. <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">Guía de estilo en formato pdf</a>
 
 
 
-https://www.eniun.com/guia-estilo-diseno-interfaces-web/
-
-
-https://www.maxrosero.com/airbnb
