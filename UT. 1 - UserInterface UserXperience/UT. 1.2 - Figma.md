@@ -1,5 +1,5 @@
 ---
-Título: UD. 1.1 - User Interface, User Experience UI/UX  
+Título: UD. 1.2 - Figma para la creación de guias de estilos y prototipos
 Autor: Javier Egea Blasco  
 Año: 24-25  
 Palabras clave: DAW, DIW  
@@ -561,9 +561,17 @@ Algunas marcas y plataformas han publicado sus guías de estilo para que los des
 - <a href="https://material.io/">**Material Design** (Google)</a>
 - <a href="https://developer.apple.com/design/">**Human Interface Guidelines** (Apple)</a>
 - <a href="https://carbondesignsystem.com/">**Carbon Design System** (IBM)</a>
-- <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**samsung Design**</a>, <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**Guía de estilo en formato pdf**</a>
+- <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**Samsung Design** (Samsung)</a>. <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">Guía de estilo en formato pdf</a>
 
 
+## 6.5. - Creación de una guía de estilo con Figma 
+
+## 6.2. - Tarea RA1-CEe
+
+
+## 6.4. - Creación de una guía de estilo con Figma
+## 6.2. - Tarea RA1-CEf
+https://www.eniun.com/tutorial-figma/
 
 https://www.eniun.com/guia-estilo-diseno-interfaces-web/
 
