@@ -121,7 +121,13 @@ Los principales factores que influyen en la UX son:
 # 4. Componentes de una interfaz web
 La **interfaz web** o **interfaz de usuario** es el punto de interacción entre el usuario y un sitio web o una aplicación. Para que sea efectiva, debe ser intuitiva, accesible y atractiva. 
 
-A continuación, se enumeran los componentes clave que toda interfaz web debe incorporar:  
+Muchos de los componentes de una interfaz web, como la cabecera, los menús de navegación, el cuerpo, la barra lateral y el pie de página, se replican en la mayoría de los sitios web.  
+![alt text](./img/estructura.png)
+
+Si convertimos esta estructura a código HTML, obtendremos el siguiente resultado.
+![alt text](./img/estructura2.png)
+
+A continuación, se enumeran los componentes clave que toda interfaz web debe incorporar y su ubucación dentro de los elementos citados anteriormente:  
 
 ## 4.1. - Elementos de identificación  
 Los elementos de identificación son aquellos que permiten a los usuarios reconocer y recordar un sitio web específico. Su función principal es establecer la identidad visual y de marca, facilitando la navegación y la confianza del usuario.
@@ -169,18 +175,6 @@ En todo momento, informan al usuario del estado de sus acciones o consultas:
 🔹✅ **Mensajes de éxito o error**: Notificaciones sobre el resultado de una acción, como el envío de un formulario.  
 🔹📢 **Tooltips y ayudas**: Pequeños textos emergentes que explican el uso de un elemento.  
 🔹🔄 **Indicadores de carga (Spinners, progress bars)**: Informan sobre el estado de procesos en ejecución.  
-
-## 4.6. - Estructura HTML de una página web
-Muchos de los componentes de una interfaz web, como la cabecera, los menús de navegación, el cuerpo, la barra lateral y el pie de página, se replican en la mayoría de los sitios web.  
-![alt text](./img/estructura.png)
-
-Si convertimos esta estructura a código HTML, obtendremos el siguiente resultado.
-![alt text](./img/estructura2.png)
-
-
-
-
-
 
 ## 4.6. - Tarea RA1-CEa
 Elege una página web comercial e identifica sus diferentes componentes.
@@ -505,7 +499,67 @@ Los colores suaves y naturales como el beige, marrones y verdes apagados crean u
 Los colores brillantes y llamativos se utilizan para atraer la atención del usuario y resaltar elementos importantes. 
  
 
-# 6. Guía de estilo 
+# 6. Guías de estilo 
+Las **guías de estilo** son documentos que establecen las reglas visuales y funcionales para garantizar la coherencia en una página web. Estas guías ayudan a mantener una identidad de marca clara y una experiencia de usuario uniforme en todos los dispositivos y plataformas.
+
+## 6.1. - Elementos clave de una guía de estilo
+:one: **Tipografía**  
+   - Fuentes principales y secundarias.  
+   - Tamaños y pesos para títulos, subtítulos y cuerpo de texto.  
+   - Espaciado entre líneas y párrafos.
+
+:two: **Paleta de colores**  
+   - Colores primarios y secundarios.  
+   - Variaciones y usos específicos (botones, fondos, enlaces, etc.).  
+   - Contraste y accesibilidad.
+
+:three: **Componentes UI**  
+   - Botones, formularios, iconos y otros elementos interactivos.  
+   - Consistencia en tamaños, bordes y sombreados.
+
+:four: **Imágenes e Ilustraciones**  
+   - Estilo de imágenes (fotografía, ilustración, gráficos SVG).  
+   - Uso de iconografía y tamaños recomendados.  
+   
+:five: **Espaciado y Layout**  
+   - Uso de grid y flexbox (o frameworks como Tailwind, Bootstrap).  
+   - Márgenes y paddings para mantener una estructura uniforme.  
+   - Breakpoints y diseño responsivo.
+
+:six: **Estilo de Interacciones**  
+   - Efectos de hover y transiciones.  
+   - Animaciones y microinteracciones.  
+   - animaciones visuales en formularios y botones.
+
+:seven: **Accesibilidad**  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="12px" heigh="auto" viewBox="0 0 122.88 122.88"><title>accessibility</title><path d="M61.44,0A61.46,61.46,0,1,1,18,18,61.21,61.21,0,0,1,61.44,0Zm-.39,74.18L52.1,98.91a4.94,4.94,0,0,1-2.58,2.83A5,5,0,0,1,42.7,95.5l6.24-17.28a26.3,26.3,0,0,0,1.17-4,40.64,40.64,0,0,0,.54-4.18c.24-2.53.41-5.27.54-7.9s.22-5.18.29-7.29c.09-2.63-.62-2.8-2.73-3.3l-.44-.1-18-3.39A5,5,0,0,1,27.08,46a5,5,0,0,1,5.05-7.74l19.34,3.63c.77.07,1.52.16,2.31.25a57.64,57.64,0,0,0,7.18.53A81.13,81.13,0,0,0,69.9,42c.9-.1,1.75-.21,2.6-.29l18.25-3.42A5,5,0,0,1,94.5,39a5,5,0,0,1,1.3,7,5,5,0,0,1-3.21,2.09L75.15,51.37c-.58.13-1.1.22-1.56.29-1.82.31-2.72.47-2.61,3.06.08,1.89.31,4.15.61,6.51.35,2.77.81,5.71,1.29,8.4.31,1.77.6,3.19,1,4.55s.79,2.75,1.39,4.42l6.11,16.9a5,5,0,0,1-6.82,6.24,4.94,4.94,0,0,1-2.58-2.83L63,74.23,62,72.4l-1,1.78Zm.39-53.52a8.83,8.83,0,1,1-6.24,2.59,8.79,8.79,0,0,1,6.24-2.59Zm36.35,4.43a51.42,51.42,0,1,0,15,36.35,51.27,51.27,0,0,0-15-36.35Z"/></svg>
+   - Buen contraste de colores.  
+   - Uso correcto de etiquetas semánticas en HTML.  
+   - Soporte para lectores de pantalla.
+
+
+## 6.2. - Tarea RA1-CEd
+
+
+
+Responsive design 
+
+
+
+
+### 🔹 **Ejemplos de guías de estilo populares**
+---
+Algunas marcas y plataformas han publicado sus guías de estilo para que los desarrolladores y diseñadores puedan seguir sus estándares:
+
+- **Material Design** (Google) → [material.io](https://material.io/)
+- **Human Interface Guidelines** (Apple) → [developer.apple.com/design](https://developer.apple.com/design/)
+- **Carbon Design System** (IBM) → [carbondesignsystem.com](https://carbondesignsystem.com/)
+- **Bootstrap** → [getbootstrap.com/docs](https://getbootstrap.com/docs/)
+
+---
+Si trabajas con **Tailwind**, puedes definir tu propia guía de estilo con `theme()` para colores, tipografías y otros elementos, manteniendo consistencia en todo tu proyecto.
+
+¿Quieres que te ayude a estructurar una guía de estilo para un proyecto específico? 🚀
+
 
 Tarea RA1-CEb
 
