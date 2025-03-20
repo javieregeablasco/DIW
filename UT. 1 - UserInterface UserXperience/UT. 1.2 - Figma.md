@@ -23,7 +23,19 @@ Palabras clave: DAW, DIW
 | **CE. f&#41;** Se han creado y utilizado plantillas de diseño.|
 
 
+## 6.5. - Creación de una guía de estilo con Figma 
 
+## 6.2. - Tarea RA1-CEe
+
+
+## 6.4. - Creación de una guía de estilo con Figma
+## 6.2. - Tarea RA1-CEf
+https://www.eniun.com/tutorial-figma/
+
+https://www.eniun.com/guia-estilo-diseno-interfaces-web/
+
+
+https://www.maxrosero.com/airbnb
 <br>
 
 | **Licencia Creative Commons:** |
