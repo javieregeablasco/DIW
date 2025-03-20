@@ -156,7 +156,7 @@ Son los componentes que presentan la información al usuario:
 ## 4.4. - Elementos Interactivos  
 Facilitan la interacción del usuario con la web, entre ellos tenemos:  
 
-🔹🖱 **Botones (Buttons)**: Permiten realizar acciones como enviar formularios o navegar entre páginas.  
+🔹🖱 **Botones**: Permiten realizar acciones como enviar formularios o navegar entre páginas.  
 🔹📩 **Formularios y campos de entrada**: Recolectan la información del usuario y realizan consultas a bases de datos.  
 🔹🔁 **Sliders y carruseles**: Muestran contenido de forma dinámica en un espacio reducido.  
 🔹📌 **Pestañas y acordeones**: Organizan contenido en secciones colapsables para mejorar la usabilidad.  
@@ -170,8 +170,20 @@ En todo momento, informan al usuario del estado de sus acciones o consultas:
 🔹📢 **Tooltips y ayudas**: Pequeños textos emergentes que explican el uso de un elemento.  
 🔹🔄 **Indicadores de carga (Spinners, progress bars)**: Informan sobre el estado de procesos en ejecución.  
 
+## 4.6. - Estructura HTML de una página web
+Muchos de los componentes de una interfaz web, como la cabecera, los menús de navegación, el cuerpo, la barra lateral y el pie de página, se replican en la mayoría de los sitios web.  
+![alt text](./img/estructura.png)
+
+Si convertimos esta estructura a código HTML, obtendremos el siguiente resultado.
+![alt text](./img/estructura2.png)
+
+
+
+
+
+
 ## 4.6. - Tarea RA1-CEa
-Elegir una página web comercial e identificar sus diferentes componentes.
+Elege una página web comercial e identifica sus diferentes componentes.
 
 # 5. Diseño de una interfaz web
 Generalmente esta área de desarrollo la llevan a cabo diseñadores gráficos. Entre sus tareas, destacan:
