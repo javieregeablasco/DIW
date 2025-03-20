@@ -537,6 +537,10 @@ Las **guías de estilo** son documentos que establecen las reglas visuales y fun
    - Soporte para lectores de pantalla.
 
 
+
+![](image.png) 
+
+
 ## 6.2. - Tarea RA1-CEd
 
 
@@ -566,3 +570,4 @@ Tarea RA1-CEb
 https://www.eniun.com/guia-estilo-diseno-interfaces-web/
 
 
+https://www.maxrosero.com/airbnb
