@@ -538,7 +538,7 @@ Las **guías de estilo** son documentos que establecen las reglas visuales y fun
 
 
 
-![](image.png) 
+![](image.png)
 
 
 ## 6.2. - Tarea RA1-CEd
