@@ -491,7 +491,7 @@ Los colores suaves y naturales como el beige, marrones y verdes apagados crean u
 <br>
 ![alt text](./img/color11.png) 
 Los colores brillantes y llamativos se utilizan para atraer la atención del usuario y resaltar elementos importantes. 
-
+ 
 
 # 6. Guía de estilo 
 
