@@ -461,10 +461,11 @@ Sección Amarilla elige el negro y el amarillo para captar la atención.
 Los colores claros hacen destacar el color rojo.
 <br>
 <br>
-![alt text](image-4.png)
+![alt text](./img/color4.png)
+Fingerspelling enseña el lenguaje de signos. En su paleta de colores solo se encuentran el morado y el amarillo que son complementarios entre sí. 
 <br>
 <br>
-![alt text](image-5.png) 
+![alt text](./img/color5.png) 
 <br>
 <br>
 ![alt text](image-6.png)
