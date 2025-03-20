@@ -474,6 +474,7 @@ La combinación de azul y verdes transmite calma y seguridad.
 <br>
 <br>
 ![alt text](./img/color7.png) 
+En la página de Schweppes, predomina el amarillo para expresar su personalidad alegre y  desenfadada. 
 <br>
 <br>
 ![alt text](./img/color8.png) 
