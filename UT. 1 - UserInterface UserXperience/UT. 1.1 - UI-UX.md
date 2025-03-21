@@ -378,12 +378,15 @@ En el diseño web, los **elementos prácticos** son aquellos que van más allá 
 
 - **Representación:** Se refiere a cómo se presentan los elementos visuales en la interfaz y su relación con la realidad o la abstracción.
 ![alt text](./img/representacion.png)
+<br>
 
 - **Significado:** Es el mensaje o la idea que transmite un elemento dentro del diseño. Puede ser, **explícito** o **implícito**. 
 ![alt text](./img/significado.png)
+<br>
 
 - **Función:** Es el propósito práctico de cada elemento en la interfaz y cómo contribuye a la experiencia del usuario. La función puede ser **informativa**, **interactiva** o **estructural**.
 ![alt text](./img/funcion.png)
+<br>
 
 ## 5.5. - Patrones de diseño, psicología de la Gestalt
 ![alt text](./img/gestals.png)
