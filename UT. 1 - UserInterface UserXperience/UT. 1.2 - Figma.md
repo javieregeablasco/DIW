@@ -69,11 +69,16 @@ La interfaz de Figma se divide en tres grandes bloques:
 :three: En la columna de la derecha encontramos las opciones específicas del elemento que tengamos seleccionado.  
 :four: Para terminar, en el area de trabajo encontraremos las herramientas de cursor, frames, formas, pluma, texto, comentarios, acciones y Dev Mode.  
 ![alt text](./img/figma.png)  
- 
+
+## 1.4. - Frame, section y slice
+ https://www.youtube.com/watch?v=VdS9ZGHHXWQ
+
+
 # 2. Creación de una guía de estilo con Figma
 
 
-
+snap to grid
+  
 
 
 
