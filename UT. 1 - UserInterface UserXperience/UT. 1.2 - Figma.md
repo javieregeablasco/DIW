@@ -74,11 +74,11 @@ La interfaz de Figma se divide en tres grandes bloques:
  https://www.youtube.com/watch?v=VdS9ZGHHXWQ
 
 
-# 2. Creación de una guía de estilo con Figma
+# 2. Tarea RA1-CECreación de una plantilla de guía de estilo con Figma
 
 
 snap to grid
-  
+
 
 
 
