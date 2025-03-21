@@ -436,7 +436,7 @@ La mente agrupa los elementos similares en una entidad. La semejanza depende de 
 <br><br>
 
 - **Principio de continuidad**  
-Los detalles que mantienen un patrón o dirección tienden a agruparse juntos, como parte de un modelo. Es decir, percibimos elementos continuos, aunque estén interrumpidos entre sí. 
+Los detalles que mantienen un patrón o dirección tienden a agruparse juntos, como parte de un modelo. Es decir, percibimos elementos continuos, aunque estén interrumpidos entre sí.  
 ![alt text](./img/continuidad.png)
 <br><br>
     **Percepción de continuidad** del carrusel a pesar de la interrupción abrupta de los contenidos.
@@ -467,7 +467,7 @@ Este principio describe la tendencia del ojo humano a ver y separar los elemento
 ![alt text](./img/figurafondo.png)
 <br><br>
     **El contraste entre figura y fondo** nos hace separar el elemento principal del resto de la imagen.
-    ![alt text](image.png)
+    ![alt text](./img/figurafondo2.png)
 
 <br><br>
 
