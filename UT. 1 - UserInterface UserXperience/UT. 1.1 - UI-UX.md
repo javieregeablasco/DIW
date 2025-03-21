@@ -701,7 +701,26 @@ Agregar **breakpoints** mejora la legibilidad en cualquier dispositivo, ya que e
 - **Velocidad.** Un sitio web más rápido mejora la experiencia del usuario y el posicionamiento en buscadores (*SEO*). Optimizar imágenes, reducir solicitudes innecesarias y mejorar la caché contribuye a una carga más eficiente.
 
 ### 7.4. - Buenas prácticas de diseño web responsive
+- **Priorizar el contenido**  
+Asegurarse de que los usuarios puedan encontrar la información con el mínimo desplazamiento o navegación. Mientras que en un escritorio se requiere menos desplazamiento para visualizar el contenido, en un dispositivo móvil la misma información puede generar una mala experiencia de usuario si el contenido es demasiado extenso o si la tipografía y las imágenes no se adaptan correctamente a la pantalla.  
 
+- **Reducir la fricción**  
+Es fundamental adaptar cada versión del sitio web según el dispositivo. Adoptar un enfoque *mobile-first* ayuda a los diseñadores a definir qué elementos son realmente necesarios para alcanzar los objetivos principales de la pa´gina web (compra de un producto o servicio).  
+
+- **Pensar con los dedos**  
+Asegúrate de que las partes más importantes de la página sean fácilmente accesibles para quienes navegan desde un dispositivo móvil. Este factor cambia la forma en que los diseñadores crean áreas táctiles y otros elementos interactivos. 
+
+- **Diseño y desarrollo en conjunto**  
+El diseño web responsivo implica que tanto el diseño como el desarrollo deben adaptarse al comportamiento y entorno del usuario, por lo que es fundamental que trabajen de manera conjunta. Diseñadores y desarrolladores deben colaborar para definir cómo se reorganizará el contenido y cuál será el resultado final.  
+
+- **Probar, probar y probar de nuevo**  
+Es fundamental realizar pruebas de usabilidad en diferentes plataformas de forma regular. Se debe evaluar la navegación del sitio, ya que esta debe adaptarse al dispositivo utilizado. Es esencial verificar que los diseños de navegación funcionen correctamente en distintas pantallas y no generen una mala experiencia de usuario.  
+
+También se deben probar las tipografías en varios dispositivos. Aunque se utilicen diferentes fuentes y métodos de diseño para presentar el contenido, algunas tipografías pueden no ser compatibles con todos los sistemas, lo que podría provocar que se transformen en caracteres aleatorios o códigos ilegibles. Por ello, es importante probarlas antes de implementar cambios en el sitio web.  
+
+Asimismo, es recomendable probar combinaciones de dispositivos y navegadores. Analizar el tráfico web y móvil con herramientas como Google Analytics permite identificar los navegadores más utilizados para acceder al sitio y optimizar la compatibilidad.  
+
+Por último, es crucial evaluar la velocidad del sitio web, considerando el tiempo de carga de imágenes, videos y otros elementos en distintos dispositivos.
 
 
 
