@@ -519,51 +519,51 @@ Para facilitar la selección de colores en diseño web, existen herramientas com
 ✔ [Paletton](https://paletton.com/)  
 
 ### 5.6.4. - Ejemplos del uso de esquemas de colores en páginas web  
-El blanco y el negro transmiten elegancia, simplicidad y eficiencia. Es el mismo que busca Apple en todos sus productos. 
+:one: El blanco y el negro transmiten elegancia, simplicidad y eficiencia. Es el mismo que busca Apple en todos sus productos.  
 ![alt text](./img/color0.png) 
 <br>  
 <br>
-Un fondo negro combinado con colores grises y cafés apagados generan un ambiente lúgubre.
+:two: Un fondo negro combinado con colores grises y cafés apagados generan un ambiente lúgubre.  
 ![alt text](./img/color1.png)
 <br>
 <br>
-Sección Amarilla elige el negro y el amarillo para captar la atención.
+:three: Sección Amarilla elige el negro y el amarillo para captar la atención.  
 ![alt text](./img/color2.png)   
 <br>
 <br>
-Los colores claros hacen destacar el color rojo.
+:four: Los colores claros hacen destacar el color rojo.  
 ![alt text](./img/color3.png)    
 <br>
 <br>
-Fingerspelling enseña el lenguaje de signos. En su paleta de colores solo se encuentran el morado y el amarillo que son complementarios entre sí. 
+:five: Fingerspelling enseña el lenguaje de signos. En su paleta de colores solo se encuentran el morado y el amarillo que son complementarios entre sí.  
 ![alt text](./img/color4.png)
 <br>
 <br>
-La combinación del azul y verde transmite calma y seguridad.
+:six: La combinación del azul y verde transmite calma y seguridad.  
 ![alt text](./img/color5.png) 
 <br>
 <br>
-En la página de Schweppes, predomina el amarillo para expresar su personalidad alegre y  desenfadada. 
+:seven: En la página de Schweppes, predomina el amarillo para expresar su personalidad alegre y desenfadada.  
 ![alt text](./img/color6.png)
 <br>
 <br>
-Los gradientes permiten combinar diferentes tonos de un mismo color de manera suave y gradual, creando añadiendo profundidad a los elementos del sitio web. 
+:eight: Los gradientes permiten combinar diferentes tonos de un mismo color de manera suave y gradual, creando añadiendo profundidad a los elementos del sitio web.  
 ![alt text](./img/color7.png)  
 <br>
 <br>
-Las transparencias añaden profundidad y permiten una integración más armoniosa de los elementos en la página. 
+:nine: Las transparencias añaden profundidad y permiten una integración más armoniosa de los elementos en la página.  
 ![alt text](./img/color8.png) 
 <br>
 <br>
-Las ilustraciones en 2D transmiten un aspecto sofisticado y moderno a los diseños. 
+:ten: Las ilustraciones en 2D transmiten un aspecto sofisticado y moderno a los diseños.  
 <a href="https://www.peppasauce.love/">![alt text](./img/color9.png)</a>
 <br>
 <br>
-Los colores suaves y naturales como el beige, marrones y verdes apagados crean una sensación de calma y tranquilidad. 
+:eleven: Los colores suaves y naturales como el beige, marrones y verdes apagados crean una sensación de calma y tranquilidad.  
 ![alt text](./img/color10.png) 
 <br>
 <br>
-Los colores brillantes y llamativos se utilizan para atraer la atención del usuario y resaltar elementos importantes. 
+:twelve: Los colores brillantes y llamativos se utilizan para atraer la atención del usuario y resaltar elementos importantes.  
 ![alt text](./img/color11.png) 
  
 
