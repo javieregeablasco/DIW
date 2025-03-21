@@ -612,12 +612,12 @@ Las **guías de estilo** son documentos que establecen las reglas visuales y fun
    - Logotipos de empresa. 
    - Paleta de colores.   
    - Tamaños y diseños recomendados.  
-
+<br>
 
 :two: **Componentes UI**  
    - Botones, formularios, iconos y otros elementos interactivos.  
    - Consistencia en tamaños, bordes y sombreados.
-
+<br>
 
 :three: **Paleta de colores**  
    - Colores primarios y secundarios.  
