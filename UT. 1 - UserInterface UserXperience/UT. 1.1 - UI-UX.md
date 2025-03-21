@@ -462,7 +462,7 @@ Implica que los elementos que parecen construir un patrón o un flujo en la mism
 
 <br><br>
 
-- **Principio de Figura y Fondo**  
+- **Principio de figura y fondo**  
 Este principio describe la tendencia del ojo humano a ver y separar los elementos de su entorno. No podemos percibir una misma forma como figura y fondo a la vez. El fondo es todo el que no se percibe como figura.  
 ![alt text](./img/figurafondo.png)
 <br><br>
