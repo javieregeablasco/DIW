@@ -399,7 +399,7 @@ Su premisa principal es que "el todo es más que la suma de sus partes", es deci
 ### 5.5.2. - Principios de la Gestalt
 La Gestalt propone una serie de principios que explican cómo organizamos la información visual y cognitiva. En **el diseño de la UX/UI**, los principios de la Gestalt se aplican para mejorar la experiencia del usuario.
 
-- **Principio de la experiencia**
+- **Principio de la experiencia**  
 Este principio se basa en el hecho que la percepción del ser humano está fundamentado de acuerdo **sus propias experiencias**. Así pues, buscaremos que los diseños compartan similitudes con las experiencias de los usuarios.  
 ![alt text](./img/experiencia.png)
 <br><br>
@@ -408,7 +408,7 @@ Este principio se basa en el hecho que la percepción del ser humano está funda
 
 <br><br>
 
-- **Principio de simetría**
+- **Principio de simetría**  
 Las imágenes simétricas son percibidas como iguales, como un solo elemento, en la distancia. 
 ![alt text](./img/simetria.png)
 <br><br>
@@ -417,7 +417,7 @@ Las imágenes simétricas son percibidas como iguales, como un solo elemento, en
 
 <br><br>
 
-- **Principio de proximidad**
+- **Principio de proximidad**  
 Los objetos adjuntos tienden a ser vistos como una unidad. Los estímulos que están próximos tienden a percibirse como parte de la misma unidad.  
 ![alt text](./img/proximidad.png)
 <br><br>
@@ -426,7 +426,7 @@ Los objetos adjuntos tienden a ser vistos como una unidad. Los estímulos que es
 
 <br><br>
 
-- **Principio de similitud**
+- **Principio de similitud**  
 La mente agrupa los elementos similares en una entidad. La semejanza depende de la forma, del tamaño, del color y de otros aspectos visuales de los elementos.  
 ![alt text](./img/similitud.png)
 <br><br>
@@ -435,7 +435,7 @@ La mente agrupa los elementos similares en una entidad. La semejanza depende de 
 
 <br><br>
 
-- **Principio de continuidad**
+- **Principio de continuidad**  
 Los detalles que mantienen un patrón o dirección tienden a agruparse juntos, como parte de un modelo. Es decir, percibimos elementos continuos, aunque estén interrumpidos entre sí. 
 ![alt text](./img/continuidad.png)
 <br><br>
@@ -444,7 +444,7 @@ Los detalles que mantienen un patrón o dirección tienden a agruparse juntos, c
 
 <br><br>
 
-- **Principio de simplicidad**
+- **Principio de simplicidad**  
 El individuo organiza sus campos perceptuales con rasgos simples y regulares.  
 ![alt text](./img/simplicidad.png)
 <br><br>
@@ -453,7 +453,7 @@ El individuo organiza sus campos perceptuales con rasgos simples y regulares.
 
 <br><br>
 
-- **Principio de dirección común**
+- **Principio de dirección común**  
 Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura.  
 ![alt text](./img/comun.png)
 <br><br>
@@ -462,7 +462,7 @@ Implica que los elementos que parecen construir un patrón o un flujo en la mism
 
 <br><br>
 
-- **Principio de Figura y Fondo**
+- **Principio de Figura y Fondo**  
 Este principio describe la tendencia del ojo humano a ver y separar los elementos de su entorno. No podemos percibir una misma forma como figura y fondo a la vez. El fondo es todo el que no se percibe como figura.  
 ![alt text](./img/figurafondo.png)
 <br><br>
@@ -471,7 +471,7 @@ Este principio describe la tendencia del ojo humano a ver y separar los elemento
 
 <br><br>
 
-- **Principio del cierre**
+- **Principio del cierre**  
 Es una tendencia del ojo humano a completar una infomración parcial.
 ![alt text](./img/cierre.png)
 <br><br>
