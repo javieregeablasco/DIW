@@ -57,8 +57,8 @@ En la actualidad es la herramienta mejor valorada entre diseñadores web para cr
 
 
 ## 2.2. - Registro, creación de un grupo y un proyecto
-El acceso a Figma se realiza desde https://www.figma.com/. Tras el registro y
-verificación del correo, podremos poner un nombre al equipo de trabajo e invitar a otros colaboradores (existen limitaciones para las cuentas gratuitas). 
+El acceso a Figma se realiza desde https://www.figma.com/ .  
+Tras el registro y verificación del correo, podremos poner un nombre al equipo de trabajo e invitar a otros colaboradores (existen limitaciones para las cuentas gratuitas). 
 
 
 ## 3.3. - Interfaz de Figma
