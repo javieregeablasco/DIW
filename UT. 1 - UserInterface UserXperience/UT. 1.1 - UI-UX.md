@@ -101,8 +101,9 @@ Dentro de la IPO encontramos:
 >**Interfaz de Usuario (UI - User Interface)**  
 
 <div align=center>
-  <img src="./img/ui.png" width="75%">
+  <img src="./img/ui.png" width="65%">
 </div>
+<br>
 
 La **Interfaz de Usuario** es el medio a través del cual los usuarios interactúan con un sistema o aplicación. Puede incluir elementos visuales, táctiles y auditivos. Existen distintos tipos de interfaces:  
 
@@ -115,7 +116,10 @@ La **Interfaz de Usuario** es el medio a través del cual los usuarios interact�
 
 >**Experiencia de Usuario (UX - User Experience)** 
 
-![alt text](./img/ux.png)
+<div align=center>
+  <img src="./img/ux.png" width="55%">
+</div>
+<br>
 
 La **Experiencia de Usuario (UX)** abarca todos los aspectos de la interacción de una persona con un producto o servicio digital. Va más allá de la interfaz y se enfoca en la percepción global del usuario sobre la usabilidad, accesibilidad y satisfacción con el sistema.  
 
