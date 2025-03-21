@@ -249,14 +249,15 @@ Influye en la percepción y la emoción del usuario. Se utiliza para:
 - **Generar identidad visual** (branding).  
 ![alt text](./img/color.png)
 <br>
-<br>
+
 
 - **Crear contrastes** y mejorar la accesibilidad.  
-<img src="./img/contrast.png" width=50%>
+<img src="./img/contrast.png" width=35%>
+<br>
 
 - **Diferenciar secciones** o establecer jerarquías.  
 ![alt text](./img/secciones.png)
-
+<br>
 
 ### 5.2.3. - Medida  
 Hace referencia al tamaño y la escala de los elementos en una interfaz:  
