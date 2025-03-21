@@ -365,6 +365,7 @@ Este grupo de elementos está relacionado con la ubicación y la interrelación 
 - **Gravedad:** La gravedad visual se refiere a la percepción del peso de los elementos en un diseño. Algunos factores que influyen en ella son: **Tamaño y color**, **sombra y profundidad** y **equilibrio visual**. 
 ![alt text](./img/gravedad.jpg)
 <br>
+<br>
 
 ## 5.4. - Elementos prácticos
 En el diseño web, los **elementos prácticos** son aquellos que van más allá de la estética y se centran en la comunicación y la experiencia del usuario. Estos incluyen, entre otros, la representación, el significado y la función
