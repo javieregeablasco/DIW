@@ -400,8 +400,8 @@ Su premisa principal es que "el todo es más que la suma de sus partes", es deci
 La Gestalt propone una serie de principios que explican cómo organizamos la información visual y cognitiva. En **el diseño de la UX/UI**, los principios de la Gestalt se aplican para mejorar la experiencia del usuario.
 
 - **Principio de la experiencia**
-Este principio se basa en el hecho que la percepción del ser humano está fundamentado de acuerdo **sus propias experiencias**. Así pues, buscaremos que los diseños compartan similitudes con las experiencias de los usuarios.
-**Colores de un semaforo**.
+Este principio se basa en el hecho que la percepción del ser humano está fundamentado de acuerdo **sus propias experiencias**. Así pues, buscaremos que los diseños compartan similitudes con las experiencias de los usuarios.  
+
 ![alt text](./img/experiencia.png)
 <br><br>
     **Iconos de FontAwesome** cuyas funciones identificamos inmediatamente. 
@@ -417,7 +417,7 @@ Las imágenes simétricas son percibidas como iguales, como un solo elemento, en
 <br><br>
 
 - **Principio de proximidad**
-Los objetos adjuntos tienden a ser vistos como una unidad. Los estímulos que están próximos tienden a percibirse como parte de la misma unidad.
+Los objetos adjuntos tienden a ser vistos como una unidad. Los estímulos que están próximos tienden a percibirse como parte de la misma unidad.  
 ![alt text](./img/proximidad.png)
 <br><br>
     **Organización de contenidos** siguiendo el principio de proximidad. 
@@ -425,10 +425,10 @@ Los objetos adjuntos tienden a ser vistos como una unidad. Los estímulos que es
 <br><br>
 
 - **Principio de similitud**
-La mente agrupa los elementos similares en una entidad. La semejanza depende de la forma, del tamaño, del color y de otros aspectos visuales de los elementos. 
+La mente agrupa los elementos similares en una entidad. La semejanza depende de la forma, del tamaño, del color y de otros aspectos visuales de los elementos.  
 ![alt text](./img/similitud.png)
 <br><br>
-    **Similitud** entre 2 secciones de precios.
+    **Similitud** entre 2 secciones de precios.  
     ![alt text](./img/similitud2.png)
 <br><br>
 
@@ -449,10 +449,10 @@ El individuo organiza sus campos perceptuales con rasgos simples y regulares.
 <br><br>
 
 - **Principio de dirección común**
-Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura.
+Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura.  
 ![alt text](./img/comun.png)  
 <br>
-    **Las flechas del carrusel** no indican la posibilidad de movimiento horizontal del elemento.
+    **Las flechas del carrusel** no indican la posibilidad de movimiento horizontal del elemento.  
     ![alt text](./img/comun2.png)
 <br><br>
 
