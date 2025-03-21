@@ -684,4 +684,7 @@ Algunas marcas y plataformas han publicado sus guías de estilo para que los des
 
 ## 7. Responsive design 
 
+https://www.iebschool.com/blog/que-es-responsive-web-design-analitica-usabilidad/
+
+https://desarrolloweb.com/articulos/que-es-responsive-web-design.html
 
