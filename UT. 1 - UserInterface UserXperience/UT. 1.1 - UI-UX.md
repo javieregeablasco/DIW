@@ -224,7 +224,11 @@ Identificar los elementos conceptuales de la siguiente página web.
 ## 5.2. - Elementos visuales
 En el diseño web, los elementos visuales fundamentales incluyen **forma, color, medida y textura**.  
 
-![alt text](./img/elementVisual.png)
+<div align=center>
+  <img src="./img/elementVisual.png" width="40%">
+</div>
+<br>
+<br>
 
 ### 5.2.1. - Forma  
 Define la estructura visual de los elementos dentro de una página web. Puede ser:  
