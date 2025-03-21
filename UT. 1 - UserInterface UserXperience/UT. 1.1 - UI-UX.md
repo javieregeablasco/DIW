@@ -455,7 +455,7 @@ El individuo organiza sus campos perceptuales con rasgos simples y regulares.
 
 - **Principio de dirección común**
 Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura.  
-![alt text](./img/comun.png)  
+![alt text](./img/comun.png)
 <br><br>
     **Las flechas del carrusel** no indican la posibilidad de movimiento horizontal del elemento.  
     ![alt text](./img/comun2.png)
@@ -464,20 +464,20 @@ Implica que los elementos que parecen construir un patrón o un flujo en la mism
 
 - **Principio de Figura y Fondo**
 Este principio describe la tendencia del ojo humano a ver y separar los elementos de su entorno. No podemos percibir una misma forma como figura y fondo a la vez. El fondo es todo el que no se percibe como figura.  
-<br><br>
-    ![alt text](./img/figurafondo.png)
-
+![alt text](./img/figurafondo.png)
 <br><br>
     **El contraste entre figura y fondo** nos hace separar el elemento principal del resto de la imagen.
     ![alt text](image.png)
+
 <br><br>
 
 - **Principio del cierre**
 Es una tendencia del ojo humano a completar una infomración parcial.
-    ![alt text](./img/cierre.png)
-xx<br><br>
+![alt text](./img/cierre.png)
+<br><br>
     **El contraste de las flechas** nos hace entender que falta información en la página web. 
     ![alt text](./img/cierre2.png) 
+
 <br><br>
 
 ## 5.7. - Colores y teoría del color 
