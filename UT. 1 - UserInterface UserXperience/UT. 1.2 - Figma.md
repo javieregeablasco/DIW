@@ -77,9 +77,9 @@ La interfaz de Figma se divide en tres grandes bloques:
 
 # 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
 Crear una guía de estilo similar a la siguiente imagen.
-![alt text](./img/guiaestilo.png)
-
-
+<div align="center">
+  <img src="./img/guiaestilo.png" width=60%>
+</div>
 
 
 
