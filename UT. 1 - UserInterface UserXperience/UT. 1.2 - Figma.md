@@ -16,6 +16,7 @@ Palabras clave: DAW, DIW
 
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
+| **CE. d&#41;** Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación web.|
 | **CE. e&#41;** Se han utilizado y valorado distintas tecnologías para el diseño de documentos web.|
 | **CE. f&#41;** Se han creado y utilizado plantillas de diseño.|
 
@@ -74,7 +75,7 @@ La interfaz de Figma se divide en tres grandes bloques:
  https://www.youtube.com/watch?v=VdS9ZGHHXWQ
 
 
-# 2. Tarea RA1-CECreación de una plantilla de guía de estilo con Figma
+# 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
 
 
 snap to grid
