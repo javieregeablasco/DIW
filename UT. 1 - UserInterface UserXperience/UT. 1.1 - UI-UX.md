@@ -658,16 +658,21 @@ Elegir una página web al azar y extraer la guía de estilos.
 
 ## 6.3. - Ejemplos de guías de estilos 
 <strong style="font-size: 30px;">airbnb</strong>
+
 ![](./img/airbnb.png)
 
 <strong style="font-size: 30px;">Bacardi</strong>  
+
 ![alt text](./img/bacardi.png) 
 
 <strong style="font-size: 30px;">Cruz roja Americana</strong>    
-![alt text](./img/aRedCross.png)
-Responsive design 
 
-## 6.4. - Documentación de guías de estilos 
+![alt text](./img/aRedCross.png)
+
+## 6.5. - Responsive design 
+
+
+## 6.6. - Documentación de guías de estilos 
 Algunas marcas y plataformas han publicado sus guías de estilo para que los desarrolladores y diseñadores puedan seguir sus estándares:
 
 - <a href="https://material.io/">**Material Design** (Google)</a>
