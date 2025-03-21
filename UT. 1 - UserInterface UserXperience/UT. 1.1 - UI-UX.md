@@ -196,8 +196,8 @@ En todo momento, informan al usuario del estado de sus acciones o consultas:
 🔹🔄 **Indicadores de carga (Spinners, progress bars)**: Informan sobre el estado de procesos en ejecución.  
 
 ## 4.6. - Tarea RA1-CEa
-Elege una página web comercial e identifica sus diferentes componentes.
-<br>
+Elige una página web comercial e identifica sus diferentes componentes.
+<br><br>
 
 # 5. Diseño de una interfaz web
 Generalmente esta área de desarrollo la llevan a cabo diseñadores gráficos. Entre sus tareas, destacan:
@@ -210,7 +210,11 @@ Dentro de los elementos del diseño de interfaces se distinguen cuatro grupos:
 ## 5.1. - Elementos conceptuales
 **Los elementos conceptuales** son aquellos que son presentes en el diseño, pero que no son visibles a la vista. El punto, la línea, el plano y el volumen son la base del diseño y sobre ellos se asientan los otros elementos.
 
-![alt text](./img/conceptual.png)
+<div align=center>
+  <img src="./img/conceptual.png" width="55%">
+</div>
+<br>
+<br>
 
 >**Ejercicio**  
 Identificar los elementos conceptuales de la siguiente página web.
