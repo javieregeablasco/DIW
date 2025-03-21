@@ -536,42 +536,42 @@ Para facilitar la selección de colores en diseño web, existen herramientas com
 <br>
 
 :three: Sección Amarilla elige el negro y el amarillo para captar la atención.  
-<br>
+
 
 ![alt text](./img/color2.png)   
 <br>
 <br>
 
 :four: Los colores claros hacen destacar el color rojo.  
-<br>
+
 
 ![alt text](./img/color3.png)    
 <br>
 <br>
 
 :five: Fingerspelling enseña el lenguaje de signos. En su paleta de colores solo se encuentran el morado y el amarillo que son complementarios entre sí.  
-<br>
+
 
 ![alt text](./img/color4.png)
 <br>
 <br>
 
 :six: La combinación del azul y verde transmite calma y seguridad.  
-<br>
+
 
 ![alt text](./img/color5.png) 
 <br>
 <br>
 
 :seven: En la página de Schweppes, predomina el amarillo para expresar su personalidad alegre y desenfadada.  
-<br>
+
 
 ![alt text](./img/color6.png)
 <br>
 <br>
 
 :eight: Los gradientes permiten combinar diferentes tonos de un mismo color de manera suave y gradual, creando añadiendo profundidad a los elementos del sitio web.  
-<br>
+
 
 ![alt text](./img/color7.png)  
 <br>
@@ -585,21 +585,21 @@ Para facilitar la selección de colores en diseño web, existen herramientas com
 <br>
 
 :one::zero: Las ilustraciones en 2D transmiten un aspecto sofisticado y moderno a los diseños.  
-<br>
+
 
 <a href="https://www.peppasauce.love/">![alt text](./img/color9.png)</a>
 <br>
 <br>
 
 :one::one: Los colores suaves y naturales como el beige, marrones y verdes apagados crean una sensación de calma y tranquilidad.  
-<br>
+
 
 ![alt text](./img/color10.png) 
 <br>
 <br>
 
 :one::two: Los colores brillantes y llamativos se utilizan para atraer la atención del usuario y resaltar elementos importantes.  
-<br>
+
 
 ![alt text](./img/color11.png) 
  
