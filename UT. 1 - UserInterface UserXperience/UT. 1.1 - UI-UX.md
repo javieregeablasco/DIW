@@ -211,7 +211,7 @@ Dentro de los elementos del diseño de interfaces se distinguen cuatro grupos:
 **Los elementos conceptuales** son aquellos que son presentes en el diseño, pero que no son visibles a la vista. El punto, la línea, el plano y el volumen son la base del diseño y sobre ellos se asientan los otros elementos.
 
 <div align=center>
-  <img src="./img/conceptual.png" width="55%">
+  <img src="./img/conceptual.png" width="40%">
 </div>
 <br>
 <br>
