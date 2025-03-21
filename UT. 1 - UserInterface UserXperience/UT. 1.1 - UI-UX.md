@@ -251,8 +251,8 @@ Influye en la percepción y la emoción del usuario. Se utiliza para:
 <br>
 
 
-- **Crear contrastes** y mejorar la accesibilidad.
-<img src="./img/contrast.png" width=35%>
+- **Crear contrastes** y mejorar la accesibilidad.  
+    <img src="./img/contrast.png" width=35%>
 
 <br>
 
