@@ -657,7 +657,7 @@ Las **guías de estilo** son documentos que establecen las reglas visuales y fun
 Elegir una página web al azar y extraer la guía de estilos. 
 
 ## 6.3. - Ejemplos de guías de estilos 
-<div style="font-size: 30px;">airbnb</div>
+<div font-size= 30px>airbnb</div>
 
 ![](./img/airbnb.png)
 
