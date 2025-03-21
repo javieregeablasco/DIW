@@ -100,7 +100,9 @@ Dentro de la IPO encontramos:
 
 >**Interfaz de Usuario (UI - User Interface)**  
 
-![alt text](./img/ui.png)
+<div align=center>
+  <img src="./img/ui.png" width="75%">
+</div>
 
 La **Interfaz de Usuario** es el medio a través del cual los usuarios interactúan con un sistema o aplicación. Puede incluir elementos visuales, táctiles y auditivos. Existen distintos tipos de interfaces:  
 
