@@ -253,6 +253,7 @@ Influye en la percepción y la emoción del usuario. Se utiliza para:
 
 - **Crear contrastes** y mejorar la accesibilidad.
 <img src="./img/contrast.png" width=35%>
+
 <br>
 
 - **Diferenciar secciones** o establecer jerarquías.  
