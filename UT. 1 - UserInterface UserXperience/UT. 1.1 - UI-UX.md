@@ -520,15 +520,16 @@ Para facilitar la selección de colores en diseño web, existen herramientas com
 
 ### 5.6.4. - Ejemplos del uso de esquemas de colores en páginas web  
 <br>
+
 :one: El blanco y el negro transmiten elegancia, simplicidad y eficiencia. Es el mismo que busca Apple en todos sus productos.  
-<br>
+
 
 ![alt text](./img/color0.png) 
 <br>  
 <br>
 
 :two: Un fondo negro combinado con colores grises y cafés apagados generan un ambiente lúgubre.  
-<br>
+
 
 ![alt text](./img/color1.png)
 <br>
