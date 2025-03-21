@@ -1,5 +1,5 @@
 ---
-Título: UD. 1.2 - Figma para la creación de guias de estilos y prototipos
+Título: UD. 1.2 - Creación de guias de estilos y prototipos con Figma 
 Autor: Javier Egea Blasco  
 Año: 24-25  
 Palabras clave: DAW, DIW  
@@ -16,15 +16,13 @@ Palabras clave: DAW, DIW
 
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
-| **CE. d&#41;** Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación web.|
 | **CE. e&#41;** Se han utilizado y valorado distintas tecnologías para el diseño de documentos web.|
 | **CE. f&#41;** Se han creado y utilizado plantillas de diseño.|
 
 
-| **Licencia Creative Commons:** |
-| - |
-| <img src="./img/by-nc-nd-eu_.png" width=30%> |  
-| **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
+| **Licencia Creative Commons:** ||
+| - | - |
+| <img src="./img/by-nc-nd-eu_.png" width=90%> | **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
 ---  
  
 
