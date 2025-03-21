@@ -57,11 +57,31 @@ En la actualidad es la herramienta mejor valorada entre diseñadores web para cr
 
 
 ## 2.2. - Registro, creación de un grupo y un proyecto
-El acceso a Figma se realiza desde https://www.figma.com/ .  
-Tras el registro y verificación del correo, podremos poner un nombre al equipo de trabajo e invitar a otros colaboradores (existen limitaciones para las cuentas gratuitas). 
-
+:one: El acceso a Figma se realiza desde https://www.figma.com/ .  
+:two: Tras el registro y verificación del correo, podremos poner un nombre al equipo de trabajo e invitar a otros colaboradores (existen limitaciones para las cuentas gratuitas). 
+:three: Una vez en el área de trabajo, Figma nos propone crear un primer proyecto.
+:four: Una vez dentro de la carpeta del proyecto, podemos empezar a añadir ficheros. En concreto, podemos añadir un nuevo diseño (design file) o un lienzo en blanco sobre el que volcar ideas, diagramas, etc. (FigJam file)
 
 ## 3.3. - Interfaz de Figma
+La interfaz de Figma se divide en un menú superior con varios accesos directos y tres
+grandes bloques. En el menú superior encontramos un primer icono con forma de
+hamburguesa que esconde todas las opciones del programa y, a continuación, las
+herramientas de cursor, frames, formas, pluma, texto y comentarios. En la parte central
+del menú superior tenemos el nombre del documento. Finalmente, en la parte derecha
+los atajos para compartir y ejecutar el prototipo.
+En cuanto a los tres bloques principales, en la parte izquierda encontramos las capas
+(concepto similar al de Photoshop) y los recursos (iconos, imágenes, etc.). La parte
+central es el área de trabajo, donde iremos diseñando el prototipo. En la columna
+derecha encontramos las opciones específicas del elemento que tengamos
+seleccionado. Por ejemplo, si tenemos seleccionado un bloque de texto, podremos
+editar la fuente, el tamaño, etc.
+
+En la pestaña Layers (capas) irán apareciendo los diferentes elementos que añadamos
+a la interfaz (texto, formas, iconos, imágenes, elementos interactivos…) que podremos
+ir agrupando en diferentes capas para trabajar de forma ordenada. Las capas se
+pueden activar o desactivar mediante el ojo situado en la parte derecha del nombre de
+la capa. También las podemos bloquear para evitar modificarlas sin querer, pulsando
+sobre el candado de la capa en cuestión.
 
 
 
