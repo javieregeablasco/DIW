@@ -83,7 +83,7 @@ Independientemente del dispositivo, la web representa la imagen de una entidad, 
 - **2024-2025:** Web 3.0, con blockchain y aplicaciones descentralizadas, empieza a redefinir la propiedad y seguridad en la web.  
 <br>
 
-# 3. Definiciones
+# 3. IPO, UI y UX
 >**Interacción Persona-Ordenador (IPO)**  
 
 La **Interacción Persona-Ordenador (IPO)** es la ciencia que estudia la relación entre los seres humanos y los sistemas informáticos. Su objetivo principal es diseñar interfaces que permitan una comunicación eficiente, intuitiva y accesible entre los usuarios y las computadoras.  
@@ -683,6 +683,28 @@ Algunas marcas y plataformas han publicado sus guías de estilo para que los des
 - <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**Samsung Design** (Samsung)</a>. <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">Guía de estilo en formato pdf</a>
 
 ## 7. Responsive design 
+### 7.1. - ¿Qué es el Responsive Design?
+Un sitio web que no se muestra correctamente en una variedad de dispositivos genera una experiencia negativa para los usuarios. A partir de esta necesidad surge el Responsive Design.
+
+El **Responsive Design, o diseño adaptativo**, es la técnica utilizada actualmente para lograr que una página web se adapte a cualquier dispositivo tecnológico, como ordenadores, tabletas, teléfonos inteligentes y relojes inteligentes.
+
+### 7.2. - Breakpoints
+Un **breakpoint** en diseño web responsivo es el **punto en el que el contenido y el diseño** de un sitio web **se ajustan** de manera específica para brindar la **mejor experiencia de usuario posible**. En otras palabras, los puntos de corte determinan cómo se visualiza un sitio web en función del tamaño de la pantalla.  
+
+Agregar **breakpoints** mejora la legibilidad en cualquier dispositivo, ya que existen puntos de corte específicos para distintos tamaños de pantalla. Sin embargo, estos pueden personalizarse para garantizar una mayor flexibilidad y adaptabilidad a diferentes dispositivos.
+
+### 7.3. - Métodologia para obtener un diseño web responsive
+- **HTML y CSS.** Estas dos tecnologías permiten redimensionar, ocultar, reducir o ampliar automáticamente los elementos de un sitio web para mejorar su adaptabilidad.  
+- **Consultas de medios (*media queries*).** Técnica de CSS que ajusta el diseño de sitios web y aplicaciones según el tipo de dispositivo o características específicas, como el tamaño y la resolución de la pantalla.  
+- **Diseño (*layout*).** Un diseño fluido utiliza valores en porcentaje para adaptarse al tamaño de la pantalla, mientras que técnicas como *flexbox* y *grid* permiten distribuir los elementos de manera más eficiente.  
+- **Imágenes responsivas.** Permiten ajustar automáticamente el ancho y la altura de las imágenes para adaptarlas a cualquier tamaño de pantalla, mejorando la experiencia de usuario y la carga del sitio.  
+- **Velocidad.** Un sitio web más rápido mejora la experiencia del usuario y el posicionamiento en buscadores (*SEO*). Optimizar imágenes, reducir solicitudes innecesarias y mejorar la caché contribuye a una carga más eficiente.
+
+### 7.4. - Buenas prácticas de diseño web responsive
+
+
+
+
 
 https://www.iebschool.com/blog/que-es-responsive-web-design-analitica-usabilidad/
 
