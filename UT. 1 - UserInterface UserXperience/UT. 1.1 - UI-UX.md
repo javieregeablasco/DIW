@@ -355,10 +355,12 @@ Este grupo de elementos está relacionado con la ubicación y la interrelación 
 - **Posición:** La posición define dónde se colocan los elementos en la pantalla en relación con otros. Esto afecta la usabilidad y la coherencia visual.  
 ![alt text](./img/posicion.png)
 <br>
+<br>
 
 - **Espacio:** El espacio (white space) es fundamental para la legibilidad y la organización del contenido.  
   ![alt text](./img/espacio.jpg)
 <br>
+
 
 - **Gravedad:** La gravedad visual se refiere a la percepción del peso de los elementos en un diseño. Algunos factores que influyen en ella son: **Tamaño y color**, **sombra y profundidad** y **equilibrio visual**. 
 ![alt text](./img/gravedad.jpg)
@@ -366,7 +368,12 @@ Este grupo de elementos está relacionado con la ubicación y la interrelación 
 
 ## 5.4. - Elementos prácticos
 En el diseño web, los **elementos prácticos** son aquellos que van más allá de la estética y se centran en la comunicación y la experiencia del usuario. Estos incluyen, entre otros, la representación, el significado y la función
-![alt text](./img/elementosPracticos.png)
+
+<div align=center>
+  <img src="./img/elementosPracticos.png" width="40%">
+</div>
+<br>
+<br>
 
 - **Representación:** Se refiere a cómo se presentan los elementos visuales en la interfaz y su relación con la realidad o la abstracción.
 ![alt text](./img/representacion.png)
