@@ -146,7 +146,7 @@ Si convertimos esta estructura a código HTML, obtendremos el siguiente resultad
 </div>
 <br>
 
-A continuación, se enumeran los componentes clave que toda interfaz web debe incorporar y su ubucación dentro de los elementos citados anteriormente:  
+A continuación, veremos los componentes clave que toda interfaz web debe incorporar.  
 
 ## 4.1. - Elementos de identificación  
 Los elementos de identificación son aquellos que permiten a los usuarios reconocer y recordar un sitio web específico. Su función principal es establecer la identidad visual y de marca, facilitando la navegación y la confianza del usuario.
@@ -197,6 +197,7 @@ En todo momento, informan al usuario del estado de sus acciones o consultas:
 
 ## 4.6. - Tarea RA1-CEa
 Elege una página web comercial e identifica sus diferentes componentes.
+<br>
 
 # 5. Diseño de una interfaz web
 Generalmente esta área de desarrollo la llevan a cabo diseñadores gráficos. Entre sus tareas, destacan:
