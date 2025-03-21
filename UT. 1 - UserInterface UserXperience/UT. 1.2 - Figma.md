@@ -26,7 +26,7 @@ Palabras clave: DAW, DIW
 ---  
  
 
-# 1. Creación de una guía de estilo con Figma
+# 1. Primeros pasos con Figma
 ## 1.1. - ¿Qué es Figma?
 Figma es una herramienta de diseño de interfaces y prototipado principalmente basada en la nube. Permite a diseñadores y desarrolladores colaborar en tiempo real en la creación de todo tipo de productos digitales.  
 En la actualidad es la herramienta mejor valorada entre diseñadores web para crear guías de estilo y realizar prototipado web gracias a su enfoque colaborativo, su flexibilidad y sus potentes funcionalidades:   
@@ -67,10 +67,10 @@ La interfaz de Figma se divide en tres grandes bloques:
 :one: En la parte izquierda encontramos la interfaz para la gestión de los archivos y sus capas.  
 :two: La parte central es el área de trabajo, donde iremos diseñando el prototipo.  
 :three: En la columna de la derecha encontramos las opciones específicas del elemento que tengamos seleccionado.  
-:four: Para terminar, en el area de trabajo encontraremos las herramientas de cursor, frames, formas, pluma, texto y comentarios
+:four: Para terminar, en el area de trabajo encontraremos las herramientas de cursor, frames, formas, pluma, texto, comentarios, acciones y Dev Mode.  
 ![alt text](./img/figma.png)  
  
-
+# 2. Creación de una guía de estilo con Figma
 
 
 
