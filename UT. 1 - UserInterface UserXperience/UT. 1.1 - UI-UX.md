@@ -4,8 +4,8 @@ Autor: Javier Egea Blasco
 Año: 24-25  
 Palabras clave: DAW, DIW  
 ---
-<div align="center">
-  <img src="./img/uiux.webp" width="50%">
+<div>
+  <img src="./img/uiux.webp" width="75%">
 </div>
 
 <br>
@@ -48,6 +48,7 @@ Independientemente del dispositivo, la web representa la imagen de una entidad, 
 - **1991:** Tim Berners-Lee crea la primera página web con solo texto y enlaces en HTML.  
 - **1993:** Aparece el primer navegador gráfico, Mosaic, permitiendo imágenes junto con texto.  
 - **1994:** Netscape Navigator introduce mejoras en el renderizado de páginas y establece el estándar de navegación.  
+<br>
 
 >**1995-1999: HTML y el diseño en tablas**  
 - **1995:** Se lanza JavaScript, permitiendo interactividad en el navegador.  
@@ -55,29 +56,34 @@ Independientemente del dispositivo, la web representa la imagen de una entidad, 
 - **1997:** HTML 4.0 se populariza con el uso de tablas para estructurar páginas web.  
 - **1998:** Google aparece y cambia la forma de buscar información en la web.  
 - **1999:** Se consolida el uso de Flash y JavaScript en la creación de interfaces interactivas.  
+<br>
 
 >**2000-2006: CSS y el auge del diseño web**  
 - **2000:** Se adopta CSS para diseños, reemplazando las tablas.  
 - **2003:** Aparece WordPress, facilitando la creación de sitios web sin necesidad de programar.  
 - **2004:** Se popularizan las técnicas de diseño líquido y adaptable.  
 - **2005:** Nace AJAX, permitiendo recargar contenido sin necesidad de actualizar la página completa.  
+<br>
 
 >**2007-2012: Móviles y responsive design**  
 - **2007:** Apple lanza el iPhone.  
 - **2010:** Ethan Marcotte introduce el término **Responsive Web Design (RWD)**, impulsando el diseño adaptable a cualquier dispositivo.  
 - **2011:** HTML5 y CSS3 se consolidan, permitiendo animaciones sin Flash.  
 - **2012:** Se expande el diseño minimalista con estilos planos y colores vibrantes.  
+<br>
 
 >**2013-2019: UI/UX, frameworks y accesibilidad**  
 - **2013:** Google presenta Material Design, estableciendo un estándar visual con sombras y animaciones realistas.  
 - **2015:** Se popularizan frameworks como Bootstrap y Foundation para acelerar el desarrollo web.  
 - **2016:** La velocidad y la accesibilidad se convierten en prioridades con la optimización para SEO y Core Web Vitals.  
 - **2019:** Dark mode se convierte en una tendencia en muchas interfaces web.  
+<br>
 
 >**2020-presente: IA, diseño sin código y Web 3.0**  
 - **2020:** Herramientas como Webflow y Figma facilitan la creación de sitios sin necesidad de programar.  
 - **2022:** La IA empieza a usarse para generar diseños y mejorar la experiencia del usuario.  
 - **2024-2025:** Web 3.0, con blockchain y aplicaciones descentralizadas, empieza a redefinir la propiedad y seguridad en la web.  
+<br>
 
 # 3. Definiciones
 >**Interacción Persona-Ordenador (IPO)**  
