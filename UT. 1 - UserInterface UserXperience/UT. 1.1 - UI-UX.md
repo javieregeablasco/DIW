@@ -519,14 +519,19 @@ Para facilitar la selección de colores en diseño web, existen herramientas com
 ✔ [Paletton](https://paletton.com/)  
 
 ### 5.6.4. - Ejemplos del uso de esquemas de colores en páginas web  
+
 :one: El blanco y el negro transmiten elegancia, simplicidad y eficiencia. Es el mismo que busca Apple en todos sus productos.  
+<br>
 ![alt text](./img/color0.png) 
 <br>  
 <br>
+
 :two: Un fondo negro combinado con colores grises y cafés apagados generan un ambiente lúgubre.  
+<br>
 ![alt text](./img/color1.png)
 <br>
 <br>
+
 :three: Sección Amarilla elige el negro y el amarillo para captar la atención.  
 ![alt text](./img/color2.png)   
 <br>
@@ -555,7 +560,7 @@ Para facilitar la selección de colores en diseño web, existen herramientas com
 ![alt text](./img/color8.png) 
 <br>
 <br>
-:ten: Las ilustraciones en 2D transmiten un aspecto sofisticado y moderno a los diseños.  
+:one::zero: Las ilustraciones en 2D transmiten un aspecto sofisticado y moderno a los diseños.  
 <a href="https://www.peppasauce.love/">![alt text](./img/color9.png)</a>
 <br>
 <br>
@@ -563,7 +568,7 @@ Para facilitar la selección de colores en diseño web, existen herramientas com
 ![alt text](./img/color10.png) 
 <br>
 <br>
-:twelve: Los colores brillantes y llamativos se utilizan para atraer la atención del usuario y resaltar elementos importantes.  
+:one::one: Los colores brillantes y llamativos se utilizan para atraer la atención del usuario y resaltar elementos importantes.  
 ![alt text](./img/color11.png) 
  
 
