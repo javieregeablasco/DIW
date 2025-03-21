@@ -142,7 +142,7 @@ Muchos de los componentes de una interfaz web, como la cabecera, los menús de n
 Si convertimos esta estructura a código HTML, obtendremos el siguiente resultado.
 
 <div align=center>
-  <img src="./img/estructura2.png" width="90%">
+  <img src="./img/estructura2.png" width="60%">
 </div>
 <br>
 
