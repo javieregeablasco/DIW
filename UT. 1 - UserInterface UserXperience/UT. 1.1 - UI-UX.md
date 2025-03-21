@@ -666,6 +666,7 @@ Elegir una página web al azar y extraer la guía de estilos.
 
 
 ![alt text](./img/bacardi.png) 
+<br>
 
 :three: **Cruz roja Americana**    
 
