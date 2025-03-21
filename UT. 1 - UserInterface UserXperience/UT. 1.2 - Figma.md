@@ -63,13 +63,11 @@ En la actualidad es la herramienta mejor valorada entre diseñadores web para cr
 :four: Una vez dentro de la carpeta del proyecto, podemos empezar a añadir ficheros. En concreto, podemos añadir un nuevo diseño (design file) o un lienzo en blanco sobre el que volcar ideas, diagramas, etc. (FigJam file)
 
 ## 3.3. - Interfaz de Figma
-La interfaz de Figma se divide en un menú superior con varios accesos directos y tres
-grandes bloques. En el menú superior encontramos un primer icono con forma de
-hamburguesa que esconde todas las opciones del programa y, a continuación, las
-herramientas de cursor, frames, formas, pluma, texto y comentarios. En la parte central
-del menú superior tenemos el nombre del documento. Finalmente, en la parte derecha
-los atajos para compartir y ejecutar el prototipo.
-En cuanto a los tres bloques principales, en la parte izquierda encontramos las capas
+La interfaz de Figma se divide en tres grandes bloques:    
+En la parte izquierda encontramos las capas
+![alt text](./img/figma.png)  
+En el menú superior encontramos un primer icono con forma de
+
 (concepto similar al de Photoshop) y los recursos (iconos, imágenes, etc.). La parte
 central es el área de trabajo, donde iremos diseñando el prototipo. En la columna
 derecha encontramos las opciones específicas del elemento que tengamos
