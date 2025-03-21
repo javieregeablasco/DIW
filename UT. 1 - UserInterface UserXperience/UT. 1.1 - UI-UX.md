@@ -342,7 +342,11 @@ Identificar los errores visuales de las siguientes interfaces web. Comentar el t
 
 ## 5.3. - Elementos de relación
 Este grupo de elementos está relacionado con la ubicación y la interrelación de las formas dentro de una composición. La dirección y la posición pueden ser percibidas mientras que el espacio y la gravedad son sentidas.
-![alt text](./img/relacion.png)
+<div align=center>
+  <img src="./img/relacion.png" width="40%">
+</div>
+<br>
+<br>
 
 - **Dirección:** Guía la mirada del usuario y se usa para organizar la información y definir el flujo de navegación. Existen tres tipos principales: **Horizontal**, **vertical** y en **diagonal o Z**.   
 ![alt text](./img/direccionZ.png)
