@@ -233,9 +233,8 @@ En el diseño web, los elementos visuales fundamentales incluyen **forma, color,
 ### 5.2.1. - Forma  
 Define la estructura visual de los elementos dentro de una página web. Puede ser:  
 - **Geométrica**: Cuadrados, círculos, triángulos, usados en botones, iconos o tarjetas.
-<div>
-<a style="border: 1px solid black;" href="http://www.usefulsimple.co.uk/"><img src="./img/geometrica.png"></a>
-</div>
+<a href="http://www.usefulsimple.co.uk/"><img style="border: 1px solid black;" src="./img/geometrica.png"></a>
+
 
 - **Orgánica**: Formas irregulares o naturales, aportan dinamismo y originalidad.  
 <a href="http://www.sageblue.com/">![alt text](./img/natural.png)</a>
