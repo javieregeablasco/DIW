@@ -117,7 +117,7 @@ La **Interfaz de Usuario** es el medio a través del cual los usuarios interact�
 >**Experiencia de Usuario (UX - User Experience)** 
 
 <div align=center>
-  <img src="./img/ux.png" width="55%">
+  <img src="./img/ux.png" width="50%">
 </div>
 <br>
 
@@ -134,10 +134,17 @@ Los principales factores que influyen en la UX son:
 La **interfaz web** o **interfaz de usuario** es el punto de interacción entre el usuario y un sitio web o una aplicación. Para que sea efectiva, debe ser intuitiva, accesible y atractiva. 
 
 Muchos de los componentes de una interfaz web, como la cabecera, los menús de navegación, el cuerpo, la barra lateral y el pie de página, se replican en la mayoría de los sitios web.  
-![alt text](./img/estructura.png)
+<div align=center>
+  <img src="./img/estructura.png" width="60%">
+</div>
+<br>
 
 Si convertimos esta estructura a código HTML, obtendremos el siguiente resultado.
-![alt text](./img/estructura2.png)
+
+<div align=center>
+  <img src="./img/estructura2.png" width="90%">
+</div>
+<br>
 
 A continuación, se enumeran los componentes clave que toda interfaz web debe incorporar y su ubucación dentro de los elementos citados anteriormente:  
 
