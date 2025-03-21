@@ -67,7 +67,7 @@ La interfaz de Figma se divide en tres grandes bloques:
 :one: En la parte izquierda encontramos la interfaz para la gestión de los archivos y sus capas.  
 :two: La parte central es el área de trabajo, donde iremos diseñando el prototipo.  
 :three: En la columna de la derecha encontramos las opciones específicas del elemento que tengamos seleccionado.  
-:four: 
+:four: Para terminar, en el area de trabajo encontraremos las herramientas de cursor, frames, formas, pluma, texto y comentarios
 ![alt text](./img/figma.png)  
  
 
