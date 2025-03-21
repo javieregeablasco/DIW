@@ -293,50 +293,50 @@ Aunque el diseño web es bidimensional, se pueden simular texturas para dar prof
 ### 5.2.5. - Tarea RA1-CEc  
 Identificar los errores visuales de las siguientes interfaces web. Comentar el tipo de error encontrado.   
 
-:one: 
+**Interfaz** :one: 
 
 ![alt text](./img/ra1ceb1.png)
 
 <br>
 
-:two:
+**Interfaz** :two:
 
 ![alt text](./img/ra1ceb2.png)
 
 <br>
 
-:three:
+**Interfaz** :three:
 
 ![alt text](./img/ra1ceb3.png)
 
 <br>
 
-:four:
+**Interfaz** :four:
 
 ![alt text](./img/ra1ceb4.png)
 
 <br>
 
-:five:
+**Interfaz** :five:
 
 ![alt text](./img/ra1ceb5.png)
 
 <br>
 
-:six:
+**Interfaz** :six:
 
 ![alt text](./img/ra1ceb6.png)
 
 <br>
 
-:seven:
+**Interfaz** :seven:
 
 ![alt text](./img/ra1ceb7.png)
 
 <br>
 
-:eight:
-
+**Interfaz** :eight:
+ 
 ![alt text](./img/ra1ceb8.png)
 
 
