@@ -674,10 +674,9 @@ Elegir una página web al azar y extraer la guía de estilos.
 
 ![alt text](./img/aRedCross.png)
 
-## 6.5. - Responsive design 
 
 
-## 6.6. - Documentación de guías de estilos 
+## 6.4. - Documentación de guías de estilos 
 Algunas marcas y plataformas han publicado sus guías de estilo para que los desarrolladores y diseñadores puedan seguir sus estándares:
 
 - <a href="https://material.io/">**Material Design** (Google)</a>
@@ -685,5 +684,6 @@ Algunas marcas y plataformas han publicado sus guías de estilo para que los des
 - <a href="https://carbondesignsystem.com/">**Carbon Design System** (IBM)</a>
 - <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**Samsung Design** (Samsung)</a>. <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">Guía de estilo en formato pdf</a>
 
+## 7. Responsive design 
 
 
