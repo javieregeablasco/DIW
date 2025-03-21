@@ -1,9 +1,11 @@
 ---
-Título: UD. 1.2 - Creación de guias de estilos y prototipos con Figma 
+Título: UD. 1.2 - Creación de guias de estilos y prototipado web con Figma 
 Autor: Javier Egea Blasco  
 Año: 24-25  
 Palabras clave: DAW, DIW  
 ---
+
+<br>
 <div align="center">
   <img src="./img/Figma-logo.svg.png" width="25%">
 </div>
