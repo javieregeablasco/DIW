@@ -725,7 +725,4 @@ Por último, es crucial evaluar la velocidad del sitio web, considerando el tiem
 
 
 
-https://www.iebschool.com/blog/que-es-responsive-web-design-analitica-usabilidad/
-
-https://desarrolloweb.com/articulos/que-es-responsive-web-design.html
 
