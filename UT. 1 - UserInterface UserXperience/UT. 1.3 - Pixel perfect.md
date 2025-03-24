@@ -1,5 +1,5 @@
 ---
-Título: UD. 1.2 - Creación de guias de estilos y prototipado web con Figma 
+Título: UD. 1.3 - Pixel perfect
 Autor: Javier Egea Blasco  
 Año: 24-25  
 Palabras clave: DAW, DIW  
@@ -76,6 +76,9 @@ La interfaz de Figma se divide en tres grandes bloques:
 ## 1.4. - Frame, section y slice
  https://www.youtube.com/watch?v=VdS9ZGHHXWQ
 
+## 1.5. - Insertar comentarios
+
+## 1.6. - Layout y autolayout
 
 # 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
 Crear una guía de estilo similar a la siguiente imagen.
