@@ -14,13 +14,8 @@ Palabras clave: DAW, DIW
 
 | **Resultados de aprendizaje de la unidad didáctica:** |
 |-|
-| **RA. 1:** Planifica la creación de una interfaz web valorando y aplicando especificaciones de diseño.|
+| **Material de ampliación**|
 
-|**Criterios de evaluación de la unidad didáctica:**|
-|-|
-| **CE. d&#41;** Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación web.|
-| **CE. e&#41;** Se han utilizado y valorado distintas tecnologías para el diseño de documentos web.|
-| **CE. f&#41;** Se han creado y utilizado plantillas de diseño.|
 
 
 | **Licencia Creative Commons:** ||
@@ -30,3 +25,6 @@ Palabras clave: DAW, DIW
  
 
 # 1. Primeros pasos con Figma
+
+
+https://juanbarcia.com/pixel-perfect/
