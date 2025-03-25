@@ -63,3 +63,5 @@ https://juanbarcia.com/pixel-perfect/
 https://torresburriel.com/weblog/que-significa-pixel-perfect/
 https://es.wikipedia.org/wiki/Pixel_Perfect
 https://andsiosa.medium.com/how-to-create-a-pixel-perfect-ui-design-b38e4c76cb56
+https://blog.hubspot.com/website/fluid-design
+https://www.marketinhouse.es/mobile-first/
