@@ -59,17 +59,33 @@ La implementación del Diseño Pixel Perfect puede destacar a una marca por enci
 El logro de un diseño pixel perfect requiere atención meticulosa a los detalles y la implementación de técnicas específicas que garanticen la alineación y la precisión visual en cada elemento de la composición.
 
 1. Utilizar columnas y cuadrículas y una alineación precisa de los elementos.
-![alt text](./img/PPalineacion.png)
-3. Controlar los espacios y márgenes.
-![alt text](./img/PPmargenes.png)
-4. Verificar el diseño web en múltiples resoluciones y realizar pruebas exhaustivas en diversos navegadores y dispositivos.
-![alt text](./img/PPresiluciones.png)
-6. Inspección de píxeles y retina. Utilizar herramientas de inspección de píxeles para asegurarse de que las imágenes se rendericen correctamente en pantallas de alta resolución (pantallas Retina). 
-![alt text](./img/PPretina.png)
-7. Perfección en elementos de texto. Asegúrarse de que las fuentes de texto utilizadas se rendericen correctamente en todo tipo de tamaños de pantalla.
-![alt text](./img//PPfuente.png)
-8. Evitar escalar imágenes.
-![alt text](./img/PPimagenes.png)
+
+   ![alt text](./img/PPalineacion.png)
+<br>
+<br>
+1. Controlar los espacios y márgenes.
+   
+   ![alt text](./img/PPmargenes.png)
+<br>
+<br>   
+1. Verificar el diseño web en múltiples resoluciones y realizar pruebas exhaustivas en diversos navegadores y dispositivos.
+
+   ![alt text](./img/PPresiluciones.png)
+   <br>
+<br>
+1. Inspección de píxeles y retina. Utilizar herramientas de inspección de píxeles para asegurarse de que las imágenes se rendericen correctamente en pantallas de alta resolución (pantallas Retina).
+  
+    ![alt text](./img/PPretina.png)    
+   <br>
+<br>
+1. Perfección en elementos de texto. Asegúrarse de que las fuentes de texto utilizadas se rendericen correctamente en todo tipo de tamaños de pantalla.
+
+    ![alt text](./img//PPfuente.png)
+<br>
+<br>
+1. Evitar escalar imágenes.
+
+    ![alt text](./img/PPimagenes.png)
 
 
 
