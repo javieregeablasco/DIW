@@ -88,54 +88,24 @@ El logro de un diseño pixel perfect requiere atención meticulosa a los detalle
     ![alt text](./img/PPimagenes.png)
 
 # 2. Fluid design
+## 2.1. - Introducción
 Fluid design is a way of building websites so that the layout and content automatically adjust to fit any screen size, from a phone to a computer. New applications and device settings have always aimed to align themselves with this fluid design. Smartphones, tablets, computers, and even smartwatches have undergone a flowing transformation.
 
 Fluid design is a flexible, scalable approach to designing interfaces that fit screen sizes or different devices. 
 ![alt text](./img/FIintro.png)
 
-
-For a large browser window such as 1000 pixels wide, the website should look like this:
-Fluid design example on websites.
-
-Now let’s shrink the browser window to 600 px. If this site is designed in fluid design principles, the scale will be narrowed down like this:
-
-Fluid design example 2.
-Fluid Design vs. Other Layout Approaches
-
-One way to define a design layout is by comparing it to other models. In UI/UX terminology, you may have heard of other design layouts such as responsive, adaptive, fixed design, and so on. Now, let’s take a look at the differences and comparisons between different design layouts like adaptive vs responsive vs fluid design.
-	Fluid Design	Fixed Design	Responsive Design
+## 2.2. - Fluid Design vs. Other Layout Approaches
+In UI/UX terminology, you may have heard of other design layouts such as responsive, adaptive, fixed design, and so on. Now, let’s take a look at the differences and comparisons between different design layouts like adaptive vs responsive vs fluid design.
+	
+  Fluid Design	Fixed Design	Responsive Design
 Layout Behavior	Adjusts smoothly to any screen size or window.	Stays the same size, regardless of screen.	Uses predefined breakpoints for adjustments.
 Flexibility	Highly flexible and scales proportionally.	Not flexible; can cause horizontal scroll.	Flexible but adjusts in steps (breakpoints).
 Development Effort	Moderate; requires careful percentage-based units.	Easier to develop; uses fixed pixel widths.	More complex due to breakpoints for devices.
 Best For	Websites needing smooth adaptation across sizes.	Simple, desktop-focused websites.	Multi-device designs with defined layouts.
 User Experience	Consistent on all screen sizes.	Poor on smaller screens.	Good, but changes layout at breakpoints.
-Responsive Design vs. Fluid Design
 
-Netizens (internet citizens) are now connecting with the world through various devices. Let’s be honest, none of us wait to sit in front of a computer just to check our emails. Therefore, any content on the internet needs to “respond” to different device sizes. In this sense, we can say that fluid design falls under the umbrella term of responsive design.
-	Responsive Design	Fluid Design
-	Uses predefined breakpoints to adjust layout based on screen size (e.g., mobile, tablet, desktop).	Uses percentage-based widths to adapt smoothly to any screen size.
-Layout Behavior	Adjusts layout at specific screen size breakpoints.	Scales content proportionally without specific breakpoints.
-Units Used	Relies on pixels, percentages, and media queries.	Primarily uses percentages and relative units (e.g., em, rem, %).
-Flexibility	Flexible, but layout can "snap" to breakpoints.	Highly flexible with smooth transitions.
-Best Use Case	Multi-device experiences with distinct designs for devices.	Consistent design across a wide range of screen sizes.
-Development Complexity	Higher, requires multiple media queries and breakpoint logic.	Moderate, focuses on proportional scaling rather than set breakpoints.
-Content Reflow	May rearrange elements at breakpoints.	Content resizes proportionally without rearranging.
 
-However, unlike fluid design, responsive website designs use breakpoints that can be rearranged. This means that in a responsive design, the layout will appear differently on a desktop, phone, or tablet. As a result, the content changes as it is either narrowed down or expanded.
-Adaptive vs. Fluid Design
 
-Responsive design uses a single, flexible layout that adapts fluidly to any screen size, while adaptive design uses multiple fixed layouts tailored to specific screen sizes, and fluid design scales proportionally across all screen sizes without relying on breakpoints.
-	Fluid Design	Adaptive Design
-Definition	Layout scales proportionally with screen size.	Predefined layouts for specific screen sizes.
-Layout Behavior	Smooth resizing across all screen sizes.	Switches between fixed layouts for defined screen sizes.
-Units Used	Percentages and relative units (e.g., em, %).	Pixels, sometimes combined with media queries.
-Flexibility	High flexibility, adjusts in real-time.	Less flexible, limited to predefined breakpoints.
-Best Use Case	Ideal for highly dynamic and fluid environments.	Best for targeting specific devices with tailored layouts.
-Development Complexity	Moderate; requires good understanding of proportional scaling.	Higher; needs separate layouts for multiple breakpoints.
-Performance	Lightweight, as it avoids heavy reliance on media queries.	Slightly heavier due to multiple predefined layouts.
-Content Reflow	Smooth resizing without abrupt changes.	Content "jumps" between layouts at breakpoints.
-
-Fluid website design allows designers to create a single simple layout that adjusts and narrows down automatically. While adaptive design enables more precise layouts, fluid design is more time-saving for designers.
 Key Principles of Fluid Layouts
 Fluid Grid Layout
 
@@ -149,6 +119,7 @@ Visual content makes up most of the layout. Therefore, when creating your layout
 
 
 Therefore, maintaining sharp, readable text and visually appealing images is essential. Believe us, your designers, who have spent their time and effort, will appreciate the typography and images scaling accordingly.
+
 Minimal Reliance on Breakpoints
 
 Breakpoints in website design refer to the screen size at which the design should adjust to a different layout. For instance, if you're using responsive or fluid design, you’ll need breakpoints for your columns. The good news is that fluid layout design mostly reduces the complexity of breakpoints and creates flowing content. With proportional sizing, you can use breakpoints for multiple device-specific layouts.
