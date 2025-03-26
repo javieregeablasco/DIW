@@ -61,9 +61,13 @@ En la actualidad es la herramienta mejor valorada entre diseñadores web para cr
 
 ## 1.2. - Registro, creación de un grupo y un proyecto
 :one: El acceso a Figma se realiza desde https://www.figma.com/ .  
-:two: Tras el registro y verificación del correo, podremos poner un nombre al equipo de trabajo e invitar a otros colaboradores (existen limitaciones para las cuentas gratuitas). 
-:three: Una vez en el área de trabajo, Figma nos propone crear un primer proyecto.
+:two: Tras el registro y verificación del correo, podremos poner un nombre al equipo de trabajo e invitar a otros colaboradores (existen limitaciones para las cuentas gratuitas).  
+:three: Una vez en el área de trabajo, Figma nos propone crear un primer proyecto.  
 :four: Una vez dentro de la carpeta del proyecto, podemos empezar a añadir ficheros. En concreto, podemos añadir un nuevo diseño (design file) o un lienzo en blanco sobre el que volcar ideas, diagramas, etc. (FigJam file)
+
+**Nota:** Una de las características de Figma es su comunidad de usuarios. Para acceder a los recursos libres o de pago disponibles, seguir el enlace "Explore Community", ubicado en la parte inferior izquierda de la pantalla `Files` de Figma.
+
+![alt text](./img/figmaintro.png)
 
 ## 1.3. - Interfaz de Figma
 La interfaz de Figma se divide en tres grandes bloques:    
@@ -73,8 +77,13 @@ La interfaz de Figma se divide en tres grandes bloques:
 :four: Para terminar, en el area de trabajo encontraremos las herramientas de cursor, frames, formas, pluma, texto, comentarios, acciones y Dev Mode.  
 ![alt text](./img/figma.png)  
 
+
+  
 ## 1.4. - Frame, section y slice
  https://www.youtube.com/watch?v=VdS9ZGHHXWQ
+
+
+ mockup
 
 ## 1.5. - Insertar comentarios
 
