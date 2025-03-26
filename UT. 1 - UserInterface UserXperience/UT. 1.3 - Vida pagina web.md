@@ -1,5 +1,5 @@
 ---
-Título: UD. 1.2 - Creación de guias de estilos y prototipado web con Figma 
+Título: UD. 1.3 - Ciclo de vida de un diseño web
 Autor: Javier Egea Blasco  
 Año: 24-25  
 Palabras clave: DAW, DIW  
@@ -27,121 +27,136 @@ Palabras clave: DAW, DIW
 | - | - |
 | <img src="./img/by-nc-nd-eu_.png" width=90%> | **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
 ---  
+
+
+ 5.9. Prototipatge web
+En el cicle de vida del disseny web el prototipatge és una de les etapes inicials. És molt important, perquè ajuda a donar forma a les idees i explorar les diferents alternatives per resoldre visualment la pàgina web. 
+A la figura podem veure les fases del prototipatge segons la fidelitat dels prototips, de menys a més fidelitat: 
+    • Esbós (sketch), 
+    • Esquema (wireframes), 
+    • Maqueta (mockup) i 
+    • Prototip (prototype). 
+
+
+
+
+
+
+
+
+5.9.1. Esbós (Sketch)
+ El primer del prototipatge és l'esbós. Encara que menys estructurat que les etapes posteriors, l'esbós captura l'essència crua de la visió. Ferramentes com llapis i paper, o com programari de dibuix digital, servixen com a mitjans per a donar vida a estos primers moments de creativitat.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.flickr.com/photos/rohdesign/
+
+
+5.9.2. Esquema (Wireframe).
+El wireframe, també conegut com a esquema de pàgina, establix les bases estructurals del disseny. Amb una representació visual bàsica i esquemàtica, el wireframe traça la disposició d'elements clau, com a blocs de contingut i menús de navegació.
+ És una representació visual bàsica i esquemàtica de l'estructura d'una pàgina web o aplicació. Sol ser una versió simplificada que mostra la disposició dels elements en la interfície. No inclou detalls de disseny ni funcionalitats interactives, centrant-se principalment en la disposició i organització dels elements.
  
 
-# 1. Primeros pasos con Figma
-## 1.1. - ¿Qué es Figma?
-Figma es una herramienta de diseño de interfaces y prototipado principalmente basada en la nube. Permite a diseñadores y desarrolladores colaborar en tiempo real en la creación de todo tipo de productos digitales.  
-En la actualidad es la herramienta mejor valorada entre diseñadores web para crear guías de estilo y realizar prototipado web gracias a su enfoque colaborativo, su flexibilidad y sus potentes funcionalidades:   
-
-<br>
-
-<strong style="font-size: 18px;">Guías de estilo</strong>
-
-✅ Componentes reutilizables (botones, tarjetas, iconos, ...) que se actualizan en toda la interfaz al realizar cambios en el componente principal.
-
-✅ Bibliotecas de diseño: Permiten compartir estilos de texto, colores, efectos y componentes entre diferentes proyectos o equipos.
-
-✅ Plugins para documentación: Figma Tokens o Design Lint ayudan a gestionar los estilos y asegurar que todo el diseño siga las guías establecidas.
-
-<br>
-
-<strong style="font-size: 18px;">Prototipado web</strong>
-
-✅ Interactividad sin código: Se pueden enlazar pantallas, agregar transiciones y simular navegación entre páginas sin necesidad de programar.
-
-✅ Prototipos animados: Figma permite realizar animaciones sin código. 
-
-✅ Diseño colaborativo en tiempo real: Diseñadores, desarrolladores y clientes pueden comentar y editar al mismo tiempo.
-
-✅ Con plugins como **Figma to Code**, es posible extraer **CSS**, **HTML** y hasta frameworks como **React**.
-
-✅ Integración con otras herramientas de desarrollo como, por ejemplo, GitHub..
-
-
-## 1.2. - Registro, creación de un grupo y un proyecto
-:one: El acceso a Figma se realiza desde https://www.figma.com/ .  
-:two: Tras el registro y verificación del correo, podremos poner un nombre al equipo de trabajo e invitar a otros colaboradores (existen limitaciones para las cuentas gratuitas).  
-:three: Una vez en el área de trabajo, Figma nos propone crear un primer proyecto.  
-:four: Una vez dentro de la carpeta del proyecto, podemos empezar a añadir ficheros. En concreto, podemos añadir un nuevo diseño (design file) o un lienzo en blanco sobre el que volcar ideas, diagramas, etc. (FigJam file)
-
-**Nota:** Una de las características de Figma es su comunidad de usuarios. Para acceder a los recursos libres o de pago disponibles, seguir el enlace "Explore Community", ubicado en la parte inferior izquierda de la pantalla `Files` de Figma.
-
-![alt text](./img/figmaintro.png)
-
-## 1.3. - Interfaz de diseño
-Después de crear un grupo y un archivo nos aparecerá la interfaz de creación de contenidos de figma.
-Esta interfaz de Figma se divide en tres grandes bloques:    
-:one: En la parte izquierda encontramos la interfaz para la gestión de los archivos y sus capas.  
-:two: La parte central es el área de trabajo, donde iremos diseñando el prototipo.  
-:three: En la columna de la derecha encontramos las opciones específicas del elemento que tengamos seleccionado.  
-:four: Para terminar, en el area de trabajo encontraremos las herramientas de cursor, frames, formas, pluma, texto, comentarios, acciones y Dev Mode.  
-![alt text](./img/figma.png)  
-
-  
-## 1.4. - Page, layers y shortcuts.
-![alt text](./img/figmapagelayershortcut.png)
-Dentro de la interfaz de diseño tendremos 3 grandes apartados:
-:one: **Page:** Páginas que utilizaremos para realizar nuestros diseños.
-:two: **Layers:** Como la mayoría de los programas de diseño, `figma` usa el modelo de capas para estructurar los diseños.
-:three: **Shortcuts:** Si pinchamos en `Help` accederemos en una serie de recursos dentro de los cuales tenemos **Keybord shortcuts**, que, con el uso, nos permitirá diseñar de una forma mucho más ágil.
-
-![alt text](./img/figmashortcuts.png) 
-
-## 1.4. - Frame, section y slice
-![alt text](./img/figmaframesectionslice.png)  
-
-:one: **Frame**: Contenedor que funciona como un marco de trabajo donde se organizan y diseñan elementos como pantallas, secciones de una interfaz o componentes reutilizables. Dentro de ese marco crearemos `secciones`.   
-
-:two: **Section**: Área que agrupa múltiples elementos para mejorar la organización del diseño. Se usa principalmente para estructurar proyectos grandes y facilitar la navegación dentro del archivo.  
-
-:three: **Slice**: Es una herramienta que permite definir áreas específicas de un diseño para exportarlas como imágenes, sin necesidad de exportar elementos completos. Útil para extraer partes específicas sin afectar la composición general.  
-
-## 1.5. - Insertar comentarios
-**Figma** dispone de la insersión de comentarios que pueden servir para recordatorios o facilitar la colaboración y la retroalimentación en el caso de proyectos donde trabaja un equipo de diseñadores.
-
-![alt text](./img/figmacomentarios.png)
-
- 
-
-## 1.6. - Layout y autolayout
-**Layout** y **Auto Layout** son conceptos importantes para la organización y distribución de los elementos en el diseño.  
-
-![alt text](./img/figmalayoutautolayout.png)
-
-
-### 1.6.1. - Layout  
-El **layout** se refiere a las guías y reglas que ayudan a estructurar el contenido dentro de un **Frame**. Es la opción que se utiliza por defecto.   
-
-El `layout` se compone de: 
-✅ **Grids (rejillas)**: Permiten organizar elementos con alineaciones precisas.  
-✅ **Columnas y filas**: Útiles para diseños responsivos y basados en cuadrículas.  
-✅ **Constraints (Restricciones)**: Definen cómo se ajustan los elementos cuando cambia el tamaño del frame.  
-
-### 1.6.2. - Auto Layout en Figma  
-**Auto Layout** es una funcionalidad avanzada que permite a los elementos adaptarse automáticamente según su contenido. Como lo veremos más adelante, esta funcionalidad es sobretodo útil, en la parte de diseño de una interfaz web .  
-
-`Auto layout` permite entre otros:
-✔️ **Distribución automática**: Los elementos se ajustan de forma dinámica según el tamaño y el espaciado definido.  
-✔️ **Alineación flexible**: Se pueden alinear elementos en horizontal o vertical con espaciado automático.  
-✔️ **Redimensionamiento dinámico**: Los componentes pueden cambiar de tamaño dependiendo del contenido.  
-✔️ **Ideal para botones y listas**: Se usa mucho en componentes reutilizables como tarjetas, menús o formularios.  
 
 
 
- 
- 
-
-# 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
-Crear una guía de estilo similar a la siguiente imagen.
-<div align="center">
-  <img src="./img/guiaestilo.png" width=60%>
-</div>
 
 
-estilos de grids.
-https://youtu.be/VdS9ZGHHXWQ?si=Ff6wrL7_2_EUB7wG&t=5416
 
+
+
+
+
+
+
+
+Exemples de programari per a fer esquemes:
+    • Balsamiq Wireframes: www.balsamiq.com​
+    • Moqups: www.moqups.com ​
+    • Mockflow: www.mockflow.com ​
+    • Gliffy: www.gliffy.com ​
+    • Diagrams.net (draw.io): www.diagrams.net
+
+5.9.3. Maqueta (mockup)
+L'etapa de la maqueta eleva la representació visual a un altre nivell. Ofereix una vista prèvia més detallada i estilitzada del disseny final. Els colors, tipografia, imatges i estils visuals s’apliquen, proporcionant una visió més realista del producte. 
+És una representació estàtica i visualment més detallada d'un disseny, que mostra com lluirà la interfície final. No és totalment funcional i no permet la interacció total de l'usuari. El seu propòsit és mostrar l'aspecte visual del disseny.
+
+
+
+
+
+
+
+
+
+
+
+Exemples de programari per a fer maquetes:
+    • Sketch. Especialitzat en disseny d'interfícies web i dispositius mòbils és un estàndard de facto de la indústria https://www.sketch.com/
+    • Lunacy (gratuït). Incorpora llibreries elements d'interfície de Windows, MacOs i Android. https://iconos8.es/lunacy
+    • Figma. www.figma.com
+    • Canva (gratuït). Té funcionalitats limitades en la seua versió gratuïta. www.canva.com 
+    • Marvel (gratuït amb funcions limitades). www.hmarvelapp.com 
+    • Plantilles HTML. Permeten elaborar prototips d'alta fidelitat. Amb poc treball de personalització es pot tindre un prototip navegable d'un lloc web. https://html5up.net/ , https://html5-templates.com/ 
+    • Gestors de continguts (CMS): Wordpress o wix permeten implementar ràpidament un prototip d'alta fidelitat molt operatiu del que volem.
+5.9.4. Prototip (prototype) 
+El prototip, incorpora l'interactivitat i la funcionalitat. Esta versió avançada del disseny simula el comportament interactiu de la pàgina web o aplicació, permetent proves exhaustives de navegació i experiència d'usuari.
+Inclou elements com a botons, camps d'entrada i menús desplegables que poden ser clickables i funcionals.
+Permet als dissenyadors i desenrotlladors provar la navegació i la interacció de l'usuari abans de la implementació final.
+Exemple de prototip:
+
+
+
+
+
+
+
+
+
+
+
+Programari per a fer prototips:
+    • VSC
+    • Sublime
+    • Netbeans
+    • Dreamweaver
+    • Qualsevol IDE del mercat.
+
+
+5.9.5. És necessari passar per totes les fases SWMP?
+Cadascuna de les fases del procés SWMP (Sketch, Wireframe, Mockup, Prototype) oferix un valor únic en el refinament de la visió inicial i l'optimització de l'experiència de l'usuari, no obstant, no totes són essencials en cada projecte.
+ En este cas, l'equip de desenrotllament podria optar per ometre la fase del Mockup (Maqueta) si l'enfocament principal del projecte és la funcionalitat. Per tant, l'equip podria procedir directament des del Wireframe al Prototype, centrant-se en l'estructura i funcionalitat del lloc web sense dedicar temps i recursos a la creació d'un mockup visualment elaborat. 
+Això demostra com l'adaptació del procés de prototipatge a les necessitats específiques de cada projecte pot optimitzar l'eficiència i els resultats finals.
+
+
+Para hacer el contenido.
+https://www.eniun.com/guia-estilo-diseno-interfaces-web/
+https://logongas.es/doku.php?id=clase:daw:diw:1eval:tema01
+
+https://www.eniun.com/componentes-interfaz-web/​
+https://www.eniun.com/elementos-relacion-direccion-posicion-espacio-gravedad/
+
+
+diferencia entre UI y UX
+https://prismic.io/glossary/style-guide
+
+enlaces de interes. Coger tambien los enlaces de las presentaciones.
+https://www.learnui.design/blog/
+https://careerfoundry.com/en/blog/ui-design/common-ui-design-mistakes/
+https://spaceberry.studio/blog/common-user-interface-mistakes-and-how-to-do-it-right/
+
+---
 
 
 
