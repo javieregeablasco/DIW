@@ -130,6 +130,9 @@ FALTA
 ---
 estilos de grids.
 https://youtu.be/VdS9ZGHHXWQ?si=Ff6wrL7_2_EUB7wG&t=5416
+https://youtu.be/Smp-u-8ynbE?si=8cfKHuyj1kwHV26Q&t=6834
+
+
 ---
 
 # 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
