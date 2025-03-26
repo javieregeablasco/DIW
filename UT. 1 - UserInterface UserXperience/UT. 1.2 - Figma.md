@@ -98,25 +98,30 @@ Dentro de la interfaz de diseño tendremos 3 grandes apartados:
 :three: **Slice**: Es una herramienta que permite definir áreas específicas de un diseño para exportarlas como imágenes, sin necesidad de exportar elementos completos. Útil para extraer partes específicas sin afectar la composición general.  
 
 ## 1.5. - Insertar comentarios
-![alt text](./img/figmacomentarios.png)
- mockup
- https://www.youtube.com/watch?v=VdS9ZGHHXWQ
-
 **Figma** dispone de la insersión de comentarios que pueden servir para recordatorios o facilitar la colaboración y la retroalimentación en el caso de proyectos donde trabaja un equipo de diseñadores.
 
+![alt text](./img/figmacomentarios.png)
+
+ 
+
 ## 1.6. - Layout y autolayout
-**Layout** y **Auto Layout** son conceptos fundamentales para la organización y distribución de los elementos en el diseño.  
+**Layout** y **Auto Layout** son conceptos importantes para la organización y distribución de los elementos en el diseño.  
+
+![alt text](./img/figmalayoutautolayout.png)
+
 
 ### 1.6.1. - Layout  
-El **layout** se refiere a las guías y reglas que ayudan a estructurar el contenido dentro de un **Frame**:  
+El **layout** se refiere a las guías y reglas que ayudan a estructurar el contenido dentro de un **Frame**. Es la opción que se utiliza por defecto.   
 
+El `layout` se compone de: 
 ✅ **Grids (rejillas)**: Permiten organizar elementos con alineaciones precisas.  
 ✅ **Columnas y filas**: Útiles para diseños responsivos y basados en cuadrículas.  
 ✅ **Constraints (Restricciones)**: Definen cómo se ajustan los elementos cuando cambia el tamaño del frame.  
 
 ### 1.6.2. - Auto Layout en Figma  
-**Auto Layout** es una funcionalidad avanzada que permite a los elementos dentro de un frame adaptarse automáticamente según su contenido:  
+**Auto Layout** es una funcionalidad avanzada que permite a los elementos adaptarse automáticamente según su contenido. Como lo veremos más adelante, esta funcionalidad es sobretodo útil, en la parte de diseño de una interfaz web .  
 
+`Auto layout` permite entre otros:
 ✔️ **Distribución automática**: Los elementos se ajustan de forma dinámica según el tamaño y el espaciado definido.  
 ✔️ **Alineación flexible**: Se pueden alinear elementos en horizontal o vertical con espaciado automático.  
 ✔️ **Redimensionamiento dinámico**: Los componentes pueden cambiar de tamaño dependiendo del contenido.  
@@ -124,6 +129,8 @@ El **layout** se refiere a las guías y reglas que ayudan a estructurar el conte
 
 
 
+ 
+ 
 
 # 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
 Crear una guía de estilo similar a la siguiente imagen.
@@ -132,6 +139,8 @@ Crear una guía de estilo similar a la siguiente imagen.
 </div>
 
 
+estilos de grids.
+https://youtu.be/VdS9ZGHHXWQ?si=Ff6wrL7_2_EUB7wG&t=5416
 
 
 
