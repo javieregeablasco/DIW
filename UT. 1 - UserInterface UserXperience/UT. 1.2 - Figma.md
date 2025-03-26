@@ -98,10 +98,32 @@ Dentro de la interfaz de diseño tendremos 3 grandes apartados:
 :three: **Slice**: Es una herramienta que permite definir áreas específicas de un diseño para exportarlas como imágenes, sin necesidad de exportar elementos completos. Útil para extraer partes específicas sin afectar la composición general.  
 
 ## 1.5. - Insertar comentarios
-![alt text](image.png)
+![alt text](./img/figmacomentarios.png)
  mockup
  https://www.youtube.com/watch?v=VdS9ZGHHXWQ
+
+**Figma** dispone de la insersión de comentarios que pueden servir para recordatorios o facilitar la colaboración y la retroalimentación en el caso de proyectos donde trabaja un equipo de diseñadores.
+
 ## 1.6. - Layout y autolayout
+**Layout** y **Auto Layout** son conceptos fundamentales para la organización y distribución de los elementos en el diseño.  
+
+### 1.6.1. - Layout  
+El **layout** se refiere a las guías y reglas que ayudan a estructurar el contenido dentro de un **Frame**:  
+
+✅ **Grids (rejillas)**: Permiten organizar elementos con alineaciones precisas.  
+✅ **Columnas y filas**: Útiles para diseños responsivos y basados en cuadrículas.  
+✅ **Constraints (Restricciones)**: Definen cómo se ajustan los elementos cuando cambia el tamaño del frame.  
+
+### 1.6.2. - Auto Layout en Figma  
+**Auto Layout** es una funcionalidad avanzada que permite a los elementos dentro de un frame adaptarse automáticamente según su contenido:  
+
+✔️ **Distribución automática**: Los elementos se ajustan de forma dinámica según el tamaño y el espaciado definido.  
+✔️ **Alineación flexible**: Se pueden alinear elementos en horizontal o vertical con espaciado automático.  
+✔️ **Redimensionamiento dinámico**: Los componentes pueden cambiar de tamaño dependiendo del contenido.  
+✔️ **Ideal para botones y listas**: Se usa mucho en componentes reutilizables como tarjetas, menús o formularios.  
+
+
+
 
 # 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
 Crear una guía de estilo similar a la siguiente imagen.
