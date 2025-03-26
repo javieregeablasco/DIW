@@ -69,24 +69,38 @@ En la actualidad es la herramienta mejor valorada entre diseñadores web para cr
 
 ![alt text](./img/figmaintro.png)
 
-## 1.3. - Interfaz de Figma
-La interfaz de Figma se divide en tres grandes bloques:    
+## 1.3. - Interfaz de diseño
+Después de crear un grupo y un archivo nos aparecerá la interfaz de creación de contenidos de figma.
+Esta interfaz de Figma se divide en tres grandes bloques:    
 :one: En la parte izquierda encontramos la interfaz para la gestión de los archivos y sus capas.  
 :two: La parte central es el área de trabajo, donde iremos diseñando el prototipo.  
 :three: En la columna de la derecha encontramos las opciones específicas del elemento que tengamos seleccionado.  
 :four: Para terminar, en el area de trabajo encontraremos las herramientas de cursor, frames, formas, pluma, texto, comentarios, acciones y Dev Mode.  
 ![alt text](./img/figma.png)  
 
-
   
+## 1.4. - Page, layers y shortcuts.
+![alt text](./img/figmapagelayershortcut.png)
+Dentro de la interfaz de diseño tendremos 3 grandes apartados:
+:one: **Page:** Páginas que utilizaremos para realizar nuestros diseños.
+:two: **Layers:** Como la mayoría de los programas de diseño, `figma` usa el modelo de capas para estructurar los diseños.
+:three: **Shortcuts:** Si pinchamos en `Help` accederemos en una serie de recursos dentro de los cuales tenemos **Keybord shortcuts**, que, con el uso, nos permitirá diseñar de una forma mucho más ágil.
+
+![alt text](./img/figmashortcuts.png) 
+
 ## 1.4. - Frame, section y slice
- https://www.youtube.com/watch?v=VdS9ZGHHXWQ
+![alt text](./img/figmaframesectionslice.png)  
 
+:one: **Frame**: Contenedor que funciona como un marco de trabajo donde se organizan y diseñan elementos como pantallas, secciones de una interfaz o componentes reutilizables. Dentro de ese marco crearemos `secciones`.   
 
- mockup
+:two: **Section**: Área que agrupa múltiples elementos para mejorar la organización del diseño. Se usa principalmente para estructurar proyectos grandes y facilitar la navegación dentro del archivo.  
+
+:three: **Slice**: Es una herramienta que permite definir áreas específicas de un diseño para exportarlas como imágenes, sin necesidad de exportar elementos completos. Útil para extraer partes específicas sin afectar la composición general.  
 
 ## 1.5. - Insertar comentarios
-
+![alt text](image.png)
+ mockup
+ https://www.youtube.com/watch?v=VdS9ZGHHXWQ
 ## 1.6. - Layout y autolayout
 
 # 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma

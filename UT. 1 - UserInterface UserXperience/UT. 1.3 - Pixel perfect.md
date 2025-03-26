@@ -95,6 +95,11 @@ Fluid design is a flexible, scalable approach to designing interfaces that fit s
 ![alt text](./img/FIintro.png)
 
 ## 2.2. - Fluid Design vs. Other Layout Approaches
+---
+HASTA AQUI
+---
+
+https://tabular.email/blog/what-is-fluid-design
 In UI/UX terminology, you may have heard of other design layouts such as responsive, adaptive, fixed design, and so on. Now, let’s take a look at the differences and comparisons between different design layouts like adaptive vs responsive vs fluid design.
 	
   Fluid Design	Fixed Design	Responsive Design
@@ -177,6 +182,7 @@ Ensuring flexible units with a proportion- and percentage-based approach will he
 As technology evolves daily, staying up-to-date and adapting your designs accordingly is crucial. By investing in proper testing, expanding your knowledge of CSS technologies, and prioritizing responsiveness and fluidity, you can create seamless, adaptable experiences for users. We hope this blog has helped you understand how to design fluid and effective website or email layouts. Happy emailing!
 
 ## 3. Mobile First design
+https://www.marketinhouse.es/mobile-first/
 
 
 También puedes contrastar esta técnica con enfoques más modernos como el **"Fluid Design"** o el **"Mobile First"**, que priorizan la adaptabilidad sobre la perfección visual exacta.  
