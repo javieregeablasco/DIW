@@ -125,42 +125,8 @@ El `layout` se compone de:
 ✔️ **Redimensionamiento dinámico**: Los componentes pueden cambiar de tamaño dependiendo del contenido.  
 ✔️ **Ideal para botones y listas**: Se usa mucho en componentes reutilizables como tarjetas, menús o formularios.  
 
-
-
- 
- 
-
 # 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
 Crear una guía de estilo similar a la siguiente imagen.
 <div align="center">
   <img src="./img/guiaestilo.png" width=60%>
 </div>
-
-
-estilos de grids.
-https://youtu.be/VdS9ZGHHXWQ?si=Ff6wrL7_2_EUB7wG&t=5416
-
-
-
-
-https://www.eniun.com/tutorial-figma/
-https://www.youtube.com/results?search_query=figma+style+guide+tutorial
-https://diposit.ub.edu/dspace/bitstream/2445/189524/1/guia_uso_figma.pdf
-
-
-## 6.2. - Tarea RA1-CEe
-
-
-
-# X. Ciclo de vida de un diseño web.
-
-# X.  Prototipado con Figma
-
-
-## 6.2. - Tarea RA1-CEf
-https://www.eniun.com/tutorial-figma/
-
-https://www.eniun.com/guia-estilo-diseno-interfaces-web/
-
-
-https://www.maxrosero.com/airbnb
