@@ -7,7 +7,7 @@ Palabras clave: DAW, DIW
 
 <br>
 <div align="center">
-  <img src="./img/Figma-logo.svg.png" width="25%">
+  <img src="./img/lifecycleintro.png" width="100%">
 </div>
 
 <br>
@@ -18,7 +18,6 @@ Palabras clave: DAW, DIW
 
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
-
 | **CE. e&#41;** Se han utilizado y valorado distintas tecnologías para el diseño de documentos web.|
 | **CE. f&#41;** Se han creado y utilizado plantillas de diseño.|
 
@@ -29,155 +28,90 @@ Palabras clave: DAW, DIW
 ---  
 
 
- 5.9. Prototipatge web
-En el cicle de vida del disseny web el prototipatge és una de les etapes inicials. És molt important, perquè ajuda a donar forma a les idees i explorar les diferents alternatives per resoldre visualment la pàgina web. 
-A la figura podem veure les fases del prototipatge segons la fidelitat dels prototips, de menys a més fidelitat: 
-    • Esbós (sketch), 
-    • Esquema (wireframes), 
-    • Maqueta (mockup) i 
-    • Prototip (prototype). 
+ # 1. - Introducción
+El diseño web es un proceso estructurado que se desarrolla en varias fases:  
 
+:one: **Planificación**: Se definen los objetivos del sitio, el público objetivo y los requisitos funcionales.  
+:two: **Prototipado**: Se crean bocetos, wireframes y maquetas para visualizar la estructura y el diseño antes del desarrollo.   
+:three: **Desarrollo**: Se transforma el diseño en código utilizando HTML, CSS, JavaScript y otras tecnologías.  
+:four: **Pruebas y ajustes**: Se verifican la usabilidad, compatibilidad y rendimiento del sitio, realizando correcciones si es necesario.  
+:five: **Lanzamiento y mantenimiento**: Se publica el sitio y se realizan actualizaciones periódicas para mejorar su funcionamiento y seguridad.  
 
+De todas estas fases, el **prototipado** y el **diseño visual** son las que le corresponde plenamente al diseñador web. 
 
+El prototipado ayuda a dar forma a las ideas y a explorar las diferentes alternativas para resolver visualmente la página web.  
 
+En la figura, podemos ver las fases del prototipado según la fidelidad de los prototipos, de menor a mayor fidelidad:  
+- Boceto (sketch)  
+- Esquema (wireframe)  
+- Maqueta (mockup) 
+- Prototipo (prototype)
+<br>
+<br>
+  ![alt text](./img/lifecycleprototyp.png)
 
 
+## 1.1. - Boceto
+La primera fase del prototipado es el boceto. Aunque es menos estructurado que las etapas posteriores, el boceto captura la esencia pura de la visión. Herramientas como lápiz y papel, o software de dibujo digital, sirven como medios para dar vida a estos primeros momentos de creatividad.
+<br>
+<br>
+![alt text](./img/lifecyclesketch.png)
 
 
-5.9.1. Esbós (Sketch)
- El primer del prototipatge és l'esbós. Encara que menys estructurat que les etapes posteriors, l'esbós captura l'essència crua de la visió. Ferramentes com llapis i paper, o com programari de dibuix digital, servixen com a mitjans per a donar vida a estos primers moments de creativitat.
+## 1.2. - Esquema (wireframe)
+El wireframe, también conocido como esquema de página, establece las bases estructurales del diseño. Con una representación visual básica y esquemática.  
+El wireframe traza la disposición de elementos clave, como bloques de contenido y menús de navegación.  
 
+Es una representación visual sencilla y esquemática de la estructura de una página web o aplicación. Suele ser una versión simplificada que muestra la distribución de los elementos en la interfaz. No incluye detalles de diseño ni funcionalidades interactivas, centrándose principalmente en la disposición y organización de los elementos.
+<br>
 
+Programas para realizar wireframes.
+- <a href="www.balsamiq.com​">**Balsamiq Wireframes**</a>  
+- <a href="www.moqups.com">**Moqups**</a>  
+- <a href="www.mockflow.com">**Mockflow**</a>  
+- <a href="www.gliffy.com">**Gliffy**</a>  
+- <a href="www.diagrams.net">**Diagrams.net (draw.io)**</a>  
+  
+## 1.3. - Maqueta (mockup)
+La etapa de la maqueta eleva la representación visual a otro nivel. Ofrece una vista previa más detallada y estilizada del diseño final. Se aplican colores, tipografía, imágenes y estilos visuales, proporcionando una visión más realista del producto.  
 
+Es una representación estática y visualmente más detallada de un diseño, que muestra cómo se verá la interfaz final. No es totalmente funcional y no permite la interacción completa del usuario. Su propósito es mostrar el aspecto visual del diseño.
 
+![alt text](./img/lifecyclemockup.png)
 
+Ejemplos de programas que usa la comunidad para realizar maquetación.
+- <a href="https://www.sketch.com/">**Sketch**</a>: Especializado en diseño de interfaces web y dispositivos móviles, es un estándar de facto en la industria.
+- <a href="https://iconos8.es/lunacy">**Lunacy**</a>: Incorpora bibliotecas de elementos de interfaz de Windows, macOS y Android.
+- <a href="www.figma.com">**Figma**</a>: Además del prototipado, también permite realizar animaciones. Muy aceptado por la comunidad.
+- <a href="https://www.canva.com/">**Canva**</a>
+- <a href="www.marvelapp.com">**Marvel**</a>
+- <a href="www.marvelapp.com">**Plantillas HTML**</a>: Permiten elaborar prototipos de alta fidelidad. Con poco trabajo de personalización, se puede obtener un prototipo navegable.  
+- **Gestores de contenidos (CMS)**: Wordpress o Wix permiten implementar rápidamente un prototipo de alta fidelidad muy operativo de lo que queremos.
 
+## 1.3. - Prototipo (prototype) 
+El prototipo incorpora la interactividad y la funcionalidad. Esta versión avanzada del diseño simula el comportamiento interactivo de la página web o aplicación, permitiendo pruebas exhaustivas de navegación y experiencia de usuario.  
 
+Incluye elementos como botones, campos de entrada y menús desplegables que pueden ser clicables y funcionales.  
 
+Permite a los diseñadores y desarrolladores probar la navegación y la interacción del usuario antes de la implementación final.
 
 
+![alt text](./img/lifecycleprototipo.png)
 
+Programas que permiten realizar prototipos:
+- VSC
+- Sublime
+- Netbeans
+- Dreamweaver
+- ...
 
+## 1.4. - Necesidad de pasar por todas las fases SWMP  
+Cada una de las fases del proceso SWMP (Sketch, Wireframe, Mockup, Prototype) ofrece un valor único en el refinamiento de la visión inicial y la optimización de la experiencia del usuario. Sin embargo, no todas son esenciales en cada proyecto.  
 
+En algunos casos, el equipo de desarrollo podría optar por omitir la fase de Mockup (Maqueta) si el enfoque principal del proyecto es la funcionalidad. De este modo, podrían pasar directamente del Wireframe al Prototype, centrándose en la estructura y funcionalidad del sitio web sin invertir tiempo y recursos en la creación de un mockup visualmente elaborado.
 
-https://www.flickr.com/photos/rohdesign/
+# 2. Tarea RA1-CEf
+Maquetación de una página web con **Figma**.
+Crear una guía de estilo similar a la siguiente imagen.
+Para la maquetación usar el `auto layout`.
 
-
-5.9.2. Esquema (Wireframe).
-El wireframe, també conegut com a esquema de pàgina, establix les bases estructurals del disseny. Amb una representació visual bàsica i esquemàtica, el wireframe traça la disposició d'elements clau, com a blocs de contingut i menús de navegació.
- És una representació visual bàsica i esquemàtica de l'estructura d'una pàgina web o aplicació. Sol ser una versió simplificada que mostra la disposició dels elements en la interfície. No inclou detalls de disseny ni funcionalitats interactives, centrant-se principalment en la disposició i organització dels elements.
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Exemples de programari per a fer esquemes:
-    • Balsamiq Wireframes: www.balsamiq.com​
-    • Moqups: www.moqups.com ​
-    • Mockflow: www.mockflow.com ​
-    • Gliffy: www.gliffy.com ​
-    • Diagrams.net (draw.io): www.diagrams.net
-
-5.9.3. Maqueta (mockup)
-L'etapa de la maqueta eleva la representació visual a un altre nivell. Ofereix una vista prèvia més detallada i estilitzada del disseny final. Els colors, tipografia, imatges i estils visuals s’apliquen, proporcionant una visió més realista del producte. 
-És una representació estàtica i visualment més detallada d'un disseny, que mostra com lluirà la interfície final. No és totalment funcional i no permet la interacció total de l'usuari. El seu propòsit és mostrar l'aspecte visual del disseny.
-
-
-
-
-
-
-
-
-
-
-
-Exemples de programari per a fer maquetes:
-    • Sketch. Especialitzat en disseny d'interfícies web i dispositius mòbils és un estàndard de facto de la indústria https://www.sketch.com/
-    • Lunacy (gratuït). Incorpora llibreries elements d'interfície de Windows, MacOs i Android. https://iconos8.es/lunacy
-    • Figma. www.figma.com
-    • Canva (gratuït). Té funcionalitats limitades en la seua versió gratuïta. www.canva.com 
-    • Marvel (gratuït amb funcions limitades). www.hmarvelapp.com 
-    • Plantilles HTML. Permeten elaborar prototips d'alta fidelitat. Amb poc treball de personalització es pot tindre un prototip navegable d'un lloc web. https://html5up.net/ , https://html5-templates.com/ 
-    • Gestors de continguts (CMS): Wordpress o wix permeten implementar ràpidament un prototip d'alta fidelitat molt operatiu del que volem.
-5.9.4. Prototip (prototype) 
-El prototip, incorpora l'interactivitat i la funcionalitat. Esta versió avançada del disseny simula el comportament interactiu de la pàgina web o aplicació, permetent proves exhaustives de navegació i experiència d'usuari.
-Inclou elements com a botons, camps d'entrada i menús desplegables que poden ser clickables i funcionals.
-Permet als dissenyadors i desenrotlladors provar la navegació i la interacció de l'usuari abans de la implementació final.
-Exemple de prototip:
-
-
-
-
-
-
-
-
-
-
-
-Programari per a fer prototips:
-    • VSC
-    • Sublime
-    • Netbeans
-    • Dreamweaver
-    • Qualsevol IDE del mercat.
-
-
-5.9.5. És necessari passar per totes les fases SWMP?
-Cadascuna de les fases del procés SWMP (Sketch, Wireframe, Mockup, Prototype) oferix un valor únic en el refinament de la visió inicial i l'optimització de l'experiència de l'usuari, no obstant, no totes són essencials en cada projecte.
- En este cas, l'equip de desenrotllament podria optar per ometre la fase del Mockup (Maqueta) si l'enfocament principal del projecte és la funcionalitat. Per tant, l'equip podria procedir directament des del Wireframe al Prototype, centrant-se en l'estructura i funcionalitat del lloc web sense dedicar temps i recursos a la creació d'un mockup visualment elaborat. 
-Això demostra com l'adaptació del procés de prototipatge a les necessitats específiques de cada projecte pot optimitzar l'eficiència i els resultats finals.
-
-
-Para hacer el contenido.
-https://www.eniun.com/guia-estilo-diseno-interfaces-web/
-https://logongas.es/doku.php?id=clase:daw:diw:1eval:tema01
-
-https://www.eniun.com/componentes-interfaz-web/​
-https://www.eniun.com/elementos-relacion-direccion-posicion-espacio-gravedad/
-
-
-diferencia entre UI y UX
-https://prismic.io/glossary/style-guide
-
-enlaces de interes. Coger tambien los enlaces de las presentaciones.
-https://www.learnui.design/blog/
-https://careerfoundry.com/en/blog/ui-design/common-ui-design-mistakes/
-https://spaceberry.studio/blog/common-user-interface-mistakes-and-how-to-do-it-right/
-
----
-
-
-
-https://www.eniun.com/tutorial-figma/
-https://www.youtube.com/results?search_query=figma+style+guide+tutorial
-https://diposit.ub.edu/dspace/bitstream/2445/189524/1/guia_uso_figma.pdf
-
-
-## 6.2. - Tarea RA1-CEe
-
-
-
-# X. Ciclo de vida de un diseño web.
-
-# X.  Prototipado con Figma
-
-
-## 6.2. - Tarea RA1-CEf
-https://www.eniun.com/tutorial-figma/
-
-https://www.eniun.com/guia-estilo-diseno-interfaces-web/
-
-
-https://www.maxrosero.com/airbnb
