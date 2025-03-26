@@ -112,6 +112,7 @@ En algunos casos, el equipo de desarrollo podría optar por omitir la fase de Mo
 
 # 2. Tarea RA1-CEf
 Maquetación de una página web con **Figma**.
-Crear una guía de estilo similar a la siguiente imagen.
-Para la maquetación usar el `auto layout`.
-
+Crear un diseño de página web similar a la siguiente imagen.
+Para la maquetación usar el `auto layout` de Figma.
+- Para el frame usar la plantilla de MacBook Air
+-   
