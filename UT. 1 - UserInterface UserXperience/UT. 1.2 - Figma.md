@@ -125,6 +125,13 @@ El `layout` se compone de:
 ✔️ **Redimensionamiento dinámico**: Los componentes pueden cambiar de tamaño dependiendo del contenido.  
 ✔️ **Ideal para botones y listas**: Se usa mucho en componentes reutilizables como tarjetas, menús o formularios.  
 
+---
+FALTA
+---
+estilos de grids.
+https://youtu.be/VdS9ZGHHXWQ?si=Ff6wrL7_2_EUB7wG&t=5416
+---
+
 # 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
 Crear una guía de estilo similar a la siguiente imagen.
 <div align="center">
