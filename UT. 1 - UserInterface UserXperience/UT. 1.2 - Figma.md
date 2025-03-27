@@ -111,7 +111,7 @@ Dentro de la interfaz de diseño tendremos 3 grandes apartados:
 ### 1.6.1. - Layout  
 El **layout** se refiere a las guías y reglas que ayudan a estructurar el contenido dentro de un **Frame**. Es la opción que se utiliza por defecto.   
 
-El `layout` se compone de: 
+El `layout` se compone de:  
 ✅ **Grids (rejillas)**: Permiten organizar elementos con alineaciones precisas.  
 ✅ **Columnas y filas**: Útiles para diseños responsivos y basados en cuadrículas.  
 ✅ **Constraints (Restricciones)**: Definen cómo se ajustan los elementos cuando cambia el tamaño del frame.  
@@ -119,24 +119,40 @@ El `layout` se compone de:
 ### 1.6.2. - Auto Layout en Figma  
 **Auto Layout** es una funcionalidad avanzada que permite a los elementos adaptarse automáticamente según su contenido. Como lo veremos más adelante, esta funcionalidad es sobretodo útil, en la parte de diseño de una interfaz web .  
 
-`Auto layout` permite entre otros:
+`Auto layout` permite entre otros:  
 ✔️ **Distribución automática**: Los elementos se ajustan de forma dinámica según el tamaño y el espaciado definido.  
 ✔️ **Alineación flexible**: Se pueden alinear elementos en horizontal o vertical con espaciado automático.  
 ✔️ **Redimensionamiento dinámico**: Los componentes pueden cambiar de tamaño dependiendo del contenido.  
 ✔️ **Ideal para botones y listas**: Se usa mucho en componentes reutilizables como tarjetas, menús o formularios.  
 
----
-FALTA
----
-estilos de grids.
-https://youtu.be/VdS9ZGHHXWQ?si=Ff6wrL7_2_EUB7wG&t=5416
-https://youtu.be/Smp-u-8ynbE?si=8cfKHuyj1kwHV26Q&t=6834
+## 1.7. - Grids
+Los **grids** o cuadrículas, permiten estructurar los diseños facilitando el diseño responsivo.
 
+Figma ofrece tres tipos de grids que se pueden aplicar a frames y componentes:  
+:one: **Cuadrícula (Grid)**  
+:two: **Columnas (Columns)**  
+:three: **Filas (Rows)**  
 
----
+![alt text](./img/figmalayoutgrid.png)
 
 # 2. Tarea RA1-CEd - Creación de una plantilla de guía de estilo con Figma
-Crear una guía de estilo similar a la siguiente imagen.
+Crear un diseño de una guía de estilo similar a la de la siguiente imagen.
 <div align="center">
   <img src="./img/guiaestilo.png" width=60%>
 </div>
+<br>
+
+**Nota:** La finalidad del ejercicio es iniciarse en el manejo de **Figma** y familiarizarse con las guías de estilos.  
+
+En **Figma**, las **guías de estilo** se crean principalmente mediante **estilos y variables de diseño**, no simplemente dibujándolas en pantalla: 
+
+1. **Variables en Figma** (recomendado)  
+   - Desde 2023, Figma permite definir **variables** para colores, tamaños, espaciados, radios de borde, etc.  
+   - Se pueden reutilizar en múltiples componentes y actualizar globalmente.  
+
+2. **Estilos de Figma** (obsoleto)  
+   - Puedes crear **estilos globales** para colores, tipografías, efectos y grids.  
+   - Se aplican a múltiples elementos y permiten cambios consistentes.  
+
+3. **Dibujar manualmente** (mala práctica)  
+   - Aunque se puede dibujar guías visuales, este método **no es recomendable** porque no es escalable ni reutilizable.  
