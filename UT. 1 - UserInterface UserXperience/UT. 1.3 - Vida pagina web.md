@@ -114,13 +114,14 @@ En algunos casos, el equipo de desarrollo podría optar por omitir la fase de Mo
 Maquetación de una página web con **Figma**.
 Crear un diseño de página web similar a la siguiente imagen.
 Para la maquetación usar el `auto layout` de Figma.
-- Para el frame usar la plantilla de MacBook Air
--   
+- Para el frame usar la plantilla **TV**.
+- Se os dan todos los elementos que tendreis que organizar y luego los `auto layouts` donde considereis oportuno. 
+<br>
+<br> 
 
+**Resultado final:**
 
-Are you ready to apply?
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+![alt text](./img/ra1ce-ef.png)
 
 
 https://p.w3layouts.com/demos_new/template_demo/11-02-2019/high-edu_demo_Free/1829256289/web/index.html?_gl=1*149yyec*_ga*NzM5ODYzMzY1LjE3NDMwMTE0NTY.*_ga_9HSZ46TKMQ*MTc0MzAxMTQ1NS4xLjEuMTc0MzAxMTgxMS41OC4wLjA.*_ga_EGV5GTJEP5*MTc0MzAxMTQ1NS4xLjEuMTc0MzAxMTgxMS4wLjAuMA..*_ga_FFZF56TTWE*MTc0MzAxMTQ1NS4xLjEuMTc0MzAxMTgxMS4wLjAuMA..&_ga=2.9935728.459493258.1743011456-739863365.1743011456
