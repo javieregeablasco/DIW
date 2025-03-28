@@ -468,6 +468,7 @@ La Gestalt propone una serie de principios que explican cómo organizamos la inf
 
 - **Principio de simplicidad**  
     El individuo organiza sus campos perceptuales con rasgos simples y regulares.  
+   
     ![alt text](./img/simplicidad.png)
     <br><br>
     
@@ -478,6 +479,7 @@ La Gestalt propone una serie de principios que explican cómo organizamos la inf
 
 - **Principio de dirección común**  
     Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura.  
+   
     ![alt text](./img/comun.png)
     <br><br>
     
@@ -499,6 +501,7 @@ La Gestalt propone una serie de principios que explican cómo organizamos la inf
 
 - **Principio del cierre**  
     Es una tendencia del ojo humano a completar una infomración parcial.
+   
     ![alt text](./img/cierre.png)
     <br><br>
     
