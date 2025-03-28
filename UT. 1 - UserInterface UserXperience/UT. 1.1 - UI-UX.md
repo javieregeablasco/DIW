@@ -472,7 +472,7 @@ La Gestalt propone una serie de principios que explican cómo organizamos la inf
     ![alt text](./img/simplicidad.png)
     <br><br>
     
-    **página simplificada** al máximo para evitar de crear malestar entre los posibles clientes.
+    **Página simplificada** al máximo para evitar de crear malestar entre los posibles clientes.
     
     ![alt text](./img/simplicidad2.png)
     <br><br>
@@ -682,7 +682,8 @@ Las **guías de estilo** son documentos que establecen las reglas visuales y fun
    - Uso correcto de etiquetas semánticas en HTML.  
    - Soporte para lectores de pantalla.
 
-...
+:arrow_right: Lista no exhaustiva.
+
 ## 6.2. - Tarea RA1-CEd
 Elegir una página web al azar y extraer la guía de estilos. 
 
