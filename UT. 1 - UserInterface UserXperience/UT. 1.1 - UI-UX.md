@@ -415,7 +415,7 @@ La Gestalt propone una serie de principios que explican cómo organizamos la inf
     Este principio se basa en el hecho que la percepción del ser humano está fundamentado de acuerdo **sus propias experiencias**. Así pues, buscaremos que los diseños compartan similitudes con las experiencias de los usuarios.
 
     ![alt text](./img/experiencia.png) 
-<br>
+    <br>
 
     **Iconos de FontAwesome** cuyas funciones identificamos inmediatamente.  
 
