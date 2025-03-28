@@ -74,7 +74,9 @@ Es una representación visual sencilla y esquemática de la estructura de una p�
 - <a href="https://www.diagrams.net">**Diagrams.net (draw.io)**</a> 
 
 ### 1.2.1. - Tarea RA1 CEe
+Con el programa **Moqups** realizar un wireframe similar al del siguiente dibujo.
 
+<br>![alt text](./tasks/RA1CEe.png)
   
 ## 1.3. - Maqueta (mockup)
 La etapa de la maqueta eleva la representación visual a otro nivel. Ofrece una vista previa más detallada y estilizada del diseño final. Se aplican colores, tipografía, imágenes y estilos visuales, proporcionando una visión más realista del producto.  
