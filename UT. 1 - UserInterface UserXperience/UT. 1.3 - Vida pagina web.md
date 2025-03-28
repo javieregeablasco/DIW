@@ -129,6 +129,6 @@ Crear un diseño de página web similar a la siguiente imagen.
 
 **Resultado final:**
 
-![alt text](./img/ra1ce-ef.png)
+![alt text](./img/ra1ce-e.png)
 
 
