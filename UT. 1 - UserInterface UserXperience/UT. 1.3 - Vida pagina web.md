@@ -63,14 +63,18 @@ El wireframe, también conocido como esquema de página, establece las bases est
 El wireframe traza la disposición de elementos clave, como bloques de contenido y menús de navegación.  
 
 Es una representación visual sencilla y esquemática de la estructura de una página web o aplicación. Suele ser una versión simplificada que muestra la distribución de los elementos en la interfaz. No incluye detalles de diseño ni funcionalidades interactivas, centrándose principalmente en la disposición y organización de los elementos.
-<br>
 
-Programas para realizar wireframes.
+<br>![alt text](./img//wireframe.png)
+
+<br>Programas para realizar wireframes.
 - <a href="https://www.moqups.com">**Moqups**</a>  
 - <a href="https://www.balsamiq.com​">**Balsamiq Wireframes**</a>  
 - <a href="https://www.mockflow.com">**Mockflow**</a>  
 - <a href="https://www.gliffy.com">**Gliffy**</a>  
-- <a href="https://www.diagrams.net">**Diagrams.net (draw.io)**</a>  
+- <a href="https://www.diagrams.net">**Diagrams.net (draw.io)**</a> 
+
+### 1.2.1. - Tarea RA1 CEe
+
   
 ## 1.3. - Maqueta (mockup)
 La etapa de la maqueta eleva la representación visual a otro nivel. Ofrece una vista previa más detallada y estilizada del diseño final. Se aplican colores, tipografía, imágenes y estilos visuales, proporcionando una visión más realista del producto.  
