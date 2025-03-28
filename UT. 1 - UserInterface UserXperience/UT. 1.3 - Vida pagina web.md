@@ -66,11 +66,11 @@ Es una representación visual sencilla y esquemática de la estructura de una p�
 <br>
 
 Programas para realizar wireframes.
-- <a href="www.balsamiq.com​">**Balsamiq Wireframes**</a>  
-- <a href="www.moqups.com">**Moqups**</a>  
-- <a href="www.mockflow.com">**Mockflow**</a>  
-- <a href="www.gliffy.com">**Gliffy**</a>  
-- <a href="www.diagrams.net">**Diagrams.net (draw.io)**</a>  
+- <a href="https://www.moqups.com">**Moqups**</a>  
+- <a href="https://www.balsamiq.com​">**Balsamiq Wireframes**</a>  
+- <a href="https://www.mockflow.com">**Mockflow**</a>  
+- <a href="https://www.gliffy.com">**Gliffy**</a>  
+- <a href="https://www.diagrams.net">**Diagrams.net (draw.io)**</a>  
   
 ## 1.3. - Maqueta (mockup)
 La etapa de la maqueta eleva la representación visual a otro nivel. Ofrece una vista previa más detallada y estilizada del diseño final. Se aplican colores, tipografía, imágenes y estilos visuales, proporcionando una visión más realista del producto.  
