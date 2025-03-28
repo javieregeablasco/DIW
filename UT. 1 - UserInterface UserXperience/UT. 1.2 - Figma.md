@@ -82,7 +82,9 @@ Esta interfaz de Figma se divide en tres grandes bloques:
 ## 1.4. - Page, layers y shortcuts.
 
 ![alt text](./img/figmapagelayershortcut.png)
-Dentro de la interfaz de diseño tendremos 3 grandes apartados:
+<br>
+
+Dentro de la interfaz de diseño tendremos 3 grandes apartados:  
 :one: **Page:** Páginas que utilizaremos para realizar nuestros diseños.  
 :two: **Layers:** Como la mayoría de los programas de diseño, `figma` usa el modelo de capas para estructurar los diseños.  
 :three: **Shortcuts:** Si pinchamos en `Help` accederemos en una serie de recursos dentro de los cuales tenemos **Keybord shortcuts**, que, con el uso, nos permitirá diseñar de una forma mucho más ágil.  
@@ -91,6 +93,7 @@ Dentro de la interfaz de diseño tendremos 3 grandes apartados:
 <br>
 
 ## 1.4. - Frame, section y slice
+
 ![alt text](./img/figmaframesectionslice.png)  
 
 :one: **Frame**: Contenedor que funciona como un marco de trabajo donde se organizan y diseñan elementos como pantallas, secciones de una interfaz o componentes reutilizables. Dentro de ese marco crearemos `secciones`.   
