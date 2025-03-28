@@ -233,6 +233,7 @@ Define la estructura visual de los elementos dentro de una página web. Puede se
 - **Geométrica**: Cuadrados, círculos, triángulos, usados en botones, iconos o tarjetas.
     
     <a href="http://www.usefulsimple.co.uk/"><img src="./img/geometrica.png"></a>
+
 - **Orgánica**: Formas irregulares o naturales, aportan dinamismo y originalidad.  
 
    <a href="http://www.sageblue.com/">![alt text](./img/natural.png)</a>
@@ -244,18 +245,18 @@ Define la estructura visual de los elementos dentro de una página web. Puede se
 ### 5.2.2. - Color  
 Influye en la percepción y la emoción del usuario. Se utiliza para:  
 - **Generar identidad visual** (branding).  
-![alt text](./img/color.png)
-<br>
 
+    ![alt text](./img/color.png)
 
 - **Crear contrastes** y mejorar la accesibilidad.  
+
     <img src="./img/contrast.png" width=35%>
 
-<br>
 
 - **Diferenciar secciones** o establecer jerarquías.  
-![alt text](./img/secciones.png)
-<br>
+
+    ![alt text](./img/secciones.png)
+
 
 ### 5.2.3. - Medida  
 Hace referencia al tamaño y la escala de los elementos en una interfaz:  
