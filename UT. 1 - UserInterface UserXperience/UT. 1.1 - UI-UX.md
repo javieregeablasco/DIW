@@ -275,22 +275,25 @@ Hace referencia al tamaño y la escala de los elementos en una interfaz:
 <br>
 
 - **Espaciado y proporción**: Márgenes, padding y grids permiten un diseño equilibrado.
+
     ![alt text](./img/marginpadding.png)
 <br>
 
 ### 5.2.4. - Textura  
 Aunque el diseño web es bidimensional, se pueden simular texturas para dar profundidad y sensación táctil:  
 - **Fondos con degradados o patrones** para misterio y sofisticación.  
+
     <img src="./img/degradados.jpg" width=75%>
 <br>
 
 - **Sombras y efectos de iluminación** para realismo.  
-![alt text](./img/iluminacion.gif)
+
+    ![alt text](./img/iluminacion.gif)
 <br>
 
 - **Superposiciones y transparencias** para dinamismo.  
-    <img src="./img/superposicion.png" width=75%>
 
+    <img src="./img/superposicion.png" width=75%>
 <br>
 
 ### 5.2.5. - Tarea RA1-CEc  
