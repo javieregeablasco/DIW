@@ -66,6 +66,7 @@ En la actualidad es la herramienta mejor valorada entre diseñadores web para cr
 **Nota:** Una de las características de Figma es su comunidad de usuarios. Para acceder a los recursos libres o de pago disponibles, seguir el enlace "Explore Community", ubicado en la parte inferior izquierda de la pantalla `Files` de Figma.
 
 ![alt text](./img/figmaintro.png)
+<br>
 
 ## 1.3. - Interfaz de diseño
 Después de crear un grupo y un archivo nos aparecerá la interfaz de creación de contenidos de figma.
@@ -73,18 +74,21 @@ Esta interfaz de Figma se divide en tres grandes bloques:
 :one: En la parte izquierda encontramos la interfaz para la gestión de los archivos y sus capas.  
 :two: La parte central es el área de trabajo, donde iremos diseñando el prototipo.  
 :three: En la columna de la derecha encontramos las opciones específicas del elemento que tengamos seleccionado.  
-:four: Para terminar, en el area de trabajo encontraremos las herramientas de cursor, frames, formas, pluma, texto, comentarios, acciones y Dev Mode.  
-![alt text](./img/figma.png)  
+:four: Para terminar, en el area de trabajo encontraremos las herramientas de cursor, frames, formas, pluma, texto, comentarios, acciones y Dev Mode. 
 
+![alt text](./img/figma.png)  
+<br>
   
 ## 1.4. - Page, layers y shortcuts.
+
 ![alt text](./img/figmapagelayershortcut.png)
 Dentro de la interfaz de diseño tendremos 3 grandes apartados:
-:one: **Page:** Páginas que utilizaremos para realizar nuestros diseños.
-:two: **Layers:** Como la mayoría de los programas de diseño, `figma` usa el modelo de capas para estructurar los diseños.
-:three: **Shortcuts:** Si pinchamos en `Help` accederemos en una serie de recursos dentro de los cuales tenemos **Keybord shortcuts**, que, con el uso, nos permitirá diseñar de una forma mucho más ágil.
+:one: **Page:** Páginas que utilizaremos para realizar nuestros diseños.  
+:two: **Layers:** Como la mayoría de los programas de diseño, `figma` usa el modelo de capas para estructurar los diseños.  
+:three: **Shortcuts:** Si pinchamos en `Help` accederemos en una serie de recursos dentro de los cuales tenemos **Keybord shortcuts**, que, con el uso, nos permitirá diseñar de una forma mucho más ágil.  
 
 ![alt text](./img/figmashortcuts.png) 
+<br>
 
 ## 1.4. - Frame, section y slice
 ![alt text](./img/figmaframesectionslice.png)  
