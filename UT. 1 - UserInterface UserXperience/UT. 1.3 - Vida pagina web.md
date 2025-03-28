@@ -52,8 +52,7 @@ En la figura, podemos ver las fases del prototipado según la fidelidad de los p
 
 ## 1.1. - Boceto
 La primera fase del prototipado es el boceto. Aunque es menos estructurado que las etapas posteriores, el boceto captura la esencia pura de la visión. Herramientas como lápiz y papel, o software de dibujo digital, sirven como medios para dar vida a estos primeros momentos de creatividad.
-<br>
-<br>
+
 ![alt text](./img/lifecyclesketch.png)
 
 
@@ -63,9 +62,10 @@ El wireframe traza la disposición de elementos clave, como bloques de contenido
 
 Es una representación visual sencilla y esquemática de la estructura de una página web o aplicación. Suele ser una versión simplificada que muestra la distribución de los elementos en la interfaz. No incluye detalles de diseño ni funcionalidades interactivas, centrándose principalmente en la disposición y organización de los elementos.
 
-<br>![alt text](./img//wireframe.png)
+![alt text](./img//wireframe.png)
+<br>
 
-<br>Programas para realizar wireframes.
+Programas para realizar wireframes.
 - <a href="https://www.moqups.com">**Moqups**</a>  
 - <a href="https://www.balsamiq.com​">**Balsamiq Wireframes**</a>  
 - <a href="https://www.mockflow.com">**Mockflow**</a>  
