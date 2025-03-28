@@ -234,16 +234,13 @@ Define la estructura visual de los elementos dentro de una página web. Puede se
     
     <a href="http://www.usefulsimple.co.uk/"><img src="./img/geometrica.png"></a>
 
-
 - **Orgánica**: Formas irregulares o naturales, aportan dinamismo y originalidad.  
 
    <a href="http://www.sageblue.com/">![alt text](./img/natural.png)</a>
 
-
 - **Abstracta**: Se utilizan para generar impacto visual sin representar objetos reales.  
 
    <a href="https://lovefreelancing.com/">![alt text](./img/abstract.png)</a>
-
 
 ### 5.2.2. - Color  
 Influye en la percepción y la emoción del usuario. Se utiliza para:  
