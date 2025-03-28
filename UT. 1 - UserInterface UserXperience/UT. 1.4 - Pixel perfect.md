@@ -96,7 +96,11 @@ Fluid design is a flexible, scalable approach to designing interfaces that fit s
 
 ## 2.2. - Fluid Design vs. Other Layout Approaches
 ---
+***
+---
 HASTA AQUI
+---
+***
 ---
 
 https://tabular.email/blog/what-is-fluid-design
