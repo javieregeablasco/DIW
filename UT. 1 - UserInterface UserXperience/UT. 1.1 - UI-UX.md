@@ -690,12 +690,11 @@ Elegir una página web al azar y extraer la guía de estilos.
 ## 6.3. - Ejemplos de guías de estilos 
 :one: **airbnb**
 
-
 ![](./img/airbnb.png)
+<br>
 <br>
 
 :two: **Bacardi**  
-
 
 ![alt text](./img/bacardi.png) 
 <br>
@@ -703,9 +702,8 @@ Elegir una página web al azar y extraer la guía de estilos.
 
 :three: **Cruz roja Americana**    
 
-
 ![alt text](./img/aRedCross.png)
-
+<br>
 
 
 ## 6.4. - Documentación de guías de estilos 
