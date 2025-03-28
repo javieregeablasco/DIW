@@ -115,7 +115,7 @@ Maquetación de una página web con **Figma**.
 Crear un diseño de página web similar a la siguiente imagen.  
 - Para el frame usar la plantilla **TV**.
 - Para la maquetación usar el `auto layout`.  
-- Se os dan todos los elementos que tendreis que organizar dentro de `auto layouts` para dar una estructura consistente y ampliable al proyecto, <a href="">**descargar aquí**</a>.
+- Se os dan todos los elementos que tendreis que organizar dentro de `auto layouts` para dar una estructura consistente y ampliable al proyecto, <a href="./tasks/Tarea RA1CEef.fig">**descargar aquí**</a>.
 <br>
 <br> 
 
