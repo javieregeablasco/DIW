@@ -417,9 +417,9 @@ La Gestalt propone una serie de principios que explican cómo organizamos la inf
     ![alt text](./img/experiencia.png) 
 <br>
 
-   **Iconos de FontAwesome** cuyas funciones identificamos inmediatamente.  
+    **Iconos de FontAwesome** cuyas funciones identificamos inmediatamente.  
 
-   ![alt text](./img/experiencia2.png)
+    ![alt text](./img/experiencia2.png)
 <br>
 
 - **Principio de simetría:**  
