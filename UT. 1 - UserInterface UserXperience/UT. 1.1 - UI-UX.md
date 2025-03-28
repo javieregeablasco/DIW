@@ -417,11 +417,11 @@ La Gestalt propone una serie de principios que explican cómo organizamos la inf
     ![alt text](./img/experiencia.png) 
 <br>
 
-   **Iconos de FontAwesome** cuyas funciones identificamos inmediatamente.  
-   ![alt text](./img/experiencia2.png)
+    **Iconos de FontAwesome** cuyas funciones identificamos inmediatamente.  
+    ![alt text](./img/experiencia2.png)
 <br>
 
-- **Principio de simetría**  
+- **Principio de simetría:**  
 Las imágenes simétricas son percibidas como iguales, como un solo elemento, en la distancia. 
 ![alt text](./img/simetria.png)
 <br><br>
