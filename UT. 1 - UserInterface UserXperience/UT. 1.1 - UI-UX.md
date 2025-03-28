@@ -692,6 +692,7 @@ Elegir una página web al azar y extraer la guía de estilos.
 
 
 ![](./img/airbnb.png)
+<br>
 
 :two: **Bacardi**  
 
