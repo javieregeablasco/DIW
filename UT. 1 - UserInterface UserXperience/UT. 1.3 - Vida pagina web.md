@@ -104,6 +104,7 @@ Permite a los diseñadores y desarrolladores probar la navegación y la interacc
 
 
 ![alt text](./img/lifecycleprototipo.png)
+<br>
 
 Programas que permiten realizar prototipos:
 - VSC
@@ -123,8 +124,7 @@ Crear un diseño de página web similar a la siguiente imagen.
 - Para el frame usar la plantilla **TV**.
 - Para la maquetación usar el `auto layout`.  
 - Se os dan todos los elementos que tendreis que organizar dentro de `auto layouts` para dar una estructura consistente y ampliable al proyecto, <a href="./tasks/Tarea RA1CEef.fig">**descargar aquí**</a>.
-<br>
-<br> 
+
 
 **Resultado final:**
 
