@@ -75,7 +75,7 @@ Programas para realizar wireframes.
 ### 1.2.1. - Tarea RA1 CEe
 Con el programa **Moqups** realizar un wireframe similar al del siguiente dibujo.
 
-![alt text](./tasks/RA1CEe.png)
+<img src="./tasks/RA1CEe.png" width=50%>
 <br>
 
 ## 1.3. - Maqueta (mockup)
