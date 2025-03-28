@@ -267,14 +267,15 @@ Hace referencia al tamaño y la escala de los elementos en una interfaz:
 - **Tipografía**: Tamaños de fuente adaptables para distintos dispositivos o contenidos.
 
     ![alt text](./img/fonsize.webp)
+<br>
 
 - **Imágenes y gráficos**: Se escalan correctamente para mantener calidad y rendimiento.
 
-![alt text](./img/image.webp)
-
+    ![alt text](./img/image.webp)
+<br>
 
 - **Espaciado y proporción**: Márgenes, padding y grids permiten un diseño equilibrado.
-  ![alt text](./img/marginpadding.png)
+    ![alt text](./img/marginpadding.png)
 <br>
 
 ### 5.2.4. - Textura  
