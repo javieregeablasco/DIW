@@ -422,77 +422,90 @@ La Gestalt propone una serie de principios que explican cómo organizamos la inf
     ![alt text](./img/experiencia2.png)
 <br>
 
-- **Principio de simetría:**  
-Las imágenes simétricas son percibidas como iguales, como un solo elemento, en la distancia. 
-![alt text](./img/simetria.png)
-<br><br>
-    **Contenidos** organizados de forma simetrica.  
-    ![alt text](./img/simetria2.png)
+- **Principio de simetría:**   
+    Las imágenes simétricas son percibidas como iguales, como un solo elemento, en la distancia. 
 
-<br><br>
+    ![alt text](./img/simetria.png)
+    <br>
+    
+    **Contenidos** organizados de forma simetrica.  
+    
+    ![alt text](./img/simetria2.png)
+<br>
 
 - **Principio de proximidad**  
-Los objetos adjuntos tienden a ser vistos como una unidad. Los estímulos que están próximos tienden a percibirse como parte de la misma unidad.  
-![alt text](./img/proximidad.png)
-<br><br>
-    **Organización de contenidos** siguiendo el principio de proximidad. 
-    ![alt text](./img/proximidad2.png)
+    Los objetos adjuntos tienden a ser vistos como una unidad. Los estímulos que están próximos tienden a percibirse como parte de la misma unidad.  
 
-<br><br>
+    ![alt text](./img/proximidad.png)
+    <br>
+    
+    **Organización de contenidos** siguiendo el principio de proximidad. 
+    
+    ![alt text](./img/proximidad2.png)
+<br>
 
 - **Principio de similitud**  
-La mente agrupa los elementos similares en una entidad. La semejanza depende de la forma, del tamaño, del color y de otros aspectos visuales de los elementos.  
-![alt text](./img/similitud.png)
-<br><br>
-    **Similitud** entre 2 secciones de precios.  
-    ![alt text](./img/similitud2.png)
+    La mente agrupa los elementos similares en una entidad. La semejanza depende de la forma, del tamaño, del color y de otros aspectos visuales de los elementos.  
 
-<br><br>
+    ![alt text](./img/similitud.png)
+    <br>
+    
+    **Similitud** entre 2 secciones de precios.  
+    
+    ![alt text](./img/similitud2.png)
+<br>
 
 - **Principio de continuidad**  
-Los detalles que mantienen un patrón o dirección tienden a agruparse juntos, como parte de un modelo. Es decir, percibimos elementos continuos, aunque estén interrumpidos entre sí.  
-![alt text](./img/continuidad.png)
-<br><br>
-    **Percepción de continuidad** del carrusel a pesar de la interrupción abrupta de los contenidos.
-    ![alt text](./img/continuidad2.png)
+    Los detalles que mantienen un patrón o dirección tienden a agruparse juntos, como parte de un modelo. Es decir, percibimos elementos continuos, aunque estén interrumpidos entre sí.  
 
-<br><br>
+    ![alt text](./img/continuidad.png)
+    <br>
+    
+    **Percepción de continuidad** del carrusel a pesar de la interrupción abrupta de los contenidos.
+    
+    ![alt text](./img/continuidad2.png)
+<br>
 
 - **Principio de simplicidad**  
-El individuo organiza sus campos perceptuales con rasgos simples y regulares.  
-![alt text](./img/simplicidad.png)
-<br><br>
+    El individuo organiza sus campos perceptuales con rasgos simples y regulares.  
+    ![alt text](./img/simplicidad.png)
+    <br>
+    
     **página simplificada** al máximo para evitar de crear malestar entre los posibles clientes.
+    
     ![alt text](./img/simplicidad2.png)
-
-<br><br>
+    <br>
 
 - **Principio de dirección común**  
-Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura.  
-![alt text](./img/comun.png)
-<br><br>
+    Implica que los elementos que parecen construir un patrón o un flujo en la misma dirección se perciben como una figura.  
+    ![alt text](./img/comun.png)
+    <br>
+    
     **Las flechas del carrusel** no indican la posibilidad de movimiento horizontal del elemento.  
+    
     ![alt text](./img/comun2.png)
-
-<br><br>
+    <br>
 
 - **Principio de figura y fondo**  
-Este principio describe la tendencia del ojo humano a ver y separar los elementos de su entorno. No podemos percibir una misma forma como figura y fondo a la vez. El fondo es todo el que no se percibe como figura.  
-![alt text](./img/figurafondo.png)
-<br><br>
-    **El contraste entre figura y fondo** nos hace separar el elemento principal del resto de la imagen.
-    ![alt text](./img/figurafondo2.png)
+    Este principio describe la tendencia del ojo humano a ver y separar los elementos de su entorno. No podemos percibir una misma forma como figura y fondo a la vez. El fondo es todo el que no se percibe como figura.  
 
-<br><br>
+    ![alt text](./img/figurafondo.png)
+    <br>
+
+    **El contraste entre figura y fondo** nos hace separar el elemento principal del resto de la imagen.
+    
+    ![alt text](./img/figurafondo2.png)
+<br>
 
 - **Principio del cierre**  
-Es una tendencia del ojo humano a completar una infomración parcial.
-![alt text](./img/cierre.png)
-<br><br>
+    Es una tendencia del ojo humano a completar una infomración parcial.
+    ![alt text](./img/cierre.png)
+    <br>
+    
     **El contraste de las flechas** nos hace entender que falta información en la página web. 
+    
     ![alt text](./img/cierre2.png) 
-
-<br><br>
+<br>
 
 ## 5.6. - Colores y teoría del color 
 El color es el **medio esencial** para tocar las emociones de los visitantes del sitio web porque crea una reacción física y emocional. Los colores son capaces de establecer el tono adecuado (calmar, excitar, estimular a las acciones). 
