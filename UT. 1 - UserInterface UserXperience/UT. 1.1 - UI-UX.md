@@ -246,14 +246,17 @@ Define la estructura visual de los elementos dentro de una página web. Puede se
 Influye en la percepción y la emoción del usuario. Se utiliza para:  
 - **Generar identidad visual** (branding).  
 <br>
+<br>
     ![alt text](./img/color.png)
 
 - **Crear contrastes** y mejorar la accesibilidad.  
+<br>
 <br>
     <img src="./img/contrast.png" width=35%>
 
 
 - **Diferenciar secciones** o establecer jerarquías.  
+<br>
 <br>
     ![alt text](./img/secciones.png)
 
