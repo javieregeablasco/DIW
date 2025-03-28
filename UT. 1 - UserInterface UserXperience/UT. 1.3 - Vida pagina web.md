@@ -75,14 +75,16 @@ Programas para realizar wireframes.
 ### 1.2.1. - Tarea RA1 CEe
 Con el programa **Moqups** realizar un wireframe similar al del siguiente dibujo.
 
-<br>![alt text](./tasks/RA1CEe.png)
-  
+![alt text](./tasks/RA1CEe.png)
+<br>
+
 ## 1.3. - Maqueta (mockup)
 La etapa de la maqueta eleva la representación visual a otro nivel. Ofrece una vista previa más detallada y estilizada del diseño final. Se aplican colores, tipografía, imágenes y estilos visuales, proporcionando una visión más realista del producto.  
 
 Es una representación estática y visualmente más detallada de un diseño, que muestra cómo se verá la interfaz final. No es totalmente funcional y no permite la interacción completa del usuario. Su propósito es mostrar el aspecto visual del diseño.
 
 ![alt text](./img/lifecyclemockup.png)
+<br>
 
 Ejemplos de programas que usa la comunidad para realizar maquetación.
 - <a href="https://www.sketch.com/">**Sketch**</a>: Especializado en diseño de interfaces web y dispositivos móviles, es un estándar de facto en la industria.
