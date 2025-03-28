@@ -344,7 +344,7 @@ Identificar los errores visuales de las siguientes interfaces web. Comentar el t
 **Interfaz** :eight:
  
 ![alt text](./img/ra1ceb8.png)
-
+<br>
 
 ## 5.3. - Elementos de relación
 Este grupo de elementos está relacionado con la ubicación y la interrelación de las formas dentro de una composición. La dirección y la posición pueden ser percibidas mientras que el espacio y la gravedad son sentidas.
@@ -355,23 +355,26 @@ Este grupo de elementos está relacionado con la ubicación y la interrelación 
 <br>
 
 - **Dirección:** Guía la mirada del usuario y se usa para organizar la información y definir el flujo de navegación. Existen tres tipos principales: **Horizontal**, **vertical** y en **diagonal o Z**.   
-![alt text](./img/direccionZ.png)
+
+    ![alt text](./img/direccionZ.png)
 <br>
 
 - **Posición:** La posición define dónde se colocan los elementos en la pantalla en relación con otros. Esto afecta la usabilidad y la coherencia visual.  
-![alt text](./img/posicion.png)
+
+    ![alt text](./img/posicion.png)
 <br>
-<br>
+
 
 - **Espacio:** El espacio (white space) es fundamental para la legibilidad y la organización del contenido.  
-  ![alt text](./img/espacio.jpg)
+  
+    ![alt text](./img/espacio.jpg)
 <br>
-
 
 - **Gravedad:** La gravedad visual se refiere a la percepción del peso de los elementos en un diseño. Algunos factores que influyen en ella son: **Tamaño y color**, **sombra y profundidad** y **equilibrio visual**. 
-![alt text](./img/gravedad.jpg)
+
+    ![alt text](./img/gravedad.jpg)
 <br>
-<br>
+
 
 ## 5.4. - Elementos prácticos
 En el diseño web, los **elementos prácticos** son aquellos que van más allá de la estética y se centran en la comunicación y la experiencia del usuario. Estos incluyen, entre otros, la representación, el significado y la función
