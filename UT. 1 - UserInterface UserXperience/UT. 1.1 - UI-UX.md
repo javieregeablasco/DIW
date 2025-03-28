@@ -234,6 +234,7 @@ Define la estructura visual de los elementos dentro de una página web. Puede se
     
     <a href="http://www.usefulsimple.co.uk/"><img src="./img/geometrica.png"></a>
 <br>
+<br>
 
 - **Orgánica**: Formas irregulares o naturales, aportan dinamismo y originalidad.  
 
