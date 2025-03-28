@@ -47,7 +47,7 @@ En la figura, podemos ver las fases del prototipado según la fidelidad de los p
 - Maqueta (mockup) 
 - Prototipo (prototype)
         
-   ![alt text](./img/lifecycleprototyp.png)
+    ![alt text](./img/lifecycleprototyp.png)
 
 
 ## 1.1. - Boceto
