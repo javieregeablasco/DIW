@@ -89,13 +89,46 @@ El logro de un diseño pixel perfect requiere atención meticulosa a los detalle
 
 # 2. Fluid design
 ## 2.1. - Introducción
-Fluid design is a way of building websites so that the layout and content automatically adjust to fit any screen size, from a phone to a computer. New applications and device settings have always aimed to align themselves with this fluid design. Smartphones, tablets, computers, and even smartwatches have undergone a flowing transformation.
+El `Fluid Design` es una forma de crear páginas web que permite que el diseño y el contenido se ajusten automáticamente a cualquier tamaño de pantalla. 
 
-Fluid design is a flexible, scalable approach to designing interfaces that fit screen sizes or different devices. 
 ![alt text](./img/FIintro.png)
 
-## 2.2. - Fluid Design vs. Other Layout Approaches
+Una forma de definir el `Fluid Design` es compararlo con otros modelos. En UI/UX, es bastante común usar otros diseños, como el responsivo, el adaptativo, el fijo, etc.  
+A continuación, se muestra una tabla que detalla las diferencias entre los diferentes diseños. 
+
+## 2.2. - Fluid Design vs Fixed Design vs Responsive Design
+
+|| Diseño Fluido | Diseño Fijo | Diseño Responsive |
+|-|-|-|-| 
+|**Comportamiento**|Se ajusta suavemente a cualquier tamaño de pantalla o ventana.|Permanece del mismo tamaño, sin importar la pantalla. | Usa puntos de ruptura predefinidos para ajustarse.|  
+|**Flexibilidad**|Altamente flexible y escalado proporcional.| No es flexible y causa desplazamiento horizontal con la barra de desplazamiento. | Flexible, pero se reajusta al pasar por los puntos de ruptura.|  
+|**Coste de desarrollo**|Moderado. | Muy fácil de desarrollar. | Complejo.| 
+|**Recomendado para**|Sitios web que necesiten adaptarse suavemente a distintos tamaños. | Sitios siempre enfocados a una misma resolución. | Diseños para múltiples dispositivos.|  
+|**Experiencia del Usuario**|Consistente en todos los tamaños de pantalla. | Deficiente en pantallas más pequeñas. | Muy buena. |
+
+## 2.2. - Puntos clave del Fluid Grid Layout
+El diseño incluye tres elementos principales: columnas, filas y márgenes. Los porcentajes de cada uno de estos elementos determinan la legibilidad del sitio web.  
+Un diseño de cuadrícula divide el ancho de la página en columnas de tamaño igual. De este modo, cuando la página se reduce, ya sea de forma manual o según el tamaño del dispositivo, estas columnas ajustan su espacio. Al aplicar principios de fluidez, las cuadrículas que estructuran el contenido de la página pueden expandirse y contraerse en consecuencia.
+
+![alt text](./img/fluidgridlayout.png)
+
+**Ejemplo de diseño fluido**  
+:one: Diseño a 4 columnas
+
+![alt text](./img/luck4.png) 
+<br>
+
+:two: Diseño a 2 columnas
+![alt text](./img/luck2.png)
+<br>
+
+:three: Diseño a 1 columna
+![alt text](./img/luck1.png)
+<br>
+
+
 ---
+
 ***
 ---
 HASTA AQUI
@@ -104,21 +137,9 @@ HASTA AQUI
 ---
 
 https://tabular.email/blog/what-is-fluid-design
-In UI/UX terminology, you may have heard of other design layouts such as responsive, adaptive, fixed design, and so on. Now, let’s take a look at the differences and comparisons between different design layouts like adaptive vs responsive vs fluid design.
-	
-  Fluid Design	Fixed Design	Responsive Design
-Layout Behavior	Adjusts smoothly to any screen size or window.	Stays the same size, regardless of screen.	Uses predefined breakpoints for adjustments.
-Flexibility	Highly flexible and scales proportionally.	Not flexible; can cause horizontal scroll.	Flexible but adjusts in steps (breakpoints).
-Development Effort	Moderate; requires careful percentage-based units.	Easier to develop; uses fixed pixel widths.	More complex due to breakpoints for devices.
-Best For	Websites needing smooth adaptation across sizes.	Simple, desktop-focused websites.	Multi-device designs with defined layouts.
-User Experience	Consistent on all screen sizes.	Poor on smaller screens.	Good, but changes layout at breakpoints.
 
 
 
-Key Principles of Fluid Layouts
-Fluid Grid Layout
-
-The layout includes three main elements: columns, gutters, and margins. The percentages of each of these elements determine the readability of the website. A fluid grid layout divides the page width into columns of equal size. Thus, when the page is narrowed down either on its own or according to device sizes, these columns adjust their spacing. By applying fluid principles, grids structuring the page content can expand and contract accordingly.
 
 
 
