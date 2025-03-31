@@ -87,8 +87,12 @@ El logro de un diseño pixel perfect requiere atención meticulosa a los detalle
 
     ![alt text](./img/PPimagenes.png)
 
-# 2. Fluid design
-## 2.1. - Introducción
+# 2. Responsive design
+
+https://www.interaction-design.org/literature/topics/responsive-design
+
+
+# 3. Fluid design
 El `Fluid Design` es una forma de crear páginas web que permite que el diseño y el contenido se ajusten automáticamente a cualquier tamaño de pantalla. 
 
 ![alt text](./img/FIintro.png)
@@ -96,7 +100,7 @@ El `Fluid Design` es una forma de crear páginas web que permite que el diseño 
 Una forma de definir el `Fluid Design` es compararlo con otros modelos. En UI/UX, es bastante común usar otros diseños, como el responsivo, el adaptativo, el fijo, etc.  
 A continuación, se muestra una tabla que detalla las diferencias entre los diferentes diseños. 
 
-## 2.2. - Fluid Design vs Fixed Design vs Responsive Design
+# 4. Fluid Design vs Fixed Design vs Responsive Design
 
 || Diseño Fluido | Diseño Fijo | Diseño Responsive |
 |-|-|-|-| 
@@ -106,24 +110,32 @@ A continuación, se muestra una tabla que detalla las diferencias entre los dife
 |**Recomendado para**|Sitios web que necesiten adaptarse suavemente a distintos tamaños. | Sitios siempre enfocados a una misma resolución. | Diseños para múltiples dispositivos.|  
 |**Experiencia del Usuario**|Consistente en todos los tamaños de pantalla. | Deficiente en pantallas más pequeñas. | Muy buena. |
 
-## 2.2. - Puntos clave del Fluid Grid Layout
-El diseño incluye tres elementos principales: columnas, filas y márgenes. Los porcentajes de cada uno de estos elementos determinan la legibilidad del sitio web.  
+# 5. Fluid Grid Layout (Fluid Design + Responsive Design)
+El `Fluid Grid Layout` incluye tres elementos principales: columnas, filas y márgenes. Los porcentajes de cada uno de estos elementos determinan la legibilidad del sitio web.  
 Un diseño de cuadrícula divide el ancho de la página en columnas de tamaño igual. De este modo, cuando la página se reduce, ya sea de forma manual o según el tamaño del dispositivo, estas columnas ajustan su espacio. Al aplicar principios de fluidez, las cuadrículas que estructuran el contenido de la página pueden expandirse y contraerse en consecuencia.
 
 ![alt text](./img/fluidgridlayout.png)
 
-**Ejemplo de diseño fluido**  
+**Ejemplo Fluid Grid Layout con Breakpoints**  
 :one: Diseño a 4 columnas
 
-![alt text](./img/luck4.png) 
+<div align="center">
+  <img src="./img/luck4.png" width="75%">
+</div>
+
 <br>
 
-:two: Diseño a 2 columnas
-![alt text](./img/luck2.png)
+:two: Diseño a 2 columnas  
+<div align="center">
+  <img src="./img/luck2.png" width="50%">
+</div>
+
 <br>
 
-:three: Diseño a 1 columna
-![alt text](./img/luck1.png)
+:three: Diseño a 1 columna  
+<div align="center">
+  <img src="./img/luck1.png" width="25%">
+</div>
 <br>
 
 
@@ -143,70 +155,8 @@ https://tabular.email/blog/what-is-fluid-design
 
 
 
-Scalable Typography and Images
 
-Visual content makes up most of the layout. Therefore, when creating your layouts, you will reference typography and images. However, when users view your website or email, you’ll want the images and typography to scale as designed. Fluid layout CSS uses em and rem units to scale elements up and down.
-
-
-Therefore, maintaining sharp, readable text and visually appealing images is essential. Believe us, your designers, who have spent their time and effort, will appreciate the typography and images scaling accordingly.
-
-Minimal Reliance on Breakpoints
-
-Breakpoints in website design refer to the screen size at which the design should adjust to a different layout. For instance, if you're using responsive or fluid design, you’ll need breakpoints for your columns. The good news is that fluid layout design mostly reduces the complexity of breakpoints and creates flowing content. With proportional sizing, you can use breakpoints for multiple device-specific layouts.
-Benefits of Fluid Design
-Consistent User Experience Across Devices
-
-No one wants to switch to another device just to check a website in today’s adaptive world—especially Gen Z. Fluid design allows users to access any website and engage with it while maintaining the same content quality. From opening emails to making purchases on your website, users will appreciate the consistent usability. Additionally, this allows you to determine which device is most optimal for usage and update your design choices accordingly.
-Future-Proofing Your Designs
-
-Catching up with new updates in devices and technologies is essential for businesses in the 2020s. With new electronic device screen sizes and ratios, you should adapt to them as quickly as possible. As we’ve mentioned, one great advantage of fluid grid layout is that you don’t have to create a new design like you would in adaptive design. Your columns, margins, and gutters can fluidly adjust according to the new layout scales.
-Improved Performance and Engagement
-
-The minimal design with reduced breakpoints ensures improved performance. For the user, accessibility and usability are secured through a seamless experience. Since the design features fluid transformations, the digital experience becomes much easier. With a well-crafted layout design, your users won’t have to horizontally scroll, pinch, or zoom constantly. This allows them to focus more on the functional aspects of the site rather than spending their time trying to scale and navigate it properly.
-Implementing Fluid Design in Your Projects
-Planning Your Fluid Layout
-
-Planning the user experience is essential from the start. To create a website that fits both your user’s needs and your functional goals, you must design your units accordingly. If there is a specific order or relevance hierarchy you want users to follow, you need to place them in a structured way.
-
-To expand on the importance of planning, think of your college website, where you might have spent time just trying to find the homepage. Therefore, if you want users to have a smooth experience on your website, you must be mindful of certain design criteria when designing the units.
-CSS Techniques and Tools
-
-By using CSS, you can adapt your website's visual layouts to fluid design. To do this, modern module options like Flexbox and Grid can be used. They create a responsive and flexible layout fluidity.
-
-By using these container queries, .flex utilizes Flexbox to resize layout units based on the available space. On the other hand, .grid uses CSS grid to adjust the size and position of layout items according to the space. Related to the available space, fluid design ensures that the sizes of visuals and text remain clear, regardless of the screen size.
-Testing and Iteration
-
-When you have completed your design, testing is the best way to finalize the process. You must test the quality, device adaptability, responsiveness, and design outcome all at once. By trying your design on different devices, you can ensure that your well-tailored design fits all screens. Additionally, you can conduct user tests, such as eye-tracking or user journey analysis, to identify which design elements may be overlooked. You know what they say: the eyes never lie…
-Best Practices for Fluid Email Template Design
-Fluid Responsive Design in Email
-
-No one waits to sit in front of a computer to check their emails nowadays. Back in the day, our biggest concern was replying to an email with the signature “Sent from my iPhone,” but now it’s a normal practice. Therefore, when sending your email marketing campaigns, you must consider the different devices or screen sizes. From long texts to visuals that divide your email content, you need to plan your units according to different devices. To ensure your design doesn’t get lost on any device, plan ahead. Moreover, there are email template providers like Tabular that allow you to preview the template for both computer and phone screens. You can check if your design choices match your needs using the preview there.
-
-    Use Fluid Tables and Layouts: Instead of using fixed-width tables with specific pixel sizes, work with percentages. As we demonstrated visually earlier in this article, the grid can automatically scale the units if planned correctly.
-    Responsive Images in Emails: You wouldn’t want your visual elements, like images, to get lost when you adjust the screen. Therefore, when using container queries, apply max-width: 100% to the images. This way, your images will scale down accordingly without losing any content.
-    Scalable Typography and Buttons: Font choice is a crucial part of email design as it significantly affects readability. When designing, select the best font for emails that will remain readable. Additionally, buttons, such as call-to-actions, should maintain a reasonable scale between the text and clickable area. Plan the proportions ahead of time for a better user experience.
-    Minimize Reliance on Media Queries: Unlike responsive design, fluid design relies less on complex media queries. Using fewer media queries ensures that proportion-based sizing works more fluidly. Since email design requires low loading times, this also helps ensure quicker access to the content.
-    Test Across Devices and Email Clients: Not only the device or your design but also the email client may affect fluid email designs. To ensure your design renders quickly and effectively, test it with different clients, such as Gmail, Apple Mail, Outlook, etc.
-    Balance Content Density: As the saying goes, "Less is more." When designing anything visual, remember to maintain balance. Filling the email with too much information or too many visuals won’t benefit your business. Ensure that each design element contributes to your purpose or brand.
-
-Overcoming Challenges in Fluid Design
-Balancing Aesthetics and Functionality
-
-From tiny phone screens to curved screens, we have a wide range of options. Therefore, planning your layout is essential when it comes to fluidity. Always remember that even though your design might look fine on typical screens, it can become unreadable on phones or stretched screens. As a result, you must take different design keywords into consideration. With visual elements, you can guide users to follow a specific direction. By using domination and depth, you can direct their focus to particular parts of your design. Additionally, with overall harmony, you can ensure that your design is not only aesthetic but also functional according to your needs.
-Performance Considerations
-
-There are performance optimizations you must check with fluid design. Since fluid web design doesn’t automatically guarantee optimized performance, you need to code image and visual text optimizations properly.
-
-If your design takes too long to expand, stretch, or narrow, it could cause readability issues. Therefore, regardless of which device your users are visiting your website from, you must keep loading times low and performance efficient.
-Conclusion
-
-We experience life from different perspectives and navigate the internet through a variety of devices. Therefore, if you own a website or send email templates, it's important to be proactive when creating content.
-
-Ensuring flexible units with a proportion- and percentage-based approach will help you achieve fluidity in your templates. To do this effectively, make use of visual elements, images, fonts, and container queries.
-
-As technology evolves daily, staying up-to-date and adapting your designs accordingly is crucial. By investing in proper testing, expanding your knowledge of CSS technologies, and prioritizing responsiveness and fluidity, you can create seamless, adaptable experiences for users. We hope this blog has helped you understand how to design fluid and effective website or email layouts. Happy emailing!
-
-## 3. Mobile First design
+# 6. Mobile First design
 https://www.marketinhouse.es/mobile-first/
 
 
