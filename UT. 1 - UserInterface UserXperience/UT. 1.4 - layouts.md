@@ -125,15 +125,13 @@ El logro de un diseño pixel perfect requiere atención meticulosa a los detalle
 
    ![alt text](./img/PPalineacion.png)
 <br>
-<br>
 
-1. Controlar los espacios y márgenes.
+2. Controlar los espacios y márgenes.
    
    ![alt text](./img/PPmargenes.png)
 <br>
-<br>   
-
-1. Verificar el diseño web en múltiples resoluciones y realizar pruebas exhaustivas en diversos navegadores y dispositivos.
+   
+3. Verificar el diseño web en múltiples resoluciones y realizar pruebas exhaustivas en diversos navegadores y dispositivos.
 
    ![alt text](./img/PPresiluciones.png)
    <br>
