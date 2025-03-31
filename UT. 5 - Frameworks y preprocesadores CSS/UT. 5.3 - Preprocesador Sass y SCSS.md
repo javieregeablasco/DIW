@@ -3,12 +3,28 @@ Título: UD. 5.1 - SASS
 Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
----  
+---
 
-<div align="center">
-</br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/480px-Sass_Logo_Color.svg.png" width=25%>
+<div align=center>
+  <img src="./img/sass.png" width="50%">
 </div>
+<br> 
+
+| **Resultados de aprendizaje de la unidad didáctica:** |
+|-|
+| **RA. 2:** Crea interfaces web homogéneos definiendo y aplicando estilos.|
+
+|**Criterios de evaluación de la unidad didáctica:**|
+|-|
+| **CE. j&#41;** Se han analizado y utilizado preprocesadores de estilos para traducir estilos comunes a un código estándar y reconocible por los navegadores.|
+
+<br>
+
+| **Licencia Creative Commons:** ||
+| - | - |
+| <img src="../UT. 1 - UserInterface UserXperience/img/by-nc-nd-eu_.png" width=90%> | **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
+---
+
  
 # 1. Introducción: Preprocesador de estilos Sass
 <a href="https://sass-lang.com/">SASS</a> (Syntactically Awesome Stylesheet) es un preprocesador de CSS utilizado para traducir un código de **hojas de estilo no estándar** a un código CSS estándar e interpretable por la mayoría de navegadores. Fue creado por Hampton Catlin en 2006 y más tarde extendido por Natalie Weizenbaum.    
