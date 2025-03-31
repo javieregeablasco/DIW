@@ -16,11 +16,11 @@ Palabras clave: DAW, DIW
 
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
-| **CE. b&#41;** |Se han identificado los formatos de imagen, audio y vídeo a utilizar.|
-| **CE. c&#41;** |Se han analizado las herramientas disponibles para generar contenido multimedia.|
-| **CE. d&#41;** |Se han empleado herramientas para el tratamiento digital de la imagen.|
-| **CE. e&#41;** |Se han utilizado herramientas para manipular audio y vídeo.|
-| **CE. g&#41;** |Se han importado y exportado imágenes, audio y vídeo en diversos formatos según su finalidad.|
+| **CE. b&#41;** Se han identificado los formatos de imagen, audio y vídeo a utilizar.|
+| **CE. c&#41;** Se han analizado las herramientas disponibles para generar contenido multimedia.|
+| **CE. d&#41;** Se han empleado herramientas para el tratamiento digital de la imagen.|
+| **CE. e&#41;** Se han utilizado herramientas para manipular audio y vídeo.|
+| **CE. g&#41;** Se han importado y exportado imágenes, audio y vídeo en diversos formatos según su finalidad.|
 
 
 <br>
@@ -210,7 +210,6 @@ También es posible incluir elementos interactivos en un PDF, por ejemplo, enlac
 
 **Photopea** es una herramienta de edición de imágenes **online** que se asemeja a Adobe Photoshop.  
 
-## 2.5. - Tarea RA3-CEc / RA3-CEd
 
 # 3. Formatos de Audio
 El audio en las interfaces web se utiliza principalmente en contenido multimedia, como videos o podcasts. Los formatos deben ofrecer un equilibrio entre calidad y tamaño de archivo.  
@@ -374,7 +373,12 @@ El formato WAV (WaveForm Audio File) es un archivo que desarrolló originalmente
 
 **Radium** es un software de edición y composición de audio principalmente para Mac. Tiene una propuesta diferente en cuanto a la organización de su interfaz, lo que puede ser un poco desconcertante al principio.
 
-## 3.4. - Tarea RA3-CEc - RA3-CEe - 1
+## 3.4. - Tarea RA3-CEb
+## 3.5. - Tarea RA3-CEc
+## 3.6. - Tarea RA3-CEd
+## 3.7. - Tarea RA3-CEe
+## 3.8. - Tarea RA3-CEg
+
 # 4. Formatos de Video  
 El video es otro recurso de las interfaces web, pero su uso intensivo de datos requiere formatos que ofrezcan buena compresión sin sacrificar demasiada calidad.
 Existen diversos formatos de video (MP4, WebM, AVI, MKV, MOV…), pero los más utilizados en la web son los formatos MP4 y WebM debido a su amplia compatibilidad y buen rendimiento.
@@ -497,3 +501,9 @@ edia.
 ## 4.10. - Tarea RA3-CEc - RA3-CEe - 2
 
 ## 5. Tarea RA3-CEg    
+
+## 3.4. - Tarea RA3-CEb
+## 3.5. - Tarea RA3-CEc
+## 3.6. - Tarea RA3-CEd
+## 3.7. - Tarea RA3-CEe
+## 3.8. - Tarea RA3-CEg
