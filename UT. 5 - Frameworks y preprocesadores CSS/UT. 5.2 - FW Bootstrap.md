@@ -6,7 +6,7 @@ Palabras clave: DAW, DIW
 ---
 
 <div align=center>
-  <img src="./img/tailwind.png" width="65%">
+  <img src="./img/bootstrap5.png" width="50%">
 </div>
 <br> 
 
@@ -17,7 +17,6 @@ Palabras clave: DAW, DIW
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
 | **CE. i&#41;** Se han analizado y utilizado tecnologías y frameworks para la creación de interfaces web con un diseño responsive.|
-
 
 <br>
 
