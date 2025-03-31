@@ -137,19 +137,19 @@ El logro de un diseño pixel perfect requiere atención meticulosa a los detalle
    <br>
 <br>
 
-1. Inspección de píxeles y retina. Utilizar herramientas de inspección de píxeles para asegurarse de que las imágenes se rendericen correctamente en pantallas de alta resolución (pantallas Retina).
+4. Inspección de píxeles y retina. Utilizar herramientas de inspección de píxeles para asegurarse de que las imágenes se rendericen correctamente en pantallas de alta resolución (pantallas Retina).
   
     ![alt text](./img/PPretina.png)    
    <br>
 <br>
 
-1. Perfección en elementos de texto. Asegúrarse de que las fuentes de texto utilizadas se rendericen correctamente en todo tipo de tamaños de pantalla.
+5. Perfección en elementos de texto. Asegúrarse de que las fuentes de texto utilizadas se rendericen correctamente en todo tipo de tamaños de pantalla.
 
     ![alt text](./img//PPfuente.png)
 <br>
 <br>
 
-1. Evitar escalar imágenes.
+6. Evitar escalar imágenes.
 
     ![alt text](./img/PPimagenes.png)
 
@@ -163,26 +163,3 @@ El logro de un diseño pixel perfect requiere atención meticulosa a los detalle
 El **Mobile First design** es una metodología de diseño web que **prioriza** la experiencia de los usuarios de dispositivos móviles. Se basa en la idea de que cada vez más personas acceden a internet desde sus teléfonos.
 
 Para implementar el diseño mobile first, se **diseña primero** la página web para dispositivos móviles y luego se escala hacia dispositivos de escritorio utilizando `media-queries`. 
- 
-
-
-
-
-
- https://www.marketinhouse.es/mobile-first/
-https://tabular.email/blog/what-is-fluid-design
-
-
-También puedes contrastar esta técnica con enfoques más modernos como el **"Fluid Design"** o el **"Mobile First"**, que priorizan la adaptabilidad sobre la perfección visual exacta.  
-
-
-
-
-
-https://juanbarcia.com/pixel-perfect/
-https://torresburriel.com/weblog/que-significa-pixel-perfect/
-https://es.wikipedia.org/wiki/Pixel_Perfect
-https://andsiosa.medium.com/how-to-create-a-pixel-perfect-ui-design-b38e4c76cb56
-https://blog.hubspot.com/website/fluid-design
-https://www.marketinhouse.es/mobile-first/
-https://okisam.com/blog/diseno-pixel-perfect/
