@@ -6,7 +6,7 @@ Palabras clave: DAW, DIW
 ---
 
 <div align=center>
-  <img src="./img/css3.png" width="35%">
+  <img src="./img/csslayout.jpg" width="50%">
 </div>
 
 

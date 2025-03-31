@@ -5,6 +5,27 @@ Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
+<div align=center>
+  <img src="./img/csslayout.jpg" width="50%">
+</div>
+
+
+| **Resultados de aprendizaje de la unidad didáctica:** |
+|-|
+| **RA. 2:** Crea interfaces web homogéneos definiendo y aplicando estilos.|
+
+|**Criterios de evaluación de la unidad didáctica:**|
+|-|
+| **CE. g&#41;** Se han creado clases de estilos.|
+
+
+<br>
+
+| **Licencia Creative Commons:** ||
+| - | - |
+| <img src="../UT. 1 - UserInterface UserXperience/img/by-nc-nd-eu_.png" width=90%> | **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
+---
+
 # 1. Introducción
 En el desarrollo web moderno, garantizar una experiencia de usuario óptima en una amplia variedad de **dispositivos** es esencial. Para lograrlo, se emplean dos enfoques principales: **diseño responsive** y **diseño adaptativo**. 
 ![alt text](./img/ResponsiveAdaptative.png.png) 
@@ -204,4 +225,4 @@ Es posible encontrarse con reglas `@media` dentro de una etiqueta `<style>` o en
 <link rel="stylesheet" href="estilos.css" media="screen and (max-width: 768px)">
 ```
 
-# 7. - Tarea RA2-CEi-2
+# 7. - Tarea RA2-CEg-4
