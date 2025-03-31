@@ -27,6 +27,11 @@ Palabras clave: DAW, DIW
 
 
 https://www.rafelsanso.com/animaciones-en-css3/
+
+https://www.rafelsanso.com/transiciones-en-css3/
+
+https://www.rafelsanso.com/transformaciones-en-css3/
+
 https://lenguajecss.com/animaciones/
 
 
