@@ -6,7 +6,7 @@ Palabras clave: DAW, DIW
 ---
 
 <div align=center>
-  <img src="./img/html5.png" width="50%">
+  <img src="./img/css3.png" width="35%">
 </div>
 
 
@@ -16,7 +16,7 @@ Palabras clave: DAW, DIW
 
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
-| **CE. a&#41;** Se han reconocido las posibilidades de modificar las etiquetas HTML.|
+| **CE. b&#41;** Se han definido estilos de forma directa.|
 
 
 <br>
