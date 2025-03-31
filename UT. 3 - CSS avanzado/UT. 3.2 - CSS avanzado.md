@@ -285,4 +285,4 @@ Permiten aplicar efectos visuales como desenfoques, contrastes y escalas de gris
 }
 ```
 
-# 4. Tarea Tarea RA2-CEi-1
+# 4. Tarea RA2-CEi-1
