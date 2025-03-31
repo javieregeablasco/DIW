@@ -58,7 +58,11 @@ A continuación, se muestra una tabla que detalla las diferencias entre los dife
 El `Fluid Grid Layout` incluye tres elementos principales: columnas, filas y márgenes. Los porcentajes de cada uno de estos elementos determinan la legibilidad del sitio web.  
 Un diseño de cuadrícula divide el ancho de la página en columnas de tamaño igual. De este modo, cuando la página se reduce, ya sea de forma manual o según el tamaño del dispositivo, estas columnas ajustan su espacio. Al aplicar principios de fluidez, las cuadrículas que estructuran el contenido de la página pueden expandirse y contraerse en consecuencia.
 
-![alt text](./img/fluidgridlayout.png)
+<br>
+<div align="center">
+  <img src="./img/fluidgridlayout.png" width="75%">
+</div>
+<br>
 
 **Ejemplo Fluid Grid Layout con Breakpoints**  
 :one: Diseño a 4 columnas
