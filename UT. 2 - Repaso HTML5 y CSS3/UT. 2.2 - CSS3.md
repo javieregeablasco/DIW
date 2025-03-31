@@ -17,6 +17,8 @@ Palabras clave: DAW, DIW
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
 | **CE. b&#41;** Se han definido estilos de forma directa.|
+| **CE. c&#41;** Se han definido y asociado estilos globales en hojas externas.|
+| **CE. d&#41;** Se han definido hojas de estilos alternativas.|
 
 
 <br>
@@ -328,14 +330,14 @@ Pinchando en el siguiente <a href="./code/Ejemplos_1_CSS.html">**enlace**</a> en
 
 # 3. Prácticas evaluables
 
-## 3.1. - Práctica RA2 CEb-1
+## 3.1. - Tarea RA2 CEb-1
 se han definido estilos de forma directa.
-## 3.2. - Práctica RA2 CEb-2
+## 3.2. - Tarea RA2 CEb-2
 se han definido estilos de forma directa.
 
-## 3.3. - Práctica RA2 CEc-1
+## 3.3. - Tarea RA2 CEc-1
 se han definido estilos globales en hojas externas 
-## 3.4. - Práctica RA2 CEc-2
+## 3.4. - Tarea RA2 CEc-2
 se han definido estilos globales en hojas externas 
 
 
