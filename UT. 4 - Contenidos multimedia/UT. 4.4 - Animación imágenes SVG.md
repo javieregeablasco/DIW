@@ -31,6 +31,12 @@ Palabras clave: DAW, DIW
 <img src="https://github.com/javieregeablasco/DAW/blob/main/DIW/UT.%204/img/SVG_logo.svg" width=25%>
 </div>
  
+
+
+
+
+
+ 
 # 1. Introducción
 **SVG (Scalable Vector Graphics)** es un formato de gráficos vectoriales basado en XML que se utiliza para renderizar imágenes bidimensionales.   
 
