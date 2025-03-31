@@ -5,6 +5,31 @@ Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
+<div>
+  <img src="./img/uiux.webp" width="75%">
+</div>
+
+<br>
+
+| **Resultados de aprendizaje de la unidad didáctica:** |
+|-|
+| **RA. 2:** Crea interfaces web homogéneos definiendo y aplicando estilos.|
+
+|**Criterios de evaluación de la unidad didáctica:**|
+|-|
+| **CE. a&#41;** Se han reconocido las posibilidades de modificar las etiquetas HTML.|
+
+
+
+
+<br>
+
+| **Licencia Creative Commons:** ||
+| - | - |
+| <img src="../UT. 1 - UserInterface UserXperience/img/by-nc-nd-eu_.png" width=90%> | **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
+---  
+
+
 # 1. Introducción
  HTML5 es la **quinta versión** del lenguaje de marcado HTML (HyperText Markup Language), que se utiliza para estructurar y presentar contenido en la web. 
  Fue oficialmente lanzado en octubre de 2014 por el <a href="https://www.w3.org/"> World Wide Web Consortium (W3C) </a> y representa una evolución significativa respecto a sus predecesores, introduciendo nuevas características y mejoras que facilitan la creación de aplicaciones web más dinámicas e interactivas.
