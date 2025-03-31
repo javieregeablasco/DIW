@@ -153,7 +153,7 @@ El logro de un diseño pixel perfect requiere atención meticulosa a los detalle
 
 # 7. Mobile First design
 <div align="center">
-  <img src="./img/mobilefirstdesign.webp" width="65%">
+  <img src="./img/mobilefirstdesign.png" width="65%">
 </div>
 <br>
 
