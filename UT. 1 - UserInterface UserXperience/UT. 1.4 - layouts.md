@@ -126,26 +126,31 @@ El logro de un diseño pixel perfect requiere atención meticulosa a los detalle
    ![alt text](./img/PPalineacion.png)
 <br>
 <br>
+
 1. Controlar los espacios y márgenes.
    
    ![alt text](./img/PPmargenes.png)
 <br>
 <br>   
+
 1. Verificar el diseño web en múltiples resoluciones y realizar pruebas exhaustivas en diversos navegadores y dispositivos.
 
    ![alt text](./img/PPresiluciones.png)
    <br>
 <br>
+
 1. Inspección de píxeles y retina. Utilizar herramientas de inspección de píxeles para asegurarse de que las imágenes se rendericen correctamente en pantallas de alta resolución (pantallas Retina).
   
     ![alt text](./img/PPretina.png)    
    <br>
 <br>
+
 1. Perfección en elementos de texto. Asegúrarse de que las fuentes de texto utilizadas se rendericen correctamente en todo tipo de tamaños de pantalla.
 
     ![alt text](./img//PPfuente.png)
 <br>
 <br>
+
 1. Evitar escalar imágenes.
 
     ![alt text](./img/PPimagenes.png)
