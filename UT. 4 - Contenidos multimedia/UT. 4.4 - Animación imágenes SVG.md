@@ -4,9 +4,8 @@ Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
 ---
-
 <div align=center>
-  <img src="./img/animaciones-css3.jpg" width="100%">
+  <img src="./img/SVG_logo.svg.png" width="70%">
 </div>
 <br> 
 
@@ -26,17 +25,6 @@ Palabras clave: DAW, DIW
 ---
 
 
-
-<div align="center">
-<img src="https://github.com/javieregeablasco/DAW/blob/main/DIW/UT.%204/img/SVG_logo.svg" width=25%>
-</div>
- 
-
-
-
-
-
- 
 # 1. Introducción
 **SVG (Scalable Vector Graphics)** es un formato de gráficos vectoriales basado en XML que se utiliza para renderizar imágenes bidimensionales.   
 
