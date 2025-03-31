@@ -5,6 +5,27 @@ Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
+<div align=center>
+  <img src="./img/css3.png" width="35%">
+</div>
+
+
+| **Resultados de aprendizaje de la unidad didáctica:** |
+|-|
+| **RA. 2:** Crea interfaces web homogéneos definiendo y aplicando estilos.|
+
+|**Criterios de evaluación de la unidad didáctica:**|
+|-|
+| **CE. g&#41;** Se han creado clases de estilos.|
+
+
+<br>
+
+| **Licencia Creative Commons:** ||
+| - | - |
+| <img src="../UT. 1 - UserInterface UserXperience/img/by-nc-nd-eu_.png" width=90%> | **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
+---
+
 # 1. - Introducción
 Aunque CSS no sea un lenguaje de programación como tal, sí que permite definir variables y dispone de una librería de funciones que nos permitirá, entre otras cosas, realizar animaciones.  
 
@@ -285,4 +306,4 @@ Permiten aplicar efectos visuales como desenfoques, contrastes y escalas de gris
 }
 ```
 
-# 4. Tarea RA2-CEi-1
+# 4. Tarea RA2-CEg-3
