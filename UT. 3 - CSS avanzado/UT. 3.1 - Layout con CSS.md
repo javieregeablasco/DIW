@@ -6,8 +6,9 @@ Palabras clave: DAW, DIW
 ---
 
 <div align=center>
-  <img src="./img/css3.png" width="35%">
+  <img src="./img/flexbox.png" width="65%">
 </div>
+<br>
 
 
 | **Resultados de aprendizaje de la unidad didáctica:** |
