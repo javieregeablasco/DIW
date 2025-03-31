@@ -4,23 +4,20 @@ Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
 ---
-<img src="./img/tailwind.png" width=50%> 
 
-
----
 <div align=center>
-  <img src="./img/SVG_logo.svg.png" width="70%">
+  <img src="./img/tailwind.png" width="65%">
 </div>
 <br> 
 
 | **Resultados de aprendizaje de la unidad didáctica:** |
 |-|
-| **RA. 3:** Prepara archivos multimedia para la web, analizando sus características y manejando herramientas específicas.|
+| **RA. 2:** Crea interfaces web homogéneos definiendo y aplicando estilos.|
 
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
-| **CE. f&#41;** Se han realizado animaciones a partir de imágenes fijas.|
-| **CE. h&#41;** Se ha aplicado la guía de estilo.|
+| **CE. i&#41;** Se han analizado y utilizado tecnologías y frameworks para la creación de interfaces web con un diseño responsive.|
+
 
 <br>
 
