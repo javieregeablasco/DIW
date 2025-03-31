@@ -88,6 +88,11 @@ El logro de un diseño pixel perfect requiere atención meticulosa a los detalle
     ![alt text](./img/PPimagenes.png)
 
 # 2. Responsive design
+![alt text](./img/responsivedesign.png)
+El **Responsive Design** es una técnica de desarrollo web que permite que un sitio web se adapte automáticamente al tamaño del dispositivo desde el cual se accede. Su objetivo principal es mejorar la experiencia del usuario asegurando que el contenido sea accesible, legible y funcional en todo tipo de dispositivos (teléfonos móviles, tabletas, monitores de escritorio...).
+
+El **Responsive Design** se logra con las `Media Queries` y `los breakpoints` al definir reglas de estilo según las características del viewport. De esta manera, se pueden modificar la distribución, los tamaños de fuente, los márgenes, el espaciado y otros aspectos visuales. 
+
 
 https://www.interaction-design.org/literature/topics/responsive-design
 
