@@ -456,5 +456,5 @@ function toggleMode() {
   
 ![alt text](./img/firefox.png)
 
-## 4.3. - Práctica RA2 CEd
+## 4.3. - Tarea RA2 CEd
 se han definido hojas de estilo alternativas 
