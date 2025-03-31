@@ -5,6 +5,28 @@ Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
+<div align=center>
+  <img src="./img/animaciones-css3.jpg" width="100%">
+</div>
+<br> 
+
+| **Resultados de aprendizaje de la unidad didáctica:** |
+|-|
+| **RA. 3:** Prepara archivos multimedia para la web, analizando sus características y manejando herramientas específicas.|
+
+|**Criterios de evaluación de la unidad didáctica:**|
+|-|
+| **CE. f&#41;** Se han realizado animaciones a partir de imágenes fijas.|
+
+<br>
+
+| **Licencia Creative Commons:** ||
+| - | - |
+| <img src="../UT. 1 - UserInterface UserXperience/img/by-nc-nd-eu_.png" width=90%> | **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
+---
+
+
+
 <div align="center">
 <img src="https://github.com/javieregeablasco/DAW/blob/main/DIW/UT.%204/img/SVG_logo.svg" width=25%>
 </div>
