@@ -5,11 +5,10 @@ Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
-<div>
-  <img src="./img/uiux.webp" width="75%">
+<div align=center>
+  <img src="./img/html5.png" width="50%">
 </div>
 
-<br>
 
 | **Resultados de aprendizaje de la unidad didáctica:** |
 |-|
@@ -18,8 +17,6 @@ Palabras clave: DAW, DIW
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
 | **CE. a&#41;** Se han reconocido las posibilidades de modificar las etiquetas HTML.|
-
-
 
 
 <br>
