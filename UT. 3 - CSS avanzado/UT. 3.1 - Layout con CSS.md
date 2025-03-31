@@ -5,6 +5,30 @@ Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
+<div align=center>
+  <img src="./img/css3.png" width="35%">
+</div>
+
+
+| **Resultados de aprendizaje de la unidad didáctica:** |
+|-|
+| **RA. 2:** Crea interfaces web homogéneos definiendo y aplicando estilos.|
+
+|**Criterios de evaluación de la unidad didáctica:**|
+|-|
+| **CE. f&#41;** Se han identificado las distintas propiedades de cada elemento.|
+| **CE. g&#41;** Se han creado clases de estilos.|
+
+
+
+
+<br>
+
+| **Licencia Creative Commons:** ||
+| - | - |
+| <img src="../UT. 1 - UserInterface UserXperience/img/by-nc-nd-eu_.png" width=90%> | **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
+---
+
 # 1. Introducción
 En el desarrollo web, la **maquetación** permite diseñar y estructurar interfaces atractivas y funcionales.  
 Existen diversas técnicas para distribuir los elementos en una página web, entre las más utilizadas destacan:
