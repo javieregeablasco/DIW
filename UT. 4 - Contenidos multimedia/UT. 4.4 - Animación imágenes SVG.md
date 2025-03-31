@@ -16,6 +16,7 @@ Palabras clave: DAW, DIW
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
 | **CE. f&#41;** Se han realizado animaciones a partir de imágenes fijas.|
+| **CE. h&#41;** Se ha aplicado la guía de estilo.|
 
 <br>
 
