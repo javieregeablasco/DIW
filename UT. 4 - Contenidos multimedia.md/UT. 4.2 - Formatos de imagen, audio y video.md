@@ -16,18 +16,11 @@ Palabras clave: DAW, DIW
 
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
-| **CE. a&#41;** Se han reconocido las implicaciones de las licencias y los derechos de autor en el uso de material multimedia.|
-
-
-b) Se han identificado los formatos de imagen, audio y vídeo a utilizar.
-c) Se han analizado las herramientas disponibles para generar contenido
-multimedia.
-d) Se han empleado herramientas para el tratamiento digital de la imagen.
-e) Se han utilizado herramientas para manipular audio y vídeo.
-f) Se han realizado animaciones a partir de imágenes fijas.
-g) Se han importado y exportado imágenes, audio y vídeo en diversos
-formatos según su finalidad.
-h) Se ha aplicado la guía de estilo.
+| **CE. b&#41;** |Se han identificado los formatos de imagen, audio y vídeo a utilizar.|
+| **CE. c&#41;** |Se han analizado las herramientas disponibles para generar contenido multimedia.|
+| **CE. d&#41;** |Se han empleado herramientas para el tratamiento digital de la imagen.|
+| **CE. e&#41;** |Se han utilizado herramientas para manipular audio y vídeo.|
+| **CE. g&#41;** |Se han importado y exportado imágenes, audio y vídeo en diversos formatos según su finalidad.|
 
 
 <br>
