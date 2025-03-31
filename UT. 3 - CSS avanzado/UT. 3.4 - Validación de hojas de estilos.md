@@ -1,12 +1,12 @@
 ---
-Título: UD. 3.3 - Diseño adaptativo y reactivo en CSS
+Título: UD. 3.3 - UT. 3.4 - Herramientas de validación de hojas de estilos
 Autor: Javier Egea Blasco
 Año: 24-25
 Palabras clave: DAW, DIW
 ---
 
 <div align=center>
-  <img src="./img/csslayout.jpg" width="50%">
+  <img src="./img/cssvalidation.png" width="100%">
 </div>
 
 
@@ -16,7 +16,7 @@ Palabras clave: DAW, DIW
 
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
-| **CE. g&#41;** Se han creado clases de estilos.|
+| **CE. h#41;** Se han utilizado herramientas de validación de hojas de estilos.|
 
 
 <br>
