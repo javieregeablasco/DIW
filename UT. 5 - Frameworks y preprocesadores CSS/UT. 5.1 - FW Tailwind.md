@@ -6,6 +6,29 @@ Palabras clave: DAW, DIW
 ---
 <img src="./img/tailwind.png" width=50%> 
 
+
+---
+<div align=center>
+  <img src="./img/SVG_logo.svg.png" width="70%">
+</div>
+<br> 
+
+| **Resultados de aprendizaje de la unidad didáctica:** |
+|-|
+| **RA. 3:** Prepara archivos multimedia para la web, analizando sus características y manejando herramientas específicas.|
+
+|**Criterios de evaluación de la unidad didáctica:**|
+|-|
+| **CE. f&#41;** Se han realizado animaciones a partir de imágenes fijas.|
+| **CE. h&#41;** Se ha aplicado la guía de estilo.|
+
+<br>
+
+| **Licencia Creative Commons:** ||
+| - | - |
+| <img src="../UT. 1 - UserInterface UserXperience/img/by-nc-nd-eu_.png" width=90%> | **Reconocimiento-NoComercial-CompartirIgual CC BY-NC-SA:** No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de la cuales se debe hace con una licencia igual a la que regula la obra original. |
+---
+
 # 1. Introducción: "Desarrollo Frontend con Tailwind CSS"
 
 En el desarrollo web moderno, la creación de interfaces de usuario atractivas y funcionales es una de las tareas más desafiantes. En este contexto, **Tailwind CSS** ha emergido como una herramienta fundamental para facilitar y acelerar el proceso de diseño de frontend, permitiendo a los desarrolladores crear de manera eficiente páginas web estéticas y altamente personalizables.
