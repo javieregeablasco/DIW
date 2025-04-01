@@ -147,7 +147,14 @@ animation: nombre duración función-de-tiempo retraso contador dirección estad
   - `infinite`: La animación se repite indefinidamente.  
   - `alternate`: Alterna la dirección en cada iteración.  
 
-
+>**Ejercicio:**  
+Modificar el código para que cumpla los siguientes requisitos:
+- La animación se iniciará 4 segundos después de cargarse la página.
+- El color inicial será `green`.
+- El color final será `blue`. 
+- La animación tendrá un punto intermedio con las siguientes condiciones: 
+  - Al tiempo 2s la animacion deberá haber recorrido `333px`.
+  - Al tiempo 2s, el color de la animación será `red`. 
 
 
 
