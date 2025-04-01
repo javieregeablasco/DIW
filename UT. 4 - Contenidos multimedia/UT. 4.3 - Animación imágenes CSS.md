@@ -27,6 +27,7 @@ Palabras clave: DAW, DIW
 # 1. Introducción
 
 # 2. Animaciones
+## 2.1. - Introducción
 Una animación en CSS es una técnica que permite cambiar de manera gradual los estilos de un elemento HTML a lo largo del tiempo, creando un efecto visual dinámico. 
 
 Los objetivos básicos de las animaciones son:   
@@ -36,7 +37,7 @@ Los objetivos básicos de las animaciones son:
 
 3️⃣ **Proporcionar retroalimentación** facilitando la comprensión de las acciones realizadas, indicando si una acción fue exitosa o no. 
 
-## 2.1. - Componentes de una animación
+## 2.2. - Componentes de una animación
 Las animaciones en CSS se definen con dos componentes principales:
 
 :one: Regla **@keyframes**:  
@@ -159,23 +160,15 @@ Modificar el código para que cumpla los siguientes requisitos:
 >**Ejercicio 2:**  
 Modificar el código para que realice la siguiente animación:
 
-<video src="./code/43animCSS-3.mp4" controls>
+<video src="./code/43animCSS-3.mp4" controls></video>
 
 # 3. Transiciones
+## 3.1. - Introducción
 Las transiciones permiten cambiar gradualmente los valores de las propiedades CSS de un elemento en un período de tiempo determinado, generando un efecto visual.
 
-Los objetivos principales de las transiciones son:
-
-1️⃣ **Mejorar la experiencia del usuario (UX)** al hacer que los cambios de estado sean fluidos y visualmente agradables.
-
-2️⃣ **Atraer la atención del usuario**, ayudando a destacar elementos de la interfaz de usuario sin necesidad de animaciones complejas.
-
-3️⃣ **Proporcionar retroalimentación visual**, indicando cambios de estado como efectos hover, activaciones o interacciones.
-
-## 1.1. - Componentes de una transición
-Las transiciones en CSS se definen con los siguientes componentes clave:
-
-1. **Propiedad `transition`**: Permite especificar qué propiedad CSS cambiará, la duración de la transición, la función de tiempo y un posible retraso.
+## 3.2. - Componentes de una transición
+:one: **Propiedad `transition`**:  
+Permite especificar qué propiedad CSS cambiará, la duración de la transición, la función de tiempo y un posible retraso.
    
    La sintaxis básica de `transition` es:
    ```css
