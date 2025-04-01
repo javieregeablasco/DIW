@@ -74,9 +74,9 @@ Para definir los `@keyframes`, se pueden usar porcentajes o palabras clave como 
 ```
 
 :two: **Propiedad `animation`**:  
-Se aplica al elemento al que se le asigna la animación y permite configurar múltiples propiedades de animación en una sola declaración.   
-La sintaxis de `animation` es la siguiente:
+Se aplica al elemento al que se le asigna la animación y permite configurar múltiples propiedades de animación en una sola declaración. 
 
+La sintaxis de `animation` es la siguiente:  
 ```CSS
 animation: nombre duración función-de-tiempo retraso contador dirección estado mode-de-relleno;
 ```
