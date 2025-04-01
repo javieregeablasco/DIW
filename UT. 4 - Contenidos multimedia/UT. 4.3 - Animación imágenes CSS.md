@@ -291,18 +291,119 @@ Modificar el código para que el cuadrado tenga las siguientes transiciones:
 <br>
 
 # 4. Transformaciones
-Las transformaciones de objetos han sido una de las mejoras más destacadas del estándar CSS3 y permiten modificar los atributos de un objeto (HTML) para cambiar sus propiedades de lugar, ángulo, escala y deformación.
-
-De por sí, las transformaciones son poco útiles. Su potencial se muestra al combinarlo con animaciones y transiciones.
-
-
+## 4.1. - Introducción
+Las transformaciones de objetos han sido una de las mejoras más destacadas del estándar CSS3 y permiten modificar todo tipo de propiedades geométricas como la posición, ángulo, escala etc.  
+De por sí, las transformaciones son poco útiles. Su potencial se muestra al combinarlas con animaciones y transiciones.
 
 
+La sintaxis de las transformaciones es la siguiente:
+```css
+transform: transform-functions; 
+```
+**Nota:**  
+`transform` puede combinar varias transformaciones en una sola declaración.
 
+>**Ejemplo:**
+```css
+transform: transformación1 transformación2 ;
+```
+>**Ejemplo combinando varias transformaciones:**
+```css
+transform: rotate(45deg) scale(1.5) translateX(50px);
+```
 
+---
 
+## 🔹 **2. Tipos de Transformaciones**
 
+### **📍 2.1. Traslación (`translate`)**
+Mueve un elemento en los ejes X, Y o Z sin cambiar su tamaño o forma.
+```css
+transform: translateX(50px); /* Mueve 50px a la derecha */
+transform: translateY(-20px); /* Mueve 20px hacia arriba */
+transform: translate(50px, -20px); /* Mueve en X e Y */
+```
 
+### **📍 2.2. Rotación (`rotate`)**
+Gira un elemento en un ángulo determinado en 2D o 3D.
+```css
+transform: rotate(45deg); /* Gira 45° en sentido horario */
+transform: rotate(-30deg); /* Gira 30° en sentido antihorario */
+```
+
+Para rotaciones en 3D:
+```css
+transform: rotateX(45deg); /* Gira en el eje X */
+transform: rotateY(60deg); /* Gira en el eje Y */
+transform: rotateZ(90deg); /* Gira en el eje Z */
+```
+
+### **📍 2.3. Escalado (`scale`)**
+Cambia el tamaño del elemento en X, Y o ambos.
+```css
+transform: scale(1.5); /* Aumenta un 50% en ambos ejes */
+transform: scaleX(2); /* Duplica el ancho */
+transform: scaleY(0.5); /* Reduce la altura a la mitad */
+```
+
+### **📍 2.4. Inclinación (`skew`)**
+Inclina el elemento en el eje X, Y o ambos.
+```css
+transform: skewX(20deg); /* Inclinación en X */
+transform: skewY(-15deg); /* Inclinación en Y */
+transform: skew(20deg, -15deg); /* Inclinación en ambos ejes */
+```
+
+---
+
+## 🎭 **3. Transformaciones en 3D**
+Además de `rotateX()`, `rotateY()` y `rotateZ()`, CSS permite la transformación en el espacio tridimensional mediante:
+- **`perspective()`**: Define la distancia de la cámara.
+- **`translateZ()`**: Mueve el objeto en el eje Z.
+- **`scaleZ()`**: Escala en profundidad.
+
+Ejemplo:
+```css
+transform: perspective(500px) rotateY(45deg);
+```
+
+---
+
+## 🎨 **4. Ejemplo Práctico**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformaciones en CSS</title>
+  <style>
+    .caja {
+      width: 100px;
+      height: 100px;
+      background: coral;
+      margin: 50px;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .caja:hover {
+      transform: rotate(15deg) scale(1.2) translateX(20px);
+    }
+  </style>
+</head>
+<body>
+  <div class="caja"></div>
+</body>
+</html>
+```
+👉 **Cuando pasas el ratón sobre `.caja`, se rota 15°, aumenta un 20% de tamaño y se mueve 20px a la derecha.**  
+
+---
+
+## 📝 **5. Conclusión**
+Las transformaciones en CSS son una herramienta poderosa para mejorar la presentación y la interacción en una página web. Al combinarlas con **transiciones y animaciones**, se pueden crear efectos visuales atractivos sin necesidad de JavaScript.
+
+Si necesitas más detalles o ejemplos específicos, dime. 😊
 
 
 
