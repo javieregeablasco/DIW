@@ -30,12 +30,13 @@
   .caja {
     object-fit:scale-down;
   
-    transition: transform 0.45s;
+
     /* https://www.reddit.com/r/webdev/comments/ajepct/css_transform_rotation_without_moving_object/ */
     /* https://www.youtube.com/watch?v=ymuBowcODVU */
   }
 
   .caja:hover {
+    transition: transform 0.5s;
     transform: rotate(25deg);
     overflow: hidden;
     height: auto;
