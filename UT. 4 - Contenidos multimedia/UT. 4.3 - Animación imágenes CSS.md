@@ -160,6 +160,138 @@ Modificar el código para que cumpla los siguientes requisitos:
 Modificar el código para que realice la siguiente animación:
 <video src="./code/43animCSS-3.mp4" controls>
 
+# 3. Transiciones
+Las transiciones permiten cambiar gradualmente los valores de las propiedades CSS de un elemento en un período de tiempo determinado, generando un efecto visual.
+
+Los objetivos principales de las transiciones son:
+
+1️⃣ **Mejorar la experiencia del usuario (UX)** al hacer que los cambios de estado sean fluidos y visualmente agradables.
+
+2️⃣ **Atraer la atención del usuario**, ayudando a destacar elementos de la interfaz de usuario sin necesidad de animaciones complejas.
+
+3️⃣ **Proporcionar retroalimentación visual**, indicando cambios de estado como efectos hover, activaciones o interacciones.
+
+## 1.1. - Componentes de una transición
+Las transiciones en CSS se definen con los siguientes componentes clave:
+
+1. **Propiedad `transition`**: Permite especificar qué propiedad CSS cambiará, la duración de la transición, la función de tiempo y un posible retraso.
+   
+   La sintaxis básica de `transition` es:
+   ```css
+   transition: propiedad duración función-de-tiempo retraso;
+   ```
+   
+   **Donde:**
+   - **propiedad (transition-property):** Indica qué propiedad CSS será animada (ej. `opacity`, `background-color`, `transform`).
+   - **duración (transition-duration):** Tiempo que tardará la transición en completarse (`s` o `ms`).
+   - **función-de-tiempo (transition-timing-function):** Define la aceleración de la transición (`ease`, `linear`, `ease-in`, `ease-out`, `ease-in-out`, `cubic-bezier()`).
+   - **retraso (transition-delay):** Especifica el tiempo de espera antes de que inicie la transición.
+   
+2. **Propiedades individuales de `transition`**: Se pueden definir las transiciones de manera más específica utilizando las siguientes propiedades:
+   - `transition-property`: Define qué propiedad será afectada por la transición.
+   - `transition-duration`: Especifica el tiempo de duración.
+   - `transition-timing-function`: Controla la aceleración.
+   - `transition-delay`: Indica el tiempo de espera antes de iniciar.
+   
+> **Ejemplo de transición en CSS:**
+
+```css
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  transition: background-color 0.5s ease-in-out, transform 0.3s ease-in;
+}
+
+.caja:hover {
+  background-color: tomato;
+  transform: scale(1.2);
+}
+```
+
+> **Explicación:**
+- `background-color 0.5s ease-in-out`: Cambia el color de fondo en 0.5s con una aceleración suave.
+- `transform 0.3s ease-in`: Aplica un escalado suave cuando el usuario pasa el cursor.
+
+## 1.2. - Transición de múltiples propiedades
+Si se desean animar múltiples propiedades, se pueden separar con comas:
+
+```css
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 0;
+  transition: background-color 1s ease, border-radius 0.5s linear;
+}
+
+.caja:hover {
+  background-color: green;
+  border-radius: 50%;
+}
+```
+
+## 1.3. - Usando `all` en `transition-property`
+Si queremos que todas las propiedades animables sufran una transición, podemos usar `all`:
+
+```css
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  transition: all 0.5s ease;
+}
+
+.caja:hover {
+  width: 120px;
+  height: 120px;
+  background-color: pink;
+}
+```
+
+> **Nota:** Usar `all` puede ser costoso en rendimiento si se aplica a muchos elementos.
+
+## 1.4. - Diferencia entre `transition` y `animation`
+| Característica       | `transition` | `animation` |
+|----------------------|-------------|-------------|
+| Necesita un evento  | Sí (hover, focus, etc.) | No, se ejecuta automáticamente |
+| Se repite automáticamente | No | Sí (con `infinite` o `animation-iteration-count`) |
+| Mayor control sobre la secuencia | No | Sí (con `@keyframes`) |
+| Simplicidad | Fácil de usar | Más flexible pero más complejo |
+
+Las transiciones son ideales para efectos simples y sutiles, mientras que las animaciones son mejores para efectos complejos con múltiples etapas.
+
+> **Ejemplo práctico en HTML:**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Transición</title>
+  <style>
+    .caja {
+      width: 100px;
+      height: 100px;
+      background-color: coral;
+      transition: transform 0.5s ease-in-out;
+    }
+    .caja:hover {
+      transform: rotate(45deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="caja"></div>
+</body>
+</html>
+```
+
+> En este ejemplo, la caja gira 45 grados cuando el usuario pasa el ratón sobre ella.
+
+---
+Con estas técnicas, puedes mejorar la interactividad de tus interfaces con efectos fluidos y atractivos. 🎨🚀
+
 
 
 
@@ -176,7 +308,6 @@ Transiciones en CSS3
 Transformaciones en CSS3  
 
 
-https://www.rafelsanso.com/animaciones-en-css3/
 
 https://www.rafelsanso.com/transiciones-en-css3/
 
