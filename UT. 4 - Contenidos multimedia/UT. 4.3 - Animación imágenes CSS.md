@@ -39,7 +39,7 @@ Los objetivos básicos de las animaciones son:
 ## 2.1. - Componentes de una animación
 Las animaciones en CSS se definen con dos componentes principales:
 
-1. Regla **@keyframes**:  
+:one: Regla **@keyframes**:  
 Define el comportamiento de la animación a lo largo de su duración. Especifica los estilos en diferentes momentos clave `@keyframes` de la animación (p.e. inicio y final).  
 Para definir los `@keyframes`, se pueden usar porcentajes o palabras clave como `from` y `to`. 
 
@@ -72,7 +72,7 @@ Para definir los `@keyframes`, se pueden usar porcentajes o palabras clave como 
 }
 ```
 
-2. **Propiedad `animation`**:  
+:two: **Propiedad `animation`**:  
 Se aplica al elemento al que se le asigna la animación y permite configurar múltiples propiedades de animación en una sola declaración.   
 La sintaxis de `animation` es la siguiente:
 
@@ -158,6 +158,7 @@ Modificar el código para que cumpla los siguientes requisitos:
 
 >**Ejercicio 2:**  
 Modificar el código para que realice la siguiente animación:
+
 <video src="./code/43animCSS-3.mp4" controls>
 
 # 3. Transiciones
