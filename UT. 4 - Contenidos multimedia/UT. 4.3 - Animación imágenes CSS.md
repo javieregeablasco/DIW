@@ -305,7 +305,7 @@ transform: transform-functions;
 
 >**Ejemplo:**
 ```css
-transform: transformación1 transformación2;
+transform: rotate(45deg);
 ```
 >**Ejemplo combinando varias transformaciones:**
 ```css
