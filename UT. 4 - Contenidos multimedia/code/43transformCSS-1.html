@@ -5,41 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Transformaciones</title>
   <style>
-    body {
-      margin-top: 10rem;
-      display: flex;
-      justify-content: center;       
-    }  
-    .contenedor {
-      width: 100px;
-      height: 100px;
-      margin: 50px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: solid 5px red;
-      transition: transform 0.5s ease-in-out;
-    }
-    .contenedor:hover {
-      transform: rotate(-25deg) scale(2) /*translateX(20px)*/;
-    }
-    .caja {
-      width: 250px;
-      height: 250px;
-      transition: transform 0.6s ease-in-out;
-       
-    }
-    .caja:hover {
-      transform: rotate(25deg) scale(0.5) /*translateX(20px)*/;
-      
 
-    }
+  body {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;       
+  }
 
-  </style>
-  </head>
-  <body>
-    <div class="contenedor">
-      <img class="caja" src="../img/SVG_logo.svg.png" alt="">
-    </div>
-  </body>
+  .contenedor {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .contenedor:hover {
+    transform: rotate(-25deg) scale(1.2) translateX(20px);
+  }
+
+  .caja {
+    width: 100px;
+    height: 100px;
+  }
+</style>
+</head>
+<body>
+  <div class="contenedor">
+    <img class="caja" src="../img/SVG_logo.svg.png" alt="">
+  </div>
+</body>
+
 </html>
