@@ -100,14 +100,7 @@ animation: nombre duración función-de-tiempo retraso contador dirección estad
   - `both`: Combina `forwards` y `backwards`. 
 
 
-Aquí tienes un ejemplo práctico de la propiedad `animation`:  
-
----
-
-### **Ejemplo de animación en CSS**  
-
-Este ejemplo hace que un cuadro se desplace de izquierda a derecha en 2 segundos, con un efecto de aceleración (`ease-in-out`), se repita infinitamente y alterne la dirección en cada iteración.  
-
+>**Ejemplo de animación**  
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -146,7 +139,6 @@ Este ejemplo hace que un cuadro se desplace de izquierda a derecha en 2 segundos
 </html>
 ```
 
-### **Explicación del código:**  
 - La animación `mover` cambia la posición horizontal del elemento (`translateX`).  
 - Se aplica a `.caja` con `animation: mover 2s ease-in-out infinite alternate;`  
   - `mover`: Nombre de la animación.  
@@ -154,20 +146,6 @@ Este ejemplo hace que un cuadro se desplace de izquierda a derecha en 2 segundos
   - `ease-in-out`: Suaviza el inicio y el final.  
   - `infinite`: La animación se repite indefinidamente.  
   - `alternate`: Alterna la dirección en cada iteración.  
-
----
-
-Puedes probarlo copiando y pegando el código en un archivo `.html`. ¿Quieres otro ejemplo con más propiedades? 😊
-
-
-
-
-
-
-
-
-
-
 
 
 
