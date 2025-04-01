@@ -100,6 +100,7 @@ animation: nombre duración función-de-tiempo retraso contador dirección estad
   - `backwards`: Aplica el estilo del primer fotograma antes de que comience la animación.  
   - `both`: Combina `forwards` y `backwards`. 
 
+<br>
 
 >**Ejemplo de animación**  
 ```html
@@ -157,6 +158,8 @@ Modificar el código para que cumpla los siguientes requisitos:
   - Al tiempo 2s la animacion deberá haber recorrido `333px`.
   - Al tiempo 2s, el color de la animación será `red`. 
 
+<br>
+
 >**Ejercicio 2:**  
 Modificar el código para que realice la siguiente animación:
 
@@ -181,14 +184,16 @@ Permite especificar qué propiedad CSS cambiará, la duración de la transición
    - **función-de-tiempo (transition-timing-function):** Define la aceleración de la transición (`ease`, `linear`, `ease-in`, `ease-out`, `ease-in-out`, `cubic-bezier()`).
    - **retraso (transition-delay):** Especifica el tiempo de espera antes de que inicie la transición.
    
-2. **Propiedades individuales de `transition`**: Se pueden definir las transiciones de manera más específica utilizando las siguientes propiedades:
+:two: **Propiedades individuales de `transition`**:  
+Se pueden definir las transiciones de manera más específica utilizando las siguientes propiedades:
    - `transition-property`: Define qué propiedad será afectada por la transición.
    - `transition-duration`: Especifica el tiempo de duración.
    - `transition-timing-function`: Controla la aceleración.
    - `transition-delay`: Indica el tiempo de espera antes de iniciar.
    
-> **Ejemplo de transición en CSS:**
+<br>
 
+> **Ejemplo de transición en CSS:**
 ```css
 .caja {
   width: 100px;
@@ -207,7 +212,7 @@ Permite especificar qué propiedad CSS cambiará, la duración de la transición
 - `background-color 0.5s ease-in-out`: Cambia el color de fondo en 0.5s con una aceleración suave.
 - `transform 0.3s ease-in`: Aplica un escalado suave cuando el usuario pasa el cursor.
 
-## 1.2. - Transición de múltiples propiedades
+## 3.3. - Transición de múltiples propiedades
 Si se desean animar múltiples propiedades, se pueden separar con comas:
 
 ```css
@@ -225,7 +230,7 @@ Si se desean animar múltiples propiedades, se pueden separar con comas:
 }
 ```
 
-## 1.3. - Usando `all` en `transition-property`
+## 3.4. - Usando `all` en `transition-property`
 Si queremos que todas las propiedades animables sufran una transición, podemos usar `all`:
 
 ```css
@@ -243,19 +248,16 @@ Si queremos que todas las propiedades animables sufran una transición, podemos 
 }
 ```
 
-> **Nota:** Usar `all` puede ser costoso en rendimiento si se aplica a muchos elementos.
-
-## 1.4. - Diferencia entre `transition` y `animation`
+## 3.5. - Diferencias entre `transition` y `animation`
 | Característica       | `transition` | `animation` |
 |----------------------|-------------|-------------|
 | Necesita un evento  | Sí (hover, focus, etc.) | No, se ejecuta automáticamente |
-| Se repite automáticamente | No | Sí (con `infinite` o `animation-iteration-count`) |
-| Mayor control sobre la secuencia | No | Sí (con `@keyframes`) |
+| Se repite automáticamente | No | Sí |
+| Mayor control sobre la secuencia | No | Sí con `@keyframes` |
 | Simplicidad | Fácil de usar | Más flexible pero más complejo |
 
-Las transiciones son ideales para efectos simples y sutiles, mientras que las animaciones son mejores para efectos complejos con múltiples etapas.
-
-> **Ejemplo práctico en HTML:**
+> **Ejemplo:**
+> La caja gira 45 grados cuando el usuario hace hover sobre ella.
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -281,10 +283,7 @@ Las transiciones son ideales para efectos simples y sutiles, mientras que las an
 </html>
 ```
 
-> En este ejemplo, la caja gira 45 grados cuando el usuario pasa el ratón sobre ella.
 
----
-Con estas técnicas, puedes mejorar la interactividad de tus interfaces con efectos fluidos y atractivos. 🎨🚀
 
 
 
