@@ -291,11 +291,11 @@ Modificar el código para que el cuadrado tenga las siguientes transiciones:
 <br>
 
 # 4. Transformaciones
-Las transformaciones de objetos han sido una de las mejoras más destacadas del estándar CSS3. 
+Las transformaciones de objetos han sido una de las mejoras más destacadas del estándar CSS3 y permiten modificar los atributos de un objeto (HTML) para cambiar sus propiedades de lugar, ángulo, escala y deformación.
 
 De por sí, las transformaciones son poco útiles. Su potencial se muestra al combinarlo con animaciones y transiciones.
 
-Las transformaciones permiten modificar los atributos de un objeto (HTML) para cambiar sus propiedades de lugar, ángulo, escala y deformación.
+
 
 
 
