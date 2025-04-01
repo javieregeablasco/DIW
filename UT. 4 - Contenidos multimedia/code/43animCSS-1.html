@@ -9,9 +9,11 @@
     @keyframes mover {
       0% {
         transform: translateX(0);
+        background-color: red;
       }
       100% {
         transform: translateX(1000px);
+        background-color: green;
       }
     }
 /* fin definicion de la animación */
@@ -19,7 +21,7 @@
     .caja {
       width: 100px;
         height: 100px;
-        background-color: coral;
+/*        background-color: coral;*/
         position: relative;
 /* argumentos de la animación */
         animation: mover 6s ease-in-out infinite alternate;
