@@ -23,13 +23,19 @@
   }
 
   .contenedor:hover {
-    transform: rotate(-25deg) scale(1.2) translateX(20px);
+    transform: rotate(-25deg) scale(1.2) ;
   }
 
   .caja {
     width: 100px;
     height: 100px;
+    transition: transform 0.5s;
   }
+
+  .caja:hover {
+    transform: rotate(25deg)  ;
+  }
+
 </style>
 </head>
 <body>
