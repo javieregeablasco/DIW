@@ -397,4 +397,7 @@ transform: perspective(500px) rotateY(45deg);
 # 4. Animación de imagenes
 https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
 
+# 4. Animación de sprites
+https://lenguajecss.com/animaciones/animaciones/spritesheets-css/
+
 ### 5.5.2 Tarea RA3-CEf-1  
