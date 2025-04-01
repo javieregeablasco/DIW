@@ -5,52 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ejemplo de Transición</title>
   <style>
-  body {
-  margin: 0;
-  height: 200px;
-}
+    body {
+      margin: 0;
+      height: 200px;
+    }
 
-section.page {
-  height: 100vh;
-  color: white;
-  background: color-mix(in srgb, indigo, black var(--dark));
-}
+    section.page {
+      height: 100vh;
+      color: white;
+      background: color-mix(in srgb, indigo, black var(--dark));
+    }
 
-.page-1 { --dark: 0% }
-.page-2 { --dark: 25% }
-.page-3 { --dark: 50% }
-.page-4 { --dark: 75% }
+    .page-1 { --dark: 0%; }
+    .page-2 { --dark: 25%; }
+    .page-3 { --dark: 50%; }
+    .page-4 { --dark: 75%; }
 
-.indicator {
-  background: grey;
-  width: 100px;
-  height: 25px;
-  position: fixed;
-  top: 25px;
-  right: 50px;
+    .indicator {
+      background: grey;
+      width: 100px;
+      height: 25px;
+      position: fixed;
+      top: 25px;
+      right: 50px;
+    }
 
-  & .bar {
-    width: 0%;
-    height: 100%;
-    background: gold;
-    animation: resize auto linear;
-    animation-timeline: scroll(root block);
-  }
-}
+    .indicator .bar {
+      width: 0%;
+      height: 100%;
+      background: gold;
+      animation: resize linear;
+      animation-timeline: scroll(root block);
+    }
 
-@keyframes resize {
-  0% { width: 0% }
-  100% { width: 100% }
-}
-
+    @keyframes resize {
+      0% { width: 0%; }
+      100% { width: 100%; }
+    }
   </style>
 </head>
 <body>
   <section class="page page-1">Página 1</section>
-<section class="page page-2">Página 2</section>
-<section class="page page-3">Página 3</section>
-<section class="page page-4">Página 4</section>
-<div class="indicator"><div class="bar"></div></div>
-
+  <section class="page page-2">Página 2</section>
+  <section class="page page-3">Página 3</section>
+  <section class="page page-4">Página 4</section>
+  <div class="indicator"><div class="bar"></div></div>
 </body>
 </html>
