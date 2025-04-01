@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animación CSS</title>
+  <style>
+/* definicion de la animación */
+    @keyframes mover {
+      0% {
+        transform: translateX(0);
+        background-color: green;
+      }
+
+      33% {
+        transform: translateX(333px);
+        background-color: red;
+      }
+
+      100% {
+        transform: translateX(1000px);
+        background-color: blue;
+      }
+    }
+/* fin definicion de la animación */
+
+    .caja {
+      width: 100px;
+        height: 100px;
+        position: relative;
+/* argumentos de la animación */
+        animation: mover 6s ease-in-out 6s infinite alternate;
+/* fin argumentos de la animación */
+        }
+  </style>
+</head>
+
+<body>
+  <div class="caja"></div>
+</body>
+</html>
