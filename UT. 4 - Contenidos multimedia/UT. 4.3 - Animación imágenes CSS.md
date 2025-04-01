@@ -394,6 +394,7 @@ transform: perspective(500px) rotateY(45deg);
 ```
 👉 **Cuando pasas el ratón sobre `.caja`, se rota 15°, aumenta un 20% de tamaño y se mueve 20px a la derecha.**  
 
-
+# 4. Animación de imagenes
+https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
 
 ### 5.5.2 Tarea RA3-CEf-1  
