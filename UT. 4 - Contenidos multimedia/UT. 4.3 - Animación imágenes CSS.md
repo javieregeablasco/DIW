@@ -285,12 +285,8 @@ Si queremos que todas las propiedades animables sufran una transición, podemos 
 
 >**Ejercicio 1:**  
 Modificar el código para que el cuadrado tenga las siguientes transiciones:
-- La animación se iniciará 4 segundos después de cargarse la página.
-- El color inicial será `green`.
-- El color final será `blue`. 
-- La animación tendrá un punto intermedio con las siguientes condiciones: 
-  - Al tiempo 2s la animacion deberá haber recorrido `333px`.
-  - Al tiempo 2s, el color de la animación será `red`. 
+- El color final será `azul`. 
+- La forma pasará de **cuadrada a circular**.
 
 <br>
 
@@ -307,12 +303,11 @@ Modificar el código para que el cuadrado tenga las siguientes transiciones:
 
 
 Animaciones en CSS3
-Transiciones en CSS3
+
 Transformaciones en CSS3  
 
 
 
-https://www.rafelsanso.com/transiciones-en-css3/
 
 https://www.rafelsanso.com/transformaciones-en-css3/
 

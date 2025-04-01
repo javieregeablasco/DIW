@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Transición</title>
+  <style>
+    body {
+      margin-top: 10rem;
+      display:flex;
+      justify-content: center;       
+    }
+
+    .caja {
+      width: 100px;
+      height: 100px;
+      background-color: coral;
+      transition: background-color 2s ease-in-out, border-radius 2s ease-in-out;
+    }
+    .caja:hover {
+      background-color: blue;
+      border-radius: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="caja"></div>
+</body>
+</html>
