@@ -7,24 +7,34 @@
   <style>
     body {
       margin-top: 10rem;
-      display:flex;
+      display: flex;
       justify-content: center;       
     }
-
+  
+    .contenedor {
+      width: 100px;
+      height: 100px;
+      margin: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.5s ease-in-out;
+    }
+  
+    .contenedor:hover {
+      transform: rotate(-25deg) scale(1.2) translateX(20px);
+    }
+  
     .caja {
       width: 100px;
       height: 100px;
-      background: red;
-      margin: 50px;
-      transition: transform 0.5s ease-in-out;
-    }
-
-    .caja:hover {
-      transform: rotate(-25deg) scale(1.2) translateX(20px);
     }
   </style>
-</head>
-<body>
-  <img class="caja" src="../img/SVG_logo.svg.png" alt="">
-</body>
+  </head>
+  <body>
+    <div class="contenedor">
+      <img class="caja" src="../img/SVG_logo.svg.png" alt="">
+    </div>
+  </body>
+  
 </html>
