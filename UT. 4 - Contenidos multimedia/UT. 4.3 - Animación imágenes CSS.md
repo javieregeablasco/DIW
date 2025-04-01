@@ -286,7 +286,10 @@ Si queremos que todas las propiedades animables sufran una transición, podemos 
 >**Ejercicio 1:**  
 Modificar el código para que el cuadrado tenga las siguientes transiciones:
 - El color final será `azul`. 
-- La forma pasará de **cuadrada a circular**.
+- La forma de la caja pasará de **cuadrada a circular**.
+
+>**Ejercicio 2:**  
+XXX
 
 <br>
 
