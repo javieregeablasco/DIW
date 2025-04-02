@@ -13,8 +13,10 @@
   }
 
   img {
-    object-fit:cover;
-
+    width: 25vw;
+    height: 25vw;
+    margin-top: 4px;
+    object-fit:fill;
   }
 
   .contenedor {
@@ -43,8 +45,7 @@
   }
 
   .caja:hover {
-    transition: transform 0.5s;
-    transform: rotate(25deg);
+    transition: transform 0.5s ease-in-out;
     overflow: hidden;
     height: auto;
   }
