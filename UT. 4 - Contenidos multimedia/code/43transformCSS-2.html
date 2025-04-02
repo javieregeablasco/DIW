@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformaciones</title>
+  <style>
+
+    body {
+      margin-top: 10rem;
+      display: flex;
+      justify-content: center;       
+    }
+    
+    .contenedor {
+      width: 25vw;
+      height: 25vw;      
+      padding: 2px;
+      border: solid 1px rgb(185, 182, 189);
+      border-radius: 0.35rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.5s ease-in-out;
+      transform-origin: bottom left;
+      overflow: hidden;
+    }
+    
+    .contenedor:hover {
+      transform: rotate(-15deg);
+    }
+    
+    img {
+      width: 25vw;
+      height: 25vw;
+      object-fit:cover;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    img:hover {
+      transform: rotate(15deg) scale(1.9) translateY(65px) translateX(5px);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <img src="../img/portrait-girl.jpg" alt=""></div>
+  </div>
+</body>
+
+</html>
