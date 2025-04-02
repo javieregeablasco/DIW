@@ -435,7 +435,6 @@ Insertar dentro de un documento HTML <a href="./img/cocrodilo.jpg">**esta imagen
 https://animista.net/play/basic/swing
 
 https://lenguajecss.com/css/efectos/filtros-css/
-https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
 
 
 # 4. Animación de sprites
