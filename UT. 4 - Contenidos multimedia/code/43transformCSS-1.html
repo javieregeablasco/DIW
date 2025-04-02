@@ -12,14 +12,7 @@
     justify-content: center;       
   }
 
-  .caja img {
-    width: 25vw;
-    height: 25vw;
-    margin-top: 4px;
-    object-fit:fill;
-    transition: transform 0.5s ease-in-out;
-  }
-
+  
   .contenedor {
     width: 25vw;
     height: 25vw;
@@ -39,10 +32,17 @@
   /* https://www.reddit.com/r/webdev/comments/ajepct/css_transform_rotation_without_moving_object/ */
   /* https://www.youtube.com/watch?v=ymuBowcODVU */
   
+  .caja img {
+    width: 25vw;
+    height: 25vw;
+    margin-top: 4px;
+    object-fit:fill;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+  }
   
   .caja img:hover {
     transform: rotate(25deg);
-    overflow: hidden;
   }
 
 </style>
