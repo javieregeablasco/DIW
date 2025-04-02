@@ -429,7 +429,9 @@ Algunos de los principales estilos incluyen:
 ### 4.1.6. - Ejercicio
 Insertar dentro de un documento HTML <a href="./img/cocrodilo.jpg">**esta imagen**</a> usando todos los valores posibles de `object-fit`. Comprobar las diferencias en los resultados obtenidos.    
 
-# 4.2. Aplicación de estilos CSS para animar imágenes
+## 4.2. Aplicación de estilos CSS para animar imágenes
+
+
 
 https://lenguajecss.com/css/efectos/filtros-css/
 https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
