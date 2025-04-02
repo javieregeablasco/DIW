@@ -395,10 +395,45 @@ transform: perspective(500px) rotateY(45deg);
 👉 **Cuando pasas el ratón sobre `.caja`, se rota 15°, aumenta un 20% de tamaño y se mueve 20px a la derecha.**  
 
 # 4. Animación de imagenes
-## 4.1. - Estilos sobre imágenes
+## 4.1. - Estilos CSS sobre imágenes
+Los estilos CSS permiten mejorar el renderizado de las imágenes, adaptarlas al diseño de la página y optimizar la experiencia del usuario.  
+Algunos de los principales estilos incluyen:
+### 4.1.1. - Tamaño y ajuste
+   - `width` y `height`: Definen el tamaño de la imagen.
+   - `max-width: 100%`: Hace que la imagen sea responsive.
+   - `object-fit`: Controla cómo la imagen se ajusta a su contenedor.
+     - `cover`: La imagen cubre todo el contenedor sin deformarse.
+     - `contain`: Se ajusta sin recortar.
+     - `fill`: Se estira para llenar el espacio.
+     - `none`: La imagen no se redimensiona.
 
+### 4.1.2. - Bordes y sombras
+   - `border-radius`: Permite crear esquinas redondeadas.
+   - `box-shadow`: Agrega sombras alrededor de la imagen.
 
+### 4.1.3. - Filtros y efectos
+   - `filter`: Aplica efectos como:
+     - `blur(xpx)`: Difumina la imagen.
+     - `grayscale(100%)`: Convierte la imagen a escala de grises.
+     - `brightness(1.5)`: Aumenta el brillo.
+     - `contrast(200%)`: Aumenta el contraste.
+   - `mix-blend-mode`: Modifica la fusión de la imagen con el fondo.
+
+### 4.1.4. - Transparencia y opacidad
+   - `opacity`: Ajusta la transparencia de la imagen.
+
+### 4.1.5. - Posicionamiento
+   - `position`: Define cómo se coloca la imagen en la página (`absolute`, `relative`, `fixed`, etc.).
+   - `z-index`: Controla si la imagen se muestra por encima o debajo de otros elementos.
+
+### 4.1.6. - Ejercicio
+Insertar dentro de un documento HTML <a href="./img/cocrodilo.jpg">**esta imagen**</a> usando todos los valores posibles de `object-fit`. Comprobar las diferencias en los resultados obtenidos.    
+
+# 4.2. Aplicación de estilos CSS para animar imágenes
+
+https://lenguajecss.com/css/efectos/filtros-css/
 https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
+
 
 # 4. Animación de sprites
 https://lenguajecss.com/animaciones/animaciones/spritesheets-css/
