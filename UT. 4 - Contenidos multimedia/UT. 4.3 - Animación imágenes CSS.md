@@ -436,7 +436,7 @@ Definir los estilos necesarios para obtener el siguiente resultado.
 
 ### 4.2.2. - Ejercicio 2
 Definir los estilos necesarios para obtener el siguiente resultado.
-
+<video controls src="./media/ejercicio2.mp4"></video>
 
 
 
