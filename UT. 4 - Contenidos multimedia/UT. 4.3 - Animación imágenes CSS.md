@@ -432,6 +432,7 @@ Insertar dentro de un documento HTML <a href="./img/cocrodilo.jpg">**esta imagen
 ## 4.2. Aplicación de estilos CSS para animar imágenes
 
 
+https://animista.net/play/basic/swing
 
 https://lenguajecss.com/css/efectos/filtros-css/
 https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
