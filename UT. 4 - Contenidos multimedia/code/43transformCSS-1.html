@@ -30,24 +30,22 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transform-origin: bottom left;
+       
       overflow: hidden;
     }
     
     img {
       width: 25vw;
       height: 25vw;
-      object-fit:cover;
+      filter:blur(5px);     
+      margin-left: 5px;
+      object-fit: cover;
     }
     
     .contenedor:hover {       
       animation: blur 0.3s forwards;
     }
     
-    img {
-      filter:blur(5px);     
-      margin-left: 5px;
-    }
 
 
   </style>
