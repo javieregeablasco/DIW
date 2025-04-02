@@ -24,7 +24,8 @@
       transition: transform 0.5s ease-in-out;
       transform-origin: bottom left;
       overflow: hidden;
-      filter: blur(5px)
+      filter: blur(5px);
+      transition: transform 0.5s ease-in-out;
     }
     
    
@@ -33,9 +34,11 @@
       width: 25vw;
       height: 25vw;
       object-fit:cover;
-      transition: transform 0.5s ease-in-out;
     }
     
+    .contenedor:hover {
+      transform: blur();
+    }
 
 
   </style>
