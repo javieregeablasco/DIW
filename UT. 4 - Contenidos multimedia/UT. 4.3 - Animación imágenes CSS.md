@@ -438,6 +438,9 @@ Definir los estilos necesarios para obtener el siguiente resultado.
 Definir los estilos necesarios para obtener el siguiente resultado.
 <video controls src="./media/ejercicio2.mp4"></video>
 
+### 4.2.2. - Ejercicio 3
+Definir los estilos necesarios para obtener el siguiente resultado.
+
 
 
 https://animista.net/play/basic/swing
