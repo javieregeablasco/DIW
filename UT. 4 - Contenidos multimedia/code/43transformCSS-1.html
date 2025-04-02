@@ -6,46 +6,42 @@
   <title>Transformaciones</title>
   <style>
 
-  body {
-    margin-top: 10rem;
-    display: flex;
-    justify-content: center;       
-  }
+    body {
+      margin-top: 10rem;
+      display: flex;
+      justify-content: center;       
+    }
+    
+    .contenedor {
+      width: 25vw;
+      height: 25vw;
+      margin: 2rem;
+      border: solid 2px rgb(120, 9, 211);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.5s ease-in-out;
+      transform-origin: bottom left;
+      overflow: hidden;
+    }
+    
+    .contenedor:hover {
+      transform: rotate(-25deg);
+    }
+    
+    .caja img {
+      width: 25vw;
+      height: 25vw;
+      margin-top: 4px;
+      object-fit:fill;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .caja img:hover {
+      transform: rotate(25deg) scale(1.1);
+    }
 
-  
-  .contenedor {
-    width: 25vw;
-    height: 25vw;
-    margin: 2rem;
-    border: solid 2px rgb(120, 9, 211);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.5s ease-in-out;
-    transform-origin: bottom left;
-  }
-  
-  .contenedor:hover {
-    transform: rotate(-25deg);
-  }
-  
-  /* https://www.reddit.com/r/webdev/comments/ajepct/css_transform_rotation_without_moving_object/ */
-  /* https://www.youtube.com/watch?v=ymuBowcODVU */
-  
-  .caja img {
-    width: 25vw;
-    height: 25vw;
-    margin-top: 4px;
-    object-fit:fill;
-    transition: transform 0.5s ease-in-out;
-    overflow: hidden;
-  }
-  
-  .caja img:hover {
-    transform: rotate(25deg) scale(1.1);
-  }
-
-</style>
+  </style>
 </head>
 <body>
   <div class="contenedor">
