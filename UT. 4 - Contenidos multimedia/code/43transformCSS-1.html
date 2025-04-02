@@ -6,7 +6,11 @@
   <title>Transformaciones</title>
   <style>
 
-    
+    body {
+      margin-top: 10rem;
+      display: flex;
+      justify-content: center;       
+    }
     
     .contenedor {
       width: 25vw;
@@ -25,15 +29,14 @@
       transform: rotate(-25deg);
     }
     
-    .caja img {
+    img {
       width: 25vw;
       height: 25vw;
-      margin-top: 4px;
       object-fit:fill;
       transition: transform 0.5s ease-in-out;
     }
     
-    .caja img:hover {
+    img:hover {
       transform: rotate(25deg) scale(1.1);
     }
 
@@ -41,7 +44,7 @@
 </head>
 <body>
   <div class="contenedor">
-    <div class="caja"><img src="../img/SVG_logo.svg.png" alt=""></div>
+    <img src="../img/SVG_logo.svg.png" alt=""></div>
 
   </div>
 </body>
