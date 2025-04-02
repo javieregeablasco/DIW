@@ -430,7 +430,8 @@ Algunos de los principales estilos incluyen:
 Insertar dentro de un documento HTML <a href="./img/cocrodilo.jpg">**esta imagen**</a> usando todos los valores posibles de `object-fit`. Comprobar las diferencias en los resultados obtenidos.    
 
 ## 4.2. Aplicación de estilos CSS para animar imágenes
-### 4.2.1. - 
+### 4.2.1. - Ejercicio 1
+Definir los estilos para obtener el 
 
 
 https://animista.net/play/basic/swing
