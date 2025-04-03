@@ -238,7 +238,32 @@ Si queremos que todas las propiedades animables sufran una transición, podemos 
   width: 100px;
   height: 100px;
   background-color: purple;
+  opacity: 0.25;
+  border: 2px solid black;
   transition: all 0.5s ease;
+}
+
+.caja:hover {
+  width: 120px;
+  height: 120px;
+  background-color: pink;
+}
+```
+
+**Nota:**  
+Usar **all** no se considera **una buena práctica** ya que sobrecarga el navegador y puede traducirse en posibles sobresaltos de la animación durante la navegación.  
+Si solo queremos una transición de algunas propiedades podemos especificarlas separándolas por `comas (,)`.  
+
+```css
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  opacity: 0.25;
+  border: 2px solid black;
+  transition: width 0.5s ease,
+              height: 0.5s ease,
+              background-color: 0.5s ease; 
 }
 
 .caja:hover {
