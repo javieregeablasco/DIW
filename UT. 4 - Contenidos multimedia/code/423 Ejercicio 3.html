@@ -41,6 +41,10 @@
       transform-origin: bottom bottom;
     }
     
+    .recorte {
+      mask-image: circle(8rem at center);
+    }
+
     img:hover {       
       filter: blur(0px);
     }
@@ -49,7 +53,7 @@
 <body>
   <div class="contenedor">
     <div class="mascara"></div>    
-    <img src="../img/portrait-girl.jpg" alt="">
+    <img class="recorte" src="../img/portrait-girl.jpg" alt="">
    
   </div>
 </body>
