@@ -20,12 +20,13 @@
     }
     
     .mascara {
-      width: 12rem;
-      height: 12rem;
+      width: 20rem;
+      height: 20rem;
       background: red;
+      opacity: 0.25;
       float: left;
-      shape-outside: circle(6rem at center);
-      clip-path: circle(6rem at center);
+      /*shape-outside: circle(6rem at center);*/
+      clip-path: circle(8rem at center);
       position: absolute;
       z-index: 5;
     }
@@ -49,8 +50,8 @@
 </head>
 <body>
   <div class="contenedor">
-    
-    <img class="mascara" src="../img/portdrait-girl.jpg" alt="">
+    <div class="mascara"></div>    
+    <img src="../img/portrait-girl.jpg" alt="">
    
   </div>
 </body>
