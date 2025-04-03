@@ -314,7 +314,7 @@ transform: rotate(45deg);
 ```css
 transform: rotate(45deg) scale(1.5) translateX(50px);
 ```
-## 4.2. - Tipos de Transformaciones**
+## 4.2. - Tipos de Transformaciones
 ### 4.2.1. - Traslación (`translate`)
 Mueve un elemento en los ejes X, Y o Z sin cambiar su tamaño o forma.
 ```css
@@ -354,7 +354,7 @@ transform: skew(20deg, -15deg); /* Inclinación en ambos ejes */
 ```
 
 
-## 4.3. - Transformaciones en 3D**
+## 4.3. - Transformaciones en 3D
 Además de `rotateX()`, `rotateY()` y `rotateZ()`, CSS permite la transformación en el espacio tridimensional mediante:
 - **`perspective()`**: Define la distancia de la cámara.
 - **`translateZ()`**: Mueve el objeto en el eje Z.
@@ -365,7 +365,7 @@ Ejemplo:
 transform: perspective(500px) rotateY(45deg);
 ```
 
-## 4. Ejemplo Práctico**
+>**Ejemplo**
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -392,7 +392,6 @@ transform: perspective(500px) rotateY(45deg);
 </body>
 </html>
 ```
-👉 **Cuando pasas el ratón sobre `.caja`, se rota 15°, aumenta un 20% de tamaño y se mueve 20px a la derecha.**  
 
 # 4. Animación de imagenes
 ## 4.1. - Estilos CSS sobre imágenes
@@ -438,19 +437,20 @@ Definir los estilos necesarios para obtener el siguiente resultado.
 Definir los estilos necesarios para obtener el siguiente resultado.
 <video controls src="./media/ejercicio2.mp4"></video>
 
-### 4.2.2. - Ejercicio 3
+### 4.2.3. - Ejercicio 3
 Definir los estilos necesarios para obtener el siguiente resultado.
 
+introducir la máscara  
 
+### 4.2.4. Tarea RA3-CEf-1  
 
 https://animista.net/play/basic/swing
 
 https://lenguajecss.com/css/efectos/filtros-css/
 
 
-# 4. Animación de sprites
+# 5. Animación de sprites
 https://lenguajecss.com/animaciones/animaciones/spritesheets-css/
 
-### 5.5.2 Tarea RA3-CEf-1  
 
 https://www.youtube.com/watch?v=ymuBowcODVU
