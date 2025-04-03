@@ -466,8 +466,9 @@ Definir los estilos necesarios para obtener el siguiente resultado:
 Definir los estilos necesarios para obtener el siguiente resultado:
 ![alt text](./img/ejercicio3.png)
 
+### 4.2.3. - Ejercicio 4
+introducir el movimiento dentro de una mascara.  
 
-introducir la máscara  
 
 ### 4.2.4. Tarea RA3-CEf-1  
 
