@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Transformaciones</title>
   <style>
-   
+    body {
+      margin-top: 10rem;
+      display: flex;  
+      justify-content: center;       
+    }
     
     .contenedor {
       width: 25rem;
@@ -34,8 +38,8 @@
       margin: 1rem;          
       object-fit: cover;
       transform-origin: bottom bottom;
-/*      clip-path: circle(8rem at center 8.5rem);
-*/      
+      clip-path: circle(8rem at center 8.5rem);
+      
     }
     
     
@@ -47,9 +51,9 @@
 </head>
 <body>
   <div class="contenedor">
-    <div class="mascara"></div>    
+    <div></div>    
     <img src="../img/portrait-girl.jpg" alt="">
-    <br>    
+    
   </div>
   <p>Texto para mostrar que después del recorte el elemento sigue ocupando todo el espacio</p>
 </body>
