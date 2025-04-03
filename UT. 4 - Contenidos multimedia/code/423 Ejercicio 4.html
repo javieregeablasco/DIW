@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformaciones</title>
+  <style>
+    body {
+      margin-top: 10rem;
+      display: flex;        
+      justify-content: center;       
+    }
+    
+    .contenedor {
+      width: 25rem;
+      height: 25rem;      
+      display: flex;
+      justify-content: center;
+      align-items: center;       
+      flex-direction: column;
+    }
+    
+    .mascara {
+      width: 25rem;
+      height: 25rem;
+      background: red;
+      opacity: 0.25;      
+      position: absolute;
+      clip-path: circle(8rem at center 8.5rem);
+    }
+        
+    img {
+      width: 25rem;
+      height: 25rem;
+      padding: 2px;
+      border: solid 1px rgb(185, 182, 189);
+      border-radius: 0.35rem;
+      margin: 1rem;          
+      object-fit: cover;
+      transform-origin: bottom bottom;
+      clip-path: circle(8rem at center 8.5rem);      
+    }
+    
+    img:hover {       
+      filter: blur(0px);
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div></div>    
+    <img src="../img/portrait-girl.jpg" alt="">
+    <p>Texto para mostrar que después del recorte el elemento sigue ocupando todo el espacio</p>    
+  </div>
+</body>
+</html>

@@ -163,7 +163,7 @@ Modificar el código para que cumpla los siguientes requisitos:
 >**Ejercicio 2:**  
 Modificar el código para que realice la siguiente animación:
 
-<video src="./code/43animCSS-3.mp4" controls></video>
+<video src="./media/43animCSS-3.mp4" controls></video>
 
 # 3. Transiciones
 ## 3.1. - Introducción
