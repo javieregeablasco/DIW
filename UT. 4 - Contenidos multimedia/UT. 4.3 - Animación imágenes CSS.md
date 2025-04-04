@@ -471,7 +471,7 @@ Definir los estilos necesarios para obtener el siguiente resultado:
 introducir el movimiento dentro de una mascara.  
 <video controls src="./media/ejercicio4.mp4"></video>
 
-### 4.2.4. Tarea RA3-CEf-1  
+### 4.2.4. Tarea RA3-CEf-1
 
 https://animista.net/play/basic/swing
 
