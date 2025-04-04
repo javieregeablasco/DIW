@@ -456,26 +456,21 @@ Insertar dentro de un documento HTML <a href="./img/cocrodilo.jpg">**esta imagen
 ## 4.2. Aplicación de estilos CSS para animar imágenes
 ### 4.2.1. - Ejercicio 1
 Definir los estilos necesarios para obtener el siguiente resultado:
-<video controls src="./media/ejercicio1.mp4"></video>   
+<video controls src="./media/ejercicio1.mp4"></video>
 
 ### 4.2.2. - Ejercicio 2
-Definir los estilos necesarios para obtener el siguiente resultado: 
-
+Definir los estilos necesarios para obtener el siguiente resultado:
 <video controls src="./media/ejercicio2.mp4"></video>
 
-
 ### 4.2.3. - Ejercicio 3
-Definir los estilos necesarios para obtener el siguiente resultado:  
-
-<video controls src="./media/ejercicio3.mp4"></video>
+Definir los estilos necesarios para obtener el siguiente resultado:
+![alt text](./img/ejercicio3.png)
 
 ### 4.2.3. - Ejercicio 4
-Definir los estilos necesarios para obtener el siguiente resultado:  
 introducir el movimiento dentro de una mascara.  
+![alt text](./img/ejercicio.png)
 
-<video controls src="./media/ejercicio4.mp4"></video>
-
-### 4.2.4. Tarea RA3-CEf-1
+### 4.2.4. Tarea RA3-CEf-1  
 
 https://animista.net/play/basic/swing
 
