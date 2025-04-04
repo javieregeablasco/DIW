@@ -6,7 +6,7 @@ Palabras clave: DAW, DIW
 ---
 
 <div align=center>
-  <img src="./img/derechos-de-autor.jpg" width="75%">
+  <img src="./img/formatosaudio.png" width="75%">
 </div>
 <br> 
 
