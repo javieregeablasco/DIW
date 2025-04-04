@@ -507,7 +507,7 @@ Las **spritesheets en CSS** son una técnica que consiste en combinar múltiples
 
 ![alt text](./img/spritesheets.webp)
 
-## 6.2.2. - Herramientas para generar spritesheets
+## 6.2.2. - Herramientas para generar o utilizar spritesheets
 - [Sprite Cow](http://www.spritecow.com/): Extrae automáticamente posiciones de imágenes en una spritesheet.
 - [CSS Sprite Generator](https://www.toptal.com/developers/css/sprite-generator): Genera spritesheets automáticamente.
 
@@ -515,7 +515,7 @@ Las **spritesheets en CSS** son una técnica que consiste en combinar múltiples
 Hoy en día, con el uso de **SVGs y fuentes de iconos (como FontAwesome o Material Icons)**, el uso de spritesheets en CSS ha disminuido. También, en algunos casos, se prefiere `image-set()` para manejar imágenes de diferentes resoluciones.
 
 ## 6.3. - Animación de una spritesheet
-La **animación** se logra desplazando el `background-position` a lo largo del sprite durnate un tiempo determinado.
+La **animación** se logra desplazando el `background-position` a lo largo del sprite durante un tiempo determinado.
 
 ### 6.3.1. - Animación con linear
 Las animaciones de spritesheets en CSS se pueden hacer usando `@keyframes` y la propiedad `background-position`, combinándolas con la función de temporización `linear` para lograr un movimiento uniforme y fluido.

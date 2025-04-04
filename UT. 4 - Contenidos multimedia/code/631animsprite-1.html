@@ -4,22 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animaciones sprite</title>
-  <style>
-
-    .bernard {
-      width: 112px;
-      height: 156px;
-      background-image: url("../img/Geneforge-5-Shock-Trooper.png");
-      animation: walk 5s linear infinite;
-    }
-    
+  <style>    
     .sprite {
       width: 100px;  /* Tamaño de un solo fotograma */
       height: 100px; /* Altura del sprite */
       border: 4px solid blue;
       background-image: url(../img/spritesheets.webp);
       background-repeat: no-repeat;
-      animation: animarSprite 1s linear infinite;
+      animation: walk 10s linear infinite;
     }
 
     @keyframes walk {
@@ -30,6 +22,6 @@
   </style>
 </head>
 <body>
-  <div class="banner"></div>
+  <div class="sprite"></div>
 </body>
 </html>
