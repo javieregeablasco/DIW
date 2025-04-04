@@ -9,7 +9,8 @@
       margin-top: 3.5rem;
       display: flex;        
       justify-content: center;          
-      background-color: rgba(255, 0, 0, 0.088);   
+      background-color: rgba(255, 0, 0, 0.088); 
+      --left: 0px; 
     }
 
     .banner {
@@ -27,11 +28,12 @@
       height: 45rem;
       /* position: absolute; */
       transition: 0.7s;
+
     }
   
     .banner .product .soda {
       background-image: 
-          url(../img/etiqueta-scaled.png), 
+          url(../img/etiqueta-scaled.png) var(--left) 0, 
           url(../img/ampolla-ver2-r.png);
       background-size: auto 100%;
       width: 16.40rem;
@@ -40,8 +42,14 @@
       background-blend-mode: multiply ;
       mask-image: url(../img/ampolla-ver2-r.png);
       mask-size: auto 100%;
+      transition: 0.7s;
 
     }    
+
+    .banner .product:hover {
+      --left: -1px;
+
+    }
     /* 
     https://youtu.be/ymuBowcODVU?si=392ALabnYcZepNAk&t=185
       
