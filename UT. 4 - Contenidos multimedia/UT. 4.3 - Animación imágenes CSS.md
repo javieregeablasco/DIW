@@ -472,7 +472,7 @@ Definir los estilos necesarios para obtener el siguiente resultado:
 ### 4.2.3. - Ejercicio 4
 Definir los estilos necesarios para obtener el siguiente resultado:  
 introducir el movimiento dentro de una mascara.  
-
+ss
 <video controls src="./media/ejercicio4.mp4"></video>
 
 ### 4.2.4. Tarea RA3-CEf-1
