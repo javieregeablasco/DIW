@@ -487,63 +487,40 @@ https://animista.net/play/basic/swing
 /
 
 
-# 6. Animación de spritesheets
+# 6. Animación de spritesheets con CSS
+## 6.1. - Introducción
 Las **spritesheets en CSS** son una técnica que consiste en combinar múltiples imágenes en una sola imagen grande (sprite) y luego usar CSS para mostrar solo la parte que se necesita en un momento dado. 
 
-### **Ventajas de usar spritesheets**
+
+**Ventajas de usar spritesheets**
 1. **Menos solicitudes HTTP**: En lugar de cargar múltiples imágenes, se carga una sola, reduciendo el tiempo de carga.
 2. **Mejora del rendimiento**: Al reducir las solicitudes al servidor, se mejora la velocidad de carga de la web.
-3. **Facilidad de mantenimiento**: Agrupar iconos o imágenes en un solo archivo facilita su gestión.
+3. **Facilidad de mantenimiento**: Agrupar iconos o imágenes en un solo archivo facilita su gestión pero también genera más complejidad a la hora de modificar la spritesheet.
 4. **Evita parpadeos**: Al estar todas las imágenes precargadas en un solo archivo, se evita el retraso en la carga de imágenes individuales.
 
-### **Cómo usar una spritesheet en CSS**
-#### 1. **Crear la imagen spritesheet**
-Imagina que tienes un archivo `sprites.png` con varios iconos o imágenes:
+## 6.2. - Creación de una spritesheet
+### 6.2.1. - Condiciones iniciales
+  1️⃣ Cada viñeta (imagen) debe ocupar exactamente lo mismo (mismo ancho y alto).  
+  2️⃣ Las viñetas deben estar ordenadas en una línea horizontal, vertical o ambas.
 
-```
---------------------------------------
-| icono1 | icono2 | icono3 | icono4 |
---------------------------------------
-```
+>**Ejemplo de alineación horizontal de una sprite sheet:**
 
-#### 2. **Definir el `background-image`**
-Primero, se establece la imagen de fondo en un `div`:
+![alt text](./img/spritesheets.webp)
 
-```css
-.sprite {
-  width: 50px; /* Tamaño del icono */
-  height: 50px; /* Tamaño del icono */
-  background-image: url('sprites.png');
-  background-repeat: no-repeat;
-}
-```
-
-#### 3. **Ajustar la posición de cada imagen con `background-position`**
-Cada icono dentro de la spritesheet se selecciona ajustando su posición:
-
-```css
-.icono1 { background-position: 0px 0px; }
-.icono2 { background-position: -50px 0px; }
-.icono3 { background-position: -100px 0px; }
-.icono4 { background-position: -150px 0px; }
-```
-
-#### 4. **Aplicarlo en HTML**
-```html
-<div class="sprite icono1"></div>
-<div class="sprite icono2"></div>
-<div class="sprite icono3"></div>
-<div class="sprite icono4"></div>
-```
-
-### **Herramientas útiles para generar spritesheets**
+## 6.2.2. - Herramientas para generar spritesheets
 - [Sprite Cow](http://www.spritecow.com/): Extrae automáticamente posiciones de imágenes en una spritesheet.
 - [CSS Sprite Generator](https://www.toptal.com/developers/css/sprite-generator): Genera spritesheets automáticamente.
 
-### **Alternativas modernas**
+## **Alternativas a las spritesheets**
 Hoy en día, con el uso de **SVGs y fuentes de iconos (como FontAwesome o Material Icons)**, el uso de spritesheets en CSS ha disminuido. También, en algunos casos, se prefiere `image-set()` para manejar imágenes de diferentes resoluciones.
 
-Si estás trabajando en un proyecto moderno, ¿quieres explorar estas alternativas o necesitas implementar spritesheets por compatibilidad?
+## 6.3. - Animación de una spritesheet
+La **animación** se logra desplazando el `background-position` a lo largo del sprite durnate un tiempo determinado.
+
+### 6.3.1. - Animación con linear
+Las animaciones de spritesheets en CSS se pueden hacer usando `@keyframes` y la propiedad `background-position`, combinándolas con la función de temporización `linear` para lograr un movimiento uniforme y fluido.
+
+
 
 
 https://lenguajecss.com/animaciones/animaciones/spritesheets-css/
