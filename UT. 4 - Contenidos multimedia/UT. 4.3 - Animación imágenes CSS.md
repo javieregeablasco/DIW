@@ -466,6 +466,7 @@ Definir los estilos necesarios para obtener el siguiente resultado:
 
 ### 4.2.3. - Ejercicio 3
 Definir los estilos necesarios para obtener el siguiente resultado:  
+
 ![alt text](./img/ejercicio3.png)
 
 ### 4.2.3. - Ejercicio 4
