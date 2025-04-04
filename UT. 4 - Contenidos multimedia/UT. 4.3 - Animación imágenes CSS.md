@@ -417,12 +417,18 @@ transform: perspective(500px) rotateY(45deg);
 </body>
 </html>
 ```
+## 4.4. - Diferencias entre las propiedades animation, transition y transform
+| Propiedad | Función | Aplicación |
+|-|-|-|
+| `transition` | Permite realizar cambios suaves entre dos estados de un elemento cuando ocurre un evento, como pasar el cursor sobre él (:hover). | Ideal para efectos básicos como cambios en el color, tamaño o posición. Solo anima entre un estado inicial y final, sin pasos intermedios. |
+| `transform` | Modifica instantáneamente la apariencia de un elemento, permitiendo rotarlo, escalarlo o moverlo en el espacio. | Aunque transform no genera animaciones por sí mismo, puede combinarse con transition o animation para lograr efectos más elaborados. |
+| `animation` | Permite definir múltiples estados intermedios en una animación y controlar aspectos como la duración, la repetición y la dirección. | A diferencia de transition, las animaciones pueden ejecutarse automáticamente al cargar la página o repetirse indefinidamente sin requerir la interacción del usuario. |
 
-# 4. Animación de imagenes
-## 4.1. - Estilos CSS sobre imágenes
+# 5. Animación de imagenes
+## 5.1. - Estilos CSS sobre imágenes
 Los estilos CSS permiten mejorar el renderizado de las imágenes, adaptarlas al diseño de la página y optimizar la experiencia del usuario.  
 Algunos de los principales estilos incluyen:
-### 4.1.1. - Tamaño y ajuste
+### 5.1.1. - Tamaño y ajuste
    - `width` y `height`: Definen el tamaño de la imagen.
    - `max-width: 100%`: Hace que la imagen sea responsive.
    - `object-fit`: Controla cómo la imagen se ajusta a su contenedor.
@@ -431,11 +437,11 @@ Algunos de los principales estilos incluyen:
      - `fill`: Se estira para llenar el espacio.
      - `none`: La imagen no se redimensiona.
 
-### 4.1.2. - Bordes y sombras
+### 5.1.2. - Bordes y sombras
    - `border-radius`: Permite crear esquinas redondeadas.
    - `box-shadow`: Agrega sombras alrededor de la imagen.
 
-### 4.1.3. - Filtros y efectos
+### 5.1.3. - Filtros y efectos
    - `filter`: Aplica efectos como:
      - `blur(xpx)`: Difumina la imagen.
      - `grayscale(100%)`: Convierte la imagen a escala de grises.
@@ -443,46 +449,103 @@ Algunos de los principales estilos incluyen:
      - `contrast(200%)`: Aumenta el contraste.
    - `mix-blend-mode`: Modifica la fusión de la imagen con el fondo.
 
-### 4.1.4. - Transparencia y opacidad
+### 5.1.4. - Transparencia y opacidad
    - `opacity`: Ajusta la transparencia de la imagen.
 
-### 4.1.5. - Posicionamiento
+### 5.1.5. - Posicionamiento
    - `position`: Define cómo se coloca la imagen en la página (`absolute`, `relative`, `fixed`, etc.).
    - `z-index`: Controla si la imagen se muestra por encima o debajo de otros elementos.
 
-### 4.1.6. - Ejercicio
+### 5.1.6. - Ejercicio
 Insertar dentro de un documento HTML <a href="./img/cocrodilo.jpg">**esta imagen**</a> usando todos los valores posibles de `object-fit`. Comprobar las diferencias en los resultados obtenidos.    
 
-## 4.2. Aplicación de estilos CSS para animar imágenes
-### 4.2.1. - Ejercicio 1
+## 5.2. Aplicación de estilos CSS para animar imágenes
+### 5.2.1. - Ejercicio 1
 Definir los estilos necesarios para obtener el siguiente resultado:  
 
 <video controls src="./media/ejercicio1.mp4"></video>
 
-### 4.2.2. - Ejercicio 2
+### 5.2.2. - Ejercicio 2
 Definir los estilos necesarios para obtener el siguiente resultado:
 
 <video controls src="./media/ejercicio2.mp4"></video>
 
-### 4.2.3. - Ejercicio 3
+### 5.2.3. - Ejercicio 3
 Definir los estilos necesarios para obtener el siguiente resultado:  
 
 ![alt text](./img/ejercicio3.png)
 
-### 4.2.3. - Ejercicio 4
+### 5.2.3. - Ejercicio 4
 Definir los estilos necesarios para obtener el siguiente resultado:  
 
 <video controls src="./media/ejercicio4.mp4"></video>
 
-### 4.2.4. Tarea RA3-CEf-1  
+### 5.2.4. Tarea RA3-CEf-1  
 
 https://animista.net/play/basic/swing
 
-https://lenguajecss.com/css/efectos/filtros-css/
+/
 
 
-# 5. Animación de sprites
+# 6. Animación de spritesheets
+Las **spritesheets en CSS** son una técnica que consiste en combinar múltiples imágenes en una sola imagen grande (sprite) y luego usar CSS para mostrar solo la parte que se necesita en un momento dado. 
+
+### **Ventajas de usar spritesheets**
+1. **Menos solicitudes HTTP**: En lugar de cargar múltiples imágenes, se carga una sola, reduciendo el tiempo de carga.
+2. **Mejora del rendimiento**: Al reducir las solicitudes al servidor, se mejora la velocidad de carga de la web.
+3. **Facilidad de mantenimiento**: Agrupar iconos o imágenes en un solo archivo facilita su gestión.
+4. **Evita parpadeos**: Al estar todas las imágenes precargadas en un solo archivo, se evita el retraso en la carga de imágenes individuales.
+
+### **Cómo usar una spritesheet en CSS**
+#### 1. **Crear la imagen spritesheet**
+Imagina que tienes un archivo `sprites.png` con varios iconos o imágenes:
+
+```
+--------------------------------------
+| icono1 | icono2 | icono3 | icono4 |
+--------------------------------------
+```
+
+#### 2. **Definir el `background-image`**
+Primero, se establece la imagen de fondo en un `div`:
+
+```css
+.sprite {
+  width: 50px; /* Tamaño del icono */
+  height: 50px; /* Tamaño del icono */
+  background-image: url('sprites.png');
+  background-repeat: no-repeat;
+}
+```
+
+#### 3. **Ajustar la posición de cada imagen con `background-position`**
+Cada icono dentro de la spritesheet se selecciona ajustando su posición:
+
+```css
+.icono1 { background-position: 0px 0px; }
+.icono2 { background-position: -50px 0px; }
+.icono3 { background-position: -100px 0px; }
+.icono4 { background-position: -150px 0px; }
+```
+
+#### 4. **Aplicarlo en HTML**
+```html
+<div class="sprite icono1"></div>
+<div class="sprite icono2"></div>
+<div class="sprite icono3"></div>
+<div class="sprite icono4"></div>
+```
+
+### **Herramientas útiles para generar spritesheets**
+- [Sprite Cow](http://www.spritecow.com/): Extrae automáticamente posiciones de imágenes en una spritesheet.
+- [CSS Sprite Generator](https://www.toptal.com/developers/css/sprite-generator): Genera spritesheets automáticamente.
+
+### **Alternativas modernas**
+Hoy en día, con el uso de **SVGs y fuentes de iconos (como FontAwesome o Material Icons)**, el uso de spritesheets en CSS ha disminuido. También, en algunos casos, se prefiere `image-set()` para manejar imágenes de diferentes resoluciones.
+
+Si estás trabajando en un proyecto moderno, ¿quieres explorar estas alternativas o necesitas implementar spritesheets por compatibilidad?
+
+
 https://lenguajecss.com/animaciones/animaciones/spritesheets-css/
 
-
-https://www.youtube.com/watch?v=ymuBowcODVU
+ https://www.spriters-resource.com/arcade/survivalarts/sheet/258961/
