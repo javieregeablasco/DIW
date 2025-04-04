@@ -468,7 +468,7 @@ Definir los estilos necesarios para obtener el siguiente resultado:
 
 ### 4.2.3. - Ejercicio 4
 introducir el movimiento dentro de una mascara.  
-
+![alt text](./media/ejercicio4.mp4)
 
 ### 4.2.4. Tarea RA3-CEf-1  
 
