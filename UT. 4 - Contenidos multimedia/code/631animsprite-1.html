@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animaciones sprite</title>
+  <style>
+    .bernard {
+      width: 112px;
+      height: 156px;
+      border: 4px solid blue;
+      background-image: url("bernard-bernoulli.png");
+      animation: walk 5s linear infinite;
+    }
+
+    @keyframes walk {
+      to { background-position: -672px; }
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="banner"></div>
+</body>
+</html>
