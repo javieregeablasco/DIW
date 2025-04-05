@@ -6,7 +6,9 @@
   <title>Animaciones 632</title>
   <style>    
    * {
-    --margen-izquierdo : calc(800) 
+    --margen-izquierdo : calc(800); 
+    --width: 800px;
+    --height: 220px;
    }
     body {
       margin-top: 10rem;
@@ -16,8 +18,8 @@
 
     }
     .sprite {      
-      width: 800px;  
-      height: 220px;      
+      width: var(--width);  
+      height: var(--height);      
       border: 2px solid rgba(112, 112, 187, 0.308);
       background-image: url(../img/632ejercicio/sprite-recortado.png);
       background-repeat: no-repeat; 
@@ -44,7 +46,7 @@
     document.addEventListener("mousemove", function(event) {
       posX = event.clientX;
       posY =event.clientY;
-      console.log('x',posY)
+      console.log('x',0)
     });
   </script>
 </body>
