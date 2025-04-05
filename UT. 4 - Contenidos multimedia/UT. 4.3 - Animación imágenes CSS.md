@@ -518,8 +518,39 @@ Hoy en día, con el uso de **SVGs y fuentes de iconos (como FontAwesome o Materi
 La **animación** se logra desplazando el `background-position` a lo largo del sprite durante un tiempo determinado.
 
 ### 6.3.1. - Animación con linear
-Las animaciones de spritesheets en CSS se pueden hacer usando `@keyframes` y la propiedad `background-position`, combinándolas con la función de temporización `linear` para lograr un movimiento uniforme y fluido.
+Las animaciones de spritesheets en CSS se pueden hacer usando `@keyframes` y la propiedad `background-position`, combinándolas con la función de temporización `linear` para lograr un movimiento lineal.
 
+>**Ejemplo:**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animaciones sprite</title>
+  <style>    
+    .sprite {
+      width: 60px;  /* Tamaño de un solo fotograma */
+      height: 125px; /* Altura del sprite */
+      margin-left: 50rem;
+      padding: 1rem;
+      border: 2px solid rgba(0, 0, 255, 0.308);
+      background-image: url(../img/spritesheets.webp);
+      background-repeat: no-repeat; 
+      animation: slide 10s linear infinite;
+    }
+
+    @keyframes slide {
+      to { background-position: -800px; }
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="sprite"></div>
+</body>
+</html>
+```
 
 
 
