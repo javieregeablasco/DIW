@@ -530,7 +530,7 @@ Las animaciones de spritesheets en CSS se pueden hacer usando `@keyframes` y la 
   <title>Animaciones sprite</title>
   <style>    
     .sprite {
-      width: 60px;  /* Tamaño de un solo fotograma */
+      width: 60px;  /* Tamaño para solo ver un fotograma */
       height: 125px; /* Altura del sprite */
       margin-left: 50rem;
       padding: 1rem;
@@ -551,6 +551,8 @@ Las animaciones de spritesheets en CSS se pueden hacer usando `@keyframes` y la 
 </body>
 </html>
 ```
+
+### 6.3.2. - Ejercicio de animación con linear
 
 
 
