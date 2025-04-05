@@ -19,16 +19,17 @@
       border: 2px solid rgba(0, 0, 255, 0.308);
       background-image: url(../img/632ejercicio/sprite-recortado.png);
       background-repeat: no-repeat; 
+      animation: slide 6s linear infinite;
     }
     
     @keyframes slide {
       to { background-position: -1400px; }
     }
     
-    .sprite:not:hover{
+    .sprite:hover{
+      animation-play-state: paused;
 
 
-      animation: slide 6s linear infinite;
     }
     
   </style>
