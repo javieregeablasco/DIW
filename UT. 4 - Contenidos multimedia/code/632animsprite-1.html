@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animaciones 632</title>
   <style>    
+   * {
+    --margen-izquierdo : calc(800) 
+   }
     body {
       margin-top: 10rem;
       display: flex;
@@ -28,7 +31,7 @@
     .sprite:hover{
       animation-play-state: paused;      
       filter: grayscale(1);
-      clip-path:circle(5rem)    }
+      clip-path:polygon()}
     
 
     
@@ -36,14 +39,14 @@
 </head>
 <body>
   <div class="sprite"></div>
+  <script>
+    let posX = 0, posY = 0;
+    document.addEventListener("mousemove", function(event) {
+      posX = event.clientX;
+      posY =event.clientY;
+    });
+  </script>
 </body>
-<script>
-  let posX = 0, posY = 0;
-  document.addEventListener("mousemove", function(event) {
-    posX = event.clientX;
-    posY =event.clientY;
-  });
-</script>
 
 </html>
 
