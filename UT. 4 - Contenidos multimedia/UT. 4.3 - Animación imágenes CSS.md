@@ -526,3 +526,6 @@ Las animaciones de spritesheets en CSS se pueden hacer usando `@keyframes` y la 
 https://lenguajecss.com/animaciones/animaciones/spritesheets-css/
 
  https://www.spriters-resource.com/arcade/survivalarts/sheet/258961/
+
+
+https://craftpix.net/freebies/free-satyr-tiny-style-2d-sprites/sprite generatir
