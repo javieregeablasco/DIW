@@ -42,7 +42,7 @@
   </style>
 </head>
 <body>
-  <div class="sprite">z</div>
+  <div id="carousel"  class="sprite">z</div>
   <script>
     let posX = 0, posY = 0;
     document.addEventListener("mousemove", function(event) {
@@ -50,7 +50,7 @@
       posY = event.clientY;      
     });
 
-    const contenedor = document.getElementsByClassName('sprite');
+    const contenedor = document.getElementById('carousel');
     const ancho = contenedor.offsetWidth;
     const alto = contenedor.offsetHeight;
     console.log('Ancho:', ancho);
