@@ -53,8 +53,12 @@
     const contenedor = document.getElementById('carousel');
     const ancho = contenedor.offsetWidth;
     const alto = contenedor.offsetHeight;
-    console.log('Ancho:', ancho);
-    console.log('Alto:', alto);
+        
+    const rectangulo = contenedor.getBoundingClientRect();
+    const X0 = rectangulo.left;
+    const Y0 = rectangulo.top;
+    const X1 = rectangulo.right;
+    const Y1 = rectangulo.bottom;     
 
   </script>
 
