@@ -24,6 +24,7 @@
       background-image: url(../img/632ejercicio/sprite-recortado.png);
       background-repeat: no-repeat; 
       animation: slide 10s linear infinite;
+      filter: grayscale(1);
     }
     
     @keyframes slide {
@@ -32,7 +33,6 @@
     
     .sprite:hover{
       animation-play-state: paused;      
-      filter: grayscale(1);
       clip-path: circle(4rem at center center);   
     
     }
