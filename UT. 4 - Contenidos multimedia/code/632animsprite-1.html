@@ -33,7 +33,7 @@
     .sprite:hover{
       animation-play-state: paused;      
       filter: grayscale(1);
-      clip-path:polygon()
+      clip-path: circle(8rem at center 8.5rem);   
     
     }
     
@@ -42,7 +42,7 @@
   </style>
 </head>
 <body>
-  <div id="carousel"  class="sprite">z</div>
+  <div id="carousel"  class="sprite"></div>
   <script>
     let posX = 0, posY = 0;
     document.addEventListener("mousemove", function(event) {
