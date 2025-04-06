@@ -42,23 +42,42 @@
   </style>
 </head>
 <body>
-  <div id="carousel"  class="sprite"></div>
-  <script>
-    let posX = 0, posY = 0;
-    document.addEventListener("mousemove", function(event) {
-      posX = event.clientX;
-      posY = event.clientY;      
+    <div id="carousel"  class="sprite"></div>
+    <script>
+      let posX = 0, posY = 0;
+      const contenedor = document.getElementById('carousel');
+      const ancho = contenedor.offsetWidth;
+      const alto = contenedor.offsetHeight;
+            
+      const rectangulo = contenedor.getBoundingClientRect();
+      const X0 = rectangulo.left;
+      const Y0 = rectangulo.top;
+      const X1 = rectangulo.right;
+      const Y1 = rectangulo.bottom;  
+
+      document.addEventListener("mousemove", function(event) {
+        posX = event.clientX;
+        posY = event.clientY;  
+
+    // Verificar si el mouse está dentro de los límites del contenedor
+      if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
+    // Calcular la posición relativa dentro del contenedor
+      const relativeX = posX - X0;
+      const relativeY = posY - Y0;
+
+      // Actualizar la propiedad clip-path
+      contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
+      contenedor.style.filter = 'grayscale(1)'; // Mantener el filtro grayscale
+      contenedor.style.animationPlayState = 'running'; // Mantener la animación pausada
+    } else {
+      // Si el mouse sale, revertir el clip-path y el filtro (opcional)
+      contenedor.style.removeProperty('clip-path');
+      contenedor.style.removeProperty('filter');
+      contenedor.style.animationPlayState = 'running'; // Reanudar la animación
+    }  
+
     });
 
-    const contenedor = document.getElementById('carousel');
-    const ancho = contenedor.offsetWidth;
-    const alto = contenedor.offsetHeight;
-        
-    const rectangulo = contenedor.getBoundingClientRect();
-    const X0 = rectangulo.left;
-    const Y0 = rectangulo.top;
-    const X1 = rectangulo.right;
-    const Y1 = rectangulo.bottom;     
 
   </script>
 
