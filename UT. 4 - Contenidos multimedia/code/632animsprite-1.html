@@ -64,16 +64,13 @@
     // Calcular la posición relativa dentro del contenedor
       const relativeX = posX - X0;
       const relativeY = posY - Y0;
-
       // Actualizar la propiedad clip-path
       contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-      contenedor.style.filter = 'grayscale(1)'; // Mantener el filtro grayscale
-      contenedor.style.animationPlayState = 'running'; // Mantener la animación pausada
-    } else {
+         
+      } else {
       // Si el mouse sale, revertir el clip-path y el filtro (opcional)
       contenedor.style.removeProperty('clip-path');
       contenedor.style.removeProperty('filter');
-      contenedor.style.animationPlayState = 'running'; // Reanudar la animación
     }  
 
     });
