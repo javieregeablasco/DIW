@@ -25,10 +25,9 @@
     }
 
     .capaFondo:hover {
-      mask: radial-gradient(circle 2rem at center, transparent 0 4rem, black 4rem);
       animation-play-state: paused; 
     }
-
+    
     .lupa { 
       position: absolute;
       top: 0;
@@ -39,10 +38,11 @@
       animation: slide 10s linear infinite;          
       filter: grayscale(1);    
     }
-         
+    
     .lupa:hover{
       animation-play-state: paused;      
       clip-path: circle(8rem at center center);  
+      mask: radial-gradient(circle 2rem at center, transparent 0 4rem, black 4rem);
          
     }
      
