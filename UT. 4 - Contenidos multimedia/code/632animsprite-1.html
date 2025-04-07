@@ -24,12 +24,7 @@
       filter: grayscale(1);    
     }
     
-    .lupa:hover{
-      animation-play-state: paused;      
-      /* clip-path: circle(8rem at center center);   */
-      /* mask: radial-gradient(circle 2rem at center, transparent 0 4rem, black 4rem);  */
-        
-    }
+   
      
     @keyframes slide {
       to { 
@@ -76,7 +71,8 @@
            console.log(relativeX)
         // actualizar clip-path
           contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-          contenedor.style.filter='none';                           
+          contenedor.style.filter='none';   
+          contenedor.animate.setProperty('animation-play-state:', paused);                        
            
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
