@@ -5,43 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animaciones 632</title>
   <style>    
-   * {
-    --width: 800px;
-    --height: 220px;
-   }
+    * {
+     --width: 800px;
+     --height: 220px;
+    }
 
-   body {
-     margin-top: 10rem;
-     display: flex;
-     justify-content: center;
-   }
+    body {
+      margin-top: 10rem;
+      display: flex;
+      justify-content: center;
+    }
 
-   .sprite {      
-     position: relative;
-     width: var(--width);  
-     height: var(--height);      
-     border: 2px solid rgba(112, 112, 187, 0.308);
-     background-image: url(../img/632ejercicio/sprite-recortado.png);
-     animation: slide 10s linear infinite;
-     filter: grayscale(1);    
-   }
+    .sprite {             
+      width: var(--width);  
+      height: var(--height);      
+      border: 2px solid rgba(112, 112, 187, 0.308);
+      background-image: url(../img/632ejercicio/sprite-recortado.png);
+      animation: slide 10s linear infinite;
+      filter: grayscale(1);    
+    }
 
-   .lupa { 
-     position: absolute;                      
-     background-image: url(../img/632ejercicio/sprite-recortado.png);      
-     animation: slide 10s linear infinite;      
-   }
-        
-   .lupa:hover{
-      /*animation-play-state: paused;      */
-     clip-path: circle(8rem at center center);        
-   }
-    
-   @keyframes slide {
-     to { 
-       background-position: -1400px; 
-     }
-   }
+    .lupa { 
+                             
+      background-image: url(../img/632ejercicio/sprite-recortado.png);      
+      animation: slide 10s linear infinite;      
+    }
+         
+    .lupa:hover{
+       /*animation-play-state: paused;      */
+      clip-path: circle(8rem at center center);        
+    }
+     
+    @keyframes slide {
+      to { 
+        background-position: -1400px; 
+      }
+    }
 
     
   </style>
@@ -79,7 +78,7 @@
           const relativeY = posY - Y0;
           console.log('dentro')
         // actualizar clip-path
-          contenedorHijo.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
+       //  contenedorHijo.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
           //contenedorHijo.style.filter='none';          
          
         } else {
