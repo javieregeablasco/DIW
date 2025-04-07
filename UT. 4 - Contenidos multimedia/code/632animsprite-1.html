@@ -71,13 +71,14 @@
 
 
         // Verificar si el mouse está dentro de los límites del contenedor
-        if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
-          // coordenadas dentro del contenedor
-          const relativeX = posX - X0;
-          const relativeY = posY - Y0;
-          // actualizar clip-path
-          contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-          contenedor.style.filter='none';      
+      if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
+        // coordenadas dentro del contenedor
+        const relativeX = posX - X0;
+        const relativeY = posY - Y0;
+
+        // actualizar clip-path
+        contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
+        contenedor.style.filter='none';      
           
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
