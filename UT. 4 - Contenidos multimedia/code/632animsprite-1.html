@@ -59,21 +59,21 @@
       /*recuperar el contendor lupa*/
       const contenedor = document.getElementById('lupa');
 
-      /*posicion puntero raton*/
+      /*posicion puntero raton y coordenadas contenedor*/
       let posX = 0, posY = 0;
       document.addEventListener("mousemove", function(event) {
+        /*coordenadas puntero raton*/
         posX = event.clientX;
         posY = event.clientY;  
-        console.log(posX, posY)
+        
+        /*coordenadas del contenedor*/
+        const rectangulo = contenedor.getBoundingClientRect();
+        const X0 = rectangulo.left;
+        const Y0 = rectangulo.top;
+        const X1 = rectangulo.right;
+        const Y1 = rectangulo.bottom;  
+        console.log(X0, Y0)
       });
-      
-      /*coordenadas del contenedor*/
-      const rectangulo = contenedor.getBoundingClientRect();
-      const X0 = rectangulo.left;
-      const Y0 = rectangulo.top;
-      const X1 = rectangulo.right;
-      const Y1 = rectangulo.bottom;  
-      console.log(X0, Y0)
 
       // Verificar si el mouse está dentro de los límites del contenedor
       if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
