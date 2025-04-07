@@ -60,18 +60,18 @@
       const contenedor = document.getElementById('lupa');
 
       /*posicion puntero raton y coordenadas contenedor*/
-      let posX, posY,X0,X1,Y0,Y1;
       document.addEventListener("mousemove", function(event) {
+        const rectangulo = contenedor.getBoundingClientRect();
+        
         /*coordenadas puntero raton*/
-        posX = event.clientX;
-        posY = event.clientY;  
+        const posX = event.clientX;
+        const posY = event.clientY;  
         
         /*coordenadas del contenedor*/
-        const rectangulo = contenedor.getBoundingClientRect();
-        X0 = rectangulo.left;
-        Y0 = rectangulo.top;
-        X1 = rectangulo.right;
-        Y1 = rectangulo.bottom;  
+        const X0 = rectangulo.left;
+        const Y0 = rectangulo.top;
+        const X1 = rectangulo.right;
+        const Y1 = rectangulo.bottom;  
         console.log(X0, Y0)
       });
 
