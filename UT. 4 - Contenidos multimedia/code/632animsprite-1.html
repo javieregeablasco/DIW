@@ -23,22 +23,24 @@
       border: 2px solid rgba(112, 112, 187, 0.308);
       background-image: url(../img/632ejercicio/sprite-recortado.png);
       animation: slide 10s linear infinite;
-      filter: grayscale(1);   
-       
+      filter: grayscale(1);    
     }
 
     .lupa { 
       position: absolute;
-      top: 100;
-      left: 100;
+      top: 0;
+      left: 0;
       width: var(--width);
       height: var(--height); 
-                               
+      pointer-events: none;                            
       background-image: url(../img/632ejercicio/sprite-recortado.png);      
       animation: slide 10s linear infinite;      
     }
          
-   
+    .sprite:hover{
+       /*animation-play-state: paused;      */
+      clip-path: circle(8rem at center center);        
+    }
      
     @keyframes slide {
       to { 
@@ -49,7 +51,7 @@
   </style>
 </head>
 <body>
-  <div id="carousel" class="sprite">
+  <div id="carousel" class="sprite ">
     <div id="capaLupa" class="lupa"></div>
   </div>
 
