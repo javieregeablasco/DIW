@@ -28,8 +28,8 @@
 
     .lupa { 
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 200;
+      left: 200;
       width: var(--width);
       height: var(--height); 
       pointer-events: none;                            
@@ -38,7 +38,7 @@
     }
          
     .lupa:hover{
-       /*animation-play-state: paused;      */
+      animation-play-state: paused;      
       clip-path: circle(8rem at center center);        
     }
      
@@ -51,9 +51,8 @@
   </style>
 </head>
 <body>
-  <div id="carousel" class="sprite ">
-    <div id="capaLupa" class="lupa"></div>
-  </div>
+  <div id="carousel" class="sprite"></div>
+  <div id="capaLupa" class="lupa"></div>
 
 
     <script>
@@ -84,8 +83,8 @@
           const relativeY = posY - Y0;
            
         // actualizar clip-path
-          contenedor.style.setProperty('clip-path', 'circle(4rem at ${relativeX}px ${relativeY}px)');
-          contenedor.style.filter='none';          
+          contenedorHijo.style.setProperty('clip-path', 'circle(4rem at ${relativeX}px ${relativeY}px)');
+          contenedorHijo.style.filter='none';          
           
          
         } else {
