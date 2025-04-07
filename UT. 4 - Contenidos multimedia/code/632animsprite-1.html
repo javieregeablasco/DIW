@@ -69,11 +69,11 @@
         /*coordenadas del contenedor*/
         const X0 = rectangulo.left;
         const Y0 = rectangulo.top;
-        const X1 = rectangulo.right;
-        const Y1 = rectangulo.bottom;  
-        console.log("XO",X0,"X1",X1,"Y0",Y0,"Y1",Y1)
+        const X0X1 = rectangulo.top.toFixed;
+        const Y0Y1 = rectangulo.top.toFixed;  
+        console.log("XO",X0,"X1",X0X1,"Y0",Y0Y1)
         // Verificar si el mouse está dentro de los límites del contenedor
-        if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
+      /*  if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
           console.log(X0, Y0,X1,Y1, posX,posY)
           // coordenadas dentro del contenedor
           const relativeX = posX - X0;
@@ -87,7 +87,7 @@
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
           contenedor.style.removeProperty('clip-path');
           contenedor.style.removeProperty('filter');
-        }  
+        }  */
       });
       
       
