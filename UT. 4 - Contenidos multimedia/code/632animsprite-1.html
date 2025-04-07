@@ -32,20 +32,17 @@
       background-image: url(../img/632ejercicio/sprite-recortado.png);      
       animation: slide 10s linear infinite;      
     }
+        
+    .lupa:hover{
+      /*animation-play-state: paused;      */
+      clip-path: circle(8rem at center center);        
+    }
     
-
     @keyframes slide {
       to { 
         background-position: -1400px; 
       }
     }
-    
-    .lupa:hover{
-      /*animation-play-state: paused;      */
-      clip-path: circle(8rem at center center);   
-    
-    }
-    
 
     
   </style>
@@ -83,7 +80,7 @@
           const relativeY = posY - Y0;
           console.log('dentro')
         // actualizar clip-path
-          contenedorHijo.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
+          contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
          //contenedorHijo.style.filter='none';          
          
         } else {
