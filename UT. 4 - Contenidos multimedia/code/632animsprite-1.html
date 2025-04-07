@@ -52,7 +52,7 @@
 </head>
 <body>
     <div id="carousel" class="sprite ">
-      <div id="capalupa" class="lupa"></div>
+      <div id="capaLupa" class="lupa"></div>
     </div>
 
 
@@ -85,12 +85,13 @@
         // actualizar clip-path
           contenedorHijo.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
           contenedorHijo.style.filter='none';          
+          
          
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
           contenedorHijo.style.removeProperty('clip-path');
           contenedorHijo.style.removeProperty('filter');
-          console.log('fuera');
+           
         }  
       });
       
