@@ -64,6 +64,7 @@
       document.addEventListener("mousemove", function(event) {
         posX = event.clientX;
         posY = event.clientY;  
+        console.log(posX, posY)
       });
       
       /*coordenadas del contenedor*/
@@ -78,7 +79,6 @@
         // coordenadas dentro del contenedor
         const relativeX = posX - X0;
         const relativeY = posY - Y0;
-        console.log(relativeX, relativeY)
         // actualizar clip-path
         contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
         contenedor.style.filter='none';      
