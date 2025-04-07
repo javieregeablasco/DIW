@@ -47,14 +47,13 @@
         background-position: -1400px; 
       }
     }
-
-    
+   
   </style>
 </head>
 <body>
-    <div id="carousel" class="sprite ">
-      <div id="capaLupa" class="lupa"></div>
-    </div>
+  <div id="carousel" class="sprite ">
+    <div id="capaLupa" class="lupa"></div>
+  </div>
 
 
     <script>
@@ -85,13 +84,13 @@
            
         // actualizar clip-path
           contenedorHijo.style.setProperty('clip-path', 'circle(4rem at ${relativeX}px ${relativeY}px)');
-          contenedor.style.filter='none';          
+          contenedorHijo.style.filter='none';          
           
          
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
           contenedorHijo.style.removeProperty('clip-path');
-          contenedor.style.removeProperty('filter');
+          contenedorHijo.style.removeProperty('filter');
            
         }  
       });
