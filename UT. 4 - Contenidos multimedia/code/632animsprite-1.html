@@ -22,14 +22,10 @@
       height: var(--height);      
       border: 2px solid rgba(112, 112, 187, 0.308);
       background-image: url(../img/632ejercicio/sprite-recortado.png), url(../img/632ejercicio/sprite-recortado.png);
-      background-repeat: no-repeat; 
+      background-repeat: no-repeat, no repeat; 
       animation: slide 10s linear infinite;
       filter: grayscale(1);
-      /* Inicialmente, no hay segundo fondo */
-      background-image: url(../img/632ejercicio/sprite-recortado.png), none;
-      background-repeat: no-repeat, no-repeat;
-      background-position: center center, 0 0; /* Centramos el fondo en gris */
-      background-size: auto, auto;
+    
     }
     
     @keyframes slide {
