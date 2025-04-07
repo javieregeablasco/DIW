@@ -16,7 +16,8 @@
       justify-content: center;
     }
 
-    .sprite {             
+    .sprite {  
+      position: relative;           
       width: var(--width);  
       height: var(--height);      
       border: 2px solid rgba(112, 112, 187, 0.308);
@@ -26,7 +27,11 @@
     }
 
     .lupa { 
-                             
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: var(--width);
+      height: var(--height);                             
       background-image: url(../img/632ejercicio/sprite-recortado.png);      
       animation: slide 10s linear infinite;      
     }
