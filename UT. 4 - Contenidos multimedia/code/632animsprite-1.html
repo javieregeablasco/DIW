@@ -59,6 +59,7 @@
       document.addEventListener("mousemove", function(event) {
         /*recuperar el contendor lupa*/
         const contenedor = document.getElementById('carousel');
+        const contendorHijo = document.getElementById('capaLupa')
         /*infrmacion contenedor*/
         const rectangulo = contenedor.getBoundingClientRect();
         
@@ -71,7 +72,8 @@
         const Y0 = rectangulo.top;
         const X1 = rectangulo.right;
         const Y1 = rectangulo.bottom;  
-        console.log("XO",X0,"Y1",Y0,"ancho",X1,"alto",Y1);
+        // console.log("XO",X0,"Y1",Y0,"ancho",X1,"alto",Y1);
+       
         // Verificar si el mouse está dentro de los límites del contenedor
         if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
           console.log(X0, Y0,X1,Y1, posX,posY)
