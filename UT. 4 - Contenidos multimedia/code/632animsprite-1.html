@@ -82,13 +82,12 @@
           console.log('dentro')
         // actualizar clip-path
           contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-          contenedor.style.filter='none';      
-        
-          console.log('relativeX',relativeX,'relativey', relativeY);
+          contenedor.style.filter='none';          
+         
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
-          contenedorHijo.style.removeProperty('clip-path');
-          contenedorHijo.style.removeProperty('filter');
+          contenedor.style.removeProperty('clip-path');
+          contenedor.style.removeProperty('filter');
           console.log('fuera');
         }  
       });
