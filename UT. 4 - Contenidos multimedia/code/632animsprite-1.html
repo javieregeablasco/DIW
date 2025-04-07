@@ -51,7 +51,7 @@
   </style>
 </head>
 <body>
-  <div id="carousel" class="sprite">
+  <div class="sprite">
     <div id="capaLupa" class="lupa"></div>
   </div>
 
@@ -59,9 +59,8 @@
     <script>
       
       document.addEventListener("mousemove", function(event) {
-        /*recuperar el contendor lupa*/
-        const contenedor = document.getElementById('carousel');
-        const contenedorHijo = document.getElementById('capaLupa');
+        /*recuperar el contendor capaLupa*/         
+        const contenedor = document.getElementById('capaLupa');
 
         /*infrmacion contenedor*/
         const rectangulo = contenedor.getBoundingClientRect();
@@ -84,14 +83,14 @@
           const relativeY = posY - Y0;
            
         // actualizar clip-path
-          contenedorHijo.style.setProperty('clip-path', 'circle(4rem at ${relativeX}px ${relativeY}px)');
-          contenedorHijo.style.filter='none';          
+          contenedor.style.setProperty('clip-path', 'circle(4rem at ${relativeX}px ${relativeY}px)');
+          contenedor.style.filter='none';          
           
          
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
-          contenedorHijo.style.removeProperty('clip-path');
-          contenedorHijo.style.removeProperty('filter');
+          contenedor.style.removeProperty('clip-path');
+          contenedor.style.removeProperty('filter');
            
         }  
       });
