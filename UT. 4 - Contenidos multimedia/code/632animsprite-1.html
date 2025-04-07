@@ -81,14 +81,14 @@
           const relativeX = posX - X0;
           const relativeY = posY - Y0;
         // actualizar clip-path
-          contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-          contenedor.style.filter='none';      
+          contenedorHijo.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
+          contenedorHijo.style.filter='none';      
         
-          console.log(relativeX, relativeY)
+          console.log(relativeX, relativeY);
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
-          contenedor.style.removeProperty('clip-path');
-          contenedor.style.removeProperty('filter');
+          contenedorHijo.style.removeProperty('clip-path');
+          contenedorHijo.style.removeProperty('filter');
         }  
       });
       
