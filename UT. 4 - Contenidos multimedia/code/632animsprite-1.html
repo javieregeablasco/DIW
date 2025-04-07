@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animaciones 632</title>
   <style>    
-    * {
+    :root {
      --width: 800px;
      --height: 220px;
     }
@@ -31,7 +31,8 @@
       top: 0;
       left: 0;
       width: var(--width);
-      height: var(--height);                             
+      height: var(--height); 
+      pointer-events: none;                            
       background-image: url(../img/632ejercicio/sprite-recortado.png);      
       animation: slide 10s linear infinite;      
     }
@@ -83,7 +84,7 @@
           const relativeY = posY - Y0;
            
         // actualizar clip-path
-          contenedorHijo.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
+          contenedorHijo.style.setProperty('clip-path', 'circle(4rem at ${relativeX}px ${relativeY}px)');
           contenedorHijo.style.filter='none';          
           
          
