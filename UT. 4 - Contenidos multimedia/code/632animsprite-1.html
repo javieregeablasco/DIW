@@ -17,17 +17,31 @@
       
 
     }
+
     .sprite {      
+      position: relative;
       width: var(--width);  
       height: var(--height);      
       border: 2px solid rgba(112, 112, 187, 0.308);
-      background-image: url(../img/632ejercicio/sprite-recortado.png), url(../img/632ejercicio/sprite-recortado.png);
-      background-repeat: no-repeat, no repeat; 
+      background-image: url(../img/632ejercicio/sprite-recortado.png);
+      background-repeat: no repeat; 
       animation: slide 10s linear infinite;
-      filter: grayscale(1);
-    
+      filter: grayscale(1);    
+    }
+
+    .lupa {      
+      position: absolute;
+      inset: 0;      
+      background-image: url(../img/632ejercicio/sprite-recortado.png);
+      background-repeat: no-repeat; 
+      animation: slide 10s linear infinite;
+      filter: grayscale(1);    
     }
     
+
+
+
+
     @keyframes slide {
       to { 
         background-position: -1400px; 
