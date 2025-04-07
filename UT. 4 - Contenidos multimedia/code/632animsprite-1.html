@@ -24,23 +24,16 @@
       height: var(--height);      
       border: 2px solid rgba(112, 112, 187, 0.308);
       background-image: url(../img/632ejercicio/sprite-recortado.png);
-      background-repeat: no repeat; 
       animation: slide 10s linear infinite;
       filter: grayscale(1);    
     }
 
     .lupa {      
-      position: absolute;
-      inset: 0;      
-      background-image: url(../img/632ejercicio/sprite-recortado.png);
-      background-repeat: no-repeat; 
-      animation: slide 10s linear infinite;
-      filter: grayscale(1);    
+      position: absolute;           
+      background-image: url(../img/632ejercicio/sprite-recortado.png);      
+      animation: slide 10s linear infinite;      
     }
     
-
-
-
 
     @keyframes slide {
       to { 
@@ -59,7 +52,9 @@
   </style>
 </head>
 <body>
-    <div id="carousel"  class="sprite"></div>
+    <div id="carousel"  class="lupa "><div class="sprite"></div></div>
+
+
     <script>
       let posX = 0, posY = 0;
       const contenedor = document.getElementById('carousel');
