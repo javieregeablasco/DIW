@@ -16,7 +16,16 @@
       justify-content: center;
     }
 
+    .capaFondo {
+      position: relative;
+      background-image: url(../img/632ejercicio/sprite-recortado.png);      
+      animation: slide 10s linear infinite;          
+     
+
+    }
+
     .lupa { 
+      position: absolute;
       width: var(--width);
       height: var(--height);                                   
       background-image: url(../img/632ejercicio/sprite-recortado.png);      
@@ -38,8 +47,10 @@
   </style>
 </head>
 <body>
-  
-    <div id="capaLupa" class="lupa"></div>
+  <div class="capaFondo"><div id="capaLupa" class="lupa"></div></div>
+
+
+    
    
 
 
