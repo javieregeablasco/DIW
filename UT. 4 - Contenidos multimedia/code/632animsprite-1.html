@@ -74,20 +74,11 @@
           // Actualizar la propiedad clip-path
           contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
           contenedor.style.filter='none';   
-          contenedor.style.backgroundPosition = `-1 * ${relativeX}px -1 * ${relativeY}px, 0 0`; /* Invertimos la posición para simular la lupa */
-          contenedor.style.backgroundSize = `auto, auto`; /* Aseguramos que ambos fondos tengan tamaño automático */
-          contenedor.style.filter = 'grayscale(1)'; /* Mantenemos el filtro en gris para el fondo base */
-          contenedor.style.setProperty('--lupa-filter', 'none'); /* Creamos una variable para el filtro de la lupa */
-          contenedor.style.filter = `grayscale(1) var(--lupa-filter)`; /* Aplicamos ambos filtros */
-
+          
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
           contenedor.style.removeProperty('clip-path');
-          contenedor.style.backgroundImage = `url(../img/632ejercicio/sprite-recortado.png), none`;
-        contenedor.style.removeProperty('background-position');
-        contenedor.style.removeProperty('background-size');
-        contenedor.style.filter = 'grayscale(1)';
-        contenedor.style.removeProperty('--lupa-filter');
+          contenedor.style.removeProperty('filter');
         }  
   
       });
