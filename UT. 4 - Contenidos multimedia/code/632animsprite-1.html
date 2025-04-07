@@ -72,7 +72,7 @@
         const Y0 = rectangulo.top;
         const X1 = rectangulo.right;
         const Y1 = rectangulo.bottom;  
-        console.log("XO",X0,"Y1",Y0,"ancho",X1,"alto",Y1);
+        //console.log("XO",X0,"Y1",Y0,"ancho",X1,"alto",Y1);
        
         // Verificar si el mouse está dentro de los límites del contenedor
         if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
@@ -89,6 +89,7 @@
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
           contenedorHijo.style.removeProperty('clip-path');
           contenedorHijo.style.removeProperty('filter');
+          console.log('fuera');
         }  
       });
       
