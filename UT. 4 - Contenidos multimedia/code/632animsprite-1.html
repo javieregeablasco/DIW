@@ -58,7 +58,7 @@
       document.addEventListener("mousemove", function(event) {
         /*recuperar el contendor lupa*/
         const contenedor = document.getElementById('carousel');
-        const contenedorHijo = document.getElementById('capaLupa')
+        const contenedorHijo = document.getElementById('capaLupa');
         /*infrmacion contenedor*/
         const rectangulo = contenedor.getBoundingClientRect();
         
@@ -80,8 +80,8 @@
           const relativeY = posY - Y0;
           console.log('dentro')
         // actualizar clip-path
-          contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-         //contenedorHijo.style.filter='none';          
+          contenedorHijo.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
+          //contenedorHijo.style.filter='none';          
          
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
