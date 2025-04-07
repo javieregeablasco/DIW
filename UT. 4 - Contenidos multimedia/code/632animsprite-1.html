@@ -72,16 +72,17 @@
         const Y0 = rectangulo.top;
         const X1 = rectangulo.right;
         const Y1 = rectangulo.bottom;  
-        // console.log("XO",X0,"Y1",Y0,"ancho",X1,"alto",Y1);
+        console.log("XO",X0,"Y1",Y0,"ancho",X1,"alto",Y1);
        
         // Verificar si el mouse está dentro de los límites del contenedor
         if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
           // coordenadas dentro del contenedor
           const relativeX = posX - X0;
           const relativeY = posY - Y0;
+          console.log('dentro')
         // actualizar clip-path
-          contenedorHijo.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-          contenedorHijo.style.filter='none';      
+         // contenedorHijo.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
+         // contenedorHijo.style.filter='none';      
         
           console.log(relativeX, relativeY);
         } else {
