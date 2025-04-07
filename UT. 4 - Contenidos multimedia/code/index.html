@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lupa de color</title>
+  <style>
+    .contenedor {
+      position: relative;
+      width: 800px;
+      height: 220px;
+      background-image: url(../img/632ejercicio/sprite-recortado.png);
+      background-size: cover;
+      filter: grayscale(1);
+    }
+
+    .lupa-color {
+      position: absolute;
+      inset: 0;
+      background-image: url(../img/632ejercicio/sprite-recortado.png);
+      background-size: cover;
+      pointer-events: none;
+      mask-image: radial-gradient(circle 4rem at var(--x, 50%) var(--y, 50%), white 0%, transparent 100%);
+      -webkit-mask-image: radial-gradient(circle 4rem at var(--x, 50%) var(--y, 50%), white 0%, transparent 100%);
+    }
+
+    .contenedor:hover .lupa-color {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="contenedor" id="zona">
+  <div class="lupa-color"></div>
+</div>
+
+<script>
+  const zona = document.getElementById('zona');
+  const lupa = zona.querySelector('.lupa-color');
+
+  zona.addEventListener('mousemove', e => {
+    const rect = zona.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    lupa.style.setProperty('--x', `${x}px`);
+    lupa.style.setProperty('--y', `${y}px`);
+  });
+</script>
+
+</body>
+</html>
