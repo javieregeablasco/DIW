@@ -18,7 +18,7 @@
 
     }
 
-    .lupa {      
+    .sprite {      
       
       width: var(--width);  
       height: var(--height);      
@@ -28,8 +28,7 @@
       filter: grayscale(1);    
     }
 
-    .sprit {      
-                 
+    .lupa {                       
       background-image: url(../img/632ejercicio/sprite-recortado.png);      
       animation: slide 10s linear infinite;      
     }
@@ -56,20 +55,20 @@
 
 
     <script>
+      /*posicion puntero raton*/
       let posX = 0, posY = 0;
-      const contenedor = document.getElementById('lupa');
-      const ancho = contenedor.offsetWidth;
-      const alto = contenedor.offsetHeight;
-            
+      document.addEventListener("mousemove", function(event) {
+        posX = event.clientX;
+        posY = event.clientY;  
+      });
+      
+      /*coordenadas del contenedor*/
       const rectangulo = contenedor.getBoundingClientRect();
       const X0 = rectangulo.left;
       const Y0 = rectangulo.top;
       const X1 = rectangulo.right;
       const Y1 = rectangulo.bottom;  
 
-      document.addEventListener("mousemove", function(event) {
-        posX = event.clientX;
-        posY = event.clientY;  
 
         // Verificar si el mouse está dentro de los límites del contenedor
         if (posX >= X0 && posX <= X1 && posY >= Y0 && posY <= Y1) {
@@ -86,7 +85,7 @@
           contenedor.style.removeProperty('filter');
         }  
   
-      });
+      
 
 
   </script>
