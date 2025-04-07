@@ -68,11 +68,11 @@
           // coordenadas dentro del contenedor
           const relativeX = posX - X0;
           const relativeY = posY - Y0;
-           console.log(relativeX)
+           
         // actualizar clip-path
           contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
           contenedor.style.filter='none';   
-          contenedor.style.setProperty('animation-play-state:', paused);                        
+          contenedor.style.setProperty('animation-play-state:', 'paused');                        
            
         } else {
           // Si el mouse sale, revertir el clip-path y el filtro (opcional)
