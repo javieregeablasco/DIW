@@ -23,6 +23,10 @@
       animation: slide 10s linear infinite;          
       filter: grayscale(1);    
     }
+
+    .lupa:hover {
+      background-size: 800px 100%;      
+    }
     
 
     @keyframes slide {
@@ -70,21 +74,7 @@
 
         contenedor.style.filter='none';
 
-                                <svg width="800" height="220" viewBox="0 0 800 220">
-  <defs>
-    <clipPath id="clipforma" clipPathUnits="userSpaceOnUse">
-      <path d="M 0,0 L 800,50 L 800,170 L 0,220 Z" />
-    </clipPath>
-  </defs>
-  <image 
-    href="tu-imagen.jpg"
-    width="800"
-    height="220"
-    preserveAspectRatio="none"
-    clip-path="url(#clipforma)" />
-</svg>
-
-             
+                                            
       } else {
         // Si el mouse sale, revertir el clip-path y el filtro (opcional)
         contenedor.style.removeProperty('clip-path');
