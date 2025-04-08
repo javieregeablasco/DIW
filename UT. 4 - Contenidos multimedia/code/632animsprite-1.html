@@ -20,13 +20,13 @@
       width: var(--width);
       height: var(--height);                                   
       background-image: url(../img/632ejercicio/sprite-recortado.png);       
-      animation: slide 5s linear infinite;          
+      animation: slide 60s linear infinite;          
       filter: grayscale(1);    
     }    
 
     @keyframes slide {
       to { 
-        background-position: -1250px; 
+        background-position: -14050px; 
       }
     }
    
@@ -34,8 +34,7 @@
 </head>
 <body>
   <div class="capaFondo">
-    <div id="capaLupa" class="lupa">
-       <!-- <img src="../img/632ejercicio/sprite-recortado.png" alt=""> -->
+    <div id="capaLupa" class="lupa">       
     </div>
   </div>
 
@@ -66,18 +65,14 @@
         // actualizar clip-path
         // contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
         contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
-
         contenedor.style.filter='none';
-
                                             
       } else {
         // Si el mouse sale, revertir el clip-path y el filtro (opcional)
         contenedor.style.removeProperty('clip-path');
-        contenedor.style.removeProperty('filter');           
-        
+        contenedor.style.removeProperty('filter');       
       }  
-    });
-      
+    });      
   </script>
 </body>
 </html>
