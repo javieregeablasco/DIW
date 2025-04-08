@@ -6,11 +6,11 @@
   <title>Animaciones sprite</title>
   <style>    
     :root {
-      --offset: 13690px + 70px;
+      --offset: calc(-1*(13690px + 70px));
     }
 
     .sprite {
-      width: 300px;  /* Tamaño de un solo fotograma */
+      width: 280px;  /* Tamaño de un solo fotograma */
       height: 225px; /* Altura del sprite */
       margin-left: 50rem;
       padding: 1rem;
@@ -18,12 +18,12 @@
       background-image: url(../img/634/spriteExperimental2.png);
       background-repeat: no-repeat; 
        
-      animation: slide 2s steps(37) infinite;
+      animation: slide 4s steps(37) infinite;
     }
 
     @keyframes slide {
       from { background-position: -125px -70px;   }
-      to { background-position: -125px -(--offset); }
+      to { background-position: -125px -13760px; }
     }
     
   </style>
