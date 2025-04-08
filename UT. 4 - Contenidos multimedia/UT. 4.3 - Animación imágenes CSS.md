@@ -551,7 +551,79 @@ Definir los estilos necesarios para obtener el siguiente resultado:
 
 <video controls src="./media/632ejercicio.mp4"></video>
 
-### 6.3.3. - Animación con step
+### 6.3.4. - Animación con step
+Al igual que para la función `linear`, podemos combinar `@keyframes` y `background-position` con la función de temporización `steps()`, para lograr un cambio de fotograma en saltos definidos, simulando una secuencia cuadro a cuadro **en saltos bruscos, sin interpolaciones suaves**.
+
+
+>**Sintaxis:**  
+```css
+animation-timing-function: steps(n, [start|end]);
+```
+Dónde:
+- `n`: número de pasos (frames)
+- `start` (opcional): el primer salto ocurre **inmediatamente** al comenzar la animación
+- `end` (por defecto): el primer salto ocurre **después** del primer intervalo
+
+
+
+>**Ejemplo:**
+```css
+.sprite {
+  width: 100px;
+  height: 100px;
+  background-image: url('spritesheet.png');
+  background-position: 0 0;
+  animation: play 1s steps(10) infinite;
+}
+
+@keyframes play {
+  to {
+    background-position: -1000px 0;
+  }
+}
+```
+
+🔎 Aquí:
+- El sprite tiene 10 frames.
+- `background-position` se mueve de 0 a -1000px.
+- Con `steps(10)`, se avanza 1 frame por cada décima de segundo, sin interpolación entre ellos.
+
+---
+
+## 🆚 `linear` vs `steps()`
+| Función | Comportamiento |
+|--------|-----------------|
+| `linear` | Movimiento continuo/suave |
+| `steps(4)` | Movimiento brusco en 4 etapas |
+| `steps(4, start)` | Primer salto inmediato |
+| `steps(4, end)` | Primer salto tras el primer paso (por defecto) |
+
+---
+
+## 📦 Uso típico de `steps()`
+- **Sprites animados**
+- **Indicadores por etapas**
+- **Contadores digitales**
+- **Textos que simulan escritura (typewriter effect)**
+
+---
+
+¿Quieres que te monte un ejemplo con sprites, texto o contador usando `steps()`?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://lenguajecss.com/animaciones/animaciones/spritesheets-css/
  https://www.spriters-resource.com/arcade/survivalarts/sheet/258961/
 https://craftpix.net/freebies/free-satyr-tiny-style-2d-sprites/sprite generatir
