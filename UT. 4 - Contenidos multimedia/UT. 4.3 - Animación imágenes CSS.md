@@ -480,12 +480,6 @@ Definir los estilos necesarios para obtener el siguiente resultado:
 
 <video controls src="./media/ejercicio4.mp4"></video>
 
-### 5.2.4. Tarea RA3-CEf-1  
-
-https://animista.net/play/basic/swing
-
-/
-
 
 # 6. Animación de spritesheets con CSS
 ## 6.1. - Introducción
@@ -511,7 +505,7 @@ Las **spritesheets en CSS** son una técnica que consiste en combinar múltiples
 - [Sprite Cow](http://www.spritecow.com/): Extrae automáticamente posiciones de imágenes en una spritesheet.
 - [CSS Sprite Generator](https://www.toptal.com/developers/css/sprite-generator): Genera spritesheets automáticamente.
 
-## **Alternativas a las spritesheets**
+**Alternativas a las spritesheets**  
 Hoy en día, con el uso de **SVGs y fuentes de iconos (como FontAwesome o Material Icons)**, el uso de spritesheets en CSS ha disminuido. También, en algunos casos, se prefiere `image-set()` para manejar imágenes de diferentes resoluciones.
 
 ## 6.3. - Animación de una spritesheet
@@ -524,8 +518,8 @@ Las animaciones de spritesheets en CSS se pueden hacer usando `@keyframes` y la 
 ```html
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animaciones sprite</title>
   <style>    
@@ -553,12 +547,17 @@ Las animaciones de spritesheets en CSS se pueden hacer usando `@keyframes` y la 
 ```
 
 ### 6.3.2. - Ejercicio de animación con linear
+Definir los estilos necesarios para obtener el siguiente resultado:
 
+<video controls src="./media/632ejercicio.mp4"></video>
 
-
+### 6.3.3. - Animación con step
 https://lenguajecss.com/animaciones/animaciones/spritesheets-css/
-
  https://www.spriters-resource.com/arcade/survivalarts/sheet/258961/
-
-
 https://craftpix.net/freebies/free-satyr-tiny-style-2d-sprites/sprite generatir
+
+
+## 5.2 Tarea RA3-CEf-1  
+
+
+
