@@ -19,12 +19,12 @@
     .lupa { 
       width: var(--width);
       height: var(--height);                                   
-      background-image: url(../img/632ejercicio/sprite-recortado.png);       
+      /* background-image: url(../img/632ejercicio/sprite-recortado.png);       */
       animation: slide 10s linear infinite;          
       filter: grayscale(1);    
     }
     
-    lupa:hover {
+    img:hover {
       animation: slide 10s linear infinite;        
       width: auto;
       height: 100%;
@@ -44,7 +44,7 @@
 <body>
   <div class="capaFondo">
     <div id="capaLupa" class="lupa">
-      <!-- <img src="../img/632ejercicio/sprite-recortado.png" alt="" /> -->
+      <img src="../img/632ejercicio/sprite-recortado.png" alt="" />
     </div>
   </div>
 
@@ -74,7 +74,7 @@
              
         // actualizar clip-path
         // contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-        contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
+       // contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
         contenedor.style.filter='none';
 
                                 
