@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animaciones sprite</title>
   <style>    
+    :root {
+      --offset: 13690px + 70px;
+    }
+
     .sprite {
       width: 300px;  /* Tamaño de un solo fotograma */
       height: 225px; /* Altura del sprite */
@@ -19,7 +23,7 @@
 
     @keyframes slide {
       from { background-position: -125px -70px;   }
-      to { background-position: -125px --offset; }
+      to { background-position: -125px -(--offset); }
     }
     
   </style>
