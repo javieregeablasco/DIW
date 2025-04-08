@@ -67,9 +67,23 @@
         // actualizar clip-path
         // contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
         contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
+
         contenedor.style.filter='none';
 
-                                
+                                <svg width="800" height="220" viewBox="0 0 800 220">
+  <defs>
+    <clipPath id="clipforma" clipPathUnits="userSpaceOnUse">
+      <path d="M 0,0 L 800,50 L 800,170 L 0,220 Z" />
+    </clipPath>
+  </defs>
+  <image 
+    href="tu-imagen.jpg"
+    width="800"
+    height="220"
+    preserveAspectRatio="none"
+    clip-path="url(#clipforma)" />
+</svg>
+
              
       } else {
         // Si el mouse sale, revertir el clip-path y el filtro (opcional)
