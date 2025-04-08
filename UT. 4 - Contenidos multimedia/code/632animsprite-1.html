@@ -26,10 +26,10 @@
     
     img:hover {
       animation: slide 10s linear infinite;        
-      width: 100%;
-      height: auto;
-      
-
+      width: auto;
+      height: 100%;
+      object-fit: fill;      
+      clip-path: path("M 0,0 L 800,50 L 800,170 L 0,220 Z");
 
     }
 
@@ -74,7 +74,7 @@
              
         // actualizar clip-path
         // contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-        contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
+       // contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
         contenedor.style.filter='none';
 
                                 
