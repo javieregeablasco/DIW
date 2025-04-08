@@ -26,19 +26,25 @@
     }    
 
     @keyframes slide {
-      from {
-        transform:scaleY(1);
+      /* from {
+        transform: none; 
         
-      }
+      } */
       
       to { 
-        transform:scaleY(.5);
-        transform-origin: left center;
+      
         background-position: -100000px; 
 
       }
     }
    
+.lupa:hover{
+
+  transform-origin: left center;
+  transform: scaleY(.5);
+
+}
+
   </style>
 </head>
 <body>
