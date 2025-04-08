@@ -583,14 +583,14 @@ Dónde:
       border: 2px solid rgba(0, 0, 255, 0.308);
       background-image: url(../img/634/spriteExperimental2.png);
       /* background-repeat: no-repeat;  */        
-      animation: slide 4s steps(37) infinite;
+      animation: slide 4s infinite;
+      animation-timing-function: steps(37);
+      /* animation: slide 4s steps(37) infinite; */      
     }
-
     @keyframes slide {
       from { background-position: -125px -70px; }
       to { background-position: -125px -13760px; }
-    }
-    
+    }    
   </style>
 </head>
 <body>
