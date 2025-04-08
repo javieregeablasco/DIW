@@ -19,9 +19,15 @@
     .lupa { 
       width: var(--width);
       height: var(--height);                                   
-      background-image: url(../img/632ejercicio/sprite-recortado.png);      
+      /* background-image: url(../img/632ejercicio/sprite-recortado.png);       */
       animation: slide 10s linear infinite;          
       filter: grayscale(1);    
+    }
+    
+    img {
+      animation: slide 10s linear infinite;          
+
+
     }
 
     @keyframes slide {
@@ -34,7 +40,9 @@
 </head>
 <body>
   <div class="capaFondo">
-    <div id="capaLupa" class="lupa"></div>
+    <div id="capaLupa" class="lupa">
+      <img src="../img/632ejercicio/sprite-recortado.png" alt="" />
+    </div>
   </div>
 
   <script>      
