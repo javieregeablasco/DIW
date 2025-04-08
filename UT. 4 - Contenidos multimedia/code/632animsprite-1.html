@@ -22,7 +22,6 @@
       background-image: url(../img/632ejercicio/sprite-recortado.png);       
       animation: slide 600s linear infinite;  
       transition: transform 2s ease-in-out;        
-      transition: clip-path 2s ease-in-out;        
       filter: grayscale(1);  
       transform-origin: center;
     }    
@@ -35,7 +34,6 @@
    
     .lupa:hover{
       transform:matrix(-1, 0, 0, 1, 0, 0);      
-      clip-path: polygon(0% 0%, 100% 22%, 100% 77%, 0% 100%);
     }
     
   </style>
@@ -72,7 +70,7 @@
              
         // actualizar clip-path
         // contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-        // contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
+        contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
         // contenedor.style.setProperty('clip-path', 'polygon(0% 0%, 100% 22%, 100% 77%, 0% 100%)');
         contenedor.style.filter='none';
                                             
