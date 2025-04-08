@@ -567,20 +567,36 @@ Dónde:
 
 
 >**Ejemplo:**
-```css
-.sprite {
-  width: 100px;
-  height: 100px;
-  background-image: url('spritesheet.png');
-  background-position: 0 0;
-  animation: play 1s steps(10) infinite;
-}
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animaciones sprite</title>
+  <style>    
+    .sprite {
+      width: 300px;  /* Tamaño de un solo fotograma */
+      height: 200px; /* Altura del sprite */
+      margin-left: 50rem;
+      padding: 1rem;
+      border: 2px solid rgba(0, 0, 255, 0.308);
+      background-image: url(../img/634/spriteExperimental2.png);
+      /* background-repeat: no-repeat;  */        
+      animation: slide 4s steps(37) infinite;
+    }
 
-@keyframes play {
-  to {
-    background-position: -1000px 0;
-  }
-}
+    @keyframes slide {
+      from { background-position: -125px -70px; }
+      to { background-position: -125px -13760px; }
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="sprite"></div>
+</body>
+</html>
 ```
 
 🔎 Aquí:
