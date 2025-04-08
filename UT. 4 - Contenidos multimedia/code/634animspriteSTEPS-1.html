@@ -12,7 +12,7 @@
       padding: 1rem;
       border: 2px solid rgba(0, 0, 255, 0.308);
       background-image: url(../img/spritesheets.webp);
-      background-repeat: no-repeat;
+      background-repeat: no-repeat; 
       animation: slide 10s linear infinite;
     }
 
@@ -20,30 +20,6 @@
       to { background-position: -800px; }
     }
     
-    .container {
-  width: 600px;
-  background: grey;
-}
-
-.element {
-  width: 100px;
-  height: 100px;
-  background: indigo;
-  animation: move 5s infinite;
-}
-
-.linear { animation-timing-function: linear; }
-.steps { animation-timing-function: steps(6); }
-
-@keyframes move {
-  to { transform: translateX(600px); }
-}
-
-
-
-
-
-
   </style>
 </head>
 <body>
