@@ -23,6 +23,14 @@
       animation: slide 600s linear infinite;  
       transition: transform 0.3s ease-in-out;        
       filter: grayscale(1);  
+
+      clip-path: polygon(
+    0% 0%, 
+    100% 20%, 
+    100% 80%, 
+    0% 100%
+  );
+
     }    
 
     @keyframes slide {      
@@ -34,7 +42,56 @@
     .lupa:hover{
       transform: scaleY(1.5);
       transform-origin: left;
+
+
+      clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% 100%, 
+    0% 100%
+  );
+
+
     }
+
+
+
+
+    /* .lupa {
+  clip-path: polygon(
+    0% 0%, 
+    100% 20%, 
+    100% 80%, 
+    0% 100%
+  );
+  transition: clip-path 0.3s ease;
+}
+.lupa:hover {
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% 100%, 
+    0% 100%
+  );
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   </style>
 </head>
