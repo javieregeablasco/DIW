@@ -20,6 +20,7 @@
       width: var(--width);
       height: var(--height);                                   
       background-image: url(../img/632ejercicio/sprite-recortado.png);      
+      background-size: cover; 
       animation: slide 10s linear infinite;          
       filter: grayscale(1);    
     }
@@ -64,7 +65,8 @@
         // actualizar clip-path
         // contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
         contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
-        contenedor.style.filter='none';   
+        contenedor.style.filter='none';
+
                                 
              
       } else {
