@@ -20,28 +20,21 @@
       width: var(--width);
       height: var(--height);                                   
       background-image: url(../img/632ejercicio/sprite-recortado.png);       
-      animation: slide 600s linear infinite;          
+      animation: slide 600s linear infinite;  
+      transition: transform 0.3s ease-in-out;        
       filter: grayscale(1);    
 
     }    
 
-    @keyframes slide {
-
-      /* from {
-        transform: none; 
-        
-      } */
-      
+    @keyframes slide {      
       to {       
         background-position: -100000px;
       }
     }
    
 .lupa:hover{
-
-  transform-origin: left center;
-  transform: scaleY(.5);
-
+  transform-origin: center left;
+  transform: scaleY(0.5);
 }
 
   </style>
