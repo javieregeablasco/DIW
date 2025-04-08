@@ -22,8 +22,7 @@
       background-image: url(../img/632ejercicio/sprite-recortado.png);       
       animation: slide 600s linear infinite;  
       transition: transform 0.3s ease-in-out;        
-      filter: grayscale(1);    
-
+      filter: grayscale(1);  
     }    
 
     @keyframes slide {      
@@ -32,16 +31,17 @@
       }
     }
    
-.lupa:hover{
-  transform-origin: left;
-  transform: scaleY(0.5);
-}
+    .lupa:hover{
+      transform: scaleX(2);
+      transform-origin: right;
+    }
 
   </style>
 </head>
 <body>
   <div class="capaFondo">
-    <div id="capaLupa" class="lupa">       
+    <div id="capaLupa" class="lupa">  
+      <img src="../img/632ejercicio/sprite-recortado.png" alt="">     
     </div>
   </div>
 
