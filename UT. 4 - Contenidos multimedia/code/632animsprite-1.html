@@ -63,15 +63,15 @@
              
         // actualizar clip-path
         // contenedor.style.setProperty('clip-path', `circle(4rem at ${relativeX}px ${relativeY}px)`);
-        contenedor.style.setProperty('clip-path', path("M 0,0 L 800,50 L 800,170 L 0,220 Z"));
+        contenedor.style.setProperty('clip-path', 'path("M 0,0 L 800,50 L 800,170 L 0,220 Z")');
         contenedor.style.filter='none';   
-        contenedor.style.setProperty('animation-play-state', 'paused');                        
+                                
              
       } else {
         // Si el mouse sale, revertir el clip-path y el filtro (opcional)
         contenedor.style.removeProperty('clip-path');
         contenedor.style.removeProperty('filter');           
-        contenedor.style.setProperty('animation-play-state', 'running'); 
+        
       }  
     });
       
