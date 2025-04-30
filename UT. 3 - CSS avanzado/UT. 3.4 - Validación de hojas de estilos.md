@@ -16,7 +16,7 @@ Palabras clave: DAW, DIW
 
 |**Criterios de evaluación de la unidad didáctica:**|
 |-|
-| **CE. h#41;** Se han utilizado herramientas de validación de hojas de estilos.|
+| **CE. h&#41;** Se han utilizado herramientas de validación de hojas de estilos.|
 
 
 <br>
