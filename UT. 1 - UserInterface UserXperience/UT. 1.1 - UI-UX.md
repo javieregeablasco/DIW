@@ -714,25 +714,25 @@ Algunas marcas y plataformas han publicado sus guías de estilo para que los des
 - <a href="https://carbondesignsystem.com/">**Carbon Design System** (IBM)</a>
 - <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">**Samsung Design** (Samsung)</a>. <a href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">Guía de estilo en formato pdf</a>
 
-## 7. Responsive design 
-### 7.1. - ¿Qué es el Responsive Design?
+# 7. Responsive design 
+## 7.1. - ¿Qué es el Responsive Design?
 Un sitio web que no se muestra correctamente en una variedad de dispositivos genera una experiencia negativa para los usuarios. A partir de esta necesidad surge el Responsive Design.
 
 El **Responsive Design, o diseño adaptativo**, es la técnica utilizada actualmente para lograr que una página web se adapte a cualquier dispositivo tecnológico, como ordenadores, tabletas, teléfonos inteligentes y relojes inteligentes.
 
-### 7.2. - Breakpoints
+## 7.2. - Breakpoints
 Un **breakpoint** en diseño web responsivo es el **punto en el que el contenido y el diseño** de un sitio web **se ajustan** de manera específica para brindar la **mejor experiencia de usuario posible**. En otras palabras, los puntos de corte determinan cómo se visualiza un sitio web en función del tamaño de la pantalla.  
 
 Agregar **breakpoints** mejora la legibilidad en cualquier dispositivo, ya que existen puntos de corte específicos para distintos tamaños de pantalla. Sin embargo, estos pueden personalizarse para garantizar una mayor flexibilidad y adaptabilidad a diferentes dispositivos.
 
-### 7.3. - Métodologia para obtener un diseño web responsive
+## 7.3. - Métodologia para obtener un diseño web responsive
 - **HTML y CSS.** Estas dos tecnologías permiten redimensionar, ocultar, reducir o ampliar automáticamente los elementos de un sitio web para mejorar su adaptabilidad.  
 - **Consultas de medios (*media queries*).** Técnica de CSS que ajusta el diseño de sitios web y aplicaciones según el tipo de dispositivo o características específicas, como el tamaño y la resolución de la pantalla.  
 - **Diseño (*layout*).** Un diseño fluido utiliza valores en porcentaje para adaptarse al tamaño de la pantalla, mientras que técnicas como *flexbox* y *grid* permiten distribuir los elementos de manera más eficiente.  
 - **Imágenes responsivas.** Permiten ajustar automáticamente el ancho y la altura de las imágenes para adaptarlas a cualquier tamaño de pantalla, mejorando la experiencia de usuario y la carga del sitio.  
 - **Velocidad.** Un sitio web más rápido mejora la experiencia del usuario y el posicionamiento en buscadores (*SEO*). Optimizar imágenes, reducir solicitudes innecesarias y mejorar la caché contribuye a una carga más eficiente.
 
-### 7.4. - Buenas prácticas de diseño web responsive
+## 7.4. - Buenas prácticas de diseño web responsive
 - **Priorizar el contenido**  
 Asegurarse de que los usuarios puedan encontrar la información con el mínimo desplazamiento o navegación. Mientras que en un escritorio se requiere menos desplazamiento para visualizar el contenido, en un dispositivo móvil la misma información puede generar una mala experiencia de usuario si el contenido es demasiado extenso o si la tipografía y las imágenes no se adaptan correctamente a la pantalla.  
 
